@@ -14,7 +14,7 @@
                 <configuration>
                     <outputDirectory>/var/www/html/dump/gondorpack/${project.version}/</outputDirectory>
                     <descriptors>
-                        <descriptor>src/main/assembly/zip.xml</descriptor>
+                        <descriptor>assembly/zip.xml</descriptor>
                     </descriptors>
                 </configuration>
                 <executions>
