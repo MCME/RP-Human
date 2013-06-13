@@ -9,6 +9,9 @@
         <fileSet>
             <directory>src/main/pack/</directory>
             <outputDirectory>/</outputDirectory>
+            <excludes>
+                <exclude>*.psd</exclude>
+            </excludes>
         </fileSet>
     </fileSets>
 </assembly>
