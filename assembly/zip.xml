@@ -6,6 +6,10 @@
         <format>zip</format>
     </formats>
     <fileSets>
+	    <fileSet>
+-           <directory>src/main/meta/</directory>
+-           <outputDirectory>/</outputDirectory>
+-       </fileSet>
         <fileSet>
             <directory>src/main/pack/</directory>
             <outputDirectory>/assets/minecraft</outputDirectory>
