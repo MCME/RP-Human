@@ -10,25 +10,5 @@
             <directory>src/main/pack/</directory>
             <outputDirectory>/assets/minecraft</outputDirectory>
         </fileSet>
-        <fileSet>
-            <directory>src/main/meta/</directory>
-            <outputDirectory>/</outputDirectory>
-        </fileSet>
-		<fileSet>
-            <directory>src/main/lang/</directory>
-            <outputDirectory>/assets/minecraft/lang</outputDirectory>
-        </fileSet>
-		<fileSet>
-            <directory>src/main/texts/</directory>
-            <outputDirectory>/assets/minecraft/texts</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>src/main/audio/records</directory>
-            <outputDirectory>/assets/minecraft/records</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>src/main/audio/sound</directory>
-            <outputDirectory>/assets/minecraft/sound</outputDirectory>
-        </fileSet>
     </fileSets>
 </assembly>
