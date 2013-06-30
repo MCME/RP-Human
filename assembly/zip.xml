@@ -8,7 +8,19 @@
     <fileSets>
         <fileSet>
             <directory>src/main/pack/</directory>
+            <outputDirectory>/assets/minecraft</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/meta/</directory>
             <outputDirectory>/</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/audio/records</directory>
+            <outputDirectory>/assets/minecraft/records</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/audio/sound</directory>
+            <outputDirectory>/assets/minecraft/sound</outputDirectory>
         </fileSet>
     </fileSets>
 </assembly>
