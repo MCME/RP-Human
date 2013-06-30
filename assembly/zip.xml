@@ -14,6 +14,14 @@
             <directory>src/main/meta/</directory>
             <outputDirectory>/</outputDirectory>
         </fileSet>
+		<fileSet>
+            <directory>src/main/lang/</directory>
+            <outputDirectory>/assets/minecraft/lang</outputDirectory>
+        </fileSet>
+		<fileSet>
+            <directory>src/main/texts/</directory>
+            <outputDirectory>/assets/minecraft/texts</outputDirectory>
+        </fileSet>
         <fileSet>
             <directory>src/main/audio/records</directory>
             <outputDirectory>/assets/minecraft/records</outputDirectory>
