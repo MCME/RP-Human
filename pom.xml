@@ -5,6 +5,7 @@
     <artifactId>MCME-Gondor-Pack</artifactId>
     <version>1.02</version>
     <build>
+        <finalName>${project.artifactId}-${project.version}</finalName>
         <directory>src/</directory>
         <plugins>
             <plugin>
