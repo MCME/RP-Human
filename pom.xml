@@ -28,80 +28,6 @@
                 </executions>
             </plugin>
             <plugin>
-                <artifactId>maven-jar-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>default-jar</id>
-                        <phase>never</phase>
-                        <configuration>
-                            <finalName>unwanted</finalName>
-                            <classifier>unwanted</classifier>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <artifactId>maven-resources-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>default-resources</id>
-                        <phase>never</phase>
-                        <configuration>
-                            <finalName>unwanted</finalName>
-                            <classifier>unwanted</classifier>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>default-testResources</id>
-                        <phase>never</phase>
-                        <configuration>
-                            <finalName>unwanted</finalName>
-                            <classifier>unwanted</classifier>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>default-compile</id>
-                        <phase>never</phase>
-                        <configuration>
-                            <finalName>unwanted</finalName>
-                            <classifier>unwanted</classifier>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>default-testCompile</id>
-                        <phase>never</phase>
-                        <configuration>
-                            <finalName>unwanted</finalName>
-                            <classifier>unwanted</classifier>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>default-test</id>
-                        <phase>never</phase>
-                        <configuration>
-                            <finalName>unwanted</finalName>
-                            <classifier>unwanted</classifier>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
-    <build>
-        <finalName>${project.artifactId}-${project.version}-EXTRAS</finalName>
-        <directory>src/</directory>
-        <plugins>
-            <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>2.2-beta-5</version>
                 <configuration>
@@ -113,7 +39,7 @@
                 <executions>
                     <execution>
                         <id>make-assembly</id> <!-- this is used for inheritance merges -->
-                        <phase>package</phase> <!-- append to the packaging phase. -->
+                        <phase>package-extras</phase> <!-- append to the packaging phase. -->
                         <goals>
                             <goal>single</goal> <!-- goals == mojos -->
                         </goals>
