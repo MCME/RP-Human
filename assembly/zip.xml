@@ -14,7 +14,7 @@
             <directory>src/main/pack/</directory>
             <outputDirectory>/assets/minecraft</outputDirectory>
             <excludes>
-                <exclude>*.ogg</exclude>
+                <exclude>records/**</exclude>
             </excludes>
         </fileSet>
     </fileSets>
