@@ -13,9 +13,9 @@
         <fileSet>
             <directory>src/main/pack/</directory>
             <outputDirectory>/assets/minecraft</outputDirectory>
-			<excludes>
-			<exclude>*.ogg</exclude>
-			</exludes>
+            <excludes>
+                <exclude>*.ogg</exclude>
+            </excludes>
         </fileSet>
     </fileSets>
 </assembly>
