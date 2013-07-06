@@ -15,24 +15,6 @@
                     <outputDirectory>/var/www/html/dump/gondorpack/${project.version}/</outputDirectory>
                     <descriptors>
                         <descriptor>assembly/zip.xml</descriptor>
-                    </descriptors>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>make-assembly</id> <!-- this is used for inheritance merges -->
-                        <phase>package</phase> <!-- append to the packaging phase. -->
-                        <goals>
-                            <goal>single</goal> <!-- goals == mojos -->
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <version>2.2-beta-5</version>
-                <configuration>
-                    <outputDirectory>/var/www/html/dump/gondorpack/${project.version}-EXTRAS/</outputDirectory>
-                    <descriptors>
                         <descriptor>assembly/zip-extras.xml</descriptor>
                     </descriptors>
                 </configuration>
