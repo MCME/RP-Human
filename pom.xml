@@ -12,7 +12,7 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>2.2-beta-5</version>
                 <configuration>
-                    <outputDirectory>/var/www/html/dump/gondorpack/${project.version}/</outputDirectory>
+                    <outputDirectory>/var/www/mcme.co/html/dump/gondorpack/${project.version}/</outputDirectory>
                     <descriptors>
                         <descriptor>assembly/zip.xml</descriptor>
                         <descriptor>assembly/zip-extras.xml</descriptor>
