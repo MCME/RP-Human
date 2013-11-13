@@ -13,13 +13,13 @@
         <fileSet>
             <directory>src/main/pack/</directory>
             <outputDirectory>/assets/minecraft</outputDirectory>
-            <excludes>
-                <exclude>mcpatcher/**</exclude>
-            </excludes>
         </fileSet>
         <fileSet>
             <directory>MCME-UI/src/main/pack</directory>
             <outputDirectory>/assets/minecraft</outputDirectory>
+            <excludes>
+                <exclude>mcpatcher/**</exclude>
+            </excludes>
         </fileSet>
     </fileSets>
 </assembly>
