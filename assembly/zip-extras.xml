@@ -18,5 +18,9 @@
             <directory>MCME-UI/src/main/pack</directory>
             <outputDirectory>/assets/minecraft</outputDirectory>
         </fileSet>
+        <fileSet>
+            <directory>MCME-Aural-Experience/src/main/pack</directory>
+            <outputDirectory>/assets/minecraft</outputDirectory>
+        </fileSet>
     </fileSets>
 </assembly>
