@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>co.mcme</groupId>
     <artifactId>MCME-Gondor-Pack</artifactId>
-    <version>1.10</version>
+    <version>2.0</version>
     <build>
         <finalName>${project.artifactId}-${project.version}</finalName>
         <directory>src/</directory>
@@ -36,7 +36,6 @@
                     <outputDirectory>/var/www/mcme.co/html/dump/gondorpack/${project.version}/</outputDirectory>
                     <descriptors>
                         <descriptor>assembly/zip.xml</descriptor>
-                        <descriptor>assembly/zip-extras.xml</descriptor>
                     </descriptors>
                 </configuration>
                 <executions>
