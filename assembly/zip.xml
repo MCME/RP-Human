@@ -18,5 +18,9 @@
             <directory>MCME-UI/src/main/pack</directory>
             <outputDirectory>/assets/minecraft</outputDirectory>
         </fileSet>
+        <fileSet>
+            <directory>MCME-UI/src/main/pack/com/thevoxelbox/</directory>
+            <outputDirectory>/assets/</outputDirectory>
+        </fileSet>
     </fileSets>
 </assembly>
