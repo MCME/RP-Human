@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "powered=false,shape=north_south":  { "model": "activator_rail_flat" },
+        "powered=false,shape=east_west":  { "model": "activator_rail_flat", "y": 90},
+        "powered=false,shape=ascending_east": { "model": "activator_rail_diagonal"},
+        "powered=false,shape=ascending_west": { "model": "activator_rail_diagonal", "y": 90 },
+        "powered=false,shape=ascending_north": { "model": "unused/unused_cross_2" },
+        "powered=false,shape=ascending_south": { "model": "unused/unused_cross_3" },
+        "powered=true,shape=north_south":  { "model": "activator_rail_active_flat" },
+        "powered=true,shape=east_west":  { "model": "activator_rail_active_flat", "y": 90 },
+        "powered=true,shape=ascending_east": { "model": "activator_rail_diagonal", "y": 180 },
+        "powered=true,shape=ascending_west": { "model": "activator_rail_diagonal", "y": 270 },
+        "powered=true,shape=ascending_north": { "model": "unused/unused_cross_6" },
+        "powered=true,shape=ascending_south": { "model": "unused/unused_cross_7" }
+    }
+}
