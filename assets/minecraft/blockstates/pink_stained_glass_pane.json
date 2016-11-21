@@ -1,0 +1,16 @@
+{
+    "multipart": [
+        {   "when": { "north": true },
+            "apply": { "model": "net/pane_side" }
+        },
+        {   "when": { "east": true },
+            "apply": { "model": "net/pane_side", "y": 90 }
+        },
+        {   "when": { "south": true },
+            "apply": { "model": "net/pane_side_alt" }
+        },
+        {   "when": { "west": true },
+            "apply": { "model": "net/pane_side_alt", "y": 90 }
+        }
+    ]
+}
