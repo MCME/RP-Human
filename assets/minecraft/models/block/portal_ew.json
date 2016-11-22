@@ -1,0 +1,19 @@
+{
+    "textures": {
+        "particle": "blocks/portal",
+        "portal": "blocks/portal"
+    },
+    "elements": [
+        {   "from": [ 7, 0, 0 ],
+            "to": [ 9, 16, 16 ],
+            "faces": {
+                "up": { "uv": [ 0, 14, 16, 16 ], "texture": "#portal", "rotation": 90},
+                "down": { "uv": [ 0, 0, 16, 2 ], "texture": "#portal", "rotation": 90},
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#portal" },
+                "north": { "uv": [ 0, 0, 2, 16 ], "texture": "#portal" },
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#portal" },
+                "south": { "uv": [ 14, 0, 16, 16 ], "texture": "#portal" }
+            }
+        }
+    ]
+}
