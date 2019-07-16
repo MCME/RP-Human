@@ -1,0 +1,212 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/golden_helmet"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "damage": 0.01282
+      },
+      "model": "gui/page_up"
+    },
+    {
+      "predicate": {
+        "damage": 0.02564
+      },
+      "model": "gui/page_down"
+    },
+    {
+      "predicate": {
+        "damage": 0.03846
+      },
+      "model": "gui/page_left"
+    },
+    {
+      "predicate": {
+        "damage": 0.05128
+      },
+      "model": "gui/page_right"
+    },
+    {
+      "predicate": {
+        "damage": 0.06410
+      },
+      "model": "gui/terra"
+    },
+    {
+      "predicate": {
+        "damage": 0.07692
+      },
+      "model": "gui/terra_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.08974
+      },
+      "model": "gui/plant"
+    },
+    {
+      "predicate": {
+        "damage": 0.10256
+      },
+      "model": "gui/plant_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.11538
+      },
+      "model": "gui/crop"
+    },
+    {
+      "predicate": {
+        "damage": 0.12821
+      },
+      "model": "gui/crop_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.14103
+      },
+      "model": "gui/block"
+    },
+    {
+      "predicate": {
+        "damage": 0.15385
+      },
+      "model": "gui/block_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.16667
+      },
+      "model": "gui/roof"
+    },
+    {
+      "predicate": {
+        "damage": 0.17949
+      },
+      "model": "gui/roof_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.19231
+      },
+      "model": "gui/fence"
+    },
+    {
+      "predicate": {
+        "damage": 0.20513
+      },
+      "model": "gui/fence_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.21795
+      },
+      "model": "gui/thin"
+    },
+    {
+      "predicate": {
+        "damage": 0.23077
+      },
+      "model": "gui/thin_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.24359
+      },
+      "model": "gui/glass"
+    },
+    {
+      "predicate": {
+        "damage": 0.25641
+      },
+      "model": "gui/glass_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.26923
+      },
+      "model": "gui/exter"
+    },
+    {
+      "predicate": {
+        "damage": 0.28205
+      },
+      "model": "gui/exter_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.29487
+      },
+      "model": "gui/inter"
+    },
+    {
+      "predicate": {
+        "damage": 0.30769
+      },
+      "model": "gui/inter_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.32051
+      },
+      "model": "gui/deco"
+    },
+    {
+      "predicate": {
+        "damage": 0.33333
+      },
+      "model": "gui/deco_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.34615
+      },
+      "model": "gui/curtain"
+    },
+    {
+      "predicate": {
+        "damage": 0.35897
+      },
+      "model": "gui/curtain_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.37179
+      },
+      "model": "gui/barrel"
+    },
+    {
+      "predicate": {
+        "damage": 0.38462
+      },
+      "model": "gui/barrel_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.39744
+      },
+      "model": "gui/misc"
+    },
+    {
+      "predicate": {
+        "damage": 0.41026
+      },
+      "model": "gui/misc_alt"
+    },
+    {
+      "predicate": {
+        "damage": 0.42308
+      },
+      "model": "gui/2gondor"
+    },
+    {
+      "predicate": {
+        "damage": 0.43590
+      },
+      "model": "gui/heads"
+    }
+  ]
+}

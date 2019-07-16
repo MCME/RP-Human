@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "extended\u003dfalse,facing\u003ddown": {
+      "model": "block/piston",
+      "x": 90
+    },
+    "extended\u003dfalse,facing\u003dup": {
+      "model": "block/piston",
+      "x": 270
+    },
+    "extended\u003dfalse,facing\u003dnorth": {
+      "model": "block/piston"
+    },
+    "extended\u003dfalse,facing\u003dsouth": {
+      "model": "block/piston",
+      "y": 180
+    },
+    "extended\u003dfalse,facing\u003dwest": {
+      "model": "block/piston",
+      "y": 270
+    },
+    "extended\u003dfalse,facing\u003deast": {
+      "model": "block/piston",
+      "y": 90
+    },
+    "extended\u003dtrue,facing\u003ddown": {
+      "model": "block/piston_normal_extended",
+      "x": 90
+    },
+    "extended\u003dtrue,facing\u003dup": {
+      "model": "block/piston_normal_extended_up"
+    },
+    "extended\u003dtrue,facing\u003dnorth": {
+      "model": "block/piston_normal_extended"
+    },
+    "extended\u003dtrue,facing\u003dsouth": {
+      "model": "block/piston_normal_extended",
+      "y": 180
+    },
+    "extended\u003dtrue,facing\u003dwest": {
+      "model": "block/piston_normal_extended",
+      "y": 270
+    },
+    "extended\u003dtrue,facing\u003deast": {
+      "model": "block/piston_normal_extended",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,681 @@
+Items:
+  stone:
+    itemMaterial: STONE
+    damage: 0
+    display: Stone [1:0]
+    category: Terra
+    type: VANILLA
+  granite:
+    itemMaterial: GRANITE
+    damage: 1
+    display: Rough dark stone [1:1]
+    category: Terra
+    type: VANILLA
+  quartz_ore:
+    itemMaterial: NETHER_QUARTZ_ORE
+    damage: 0
+    display: Rough red stone [153:0]
+    category: Terra
+    type: VANILLA
+  granite_smooth:
+    itemMaterial: POLISHED_GRANITE
+    damage: 2
+    display: Smooth red stone [1:2]
+    category: Terra
+    type: VANILLA
+  diorite:
+    itemMaterial: DIORITE
+    damage: 3
+    display: Rough light stone [1:3]
+    category: Terra
+    type: VANILLA
+  diamond_ore:
+    itemMaterial: DIAMOND_ORE
+    damage: 0
+    display: Rough light stone 2 [56:0]
+    category: Terra
+    type: VANILLA
+  diorite_smooth:
+    itemMaterial: POLISHED_DIORITE
+    damage: 4
+    display: Smooth light stone [1:4]
+    category: Terra
+    type: VANILLA
+  andesite:
+    itemMaterial: ANDESITE
+    damage: 5
+    display: Rough dark stone [1:5]
+    category: Terra
+    type: VANILLA
+  andesite_smooth:
+    itemMaterial: POLISHED_ANDESITE
+    damage: 6
+    display: Smooth dark stone [1:6]
+    category: Terra
+    type: VANILLA
+  emerald_ore:
+    itemMaterial: EMERALD_ORE
+    damage: 0
+    display: Mossy stone [129:0]
+    category: Terra
+    type: VANILLA
+  hardened_clay:
+    itemMaterial: TERRACOTTA
+    damage: 0
+    display: Smooth brown stone [172:0]
+    category: Terra
+    type: VANILLA
+  gold_ore:
+    itemMaterial: GOLD_ORE
+    damage: 0
+    display: Gold ore [14:0]
+    category: Terra
+    type: VANILLA
+  iron_ore:
+    itemMaterial: IRON_ORE
+    damage: 0
+    display: Iron ore [15:0]
+    category: Terra
+    type: VANILLA
+  coal_ore:
+    itemMaterial: COAL_ORE
+    damage: 0
+    display: Coal ore [16:0]
+    category: Terra
+    type: VANILLA
+  lapis_ore:
+    itemMaterial: LAPIS_ORE
+    damage: 0
+    display: Copper ore [21:0]
+    category: Terra
+    type: VANILLA
+  bedrock:
+    itemMaterial: BEDROCK
+    damage: 0
+    display: Bedrock [7:0]
+    category: Terra
+    type: VANILLA
+  obsidian:
+    itemMaterial: OBSIDIAN
+    damage: 0
+    display: Obsidian [49:0]
+    category: Terra
+    type: VANILLA
+  netherrack:
+    itemMaterial: NETHERRACK
+    damage: 0
+    display: Ash/coal block [87:0]
+    category: Terra
+    type: VANILLA
+  grass:
+    itemMaterial: GRASS_BLOCK
+    damage: 0
+    display: Grass block [2:0]
+    category: Terra
+    type: VANILLA
+  dirt:
+    itemMaterial: DIRT
+    damage: 0
+    display: Dirt block [3:0]
+    category: Terra
+    type: VANILLA
+  clay:
+    itemMaterial: CLAY
+    damage: 0
+    display: Light dirt [82:0]
+    category: Terra
+    type: VANILLA
+  soul_sand:
+    itemMaterial: SOUL_SAND
+    damage: 0
+    display: Dark dirt [88:0]
+    category: Terra
+    type: VANILLA
+  coarse_dirt:
+    itemMaterial: COARSE_DIRT
+    damage: 1
+    display: Coarse dirt [3:1]
+    category: Terra
+    type: VANILLA
+  podzol:
+    itemMaterial: PODZOL
+    damage: 2
+    display: Podzol [3:2]
+    category: Terra
+    type: VANILLA
+  sand:
+    itemMaterial: SAND
+    damage: 0
+    display: Sand [12:0]
+    category: Terra
+    type: VANILLA
+  gravel:
+    itemMaterial: GRAVEL
+    damage: 0
+    display: Gravel [13:0]
+    category: Terra
+    type: VANILLA
+  red_sand:
+    itemMaterial: RED_SAND
+    damage: 1
+    display: Red gravel [12:1]
+    category: Terra
+    type: VANILLA
+  nether_brick:
+    itemMaterial: NETHER_BRICKS
+    damage: 0
+    display: Rough gravel [112:0]
+    category: Terra
+    type: VANILLA
+  mycelium:
+    itemMaterial: MYCELIUM
+    damage: 0
+    display: Greenish dirt [110:0]
+    category: Terra
+    type: VANILLA
+  farmland_moisture0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 1
+    display: Dry farmland [60:0]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:farmland[moisture=0]
+  farmland_moisture1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 2
+    display: Wet farmland [60:1]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:farmland[moisture=1]
+  farmland_moisture2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 3
+    display: Very wet farmland [60:2]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:farmland[moisture=2]
+  farmland_moisture3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 4
+    display: Dark soil [60:3]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:farmland[moisture=3]
+  double_slab_planks_jungle:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 349
+    display: Red Slate [125:3]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:jungle_slab[type=double,waterlogged=false]
+  snow:
+    itemMaterial: SNOW_BLOCK
+    damage: 0
+    display: Snow block [80:0]
+    category: Terra
+    type: VANILLA
+  snow_layer:
+    itemMaterial: SNOW
+    damage: 0
+    display: Layered snow [78:0]
+    category: Terra
+    type: VANILLA
+  ice:
+    itemMaterial: ICE
+    damage: 0
+    display: Ice [79:0]
+    category: Terra
+    type: VANILLA
+  packed_ice:
+    itemMaterial: PACKED_ICE
+    damage: 0
+    display: Ice [174:0]
+    category: Terra
+    type: VANILLA
+  powered_repeater_delay3_n:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 208
+    display: Stone slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:repeater[delay=3,facing=north,locked=false,powered=true]
+  upper_slab_stone_natural:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 2
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 2
+    display: ITEMBLOCK Stone slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  powered_repeater_delay3_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 209
+    display: Rough dark stone slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:repeater[delay=3,facing=east,locked=false,powered=true]
+  upper_slab_granite:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 4
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 4
+    display: ITEMBLOCK Rough dark stone slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  powered_repeater_delay4_s:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 210
+    display: Rough red stone slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:repeater[delay=4,facing=south,locked=false,powered=true]
+  upper_slab_quartz_ore:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 269
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 269
+    display: ITEMBLOCK Rough red stone slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  powered_repeater_delay4_w:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 211
+    display: Smooth red stone slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:repeater[delay=4,facing=west,locked=false,powered=true]
+  upper_slab_granite_smooth:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 6
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 6
+    display: ITEMBLOCK Smooth red stone slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  powered_repeater_delay4_n:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 212
+    display: Rough light stone slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:repeater[delay=4,facing=north,locked=false,powered=true]
+  upper_slab_diorite:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 8
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 8
+    display: ITEMBLOCK Rough light stone slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  powered_repeater_delay4_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 213
+    display: Rough light stone 2 slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:repeater[delay=4,facing=east,locked=false,powered=true]
+  upper_slab_diamond_ore:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 265
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 265
+    display: ITEMBLOCK Rough light stone 2 slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  comparator_compare_s:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 214
+    display: Smooth light stone slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=south,mode=compare,powered=false]
+  upper_slab_diorite_smooth:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 10
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 10
+    display: ITEMBLOCK Smooth light stone slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  comparator_compare_w:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 215
+    display: Rough dark stone 2 slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=west,mode=compare,powered=false]
+  upper_slab_andesite:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 12
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 12
+    display: ITEMBLOCK Rough dark stone 2 slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  comparator_compare_n:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 216
+    display: Smooth dark stone slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=north,mode=compare,powered=false]
+  upper_slab_andesite_smooth:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 14
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 14
+    display: ITEMBLOCK Smooth dark stone slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  comparator_compare_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 217
+    display: Mossy stone slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=east,mode=compare,powered=false]
+  upper_slab_emerald_ore:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 267
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 267
+    display: ITEMBLOCK Mossy stone slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  comparator_subtract_s:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 218
+    display: Brown stone slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=south,mode=subtract,powered=false]
+  upper_slab_hardened_clay:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 16
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 16
+    display: ITEMBLOCK Brown stone slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  comparator_subtract_w:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 219
+    display: Dirt slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=west,mode=subtract,powered=false]
+  upper_slab_dirt:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 18
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 18
+    display: ITEMBLOCK Dirt slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  comparator_subtract_n:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 220
+    display: Light dirt slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=north,mode=subtract,powered=false]
+  upper_slab_clay:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 20
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 20
+    display: ITEMBLOCK Light dirt slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  comparator_subtract_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 221
+    display: Dark dirt slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=east,mode=subtract,powered=false]
+  upper_slab_soul_sand:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 22
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 22
+    display: ITEMBLOCK Dark dirt slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  comparator_powered_compare_s:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 222
+    display: Coarse dirt slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=south,mode=compare,powered=true]
+  upper_slab_coarse_dirt:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 24
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 24
+    display: ITEMBLOCK Coarse dirt slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  comparator_powered_compare_w:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 223
+    display: Sand slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=west,mode=compare,powered=true]
+  upper_slab_sand:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 43
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 43
+    display: ITEMBLOCK Sand slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  comparator_powered_compare_n:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 224
+    display: Gravel slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=north,mode=compare,powered=true]
+  upper_slab_gravel:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 45
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 45
+    display: ITEMBLOCK Gravel slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  comparator_powered_compare_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 225
+    display: Red gravel slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=east,mode=compare,powered=true]
+  upper_slab_red_sand:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 47
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 47
+    display: ITEMBLOCK Red gravel slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+  nether_brick_stairs:
+    itemMaterial: NETHER_BRICK_STAIRS
+    damage: 0
+    display: Rough gravel stairs [114:0]
+    category: Terra
+    type: VANILLA
+  nether_brick_slab:
+    itemMaterial: NETHER_BRICK_SLAB
+    damage: 6
+    display: Rough gravel slab [44:6]
+    category: Terra
+    type: VANILLA
+  comparator_powered_subtract_w:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 227
+    display: Greenish dirt slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=west,mode=subtract,powered=true]
+  upper_slab_mycelium:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 51
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 51
+    display: ITEMBLOCK Greenish dirt slab (upper)
+    category: Terra
+    type: ITEM_BLOCK
+    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  water0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 341
+    display: Water block level 8 [9:0]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:water[level=0]
+  water1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 348
+    display: Water block level 7 [9:1]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:water[level=1]
+  water2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 347
+    display: Water block level 6 [9:2]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:water[level=2]
+  water3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 346
+    display: Water block level 5 [9:3]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:water[level=3]
+  water4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 345
+    display: Water block level 4 [9:4]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:water[level=4]
+  water5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 344
+    display: Water block level 3 [9:5]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:water[level=5]
+  water6:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 343
+    display: Water block level 2 [9:6]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:water[level=6]
+  water7:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 342
+    display: Water block level 1 [9:7]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:water[level=7]
+  lava0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 339
+    display: Lava block level 8 [11:0]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:lava[level=0]
+  lava1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 360
+    display: Lava block level 7 [11:1]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:lava[level=1]
+  lava2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 359
+    display: Lava block level 6 [11:2]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:lava[level=2]
+  lava3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 358
+    display: Lava block level 5 [11:3]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:lava[level=3]
+  lava4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 357
+    display: Lava block level 4 [11:4]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:lava[level=4]
+  lava5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 356
+    display: Lava block level 3 [11:5]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:lava[level=5]
+  lava6:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 355
+    display: Lava block level 2 [11:6]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:lava[level=6]
+  lava7:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 340
+    display: Lava block level 1 [11:7]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:lava[level=7]

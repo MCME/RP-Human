@@ -1,0 +1,31 @@
+version 2.5
+update for mc 1.13
+version 2.4
+blockstate nether_brick_slab: edited half=bottom
+model/block upper_slab: deleted (wrong appereance of upper brick slabs)
+blockstate reeds: added unused cross models
+blockstate pumpkin: added unused cross models
+model nether_brick_stairs: deleted
+texture silver concrete powder side 1/2: deleted
+blockstate cyan concrete Powder: added
+model silver concrete powder: edited
+model cyan concrete powder: added
+model item diamond leggins: edited
+inventory blocks: edited
+inventory inter: edited
+model powered repeater delay 1 n: edited
+model item diamond chestplate: edited
+model itemblock slab double slab stonebrick seamless: added
+model block repeater delay 3e / 4w switched
+model itemblock trapdoor double slab nether brick > red nether brick
+model item stationary water: added
+moved sandstone pilars to red mushroom
+restored piston table with stonebricks
+improved sticky piston with stonebricks (for wells)
+improved model piston head
+improved model red glass pane (net)
+improved model cactus stage 2 (bell)
+
+version 2.4.1
+fixed model farmland moisture 3
+added optifine/bettergrass.properties (disable for mycel)

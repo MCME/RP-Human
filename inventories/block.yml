@@ -1,0 +1,752 @@
+Items:
+  sandstone:
+    itemMaterial: SANDSTONE
+    damage: 0
+    display: Large sandstone bricks [24:0]
+    category: Block
+    type: VANILLA
+  sandstone_stairs:
+    itemMaterial: SANDSTONE_STAIRS
+    damage: 0
+    display: Large sandstone bricks stairs [128:0]
+    category: Block
+    type: VANILLA
+  sandstone_slab:
+    itemMaterial: SANDSTONE_SLAB
+    damage: 1
+    display: Large sandstone bricks slab [44:1]
+    category: Block
+    type: VANILLA
+  end_portal_frame_empty_north:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 57
+    display: Large sandstone bricks thick slab [120:2]
+    category: Block
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=false,facing=north]
+  end_portal_frame_filled_north:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 58
+    display: Large sandstone bricks thick slab with stub [120:6]
+    category: Block
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=true,facing=north]
+  red_sandstone:
+    itemMaterial: RED_SANDSTONE
+    damage: 0
+    display: Small sandstone bricks [179:0]
+    category: Block
+    type: VANILLA
+  red_sandstone_stairs:
+    itemMaterial: RED_SANDSTONE_STAIRS
+    damage: 0
+    display: Small sandstone bricks stairs [180:0]
+    category: Block
+    type: VANILLA
+  red_sandstone_slab:
+    itemMaterial: RED_SANDSTONE_SLAB
+    damage: 0
+    display: Small sandstone bricks slab [182:0]
+    category: Block
+    type: VANILLA
+  piston_sticky_extended:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 59
+    display: Large sandstone bricks indented wall [29:10]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:sticky_piston[extended=true,facing=north]
+    blockDataWest: minecraft:sticky_piston[extended=true,facing=east]
+    blockDataNorth: minecraft:sticky_piston[extended=true,facing=south]
+    blockDataEast: minecraft:sticky_piston[extended=true,facing=west]
+  double_slab_sandstone_seamless:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 60
+    display: Mossy large sandstone bricks [43:9]
+    category: Block
+    type: BLOCK
+    blockData: minecraft:smooth_sandstone
+  double_slab_red_sandstone_seamless:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 61
+    display: Mossy small sandstone bricks [181:8]
+    category: Block
+    type: BLOCK
+    blockData: minecraft:smooth_red_sandstone
+  chiseled_sandstone:
+    itemMaterial: CHISELED_SANDSTONE
+    damage: 1
+    display: Sandstone ornament star [24:1]
+    category: Block
+    type: VANILLA
+  smooth_sandstone:
+    itemMaterial: CUT_SANDSTONE
+    damage: 2
+    display: Smooth sandstone block [24:2]
+    category: Block
+    type: VANILLA
+  smooth_red_sandstone:
+    itemMaterial: CUT_RED_SANDSTONE
+    damage: 2
+    display: Sandstone with red bricks [179:2]
+    category: Block
+    type: VANILLA
+  double_slab_sandstone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 62
+    display: Sandstone ornament horizontal [43:1]
+    category: Block
+    type: BLOCK
+    blockData: minecraft:sandstone_slab[type=double,waterlogged=false]
+  chiseled_red_sandstone:
+    itemMaterial: CHISELED_RED_SANDSTONE
+    damage: 1
+    display: Mixed sizes sandstone bricks [179:1]
+    category: Block
+    type: VANILLA
+  double_slab_red_sandstone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 63
+    display: Mixed colors sandstone bricks [181:0]
+    category: Block
+    type: BLOCK
+    blockData: minecraft:red_sandstone_slab[type=double,waterlogged=false]
+  white_concrete:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 308
+    display: Large + Small sandstone bricks combo [251:0]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:magenta_concrete
+    blockDataWest: minecraft:orange_concrete
+    blockDataNorth: minecraft:white_concrete
+    blockDataEast: minecraft:light_blue_concrete
+  pink_concrete:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 307
+    display: Large sandstone with red bricks [251:6]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:gray_concrete
+    blockDataWest: minecraft:pink_concrete
+    blockDataNorth: minecraft:gray_concrete
+    blockDataEast: minecraft:pink_concrete
+  yellow_concrete:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 309
+    display: Sandstone ornament large bricks corner [251:4]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:yellow_concrete
+    blockDataWest: minecraft:lime_concrete
+    blockDataNorth: minecraft:yellow_concrete
+    blockDataEast: minecraft:lime_concrete
+  brown_mushroom_block_c:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 65
+    display: Small sandstone bricks cornerstones [99:5]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=true,west=false]
+    blockDataWest: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=true,west=false]
+    blockDataNorth: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=true,west=false]
+    blockDataEast: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=true,west=false]
+  brown_mushroom_block_sw:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 66
+    display: Sandstone ornament cornerstones [99:7]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=true]
+    blockDataWest: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=false]
+    blockDataNorth: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=true]
+    blockDataEast: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=false]
+  brown_mushroom_block_se:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 67
+    display: Sandstone with red bricks corner [99:9]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=false]
+    blockDataWest: minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]
+    blockDataNorth: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=false]
+    blockDataEast: minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]
+  brown_mushroom_normal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 71
+    display: Sandstone pillar end [100:1]
+    category: Block
+    type: SIX_FACES
+    blockDataSouth: minecraft:red_mushroom_block[down=false,east=false,north=false,south=false,up=true,west=true]
+    blockDataWest: minecraft:red_mushroom_block[down=false,east=true,north=false,south=false,up=true,west=false]
+    blockDataNorth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=false]
+    blockDataEast: minecraft:red_mushroom_block[down=false,east=false,north=false,south=false,up=true,west=false]
+    blockDataDown: minecraft:red_mushroom_block[down=false,east=false,north=true,south=false,up=true,west=false]
+    blockDataUp: minecraft:red_mushroom_block[down=false,east=false,north=true,south=false,up=true,west=true]
+  brown_mushroom_seu:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 72
+    display: Sandstone pillar middle [100:7]
+    category: Block
+    type: THREE_AXIS
+    blockDataZ: minecraft:red_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=false]
+    blockDataX: minecraft:red_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=false]
+    blockDataY: minecraft:red_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=true]
+  brown_mushroom_nwd:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 73
+    display: Sandstone pillar middle alt [100:10]
+    category: Block
+    type: THREE_AXIS
+    blockDataZ: minecraft:red_mushroom_block[down=false,east=false,north=false,south=false,up=false,west=false]
+    blockDataX: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]
+    blockDataY: minecraft:red_mushroom_block[down=false,east=false,north=false,south=false,up=false,west=false]
+  anvil_damage0_ne:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 288
+    display: Sandstone bricks balustrade [145:2]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:anvil[facing=east]
+    blockDataWest: minecraft:anvil[facing=north]
+    blockDataNorth: minecraft:anvil[facing=east]
+    blockDataEast: minecraft:anvil[facing=north]
+  anvil_damage2_sw:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 291
+    display: Smooth red stone balustrade [145:8]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:damaged_anvil[facing=west]
+    blockDataWest: minecraft:damaged_anvil[facing=south]
+    blockDataNorth: minecraft:damaged_anvil[facing=west]
+    blockDataEast: minecraft:damaged_anvil[facing=south]
+  cactus_stage3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 74
+    display: Fancy sandstone pillar bottom [81:3]
+    category: Block
+    type: BLOCK
+    blockData: minecraft:cactus[age=3]
+  cactus_stage4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 75
+    display: Fancy sandstone pillar middle [81:4]
+    category: Block
+    type: BLOCK
+    blockData: minecraft:cactus[age=4]
+  cactus_stage5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 76
+    display: Fancy sandstone pillar top [81:5]
+    category: Block
+    type: BLOCK
+    blockData: minecraft:cactus[age=5]
+  red_nether_brick:
+    itemMaterial: RED_NETHER_BRICKS
+    display: red bricks [215:0]
+    category: Block
+    type: VANILLA
+  double_slab_netherbrick_seamless:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 78
+    display: Brown bricks [43:14]
+    category: Block
+    type: BLOCK
+    blockData: minecraft:nether_brick_slab[type=double,waterlogged=false]
+  double_slab_nether_brick:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 77
+    display: Mossy brown bricks [43:6]
+    category: Block
+    type: BLOCK
+    blockData: minecraft:nether_brick_slab[type=double,waterlogged=false]
+  silver_concrete:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 312
+    display: Sandstone + brown bricks combo lower corner [251:8]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:blue_concrete
+    blockDataWest: minecraft:light_gray_concrete
+    blockDataNorth: minecraft:cyan_concrete
+    blockDataEast: minecraft:purple_concrete
+  brown_concrete:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 313
+    display: Sandstone + brown bricks combo upper corner [251:12]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:green_concrete
+    blockDataWest: minecraft:red_concrete
+    blockDataNorth: minecraft:black_concrete
+    blockDataEast: minecraft:brown_concrete
+  white_stained_hardened_clay:
+    itemMaterial: WHITE_TERRACOTTA
+    damage: 0
+    display: White stucco [159:0]
+    category: Block
+    type: VANILLA
+  lime_stained_hardened_clay:
+    itemMaterial: LIME_TERRACOTTA
+    damage: 5
+    display: Light stucco [159:5]
+    category: Block
+    type: VANILLA
+  gray_stained_hardened_clay:
+    itemMaterial: GRAY_TERRACOTTA
+    damage: 7
+    display: Light yellow stucco [159:7]
+    category: Block
+    type: VANILLA
+  silver_stained_hardened_clay:
+    itemMaterial: LIGHT_GRAY_TERRACOTTA
+    damage: 8
+    display: Light yellow stucco ornament [159:8]
+    category: Block
+    type: VANILLA
+  yellow_stained_hardened_clay:
+    itemMaterial: YELLOW_TERRACOTTA
+    damage: 4
+    display: Yellow stucco [159:4]
+    category: Block
+    type: VANILLA
+  orange_stained_hardened_clay:
+    itemMaterial: ORANGE_TERRACOTTA
+    damage: 1
+    display: Orange stucco [159:1]
+    category: Block
+    type: VANILLA
+  pink_stained_hardened_clay:
+    itemMaterial: PINK_TERRACOTTA
+    damage: 6
+    display: Pink stucco [159:6]
+    category: Block
+    type: VANILLA
+  red_stained_hardened_clay:
+    itemMaterial: RED_TERRACOTTA
+    damage: 14
+    display: Red stucco [159:14]
+    category: Block
+    type: VANILLA
+  purple_stained_hardened_clay:
+    itemMaterial: PURPLE_TERRACOTTA
+    damage: 10
+    display: Blue stucco base [159:10]
+    category: Block
+    type: VANILLA
+  blue_stained_hardened_clay:
+    itemMaterial: BLUE_TERRACOTTA
+    damage: 11
+    display: Blue stucco [159:11]
+    category: Block
+    type: VANILLA
+  magenta_stained_hardened_clay:
+    itemMaterial: MAGENTA_TERRACOTTA
+    damage: 2
+    display: Light blue stucco base [159:2]
+    category: Block
+    type: VANILLA
+  light_blue_stained_hardened_clay:
+    itemMaterial: LIGHT_BLUE_TERRACOTTA
+    damage: 3
+    display: Light blue stucco [159:3]
+    category: Block
+    type: VANILLA
+  white_glazed_terracotta_sw:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 299
+    display: Light stucco cornerstones [235:0]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:white_glazed_terracotta[facing=south]
+    blockDataWest: minecraft:white_glazed_terracotta[facing=west]
+    blockDataNorth: minecraft:white_glazed_terracotta[facing=south]
+    blockDataEast: minecraft:white_glazed_terracotta[facing=west]
+  white_glazed_terracotta_ne:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 300
+    display: Light stucco large sandstone bricks cornerstones [235:2]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:white_glazed_terracotta[facing=north]
+    blockDataWest: minecraft:white_glazed_terracotta[facing=east]
+    blockDataNorth: minecraft:white_glazed_terracotta[facing=north]
+    blockDataEast: minecraft:white_glazed_terracotta[facing=east]
+  orange_glazed_terracotta:
+    itemMaterial: ORANGE_GLAZED_TERRACOTTA
+    damage: 0
+    display: Light stucco with small sandstone bricks [236:0]
+    category: Block
+    type: VANILLA
+  magenta_glazed_terracotta:
+    itemMaterial: MAGENTA_GLAZED_TERRACOTTA
+    damage: 0
+    display: Weathered light stucco lower corner [237:0]
+    category: Block
+    type: VANILLA
+  light_blue_glazed_terracotta:
+    itemMaterial: LIGHT_BLUE_GLAZED_TERRACOTTA
+    damage: 0
+    display: Weathered light stucco upper corner [238:0]
+    category: Block
+    type: VANILLA
+  cyan_concrete_powder:
+    itemMaterial: CYAN_CONCRETE_POWDER
+    damage: 9
+    category: Block
+    display: Weathered stucco (stucco inner) [252:9]
+    type: VANILLA
+  light_gray_concrete_powder:
+    itemMaterial: LIGHT_GRAY_CONCRETE_POWDER
+    damage: 8
+    category: Block
+    display: Weathered stucco (stucco inner) [252:8]
+    type: VANILLA
+  yellow_glazed_terracotta_sw:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 301
+    display: Pink stucco cornerstones [239:0]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:yellow_glazed_terracotta[facing=south]
+    blockDataWest: minecraft:yellow_glazed_terracotta[facing=west]
+    blockDataNorth: minecraft:yellow_glazed_terracotta[facing=south]
+    blockDataEast: minecraft:yellow_glazed_terracotta[facing=west]
+  yellow_glazed_terracotta_ne:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 302
+    display: Pink stucco large sandstone bricks cornerstones [239:2]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:yellow_glazed_terracotta[facing=north]
+    blockDataWest: minecraft:yellow_glazed_terracotta[facing=east]
+    blockDataNorth: minecraft:yellow_glazed_terracotta[facing=north]
+    blockDataEast: minecraft:yellow_glazed_terracotta[facing=east]
+  lime_glazed_terracotta:
+    itemMaterial: LIME_GLAZED_TERRACOTTA
+    damage: 0
+    display: Pink stucco with small sandstone bricks [240:0]
+    category: Block
+    type: VANILLA
+  pink_glazed_terracotta:
+    itemMaterial: PINK_GLAZED_TERRACOTTA
+    damage: 0
+    display: Weathered pink stucco lower corner [241:0]
+    category: Block
+    type: VANILLA
+  gray_glazed_terracotta:
+    itemMaterial: GRAY_GLAZED_TERRACOTTA
+    damage: 0
+    display: Weathered pink stucco upper corner [242:0]
+    category: Block
+    type: VANILLA
+  blue_concrete_powder:
+    itemMaterial: BLUE_CONCRETE_POWDER
+    damage: 11
+    display: Weathered pink stucco (stucco inner) [252:11]
+    category: Block
+    type: VANILLA
+  purple_concrete_powder:
+    itemMaterial: PURPLE_CONCRETE_POWDER
+    damage: 10
+    display: Weathered pink stucco (stucco outer) [252:10]
+    category: Block
+    type: VANILLA
+  silver_glazed_terracotta_sw:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 303
+    display: Light blue stucco cornerstones [243:0]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:light_gray_glazed_terracotta[facing=south]
+    blockDataWest: minecraft:light_gray_glazed_terracotta[facing=west]
+    blockDataNorth: minecraft:light_gray_glazed_terracotta[facing=south]
+    blockDataEast: minecraft:light_gray_glazed_terracotta[facing=west]
+  silver_glazed_terracotta_ne:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 304
+    display: Light blue stucco large sandstone bricks cornerstones [243:2]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:light_gray_glazed_terracotta[facing=north]
+    blockDataWest: minecraft:light_gray_glazed_terracotta[facing=east]
+    blockDataNorth: minecraft:light_gray_glazed_terracotta[facing=north]
+    blockDataEast: minecraft:light_gray_glazed_terracotta[facing=east]
+  cyan_glazed_terracotta:
+    itemMaterial: CYAN_GLAZED_TERRACOTTA
+    damage: 0
+    display: Light blue stucco with small sandstone bricks [244:0]
+    category: Block
+    type: VANILLA
+  purple_glazed_terracotta:
+    itemMaterial: PURPLE_GLAZED_TERRACOTTA
+    damage: 0
+    display: Weathered light blue stucco lower corner [245:0]
+    category: Block
+    type: VANILLA
+  blue_glazed_terracotta:
+    itemMaterial: BLUE_GLAZED_TERRACOTTA
+    damage: 0
+    display: Weathered light blue stucco upper corner [246:0]
+    category: Block
+    type: VANILLA
+  green_concrete_powder:
+    itemMaterial: GREEN_CONCRETE_POWDER
+    damage: 13
+    display: Weathered light blue stucco (stucco inner) [252:13]
+    category: Block
+    type: VANILLA
+  brown_concrete_powder:
+    itemMaterial: BROWN_CONCRETE_POWDER
+    damage: 12
+    display: Weathered light blue stucco (stucco outer) [252:12]
+    category: Block
+    type: VANILLA
+  brown_glazed_terracotta_sw:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 305
+    display: Blue stucco cornerstones [247:0]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:brown_glazed_terracotta[facing=south]
+    blockDataWest: minecraft:brown_glazed_terracotta[facing=west]
+    blockDataNorth: minecraft:brown_glazed_terracotta[facing=south]
+    blockDataEast: minecraft:brown_glazed_terracotta[facing=west]
+  brown_glazed_terracotta_ne:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 306
+    display: Blue stucco large sandstone bricks cornerstones [247:2]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:brown_glazed_terracotta[facing=north]
+    blockDataWest: minecraft:brown_glazed_terracotta[facing=east]
+    blockDataNorth: minecraft:brown_glazed_terracotta[facing=north]
+    blockDataEast: minecraft:brown_glazed_terracotta[facing=east]
+  green_glazed_terracotta:
+    itemMaterial: GREEN_GLAZED_TERRACOTTA
+    damage: 0
+    display: blue stucco with small sandstone bricks [248:0]
+    category: Block
+    type: VANILLA
+  red_glazed_terracotta:
+    itemMaterial: RED_GLAZED_TERRACOTTA
+    damage: 0
+    display: Weathered blue stucco lower corner [249:0]
+    category: Block
+    type: VANILLA
+  black_glazed_terracotta:
+    itemMaterial: BLACK_GLAZED_TERRACOTTA
+    damage: 0
+    display: Weathered blue stucco upper corner [250:0]
+    category: Block
+    type: VANILLA
+  black_concrete_powder:
+    itemMaterial: BLACK_CONCRETE_POWDER
+    damage: 15
+    display: Weathered blue stucco (stucco inner) [252:15]
+    category: Block
+    type: VANILLA
+  red_concrete_powder:
+    itemMaterial: RED_CONCRETE_POWDER
+    damage: 14
+    display: Weathered blue stucco (stucco outer) [252:14]
+    category: Block
+    type: VANILLA
+  dark_oak_fence_gate_closed:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 235
+    display: Vertical large sandstone bricks slab [186:0]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=false,powered=false]
+    blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=false,open=false,powered=false]
+    blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=false,open=false,powered=false]
+    blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=false,open=false,powered=false]
+  dark_oak_fence_gate_powered_closed:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 237
+    display: Vertical small sandstone bricks slab [186:8]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=false,open=false,powered=true]
+    blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+  repeater_delay3_s:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 190
+    display: Mossy large sandstone bricks slab (lower)
+    category: Block
+    type: BLOCK
+    blockData: minecraft:repeater[delay=3,facing=south,locked=false,powered=false]
+  upper_slab_double_slab_sandstone_seamless:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 57
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 57
+    display: ITEMBLOCK Mossy large sandstone bricks slab (upper)
+    category: Block
+    type: ITEM_BLOCK
+    blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+  vertical_slab_double_slab_sandstone_seamless:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 58
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 58
+    display: ITEMBLOCK Vertical mossy large sandstone bricks slab
+    category: Block
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+  repeater_delay3_w:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 191
+    display: Mossy small sandstone bricks slab (lower)
+    category: Block
+    type: BLOCK
+    blockData: minecraft:repeater[delay=3,facing=west,locked=false,powered=false]
+  upper_slab_double_slab_red_sandstone_seamless:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 60
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 60
+    display: ITEMBLOCK Mossy small sandstone bricks slab (upper)
+    category: Block
+    type: ITEM_BLOCK
+    blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+  vertical_slab_double_slab_red_sandstone_seamless:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 61
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 61
+    display: ITEMBLOCK Vertical mossy small sandstone bricks slab
+    category: Block
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+  repeater_delay3_n:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 192
+    display: Smooth sandstone slab (lower)
+    category: Block
+    type: BLOCK
+    blockData: minecraft:repeater[delay=3,facing=north,locked=false,powered=false]
+  upper_slab_sandstone_smooth:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 63
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 63
+    display: ITEMBLOCK Smooth sandstone slab (upper)
+    category: Block
+    type: ITEM_BLOCK
+    blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+  vertical_slab_sandstone_smooth:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 64
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 64
+    display: ITEMBLOCK Vertical smooth sandstone slab
+    category: Block
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+  repeater_delay3_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 193
+    display: Red sandstone bricks slab (lower)
+    category: Block
+    type: BLOCK
+    blockData: minecraft:repeater[delay=3,facing=east,locked=false,powered=false]
+  upper_slab_double_slab_nether_brick:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 66
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 66
+    display: ITEMBLOCK Red sandstone bricks slab (upper)
+    category: Block
+    type: ITEM_BLOCK
+    blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+  vertical_slab_double_slab_nether_brick:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 67
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 67
+    display: ITEMBLOCK Vertical red sandstone bricks slab
+    category: Block
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+  repeater_delay4_s:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 194
+    display: Brown bricks slab (lower)
+    category: Block
+    type: BLOCK
+    blockData: minecraft:repeater[delay=4,facing=south,locked=false,powered=false]
+  upper_slab_double_slab_nether_brick_seamless:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 69
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 69
+    display: ITEMBLOCK Brown bricks slab (upper)
+    category: Block
+    type: ITEM_BLOCK
+    blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+  acacia_fence_gate_powered_ne:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 321
+    display: Vertical brown bricks slab [187:10]
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=false,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+  repeater_delay4_w:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 195
+    display: Mossy brown bricks slab (lower)
+    category: Block
+    type: BLOCK
+    blockData: minecraft:repeater[delay=4,facing=west,locked=false,powered=false]
+  upper_slab_brown_mushroom_block_s:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 112
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 112
+    display: ITEMBLOCK Mossy brown bricks slab (upper)
+    category: Block
+    type: ITEM_BLOCK
+    blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+  vertical_slab_brown_mushroom_block_s:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 113
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 113
+    display: ITEMBLOCK Vertical mossy brown bricks slab
+    category: Block
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
