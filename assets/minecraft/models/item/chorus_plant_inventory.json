@@ -1,0 +1,43 @@
+{
+  "parent": "block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "texture": "block/oak_log",
+    "inside": "block/oak_log",
+    "particle": "block/oak_log"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        16,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#inside"
+        },
+        "south": {
+          "texture": "#inside"
+        },
+        "west": {
+          "texture": "#inside"
+        },
+        "east": {
+          "texture": "#inside"
+        },
+        "up": {
+          "texture": "#inside"
+        },
+        "down": {
+          "texture": "#inside"
+        }
+      }
+    }
+  ]
+}

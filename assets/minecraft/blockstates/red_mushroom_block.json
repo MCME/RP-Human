@@ -1,0 +1,60 @@
+{
+  "multipart": [
+    { "when": {"north": true, "west": true, "south": false, "east": false, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_normal"
+    }},
+    { "when": {"north": true, "west": false, "south": false, "east": false, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_normal",
+      "x": 180
+    }},
+    { "when": {"north": true, "west": false, "south": false, "east": true, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_normal",
+      "x": 90
+    }},
+    { "when": {"north": false, "west": true, "south": false, "east": false, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_normal",
+      "x": 270
+    }},
+    { "when": {"north": false, "west": false, "south": false, "east": false, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_normal",
+      "x": 90,
+      "y": 90
+    }},
+    { "when": {"north": false, "west": false, "south": false, "east": true, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_normal",
+      "x": 90,
+      "y": 270
+    }},
+    { "when": {"north": false, "west": true, "south": true, "east": false, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_seu"
+    }},
+    { "when": {"north": false, "west": false, "south": true, "east": false, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_seu",
+      "x": 90
+    }},
+    { "when": {"north": false, "west": false, "south": true, "east": true, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_seu",
+      "x": 90,
+      "y": 90
+    }},
+    { "when": {"north": true, "west": true, "south": true, "east": true, "up": true, "down": true },
+      "apply": {
+      "model": "block/red_mushroom_block_nwd",
+      "x": 90,
+      "y": 90
+    }},
+    { "when": {"north": false, "west": false, "south": false, "east": false, "up": false, "down": false },
+      "apply": {
+      "model": "block/double_slab_nether_brick"
+    }}
+  ]
+}

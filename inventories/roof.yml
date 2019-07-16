@@ -1,0 +1,155 @@
+Items:
+  piston_sticky_extended_up:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 111
+    display: Sandstone chimney [29:9]
+    category: Roof
+    type: BLOCK
+    blockData: minecraft:sticky_piston[extended=true,facing=up]
+  piston_normal_extended_up:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 112
+    display: Light grey bricks chimney [33:9]
+    category: Roof
+    type: BLOCK
+    blockData: minecraft:piston[extended=true,facing=up]
+  spruce_planks:
+    itemMaterial: SPRUCE_PLANKS
+    damage: 1
+    display: Grey shingles [5:1]
+    category: Roof
+    type: VANILLA
+  jungle_fence_gate_closed:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 230
+    display: Grey shingles vertical slab [185:0]
+    category: Roof
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:jungle_fence_gate[facing=south,in_wall=false,open=false,powered=false]
+    blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=false,open=false,powered=false]
+    blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=false,open=false,powered=false]
+    blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=false,open=false,powered=false]
+  spruce_stairs:
+    itemMaterial: SPRUCE_STAIRS
+    damage: 0
+    display: Grey shingles stair [134:0]
+    category: Roof
+    type: VANILLA
+  half_slab_spruce:
+    itemMaterial: SPRUCE_SLAB
+    damage: 1
+    display: Grey shingles slab [126:1]
+    category: Roof
+    type: VANILLA
+  dark_oak_planks:
+    itemMaterial: DARK_OAK_PLANKS
+    damage: 5
+    display: Blue shingles [5:5]
+    category: Roof
+    type: VANILLA
+  spruce_fence_gate_closed:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 233
+    display: Blue shingles vertical slab [183:0]
+    category: Roof
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=false,open=false,powered=false]
+    blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=false,open=false,powered=false]
+    blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=false,open=false,powered=false]
+    blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=false,open=false,powered=false]
+  dark_oak_stairs:
+    itemMaterial: DARK_OAK_STAIRS
+    damage: 0
+    display: Blue shingles stair [164:0]
+    category: Roof
+    type: VANILLA
+  half_slab_dark_oak:
+    itemMaterial: DARK_OAK_SLAB
+    damage: 5
+    display: Blue shingles slab [126:5]
+    category: Roof
+    type: VANILLA
+  acacia_planks:
+    itemMaterial: ACACIA_PLANKS
+    damage: 4
+    display: Green shingles [5:4]
+    category: Roof
+    type: VANILLA
+  spruce_fence_gate_powered_closed:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 234
+    display: Green shingles vertical slab [183:8]
+    category: Roof
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=false,open=false,powered=true]
+    blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+  acacia_stairs:
+    itemMaterial: ACACIA_STAIRS
+    damage: 0
+    display: Green shingles stair [163:0]
+    category: Roof
+    type: VANILLA
+  half_slab_acacia:
+    itemMaterial: ACACIA_SLAB
+    damage: 4
+    display: Green shingles slab [126:4]
+    category: Roof
+    type: VANILLA
+  jungle_planks:
+    itemMaterial: JUNGLE_PLANKS
+    damage: 3
+    display: Orange shingles [5:3]
+    category: Roof
+    type: VANILLA
+  jungle_fence_gate_powered_closed:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 232
+    display: Orange shingles vertical slab [185:8]
+    category: Roof
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:jungle_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=false,open=false,powered=true]
+    blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+  jungle_stairs:
+    itemMaterial: JUNGLE_STAIRS
+    damage: 0
+    display: Orange shingles stair [136:0]
+    category: Roof
+    type: VANILLA
+  half_slab_jungle:
+    itemMaterial: JUNGLE_SLAB
+    damage: 3
+    display: Orange shingles slab [126:3]
+    category: Roof
+    type: VANILLA
+  purpur_block:
+    itemMaterial: PURPUR_BLOCK
+    damage: 0
+    display: Thatch [201:0]
+    category: Roof
+    type: VANILLA
+  jungle_fence_gate_open:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 231
+    display: Thatch vertical slab [185:4]
+    category: Roof
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:jungle_fence_gate[facing=south,in_wall=false,open=true,powered=false]
+    blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=false,open=true,powered=false]
+    blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=false,open=true,powered=false]
+    blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=false,open=true,powered=false]
+  purpur_stairs:
+    itemMaterial: PURPUR_STAIRS
+    damage: 0
+    display: Thatch stair [203:0]
+    category: Roof
+    type: VANILLA
+  half_slab_purpur:
+    itemMaterial: PURPUR_SLAB
+    damage: 0
+    display: Thatch slab [205:0]
+    category: Roof
+    type: VANILLA

@@ -1,0 +1,66 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "pane": "block/stone"
+  },
+  "elements": [
+    {
+      "from": [
+        7.75,
+        0,
+        7.75
+      ],
+      "to": [
+        8.25,
+        16,
+        8.25
+      ],
+      "faces": {
+        "down": {
+          "texture": "#pane",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "#pane",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "#pane",
+          "uv": [
+            7,
+            0,
+            8,
+            32
+          ]
+        },
+        "south": {
+          "texture": "#pane",
+          "uv": [
+            7,
+            0,
+            8,
+            32
+          ]
+        },
+        "west": {
+          "texture": "#pane",
+          "uv": [
+            7,
+            0,
+            8,
+            32
+          ]
+        },
+        "east": {
+          "texture": "#pane",
+          "uv": [
+            7,
+            0,
+            8,
+            32
+          ]
+        }
+      }
+    }
+  ]
+}
