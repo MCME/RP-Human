@@ -1,0 +1,614 @@
+Items:
+    lit_pumpkin:
+      itemMaterial: JACK_O_LANTERN
+      damage: 0
+      display: Scarecrow head [91:0]
+      category: Exter
+      type: VANILLA
+    hay:
+      itemMaterial: HAY_BLOCK
+      damage: 0
+      display: Hay Block [91:0]
+      category: Exter
+      type: VANILLA
+    dropper_nwd:
+      blockMaterial: DROPPER
+      dataValueX: 4
+      dataValueY: 0
+      dataValueZ: 2
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 146
+      display: Rope log [158:0]
+      category: Exter
+      type: THREE_AXIS
+    dropper_seu:
+      blockMaterial: DROPPER
+      dataValueX: 5
+      dataValueY: 1
+      dataValueZ: 3
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 147
+      display: Chain log [158:1]
+      category: Exter
+      type: THREE_AXIS
+    dropper_powered_nwd:
+      blockMaterial: DROPPER
+      dataValueX: 12
+      dataValueY: 8
+      dataValueZ: 10
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 148
+      display: Bundled logs [158:8]
+      category: Exter
+      type: THREE_AXIS
+    dispenser:
+      itemMaterial: DISPENSER
+      damage: 0
+      display: Mechanics block [23:0]
+      category: Exter
+      type: VANILLA
+    beacon:
+      blockMaterial: BEACON
+      dataValue: 0
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 337
+      display: Lantern [138:0]
+      category: Exter
+      type: BLOCK
+    shutter:
+      blockMaterial: DARK_OAK_DOOR
+      itemMaterial: DIAMOND_LEGGINGS
+      open: true
+      rightHinge: false
+      damage: 327
+      display: Shutter [197:8]
+      category: Exter
+      type: THIN_WALL
+    cactus_stage2:
+      blockMaterial: CACTUS
+      dataValue: 2
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 149
+      display: Bell [81:2]
+      category: Exter
+      type: BLOCK
+    piston_head_sticky:
+      blockMaterial: PISTON_EXTENSION
+      dataValueUp: 9
+      dataValueDown: 8
+      dataValueNorth: 10
+      dataValueSouth: 11
+      dataValueWest: 12
+      dataValueEast: 13
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 150
+      display: Wheel [34:0]
+      category: Exter
+      type: SIX_FACES
+    cocoa_age0_s:
+      blockMaterial: COCOA
+      dataValueNorth: 2
+      dataValueWest: 1
+      dataValueSouth: 0
+      dataValueEast: 3
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 334
+      display: Wheel (short axle) [127:0]
+      category: Exter
+      type: FOUR_DIRECTIONS
+    repeater_delay2_n:
+      blockMaterial: DIODE_BLOCK_OFF
+      dataValue: 6
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 335
+      display: Wheel (on floor) [93:6]
+      category: Exter
+      type: BLOCK
+    repeater_delay2_e:
+      blockMaterial: DIODE_BLOCK_OFF
+      dataValue: 7
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 336
+      display: Wheel (on ceiling) [93:7]
+      category: Exter
+      type: BLOCK
+    sticky_piston:
+      blockMaterial: PISTON_STICKY_BASE
+      dataValueUp: 1
+      dataValueDown: 0
+      dataValueNorth: 2
+      dataValueSouth: 3
+      dataValueWest: 4
+      dataValueEast: 5
+      itemMaterial: PISTON_STICKY_BASE
+      display: Wheel on stone base [29:0]
+      category: Exter
+      type: SIX_FACES
+    chain_up_north:
+      blockMaterial: REDSTONE_WIRE
+      dataValue: 1
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 177
+      display: 3D chain [55:1]
+      category: Exter
+      type: BLOCK
+    chain_up_center:
+      blockMaterial: REDSTONE_WIRE
+      dataValue: 2
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 178
+      display: 3D chain (horizontal) [55:2]
+      category: Exter
+      type: BLOCK
+    barrier:
+      itemMaterial: BARRIER
+      damage: 0
+      display: Barrier block (for 3D chain support) [166:0]
+      category: Exter
+      type: VANILLA
+    golden_rail_flat:
+      itemMaterial: POWERED_RAIL
+      damage: 0
+      display: Chain horizontal [27:0]
+      category: Exter
+      type: VANILLA
+    golden_rail_flat_diagonal:
+      blockMaterial: POWERED_RAIL
+      dataValueNorth: 8
+      dataValueNorthWest: 8
+      dataValueWest: 9
+      dataValueSouthWest: 9
+      dataValueSouth: 8
+      dataValueSouthEast: 8
+      dataValueEast: 9
+      dataValueNorthEast: 9
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 151
+      display: Chain diagonal [27:8]
+      category: Exter
+      type: EIGHT_FACES
+    golden_rail_raised_e:
+      blockMaterial: POWERED_RAIL
+      dataValue: 10
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 152
+      display: Chain vertical [27:10]
+      category: Exter
+      type: BLOCK
+    detector_rail_flat:
+      itemMaterial: DETECTOR_RAIL
+      damage: 0
+      display: Rope horizontal [28:0]
+      category: Exter
+      type: VANILLA
+    detector_rail_flat_diagonal:
+      blockMaterial: DETECTOR_RAIL
+      dataValueNorth: 8
+      dataValueNorthWest: 8
+      dataValueWest: 9
+      dataValueSouthWest: 9
+      dataValueSouth: 8
+      dataValueSouthEast: 8
+      dataValueEast: 9
+      dataValueNorthEast: 9
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 153
+      display: Rope diagonal [28:8]
+      category: Exter
+      type: EIGHT_FACES
+    detector_rail_raised_e:
+      blockMaterial: DETECTOR_RAIL
+      dataValue: 10
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 154
+      display: Rope vertical [28:10]
+      category: Exter
+      type: BLOCK
+    rail_curved:
+      blockMaterial: RAILS
+      dataValueNorth: 6
+      dataValueNorthWest: 6
+      dataValueWest: 9
+      dataValueSouthWest: 9
+      dataValueSouth: 8
+      dataValueSouthEast: 8
+      dataValueEast: 7
+      dataValueNorthEast: 7
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 155
+      display: Fireplace [66:6]
+      category: Exter
+      type: EIGHT_FACES
+    activator_rail_flat:
+      blockMaterial: ACTIVATOR_RAIL
+      dataValueNorth: 0
+      dataValueNorthWest: 2
+      dataValueWest: 9
+      dataValueSouthWest: 11
+      dataValueSouth: 8
+      dataValueSouthEast: 10
+      dataValueEast: 1
+      dataValueNorthEast: 3
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 156
+      display: Footprints [157:0]
+      category: Exter
+      type: EIGHT_FACES
+    redstone_dust_power3_center:
+      blockMaterial: REDSTONE_WIRE
+      dataValue: 3
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 157
+      display: Moss cover [55:3]
+      category: Exter
+      type: BLOCK
+    redstone_dust_power4_center:
+      blockMaterial: REDSTONE_WIRE
+      dataValue: 4
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 158
+      display: Dirt cover [55:4]
+      category: Exter
+      type: BLOCK
+    redstone_dust_power5_center:
+      blockMaterial: REDSTONE_WIRE
+      dataValue: 5
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 159
+      display: Puddle [55:5]
+      category: Exter
+      type: BLOCK
+    repeater_delay1_w:
+      blockMaterial: DIODE_BLOCK_OFF
+      dataValue: 1
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 183
+      display: Forest ground [93:1]
+      category: Exter
+      type: BLOCK
+    repeater_delay1_n:
+      blockMaterial: DIODE_BLOCK_OFF
+      dataValue: 2
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 184
+      display: Forest ground [93:2]
+      category: Exter
+      type: BLOCK
+    repeater_delay1_e:
+      blockMaterial: DIODE_BLOCK_OFF
+      dataValue: 3
+      itemMaterial: DIAMOND_LEGGINGS
+      damage: 185
+      display: Forest ground [93:3]
+      category: Exter
+      type: BLOCK
+    glass_pane_red:
+      itemMaterial: STAINED_GLASS_PANE
+      damage: 14
+      display: Net / Thin rope [160:14]
+      category: Exter
+      type: VANILLA
+    clothesline_empty:
+      blockMaterial: ACACIA_FENCE_GATE
+      dataValueX: 12
+      dataValueZ: 13
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 182,183,184
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 183
+      display: ITEMBLOCK Empty clothesline
+      category: Exter
+      type: ITEM_BLOCK_TWO_DIRECTIONS
+    clothesline_dress:
+      blockMaterial: ACACIA_FENCE_GATE
+      dataValueX: 12
+      dataValueZ: 13
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 185,186,187,188,189
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 185
+      display: ITEMBLOCK Clothesline with dress
+      category: Exter
+      type: ITEM_BLOCK_TWO_DIRECTIONS
+    clothesline_shirt:
+      blockMaterial: ACACIA_FENCE_GATE
+      dataValueX: 12
+      dataValueZ: 13
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 190,191,192,193,194,195,196,197,198
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 190
+      display: ITEMBLOCK Clothesline with shirt
+      category: Exter
+      type: ITEM_BLOCK_TWO_DIRECTIONS
+    clothesline_shirt_long:
+      blockMaterial: ACACIA_FENCE_GATE
+      dataValueX: 12
+      dataValueZ: 13
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 199,200,201,202,203,204
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 199
+      display: ITEMBLOCK Clothesline with long shirt
+      category: Exter
+      type: ITEM_BLOCK_TWO_DIRECTIONS
+    clothesline_pants:
+      blockMaterial: ACACIA_FENCE_GATE
+      dataValueX: 12
+      dataValueZ: 13
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 205,206,207,208,209,210
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 205
+      display: ITEMBLOCK Clothesline with pants
+      category: Exter
+      type: ITEM_BLOCK_TWO_DIRECTIONS
+    clothesline_socks:
+      blockMaterial: ACACIA_FENCE_GATE
+      dataValueX: 12
+      dataValueZ: 13
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 211,212,213,214,215,216,217,218
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 211
+      display: ITEMBLOCK Clothesline with socks
+      category: Exter
+      type: ITEM_BLOCK_TWO_DIRECTIONS
+    clothesline_sheet:
+      blockMaterial: ACACIA_FENCE_GATE
+      dataValueX: 12
+      dataValueZ: 13
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 219,220,221,222,223,224
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 219
+      display: ITEMBLOCK Clothesline with sheet
+      category: Exter
+      type: ITEM_BLOCK_TWO_DIRECTIONS
+    clothesline_rag:
+      blockMaterial: ACACIA_FENCE_GATE
+      dataValueX: 12
+      dataValueZ: 13
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 225,226,227,228,229,230,231,232,233,234,235,236,237,238
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 225
+      display: ITEMBLOCK Clothesline with rag
+      category: Exter
+      type: ITEM_BLOCK_TWO_DIRECTIONS
+    barrel_empty:
+      blockMaterial: CACTUS
+      dataValue: 15
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 401
+      display: Barrel empty [81:15]
+      category: Exter
+      type: BLOCK
+    barrel_apples_full:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 162
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 402
+      display: ITEMBLOCK Barrel apples full
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_apples_half:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 163
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 403
+      display: ITEMBLOCK Barrel apples half
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_grapes_full:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 164
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 404
+      display: ITEMBLOCK Barrel grapes full
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_grapes_half:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 165
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 405
+      display: ITEMBLOCK Barrel grapes half
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_tomatoes_full:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 166
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 406
+      display: ITEMBLOCK Barrel tomatoes full
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_tomatoes_half:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 167
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 407
+      display: ITEMBLOCK Barrel tomatoes half
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_potatoes_full:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 168
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 408
+      display: ITEMBLOCK Barrel potatoes full
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_potatoes_half:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 169
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 409
+      display: ITEMBLOCK Barrel potatoes half
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_onions_full:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 170
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 410
+      display: ITEMBLOCK Barrel onions full
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_onions_half:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 171
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 411
+      display: ITEMBLOCK Barrel onions half
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_wheat_full:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 172
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 412
+      display: ITEMBLOCK Barrel wheat full
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_wheat_half:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 173
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 413
+      display: ITEMBLOCK Barrel wheat half
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_meat_full:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 174
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 414
+      display: ITEMBLOCK Barrel meat full
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_meat_half:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 175
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 415
+      display: ITEMBLOCK Barrel meat half
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_fish_full:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 176
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 416
+      display: ITEMBLOCK Barrel fish full
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_fish_half:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 177
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 417
+      display: ITEMBLOCK Barrel fish half
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_coal_full:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 178
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 418
+      display: ITEMBLOCK Barrel coal full
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_coal_half:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 179
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 419
+      display: ITEMBLOCK Barrel coal half
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_water_full:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 180
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 420
+      display: ITEMBLOCK Barrel water full
+      category: Exter
+      type: ITEM_BLOCK
+    barrel_water_half:
+      blockMaterial: CACTUS
+      blockDataValue: 15
+      contentItem: DIAMOND_CHESTPLATE
+      contentDamage: 181
+      contentHeight: 0.3125
+      itemMaterial: DIAMOND_CHESTPLATE
+      damage: 400
+      display: ITEMBLOCK Barrel water half
+      category: Exter
+      type: ITEM_BLOCK
