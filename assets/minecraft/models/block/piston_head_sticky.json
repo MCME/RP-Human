@@ -1,10 +1,11 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"parent": "block/block",
     "textures": {
-		"particle": "edit/piston_top_sticky",
-        "0": "edit/piston_top_sticky",
-        "1": "edit/wheel-side",
-        "2": "edit/log_oak"
+		"particle": "blocks/piston_head_sticky_top",
+        "0": "blocks/piston_head_sticky_top",
+        "1": "blocks/piston_head_sticky_side",
+        "2": "blocks/log_oak"
     },
     "elements": [
         {
@@ -40,23 +41,10 @@
             "faces": {
                 "north": { "texture": "#0", "uv": [ 6.0, 6.0, 10.0, 10.0 ] },
                 "east": { "texture": "#2", "uv": [ 4.0, 0.0, 8.0, 16.0 ], "rotation": 90 },
-                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
+                "south": { "texture": "#0", "uv": [ 6.0, 6.0, 10.0, 10.0 ] },
                 "west": { "texture": "#2", "uv": [ 6.0, 0.0, 10.0, 16.0 ], "rotation": 90 },
                 "up": { "texture": "#2", "uv": [ 3.0, 0.0, 7.0, 16.0 ] },
                 "down": { "texture": "#2", "uv": [ 8.0, 0.0, 12.0, 16.0 ] }
-            }
-        },
-        {
-            "name": "achse 2",
-            "from": [ 6.0, 6.0, 16.0 ], 
-            "to": [ 10.0, 10.0, 20.0 ], 
-            "faces": {
-                "north": { "texture": "#2", "uv": [ 5.0, 4.0, 9.0, 8.0 ] },
-                "east": { "texture": "#2", "uv": [ 5.0, 4.0, 9.0, 8.0 ], "rotation": 90 },
-                "south": { "texture": "#0", "uv": [ 6.0, 6.0, 10.0, 10.0 ] },
-                "west": { "texture": "#2", "uv": [ 5.0, 5.0, 9.0, 9.0 ], "rotation": 90 },
-                "up": { "texture": "#2", "uv": [ 7.0, 5.0, 11.0, 9.0 ] },
-                "down": { "texture": "#2", "uv": [ 4.0, 5.0, 8.0, 9.0 ] }
             }
         },
         {

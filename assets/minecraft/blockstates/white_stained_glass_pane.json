@@ -1,0 +1,19 @@
+{
+    "multipart": [
+        {   "when": { "north": true },
+            "apply": { "model": "placeholder" }
+        },
+        {   "when": { "east": true },
+            "apply": { "model": "placeholder", "y": 90 }
+        },
+        {   "when": { "south": true },
+            "apply": { "model": "placeholder" }
+        },
+        {   "when": { "west": true },
+            "apply": { "model": "placeholder", "y": 90 }
+        },
+		{   "when": { "north": false, "east": false, "south": false, "west": false },
+            "apply": { "model": "placeholder" }
+        }
+    ]
+}
