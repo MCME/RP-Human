@@ -1,8 +1,15 @@
 {
     "parent": "block/piston_head",
+	"display": {
+        "gui": {
+            "rotation": [ 120, 0, 45],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        }
+	},
     "textures": {
-        "unsticky": "blocks/piston_top_normal",
-        "side": "blocks/piston_side",
-        "platform": "blocks/piston_top_normal"
+        "unsticky": "blocks/piston_head_normal_top",
+        "side": "blocks/piston_normal_extended_side",
+        "platform": "blocks/piston_head_normal_top"
     }
 }

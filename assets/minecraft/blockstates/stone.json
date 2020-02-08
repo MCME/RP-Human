@@ -1,18 +1,16 @@
 {
     "variants": {
         "normal": [
-            { "model": "stone/1","weight": 10 },
-            { "model": "stone_mirrored","weight": 10 },
-            { "model": "stone/1", "y": 180,"weight": 10 },
-            { "model": "stone_mirrored", "y": 180,"weight": 10 },
-            { "model": "stone/2","weight": 1 },
-            { "model": "stone/3","weight": 1 },
-            { "model": "stone/4","weight": 1 },
-            { "model": "stone/5","rotation": 90, "weight": 3 },
-            { "model": "stone/2","rotation": 90, "weight": 1 },
-            { "model": "stone/3","rotation": 90, "weight": 1 },
-            { "model": "stone/4","rotation": 90, "weight": 1 },
-            { "model": "stone/5","rotation": 90, "weight": 3 }
+            { "model": "stone","weight": 10 },
+            { "model": "stone", "y": 180,"weight": 10 },
+            { "model": "stone_1","weight": 1 },
+            { "model": "stone_2","weight": 1 },
+            { "model": "stone_3","weight": 1 },
+            { "model": "stone_4","rotation": 90, "weight": 3 },
+            { "model": "stone_1","rotation": 90, "weight": 1 },
+            { "model": "stone_2","rotation": 90, "weight": 1 },
+            { "model": "stone_3","rotation": 90, "weight": 1 },
+            { "model": "stone_4","rotation": 90, "weight": 3 }
         ]
     }
 }
