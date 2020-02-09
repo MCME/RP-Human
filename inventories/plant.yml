@@ -1,529 +1,464 @@
 Items:
-   dandelion:
-      blockMaterial: YELLOW_FLOWER
-      dataValue: 0
-      itemMaterial: YELLOW_FLOWER
-      damage: 0
-      display: Buttercup [37:0]
-      category: Plant
-      type: BLOCK
-   poppy:
-      blockMaterial: RED_ROSE
-      dataValue: 0
-      itemMaterial: RED_ROSE
-      damage: 0
-      display: Poppy [38:0]
-      category: Plant
-      type: BLOCK
-   blue_orchid:
-      blockMaterial: RED_ROSE
-      dataValue: 1
-      itemMaterial: RED_ROSE
-      damage: 1
-      display: Cornflower [38:1]
-      category: Plant
-      type: BLOCK
-   allium:
-      blockMaterial: RED_ROSE
-      dataValue: 2
-      itemMaterial: RED_ROSE
-      damage: 2
-      display: Camellia [38:2]
-      category: Plant
-      type: BLOCK
-   houstonia:
-      blockMaterial: RED_ROSE
-      dataValue: 3
-      itemMaterial: RED_ROSE
-      damage: 3
-      display: White lily [38:3]
-      category: Plant
-      type: BLOCK
-   red_tulip:
-      blockMaterial: RED_ROSE
-      dataValue: 4
-      itemMaterial: RED_ROSE
-      damage: 4
-      display: Snapdragon [38:4]
-      category: Plant
-      type: BLOCK
-   orange_tulip:
-      blockMaterial: RED_ROSE
-      dataValue: 5
-      itemMaterial: RED_ROSE
-      damage: 5
-      display: Marigold [38:5]
-      category: Plant
-      type: BLOCK
-   white_tulip:
-      blockMaterial: RED_ROSE
-      dataValue: 6
-      itemMaterial: RED_ROSE
-      damage: 6
-      display: Alfirin [38:6]
-      category: Plant
-      type: BLOCK
-   pink_tulip:
-      blockMaterial: RED_ROSE
-      dataValue: 7
-      itemMaterial: RED_ROSE
-      damage: 7
-      display: Pink flowered bush [38:7]
-      category: Plant
-      type: BLOCK
-   oxeye_daisy:
-      blockMaterial: RED_ROSE
-      dataValue: 8
-      itemMaterial: RED_ROSE
-      damage: 8
-      display: Daisy [38:8]
-      category: Plant
-      type: BLOCK
-   oak_sapling_stage1:
-      blockMaterial: SAPLING
-      dataValue: 8
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 5
-      display: Athelas [6:8]
-      category: Plant
-      type: BLOCK
-   spruce_sapling_stage1:
-      blockMaterial: SAPLING
-      dataValue: 9
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 6
-      display: Red iris [6:9]
-      category: Plant
-      type: BLOCK
-   birch_sapling_stage1:
-      blockMaterial: SAPLING
-      dataValue: 10
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 7
-      display: Violet iris [6:10]
-      category: Plant
-      type: BLOCK
-   jungle_sapling_stage1:
-      blockMaterial: SAPLING
-      dataValue: 11
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 8
-      display: Blue orchid [6:11]
-      category: Plant
-      type: BLOCK
-   acacia_sapling_stage1:
-      blockMaterial: SAPLING
-      dataValue: 12
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 9
-      display: Daffodil [6:12]
-      category: Plant
-      type: BLOCK
-   dark_oak_sapling_stage1:
-      blockMaterial: SAPLING
-      dataValue: 13
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 10
-      display: Red bush [6:13]
-      category: Plant
-      type: BLOCK
-   nether_wart_stage2:
-      blockMaterial: NETHER_WARTS
-      dataValue: 2
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 11
-      display: Heather [115:2]
-      category: Plant
-      type: BLOCK
-   double_rose_bottom:
-      lowerMaterial: DOUBLE_PLANT
-      upperMaterial: DOUBLE_PLANT
-      lowerDataValue: 4
-      upperDataValue: 12
-      itemMaterial: DOUBLE_PLANT
-      damage: 4
-      display: Rose bush [175:4]
-      category: Plant
-      type: DOUBLE_Y_BLOCK
-   double_paeonia_bottom:
-      lowerMaterial: DOUBLE_PLANT
-      upperMaterial: DOUBLE_PLANT
-      lowerDataValue: 5
-      upperDataValue: 13
-      itemMaterial: DOUBLE_PLANT
-      damage: 5
-      display: Lavender [175:5]
-      category: Plant
-      type: DOUBLE_Y_BLOCK
-   sapling_oak_stage0:
-      blockMaterial: SAPLING
-      dataValue: 0
-      itemMaterial: SAPLING
-      damage: 0
-      display: Oak sapling [6:0]
-      category: Plant
-      type: BLOCK
-   spruce_sapling_stage0:
-      blockMaterial: SAPLING
-      dataValue: 1
-      itemMaterial: SAPLING
-      damage: 1
-      display: Spruce sapling [6:1]
-      category: Plant
-      type: BLOCK
-   birch_sapling_stage0:
-      blockMaterial: SAPLING
-      dataValue: 2
-      itemMaterial: SAPLING
-      damage: 2
-      display: Birch sapling [6:2]
-      category: Plant
-      type: BLOCK
-   jungle_sapling_stage0:
-      blockMaterial: SAPLING
-      dataValue: 3
-      itemMaterial: SAPLING
-      damage: 3
-      display: Jungle sapling [6:3]
-      category: Plant
-      type: BLOCK
-   acacia_sapling_stage0:
-      blockMaterial: SAPLING
-      dataValue: 4
-      itemMaterial: SAPLING
-      damage: 4
-      display: Acacia sapling [6:4]
-      category: Plant
-      type: BLOCK
-   dark_oak_sapling_stage0:
-      blockMaterial: SAPLING
-      dataValue: 5
-      itemMaterial: SAPLING
-      damage: 5
-      display: Dark oak sapling [6:5]
-      category: Plant
-      type: BLOCK
-   nether_wart_stage3:
-      blockMaterial: NETHER_WARTS
-      dataValue: 3
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 12
-      display: Green bush [115:3]
-      category: Plant
-      type: BLOCK
-   tall_grass:
-      blockMaterial: LONG_GRASS
-      dataValue: 1
-      itemMaterial: LONG_GRASS
-      damage: 1
-      display: Tallgrass [31:1]
-      category: Plant
-      type: BLOCK
-   fern:
-      blockMaterial: LONG_GRASS
-      dataValue: 2
-      itemMaterial: LONG_GRASS
-      damage: 2
-      display: Fern [31:2]
-      category: Plant
-      type: BLOCK
-   dead_bush:
-      blockMaterial: DEAD_BUSH
-      dataValue: 0
-      itemMaterial: DEAD_BUSH
-      damage: 0
-      display: Mixed grass [32:0]
-      category: Plant
-      type: BLOCK
-   double_grass_bottom:
-      lowerMaterial: DOUBLE_PLANT
-      upperMaterial: DOUBLE_PLANT
-      lowerDataValue: 2
-      upperDataValue: 10
-      itemMaterial: DOUBLE_PLANT
-      damage: 2
-      display: Double tall grass [175:2]
-      category: Plant
-      type: DOUBLE_Y_BLOCK
-   double_syringa_top:
-      lowerMaterial: DOUBLE_PLANT
-      upperMaterial: DOUBLE_PLANT
-      lowerDataValue: 1
-      upperDataValue: 9
-      itemMaterial: DOUBLE_PLANT
-      damage: 1
-      display: Tall reeds [175:1]
-      category: Plant
-      type: DOUBLE_Y_BLOCK
-   reeds:
-      blockMaterial: SUGAR_CANE_BLOCK
-      dataValue: 0
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 13
-      display: Reeds [83:0]
-      category: Plant
-      type: BLOCK
-   vine:
-      blockMaterial: VINE
-      dataValue: 0
-      itemMaterial: VINE
-      damage: 0
-      display: Vines [106:0]
-      category: Plant
-      type: VANILLA
-   waterlily:
-      blockMaterial: WATER_LILY
-      dataValue: 0
-      itemMaterial: WATER_LILY
-      damage: 0
-      display: Lilypad [111:0]
-      category: Plant
-      type: VANILLA
-   cactus_stage0:
-      blockMaterial: CACTUS
-      dataValue: 0
-      itemMaterial: CACTUS
-      damage: 0
-      display: Cactus [81:0]
-      category: Plant
-      type: BLOCK
-   brown_mushroom:
-      blockMaterial: BROWN_MUSHROOM
-      dataValue: 0
-      itemMaterial: BROWN_MUSHROOM
-      damage: 0
-      display: Brown mushroom [39:0]
-      category: Plant
-      type: BLOCK
-   red_mushroom:
-      blockMaterial: RED_MUSHROOM
-      dataValue: 0
-      itemMaterial: RED_MUSHROOM
-      damage: 0
-      display: Red mushroom [40:0]
-      category: Plant
-      type: BLOCK
-   oak_leaves:
-      blockMaterial: LEAVES
-      dataValue: 0
-      itemMaterial: LEAVES
-      damage: 0
-      display: Oak leaves [18:0]
-      category: Plant
-      type: VANILLA
-   spruce_leaves:
-      blockMaterial: LEAVES
-      dataValue: 1
-      itemMaterial: LEAVES
-      damage: 1
-      display: Spruce leaves [18:1]
-      category: Plant
-      type: VANILLA
-   birch_leaves:
-      blockMaterial: LEAVES
-      dataValue: 2
-      itemMaterial: LEAVES
-      damage: 2
-      display: Birch leaves [18:2]
-      category: Plant
-      type: VANILLA
-   jungle_leaves:
-      blockMaterial: LEAVES
-      dataValue: 3
-      itemMaterial: LEAVES
-      damage: 3
-      display: Jungle leaves [18:3]
-      category: Plant
-      type: VANILLA
-   dark_oak_leaves:
-      blockMaterial: LEAVES_2
-      dataValue: 1
-      itemMaterial: LEAVES_2
-      damage: 1
-      display: Dark oak leaves [18:5]
-      category: Plant
-      type: VANILLA
-   oak_log:
-      blockMaterial: LOG
-      dataValue: 0
-      itemMaterial: LOG
-      damage: 0
-      display: Oak log [17:0]
-      category: Plant
-      type: VANILLA
-   spruce_log:
-      blockMaterial: LOG
-      dataValue: 1
-      itemMaterial: LOG
-      damage: 1
-      display: Spruce log [17:1]
-      category: Plant
-      type: VANILLA
-   birch_log:
-      blockMaterial: LOG
-      dataValue: 2
-      itemMaterial: LOG
-      damage: 2
-      display: Birch log [17:2]
-      category: Plant
-      type: VANILLA
-   jungle_log:
-      blockMaterial: LOG
-      dataValue: 3
-      itemMaterial: LOG
-      damage: 3
-      display: Jungle log [17:3]
-      category: Plant
-      type: VANILLA
-   acacia_log:
-      blockMaterial: LOG_2
-      dataValue: 0
-      itemMaterial: LOG_2
-      damage: 0
-      display: Acacia log [162:0]
-      category: Plant
-      type: VANILLA
-   oak_bark:
-      blockMaterial: LOG
-      dataValue: 12
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 14
-      display: Oak log all-bark [17:12]
-      category: Plant
-      type: BLOCK
-   spruce_bark:
-      blockMaterial: LOG
-      dataValue: 13
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 15
-      display: Spruce log all-bark [17:13]
-      category: Plant
-      type: BLOCK
-   birch_bark:
-      blockMaterial: LOG
-      dataValue: 14
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 16
-      display: Birch log all-bark [17:14]
-      category: Plant
-      type: BLOCK
-   jungle_bark:
-      blockMaterial: LOG
-      dataValue: 15
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 17
-      display: Jungle log all-bark [17:15]
-      category: Plant
-      type: BLOCK
-   acacia_bark:
-      blockMaterial: LOG_2
-      dataValue: 12
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 18
-      display: Acacia log all-bark [162:12]
-      category: Plant
-      type: BLOCK
-   brown_mushroom_block_inside_all:
-      blockMaterial: HUGE_MUSHROOM_1
-      dataValue: 0
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 350
-      display: Grey Log [99:0]
-      category: Plant
-      type: BLOCK
-   brown_mushroom_block_nw:
-      blockMaterial: HUGE_MUSHROOM_1
-      dataValue: 1
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 351
-      display: Birch Log [99:1]
-      category: Plant
-      type: BLOCK
-   brown_mushroom_block_n:
-      blockMaterial: HUGE_MUSHROOM_1
-      dataValue: 2
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 352
-      display: Mossy Log [99:2]
-      category: Plant
-      type: BLOCK
-   brown_mushroom_block_ne:
-      blockMaterial: HUGE_MUSHROOM_1
-      dataValue: 3
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 353
-      display: Very Mossy Log [99:3]
-      category: Plant
-      type: BLOCK
-   brown_mushroom_block_w:
-      blockMaterial: HUGE_MUSHROOM_1
-      dataValue: 4
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 354
-      display: Red Log [99:4]
-      category: Plant
-      type: BLOCK
-   chorus_plant:
-      blockMaterial: CHORUS_PLANT
-      dataValue: 0
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 19
-      display: Medium oak log [199:0]
-      category: Plant
-      type: BLOCK
-   cactus_stage10:
-      blockMaterial: CACTUS
-      dataValue: 10
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 20
-      display: Medium spruce log Y [81:10]
-      category: Plant
-      type: BLOCK
-   cactus_stage11:
-      blockMaterial: CACTUS
-      dataValue: 11
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 21
-      display: Medium spruce log X [81:11]
-      category: Plant
-      type: BLOCK
-   cactus_stage12:
-      blockMaterial: CACTUS
-      dataValue: 12
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 22
-      display: Medium spruce log Z [81:12]
-      category: Plant
-      type: BLOCK
-   cactus_stage13:
-      blockMaterial: CACTUS
-      dataValue: 13
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 23
-      display: Medium spruce log cross [81:13]
-      category: Plant
-      type: BLOCK
-   cactus_stage14:
-      blockMaterial: CACTUS
-      dataValue: 14
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 24
-      display: Medium spruce log cross flat [81:14]
-      category: Plant
-      type: BLOCK
-   tree_thin_oak_vertical:
-      blockMaterial: ACACIA_FENCE
-      dataValue: 0
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 25
-      display: Thin oak log [192:0]
-      category: Plant
-      type: BLOCK
-   tree_thin_spruce_vertical:
-      blockMaterial: DARK_OAK_FENCE
-      dataValue: 0
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 26
-      display: Thin spruce log [191:0]
-      category: Plant
-      type: BLOCK
+  dandelion:
+    itemMaterial: DANDELION
+    damage: 0
+    display: Buttercup [37:0]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dandelion
+  poppy:
+    itemMaterial: POPPY
+    damage: 0
+    display: Poppy [38:0]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:poppy
+  blue_orchid:
+    itemMaterial: BLUE_ORCHID
+    damage: 1
+    display: Cornflower [38:1]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:blue_orchid
+  allium:
+    itemMaterial: ALLIUM
+    damage: 2
+    display: Camellia [38:2]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:allium
+  houstonia:
+    itemMaterial: AZURE_BLUET
+    damage: 3
+    display: White lily [38:3]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:azure_bluet
+  red_tulip:
+    itemMaterial: RED_TULIP
+    damage: 4
+    display: Snapdragon [38:4]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:red_tulip
+  orange_tulip:
+    itemMaterial: ORANGE_TULIP
+    damage: 5
+    display: Marigold [38:5]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:orange_tulip
+  white_tulip:
+    itemMaterial: WHITE_TULIP
+    damage: 6
+    display: Alfirin [38:6]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:white_tulip
+  pink_tulip:
+    itemMaterial: PINK_TULIP
+    damage: 7
+    display: Pink flowered bush [38:7]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:pink_tulip
+  oxeye_daisy:
+    itemMaterial: OXEYE_DAISY
+    damage: 8
+    display: Daisy [38:8]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:oxeye_daisy
+  oak_sapling_stage1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 5
+    display: Athelas [6:8]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:oak_sapling[stage=1]
+  spruce_sapling_stage1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 6
+    display: Red iris [6:9]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:spruce_sapling[stage=1]
+  birch_sapling_stage1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 7
+    display: Violet iris [6:10]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:birch_sapling[stage=1]
+  jungle_sapling_stage1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 8
+    display: Blue orchid [6:11]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:jungle_sapling[stage=1]
+  acacia_sapling_stage1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 9
+    display: Daffodil [6:12]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:acacia_sapling[stage=1]
+  dark_oak_sapling_stage1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 10
+    display: Red bush [6:13]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dark_oak_sapling[stage=1]
+  nether_wart_stage2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 11
+    display: Heather [115:2]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:nether_wart[age=2]
+  double_rose_bottom:
+    lowerMaterial: ROSE_BUSH
+    upperMaterial: ROSE_BUSH
+    lowerDataValue: 4
+    upperDataValue: 12
+    itemMaterial: ROSE_BUSH
+    damage: 4
+    display: Rose bush [175:4]
+    category: Plant
+    type: DOUBLE_Y_BLOCK
+    blockDataLower: minecraft:rose_bush[half=lower]
+    blockDataUpper: minecraft:rose_bush[half=upper]
+  double_paeonia_bottom:
+    lowerMaterial: PEONY
+    upperMaterial: PEONY
+    lowerDataValue: 5
+    upperDataValue: 13
+    itemMaterial: PEONY
+    damage: 5
+    display: Lavender [175:5]
+    category: Plant
+    type: DOUBLE_Y_BLOCK
+    blockDataLower: minecraft:peony[half=lower]
+    blockDataUpper: minecraft:peony[half=upper]
+  sapling_oak_stage0:
+    itemMaterial: OAK_SAPLING
+    damage: 0
+    display: Oak sapling [6:0]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:oak_sapling[stage=0]
+  spruce_sapling_stage0:
+    itemMaterial: SPRUCE_SAPLING
+    damage: 1
+    display: Spruce sapling [6:1]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:spruce_sapling[stage=0]
+  birch_sapling_stage0:
+    itemMaterial: BIRCH_SAPLING
+    damage: 2
+    display: Birch sapling [6:2]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:birch_sapling[stage=0]
+  jungle_sapling_stage0:
+    itemMaterial: JUNGLE_SAPLING
+    damage: 3
+    display: Jungle sapling [6:3]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:jungle_sapling[stage=0]
+  acacia_sapling_stage0:
+    itemMaterial: ACACIA_SAPLING
+    damage: 4
+    display: Acacia sapling [6:4]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:acacia_sapling[stage=0]
+  dark_oak_sapling_stage0:
+    itemMaterial: DARK_OAK_SAPLING
+    damage: 5
+    display: Dark oak sapling [6:5]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dark_oak_sapling[stage=0]
+  nether_wart_stage3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 12
+    display: Green bush [115:3]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:nether_wart[age=3]
+  tall_grass:
+    itemMaterial: GRASS
+    damage: 1
+    display: Tallgrass [31:1]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:grass
+  fern:
+    itemMaterial: FERN
+    damage: 2
+    display: Fern [31:2]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:fern
+  dead_bush:
+    itemMaterial: DEAD_BUSH
+    damage: 0
+    display: Mixed grass [32:0]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dead_bush
+  double_grass_bottom:
+    lowerMaterial: TALL_GRASS
+    upperMaterial: TALL_GRASS
+    lowerDataValue: 2
+    upperDataValue: 10
+    itemMaterial: TALL_GRASS
+    damage: 2
+    display: Double tall grass [175:2]
+    category: Plant
+    type: DOUBLE_Y_BLOCK
+    blockDataLower: minecraft:tall_grass[half=lower]
+    blockDataUpper: minecraft:tall_grass[half=upper]
+  double_syringa_top:
+    lowerMaterial: LILAC
+    upperMaterial: LILAC
+    lowerDataValue: 1
+    upperDataValue: 9
+    itemMaterial: LILAC
+    damage: 1
+    display: Tall reeds [175:1]
+    category: Plant
+    type: DOUBLE_Y_BLOCK
+    blockDataLower: minecraft:lilac[half=lower]
+    blockDataUpper: minecraft:lilac[half=upper]
+  reeds:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 13
+    display: Reeds [83:0]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:sugar_cane[age=0]
+  vine:
+    itemMaterial: VINE
+    damage: 0
+    display: Vines [106:0]
+    category: Plant
+    type: VANILLA
+  waterlily:
+    itemMaterial: LILY_PAD
+    damage: 0
+    display: Lilypad [111:0]
+    category: Plant
+    type: VANILLA
+  cactus_stage0:
+    itemMaterial: CACTUS
+    damage: 0
+    display: Cactus [81:0]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:cactus[age=0]
+  brown_mushroom:
+    itemMaterial: BROWN_MUSHROOM
+    damage: 0
+    display: Brown mushroom [39:0]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:brown_mushroom
+  red_mushroom:
+    itemMaterial: RED_MUSHROOM
+    damage: 0
+    display: Red mushroom [40:0]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:red_mushroom
+  oak_leaves:
+    itemMaterial: OAK_LEAVES
+    damage: 0
+    display: Oak leaves [18:0]
+    category: Plant
+    type: VANILLA
+  spruce_leaves:
+    itemMaterial: SPRUCE_LEAVES
+    damage: 1
+    display: Spruce leaves [18:1]
+    category: Plant
+    type: VANILLA
+  birch_leaves:
+    itemMaterial: BIRCH_LEAVES
+    damage: 2
+    display: Birch leaves [18:2]
+    category: Plant
+    type: VANILLA
+  jungle_leaves:
+    itemMaterial: JUNGLE_LEAVES
+    damage: 3
+    display: Jungle leaves [18:3]
+    category: Plant
+    type: VANILLA
+  dark_oak_leaves:
+    itemMaterial: DARK_OAK_LEAVES
+    damage: 1
+    display: Dark oak leaves [18:5]
+    category: Plant
+    type: VANILLA
+  oak_log:
+    itemMaterial: OAK_LOG
+    damage: 0
+    display: Oak log [17:0]
+    category: Plant
+    type: VANILLA
+  spruce_log:
+    itemMaterial: SPRUCE_LOG
+    damage: 1
+    display: Spruce log [17:1]
+    category: Plant
+    type: VANILLA
+  birch_log:
+    itemMaterial: BIRCH_LOG
+    damage: 2
+    display: Birch log [17:2]
+    category: Plant
+    type: VANILLA
+  jungle_log:
+    itemMaterial: JUNGLE_LOG
+    damage: 3
+    display: Jungle log [17:3]
+    category: Plant
+    type: VANILLA
+  acacia_log:
+    itemMaterial: ACACIA_LOG
+    damage: 0
+    display: Acacia log [162:0]
+    category: Plant
+    type: VANILLA
+  oak_bark:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 14
+    display: Oak log all-bark [17:12]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:oak_wood
+  spruce_bark:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 15
+    display: Spruce log all-bark [17:13]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:spruce_wood
+  birch_bark:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 16
+    display: Birch log all-bark [17:14]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:birch_wood
+  jungle_bark:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 17
+    display: Jungle log all-bark [17:15]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:jungle_wood
+  acacia_bark:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 18
+    display: Acacia log all-bark [162:12]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:acacia_wood
+  brown_mushroom_block_inside_all:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 350
+    display: Grey Log [99:0]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=false,west=false]
+  brown_mushroom_block_nw:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 351
+    display: Birch Log [99:1]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=false,up=true,west=true]
+  brown_mushroom_block_n:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 352
+    display: Mossy Log [99:2]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=false,up=true,west=false]
+  brown_mushroom_block_ne:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 353
+    display: Very Mossy Log [99:3]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=false]
+  brown_mushroom_block_w:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 354
+    display: Red Log [99:4]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=true,west=true]
+  chorus_plant:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 19
+    display: Medium oak log [199:0]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:chorus_plant[down=false,east=false,north=false,south=false,up=false,west=false]
+  cactus_stage10:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 20
+    display: Medium spruce log Y [81:10]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:cactus[age=10]
+  cactus_stage11:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 21
+    display: Medium spruce log X [81:11]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:cactus[age=11]
+  cactus_stage12:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 22
+    display: Medium spruce log Z [81:12]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:cactus[age=12]
+  cactus_stage13:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 23
+    display: Medium spruce log cross [81:13]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:cactus[age=13]
+  cactus_stage14:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 24
+    display: Medium spruce log cross flat [81:14]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:cactus[age=14]
+  tree_thin_oak_vertical:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 25
+    display: Thin oak log [192:0]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:acacia_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+  tree_thin_spruce_vertical:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 26
+    display: Thin spruce log [191:0]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dark_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]

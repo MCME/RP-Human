@@ -1,103 +1,81 @@
 Items:
-   oak_fence:
-      blockMaterial: FENCE
-      dataValue: 0
-      itemMaterial: FENCE
-      damage: 0
-      display: Oak fence [85:0]
-      category: Fence
-      type: VANILLA
-   oak_fence_gate:
-      blockMaterial: FENCE_GATE
-      dataValue: 0
-      itemMaterial: FENCE_GATE
-      damage: 0
-      display: Oak fence gate [107:0]
-      category: Fence
-      type: VANILLA
-   birch_fence:
-      blockMaterial: BIRCH_FENCE
-      dataValue: 0
-      itemMaterial: BIRCH_FENCE
-      damage: 0
-      display: Birch fence [189:0]
-      category: Fence
-      type: VANILLA
-   birch_fence_gate:
-      blockMaterial: BIRCH_FENCE_GATE
-      dataValue: 0
-      itemMaterial: BIRCH_FENCE_GATE
-      damage: 0
-      display: Birch fence gate [184:0]
-      category: Fence
-      type: VANILLA
-   nether_fence:
-      blockMaterial: NETHER_FENCE
-      dataValue: 0
-      itemMaterial: NETHER_FENCE
-      damage: 0
-      display: White bricks fence [113:0]
-      category: Fence
-      type: VANILLA
-   jungle_fence:
-      blockMaterial: JUNGLE_FENCE
-      dataValue: 0
-      itemMaterial: JUNGLE_FENCE
-      damage: 0
-      display: White bricks wall [190:0]
-      category: Fence
-      type: VANILLA
-   acacia_fence_gate_closed_ne:
-      blockMaterial: ACACIA_FENCE_GATE
-      dataValueWest: 3
-      dataValueNorth: 2
-      dataValueEast: 3
-      dataValueSouth: 2
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 283
-      display: White bricks wall straight [187:2]
-      category: Fence
-      type: FOUR_DIRECTIONS
-   spruce_fence:
-      blockMaterial: SPRUCE_FENCE
-      dataValue: 0
-      itemMaterial: SPRUCE_FENCE
-      damage: 0
-      display: Light gray bricks wall [188:0]
-      category: Fence
-      type: VANILLA
-   acacia_fence_gate_closed_sw:
-      blockMaterial: ACACIA_FENCE_GATE
-      dataValueWest: 1
-      dataValueNorth: 0
-      dataValueEast: 1
-      dataValueSouth: 0
-      itemMaterial: DIAMOND_LEGGINGS
-      damage: 282
-      display: Light gray bricks wall straight [187:0]
-      category: Fence
-      type: FOUR_DIRECTIONS
-   cobblestone_wall:
-      blockMaterial: COBBLE_WALL
-      dataValue: 0
-      itemMaterial: COBBLE_WALL
-      damage: 0
-      display: Cobblestone wall [139:0]
-      category: Fence
-      type: VANILLA
-   cobblestone_wall_mossy:
-      blockMaterial: COBBLE_WALL
-      dataValue: 1
-      itemMaterial: COBBLE_WALL
-      damage: 1
-      display: Mossy cobblestone wall [139:1]
-      category: Fence
-      type: VANILLA
-   iron_fence:
-      blockMaterial: IRON_FENCE
-      dataValue: 0
-      itemMaterial: IRON_FENCE
-      damage: 0
-      display: Iron fence [101:0]
-      category: Fence
-      type: VANILLA
+  oak_fence:
+    itemMaterial: OAK_FENCE
+    damage: 0
+    display: Oak fence [85:0]
+    category: Fence
+    type: VANILLA
+  oak_fence_gate:
+    itemMaterial: OAK_FENCE_GATE
+    damage: 0
+    display: Oak fence gate [107:0]
+    category: Fence
+    type: VANILLA
+  birch_fence:
+    itemMaterial: BIRCH_FENCE
+    damage: 0
+    display: Birch fence [189:0]
+    category: Fence
+    type: VANILLA
+  birch_fence_gate:
+    itemMaterial: BIRCH_FENCE_GATE
+    damage: 0
+    display: Birch fence gate [184:0]
+    category: Fence
+    type: VANILLA
+  nether_fence:
+    itemMaterial: NETHER_BRICK_FENCE
+    damage: 0
+    display: White bricks fence [113:0]
+    category: Fence
+    type: VANILLA
+  jungle_fence:
+    itemMaterial: JUNGLE_FENCE
+    damage: 0
+    display: White bricks wall [190:0]
+    category: Fence
+    type: VANILLA
+  acacia_fence_gate_closed_ne:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 283
+    display: White bricks wall straight [187:2]
+    category: Fence
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=false,powered=false]
+    blockDataWest: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=false,powered=false]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=false,powered=false]
+    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=false,powered=false]
+  spruce_fence:
+    itemMaterial: SPRUCE_FENCE
+    damage: 0
+    display: Light gray bricks wall [188:0]
+    category: Fence
+    type: VANILLA
+  acacia_fence_gate_closed_sw:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 282
+    display: Light gray bricks wall straight [187:0]
+    category: Fence
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=false]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=false]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=false]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=false]
+  cobblestone_wall:
+    itemMaterial: COBBLESTONE_WALL
+    damage: 0
+    display: Cobblestone wall [139:0]
+    category: Fence
+    type: VANILLA
+  cobblestone_wall_mossy:
+    itemMaterial: MOSSY_COBBLESTONE_WALL
+    damage: 1
+    display: Mossy cobblestone wall [139:1]
+    category: Fence
+    type: VANILLA
+  iron_fence:
+    itemMaterial: IRON_BARS
+    damage: 0
+    display: Iron fence [101:0]
+    category: Fence
+    type: VANILLA

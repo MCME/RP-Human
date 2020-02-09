@@ -1,18 +1,60 @@
 {
-    "variants": {
-        "variant=north_west": { "model": "red_mushroom_block_normal" },
-        "variant=north": { "model": "red_mushroom_block_normal", "x": 180 },
-        "variant=north_east": { "model": "red_mushroom_block_normal", "x": 90 },
-        "variant=west": { "model": "red_mushroom_block_normal", "x": 270 },
-        "variant=center": { "model": "red_mushroom_block_normal", "x": 90, "y": 90 },
-        "variant=east": { "model": "red_mushroom_block_normal", "x": 90, "y": 270 },
-        "variant=south_west": { "model": "red_mushroom_block_seu" },
-        "variant=south": { "model": "red_mushroom_block_seu", "x": 90},
-        "variant=south_east": { "model": "red_mushroom_block_seu", "x": 90, "y": 90 },
-        "variant=stem": { "model": "red_mushroom_block_nwd" },
-        "variant=all_stem": { "model": "red_mushroom_block_nwd", "x": 90 },
-        "variant=all_outside": { "model": "red_mushroom_block_nwd", "x": 90, "y": 90 },
-        "variant=all_inside": { "model": "unused_cross_0" }
-    }
+  "multipart": [
+    { "when": {"north": true, "west": true, "south": false, "east": false, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_normal"
+    }},
+    { "when": {"north": true, "west": false, "south": false, "east": false, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_normal",
+      "x": 180
+    }},
+    { "when": {"north": true, "west": false, "south": false, "east": true, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_normal",
+      "x": 90
+    }},
+    { "when": {"north": false, "west": true, "south": false, "east": false, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_normal",
+      "x": 270
+    }},
+    { "when": {"north": false, "west": false, "south": false, "east": false, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_normal",
+      "x": 90,
+      "y": 90
+    }},
+    { "when": {"north": false, "west": false, "south": false, "east": true, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_normal",
+      "x": 90,
+      "y": 270
+    }},
+    { "when": {"north": false, "west": true, "south": true, "east": false, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_seu"
+    }},
+    { "when": {"north": false, "west": false, "south": true, "east": false, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_seu",
+      "x": 90
+    }},
+    { "when": {"north": false, "west": false, "south": true, "east": true, "up": true, "down": false },
+      "apply": {
+      "model": "block/red_mushroom_block_seu",
+      "x": 90,
+      "y": 90
+    }},
+    { "when": {"north": true, "west": true, "south": true, "east": true, "up": true, "down": true },
+      "apply": {
+      "model": "block/red_mushroom_block_nwd",
+      "x": 90,
+      "y": 90
+    }},
+    { "when": {"north": false, "west": false, "south": false, "east": false, "up": false, "down": false },
+      "apply": {
+      "model": "block/double_slab_nether_brick"
+    }}
+  ]
 }
-

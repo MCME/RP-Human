@@ -1,8 +1,8 @@
 {
-    "parent": "itemblock/upper_slab",
-    "textures": {
-        "bottom": "blocks/monster_egg_cobblestone",
-        "top": "blocks/monster_egg_cobblestone",
-		"side": "blocks/monster_egg_cobblestone"
-    }
+  "parent": "itemblock/slab_top",
+  "textures": {
+    "bottom": "block/infested_cobblestone",
+    "top": "block/infested_cobblestone",
+    "side": "block/infested_cobblestone"
+  }
 }
