@@ -73,7 +73,7 @@ Items:
     display: Mossy large white bricks [43:15]
     category: Block2
     type: BLOCK
-    blockData: minecraft:quartz_slab[type=double,waterlogged=false]
+    blockData: minecraft:smooth_quartz_slab[type=double,waterlogged=false]
   double_slab_quartz:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 82
@@ -201,14 +201,14 @@ Items:
     display: Light gray smooth block [43:13]
     category: Block2
     type: BLOCK
-    blockData: minecraft:stone_brick_slab[type=double,waterlogged=false]
+    blockData: minecraft:stone_slab[type=double,waterlogged=true]
   double_slab_brick_seamless:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 86
     display: Dark gray smooth block [43:12]
     category: Block2
     type: BLOCK
-    blockData: minecraft:brick_slab[type=double,waterlogged=false]
+    blockData: minecraft:stone_slab[type=double,waterlogged=false]
   purpur_pillar_top:
     itemMaterial: PURPUR_PILLAR
     damage: 0
@@ -305,7 +305,7 @@ Items:
     display: Smooth stone block [43:8]
     category: Block2
     type: BLOCK
-    blockData: minecraft:stone_slab[type=double,waterlogged=false]
+    blockData: minecraft:smooth_stone_slab[type=double,waterlogged=true]
   monster_egg_stone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 93
@@ -319,7 +319,7 @@ Items:
     display: Double stone slab [43:0]
     category: Block2
     type: BLOCK
-    blockData: minecraft:stone_slab[type=double,waterlogged=false]
+    blockData: minecraft:smooth_stone_slab[type=double,waterlogged=false]
   half_slab_stone:
     itemMaterial: STONE_SLAB
     damage: 0
@@ -369,7 +369,7 @@ Items:
     display: Mixed cobblestone [43:11]
     category: Block2
     type: BLOCK
-    blockData: minecraft:cobblestone_slab[type=double,waterlogged=false]
+    blockData: minecraft:purpur_slab[type=double,waterlogged=false]
   monster_egg_cobblestone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 97

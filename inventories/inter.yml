@@ -127,9 +127,9 @@ Items:
     category: Inter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:petrified_oak_slab[type=double,waterlogged=false]
-    blockDataWest: minecraft:petrified_oak_slab[type=double,waterlogged=false]
+    blockDataWest: minecraft:petrified_oak_slab[type=double,waterlogged=true]
     blockDataNorth: minecraft:petrified_oak_slab[type=double,waterlogged=false]
-    blockDataEast: minecraft:petrified_oak_slab[type=double,waterlogged=false]
+    blockDataEast: minecraft:petrified_oak_slab[type=double,waterlogged=true]
   brown_shulker_box:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 166
