@@ -1,58 +1,114 @@
 {
   "variants": {
-    "facing\u003dnorth,half\u003dbottom,open\u003dfalse": {
+    "facing\u003dnorth,half\u003dbottom,open\u003dfalse,powered=false": {
       "model": "block/iron_trapdoor_bottom_n"
     },
-    "facing\u003dsouth,half\u003dbottom,open\u003dfalse": {
+    "facing\u003dsouth,half\u003dbottom,open\u003dfalse,powered=false": {
       "model": "block/iron_trapdoor_bottom_s"
     },
-    "facing\u003deast,half\u003dbottom,open\u003dfalse": {
+    "facing\u003deast,half\u003dbottom,open\u003dfalse,powered=false": {
       "model": "block/iron_trapdoor_bottom_e"
     },
-    "facing\u003dwest,half\u003dbottom,open\u003dfalse": {
+    "facing\u003dwest,half\u003dbottom,open\u003dfalse,powered=false": {
       "model": "block/iron_trapdoor_bottom_w"
     },
-    "facing\u003dnorth,half\u003dtop,open\u003dfalse": {
+    "facing\u003dnorth,half\u003dtop,open\u003dfalse,powered=false": {
       "model": "block/iron_trapdoor_top_n"
     },
-    "facing\u003dsouth,half\u003dtop,open\u003dfalse": {
+    "facing\u003dsouth,half\u003dtop,open\u003dfalse,powered=false": {
       "model": "block/iron_trapdoor_top_s"
     },
-    "facing\u003deast,half\u003dtop,open\u003dfalse": {
+    "facing\u003deast,half\u003dtop,open\u003dfalse,powered=false": {
       "model": "block/iron_trapdoor_top_e"
     },
-    "facing\u003dwest,half\u003dtop,open\u003dfalse": {
+    "facing\u003dwest,half\u003dtop,open\u003dfalse,powered=false": {
       "model": "block/iron_trapdoor_top_w"
     },
-    "facing\u003dnorth,half\u003dbottom,open\u003dtrue": {
+    "facing\u003dnorth,half\u003dbottom,open\u003dtrue,powered=false": {
       "model": "block/iron_trapdoor_bottom_open"
     },
-    "facing\u003dsouth,half\u003dbottom,open\u003dtrue": {
+    "facing\u003dsouth,half\u003dbottom,open\u003dtrue,powered=false": {
       "model": "block/iron_trapdoor_bottom_open",
       "y": 180
     },
-    "facing\u003deast,half\u003dbottom,open\u003dtrue": {
+    "facing\u003deast,half\u003dbottom,open\u003dtrue,powered=false": {
       "model": "block/iron_trapdoor_bottom_open",
       "y": 90
     },
-    "facing\u003dwest,half\u003dbottom,open\u003dtrue": {
+    "facing\u003dwest,half\u003dbottom,open\u003dtrue,powered=false": {
       "model": "block/iron_trapdoor_bottom_open",
       "y": 270
     },
-    "facing\u003dnorth,half\u003dtop,open\u003dtrue": {
+    "facing\u003dnorth,half\u003dtop,open\u003dtrue,powered=false": {
       "model": "block/iron_trapdoor_top_open"
     },
-    "facing\u003dsouth,half\u003dtop,open\u003dtrue": {
+    "facing\u003dsouth,half\u003dtop,open\u003dtrue,powered=false": {
       "model": "block/iron_trapdoor_top_open",
       "y": 180
     },
-    "facing\u003deast,half\u003dtop,open\u003dtrue": {
+    "facing\u003deast,half\u003dtop,open\u003dtrue,powered=false": {
       "model": "block/iron_trapdoor_top_open",
       "y": 90
     },
-    "facing\u003dwest,half\u003dtop,open\u003dtrue": {
+    "facing\u003dwest,half\u003dtop,open\u003dtrue,powered=false": {
       "model": "block/iron_trapdoor_top_open",
       "y": 270
+    },
+
+    "facing\u003dnorth,half\u003dbottom,open\u003dfalse,powered=true": {
+      "model": "block/trapdoor_red_nether_brick_bottom"
+    },
+    "facing\u003dsouth,half\u003dbottom,open\u003dfalse,powered=true": {
+      "model": "block/trapdoor_brown_brick_bottom"
+    },
+    "facing\u003deast,half\u003dbottom,open\u003dfalse,powered=true": {
+      "model": "block/trapdoor_monster_egg_cobblestone_bottom"
+    },
+    "facing\u003dwest,half\u003dbottom,open\u003dfalse,powered=true": {
+      "model": "block/trapdoor_mossy_brown_brick_bottom"
+    },
+    "facing\u003dnorth,half\u003dtop,open\u003dfalse,powered=true": {
+      "model": "block/trapdoor_red_nether_brick_top"
+    },
+    "facing\u003dsouth,half\u003dtop,open\u003dfalse,powered=true": {
+      "model": "block/trapdoor_double_slab_nether_brick_seamless_top"
+    },
+    "facing\u003deast,half\u003dtop,open\u003dfalse,powered=true": {
+      "model": "block/trapdoor_monster_egg_cobblestone_top"
+    },
+    "facing\u003dwest,half\u003dtop,open\u003dfalse,powered=true": {
+      "model": "block/trapdoor_double_slab_nether_brick_top"
+    },
+    "facing\u003dnorth,half\u003dbottom,open\u003dtrue,powered=true": {
+      "model": "block/trapdoor_red_nether_brick_open"
+    },
+    "facing\u003dsouth,half\u003dbottom,open\u003dtrue,powered=true": {
+      "model": "block/trapdoor_red_nether_brick_open",
+      "y": 180
+    },
+    "facing\u003deast,half\u003dbottom,open\u003dtrue,powered=true": {
+      "model": "block/trapdoor_red_nether_brick_open",
+      "y": 90
+    },
+    "facing\u003dwest,half\u003dbottom,open\u003dtrue,powered=true": {
+      "model": "block/trapdoor_red_nether_brick_open",
+      "y": 270
+    },
+    "facing\u003dnorth,half\u003dtop,open\u003dtrue,powered=true": {
+      "model": "block/trapdoor_double_slab_nether_brick_open"
+    },
+    "facing\u003dsouth,half\u003dtop,open\u003dtrue,powered=true": {
+      "model": "block/trapdoor_double_slab_nether_brick_open",
+      "y": 180
+    },
+    "facing\u003deast,half\u003dtop,open\u003dtrue,powered=true": {
+      "model": "block/trapdoor_double_slab_nether_brick_open",
+      "y": 90
+    },
+    "facing\u003dwest,half\u003dtop,open\u003dtrue,powered=true": {
+      "model": "block/trapdoor_double_slab_nether_brick_open",
+      "y": 270
     }
-  }
+
+	}
 }
