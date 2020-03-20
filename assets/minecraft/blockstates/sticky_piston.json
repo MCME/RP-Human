@@ -1,26 +1,26 @@
 {
   "variants": {
     "extended\u003dfalse,facing\u003ddown": {
-      "model": "block/piston_sticky",
+      "model": "block/replace",
       "x": 90
     },
     "extended\u003dfalse,facing\u003dup": {
-      "model": "block/piston_sticky",
+      "model": "block/replace",
       "x": 270
     },
     "extended\u003dfalse,facing\u003dnorth": {
-      "model": "block/piston_sticky"
+      "model": "block/replace"
     },
     "extended\u003dfalse,facing\u003dsouth": {
-      "model": "block/piston_sticky",
+      "model": "block/replace",
       "y": 180
     },
     "extended\u003dfalse,facing\u003dwest": {
-      "model": "block/piston_sticky",
+      "model": "block/replace",
       "y": 270
     },
     "extended\u003dfalse,facing\u003deast": {
-      "model": "block/piston_sticky",
+      "model": "block/replace",
       "y": 90
     },
     "extended\u003dtrue,facing\u003ddown": {
