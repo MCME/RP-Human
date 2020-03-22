@@ -1,8 +1,9 @@
-{	"parent": "block/pillar_fancy_top",
-    "textures": {
-        "particle": "blocks/sandstone_normal",
-        "0": "blocks/sandstone_normal",
-        "1": "blocks/stone_granite_smooth",
-		"2": "blocks/sandstone_smooth"
-    }
+{
+  "parent": "block/pillar_fancy_top",
+  "textures": {
+    "particle": "block/sandstone",
+    "0": "block/sandstone",
+    "1": "block/polished_granite",
+    "2": "block/cut_sandstone"
+  }
 }

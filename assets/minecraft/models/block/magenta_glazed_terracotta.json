@@ -1,12 +1,12 @@
 {
-    "parent": "block/cube",
-    "textures": {
-        "particle": "blocks/hardened_clay_stained_lime",
-        "down": "blocks/hardened_clay_stained_lime",
-        "up": "blocks/red_sandstone_normal",
-        "north": "blocks/hardened_clay_stained_lime",
-        "east": "blocks/glazed_terracotta_magenta_side_1",
-        "south": "blocks/red_sandstone_normal",
-        "west": "blocks/glazed_terracotta_magenta_side_2"
-    }
+  "parent": "block/cube",
+  "textures": {
+    "particle": "block/lime_terracotta",
+    "down": "block/lime_terracotta",
+    "up": "block/red_sandstone",
+    "north": "block/lime_terracotta",
+    "east": "block/glazed_terracotta_magenta_side_1",
+    "south": "block/red_sandstone",
+    "west": "block/glazed_terracotta_magenta_side_2"
+  }
 }

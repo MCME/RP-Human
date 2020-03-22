@@ -1,8 +1,8 @@
 {
-    "parent": "block/half_slab",
-    "textures": {
-        "bottom": "blocks/stone_diorite",
-        "top": "blocks/stone_diorite",
-        "side": "blocks/stone_diorite"
-    }
+  "parent": "block/fake_slab",
+  "textures": {
+    "bottom": "block/diorite",
+    "top": "block/diorite",
+    "side": "block/diorite"
+  }
 }

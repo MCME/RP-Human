@@ -1,6 +1,10 @@
 {
-    "variants": {
-        "normal": { "model": "double_slab_quartz" },
-        "all":    { "model": "double_slab_quartz_seamless" }
+  "variants": {
+    "all": {
+      "model": "block/smooth_quartz"
+    },
+    "": {
+      "model": "block/double_slab_quartz"
     }
+  }
 }

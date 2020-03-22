@@ -1,17 +1,42 @@
 {
-    "variants": {
-        "facing=north": [
-                  { "model": "red_glazed_terracotta", "y": 270 },
-                  { "model": "red_glazed_terracotta_1", "y": 270 }],
-        "facing=east": [
-                  { "model": "red_glazed_terracotta" },
-                  { "model": "red_glazed_terracotta_1" }],
-        "facing=south": [
-                  { "model": "red_glazed_terracotta", "y": 90 },
-                  { "model": "red_glazed_terracotta_1", "y": 90 }],
-        "facing=west": [
-                  { "model": "red_glazed_terracotta", "y": 180 },
-                  { "model": "red_glazed_terracotta_1", "y": 180 }]
-    }
+  "variants": {
+    "facing\u003dnorth": [
+      {
+        "model": "block/red_glazed_terracotta",
+        "y": 270
+      },
+      {
+        "model": "block/red_glazed_terracotta_1",
+        "y": 270
+      }
+    ],
+    "facing\u003deast": [
+      {
+        "model": "block/red_glazed_terracotta"
+      },
+      {
+        "model": "block/red_glazed_terracotta_1"
+      }
+    ],
+    "facing\u003dsouth": [
+      {
+        "model": "block/red_glazed_terracotta",
+        "y": 90
+      },
+      {
+        "model": "block/red_glazed_terracotta_1",
+        "y": 90
+      }
+    ],
+    "facing\u003dwest": [
+      {
+        "model": "block/red_glazed_terracotta",
+        "y": 180
+      },
+      {
+        "model": "block/red_glazed_terracotta_1",
+        "y": 180
+      }
+    ]
+  }
 }
-
