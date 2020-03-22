@@ -1,6 +1,11 @@
 {
-    "variants": {
-        "normal": { "model": "double_slab_wood_old" },
-        "all":    { "model": "double_slab_wood_old", "y": 90 }
+  "variants": {
+    "all": {
+      "model": "block/double_slab_wood_old",
+      "y": 90
+    },
+    "": {
+      "model": "block/double_slab_wood_old"
     }
+  }
 }

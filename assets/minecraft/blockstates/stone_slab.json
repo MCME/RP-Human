@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/stone_slab" },
+        "type=top": { "model": "block/stone_slab_top" },
+        "type=double,waterlogged=true": { "model": "block/double_slab_stonebrick_seamless" },
+        "type=double,waterlogged=false": { "model": "block/double_slab_brick_seamless" }
+    }
+}

@@ -1,6 +1,10 @@
 {
-    "variants": {
-        "normal": { "model": "double_slab_brick" },
-        "all":    { "model": "double_slab_brick_seamless" }
+  "variants": {
+    "all": {
+      "model": "block/double_slab_brick_seamless"
+    },
+    "": {
+      "model": "block/double_slab_brick"
     }
+  }
 }

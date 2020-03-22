@@ -1,12 +1,12 @@
 {
-    "parent": "block/cube_mirrored",
-    "textures": {
-        "particle": "blocks/hardened_clay_stained_light_blue",
-        "down": "blocks/hardened_clay_stained_light_blue",
-        "up": "blocks/hardened_clay_stained_light_blue",
-        "north": "blocks/hardened_clay_stained_light_blue",
-        "east": "blocks/glazed_terracotta_cyan_side_2",
-        "south": "blocks/red_sandstone_normal_alt",
-        "west": "blocks/glazed_terracotta_cyan_side_1"
-    }
+  "parent": "block/cube_mirrored",
+  "textures": {
+    "particle": "block/light_blue_terracotta",
+    "down": "block/light_blue_terracotta",
+    "up": "block/light_blue_terracotta",
+    "north": "block/light_blue_terracotta",
+    "east": "block/glazed_terracotta_cyan_side_2",
+    "south": "block/red_sandstone_normal_alt",
+    "west": "block/glazed_terracotta_cyan_side_1"
+  }
 }
