@@ -1,3 +1,10 @@
+version 2.5
+update to mc 1.14 (widespread folder and filenames changes)
+moved vertical slab item blocks to new fence gate blockstates
+moved thin type item blocks to new trapdoor blockstates
+moved sticky pistons to bells and farmland barrels to leaves (fix culling issues)
+moved weighted pressure plates to trapdoors
+
 version 2.4
 blockstate nether_brick_slab: edited half=bottom
 model/block upper_slab: deleted (wrong appereance of upper brick slabs)

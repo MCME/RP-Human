@@ -127,9 +127,9 @@ Items:
     category: Inter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:petrified_oak_slab[type=double,waterlogged=false]
-    blockDataWest: minecraft:petrified_oak_slab[type=double,waterlogged=true]
+    blockDataWest: minecraft:petrified_oak_slab[type=double,waterlogged=false]
     blockDataNorth: minecraft:petrified_oak_slab[type=double,waterlogged=false]
-    blockDataEast: minecraft:petrified_oak_slab[type=double,waterlogged=true]
+    blockDataEast: minecraft:petrified_oak_slab[type=double,waterlogged=false]
   brown_shulker_box:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 166
@@ -801,9 +801,9 @@ Items:
     display: Round barrel
     category: Inter
     type: THREE_AXIS
-    blockDataZ: minecraft:farmland[moisture=5]
-    blockDataX: minecraft:farmland[moisture=6]
-    blockDataY: minecraft:farmland[moisture=4]
+    blockDataZ: minecraft:acacia_leaves[distance=3,persistent=false]
+    blockDataX: minecraft:acacia_leaves[distance=2,persistent=false]
+    blockDataY: minecraft:acacia_leaves[distance=4,persistent=false]
   cocoa_age2_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 329

@@ -73,47 +73,47 @@ Items:
     display: Wheel [34:0]
     category: Exter
     type: SIX_FACES
-    blockDataSouth: minecraft:piston_head[facing=south,short=false,type=sticky]
-    blockDataWest: minecraft:piston_head[facing=west,short=false,type=sticky]
-    blockDataNorth: minecraft:piston_head[facing=north,short=false,type=sticky]
-    blockDataEast: minecraft:piston_head[facing=east,short=false,type=sticky]
-    blockDataDown: minecraft:piston_head[facing=down,short=false,type=sticky]
-    blockDataUp: minecraft:piston_head[facing=up,short=false,type=sticky]
+    blockDataSouth: minecraft:bell[attachment=single_wall,facing=north]
+    blockDataWest: minecraft:bell[attachment=single_wall,facing=east]
+    blockDataNorth: minecraft:bell[attachment=single_wall,facing=south]
+    blockDataEast: minecraft:bell[attachment=single_wall,facing=west]
+    blockDataDown: minecraft:bell[attachment=ceiling,facing=north]
+    blockDataUp: minecraft:bell[attachment=double_wall,facing=north]
   cocoa_age0_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 334
     display: Wheel (short axle) [127:0]
     category: Exter
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:cocoa[age=0,facing=south]
-    blockDataWest: minecraft:cocoa[age=0,facing=west]
-    blockDataNorth: minecraft:cocoa[age=0,facing=north]
-    blockDataEast: minecraft:cocoa[age=0,facing=east]
+    blockDataSouth: minecraft:dark_oak_button[face=wall,facing=north,powered=false]
+    blockDataWest: minecraft:dark_oak_button[face=wall,facing=east,powered=false]
+    blockDataNorth: minecraft:dark_oak_button[face=wall,facing=south,powered=false]
+    blockDataEast: minecraft:dark_oak_button[face=wall,facing=west,powered=false]
   repeater_delay2_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 335
     display: Wheel (on floor) [93:6]
     category: Exter
     type: BLOCK
-    blockData: minecraft:repeater[delay=2,facing=north,locked=false,powered=false]
+    blockData: minecraft:dark_oak_button[face=floor,facing=north,powered=false]
   repeater_delay2_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 336
     display: Wheel (on ceiling) [93:7]
     category: Exter
     type: BLOCK
-    blockData: minecraft:repeater[delay=2,facing=east,locked=false,powered=false]
+    blockData: minecraft:dark_oak_button[face=ceiling,facing=north,powered=false]
   sticky_piston:
     itemMaterial: STICKY_PISTON
     display: Wheel on stone base [29:0]
     category: Exter
     type: SIX_FACES
-    blockDataSouth: minecraft:sticky_piston[extended=false,facing=south]
-    blockDataWest: minecraft:sticky_piston[extended=false,facing=west]
-    blockDataNorth: minecraft:sticky_piston[extended=false,facing=north]
-    blockDataEast: minecraft:sticky_piston[extended=false,facing=east]
-    blockDataDown: minecraft:sticky_piston[extended=false,facing=down]
-    blockDataUp: minecraft:sticky_piston[extended=false,facing=up]
+    blockDataSouth: minecraft:bell[attachment=double_wall,facing=east]
+    blockDataWest: minecraft:bell[attachment=floor,facing=east]
+    blockDataNorth: minecraft:bell[attachment=double_wall,facing=west]
+    blockDataEast: minecraft:bell[attachment=floor,facing=west]
+    blockDataDown: minecraft:bell[attachment=floor,facing=north]
+    blockDataUp: minecraft:bell[attachment=floor,facing=south]
   chain_up_north:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 177
