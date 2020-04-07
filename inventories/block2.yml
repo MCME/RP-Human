@@ -73,7 +73,7 @@ Items:
     display: Mossy large white bricks [43:15]
     category: Block2
     type: BLOCK
-    blockData: minecraft:quartz_slab[type=double,waterlogged=false]
+    blockData: minecraft:smooth_quartz
   double_slab_quartz:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 82
@@ -201,14 +201,14 @@ Items:
     display: Light gray smooth block [43:13]
     category: Block2
     type: BLOCK
-    blockData: minecraft:stone_brick_slab[type=double,waterlogged=false]
+    blockData: minecraft:wet_sponge
   double_slab_brick_seamless:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 86
     display: Dark gray smooth block [43:12]
     category: Block2
     type: BLOCK
-    blockData: minecraft:brick_slab[type=double,waterlogged=false]
+    blockData: minecraft:sponge
   purpur_pillar_top:
     itemMaterial: PURPUR_PILLAR
     damage: 0
@@ -305,7 +305,7 @@ Items:
     display: Smooth stone block [43:8]
     category: Block2
     type: BLOCK
-    blockData: minecraft:stone_slab[type=double,waterlogged=false]
+    blockData: minecraft:smooth_stone
   monster_egg_stone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 93
@@ -319,7 +319,7 @@ Items:
     display: Double stone slab [43:0]
     category: Block2
     type: BLOCK
-    blockData: minecraft:stone_slab[type=double,waterlogged=false]
+    blockData: minecraft:smooth_stone_slab[type=double,waterlogged=false]
   half_slab_stone:
     itemMaterial: STONE_SLAB
     damage: 0
@@ -347,7 +347,7 @@ Items:
   half_slab_cobblestone:
     itemMaterial: COBBLESTONE_SLAB
     damage: 3
-    display: Cobblestone stairs [44:3]
+    display: Cobblestone slab [44:3]
     category: Block2
     type: VANILLA
   mossy_cobblestone:
@@ -369,7 +369,7 @@ Items:
     display: Mixed cobblestone [43:11]
     category: Block2
     type: BLOCK
-    blockData: minecraft:cobblestone_slab[type=double,waterlogged=false]
+    blockData: minecraft:purpur_slab[type=double,waterlogged=false]
   monster_egg_cobblestone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 97
@@ -465,10 +465,10 @@ Items:
     display: Vertical white bricks slab [184:12]
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:birch_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:birch_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:birch_fence_gate[facing=north,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:birch_fence_gate[facing=east,in_wall=false,open=true,powered=true]
+    blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=true,open=false,powered=false]
+    blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=true,open=false,powered=false]
+    blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=true,open=false,powered=false]
+    blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=true,open=false,powered=false]
   repeater_delay4_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 196
@@ -519,20 +519,20 @@ Items:
     display: Vertical small white bricks slab [186:12]
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=false,open=true,powered=true]
+    blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=true,open=false,powered=true]
+    blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=true,open=false,powered=true]
+    blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=true,open=false,powered=true]
+    blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=true,open=false,powered=true]
   spruce_fence_gate_open:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 325
     display: Vertical large light gray bricks slab [183:4]
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=false,open=true,powered=false]
-    blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=false,open=true,powered=false]
-    blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=false,open=true,powered=false]
-    blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=false,open=true,powered=false]
+    blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=true,open=false,powered=false]
+    blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=true,open=false,powered=false]
+    blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=true,open=false,powered=false]
+    blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=true,open=false,powered=false]
   powered_repeater_delay1_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 198
@@ -654,10 +654,10 @@ Items:
     display: Vertical cobblestone slab [187:4]
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=false]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=false]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=true,powered=false]
-    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=true,powered=false]
+    blockDataSouth: minecraft:jungle_fence_gate[facing=south,in_wall=true,open=false,powered=false]
+    blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=true,open=false,powered=false]
+    blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=true,open=false,powered=false]
+    blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=true,open=false,powered=false]
   powered_repeater_delay2_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 202

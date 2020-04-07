@@ -129,8 +129,8 @@ Items:
     blockDataWest: minecraft:nether_portal[axis=z]
     blockDataNorth: minecraft:nether_portal[axis=x]
     blockDataEast: minecraft:nether_portal[axis=z]
-  emerald_block:
-    itemMaterial: EMERALD_BLOCK
+  tube_coral:
+    itemMaterial: TUBE_CORAL_BLOCK
     damage: 0
     display: Marker Accepted [133:0]
     category: Misc
@@ -149,9 +149,9 @@ Items:
     display: Marker Finished [22:0]
     category: Misc
     type: VANILLA
-  sponge:
+  dead_tube_coral:
     blockDataValue: 0
-    itemMaterial: SPONGE
+    itemMaterial: DEAD_TUBE_CORAL_BLOCK
     damage: 0
     display: Marker WIP [19:0]
     category: Misc
@@ -163,9 +163,9 @@ Items:
     display: Marker Comment [57:0]
     category: Misc
     type: VANILLA
-  sponge_wet:
+  horn_coral_block:
     blockDataValue: 1
-    itemMaterial: WET_SPONGE
+    itemMaterial: HORN_CORAL_BLOCK
     damage: 1
     display: Marker Info [19:1]
     category: Misc

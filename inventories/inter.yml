@@ -1,3 +1,11 @@
+# 
+#  lit_redstone_torch:
+#    itemMaterial: REDSTONE_TORCH_ON
+#    damage: 0
+#    display: Candle (lit) [76:0]
+#    category: Inter
+#    blockData: minecraft:redstone_torch[lit=true]
+#    type: BLOCK
 Items:
   wooden_door_powered:
     blockMaterial: OAK_DOOR
@@ -127,9 +135,9 @@ Items:
     category: Inter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:petrified_oak_slab[type=double,waterlogged=false]
-    blockDataWest: minecraft:petrified_oak_slab[type=double,waterlogged=false]
+    blockDataWest: minecraft:emerald_block
     blockDataNorth: minecraft:petrified_oak_slab[type=double,waterlogged=false]
-    blockDataEast: minecraft:petrified_oak_slab[type=double,waterlogged=false]
+    blockDataEast: minecraft:emerald_block
   brown_shulker_box:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 166
@@ -749,14 +757,19 @@ Items:
     category: Inter
     type: VANILLA
   lit_redstone_torch:
-    itemMaterial: REDSTONE_TORCH_ON
+    blockMaterial: REDSTONE_TORCH
+    itemMaterial: REDSTONE_TORCH
     damage: 0
-    display: Candle (lit) [76:0]
+    display: Candle (lit) [75:0]
     category: Inter
-    type: VANILLA
+    type: FIVE_FACES
+    blockDataSouth: minecraft:redstone_wall_torch[facing=south,lit=true]
+    blockDataWest: minecraft:redstone_wall_torch[facing=west,lit=true]
+    blockDataNorth: minecraft:redstone_wall_torch[facing=north,lit=true]
+    blockDataEast: minecraft:redstone_wall_torch[facing=east,lit=true]
+    blockDataUp: minecraft:redstone_torch[lit=true]
   unlit_redstone_torch:
-    blockMaterial: REDSTONE_TORCH_OFF
-    dataValueTop: 5
+    blockMaterial: REDSTONE_TORCH
     itemMaterial: DIAMOND_LEGGINGS
     damage: 284
     display: Candle (unlit) [75:0]
