@@ -1,6 +1,9 @@
 {
   "parent": "block/thin_block",
   "textures": {
+    "slab": "block/repeater_delay1_w",
+    "top": "block/repeater_delay1_w",
+    "bottom": "block/repeater_delay1_w",
     "particle": "block/wood_plate",
     "texture": "block/wood_plate",
     "0": "block/double_slab_cobblestone",
@@ -21,47 +24,63 @@
       ],
       "faces": {
         "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
           "texture": "#texture",
-          "cullface": "down"
+		  "cullface": "down"
         },
         "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
           "texture": "#texture"
         },
         "north": {
           "uv": [
             0,
+            14,
             16,
-            15,
             16
           ],
-          "texture": "#texture"
+          "texture": "#texture",
+          "cullface": "north"
         },
         "south": {
           "uv": [
             0,
+            14,
             16,
-            15,
             16
           ],
-          "texture": "#texture"
+          "texture": "#texture",
+          "cullface": "south"
         },
         "west": {
           "uv": [
             0,
+            14,
             16,
-            15,
             16
           ],
-          "texture": "#texture"
+          "texture": "#texture",
+          "cullface": "west"
         },
         "east": {
           "uv": [
             0,
+            14,
             16,
-            15,
             16
           ],
-          "texture": "#texture"
+          "texture": "#texture",
+          "cullface": "east"
         }
       }
     },
