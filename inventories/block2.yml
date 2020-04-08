@@ -383,20 +383,20 @@ Items:
     display: Weathered stone lower corner [252:0]
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:orange_concrete_powder
-    blockDataWest: minecraft:magenta_concrete_powder
-    blockDataNorth: minecraft:light_blue_concrete_powder
-    blockDataEast: minecraft:white_concrete_powder
+    blockDataSouth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=false,west=true]
+    blockDataWest: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]
+    blockDataNorth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=true]
+    blockDataEast: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=true]
   yellow_concrete_powder:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 311
     display: Wheatered stone upper corner [252:4]
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:lime_concrete_powder
-    blockDataWest: minecraft:pink_concrete_powder
-    blockDataNorth: minecraft:gray_concrete_powder
-    blockDataEast: minecraft:yellow_concrete_powder
+    blockDataSouth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=false,west=false]
+    blockDataWest: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]
+    blockDataNorth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=false]
+    blockDataEast: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=false]
   gold_block:
     itemMaterial: GOLD_BLOCK
     damage: 0
