@@ -408,36 +408,30 @@ Items:
     display: Bed [355:16]
     category: Inter
     type: VANILLA
-  bed_blue_half:
+  bed_blue_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 243
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 243
-    display: ITEMBLOCK Blue stool
+    display: Blue stool
     category: Inter
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
-  bed_green_half:
+    type: BLOCK
+    blockData: minecraft:campfire[facing=north,lit=false,signal_fire=true,waterlogged=false]
+  bed_green_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 244
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 244
-    display: ITEMBLOCK Green stool
+    display: Green stool
     category: Inter
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
-  bed_grey_half:
+    type: BLOCK
+    blockData: minecraft:campfire[facing=south,lit=false,signal_fire=true,waterlogged=false]
+  bed_grey_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 245
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 245
-    display: ITEMBLOCK Poor stool
+    display: Poor stool
     category: Inter
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:campfire[facing=east,lit=false,signal_fire=true,waterlogged=false]
   curtain_blue_top:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 246
@@ -717,39 +711,33 @@ Items:
     display: Plate [148:0]
     category: Inter
     type: VANILLA
-  cutlery:
+  cutlery_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 390
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 390
     display: ITEMBLOCK Cutlery
     category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:rail[shape=north_south]
-    blockDataWest: minecraft:rail[shape=north_south]
-    blockDataNorth: minecraft:rail[shape=north_south]
-    blockDataEast: minecraft:rail[shape=north_south]
-  plate_1:
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:light_weighted_pressure_plate[power=6]
+    blockDataWest: minecraft:light_weighted_pressure_plate[power=7]
+    blockDataNorth: minecraft:light_weighted_pressure_plate[power=4]
+    blockDataEast: minecraft:light_weighted_pressure_plate[power=5]
+  plate_1_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 391
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 391
     display: ITEMBLOCK Plate
     category: Inter
-    type: ITEM_BLOCK
-    blockData: minecraft:rail[shape=north_south]
-  plate_2:
+    type: BLOCK
+    blockData: minecraft:light_weighted_pressure_plate[power=2]
+  plate_2_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 392
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 392
     display: ITEMBLOCK Fancy plate
     category: Inter
-    type: ITEM_BLOCK
-    blockData: minecraft:rail[shape=north_south]
+    type: BLOCK
+    blockData: minecraft:light_weighted_pressure_plate[power=3]
   torch:
     itemMaterial: TORCH
     damage: 0

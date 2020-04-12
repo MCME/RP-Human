@@ -351,203 +351,163 @@ Items:
     category: Exter
     type: BLOCK
     blockData: minecraft:cactus[age=15]
-  barrel_apples_full:
+  barrel_apples_full_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 162
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 402
-    display: ITEMBLOCK Barrel apples full
+    display: Barrel apples full
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_apples_half:
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=5,persistent=false]
+  barrel_apples_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 163
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 403
-    display: ITEMBLOCK Barrel apples half
+    display: Barrel apples half
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_grapes_full:
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=6,persistent=false]
+  barrel_grapes_full_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 164
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 404
-    display: ITEMBLOCK Barrel grapes full
+    display: Barrel grapes full
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_grapes_half:
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=4,persistent=true]
+  barrel_grapes_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 165
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 405
-    display: ITEMBLOCK Barrel grapes half
+    display: Barrel grapes half
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_tomatoes_full:
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=5,persistent=true]
+  barrel_tomatoes_full_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 166
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 406
-    display: ITEMBLOCK Barrel tomatoes full
+    display: Barrel tomatoes full
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_tomatoes_half:
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=6,persistent=false]
+  barrel_tomatoes_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 167
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 407
-    display: ITEMBLOCK Barrel tomatoes half
+    display: Barrel tomatoes half
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_potatoes_full:
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=7,persistent=true]
+  barrel_potatoes_full_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 168
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 408
-    display: ITEMBLOCK Barrel potatoes full
+    display: Barrel potatoes full
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_potatoes_half:
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=4,persistent=false]
+  barrel_potatoes_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 169
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 409
-    display: ITEMBLOCK Barrel potatoes half
+    display: Barrel potatoes half
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_onions_full:
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=5,persistent=false]
+  barrel_onions_full_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 170
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 410
-    display: ITEMBLOCK Barrel onions full
+    display: Barrel onions full
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_onions_half:
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=2,persistent=false]
+  barrel_onions_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 171
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 411
-    display: ITEMBLOCK Barrel onions half
+    display: Barrel onions half
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_wheat_full:
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=3,persistent=false]
+  barrel_wheat_full_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 172
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 412
-    display: ITEMBLOCK Barrel wheat full
+    display: Barrel wheat full
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_wheat_half:
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=4,persistent=true]
+  barrel_wheat_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 173
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 413
-    display: ITEMBLOCK Barrel wheat half
+    display: Barrel wheat half
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_meat_full:
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=5,persistent=true]
+  barrel_meat_full_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 174
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 414
-    display: ITEMBLOCK Barrel meat full
+    display: Barrel meat full
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_meat_half:
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=6,persistent=true]
+  barrel_meat_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 175
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 415
-    display: ITEMBLOCK Barrel meat half
+    display: Barrel meat half
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_fish_full:
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=7,persistent=true]
+  barrel_fish_full_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 176
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 416
-    display: ITEMBLOCK Barrel fish full
+    display: Barrel fish full
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_fish_half:
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=2,persistent=true]
+  barrel_fish_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 177
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 417
-    display: ITEMBLOCK Barrel fish half
+    display: Barrel fish half
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_coal_full:
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=3,persistent=true]
+  barrel_coal_full_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 178
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 418
-    display: ITEMBLOCK Barrel coal full
+    display: Barrel coal full
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_coal_half:
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=7,persistent=false]
+  barrel_coal_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 179
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 419
-    display: ITEMBLOCK Barrel coal half
+    display: Barrel coal half
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_water_full:
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=1,persistent=false]
+  barrel_water_full_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 180
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 420
-    display: ITEMBLOCK Barrel water full
+    display: Barrel water full
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_water_half:
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=2,persistent=true]
+  barrel_water_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 181
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 400
-    display: ITEMBLOCK Barrel water half
+    display: Barrel water half
     category: Exter
-    type: ITEM_BLOCK
-    blockData: minecraft:cactus[age=15]
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=3,persistent=true]
