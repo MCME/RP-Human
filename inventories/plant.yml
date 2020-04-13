@@ -281,36 +281,31 @@ Items:
     damage: 0
     display: Oak leaves [18:0]
     category: Plant
-    blockData: minecraft:oak_leaves[distance=7,persistent=false]
-    type: BLOCK
+    type: VANILLA
   spruce_leaves:
     itemMaterial: SPRUCE_LEAVES
     damage: 1
     display: Spruce leaves [18:1]
     category: Plant
-    blockData: minecraft:spruce_leaves[distance=7,persistent=false]
-    type: BLOCK
+    type: VANILLA
   birch_leaves:
     itemMaterial: BIRCH_LEAVES
     damage: 2
     display: Birch leaves [18:2]
     category: Plant
-    blockData: minecraft:birch_leaves[distance=7,persistent=false]
-    type: BLOCK
+    type: VANILLA
   jungle_leaves:
     itemMaterial: JUNGLE_LEAVES
     damage: 3
     display: Jungle leaves [18:3]
     category: Plant
-    blockData: minecraft:jungle_leaves[distance=7,persistent=false]
-    type: BLOCK
+    type: VANILLA
   dark_oak_leaves:
     itemMaterial: DARK_OAK_LEAVES
     damage: 1
     display: Dark oak leaves [18:5]
     category: Plant
-    blockData: minecraft:dark_oak_leaves[distance=7,persistent=false]
-    type: BLOCK
+    type: VANILLA
   oak_log:
     itemMaterial: OAK_LOG
     damage: 0
@@ -321,12 +316,6 @@ Items:
     itemMaterial: SPRUCE_LOG
     damage: 1
     display: Spruce log [17:1]
-    category: Plant
-    type: VANILLA
-  birch_log:
-    itemMaterial: BIRCH_LOG
-    damage: 2
-    display: Birch log [17:2]
     category: Plant
     type: VANILLA
   jungle_log:
@@ -376,41 +365,41 @@ Items:
     category: Plant
     type: BLOCK
     blockData: minecraft:acacia_wood
-  brown_mushroom_block_inside_all:
+  grey_log:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 350
     display: Grey Log [99:0]
     category: Plant
     type: BLOCK
-    blockData: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=false,west=false]
-  brown_mushroom_block_nw:
+    blockData: minecraft:stripped_spruce_wood[axis=x]
+  birch_log:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 351
     display: Birch Log [99:1]
     category: Plant
     type: BLOCK
-    blockData: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=false,up=true,west=true]
-  brown_mushroom_block_n:
+    blockData: minecraft:stripped_oak_wood[axis=x]
+  mossy_birch_log:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 352
-    display: Mossy Log [99:2]
+    display: Mossy Birch Log [99:2]
     category: Plant
     type: BLOCK
-    blockData: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=false,up=true,west=false]
-  brown_mushroom_block_ne:
+    blockData: minecraft:stripped_oak_wood[axis=y]
+  very_mossy_birch_log:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 353
-    display: Very Mossy Log [99:3]
+    display: Very Mossy Birch Log [99:3]
     category: Plant
     type: BLOCK
-    blockData: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=false]
-  brown_mushroom_block_w:
+    blockData: minecraft:stripped_oak_wood[axis=z]
+  reg_log:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 354
     display: Red Log [99:4]
     category: Plant
     type: BLOCK
-    blockData: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=true,west=true]
+    blockData: minecraft:stripped_birch_wood[axis=x]
   chorus_plant:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 19

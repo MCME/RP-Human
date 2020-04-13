@@ -48,7 +48,7 @@
     }},
     { "when": {"north": false, "west": false, "south": false, "east": false, "up": false, "down": false },
       "apply": {
-      "model": "block/double_slab_nether_brick"
+      "model": "block/replace"
     }},
 
     { "when": {"north": true, "west": true, "south": true, "east": true, "up": false, "down": true },
