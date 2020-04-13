@@ -1,6 +1,8 @@
 {
-  "parent": "block/trapdoor_open",
+  "parent": "block/door_thin_wall",
   "textures": {
-    "texture": "block/infested_stone_bricks"
+    "particle": "block/double_slab_stonebrick_seamless",
+    "bottom": "block/double_slab_stonebrick_seamless",
+    "top": "block/double_slab_stonebrick_seamless"
   }
 }

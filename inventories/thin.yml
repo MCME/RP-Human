@@ -547,19 +547,16 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
-  trapdoor_double_slab_stonebrick_seamless_open_itemblock:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 336
-    contentHeight: 0.3125
+  trapdoor_double_slab_stonebrick_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 336
-    display: ITEMBLOCK Light gray brick open trapdoor
+    display: Light gray brick open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_door[facing=north,half=upper,hinge=left,open=false,powered=false]
+    blockDataWest: minecraft:oak_door[facing=east,half=upper,hinge=left,open=false,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=south,half=upper,hinge=left,open=false,powered=false]
+    blockDataEast: minecraft:oak_door[facing=west,half=upper,hinge=left,open=false,powered=false]
   trapdoor_double_slab_stonebrick_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 263
@@ -598,19 +595,16 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:dark_oak_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
-  trapdoor_monster_egg_stonebrick_open_itemblock:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 342
-    contentHeight: 0.3125
+  trapdoor_monster_egg_stonebrick_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 342
-    display: ITEMBLOCK Floor pattern block open trapdoor
+    display: Floor pattern block open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_door[facing=north,half=lower,hinge=right,open=false,powered=false]
+    blockDataWest: minecraft:oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]
+    blockDataEast: minecraft:oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]
   trapdoor_monster_egg_stonebrick_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 265
@@ -625,19 +619,16 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]
-  trapdoor_monster_egg_stonebrick_mossy_open_itemblock:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 345
-    contentHeight: 0.3125
+  trapdoor_monster_egg_stonebrick_mossy_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 345
-    display: ITEMBLOCK Floor pattern block open trapdoor
+    display: Floor pattern block open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_door[facing=east,half=lower,hinge=right,open=true,powered=false]
+    blockDataWest: minecraft:oak_door[facing=south,half=lower,hinge=right,open=true,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=west,half=lower,hinge=right,open=true,powered=false]
+    blockDataEast: minecraft:oak_door[facing=north,half=lower,hinge=right,open=true,powered=false]
   trapdoor_monster_egg_stonebrick_mossy_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 266
@@ -652,19 +643,16 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:spruce_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
-  trapdoor_monster_egg_stonebrick_cracked_open_itemblock:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 348
-    contentHeight: 0.3125
+  trapdoor_monster_egg_stonebrick_cracked_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 348
-    display: ITEMBLOCK Floor pattern block open trapdoor
+    display: Floor pattern block open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_door[facing=north,half=upper,hinge=right,open=false,powered=false]
+    blockDataWest: minecraft:oak_door[facing=east,half=upper,hinge=right,open=false,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=south,half=upper,hinge=right,open=false,powered=false]
+    blockDataEast: minecraft:oak_door[facing=west,half=upper,hinge=right,open=false,powered=false]
   trapdoor_monster_egg_stonebrick_cracked_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 267
@@ -679,19 +667,19 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:spruce_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
-  trapdoor_monster_egg_stonebrick_chiseled_open_itemblock:
+  trapdoor_monster_egg_stonebrick_chiseled_open_regular:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 351
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 351
-    display: ITEMBLOCK Floor pattern block open trapdoor
+    display: Floor pattern block open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_door[facing=east,half=upper,hinge=right,open=true,powered=false]
+    blockDataWest: minecraft:oak_door[facing=south,half=upper,hinge=right,open=true,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=west,half=upper,hinge=right,open=true,powered=false]
+    blockDataEast: minecraft:oak_door[facing=north,half=upper,hinge=right,open=true,powered=false]
   trapdoor_monster_egg_stonebrick_chiseled_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 268
@@ -781,19 +769,16 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:spruce_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
-  trapdoor_monster_egg_stone_open_itemblock:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 363
-    contentHeight: 0.3125
+  trapdoor_monster_egg_stone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 363
-    display: ITEMBLOCK Ornamental stone block open trapdoor
+    display: Ornamental stone block open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_door[facing=west,half=upper,hinge=left,open=true,powered=false]
+    blockDataWest: minecraft:oak_door[facing=north,half=upper,hinge=left,open=true,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=east,half=upper,hinge=left,open=true,powered=false]
+    blockDataEast: minecraft:oak_door[facing=south,half=upper,hinge=left,open=true,powered=false]
   trapdoor_monster_egg_stone_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 364
@@ -931,19 +916,16 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:acacia_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
-  trapdoor_monster_egg_cobblestone_open_itemblock:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 381
-    contentHeight: 0.3125
+  trapdoor_monster_egg_cobblestone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 381
-    display: ITEMBLOCK Red cobblestone open trapdoor
+    display: Red cobblestone open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:dark_oak_door[facing=north,half=lower,hinge=right,open=false,powered=false]
+    blockDataWest: minecraft:dark_oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    blockDataNorth: minecraft:dark_oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]
+    blockDataEast: minecraft:dark_oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]
   trapdoor_monster_egg_cobblestone_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 382
