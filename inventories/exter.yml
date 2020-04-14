@@ -73,12 +73,12 @@ Items:
     display: Wheel [34:0]
     category: Exter
     type: SIX_FACES
-    blockDataSouth: minecraft:bell[attachment=single_wall,facing=north]
-    blockDataWest: minecraft:bell[attachment=single_wall,facing=east]
-    blockDataNorth: minecraft:bell[attachment=single_wall,facing=south]
-    blockDataEast: minecraft:bell[attachment=single_wall,facing=west]
-    blockDataDown: minecraft:bell[attachment=ceiling,facing=north]
-    blockDataUp: minecraft:bell[attachment=double_wall,facing=north]
+    blockDataSouth: minecraft:spruce_leaves[distance=7,persistent=true]
+    blockDataWest: minecraft:spruce_leaves[distance=4,persistent=true]
+    blockDataNorth: minecraft:spruce_leaves[distance=6,persistent=true]
+    blockDataEast: minecraft:spruce_leaves[distance=5,persistent=true]
+    blockDataDown: minecraft:spruce_leaves[distance=2,persistent=true]
+    blockDataUp: minecraft:spruce_leaves[distance=3,persistent=true]
   cocoa_age0_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 334
@@ -108,12 +108,12 @@ Items:
     display: Wheel on stone base [29:0]
     category: Exter
     type: SIX_FACES
-    blockDataSouth: minecraft:bell[attachment=double_wall,facing=east]
-    blockDataWest: minecraft:bell[attachment=floor,facing=east]
-    blockDataNorth: minecraft:bell[attachment=double_wall,facing=west]
-    blockDataEast: minecraft:bell[attachment=floor,facing=west]
-    blockDataDown: minecraft:bell[attachment=floor,facing=north]
-    blockDataUp: minecraft:bell[attachment=floor,facing=south]
+    blockDataNorth: minecraft:spruce_leaves[distance=5,persistent=false]
+    blockDataEast: minecraft:spruce_leaves[distance=4,persistent=false]
+    blockDataSouth: minecraft:spruce_leaves[distance=6,persistent=false]
+    blockDataWest: minecraft:spruce_leaves[distance=3,persistent=false]
+    blockDataUp: minecraft:spruce_leaves[distance=2,persistent=false]
+    blockDataDown: minecraft:spruce_leaves[distance=1,persistent=false]
   chain_up_north:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 177
