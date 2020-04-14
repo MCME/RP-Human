@@ -443,16 +443,16 @@ Items:
     type: BLOCK
     blockData: minecraft:cactus[age=14]
   tree_thin_oak_vertical:
-    itemMaterial: DIAMOND_LEGGINGS
+    itemMaterial: ACACIA_FENCE
     damage: 25
     display: Thin oak log [192:0]
     category: Plant
-    type: BLOCK
+    type: VANILLA
     blockData: minecraft:acacia_fence[east=false,north=false,south=false,waterlogged=false,west=false]
   tree_thin_spruce_vertical:
-    itemMaterial: DIAMOND_LEGGINGS
+    itemMaterial: DARK_OAK_FENCE
     damage: 26
     display: Thin spruce log [191:0]
     category: Plant
-    type: BLOCK
+    type: VANILLA
     blockData: minecraft:dark_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]
