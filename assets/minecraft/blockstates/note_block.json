@@ -1,0 +1,10 @@
+{
+    "variants": {
+		"instrument=harp,note=0,powered=false,": { "model":"block/marker_accepted" },
+		"instrument=harp,note=1,powered=false,": { "model":"block/marker_declined" },
+		"instrument=harp,note=2,powered=false,": { "model":"block/marker_finished" },
+		"instrument=harp,note=3,powered=false,": { "model":"block/marker_wip" },
+		"instrument=harp,note=4,powered=false,": { "model":"block/marker_comment" },
+		"instrument=harp,note=5,powered=false,": { "model":"block/marker_info" }
+    }
+}

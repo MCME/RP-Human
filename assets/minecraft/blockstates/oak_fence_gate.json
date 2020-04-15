@@ -262,10 +262,28 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/oak_fence_gate_powered_open",
-        "uvlock": true
-      }
+      "apply": [
+        {
+          "model": "block/clothesline_dress",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_dress_1",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_dress_2",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_dress_3",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_dress_4",
+          "weight": 1
+        }
+      ]
     },
     {
       "when": {
@@ -274,11 +292,23 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/oak_fence_gate_powered_open",
-        "uvlock": true,
-        "y": 90
-      }
+      "apply": [
+        {
+          "model": "block/clothesline_empty",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_empty_1",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_empty_2",
+          "weight": 1,
+          "y": 90
+        }
+      ]
     },
     {
       "when": {
@@ -287,11 +317,20 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/oak_fence_gate_powered_open",
-        "uvlock": true,
-        "y": 180
-      }
+      "apply": [
+        {
+          "model": "block/clothesline_empty",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_empty_1",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_empty_2",
+          "weight": 1
+        }
+      ]
     },
     {
       "when": {
@@ -300,11 +339,33 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/oak_fence_gate_powered_open",
-        "uvlock": true,
-        "y": 270
-      }
+      "apply": [
+        {
+          "model": "block/clothesline_dress",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_dress_1",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_dress_2",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_dress_3",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_dress_4",
+          "weight": 1,
+          "y": 90
+        }
+      ]
     },
     {
       "when": {
@@ -364,10 +425,32 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/oak_fence_gate_powered_open",
-        "uvlock": true
-      }
+      "apply": [
+        {
+          "model": "block/clothesline_shirt_long",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_long_1",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_long_2",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_long_3",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_long_4",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_long_5",
+          "weight": 1
+        }
+      ]
     },
     {
       "when": {
@@ -376,11 +459,53 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/oak_fence_gate_powered_open",
-        "uvlock": true,
-        "y": 90
-      }
+      "apply": [
+        {
+          "model": "block/clothesline_shirt",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_1",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_2",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_3",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_4",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_5",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_6",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_7",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_8",
+          "weight": 1,
+          "y": 90
+        }
+      ]
     },
     {
       "when": {
@@ -389,11 +514,44 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/oak_fence_gate_powered_open",
-        "uvlock": true,
-        "y": 180
-      }
+      "apply": [
+        {
+          "model": "block/clothesline_shirt",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_1",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_2",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_3",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_4",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_5",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_6",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_7",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_8",
+          "weight": 1
+        }
+      ]
     },
     {
       "when": {
@@ -402,11 +560,38 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/oak_fence_gate_powered_open",
-        "uvlock": true,
-        "y": 270
-      }
+      "apply": [
+        {
+          "model": "block/clothesline_shirt_long",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_long_1",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_long_2",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_long_3",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_long_4",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_long_5",
+          "weight": 1,
+          "y": 90
+        }
+      ]
     }
   ]
 }

@@ -1,3 +1,11 @@
+# 
+#  lit_redstone_torch:
+#    itemMaterial: REDSTONE_TORCH_ON
+#    damage: 0
+#    display: Candle (lit) [76:0]
+#    category: Inter
+#    blockData: minecraft:redstone_torch[lit=true]
+#    type: BLOCK
 Items:
   wooden_door_powered:
     blockMaterial: OAK_DOOR
@@ -127,9 +135,9 @@ Items:
     category: Inter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:petrified_oak_slab[type=double,waterlogged=false]
-    blockDataWest: minecraft:petrified_oak_slab[type=double,waterlogged=false]
+    blockDataWest: minecraft:emerald_block
     blockDataNorth: minecraft:petrified_oak_slab[type=double,waterlogged=false]
-    blockDataEast: minecraft:petrified_oak_slab[type=double,waterlogged=false]
+    blockDataEast: minecraft:emerald_block
   brown_shulker_box:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 166
@@ -400,36 +408,30 @@ Items:
     display: Bed [355:16]
     category: Inter
     type: VANILLA
-  bed_blue_half:
+  bed_blue_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 243
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 243
-    display: ITEMBLOCK Blue stool
+    display: Blue stool
     category: Inter
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
-  bed_green_half:
+    type: BLOCK
+    blockData: minecraft:campfire[facing=north,lit=false,signal_fire=true,waterlogged=false]
+  bed_green_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 244
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 244
-    display: ITEMBLOCK Green stool
+    display: Green stool
     category: Inter
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
-  bed_grey_half:
+    type: BLOCK
+    blockData: minecraft:campfire[facing=south,lit=false,signal_fire=true,waterlogged=false]
+  bed_grey_half_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 245
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 245
-    display: ITEMBLOCK Poor stool
+    display: Poor stool
     category: Inter
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:campfire[facing=east,lit=false,signal_fire=true,waterlogged=false]
   curtain_blue_top:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 246
@@ -709,39 +711,33 @@ Items:
     display: Plate [148:0]
     category: Inter
     type: VANILLA
-  cutlery:
+  cutlery_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 390
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 390
     display: ITEMBLOCK Cutlery
     category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:rail[shape=north_south]
-    blockDataWest: minecraft:rail[shape=north_south]
-    blockDataNorth: minecraft:rail[shape=north_south]
-    blockDataEast: minecraft:rail[shape=north_south]
-  plate_1:
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:light_weighted_pressure_plate[power=6]
+    blockDataWest: minecraft:light_weighted_pressure_plate[power=7]
+    blockDataNorth: minecraft:light_weighted_pressure_plate[power=4]
+    blockDataEast: minecraft:light_weighted_pressure_plate[power=5]
+  plate_1_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 391
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 391
     display: ITEMBLOCK Plate
     category: Inter
-    type: ITEM_BLOCK
-    blockData: minecraft:rail[shape=north_south]
-  plate_2:
+    type: BLOCK
+    blockData: minecraft:light_weighted_pressure_plate[power=2]
+  plate_2_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 392
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 392
     display: ITEMBLOCK Fancy plate
     category: Inter
-    type: ITEM_BLOCK
-    blockData: minecraft:rail[shape=north_south]
+    type: BLOCK
+    blockData: minecraft:light_weighted_pressure_plate[power=3]
   torch:
     itemMaterial: TORCH
     damage: 0
@@ -749,14 +745,19 @@ Items:
     category: Inter
     type: VANILLA
   lit_redstone_torch:
-    itemMaterial: REDSTONE_TORCH_ON
-    damage: 0
-    display: Candle (lit) [76:0]
+    blockMaterial: REDSTONE_TORCH
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 246
+    display: Candle (lit) [75:0]
     category: Inter
-    type: VANILLA
+    type: FIVE_FACES
+    blockDataSouth: minecraft:redstone_wall_torch[facing=south,lit=true]
+    blockDataWest: minecraft:redstone_wall_torch[facing=west,lit=true]
+    blockDataNorth: minecraft:redstone_wall_torch[facing=north,lit=true]
+    blockDataEast: minecraft:redstone_wall_torch[facing=east,lit=true]
+    blockDataUp: minecraft:redstone_torch[lit=true]
   unlit_redstone_torch:
-    blockMaterial: REDSTONE_TORCH_OFF
-    dataValueTop: 5
+    blockMaterial: REDSTONE_TORCH
     itemMaterial: DIAMOND_LEGGINGS
     damage: 284
     display: Candle (unlit) [75:0]
