@@ -121,10 +121,10 @@ Items:
     display: Mossy large sandstone bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:birch_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:birch_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:birch_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:birch_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:birch_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:birch_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    blockDataNorth: minecraft:birch_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:birch_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
   trapdoor_double_slab_sandstone_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 249
@@ -145,10 +145,10 @@ Items:
     display: Mossy small sandstone bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:birch_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:birch_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataNorth: minecraft:birch_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:birch_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:birch_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:birch_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataNorth: minecraft:birch_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:birch_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
   trapdoor_double_slab_red_sandstone_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 250
@@ -169,10 +169,10 @@ Items:
     display: Sandstone ornament star open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:birch_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:birch_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
-    blockDataNorth: minecraft:birch_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:birch_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:birch_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:birch_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataNorth: minecraft:birch_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:birch_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
   trapdoor_sandstone_chiseled_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 289
@@ -193,10 +193,10 @@ Items:
     display: Smooth sandstone open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:birch_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:birch_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:birch_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:birch_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:birch_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:birch_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataNorth: minecraft:birch_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:birch_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
   trapdoor_sandstone_smooth_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 251
@@ -217,10 +217,10 @@ Items:
     display: Red bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
   trapdoor_nether_brick_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 295
@@ -241,10 +241,10 @@ Items:
     display: Brown bricks half door [197:0]
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:dark_oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]
-    blockDataWest: minecraft:dark_oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]
-    blockDataNorth: minecraft:dark_oak_door[facing=north,half=lower,hinge=right,open=false,powered=false]
-    blockDataEast: minecraft:dark_oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    blockDataSouth: minecraft:dark_oak_door[facing=north,half=lower,hinge=right,open=false,powered=false]
+    blockDataWest: minecraft:dark_oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    blockDataNorth: minecraft:dark_oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]
+    blockDataEast: minecraft:dark_oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]
   trapdoor_nether_brick_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 252
@@ -265,10 +265,10 @@ Items:
     display: Mossy brown bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:iron_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:iron_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
   trapdoor_mushroom_block_s_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 253
@@ -289,10 +289,10 @@ Items:
     display: Large white bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:oak_door[facing=east,half=lower,hinge=left,open=true,powered=false]
-    blockDataWest: minecraft:oak_door[facing=south,half=lower,hinge=left,open=true,powered=false]
-    blockDataNorth: minecraft:oak_door[facing=west,half=lower,hinge=left,open=true,powered=false]
-    blockDataEast: minecraft:oak_door[facing=north,half=lower,hinge=left,open=true,powered=false]
+    blockDataSouth: minecraft:oak_door[facing=west,half=lower,hinge=left,open=true,powered=false]
+    blockDataWest: minecraft:oak_door[facing=north,half=lower,hinge=left,open=true,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=east,half=lower,hinge=left,open=true,powered=false]
+    blockDataEast: minecraft:oak_door[facing=south,half=lower,hinge=left,open=true,powered=false]
   trapdoor_quartz_normal_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 254
@@ -313,10 +313,10 @@ Items:
     display: Mossy large white bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:jungle_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:jungle_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataNorth: minecraft:jungle_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:jungle_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:jungle_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:jungle_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:jungle_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
   trapdoor_double_slab_quartz_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 255
@@ -337,10 +337,10 @@ Items:
     display: Cracked large white bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:jungle_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:jungle_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:jungle_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:jungle_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:jungle_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:jungle_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:jungle_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
   trapdoor_double_slab_quartz_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 256
@@ -361,10 +361,10 @@ Items:
     display: Small white bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:spruce_door[facing=east,half=lower,hinge=left,open=true,powered=false]
-    blockDataWest: minecraft:spruce_door[facing=south,half=lower,hinge=left,open=true,powered=false]
-    blockDataNorth: minecraft:spruce_door[facing=west,half=lower,hinge=left,open=true,powered=false]
-    blockDataEast: minecraft:spruce_door[facing=north,half=lower,hinge=left,open=true,powered=false]
+    blockDataSouth: minecraft:spruce_door[facing=west,half=lower,hinge=left,open=true,powered=false]
+    blockDataWest: minecraft:spruce_door[facing=north,half=lower,hinge=left,open=true,powered=false]
+    blockDataNorth: minecraft:spruce_door[facing=east,half=lower,hinge=left,open=true,powered=false]
+    blockDataEast: minecraft:spruce_door[facing=south,half=lower,hinge=left,open=true,powered=false]
   trapdoor_end_stone_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 257
@@ -385,10 +385,10 @@ Items:
     display: Weathered small white bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:jungle_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:jungle_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:jungle_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:jungle_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:jungle_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:jungle_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:jungle_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
   trapdoor_end_bricks_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 258
@@ -409,10 +409,10 @@ Items:
     display: Smooth white brick open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:jungle_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:jungle_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
-    blockDataNorth: minecraft:jungle_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:jungle_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:jungle_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:jungle_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:jungle_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
   trapdoor_quartz_chiseled_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 259
@@ -433,10 +433,10 @@ Items:
     display: Light gray bricks half door [64:0]
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]
-    blockDataWest: minecraft:oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]
-    blockDataNorth: minecraft:oak_door[facing=north,half=lower,hinge=right,open=false,powered=false]
-    blockDataEast: minecraft:oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    blockDataSouth: minecraft:oak_door[facing=north,half=lower,hinge=right,open=false,powered=false]
+    blockDataWest: minecraft:oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]
+    blockDataEast: minecraft:oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]
   trapdoor_stonebrick_normal_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 260
@@ -457,10 +457,10 @@ Items:
     display: Mossy light gray bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:dark_oak_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:dark_oak_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
-    blockDataNorth: minecraft:dark_oak_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:dark_oak_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:dark_oak_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:dark_oak_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataNorth: minecraft:dark_oak_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:dark_oak_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
   trapdoor_stonebrick_mossy_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 261
@@ -481,10 +481,10 @@ Items:
     display: Cracked light gray bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataNorth: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataNorth: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
   trapdoor_stonebrick_cracked_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 328
@@ -505,10 +505,10 @@ Items:
     display: Light gray bricks ornament open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:dark_oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:dark_oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:dark_oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:dark_oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:dark_oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:dark_oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    blockDataNorth: minecraft:dark_oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:dark_oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
   trapdoor_stonebrick_chiseled_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 331
@@ -529,10 +529,10 @@ Items:
     display: Small gray bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:jungle_door[facing=east,half=lower,hinge=left,open=true,powered=false]
-    blockDataWest: minecraft:jungle_door[facing=south,half=lower,hinge=left,open=true,powered=false]
-    blockDataNorth: minecraft:jungle_door[facing=west,half=lower,hinge=left,open=true,powered=false]
-    blockDataEast: minecraft:jungle_door[facing=north,half=lower,hinge=left,open=true,powered=false]
+    blockDataSouth: minecraft:jungle_door[facing=west,half=lower,hinge=left,open=true,powered=false]
+    blockDataWest: minecraft:jungle_door[facing=north,half=lower,hinge=left,open=true,powered=false]
+    blockDataNorth: minecraft:jungle_door[facing=east,half=lower,hinge=left,open=true,powered=false]
+    blockDataEast: minecraft:jungle_door[facing=south,half=lower,hinge=left,open=true,powered=false]
   trapdoor_double_slab_stonebrick_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 262
@@ -547,19 +547,16 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
-  trapdoor_double_slab_stonebrick_seamless_open_itemblock:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 336
-    contentHeight: 0.3125
+  trapdoor_double_slab_stonebrick_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 336
-    display: ITEMBLOCK Light gray brick open trapdoor
+    display: Light gray brick open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_door[facing=north,half=upper,hinge=left,open=false,powered=false]
+    blockDataWest: minecraft:oak_door[facing=east,half=upper,hinge=left,open=false,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=south,half=upper,hinge=left,open=false,powered=false]
+    blockDataEast: minecraft:oak_door[facing=west,half=upper,hinge=left,open=false,powered=false]
   trapdoor_double_slab_stonebrick_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 263
@@ -580,10 +577,10 @@ Items:
     display: Dark gray brick open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataNorth: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
   trapdoor_double_slab_brick_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 264
@@ -598,19 +595,16 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:dark_oak_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
-  trapdoor_monster_egg_stonebrick_open_itemblock:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 342
-    contentHeight: 0.3125
+  trapdoor_monster_egg_stonebrick_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 342
-    display: ITEMBLOCK Floor pattern block open trapdoor
+    display: Floor pattern block open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_door[facing=north,half=lower,hinge=right,open=false,powered=false]
+    blockDataWest: minecraft:oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]
+    blockDataEast: minecraft:oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]
   trapdoor_monster_egg_stonebrick_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 265
@@ -625,19 +619,16 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]
-  trapdoor_monster_egg_stonebrick_mossy_open_itemblock:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 345
-    contentHeight: 0.3125
+  trapdoor_monster_egg_stonebrick_mossy_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 345
-    display: ITEMBLOCK Floor pattern block open trapdoor
+    display: Floor pattern block open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_door[facing=east,half=lower,hinge=right,open=true,powered=false]
+    blockDataWest: minecraft:oak_door[facing=south,half=lower,hinge=right,open=true,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=west,half=lower,hinge=right,open=true,powered=false]
+    blockDataEast: minecraft:oak_door[facing=north,half=lower,hinge=right,open=true,powered=false]
   trapdoor_monster_egg_stonebrick_mossy_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 266
@@ -652,19 +643,16 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:spruce_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
-  trapdoor_monster_egg_stonebrick_cracked_open_itemblock:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 348
-    contentHeight: 0.3125
+  trapdoor_monster_egg_stonebrick_cracked_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 348
-    display: ITEMBLOCK Floor pattern block open trapdoor
+    display: Floor pattern block open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_door[facing=north,half=upper,hinge=right,open=false,powered=false]
+    blockDataWest: minecraft:oak_door[facing=east,half=upper,hinge=right,open=false,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=south,half=upper,hinge=right,open=false,powered=false]
+    blockDataEast: minecraft:oak_door[facing=west,half=upper,hinge=right,open=false,powered=false]
   trapdoor_monster_egg_stonebrick_cracked_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 267
@@ -679,19 +667,19 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:spruce_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
-  trapdoor_monster_egg_stonebrick_chiseled_open_itemblock:
+  trapdoor_monster_egg_stonebrick_chiseled_open_regular:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 351
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 351
-    display: ITEMBLOCK Floor pattern block open trapdoor
+    display: Floor pattern block open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_door[facing=east,half=upper,hinge=right,open=true,powered=false]
+    blockDataWest: minecraft:oak_door[facing=south,half=upper,hinge=right,open=true,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=west,half=upper,hinge=right,open=true,powered=false]
+    blockDataEast: minecraft:oak_door[facing=north,half=upper,hinge=right,open=true,powered=false]
   trapdoor_monster_egg_stonebrick_chiseled_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 268
@@ -712,10 +700,10 @@ Items:
     display: Dark gray bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:spruce_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
     blockDataNorth: minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:spruce_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
   trapdoor_brick_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 269
@@ -739,10 +727,10 @@ Items:
     display: Cracked dark gray bricks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:spruce_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:spruce_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:spruce_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:spruce_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:spruce_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    blockDataNorth: minecraft:spruce_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
   trapdoor_double_slab_brick_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 358
@@ -763,10 +751,10 @@ Items:
     display: Smooth stone block open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:spruce_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataNorth: minecraft:spruce_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:spruce_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataNorth: minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:spruce_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
   trapdoor_double_slab_stone_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 270
@@ -781,19 +769,16 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:spruce_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
-  trapdoor_monster_egg_stone_open_itemblock:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 363
-    contentHeight: 0.3125
+  trapdoor_monster_egg_stone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 363
-    display: ITEMBLOCK Ornamental stone block open trapdoor
+    display: Ornamental stone block open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_door[facing=west,half=upper,hinge=left,open=true,powered=false]
+    blockDataWest: minecraft:oak_door[facing=north,half=upper,hinge=left,open=true,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=east,half=upper,hinge=left,open=true,powered=false]
+    blockDataEast: minecraft:oak_door[facing=south,half=upper,hinge=left,open=true,powered=false]
   trapdoor_monster_egg_stone_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 364
@@ -814,10 +799,10 @@ Items:
     display: Double stone slab open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:spruce_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
-    blockDataNorth: minecraft:spruce_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:spruce_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:spruce_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:spruce_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataNorth: minecraft:spruce_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
   trapdoor_double_slab_stone_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 367
@@ -838,10 +823,10 @@ Items:
     display: Cobblestone open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:acacia_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:acacia_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:acacia_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:acacia_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:acacia_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataNorth: minecraft:acacia_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:acacia_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
   trapdoor_cobblestone_bottom_regular:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 271
@@ -862,10 +847,10 @@ Items:
     display: Mossy cobblestone open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:acacia_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:acacia_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:acacia_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
     blockDataNorth: minecraft:acacia_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:acacia_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:acacia_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
   trapdoor_mossy_cobblestone_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 272
@@ -886,10 +871,10 @@ Items:
     display: Black cobblestone open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:acacia_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
-    blockDataNorth: minecraft:acacia_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:acacia_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:acacia_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:acacia_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataNorth: minecraft:acacia_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:acacia_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
   trapdoor_double_slab_cobblestone_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 273
@@ -910,10 +895,10 @@ Items:
     display: Mixed cobblestone open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:acacia_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:acacia_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:acacia_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    blockDataSouth: minecraft:acacia_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
+    blockDataWest: minecraft:acacia_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    blockDataNorth: minecraft:acacia_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
+    blockDataEast: minecraft:acacia_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
   trapdoor_double_slab_cobblestone_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 274
@@ -921,7 +906,7 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:acacia_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
-  trapdoor_double_slab_cobblestone_seamless_top:
+  trapdoor_double_slab_cobblestone_seamless_top_regular:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 380
     contentHeight: 0.3125
@@ -931,19 +916,16 @@ Items:
     category: Thin
     type: BLOCK
     blockData: minecraft:acacia_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
-  trapdoor_monster_egg_cobblestone_open_itemblock:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 381
-    contentHeight: 0.3125
+  trapdoor_monster_egg_cobblestone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 381
-    display: ITEMBLOCK Red cobblestone open trapdoor
+    display: Red cobblestone open trapdoor
     category: Thin
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataWest: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataNorth: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
-    blockDataEast: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:dark_oak_door[facing=north,half=lower,hinge=right,open=false,powered=false]
+    blockDataWest: minecraft:dark_oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    blockDataNorth: minecraft:dark_oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]
+    blockDataEast: minecraft:dark_oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]
   trapdoor_monster_egg_cobblestone_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 382
@@ -964,10 +946,10 @@ Items:
     display: Brown wood planks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataNorth: minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataNorth: minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
   iron_trapdoor_bottom_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 277
@@ -988,10 +970,10 @@ Items:
     display: White wood planks open trapdoor
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:oak_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
-    blockDataWest: minecraft:oak_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
-    blockDataNorth: minecraft:oak_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
-    blockDataEast: minecraft:oak_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataSouth: minecraft:oak_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
+    blockDataWest: minecraft:oak_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    blockDataNorth: minecraft:oak_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
+    blockDataEast: minecraft:oak_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
   trapdoor_double_slab_planks_dark_oak_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 388
