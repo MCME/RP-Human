@@ -2,59 +2,140 @@
   "multipart": [
     { "when": {"north": true, "west": true, "south": false, "east": false, "up": true, "down": false },
       "apply": {
-      "model": "block/red_mushroom_block_normal"
+      "model": "block/replace"
     }},
     { "when": {"north": true, "west": false, "south": false, "east": false, "up": true, "down": false },
       "apply": {
-      "model": "block/red_mushroom_block_normal",
+      "model": "block/replace",
       "x": 180
     }},
     { "when": {"north": true, "west": false, "south": false, "east": true, "up": true, "down": false },
       "apply": {
-      "model": "block/red_mushroom_block_normal",
+      "model": "block/replace",
       "x": 90
     }},
     { "when": {"north": false, "west": true, "south": false, "east": false, "up": true, "down": false },
       "apply": {
-      "model": "block/red_mushroom_block_normal",
+      "model": "block/replace",
       "x": 270
     }},
     { "when": {"north": false, "west": false, "south": false, "east": false, "up": true, "down": false },
       "apply": {
-      "model": "block/red_mushroom_block_normal",
+      "model": "block/replace",
       "x": 90,
       "y": 90
     }},
     { "when": {"north": false, "west": false, "south": false, "east": true, "up": true, "down": false },
       "apply": {
-      "model": "block/red_mushroom_block_normal",
+      "model": "block/replace",
       "x": 90,
       "y": 270
     }},
     { "when": {"north": false, "west": true, "south": true, "east": false, "up": true, "down": false },
       "apply": {
-      "model": "block/red_mushroom_block_seu"
+      "model": "block/replace"
     }},
     { "when": {"north": false, "west": false, "south": true, "east": false, "up": true, "down": false },
       "apply": {
-      "model": "block/red_mushroom_block_seu",
+      "model": "block/replace",
       "x": 90
     }},
     { "when": {"north": false, "west": false, "south": true, "east": true, "up": true, "down": false },
       "apply": {
-      "model": "block/red_mushroom_block_seu",
-      "x": 90,
-      "y": 90
-    }},
-    { "when": {"north": true, "west": true, "south": true, "east": true, "up": true, "down": true },
-      "apply": {
-      "model": "block/red_mushroom_block_nwd",
+      "model": "block/replace",
       "x": 90,
       "y": 90
     }},
     { "when": {"north": false, "west": false, "south": false, "east": false, "up": false, "down": false },
       "apply": {
-      "model": "block/double_slab_nether_brick"
-    }}
+      "model": "block/replace"
+    }},
+
+    { "when": {"north": true, "west": true, "south": true, "east": true, "up": false, "down": true },
+      "apply": [
+      {
+        "model": "block/white_concrete_powder_0",
+        "y": 180
+      },
+      {
+        "model": "block/white_concrete_powder_1",
+        "y": 180
+      }
+    ]},
+    { "when": {"north": true, "west": true, "south": true, "east": true, "up": false, "down": false },
+      "apply": [
+      {
+        "model": "block/white_concrete_powder_0",
+        "y": 270
+      },
+      {
+        "model": "block/white_concrete_powder_1",
+        "y": 270
+      }
+    ]},
+    { "when": {"north": true, "west": true, "south": true, "east": true, "up": true, "down": true },
+      "apply": [
+      {
+        "model": "block/white_concrete_powder_0"
+      },
+      {
+        "model": "block/white_concrete_powder_1"
+      }
+    ]},
+    { "when": {"north": true, "west": true, "south": true, "east": true, "up": true, "down": false },
+      "apply": [
+      {
+        "model": "block/white_concrete_powder_0",
+        "y": 90
+      },
+      {
+        "model": "block/white_concrete_powder_1",
+        "y": 90
+      }
+    ]},
+	
+    { "when": {"north": true, "west": false, "south": true, "east": true, "up": false, "down": true },
+      "apply": [
+      {
+        "model": "block/yellow_concrete_powder_0",
+        "y": 180
+      },
+      {
+        "model": "block/yellow_concrete_powder_1",
+        "y": 180
+      }
+    ]},
+    { "when": {"north": true, "west": false, "south": true, "east": true, "up": false, "down": false },
+      "apply": [
+      {
+        "model": "block/yellow_concrete_powder_0",
+        "y": 270
+      },
+      {
+        "model": "block/yellow_concrete_powder_1",
+        "y": 270
+      }
+    ]},
+    { "when": {"north": true, "west": false, "south": true, "east": true, "up": true, "down": true },
+      "apply": [
+      {
+        "model": "block/yellow_concrete_powder_0"
+      },
+      {
+        "model": "block/yellow_concrete_powder_1"
+      }
+    ]},
+    { "when": {"north": true, "west": false, "south": true, "east": true, "up": true, "down": false },
+      "apply": [
+      {
+        "model": "block/yellow_concrete_powder_0",
+        "y": 90
+      },
+      {
+        "model": "block/yellow_concrete_powder_1",
+        "y": 90
+      }
+    ]}
+	
   ]
 }

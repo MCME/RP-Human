@@ -73,7 +73,7 @@ Items:
     display: Mossy large white bricks [43:15]
     category: Block2
     type: BLOCK
-    blockData: minecraft:smooth_quartz_slab[type=double,waterlogged=false]
+    blockData: minecraft:smooth_quartz
   double_slab_quartz:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 82
@@ -201,14 +201,14 @@ Items:
     display: Light gray smooth block [43:13]
     category: Block2
     type: BLOCK
-    blockData: minecraft:stone_slab[type=double,waterlogged=true]
+    blockData: minecraft:wet_sponge
   double_slab_brick_seamless:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 86
     display: Dark gray smooth block [43:12]
     category: Block2
     type: BLOCK
-    blockData: minecraft:stone_slab[type=double,waterlogged=false]
+    blockData: minecraft:sponge
   purpur_pillar_top:
     itemMaterial: PURPUR_PILLAR
     damage: 0
@@ -305,7 +305,7 @@ Items:
     display: Smooth stone block [43:8]
     category: Block2
     type: BLOCK
-    blockData: minecraft:smooth_stone_slab[type=double,waterlogged=true]
+    blockData: minecraft:smooth_stone
   monster_egg_stone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 93
@@ -347,7 +347,7 @@ Items:
   half_slab_cobblestone:
     itemMaterial: COBBLESTONE_SLAB
     damage: 3
-    display: Cobblestone stairs [44:3]
+    display: Cobblestone slab [44:3]
     category: Block2
     type: VANILLA
   mossy_cobblestone:
@@ -383,20 +383,20 @@ Items:
     display: Weathered stone lower corner [252:0]
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:orange_concrete_powder
-    blockDataWest: minecraft:magenta_concrete_powder
-    blockDataNorth: minecraft:light_blue_concrete_powder
-    blockDataEast: minecraft:white_concrete_powder
+    blockDataSouth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=false,west=true]
+    blockDataWest: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]
+    blockDataNorth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=true]
+    blockDataEast: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=true]
   yellow_concrete_powder:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 311
     display: Wheatered stone upper corner [252:4]
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:lime_concrete_powder
-    blockDataWest: minecraft:pink_concrete_powder
-    blockDataNorth: minecraft:gray_concrete_powder
-    blockDataEast: minecraft:yellow_concrete_powder
+    blockDataSouth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=false,west=false]
+    blockDataWest: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]
+    blockDataNorth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=false]
+    blockDataEast: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=false]
   gold_block:
     itemMaterial: GOLD_BLOCK
     damage: 0
@@ -465,10 +465,10 @@ Items:
     display: Vertical white bricks slab [184:12]
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:birch_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:birch_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:birch_fence_gate[facing=north,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:birch_fence_gate[facing=east,in_wall=false,open=true,powered=true]
+    blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=true,open=false,powered=false]
+    blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=true,open=false,powered=false]
+    blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=true,open=false,powered=false]
+    blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=true,open=false,powered=false]
   repeater_delay4_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 196
@@ -486,19 +486,16 @@ Items:
     category: Block2
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_double_slab_quartz_seamless:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 74
-    contentHeight: 0.3125
+  vertical_slab_double_slab_quartz_seamless_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 74
-    display: ITEMBLOCK Vertical mossy white bricks slab
+    display: Vertical mossy white bricks slab
     category: Block2
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=true,open=true,powered=false]
+    blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=true,open=true,powered=false]
+    blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=true,open=true,powered=false]
+    blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=true,open=true,powered=false]
   repeater_delay4_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 197
@@ -522,20 +519,20 @@ Items:
     display: Vertical small white bricks slab [186:12]
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=false,open=true,powered=true]
+    blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=true,open=false,powered=true]
+    blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=true,open=false,powered=true]
+    blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=true,open=false,powered=true]
+    blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=true,open=false,powered=true]
   spruce_fence_gate_open:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 325
     display: Vertical large light gray bricks slab [183:4]
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=false,open=true,powered=false]
-    blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=false,open=true,powered=false]
-    blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=false,open=true,powered=false]
-    blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=false,open=true,powered=false]
+    blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=true,open=false,powered=false]
+    blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=true,open=false,powered=false]
+    blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=true,open=false,powered=false]
+    blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=true,open=false,powered=false]
   powered_repeater_delay1_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 198
@@ -553,19 +550,16 @@ Items:
     category: Block2
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_stonebrick_mossy:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 81
-    contentHeight: 0.3125
+  vertical_slab_stonebrick_mossy_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 81
-    display: ITEMBLOCK Vertical mossy light bricks slab
+    display: Vertical mossy light bricks slab
     category: Block2
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=true,open=true,powered=false]
+    blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=true,open=true,powered=false]
+    blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=true,open=true,powered=false]
+    blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=true,open=true,powered=false]
   powered_repeater_delay1_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 199
@@ -607,19 +601,16 @@ Items:
     category: Block2
     type: BLOCK
     blockData: minecraft:petrified_oak_slab[type=top,waterlogged=false]
-  vertical_slab_double_slab_stonebrick_seamless:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 87
-    contentHeight: 0.3125
+  vertical_slab_double_slab_stonebrick_seamless_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 87
-    display: ITEMBLOCK Vertical light stone brick slab
+    display: Vertical light stone brick slab
     category: Block2
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=true,open=false,powered=true]
+    blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=true,open=false,powered=true]
+    blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=true,open=false,powered=true]
+    blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=true,open=false,powered=true]
   powered_repeater_delay1_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 201
@@ -637,42 +628,36 @@ Items:
     category: Block2
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_double_slab_brick_seamless:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 90
-    contentHeight: 0.3125
+  vertical_slab_double_slab_brick_seamless_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 90
-    display: ITEMBLOCK Vertical dark stone brick slab
+    display: Vertical dark stone brick slab
     category: Block2
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-  vertical_slab_brick:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 91
-    contentHeight: 0.3125
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=true,open=true,powered=true]
+    blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=true,open=true,powered=true]
+    blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=true,open=true,powered=true]
+    blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=true,open=true,powered=true]
+  vertical_slab_brick_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 91
-    display: ITEMBLOCK Vertical dark gray bricks slab
+    display: Vertical dark gray bricks slab
     category: Block2
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=false]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=false]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=false,powered=false]
+    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=false,powered=false]
   acacia_fence_gate_open:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 326
     display: Vertical cobblestone slab [187:4]
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=false]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=false]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=true,powered=false]
-    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=true,powered=false]
+    blockDataSouth: minecraft:jungle_fence_gate[facing=south,in_wall=true,open=false,powered=false]
+    blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=true,open=false,powered=false]
+    blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=true,open=false,powered=false]
+    blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=true,open=false,powered=false]
   powered_repeater_delay2_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 202
@@ -690,19 +675,16 @@ Items:
     category: Block2
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_mossy_cobblestone:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 95
-    contentHeight: 0.3125
+  vertical_slab_mossy_cobblestone_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 95
-    display: ITEMBLOCK Vertical mossy cobblestone slab
+    display: Vertical mossy cobblestone slab
     category: Block2
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:jungle_fence_gate[facing=south,in_wall=true,open=true,powered=true]
+    blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=true,open=true,powered=true]
+    blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=true,open=true,powered=true]
+    blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=true,open=true,powered=true]
   powered_repeater_delay2_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 203
@@ -720,19 +702,16 @@ Items:
     category: Block2
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_double_slab_cobblestone:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 98
-    contentHeight: 0.3125
+  vertical_slab_double_slab_cobblestone_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 98
-    display: ITEMBLOCK Vertical black cobblestone slab
+    display: Vertical black cobblestone slab
     category: Block2
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:jungle_fence_gate[facing=south,in_wall=true,open=false,powered=true]
+    blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=true,open=false,powered=true]
+    blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=true,open=false,powered=true]
+    blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=true,open=false,powered=true]
   powered_repeater_delay2_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 204
@@ -750,19 +729,16 @@ Items:
     category: Block2
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_double_slab_cobblestone_seamless:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 101
-    contentHeight: 0.3125
+  vertical_slab_double_slab_cobblestone_seamless_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 101
-    display: ITEMBLOCK Vertical mixed cobblestone slab
+    display: Vertical mixed cobblestone slab
     category: Block2
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:jungle_fence_gate[facing=south,in_wall=true,open=true,powered=false]
+    blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=true,open=true,powered=false]
+    blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=true,open=true,powered=false]
+    blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=true,open=true,powered=false]
   powered_repeater_delay2_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 205
@@ -780,19 +756,16 @@ Items:
     category: Block2
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_monster_egg_cobblestone:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 104
-    contentHeight: 0.3125
+  vertical_slab_monster_egg_cobblestone_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 104
-    display: ITEMBLOCK Vertical red cobblestone slab
+    display: Vertical red cobblestone slab
     category: Block2
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=true,open=false,powered=false]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=true,open=false,powered=false]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=true,open=false,powered=false]
+    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=true,open=false,powered=false]
   powered_repeater_delay3_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 206
@@ -810,19 +783,16 @@ Items:
     category: Block2
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_double_slab_planks_acacia:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 107
-    contentHeight: 0.3125
+  vertical_slab_double_slab_planks_acacia_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 107
-    display: ITEMBLOCK Vertical brown wood planks slab
+    display: Vertical brown wood planks slab
     category: Block2
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_fence_gate[facing=south,in_wall=true,open=false,powered=true]
+    blockDataWest: minecraft:oak_fence_gate[facing=west,in_wall=true,open=false,powered=true]
+    blockDataNorth: minecraft:oak_fence_gate[facing=north,in_wall=true,open=false,powered=true]
+    blockDataEast: minecraft:oak_fence_gate[facing=east,in_wall=true,open=false,powered=true]
   powered_repeater_delay3_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 207
@@ -840,16 +810,13 @@ Items:
     category: Block2
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_double_slab_planks_dark_oak:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 110
-    contentHeight: 0.3125
+  vertical_slab_double_slab_planks_dark_oak_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 110
-    display: ITEMBLOCK Vertical white wood planks slab
+    display: Vertical white wood planks slab
     category: Block2
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_fence_gate[facing=south,in_wall=true,open=false,powered=false]
+    blockDataWest: minecraft:oak_fence_gate[facing=west,in_wall=true,open=false,powered=false]
+    blockDataNorth: minecraft:oak_fence_gate[facing=north,in_wall=true,open=false,powered=false]
+    blockDataEast: minecraft:oak_fence_gate[facing=east,in_wall=true,open=false,powered=false]

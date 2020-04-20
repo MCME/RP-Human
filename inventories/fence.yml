@@ -41,10 +41,10 @@ Items:
     display: White bricks wall straight [187:2]
     category: Fence
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=false,powered=false]
-    blockDataWest: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=false,powered=false]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=false,powered=false]
-    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=false,powered=false]
+    blockDataSouth: minecraft:end_stone_brick_wall[east=true,north=false,south=false,up=false,waterlogged=false,west=true]
+    blockDataWest: minecraft:end_stone_brick_wall[east=false,north=true,south=true,up=false,waterlogged=false,west=false]
+    blockDataNorth: minecraft:end_stone_brick_wall[east=true,north=false,south=false,up=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:end_stone_brick_wall[east=false,north=true,south=true,up=false,waterlogged=false,west=false]
   spruce_fence:
     itemMaterial: SPRUCE_FENCE
     damage: 0
@@ -57,10 +57,10 @@ Items:
     display: Light gray bricks wall straight [187:0]
     category: Fence
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=false]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=false]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=false]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=false]
+    blockDataSouth: minecraft:stone_brick_wall[east=true,north=false,south=false,up=false,waterlogged=false,west=true]
+    blockDataWest: minecraft:stone_brick_wall[east=false,north=true,south=true,up=false,waterlogged=false,west=false]
+    blockDataNorth: minecraft:stone_brick_wall[east=true,north=false,south=false,up=false,waterlogged=false,west=true]
+    blockDataEast: minecraft:stone_brick_wall[east=false,north=true,south=true,up=false,waterlogged=false,west=false]
   cobblestone_wall:
     itemMaterial: COBBLESTONE_WALL
     damage: 0

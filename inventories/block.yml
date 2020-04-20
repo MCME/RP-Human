@@ -111,96 +111,96 @@ Items:
     category: Block
     type: BLOCK
     blockData: minecraft:red_sandstone_slab[type=double,waterlogged=false]
-  white_concrete:
+  large_small_sandstone_bricks:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 308
     display: Large + Small sandstone bricks combo [251:0]
     category: Block
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:magenta_concrete
-    blockDataWest: minecraft:orange_concrete
-    blockDataNorth: minecraft:white_concrete
-    blockDataEast: minecraft:light_blue_concrete
-  pink_concrete:
+    blockDataSouth: minecraft:brown_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=true]
+    blockDataWest: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=true,up=false,west=true]
+    blockDataNorth: minecraft:brown_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=false]
+    blockDataEast: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=true,up=true,west=false]
+  large_sandsonte_red_brick:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 307
     display: Large sandstone with red bricks [251:6]
     category: Block
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:gray_concrete
-    blockDataWest: minecraft:pink_concrete
-    blockDataNorth: minecraft:gray_concrete
-    blockDataEast: minecraft:pink_concrete
-  yellow_concrete:
+    blockDataSouth: minecraft:brown_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=false]
+    blockDataWest: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=true,up=false,west=false]
+    blockDataNorth: minecraft:brown_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=false]
+    blockDataEast: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=true,up=false,west=false]
+  sandstone_ornament_large_brick_corner:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 309
     display: Sandstone ornament large bricks corner [251:4]
     category: Block
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:yellow_concrete
-    blockDataWest: minecraft:lime_concrete
-    blockDataNorth: minecraft:yellow_concrete
-    blockDataEast: minecraft:lime_concrete
+    blockDataSouth: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=false]
+    blockDataWest: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=false]
+    blockDataNorth: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=false]
+    blockDataEast: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=false]
   brown_mushroom_block_c:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 65
     display: Small sandstone bricks cornerstones [99:5]
     category: Block
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=true,west=false]
-    blockDataWest: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=true,west=false]
-    blockDataNorth: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=true,west=false]
-    blockDataEast: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=true,west=false]
+    blockDataSouth: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=true]
+    blockDataWest: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=true,up=false,west=true]
+    blockDataNorth: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=true]
+    blockDataEast: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=true,up=false,west=true]
   brown_mushroom_block_sw:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 66
     display: Sandstone ornament cornerstones [99:7]
     category: Block
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=true]
-    blockDataWest: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=false]
-    blockDataNorth: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=true]
-    blockDataEast: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=false]
+    blockDataSouth: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]
+    blockDataWest: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=false]
+    blockDataNorth: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]
+    blockDataEast: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=false]
   brown_mushroom_block_se:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 67
     display: Sandstone with red bricks corner [99:9]
     category: Block
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=false]
-    blockDataWest: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]
-    blockDataNorth: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=false]
-    blockDataEast: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]
+    blockDataSouth: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]
+    blockDataWest: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=true]
+    blockDataNorth: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]
+    blockDataEast: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=true]
   brown_mushroom_normal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 71
     display: Sandstone pillar end [100:1]
     category: Block
     type: SIX_FACES
-    blockDataSouth: minecraft:red_mushroom_block[down=false,east=false,north=false,south=false,up=true,west=true]
-    blockDataWest: minecraft:red_mushroom_block[down=false,east=true,north=false,south=false,up=true,west=false]
-    blockDataNorth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=false]
-    blockDataEast: minecraft:red_mushroom_block[down=false,east=false,north=false,south=false,up=true,west=false]
-    blockDataDown: minecraft:red_mushroom_block[down=false,east=false,north=true,south=false,up=true,west=false]
-    blockDataUp: minecraft:red_mushroom_block[down=false,east=false,north=true,south=false,up=true,west=true]
+    blockDataSouth: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=true]
+    blockDataWest: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=false,up=false,west=true]
+    blockDataNorth: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=false,up=false,west=true]
+    blockDataEast: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=false]
+    blockDataDown: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=false]
+    blockDataUp: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=false,up=false,west=false]
   brown_mushroom_seu:
-    itemMaterial: DIAMOND_LEGGINGS 
+    itemMaterial: DIAMOND_LEGGINGS
     damage: 72
     display: Sandstone pillar middle [100:7]
     category: Block
     type: THREE_AXIS
-    blockDataZ: minecraft:red_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=false]
-    blockDataX: minecraft:red_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=false]
-    blockDataY: minecraft:red_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=true]
+    blockDataZ: minecraft:brown_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=true]
+    blockDataX: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=true,up=true,west=true]
+    blockDataY: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=false,up=false,west=false]
   brown_mushroom_nwd:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 73
     display: Sandstone pillar middle alt [100:10]
     category: Block
     type: THREE_AXIS
-    blockDataZ: minecraft:mushroom_stem[down=true,east=true,north=true,south=true,up=true,west=true]
-    blockDataX: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]
-    blockDataY: minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true]
+    blockDataZ: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=true,up=false,west=false]
+    blockDataX: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=true]
+    blockDataY: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=false]
   anvil_damage0_ne:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 288
@@ -253,106 +253,118 @@ Items:
     display: Brown bricks [43:14]
     category: Block
     type: BLOCK
-    blockData: minecraft:nether_brick_slab[type=double,waterlogged=false]
+    blockData: minecraft:red_nether_brick_slab[type=double,waterlogged=false]
   double_slab_nether_brick:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 77
     display: Mossy brown bricks [43:6]
     category: Block
     type: BLOCK
-    blockData: minecraft:red_mushroom_block[down=false,east=false,north=false,south=false,up=false,west=false]
-  silver_concrete:
+    blockData: minecraft:nether_brick_slab[type=double,waterlogged=false]
+  sandstone_brown_brick_lower:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 312
     display: Sandstone + brown bricks combo lower corner [251:8]
     category: Block
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:blue_concrete
-    blockDataWest: minecraft:light_gray_concrete
-    blockDataNorth: minecraft:cyan_concrete
-    blockDataEast: minecraft:purple_concrete
-  brown_concrete:
+    blockDataSouth: minecraft:brown_mushroom_block[down=true,east=false,north=true,south=false,up=false,west=true]
+    blockDataWest: minecraft:brown_mushroom_block[down=true,east=false,north=true,south=false,up=true,west=true]
+    blockDataNorth: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=false,up=true,west=true]
+    blockDataEast: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=false,up=false,west=true]
+  sandstone_brown_brick_upper:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 313
     display: Sandstone + brown bricks combo upper corner [251:12]
     category: Block
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:green_concrete
-    blockDataWest: minecraft:red_concrete
-    blockDataNorth: minecraft:black_concrete
-    blockDataEast: minecraft:brown_concrete
-  white_stained_hardened_clay:
-    itemMaterial: WHITE_TERRACOTTA
-    damage: 0
+    blockDataSouth: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=false,up=true,west=false]
+    blockDataWest: minecraft:brown_mushroom_block[down=true,east=false,north=true,south=false,up=false,west=false]
+    blockDataNorth: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=false,up=false,west=false]
+    blockDataEast: minecraft:brown_mushroom_block[down=true,east=false,north=true,south=false,up=true,west=false]
+  white_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 114
     display: White stucco [159:0]
     category: Block
-    type: VANILLA
-  lime_stained_hardened_clay:
-    itemMaterial: LIME_TERRACOTTA
-    damage: 5
+    blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=true]
+    type: BLOCK
+  lime_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 115
     display: Light stucco [159:5]
     category: Block
-    type: VANILLA
-  gray_stained_hardened_clay:
-    itemMaterial: GRAY_TERRACOTTA
-    damage: 7
+    blockData: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=false,west=true]
+    type: BLOCK
+  light_yellow_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 116
     display: Light yellow stucco [159:7]
     category: Block
-    type: VANILLA
-  silver_stained_hardened_clay:
-    itemMaterial: LIGHT_GRAY_TERRACOTTA
-    damage: 8
+    blockData: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=true]
+    type: BLOCK
+  light_yellow_stucco_ornament:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 117
     display: Light yellow stucco ornament [159:8]
     category: Block
-    type: VANILLA
-  yellow_stained_hardened_clay:
-    itemMaterial: YELLOW_TERRACOTTA
-    damage: 4
+    blockData: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=false,west=true]
+    type: BLOCK
+  yellow_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 118
     display: Yellow stucco [159:4]
     category: Block
-    type: VANILLA
-  orange_stained_hardened_clay:
-    itemMaterial: ORANGE_TERRACOTTA
-    damage: 1
+    blockData: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=true]
+    type: BLOCK
+  orange_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 119
     display: Orange stucco [159:1]
     category: Block
-    type: VANILLA
-  pink_stained_hardened_clay:
-    itemMaterial: PINK_TERRACOTTA
-    damage: 6
+    blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=false,west=false]
+    type: BLOCK
+  pink_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 120
     display: Pink stucco [159:6]
     category: Block
-    type: VANILLA
-  red_stained_hardened_clay:
-    itemMaterial: RED_TERRACOTTA
-    damage: 14
+    blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=false,west=false]
+    type: BLOCK
+  red_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 121
     display: Red stucco [159:14]
     category: Block
-    type: VANILLA
+    blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=false,up=false,west=false]
+    type: BLOCK
   purple_stained_hardened_clay:
-    itemMaterial: PURPLE_TERRACOTTA
-    damage: 10
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 106
     display: Blue stucco base [159:10]
     category: Block
-    type: VANILLA
-  blue_stained_hardened_clay:
-    itemMaterial: BLUE_TERRACOTTA
-    damage: 11
+    blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=false,up=false,west=true]
+    type: BLOCK
+  blue_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 107
     display: Blue stucco [159:11]
     category: Block
-    type: VANILLA
-  magenta_stained_hardened_clay:
-    itemMaterial: MAGENTA_TERRACOTTA
-    damage: 2
+    blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=false,west=true]
+    type: BLOCK
+  magenta_stucco_base:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 108
     display: Light blue stucco base [159:2]
     category: Block
-    type: VANILLA
-  light_blue_stained_hardened_clay:
-    itemMaterial: LIGHT_BLUE_TERRACOTTA
-    damage: 3
+    blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=false,west=true]
+    type: BLOCK
+  light_blue_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 110
     display: Light blue stucco [159:3]
     category: Block
-    type: VANILLA
+    blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=false]
+    type: BLOCK
   white_glazed_terracotta_sw:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 299
@@ -391,18 +403,20 @@ Items:
     display: Weathered light stucco upper corner [238:0]
     category: Block
     type: VANILLA
-  cyan_concrete_powder:
-    itemMaterial: CYAN_CONCRETE_POWDER
-    damage: 9
+  light_stucco_inner:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 239
     category: Block
     display: Weathered stucco (stucco inner) [252:9]
-    type: VANILLA
-  light_gray_concrete_powder:
-    itemMaterial: LIGHT_GRAY_CONCRETE_POWDER
-    damage: 8
+    blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=false,west=true]
+    type: BLOCK
+  light_stucco_outer:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 240
     category: Block
-    display: Weathered stucco (stucco inner) [252:8]
-    type: VANILLA
+    display: Weathered stucco (stucco outer) [252:8]
+    blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=true]
+    type: BLOCK
   yellow_glazed_terracotta_sw:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 301
@@ -441,18 +455,20 @@ Items:
     display: Weathered pink stucco upper corner [242:0]
     category: Block
     type: VANILLA
-  blue_concrete_powder:
-    itemMaterial: BLUE_CONCRETE_POWDER
-    damage: 11
+  pink_stucco_inner:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 241
     display: Weathered pink stucco (stucco inner) [252:11]
     category: Block
-    type: VANILLA
-  purple_concrete_powder:
-    itemMaterial: PURPLE_CONCRETE_POWDER
-    damage: 10
+    blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=true,west=true]
+    type: BLOCK
+  pink_stucco_outer:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 242
     display: Weathered pink stucco (stucco outer) [252:10]
     category: Block
-    type: VANILLA
+    blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=false,up=true,west=true]
+    type: BLOCK
   silver_glazed_terracotta_sw:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 303
@@ -491,18 +507,20 @@ Items:
     display: Weathered light blue stucco upper corner [246:0]
     category: Block
     type: VANILLA
-  green_concrete_powder:
-    itemMaterial: GREEN_CONCRETE_POWDER
-    damage: 13
+  light_blue_stucco_inner:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 243
     display: Weathered light blue stucco (stucco inner) [252:13]
     category: Block
-    type: VANILLA
-  brown_concrete_powder:
-    itemMaterial: BROWN_CONCRETE_POWDER
-    damage: 12
+    blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=false,west=false]
+    type: BLOCK
+  light_blue_stucco_outer:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 244
     display: Weathered light blue stucco (stucco outer) [252:12]
     category: Block
-    type: VANILLA
+    blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=false]
+    type: BLOCK
   brown_glazed_terracotta_sw:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 305
@@ -541,18 +559,20 @@ Items:
     display: Weathered blue stucco upper corner [250:0]
     category: Block
     type: VANILLA
-  black_concrete_powder:
-    itemMaterial: BLACK_CONCRETE_POWDER
-    damage: 15
+  blue_stucco_inner:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 236
     display: Weathered blue stucco (stucco inner) [252:15]
     category: Block
-    type: VANILLA
-  red_concrete_powder:
-    itemMaterial: RED_CONCRETE_POWDER
-    damage: 14
+    blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=true,west=false]
+    type: BLOCK
+  blue_stucco_outer:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 245
     display: Weathered blue stucco (stucco outer) [252:14]
     category: Block
-    type: VANILLA
+    blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=false,up=true,west=false]
+    type: BLOCK
   dark_oak_fence_gate_closed:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 235
@@ -590,19 +610,17 @@ Items:
     category: Block
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_double_slab_sandstone_seamless:
+  vertical_slab_double_slab_sandstone_seamless_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 58
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 58
-    display: ITEMBLOCK Vertical mossy large sandstone bricks slab
+    display: Vertical mossy large sandstone bricks slab
     category: Block
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=true,powered=false]
+    blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=false,open=true,powered=false]
+    blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=false,open=true,powered=false]
+    blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=false,open=true,powered=false]
   repeater_delay3_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 191
@@ -620,19 +638,17 @@ Items:
     category: Block
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_double_slab_red_sandstone_seamless:
+  vertical_slab_double_slab_red_sandstone_seamless_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 61
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 61
-    display: ITEMBLOCK Vertical mossy small sandstone bricks slab
+    display: Vertical mossy small sandstone bricks slab
     category: Block
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=false,open=true,powered=true]
   repeater_delay3_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 192
@@ -650,19 +666,17 @@ Items:
     category: Block
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_sandstone_smooth:
+  vertical_slab_sandstone_smooth_regular:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 64
-    contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 64
-    display: ITEMBLOCK Vertical smooth sandstone slab
+    display: Vertical smooth sandstone slab
     category: Block
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=true,open=true,powered=true]
+    blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=true,open=true,powered=true]
+    blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=true,open=true,powered=true]
+    blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=true,open=true,powered=true]
   repeater_delay3_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 193
@@ -680,19 +694,16 @@ Items:
     category: Block
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_double_slab_nether_brick:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 67
-    contentHeight: 0.3125
+  vertical_slab_double_slab_nether_brick_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 67
-    display: ITEMBLOCK Vertical red sandstone bricks slab
+    display: Vertical red sandstone bricks slab
     category: Block
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=true,open=false,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=true,open=false,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=true,open=false,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=true,open=false,powered=true]
   repeater_delay4_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 194
@@ -716,10 +727,10 @@ Items:
     display: Vertical brown bricks slab [187:10]
     category: Block
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    blockDataSouth: minecraft:birch_fence_gate[facing=south,in_wall=true,open=false,powered=true]
+    blockDataWest: minecraft:birch_fence_gate[facing=west,in_wall=true,open=false,powered=true]
+    blockDataNorth: minecraft:birch_fence_gate[facing=north,in_wall=true,open=false,powered=true]
+    blockDataEast: minecraft:birch_fence_gate[facing=east,in_wall=true,open=false,powered=true]
   repeater_delay4_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 195
@@ -737,16 +748,13 @@ Items:
     category: Block
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  vertical_slab_brown_mushroom_block_s:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 113
-    contentHeight: 0.3125
+  vertical_slab_brown_mushroom_block_s_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 113
-    display: ITEMBLOCK Vertical mossy brown bricks slab
+    display: Vertical mossy brown bricks slab
     category: Block
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:birch_fence_gate[facing=south,in_wall=true,open=false,powered=false]
+    blockDataWest: minecraft:birch_fence_gate[facing=west,in_wall=true,open=false,powered=false]
+    blockDataNorth: minecraft:birch_fence_gate[facing=north,in_wall=true,open=false,powered=false]
+    blockDataEast: minecraft:birch_fence_gate[facing=east,in_wall=true,open=false,powered=false]

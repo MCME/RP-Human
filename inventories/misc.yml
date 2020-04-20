@@ -114,7 +114,7 @@ Items:
     category: Misc
     type: VANILLA
   sign:
-    itemMaterial: SIGN
+    itemMaterial: OAK_SIGN
     damage: 0
     display: Sign [63:0]
     category: Misc
@@ -129,47 +129,53 @@ Items:
     blockDataWest: minecraft:nether_portal[axis=z]
     blockDataNorth: minecraft:nether_portal[axis=x]
     blockDataEast: minecraft:nether_portal[axis=z]
-  emerald_block:
-    itemMaterial: EMERALD_BLOCK
-    damage: 0
-    display: Marker Accepted [133:0]
+  note_block_piano_0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 100
+    display: Marker Accepted
     category: Misc
-    type: VANILLA
-  redstone_block:
+    blockData: minecraft:note_block[instrument=harp,note=0,powered=false]
+    type: BLOCK
+  note_block_piano_1:
     blockDataValue: 0
-    itemMaterial: REDSTONE_BLOCK
-    damage: 0
-    display: Marker Declined [152:0]
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 101
+    display: Marker Declined
     category: Misc
-    type: VANILLA
-  lapis_block:
+    blockData: minecraft:note_block[instrument=harp,note=1,powered=false]
+    type: BLOCK
+  note_block_piano_2:
     blockDataValue: 0
-    itemMaterial: LAPIS_BLOCK
-    damage: 0
-    display: Marker Finished [22:0]
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 102
+    display: Marker Finished
     category: Misc
-    type: VANILLA
-  sponge:
+    blockData: minecraft:note_block[instrument=harp,note=2,powered=false]
+    type: BLOCK
+  note_block_piano_3:
     blockDataValue: 0
-    itemMaterial: SPONGE
-    damage: 0
-    display: Marker WIP [19:0]
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 103
+    display: Marker WIP
     category: Misc
-    type: VANILLA
-  diamond_block:
+    blockData: minecraft:note_block[instrument=harp,note=3,powered=false]
+    type: BLOCK
+  note_block_piano_4:
     blockDataValue: 0
-    itemMaterial: DIAMOND_BLOCK
-    damage: 0
-    display: Marker Comment [57:0]
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 104
+    display: Marker Comment
     category: Misc
-    type: VANILLA
-  sponge_wet:
+    blockData: minecraft:note_block[instrument=harp,note=4,powered=false]
+    type: BLOCK
+  note_block_piano_5:
     blockDataValue: 1
-    itemMaterial: WET_SPONGE
-    damage: 1
-    display: Marker Info [19:1]
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 105
+    display: Marker Info
     category: Misc
-    type: VANILLA
+    blockData: minecraft:note_block[instrument=harp,note=5,powered=false]
+    type: BLOCK
   banner_white:
     itemMaterial: WHITE_BANNER
     damage: 15
