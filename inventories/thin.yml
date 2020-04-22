@@ -49,10 +49,10 @@ Items:
     display: Birch planks half door[193:0]
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:spruce_door[facing=north,half=lower,hinge=right,open=false,powered=false]
-    blockDataWest: minecraft:spruce_door[facing=east,half=lower,hinge=right,open=false,powered=false]
-    blockDataNorth: minecraft:spruce_door[facing=south,half=lower,hinge=right,open=false,powered=false]
-    blockDataEast: minecraft:spruce_door[facing=west,half=lower,hinge=right,open=false,powered=false]
+    blockDataSouth: minecraft:spruce_door[facing=north,half=lower,hinge=left,open=false,powered=false]
+    blockDataWest: minecraft:spruce_door[facing=east,half=lower,hinge=left,open=false,powered=false]
+    blockDataNorth: minecraft:spruce_door[facing=south,half=lower,hinge=left,open=false,powered=false]
+    blockDataEast: minecraft:spruce_door[facing=west,half=lower,hinge=left,open=false,powered=false]
   iron_trapdoor_bottom_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 276
@@ -73,10 +73,10 @@ Items:
     display: Large sandstone bricks open trapdoor [196:0]
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_door[facing=north,half=lower,hinge=right,open=false,powered=false]
-    blockDataWest: minecraft:acacia_door[facing=east,half=lower,hinge=right,open=false,powered=false]
-    blockDataNorth: minecraft:acacia_door[facing=south,half=lower,hinge=right,open=false,powered=false]
-    blockDataEast: minecraft:acacia_door[facing=west,half=lower,hinge=right,open=false,powered=false]
+    blockDataSouth: minecraft:acacia_door[facing=north,half=lower,hinge=left,open=false,powered=false]
+    blockDataWest: minecraft:acacia_door[facing=east,half=lower,hinge=left,open=false,powered=false]
+    blockDataNorth: minecraft:acacia_door[facing=south,half=lower,hinge=left,open=false,powered=false]
+    blockDataEast: minecraft:acacia_door[facing=west,half=lower,hinge=left,open=false,powered=false]
   trapdoor_sandstone_normal_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 247
@@ -97,10 +97,10 @@ Items:
     display: Small sandstone bricks half door [195:0]
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:jungle_door[facing=north,half=lower,hinge=right,open=false,powered=false]
-    blockDataWest: minecraft:jungle_door[facing=east,half=lower,hinge=right,open=false,powered=false]
-    blockDataNorth: minecraft:jungle_door[facing=south,half=lower,hinge=right,open=false,powered=false]
-    blockDataEast: minecraft:jungle_door[facing=west,half=lower,hinge=right,open=false,powered=false]
+    blockDataSouth: minecraft:jungle_door[facing=north,half=lower,hinge=left,open=false,powered=false]
+    blockDataWest: minecraft:jungle_door[facing=east,half=lower,hinge=left,open=false,powered=false]
+    blockDataNorth: minecraft:jungle_door[facing=south,half=lower,hinge=left,open=false,powered=false]
+    blockDataEast: minecraft:jungle_door[facing=west,half=lower,hinge=left,open=false,powered=false]
   trapdoor_red_sandstone_normal_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 248
@@ -241,10 +241,10 @@ Items:
     display: Brown bricks half door [197:0]
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:dark_oak_door[facing=north,half=lower,hinge=right,open=false,powered=false]
-    blockDataWest: minecraft:dark_oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]
-    blockDataNorth: minecraft:dark_oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]
-    blockDataEast: minecraft:dark_oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]
+    blockDataSouth: minecraft:dark_oak_door[facing=north,half=lower,hinge=left,open=false,powered=false]
+    blockDataWest: minecraft:dark_oak_door[facing=east,half=lower,hinge=left,open=false,powered=false]
+    blockDataNorth: minecraft:dark_oak_door[facing=south,half=lower,hinge=left,open=false,powered=false]
+    blockDataEast: minecraft:dark_oak_door[facing=west,half=lower,hinge=left,open=false,powered=false]
   trapdoor_nether_brick_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 252
@@ -433,10 +433,10 @@ Items:
     display: Light gray bricks half door [64:0]
     category: Thin
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:oak_door[facing=north,half=lower,hinge=right,open=false,powered=false]
-    blockDataWest: minecraft:oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]
-    blockDataNorth: minecraft:oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]
-    blockDataEast: minecraft:oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]
+    blockDataSouth: minecraft:oak_door[facing=north,half=lower,hinge=left,open=false,powered=false]
+    blockDataWest: minecraft:oak_door[facing=east,half=lower,hinge=left,open=false,powered=false]
+    blockDataNorth: minecraft:oak_door[facing=south,half=lower,hinge=left,open=false,powered=false]
+    blockDataEast: minecraft:oak_door[facing=west,half=lower,hinge=left,open=false,powered=false]
   trapdoor_stonebrick_normal_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 260
