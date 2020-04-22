@@ -281,31 +281,36 @@ Items:
     damage: 0
     display: Oak leaves [18:0]
     category: Plant
-    type: VANILLA
+    blockData: minecraft:oak_leaves[distance=7,persistent=false]
+    type: BLOCK
   spruce_leaves:
     itemMaterial: SPRUCE_LEAVES
     damage: 1
     display: Spruce leaves [18:1]
     category: Plant
-    type: VANILLA
+    blockData: minecraft:spruce_leaves[distance=7,persistent=false]
+    type: BLOCK
   birch_leaves:
     itemMaterial: BIRCH_LEAVES
     damage: 2
     display: Birch leaves [18:2]
     category: Plant
-    type: VANILLA
+    blockData: minecraft:birch_leaves[distance=7,persistent=false]
+    type: BLOCK
   jungle_leaves:
     itemMaterial: JUNGLE_LEAVES
     damage: 3
     display: Jungle leaves [18:3]
     category: Plant
-    type: VANILLA
+    blockData: minecraft:jungle_leaves[distance=7,persistent=false]
+    type: BLOCK
   dark_oak_leaves:
     itemMaterial: DARK_OAK_LEAVES
     damage: 1
     display: Dark oak leaves [18:5]
     category: Plant
-    type: VANILLA
+    blockData: minecraft:dark_oak_leaves[distance=7,persistent=false]
+    type: BLOCK
   oak_log:
     itemMaterial: OAK_LOG
     damage: 0
