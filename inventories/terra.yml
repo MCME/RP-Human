@@ -113,6 +113,33 @@ Items:
     display: Grass block [2:0]
     category: Terra
     type: VANILLA
+  grass_dirt:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 160
+    display: Grass on Dirt
+    category: Terra
+    blockData: minecraft:oak_leaves[distance=1,persistent=false]
+    type: BLOCK
+  grass_mud:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 161
+    display: Grass on Mud
+    category: Terra
+    blockData: minecraft:oak_leaves[distance=2,persistent=false]
+    type: BLOCK
+  grass_dark_clay:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 162
+    display: Grass on Dark Clay
+    category: Terra
+    blockData: minecraft:oak_leaves[distance=3,persistent=false]
+    type: BLOCK
+  horn_coral_block:
+    itemMaterial: HORN_CORAL_BLOCK
+    damage: 0
+    display: Muddy Vegetation
+    category: Terra
+    type: VANILLA
   dirt:
     itemMaterial: DIRT
     damage: 0
@@ -137,16 +164,69 @@ Items:
     display: Coarse dirt [3:1]
     category: Terra
     type: VANILLA
+  brain_coral_block:
+    itemMaterial: BRAIN_CORAL_BLOCK
+    display: Brown Mud
+    category: Terra
+    type: VANILLA
+  bubble_coral_block:
+    itemMaterial: BUBBLE_CORAL_BLOCK
+    display: Dark Mud
+    category: Terra
+    type: VANILLA
+  grey_concrete:
+    itemMaterial: GRAY_CONCRETE
+    display: Dry Mud
+    category: Terra
+    type: VANILLA
+  grey_terracotta:
+    itemMaterial: GRAY_TERRACOTTA
+    display: Dark Clay
+    category: Terra
+    type: VANILLA
   podzol:
     itemMaterial: PODZOL
     damage: 2
     display: Podzol [3:2]
     category: Terra
-    type: VANILLA
+    blockData: minecraft:podzol[snowy=false]
+    type: BLOCK
+  podzol_snowy:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 179
+    display: Compost
+    category: Terra
+    blockData: minecraft:podzol[snowy=true]
+    type: BLOCK
   sand:
     itemMaterial: SAND
     damage: 0
     display: Sand [12:0]
+    category: Terra
+    type: VANILLA
+  black_concrete_powder:
+    itemMaterial: BLACK_CONCRETE_POWDER
+    display: Continental Sand
+    category: Terra
+    type: VANILLA
+  grey_concrete_powder:
+    itemMaterial: GRAY_CONCRETE_POWDER
+    display: Wet Sand
+    category: Terra
+    type: VANILLA
+  red_concrete:
+    itemMaterial: RED_CONCRETE
+    display: Sediment
+    category: Terra
+    type: VANILLA
+  green_concrete:
+    itemMaterial: GREEN_CONCRETE
+    display: Loam
+    category: Terra
+    type: VANILLA
+  white_concrete:
+    itemMaterial: WHITE_CONCRETE
+    display: Alluvium
     category: Terra
     type: VANILLA
   gravel:
@@ -161,10 +241,25 @@ Items:
     display: Red gravel [12:1]
     category: Terra
     type: VANILLA
-  nether_brick:
-    itemMaterial: NETHER_BRICKS
+  lime_concrete_powder:
+    itemMaterial: LIME_CONCRETE_POWDER
     damage: 0
     display: Rough gravel [112:0]
+    category: Terra
+    type: VANILLA
+  pink_concrete_powder:
+    itemMaterial: PINK_CONCRETE_POWDER
+    display: Light Gravel
+    category: Terra
+    type: VANILLA
+  yellow_concrete_powder_gravel:
+    itemMaterial: YELLOW_CONCRETE_POWDER
+    display: Mixed Gravel
+    category: Terra
+    type: VANILLA
+  orange_concrete_powder:
+    itemMaterial: ORANGE_CONCRETE_POWDER
+    display: Dark Gravel
     category: Terra
     type: VANILLA
   mycelium:
@@ -487,13 +582,25 @@ Items:
     category: Terra
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  dark_prismarine_slab:
+    itemMaterial: DARK_PRISMARINE_SLAB
+    display: Muddy Riverbed Mix Slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:comparator[facing=west,mode=compare,powered=true]
+  prismarine_slab:
+    itemMaterial: PRISMARINE_SLAB
+    display: Riverbed Mix Slab (lower)
+    category: Terra
+    type: BLOCK
+    blockData:  minecraft:prismarine_slab[type=bottom,waterlogged=false]
   comparator_powered_compare_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 223
     display: Sand slab (lower)
     category: Terra
     type: BLOCK
-    blockData: minecraft:comparator[facing=west,mode=compare,powered=true]
+    blockData:  minecraft:dark_prismarine_slab[type=bottom,waterlogged=false]
   upper_slab_sand:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 43
@@ -550,6 +657,12 @@ Items:
     display: Rough gravel slab [44:6]
     category: Terra
     type: VANILLA
+  polished_granite_slab:
+    itemMaterial: POLISHED_GRANITE_SLAB
+    display: Muddy Vegetation Slab (lower)
+    category: Terra
+    blockData: minecraft:polished_granite_slab[type=bottom,waterlogged=false]
+    type: BLOCK
   comparator_powered_subtract_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 227
