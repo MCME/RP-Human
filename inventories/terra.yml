@@ -321,23 +321,11 @@ Items:
     display: Ice [174:0]
     category: Terra
     type: VANILLA
-  powered_repeater_delay3_n:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 208
-    display: Stone slab (lower)
+  stone_slab:
+    itemMaterial: STONE_SLAB
+    display: Stone slab 
     category: Terra
-    type: BLOCK
-    blockData: minecraft:repeater[delay=3,facing=north,locked=false,powered=true]
-  upper_slab_stone_natural:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 2
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 2
-    display: ITEMBLOCK Stone slab (upper)
-    category: Terra
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    type: VANILLA
   powered_repeater_delay3_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 209
@@ -345,16 +333,13 @@ Items:
     category: Terra
     type: BLOCK
     blockData: minecraft:repeater[delay=3,facing=east,locked=false,powered=true]
-  upper_slab_granite:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 4
-    contentHeight: 0.3125
+  upper_slab_granite_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 4
-    display: ITEMBLOCK Rough dark stone slab (upper)
+    display: Rough dark stone slab (upper)
     category: Terra
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:granite_slab[type=top,waterlogged=false]
   powered_repeater_delay4_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 210
@@ -379,16 +364,13 @@ Items:
     category: Terra
     type: BLOCK
     blockData: minecraft:repeater[delay=4,facing=west,locked=false,powered=true]
-  upper_slab_granite_smooth:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 6
-    contentHeight: 0.3125
+  upper_slab_granite_smooth_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 6
-    display: ITEMBLOCK Smooth red stone slab (upper)
+    display: Smooth red stone slab (upper)
     category: Terra
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:polished_granite_slab[type=top,waterlogged=false]
   powered_repeater_delay4_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 212
@@ -396,16 +378,13 @@ Items:
     category: Terra
     type: BLOCK
     blockData: minecraft:repeater[delay=4,facing=north,locked=false,powered=true]
-  upper_slab_diorite:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 8
-    contentHeight: 0.3125
+  upper_slab_diorite_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 8
-    display: ITEMBLOCK Rough light stone slab (upper)
+    display: Rough light stone slab (upper)
     category: Terra
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:diorite_slab[type=top,waterlogged=false]
   powered_repeater_delay4_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 213
@@ -430,16 +409,13 @@ Items:
     category: Terra
     type: BLOCK
     blockData: minecraft:comparator[facing=south,mode=compare,powered=false]
-  upper_slab_diorite_smooth:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 10
-    contentHeight: 0.3125
+  upper_slab_diorite_smooth_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 10
-    display: ITEMBLOCK Smooth light stone slab (upper)
+    display: Smooth light stone slab (upper)
     category: Terra
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:polished_diorite_slab[type=top,waterlogged=false]
   comparator_compare_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 215
@@ -447,16 +423,13 @@ Items:
     category: Terra
     type: BLOCK
     blockData: minecraft:comparator[facing=west,mode=compare,powered=false]
-  upper_slab_andesite:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 12
-    contentHeight: 0.3125
+  upper_slab_andesite_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 12
-    display: ITEMBLOCK Rough dark stone 2 slab (upper)
+    display: Rough dark stone 2 slab (upper)
     category: Terra
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:andesite_slab[type=top,waterlogged=false]
   comparator_compare_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 216
@@ -464,16 +437,13 @@ Items:
     category: Terra
     type: BLOCK
     blockData: minecraft:comparator[facing=north,mode=compare,powered=false]
-  upper_slab_andesite_smooth:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 14
-    contentHeight: 0.3125
+  upper_slab_andesite_smooth_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 14
-    display: ITEMBLOCK Smooth dark stone slab (upper)
+    display: Smooth dark stone slab (upper)
     category: Terra
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:polished_andesite_slab[type=top,waterlogged=false]
   comparator_compare_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 217
@@ -481,16 +451,13 @@ Items:
     category: Terra
     type: BLOCK
     blockData: minecraft:comparator[facing=east,mode=compare,powered=false]
-  upper_slab_emerald_ore:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 267
-    contentHeight: 0.3125
+  upper_slab_emerald_ore_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 267
-    display: ITEMBLOCK Mossy stone slab (upper)
+    display: Mossy stone slab (upper)
     category: Terra
-    type: ITEM_BLOCK
-    blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:prismarine_slab[type=top,waterlogged=false]
   comparator_subtract_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 218
