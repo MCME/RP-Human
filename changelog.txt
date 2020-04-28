@@ -1,3 +1,62 @@
+version 3.0 SNAPSHOT 01
+Gondor 3 snapshot 01 Marshes terrain, changelog:
+Full grass block
+Updated dirt texture.
+Updated light dirt (clay) texture + random rotation.
+Updated soul sand texture + random rotation.
+Updated coarse dirt texture
+Updated soil texture (farmland_moisture_3)
+Updated sand texture + random rotation
+Updated smooth brown stone (terracotta) texture. 
+Updated greenish dirt(mycelium) texture
+Updated forest ground (podzol) texture
+Updated gravel texture
+Updated rough_gravel texture (now: lime_concrete_powder) + random rotation
+Added dark clay (grey terracotta)
+Added brown mud (brain_coral_block)
+Added dark mud (bubble_coral_block)
+Added dry mud/dirt (gray_concrete)
+Added light gravel (pink_concrete_powder)
+Added mixed gravel (yellow_concrete_powder)
+Added dark/wet gravel (orange_concrete_powder)
+Added continental sand (black_concrete_powder)
+Added quicksand/wet sand (gray_concrete_powder)
+Added sediment (red_concrete)
+Added loam (green_concrete)
+Added alluvium (white_concrete)
+Added muddy riverbed mix slab (dark_prismarine_slab)
+Added riverbed mix slab (prismarine_slab)
+Added separate grass block with dirt sides 
+Added grass block with mud sides
+Added grass block with dark clay sides
+Added muddy vegetation block and slab.
+Added compost (podzol [snowy=true]
+Added slit (pink_concrete)
+Added peat (lime_concrete)
+Replacements:
+	nether_bricks -> lime_concrete_powder
+	red_sand -> red_concrete
+	nether_bricks_slab -> granite_slab [type=bottom]
+	granite_slab [type=bottom] -> repeater[delay=3,facing=east,locked=false,powered=true]
+	nether_brick_stairs -> granite_stairs
+	repeater[delay=3,facing=north,locked=false,powered=true] -> stone slab bottom
+	itemblock smooth andesite -> polished andesite upper slab
+	itemblock andesite -> andesite upper slab
+	itemblock double slab plank acacia -> prismarine brick upper slab
+	itemblock double slab plank dark oak -> dark prismarine upper slab
+	itemblock emerald ore -> prismaine brick upper slab
+	itemblock quartz seamless -> smooth quartz upper slab
+	itemblock nether brick seamless -> cut red sandstone upper slab
+	itemblock double slab red sandstone -> smooth red sandstone upper slab
+	itemblock double slab sandstone seamless -> smooth sandstone upper slab
+	itemblock stonbrick mossy -> mossy stonebrick upper slab
+	itemblock mossy cobblestone -> mossy cobblestone upper slab
+	itemblock smooth diorite -> polished diorite upper slab
+	itemblock diorite -> diorite upper slab
+	itemblock smooth granite -> polished granite upper slabs
+	itemblock granite -> granite upper slab
+	itemblock smooth sandstone -> cut sandstone slab
+
 version 2.5
 update to mc 1.14 (widespread folder and filenames changes)
 moved vertical slab item blocks to new fence gate blockstates
