@@ -476,16 +476,13 @@ Items:
     category: Block2
     type: BLOCK
     blockData: minecraft:repeater[delay=4,facing=north,locked=false,powered=false]
-  upper_slab_double_slab_quartz_seamless:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 73
-    contentHeight: 0.3125
+  upper_slab_double_slab_quartz_seamless_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 73
-    display: ITEMBLOCK Mossy white bricks slab (upper)
+    display: Mossy white bricks slab (upper)
     category: Block2
-    type: ITEM_BLOCK
-    blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
   vertical_slab_double_slab_quartz_seamless_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 74
@@ -540,16 +537,13 @@ Items:
     category: Block2
     type: BLOCK
     blockData: minecraft:repeater[delay=1,facing=south,locked=false,powered=true]
-  upper_slab_stonebrick_mossy:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 80
-    contentHeight: 0.3125
+  upper_slab_stonebrick_mossy_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 80
-    display: ITEMBLOCK Mossy light gray bricks slab (upper)
+    display: Mossy light gray bricks slab (upper)
     category: Block2
-    type: ITEM_BLOCK
-    blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:mossy_stone_brick_slab[type=top,waterlogged=false]
   vertical_slab_stonebrick_mossy_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 81
@@ -665,16 +659,13 @@ Items:
     category: Block2
     type: BLOCK
     blockData: minecraft:repeater[delay=2,facing=south,locked=false,powered=true]
-  upper_slab_mossy_cobblestone:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 94
-    contentHeight: 0.3125
+  upper_slab_mossy_cobblestone_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 94
-    display: ITEMBLOCK Mossy cobblestone slab (upper)
+    display: Mossy cobblestone slab (upper)
     category: Block2
-    type: ITEM_BLOCK
-    blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:mossy_cobblestone_slab[type=top,waterlogged=false]
   vertical_slab_mossy_cobblestone_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 95
@@ -773,16 +764,13 @@ Items:
     category: Block2
     type: BLOCK
     blockData: minecraft:repeater[delay=3,facing=south,locked=false,powered=true]
-  upper_slab_double_slab_planks_acacia:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 106
-    contentHeight: 0.3125
+  upper_slab_double_slab_planks_acacia_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 106
-    display: ITEMBLOCK Brown wood planks slab (upper)
+    display: Brown wood planks slab (upper)
     category: Block2
-    type: ITEM_BLOCK
-    blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:prismarine_brick_slab[type=top,waterlogged=false]
   vertical_slab_double_slab_planks_acacia_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 107
@@ -800,16 +788,13 @@ Items:
     category: Block2
     type: BLOCK
     blockData: minecraft:repeater[delay=3,facing=west,locked=false,powered=true]
-  upper_slab_double_slab_planks_dark_oak:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 109
-    contentHeight: 0.3125
+  upper_slab_double_slab_planks_dark_oak_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 109
-    display: ITEMBLOCK White wood planks slab (upper)
+    display: White wood planks slab (upper)
     category: Block2
-    type: ITEM_BLOCK
-    blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    type: BLOCK
+    blockData: minecraft:dark_prismarine_slab[type=top,waterlogged=false]
   vertical_slab_double_slab_planks_dark_oak_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 110
