@@ -182,19 +182,19 @@
     }},
     { "when": {"north": true, "west": true, "south": true, "east": false, "up": false, "down": false },
       "apply": {
-      "model": "block/white_concrete_0", "y": 90
+      "model": "block/large_small_sandstone_combo", "y": 90
     }},
     { "when": {"north": true, "west": false, "south": true, "east": false, "up": true, "down": true },
       "apply": {
-      "model": "block/white_concrete_0", "y": 180
+      "model": "block/large_small_sandstone_combo", "y": 180
     }},
     { "when": {"north": true, "west": false, "south": true, "east": false, "up": true, "down": false },
       "apply": {
-      "model": "block/white_concrete_0", "y": 270
+      "model": "block/large_small_sandstone_combo", "y": 270
     }},
     { "when": {"north": true, "west": true, "south": true, "east": false, "up": false, "down": true },
       "apply": {
-      "model": "block/white_concrete_0"
+      "model": "block/large_small_sandstone_combo"
     }},
     { "when": {"north": false, "west": false, "south": true, "east": false, "up": true, "down": true },
       "apply": {
@@ -586,7 +586,7 @@
     { "when": {"north": false, "west": false, "south": false, "east": true, "up": true, "down": false },
       "apply": [
       {
-        "model": "block/black_concrete_powder_0",
+        "model": "block/stucco_blue_inside",
         "y": 90
       }
     ]}
