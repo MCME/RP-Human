@@ -235,12 +235,6 @@ Items:
     display: Gravel [13:0]
     category: Terra
     type: VANILLA
-  red_sand:
-    itemMaterial: RED_SAND
-    damage: 1
-    display: Red gravel [12:1]
-    category: Terra
-    type: VANILLA
   lime_concrete_powder:
     itemMaterial: LIME_CONCRETE_POWDER
     damage: 0
@@ -631,7 +625,7 @@ Items:
   comparator_powered_compare_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 225
-    display: Red gravel slab (lower)
+    display: Sediment slab (lower)
     category: Terra
     type: BLOCK
     blockData: minecraft:comparator[facing=east,mode=compare,powered=true]
@@ -641,22 +635,23 @@ Items:
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 47
-    display: ITEMBLOCK Red gravel slab (upper)
+    display: ITEMBLOCK Sediment slab (upper)
     category: Terra
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
-  nether_brick_stairs:
-    itemMaterial: NETHER_BRICK_STAIRS
+  granite_stairs:
+    itemMaterial: GRANITE_STAIRS
     damage: 0
     display: Rough gravel stairs [114:0]
     category: Terra
     type: VANILLA
-  nether_brick_slab:
-    itemMaterial: NETHER_BRICK_SLAB
+  granite_slab:
+    itemMaterial: GRANITE_SLAB
     damage: 6
     display: Rough gravel slab [44:6]
     category: Terra
-    type: VANILLA
+    blockData: minecraft:granite_slab[type=bottom,waterlogged=false]
+    type: BLOCK
   polished_granite_slab:
     itemMaterial: POLISHED_GRANITE_SLAB
     display: Muddy Vegetation Slab (lower)
