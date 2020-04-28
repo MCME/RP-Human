@@ -184,6 +184,12 @@ Items:
     display: Dark Clay
     category: Terra
     type: VANILLA
+  peat:
+    itemMaterial: LIME_CONCRETE
+    damage: 0
+    display: Peat
+    category: Terra
+    type: VANILLA
   podzol:
     itemMaterial: PODZOL
     damage: 2
@@ -227,6 +233,12 @@ Items:
   white_concrete:
     itemMaterial: WHITE_CONCRETE
     display: Alluvium
+    category: Terra
+    type: VANILLA
+  slit:
+    itemMaterial: PINK_CONCRETE
+    damage: 0
+    display: Slit
     category: Terra
     type: VANILLA
   gravel:
