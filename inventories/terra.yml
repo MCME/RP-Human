@@ -338,20 +338,14 @@ Items:
     display: Stone slab 
     category: Terra
     type: VANILLA
-  powered_repeater_delay3_e:
+  rough_dark_stone_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 209
     display: Rough dark stone slab (lower)
     category: Terra
-    type: BLOCK
-    blockData: minecraft:repeater[delay=3,facing=east,locked=false,powered=true]
-  upper_slab_granite_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 4
-    display: Rough dark stone slab (upper)
-    category: Terra
-    type: BLOCK
-    blockData: minecraft:granite_slab[type=top,waterlogged=false]
+    type: BISECTED
+    blockDataDown: minecraft:repeater[delay=3,facing=east,locked=false,powered=true]
+    blockDataUp: minecraft:granite_slab[type=top,waterlogged=false]
   powered_repeater_delay4_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 210
