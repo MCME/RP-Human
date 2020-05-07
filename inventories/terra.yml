@@ -560,7 +560,7 @@ Items:
     display: Muddy Riverbed Mix Slab (lower)
     category: Terra
     type: BLOCK
-    blockData: minecraft:comparator[facing=west,mode=compare,powered=true]
+    blockData: minecraft:dark_prismarine_slab[type=bottom,waterlogged=false]
   prismarine_slab:
     itemMaterial: PRISMARINE_SLAB
     display: Riverbed Mix Slab (lower)
@@ -573,7 +573,7 @@ Items:
     display: Sand slab (lower)
     category: Terra
     type: BLOCK
-    blockData:  minecraft:dark_prismarine_slab[type=bottom,waterlogged=false]
+    blockData: minecraft:comparator[facing=west,mode=compare,powered=true]
   upper_slab_sand:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 43
