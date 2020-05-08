@@ -341,7 +341,7 @@ Items:
   rough_dark_stone_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 209
-    display: Rough dark stone slab (lower)
+    display: Rough dark stone slab
     category: Terra
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=3,facing=east,locked=false,powered=true]
@@ -366,31 +366,19 @@ Items:
   powered_repeater_delay4_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 211
-    display: Smooth red stone slab (lower)
+    display: Smooth red stone slab
     category: Terra
-    type: BLOCK
-    blockData: minecraft:repeater[delay=4,facing=west,locked=false,powered=true]
-  upper_slab_granite_smooth_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 6
-    display: Smooth red stone slab (upper)
-    category: Terra
-    type: BLOCK
-    blockData: minecraft:polished_granite_slab[type=top,waterlogged=false]
+    type: BISECTED
+    blockDataDown: minecraft:repeater[delay=4,facing=west,locked=false,powered=true]
+    blockDataUp: minecraft:polished_granite_slab[type=top,waterlogged=false]
   powered_repeater_delay4_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 212
-    display: Rough light stone slab (lower)
+    display: Rough light stone slab
     category: Terra
-    type: BLOCK
-    blockData: minecraft:repeater[delay=4,facing=north,locked=false,powered=true]
-  upper_slab_diorite_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 8
-    display: Rough light stone slab (upper)
-    category: Terra
-    type: BLOCK
-    blockData: minecraft:diorite_slab[type=top,waterlogged=false]
+    type: BISECTED
+    blockDataDown: minecraft:repeater[delay=4,facing=north,locked=false,powered=true]
+    blockDataUp: minecraft:diorite_slab[type=top,waterlogged=false]
   powered_repeater_delay4_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 213
@@ -411,59 +399,35 @@ Items:
   comparator_compare_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 214
-    display: Smooth light stone slab (lower)
+    display: Smooth light stone slab
     category: Terra
-    type: BLOCK
-    blockData: minecraft:comparator[facing=south,mode=compare,powered=false]
-  upper_slab_diorite_smooth_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 10
-    display: Smooth light stone slab (upper)
-    category: Terra
-    type: BLOCK
-    blockData: minecraft:polished_diorite_slab[type=top,waterlogged=false]
+    type: BISECTED
+    blockDataDown: minecraft:comparator[facing=south,mode=compare,powered=false]
+    blockDataUp: minecraft:polished_diorite_slab[type=top,waterlogged=false]
   comparator_compare_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 215
-    display: Rough dark stone 2 slab (lower)
+    display: Rough dark stone 2 slab
     category: Terra
-    type: BLOCK
-    blockData: minecraft:comparator[facing=west,mode=compare,powered=false]
-  upper_slab_andesite_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 12
-    display: Rough dark stone 2 slab (upper)
-    category: Terra
-    type: BLOCK
-    blockData: minecraft:andesite_slab[type=top,waterlogged=false]
+    type: BISECTED
+    blockDataDown: minecraft:comparator[facing=west,mode=compare,powered=false]
+    blockDataUp: minecraft:andesite_slab[type=top,waterlogged=false]
   comparator_compare_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 216
-    display: Smooth dark stone slab (lower)
+    display: Smooth dark stone slab
     category: Terra
     type: BLOCK
-    blockData: minecraft:comparator[facing=north,mode=compare,powered=false]
-  upper_slab_andesite_smooth_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 14
-    display: Smooth dark stone slab (upper)
-    category: Terra
-    type: BLOCK
-    blockData: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    blockDataDown: minecraft:comparator[facing=north,mode=compare,powered=false]
+    blockDataUp: minecraft:polished_andesite_slab[type=top,waterlogged=false]
   comparator_compare_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 217
-    display: Mossy stone slab (lower)
+    display: Mossy stone slab
     category: Terra
-    type: BLOCK
-    blockData: minecraft:comparator[facing=east,mode=compare,powered=false]
-  upper_slab_emerald_ore_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 267
-    display: Mossy stone slab (upper)
-    category: Terra
-    type: BLOCK
-    blockData: minecraft:prismarine_slab[type=top,waterlogged=false]
+    type: BISECTED
+    blockDataDown: minecraft:comparator[facing=east,mode=compare,powered=false]
+    blockDataUp: minecraft:prismarine_slab[type=top,waterlogged=false]
   comparator_subtract_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 218
