@@ -596,17 +596,11 @@ Items:
   repeater_delay3_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 190
-    display: Mossy large sandstone bricks slab (lower)
+    display: Mossy large sandstone bricks slab
     category: Block
-    type: BLOCK
-    blockData: minecraft:repeater[delay=3,facing=south,locked=false,powered=false]
-  upper_slab_double_slab_sandstone_seamless_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 57
-    display: Mossy large sandstone bricks slab (upper)
-    category: Block
-    type: BLOCK
-    blockData: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    type: BISECTED
+    blockDataDown: minecraft:repeater[delay=3,facing=south,locked=false,powered=false]
+    blockDataUp: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
   vertical_slab_double_slab_sandstone_seamless_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -621,17 +615,11 @@ Items:
   repeater_delay3_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 191
-    display: Mossy small sandstone bricks slab (lower)
+    display: Mossy small sandstone bricks slab
     category: Block
-    type: BLOCK
-    blockData: minecraft:repeater[delay=3,facing=west,locked=false,powered=false]
-  upper_slab_double_slab_red_sandstone_seamless_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 60
-    display: Mossy small sandstone bricks slab (upper)
-    category: Block
-    type: BLOCK
-    blockData: minecraft:smooth_red_sandstone_slab[type=top,waterlogged=false]
+    type: BISECTED
+    blockDataDown: minecraft:repeater[delay=3,facing=west,locked=false,powered=false]
+    blockDataUp: minecraft:smooth_red_sandstone_slab[type=top,waterlogged=false]
   vertical_slab_double_slab_red_sandstone_seamless_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -646,17 +634,11 @@ Items:
   repeater_delay3_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 192
-    display: Smooth sandstone slab (lower)
+    display: Smooth sandstone slab
     category: Block
-    type: BLOCK
-    blockData: minecraft:repeater[delay=3,facing=north,locked=false,powered=false]
-  upper_slab_sandstone_smooth_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 63
-    display: Smooth sandstone slab (upper)
-    category: Block
-    type: BLOCK
-    blockData: minecraft:cut_sandstone_slab[type=top,waterlogged=false]
+    type: BISECTED
+    blockDataDown: minecraft:repeater[delay=3,facing=north,locked=false,powered=false]
+    blockDataUp: minecraft:cut_sandstone_slab[type=top,waterlogged=false]
   vertical_slab_sandstone_smooth_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -698,17 +680,11 @@ Items:
   repeater_delay4_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 194
-    display: Brown bricks slab (lower)
+    display: Brown bricks slab
     category: Block
-    type: BLOCK
-    blockData: minecraft:repeater[delay=4,facing=south,locked=false,powered=false]
-  upper_slab_double_slab_nether_brick_seamless_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 69
-    display: Brown bricks slab (upper)
-    category: Block
-    type: BLOCK
-    blockData: minecraft:cut_red_sandstone_slab[type=top,waterlogged=false]
+    type: BISECTED
+    blockDataDown: minecraft:repeater[delay=4,facing=south,locked=false,powered=false]
+    blockDataUp: minecraft:cut_red_sandstone_slab[type=top,waterlogged=false]
   acacia_fence_gate_powered_ne:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 321
