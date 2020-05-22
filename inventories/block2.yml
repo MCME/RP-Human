@@ -361,7 +361,7 @@ Items:
     damage: 95
     display: Black cobblestone [43:3]
     category: Block2
-    type: BISECTED
+    type: BLOCK
     blockData: minecraft:cobblestone_slab[type=double,waterlogged=false]
   double_slab_cobblestone_seamless:
     itemMaterial: DIAMOND_LEGGINGS
@@ -640,8 +640,8 @@ Items:
     display: Mossy cobblestone slab
     category: Block2
     type: BISECTED
-    blockData: minecraft:repeater[delay=2,facing=south,locked=false,powered=true]
-    blockData: minecraft:mossy_cobblestone_slab[type=top,waterlogged=false]
+    blockDataDown: minecraft:repeater[delay=2,facing=south,locked=false,powered=true]
+    blockDataUp: minecraft:mossy_cobblestone_slab[type=top,waterlogged=false]
   vertical_slab_mossy_cobblestone_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 95
