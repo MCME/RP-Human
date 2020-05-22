@@ -35,8 +35,8 @@ Items:
     display: Oak planks trapdoor (horizontal)[167:1]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:iron_trapdoor_s[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:iron_trapdoor_s[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:iron_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
   spruce_door_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 129
@@ -53,8 +53,8 @@ Items:
     display: Birch planks trapdoor (horizontal) [167:2]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:iron_trapdoor_w[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:iron_trapdoor_w[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:iron_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:iron_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
   acacia_door_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 132
@@ -71,8 +71,8 @@ Items:
     display: Large sandstone bricks trapdoor (horizontal) [147:2]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:birch_trapdoor_n[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:birch_trapdoor_n[facing=north,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:birch_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:birch_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]
   jungle_door_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 131
@@ -89,8 +89,8 @@ Items:
     display: Small sandstone bricks trapdoor horizontal [147:3]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:birch_trapdoor_e[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:birch_trapdoor_e[facing=east,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:birch_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:birch_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
   trapdoor_double_slab_sandstone_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 282
@@ -107,8 +107,8 @@ Items:
     display: Mossy large sandstone bricks trapdoor horizontal[147:4]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:birch_trapdoor_s[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:birch_trapdoor_s[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:birch_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:birch_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_double_slab_red_sandstone_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 285
@@ -125,8 +125,8 @@ Items:
     display: Mossy small sandstone bricks trapdoor (horizontal) [147:5]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:birch_trapdoor_w[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:birch_trapdoor_w[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:birch_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:birch_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_sandstone_chiseled_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 288
@@ -143,8 +143,8 @@ Items:
     display: Sandstone ornament star trapdoor (horizontal)
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:birch_trapdoor_e[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:birch_trapdoor_e[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:birch_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:birch_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_sandstone_smooth_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 291
@@ -161,8 +161,8 @@ Items:
     display: Smooth sandstone trapdoor (horizontal) [147:6]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:birch_trapdoor_n[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:birch_trapdoor_n[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:birch_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:birch_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_nether_brick_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 294 
@@ -179,8 +179,8 @@ Items:
     display: Red bricks trapdoor (horizontal)
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:iron_trapdoor_n[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:iron_trapdoor_n[facing=north,half=top,open=false,powered=true,waterlogged=false]    
+    blockDataDown: minecraft:iron_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]    
   dark_oak_door_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 133
@@ -197,8 +197,8 @@ Items:
     display: Brown bricks trapdoor (horizontal) [247:7]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:iron_trapdoor_s[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:iron_trapdoor_s[facing=south,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:iron_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
   trapdoor_mushroom_block_s_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 300
@@ -233,8 +233,8 @@ Items:
     display: Large white bricks trapdoor (horizontal) [147:9]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:jungle_trapdoor_s[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:jungle_trapdoor_s[facing=south,half=top,open=false,powered=false,waterlogged=false]    
+    blockDataDown: minecraft:jungle_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:jungle_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]    
   trapdoor_double_slab_quartz_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 306
@@ -251,8 +251,8 @@ Items:
     display: Mossy large white bricks trapdoor (horizontal) [147:10]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:jungle_trapdoor_n[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:jungle_trapdoor_n[facing=north,half=top,open=false,powered=true,waterlogged=false]    
+    blockDataDown: minecraft:jungle_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:jungle_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]    
   trapdoor_double_slab_quartz_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 309
@@ -269,8 +269,8 @@ Items:
     display: Cracked large white bricks trapdoor (horizontal)[147:11]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:jungle_trapdoor_w[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:jungle_trapdoor_w[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:jungle_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:jungle_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_end_stone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 312
@@ -287,8 +287,8 @@ Items:
     display: Small white bricks trapdoor (horizontal) [147:12]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:jungle_trapdoor_n[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:jungle_trapdoor_n[facing=north,half=top,open=false,powered=false,waterlogged=false]    
+    blockDataDown: minecraft:jungle_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:jungle_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]    
   trapdoor_end_bricks_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 315
@@ -305,8 +305,8 @@ Items:
     display: Weathered small white bricks trapdoor (horizontal) [147:13]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:jungle_trapdoor_e[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:jungle_trapdoor_e[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:jungle_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:jungle_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_quartz_chiseled_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 318
@@ -341,8 +341,8 @@ Items:
     display: Light gray bricks trapdoor (horizontal) [147:15]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:dark_oak_trapdoor_n[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:dark_oak_trapdoor_n[facing=north,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]
   trapdoor_stonebrick_mossy_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 324
@@ -359,8 +359,8 @@ Items:
     display: Mossy light gray bricks trapdoor (horizontal) [148:2]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:dark_oak_trapdoor_w[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:dark_oak_trapdoor_w[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_stonebrick_cracked_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 327
@@ -377,8 +377,8 @@ Items:
     display: Cracked light gray bricks trapdoor (horizontal)
     category: Thin
     type: BISECTED
-    blockData: minecraft:dark_oak_trapdoor_s[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
-    blockData: minecraft:dark_oak_trapdoor_s[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_stonebrick_chiseled_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 330
@@ -395,8 +395,8 @@ Items:
     display: Light gray bricks ornament trapdoor (horizontal)
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:dark_oak_trapdoor_e[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:dark_oak_trapdoor_e[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_double_slab_stonebrick_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 333
@@ -413,8 +413,8 @@ Items:
     display: Small gray bricks trapdoor (horizontal) [148:3]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:dark_oak_trapdoor_n[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:dark_oak_trapdoor_n[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_double_slab_stonebrick_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 336
@@ -431,8 +431,8 @@ Items:
     display: Light gray brick trapdoor (horizontal) [148:4]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:dark_oak_trapdoor_e[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:dark_oak_trapdoor_e[facing=east,half=top,open=false,powered=true,waterlogged=false]   
+    blockDataDown: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]   
   trapdoor_double_slab_brick_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 339
@@ -449,8 +449,8 @@ Items:
     display: Dark gray brick trapdoor (horizontal) [148:5]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:dark_oak_trapdoor_s[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:dark_oak_trapdoor_s[facing=south,half=top,open=false,powered=true,waterlogged=false]    
+    blockDataDown: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]    
   trapdoor_monster_egg_stonebrick_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 342
@@ -467,8 +467,8 @@ Items:
     display: Floor pattern block trapdoor (horizontal) [148:6]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:spruce_trapdoor_n[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:spruce_trapdoor_n[facing=north,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:spruce_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]
   trapdoor_monster_egg_stonebrick_mossy_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 345
@@ -485,8 +485,8 @@ Items:
     display: Floor pattern block trapdoor (horizontal) [148:7]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:spruce_trapdoor_e[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:spruce_trapdoor_e[facing=east,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:spruce_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:spruce_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
   trapdoor_monster_egg_stonebrick_cracked_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 348
@@ -503,8 +503,8 @@ Items:
     display: Floor pattern block trapdoor (horizontal) [148:8]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:spruce_trapdoor_s[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:spruce_trapdoor_s[facing=south,half=top,open=false,powered=true,waterlogged=false]    
+    blockDataDown: minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:spruce_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]    
   trapdoor_monster_egg_stonebrick_chiseled_open_regular:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 351
@@ -524,8 +524,8 @@ Items:
     display: Floor pattern block trapdoor (horizontal) [148:9]
     category: Thin
     type: BISECTED
-    blockData: minecraft:spruce_trapdoor_w[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
-    blockData: minecraft:spruce_trapdoor_w[facing=west,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:spruce_trapdoor[facing=west,half=top,open=false,powered=true,waterlogged=false]
   trapdoor_brick_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 354
@@ -542,8 +542,8 @@ Items:
     display: Dark gray bricks trapdoor (horizontal) [148:10]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:spruce_trapdoor_n[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:spruce_trapdoor_n[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:spruce_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_double_slab_brick_open_regular:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 357
@@ -563,8 +563,8 @@ Items:
     display: Cracked dark gray bricks trapdoor (horizontal)
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:spruce_trapdoor_e[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:spruce_trapdoor_e[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:spruce_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:spruce_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_double_slab_stone_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 360
@@ -581,8 +581,8 @@ Items:
     display: Smooth stone block trapdoor (horizontal) [148:11]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:spruce_trapdoor_s[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:spruce_trapdoor_s[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:spruce_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_monster_egg_stone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 363
@@ -599,8 +599,8 @@ Items:
     display: Ornamental stone block trapdoor (horizontal)
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:dark_oak_trapdoor_w[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:dark_oak_trapdoor_w[facing=west,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=west,half=top,open=false,powered=true,waterlogged=false]
   trapdoor_double_slab_stone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 366
@@ -617,8 +617,8 @@ Items:
     display: Double stone slab trapdoor (horizontal)
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:spruce_trapdoor_w[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:spruce_trapdoor_w[facing=west,half=top,open=false,powered=false,waterlogged=false]    
+    blockDataDown: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:spruce_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]    
   trapdoor_cobblestone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 369
@@ -635,8 +635,8 @@ Items:
     display: Cobblestone trapdoor (horizontal) [148:12]
     category: Thin
     type: BISECTED
-    blockData: minecraft:acacia_trapdoor_n[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
-    blockData: minecraft:acacia_trapdoor_n[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:acacia_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:acacia_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_mossy_cobblestone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 372
@@ -653,8 +653,8 @@ Items:
     display: Mossy cobblestone trapdoor (horizontal) [148:13]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:acacia_trapdoor_e[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:acacia_trapdoor_e[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:acacia_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:acacia_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_double_slab_cobblestone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 375
@@ -671,8 +671,8 @@ Items:
     display: Black cobblestone trapdoor (horizontal) [148:14]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:acacia_trapdoor_w[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:acacia_trapdoor_w[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:acacia_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:acacia_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_double_slab_cobblestone_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 378
@@ -689,8 +689,8 @@ Items:
     display: Mixed cobblestone trapdoor (horizontal) [148:15]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:acacia_trapdoor_s[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:acacia_trapdoor_s[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:acacia_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:acacia_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_monster_egg_cobblestone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 381
@@ -707,8 +707,8 @@ Items:
     display: Red cobblestone trapdoor (horizontal)
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:iron_trapdoor_e[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:iron_trapdoor_e[facing=east,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:iron_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:iron_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
   trapdoor_double_slab_planks_acacia_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 384
@@ -725,8 +725,8 @@ Items:
     display: Brown wood planks trapdoor (horizontal) [167:3]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:iron_trapdoor_e[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:iron_trapdoor_e[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    blockDataDown: minecraft:iron_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    blockDataUp: minecraft:iron_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
   trapdoor_double_slab_planks_dark_oak_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 387
