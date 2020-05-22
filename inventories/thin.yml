@@ -215,8 +215,8 @@ Items:
     display: Mossy brown bricks trapdoor (horizontal) [247:8]
     category: Thin
     type: BISECTED
-    blockDataDown: minecraft:iron_trapdoor_w[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:iron_trapdoor_w[facing=west,half=top,open=false,powered=true,waterlogged=false]
+    blockDataDown: minecraft:iron_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
+    blockDataUp: minecraft:iron_trapdoor[facing=west,half=top,open=false,powered=true,waterlogged=false]
   trapdoor_quartz_normal_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 303
