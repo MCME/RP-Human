@@ -115,27 +115,22 @@
         "model": "block/stone_cobblestone_mix_1",
         "y": 270
       }
-    ]},
+	]},
     { "when": {"north": true, "west": false, "south": true, "east": true, "up": true, "down": true },
       "apply": [
-      {
-        "model": "block/stone_cobblestone_mix_0"
-      },
-      {
-        "model": "block/stone_cobblestone_mix_1"
-      }
+      { "model": "block/stone_cobblestone_mix_0" },
+      { "model": "block/stone_cobblestone_mix_1" }
     ]},
     { "when": {"north": true, "west": false, "south": true, "east": true, "up": true, "down": false },
-      "apply": [
-      {
-        "model": "block/stone_cobblestone_mix_0",
-        "y": 90
-      },
-      {
-        "model": "block/stone_cobblestone_mix_1",
-        "y": 90
-      }
-    ]}
-	
+		"apply": [
+		{ "model": "block/stone_cobblestone_mix_0", "y": 90 },
+		{ "model": "block/stone_cobblestone_mix_1", "y": 90 }
+    ]},
+	{ "when": {"north": true, "west": true, "south": false, "east": true, "up": true, "down": true },
+		"apply": [
+		{ "model": "block/red_mushroom_block_newud" },
+		{ "model": "block/red_mushroom_block_newud_2" },
+		{ "model": "block/red_mushroom_block_newud_3" }
+	]}	
   ]
 }
