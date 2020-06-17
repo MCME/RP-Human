@@ -132,11 +132,17 @@
 		{ "model": "block/red_mushroom_block_newud_2" },
 		{ "model": "block/red_mushroom_block_newud_3" }
 	]},
-	{ "when": {"north": true, "west": true, "south": false, "east": true, "up": false, "down": false },
+	{ "when": {"north": true, "west": true, "south": false, "east": true, "up": true, "down": false },
 		"apply": [
 		{ "model": "block/red_mushroom_block_newu" },
 		{ "model": "block/red_mushroom_block_newu_2" },
 		{ "model": "block/red_mushroom_block_newu_3" }
+	]},
+	{ "when": {"north": true, "west": true, "south": false, "east": true, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/red_mushroom_block_newd" },
+		{ "model": "block/red_mushroom_block_newd_2" },
+		{ "model": "block/red_mushroom_block_newd_3" }
 	]}
   ]
 }
