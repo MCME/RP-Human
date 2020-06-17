@@ -143,6 +143,12 @@
 		{ "model": "block/red_mushroom_block_newd" },
 		{ "model": "block/red_mushroom_block_newd_2" },
 		{ "model": "block/red_mushroom_block_newd_3" }
+	]},
+	{ "when": {"north": true, "west": true, "south": false, "east": true, "up": false, "down": false },
+		"apply": [
+		{ "model": "block/red_mushroom_block_new" },
+		{ "model": "block/red_mushroom_block_new_2" },
+		{ "model": "block/red_mushroom_block_new_3" }
 	]}
   ]
 }
