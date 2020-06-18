@@ -169,6 +169,18 @@
 		{ "model": "block/red_mushroom_block_nsw", "x": 90, "y": 90 },
 		{ "model": "block/red_mushroom_block_nsw_2", "x": 90, "y": 90 },
 		{ "model": "block/red_mushroom_block_nsw_3", "x": 90, "y": 90 }
+	]},
+	{ "when": {"north": true, "west": false, "south":true, "east": false, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/red_mushroom_block_nsd" },
+		{ "model": "block/red_mushroom_block_nsd_2" },
+		{ "model": "block/red_mushroom_block_nsd_3" }
+	]},
+	{ "when": {"north": true, "west": false, "south":true, "east": false, "up": false, "down": false },
+		"apply": [
+		{ "model": "block/red_mushroom_block_ns" },
+		{ "model": "block/red_mushroom_block_ns_2" },
+		{ "model": "block/red_mushroom_block_ns_3" }
 	]}
   ]
 }
