@@ -23,84 +23,95 @@
         "damage": 0.00567
       },
       "name": 3,
-      "model": "itemblock/replace"
+      "model": "block/mossy_stone_brick_slab[type=double,waterlogged=false]"
     },
     {
       "predicate": {
         "damage": 0.00756
       },
       "name": 4,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_nsd",
+	  "state":"[down=true,east=false,north=true,south=true,up=false,west=false]"
     },
     {
       "predicate": {
         "damage": 0.00945
       },
       "name": 5,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_newud",
+	  "state": "[north=true,south=false,east=true,west=true,up=true,down=true]"
     },
     {
       "predicate": {
         "damage": 0.01134
       },
       "name": 6,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_neu",
+	  "state": "[down=false,east=true,north=true,south=false,up=true,west=false]"
     },
     {
       "predicate": {
         "damage": 0.01323
       },
       "name": 7,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_nsw",
+	  "state": "[down=false,east=false,north=true,south=true,up=false,west=true]"
     },
     {
       "predicate": {
         "damage": 0.01512
       },
       "name": 8,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_newu",
+	  "state": "[north=true,south=false,east=true,west=true,up=true,down=false]"
     },
     {
       "predicate": {
         "damage": 0.01701
       },
       "name": 9,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_newd",
+	  "state": "[north=true,south=false,east=true,west=true,up=false,down=true]"
     },
     {
       "predicate": {
         "damage": 0.01890
       },
       "name": 10,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_new",
+	  "state": "[north=true,south=false,east=true,west=true,up=false,down=false]"
     },
     {
       "predicate": {
         "damage": 0.02079
       },
       "name": 11,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_neud",
+	  "state": "[down=true,east=true,north=true,south=false,up=true,west=false]"
     },
     {
       "predicate": {
         "damage": 0.02268
       },
       "name": 12,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_ns",
+	  "state": "[down=false,east=false,north=true,south=true,up=false,west=false]"
     },
     {
       "predicate": {
         "damage": 0.02457
       },
       "name": 13,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_nswud",
+	  "state": "[down=true,east=false,north=true,south=true,up=true,west=true]"
     },
     {
       "predicate": {
         "damage": 0.02647
       },
       "name": 14,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_nwud",
+	  "state": "[down=true,east=false,north=true,south=false,up=true,west=true]"
     },
     {
       "predicate": {
