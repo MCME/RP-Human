@@ -181,6 +181,14 @@
 		{ "model": "block/red_mushroom_block_ns" },
 		{ "model": "block/red_mushroom_block_ns_2" },
 		{ "model": "block/red_mushroom_block_ns_3" }
+	]},
+	{ "when": {"north": true, "west": true, "south":false, "east": false, "up": true, "down": true },
+		"apply": [
+		{ "model": "block/red_mushroom_block_nwud" },
+		{ "model": "block/red_mushroom_block_nwud_2" },
+		{ "model": "block/red_mushroom_block_nwud_3" },
+		{ "model": "block/red_mushroom_block_nwud_4" },
+		{ "model": "block/red_mushroom_block_nwud_5" }
 	]}
   ]
 }
