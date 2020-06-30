@@ -23,84 +23,95 @@
         "damage": 0.00567
       },
       "name": 3,
-      "model": "itemblock/replace"
+      "model": "block/mossy_stone_brick_slab_double"
     },
     {
       "predicate": {
         "damage": 0.00756
       },
       "name": 4,
-      "model": "itemblock/upper_slab_granite"
+      "model": "block/red_mushroom_block_nsd",
+	  "state":"[down=true,east=false,north=true,south=true,up=false,west=false]"
     },
     {
       "predicate": {
         "damage": 0.00945
       },
       "name": 5,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_newud",
+	  "state": "[north=true,south=false,east=true,west=true,up=true,down=true]"
     },
     {
       "predicate": {
         "damage": 0.01134
       },
       "name": 6,
-      "model": "itemblock/upper_slab_granite_smooth"
+      "model": "block/red_mushroom_block_neu",
+	  "state": "[down=false,east=true,north=true,south=false,up=true,west=false]"
     },
     {
       "predicate": {
         "damage": 0.01323
       },
       "name": 7,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_nsw",
+	  "state": "[down=false,east=false,north=true,south=true,up=false,west=true]"
     },
     {
       "predicate": {
         "damage": 0.01512
       },
       "name": 8,
-      "model": "itemblock/upper_slab_diorite"
+      "model": "block/red_mushroom_block_newu",
+	  "state": "[north=true,south=false,east=true,west=true,up=true,down=false]"
     },
     {
       "predicate": {
         "damage": 0.01701
       },
       "name": 9,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_newd",
+	  "state": "[north=true,south=false,east=true,west=true,up=false,down=true]"
     },
     {
       "predicate": {
         "damage": 0.01890
       },
       "name": 10,
-      "model": "itemblock/upper_slab_diorite_smooth"
+      "model": "block/red_mushroom_block_new",
+	  "state": "[north=true,south=false,east=true,west=true,up=false,down=false]"
     },
     {
       "predicate": {
         "damage": 0.02079
       },
       "name": 11,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_neud",
+	  "state": "[down=true,east=true,north=true,south=false,up=true,west=false]"
     },
     {
       "predicate": {
         "damage": 0.02268
       },
       "name": 12,
-      "model": "itemblock/upper_slab_andesite"
+      "model": "block/red_mushroom_block_ns",
+	  "state": "[down=false,east=false,north=true,south=true,up=false,west=false]"
     },
     {
       "predicate": {
         "damage": 0.02457
       },
       "name": 13,
-      "model": "itemblock/replace"
+      "model": "block/red_mushroom_block_nswud",
+	  "state": "[down=true,east=false,north=true,south=true,up=true,west=true]"
     },
     {
       "predicate": {
         "damage": 0.02647
       },
       "name": 14,
-      "model": "itemblock/upper_slab_andesite_smooth"
+      "model": "block/red_mushroom_block_nwud",
+	  "state": "[down=true,east=false,north=true,south=false,up=true,west=true]"
     },
     {
       "predicate": {
@@ -401,7 +412,7 @@
         "damage": 0.10775
       },
       "name": 57,
-      "model": "itemblock/upper_slab_double_slab_sandstone_seamless"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -422,7 +433,7 @@
         "damage": 0.11342
       },
       "name": 60,
-      "model": "itemblock/upper_slab_double_slab_red_sandstone_seamless"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -443,7 +454,7 @@
         "damage": 0.11909
       },
       "name": 63,
-      "model": "itemblock/upper_slab_sandstone_smooth"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -485,7 +496,7 @@
         "damage": 0.13043
       },
       "name": 69,
-      "model": "itemblock/upper_slab_double_slab_nether_brick_seamless"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -513,7 +524,7 @@
         "damage": 0.13800
       },
       "name": 73,
-      "model": "itemblock/upper_slab_double_slab_quartz_seamless"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -562,7 +573,7 @@
         "damage": 0.15123
       },
       "name": 80,
-      "model": "itemblock/upper_slab_stonebrick_mossy"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -597,7 +608,7 @@
         "damage": 0.16068
       },
       "name": 85,
-      "model": "itemblock/upper_slab_double_slab_stonebrick_seamless"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -660,7 +671,7 @@
         "damage": 0.17769
       },
       "name": 94,
-      "model": "itemblock/upper_slab_cobblestone_mossy"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -744,7 +755,7 @@
         "damage": 0.20038
       },
       "name": 106,
-      "model": "itemblock/upper_slab_double_slab_planks_acacia"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -765,7 +776,7 @@
         "damage": 0.20605
       },
       "name": 109,
-      "model": "itemblock/upper_slab_double_slab_planks_dark_oak"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -1871,7 +1882,7 @@
         "damage": 0.50473
       },
       "name": 267,
-      "model": "itemblock/upper_slab_emerald_ore"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -1969,7 +1980,7 @@
         "damage": 0.53119
       },
       "name": 281,
-      "model": "itemblock/trapdoor_red_sandstone_normal_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -1990,7 +2001,7 @@
         "damage": 0.53686
       },
       "name": 284,
-      "model": "itemblock/trapdoor_double_slab_sandstone_seamless_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2011,7 +2022,7 @@
         "damage": 0.54253
       },
       "name": 287,
-      "model": "itemblock/trapdoor_double_slab_red_sandstone_seamless_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2032,7 +2043,7 @@
         "damage": 0.54820
       },
       "name": 290,
-      "model": "itemblock/trapdoor_sandstone_chiseled_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2053,7 +2064,7 @@
         "damage": 0.55388
       },
       "name": 293,
-      "model": "itemblock/trapdoor_sandstone_smooth_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2074,7 +2085,7 @@
         "damage": 0.55955
       },
       "name": 296,
-      "model": "itemblock/trapdoor_red_nether_brick_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2095,7 +2106,7 @@
         "damage": 0.56522
       },
       "name": 299,
-      "model": "itemblock/trapdoor_double_slab_nether_brick_seamless_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2116,7 +2127,7 @@
         "damage": 0.57089
       },
       "name": 302,
-      "model": "itemblock/trapdoor_double_slab_nether_brick_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2137,7 +2148,7 @@
         "damage": 0.57656
       },
       "name": 305,
-      "model": "itemblock/trapdoor_quartz_normal_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2158,7 +2169,7 @@
         "damage": 0.58223
       },
       "name": 308,
-      "model": "itemblock/trapdoor_double_slab_quartz_seamless_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2179,7 +2190,7 @@
         "damage": 0.58790
       },
       "name": 311,
-      "model": "itemblock/trapdoor_double_slab_quartz_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2200,7 +2211,7 @@
         "damage": 0.59357
       },
       "name": 314,
-      "model": "itemblock/trapdoor_end_stone_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2221,7 +2232,7 @@
         "damage": 0.59924
       },
       "name": 317,
-      "model": "itemblock/trapdoor_end_bricks_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2242,7 +2253,7 @@
         "damage": 0.60491
       },
       "name": 320,
-      "model": "itemblock/trapdoor_quartz_chiseled_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2263,7 +2274,7 @@
         "damage": 0.61059
       },
       "name": 323,
-      "model": "itemblock/trapdoor_stonebrick_normal_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2284,7 +2295,7 @@
         "damage": 0.61626
       },
       "name": 326,
-      "model": "itemblock/trapdoor_stonebrick_mossy_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2305,7 +2316,7 @@
         "damage": 0.62193
       },
       "name": 329,
-      "model": "itemblock/trapdoor_stonebrick_cracked_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2326,7 +2337,7 @@
         "damage": 0.62760
       },
       "name": 332,
-      "model": "itemblock/trapdoor_stonebrick_chiseled_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2347,7 +2358,7 @@
         "damage": 0.63327
       },
       "name": 335,
-      "model": "itemblock/trapdoor_double_slab_stonebrick_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2368,7 +2379,7 @@
         "damage": 0.63894
       },
       "name": 338,
-      "model": "itemblock/trapdoor_double_slab_stonebrick_seamless_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2389,7 +2400,7 @@
         "damage": 0.64461
       },
       "name": 341,
-      "model": "itemblock/trapdoor_double_slab_brick_seamless_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2410,7 +2421,7 @@
         "damage": 0.65028
       },
       "name": 344,
-      "model": "itemblock/trapdoor_monster_egg_stonebrick_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2431,7 +2442,7 @@
         "damage": 0.65595
       },
       "name": 347,
-      "model": "itemblock/trapdoor_monster_egg_stonebrick_mossy_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2452,7 +2463,7 @@
         "damage": 0.66163
       },
       "name": 350,
-      "model": "itemblock/trapdoor_monster_egg_stonebrick_cracked_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2473,7 +2484,7 @@
         "damage": 0.66730
       },
       "name": 353,
-      "model": "itemblock/trapdoor_monster_egg_stonebrick_chiseled_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2494,7 +2505,7 @@
         "damage": 0.67297
       },
       "name": 356,
-      "model": "itemblock/trapdoor_brick_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2515,7 +2526,7 @@
         "damage": 0.67864
       },
       "name": 359,
-      "model": "itemblock/trapdoor_double_slab_brick_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2536,7 +2547,7 @@
         "damage": 0.68431
       },
       "name": 362,
-      "model": "itemblock/trapdoor_double_slab_stone_seamless_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2557,7 +2568,7 @@
         "damage": 0.68998
       },
       "name": 365,
-      "model": "itemblock/trapdoor_monster_egg_stone_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2578,7 +2589,7 @@
         "damage": 0.69565
       },
       "name": 368,
-      "model": "itemblock/trapdoor_double_slab_stone_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2599,7 +2610,7 @@
         "damage": 0.70132
       },
       "name": 371,
-      "model": "itemblock/trapdoor_cobblestone_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2620,7 +2631,7 @@
         "damage": 0.70699
       },
       "name": 374,
-      "model": "itemblock/trapdoor_mossy_cobblestone_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2641,7 +2652,7 @@
         "damage": 0.71267
       },
       "name": 377,
-      "model": "itemblock/trapdoor_double_slab_cobblestone_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2662,7 +2673,7 @@
         "damage": 0.71834
       },
       "name": 380,
-      "model": "itemblock/trapdoor_double_slab_cobblestone_seamless_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2683,7 +2694,7 @@
         "damage": 0.72401
       },
       "name": 383,
-      "model": "itemblock/trapdoor_monster_egg_cobblestone_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
@@ -2725,7 +2736,7 @@
         "damage": 0.73535
       },
       "name": 389,
-      "model": "itemblock/trapdoor_double_slab_planks_dark_oak_top"
+      "model": "itemblock/replace"
     },
     {
       "predicate": {
