@@ -1,52 +1,13 @@
 {
   "variants": {
     "": [
-      {
-        "model": "block/stone",
-        "weight": 10
-      },
-      {
-        "model": "block/stone",
-        "y": 180,
-        "weight": 10
-      },
-      {
-        "model": "block/stone_1",
-        "weight": 1
-      },
-      {
-        "model": "block/stone_2",
-        "weight": 1
-      },
-      {
-        "model": "block/stone_3",
-        "weight": 1
-      },
-      {
-        "model": "block/stone_4",
-        "rotation": 90,
-        "weight": 3
-      },
-      {
-        "model": "block/stone_1",
-        "rotation": 90,
-        "weight": 1
-      },
-      {
-        "model": "block/stone_2",
-        "rotation": 90,
-        "weight": 1
-      },
-      {
-        "model": "block/stone_3",
-        "rotation": 90,
-        "weight": 1
-      },
-      {
-        "model": "block/stone_4",
-        "rotation": 90,
-        "weight": 3
-      }
+      { "model": "block/stone"},
+	  { "model": "block/stone_2"},
+	  { "model": "block/stone_3"},
+	  { "model": "block/stone_4"},
+	  { "model": "block/stone_5"},
+	  { "model": "block/stone_6"},
+	  { "model": "block/stone_7"}
     ]
   }
 }
