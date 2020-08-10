@@ -2,20 +2,20 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"particle": "#1",
 		"bottom": "#2",
 		"top": "#3",
-		"overlay": "#4"
+		"overlay": "#4",
+		"particle": "#1"
 	},
 	"elements": [
 		{
 			"from": [0, 0, 0],
 			"to": [16, 16, 16],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "north"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "east"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "south"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "west"},
+				"north": {"uv": [0, 0, 16, 16], "texture": "#particle", "cullface": "north", "tintindex": 2},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#particle", "cullface": "east", "tintindex": 2},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#particle", "cullface": "south", "tintindex": 2},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#particle", "cullface": "west", "tintindex": 2},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#particle", "cullface": "up", "tintindex": 2},
 				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
 			}
@@ -24,10 +24,10 @@
 			"from": [0, 0, 0],
 			"to": [16, 16, 16],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "north", "tintindex": 0},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "east", "tintindex": 0},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "south", "tintindex": 0},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "west", "tintindex": 0},
+				"north": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "west"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up"}
 			}
 		}
