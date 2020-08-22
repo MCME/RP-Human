@@ -1,7 +1,19 @@
 {
     "variants": {
-        "type=bottom": { "model": "block/stone_slab" },
-        "type=top": { "model": "block/stone_slab_top" },
+        "type=bottom": [
+			{ "model": "block/stone_slab" },
+			{ "model": "block/stone_slab_2" },
+			{ "model": "block/stone_slab_3" },
+			{ "model": "block/stone_slab_4" },
+			{ "model": "block/stone_slab_5" }
+			],
+        "type=top": [
+			{ "model": "block/stone_slab", "x": 180 },
+			{ "model": "block/stone_slab_2", "x": 180 },
+			{ "model": "block/stone_slab_3", "x": 180 },
+			{ "model": "block/stone_slab_4", "x": 180 },
+			{ "model": "block/stone_slab_5", "x": 180 }
+			],
         "type=double,waterlogged=true": { "model": "block/double_slab_stonebrick_seamless" },
         "type=double,waterlogged=false": { "model": "block/double_slab_brick_seamless" }
     }

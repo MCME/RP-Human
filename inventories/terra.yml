@@ -23,6 +23,12 @@ Items:
     display: Smooth red stone [1:2]
     category: Terra
     type: VANILLA
+  mossy_granite_smooth:
+    itemMaterial: DEAD_BRAIN_CORAL_BLOCK
+    damage: 1
+    display: Mossy smooth red stone 
+    category: Terra
+    type: VANILLA
   diorite:
     itemMaterial: DIORITE
     damage: 3
@@ -53,12 +59,39 @@ Items:
     display: Smooth dark stone [1:6]
     category: Terra
     type: VANILLA
+  mossy_andesite_smooth:
+    itemMaterial: DEAD_TUBE_CORAL_BLOCK
+    damage: 6
+    display: Mossy smooth dark stone 
+    category: Terra
+    type: VANILLA
   emerald_ore:
     itemMaterial: EMERALD_ORE
     damage: 0
-    display: Mossy stone [129:0]
+    display: Dry mossy stone [129:0]
     category: Terra
     type: VANILLA
+  mossy_stone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 279
+    display: Moist mossy stone 
+    category: Terra
+    blockData: minecraft:polished_diorite_slab[type=double,waterlogged=false]
+    type: BLOCK
+  moss_covered_stone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 278
+    display: Moss covered stone 
+    category: Terra
+    blockData: minecraft:polished_andesite_slab[type=double,waterlogged=false]
+    type: BLOCK
+  moss_covered_dark_stone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 280
+    display: Moss covered dark stone 
+    category: Terra
+    blockData: minecraft:andesite_slab[type=double,waterlogged=false]
+    type: BLOCK
   hardened_clay:
     itemMaterial: TERRACOTTA
     damage: 0
@@ -113,6 +146,62 @@ Items:
     display: Grass block [2:0]
     category: Terra
     type: VANILLA
+  grass_patchy:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 25
+    display: Patchy grass
+    category: Terra
+    blockData: minecraft:oak_leaves[distance=5,persistent=true]
+    type: BLOCK
+  grass_stony:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 26
+    display: Grass with stones
+    category: Terra
+    blockData: minecraft:oak_leaves[distance=4,persistent=false]
+    type: BLOCK
+  grass_alluvium:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 125
+    display: Grass on alluvium
+    category: Terra
+    blockData: minecraft:oak_leaves[distance=5,persistent=false]
+    type: BLOCK
+  grass_sediment:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 180
+    display: Grass on sediment
+    category: Terra
+    blockData: minecraft:oak_leaves[distance=6,persistent=false]
+    type: BLOCK
+  grass_gray_sediment:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 181
+    display: Grass on gray sediment
+    category: Terra
+    blockData: minecraft:oak_leaves[distance=4,persistent=true]
+    type: BLOCK
+  grass_loam:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 188
+    display: Grass on loam
+    category: Terra
+    blockData: minecraft:oak_leaves[distance=1,persistent=true]
+    type: BLOCK
+  grass_light_stone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 189
+    display: Grass on light stone
+    category: Terra
+    blockData: minecraft:oak_leaves[distance=2,persistent=true]
+    type: BLOCK
+  grass_dark_stone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 319
+    display: Grass on dark stone
+    category: Terra
+    blockData: minecraft:oak_leaves[distance=3,persistent=true]
+    type: BLOCK
   grass_dirt:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 160
@@ -123,7 +212,7 @@ Items:
   grass_mud:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 161
-    display: Grass on Mud
+    display: Grass on mud
     category: Terra
     blockData: minecraft:oak_leaves[distance=2,persistent=false]
     type: BLOCK
@@ -134,10 +223,17 @@ Items:
     category: Terra
     blockData: minecraft:oak_leaves[distance=3,persistent=false]
     type: BLOCK
+  very_mossy_birch_log:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 353
+    display: Moss block
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:stripped_oak_wood[axis=z]
   horn_coral_block:
     itemMaterial: HORN_CORAL_BLOCK
     damage: 0
-    display: Muddy Vegetation
+    display: Muddy vegetation
     category: Terra
     type: VANILLA
   dirt:
@@ -164,6 +260,19 @@ Items:
     display: Coarse dirt [3:1]
     category: Terra
     type: VANILLA
+  mossy_dirt:
+    itemMaterial: YELLOW_CONCRETE
+    damage: 1
+    display: Mossy dirt
+    category: Terra
+    type: VANILLA
+  pebble_dirt:
+    itemMaterial: GREEN_CONCRETE_POWDER
+    damage: 1
+    display: Dirt with pebbles
+    category: Terra
+    blockData: minecraft:green_concrete_powder
+    type: BLOCK
   brain_coral_block:
     itemMaterial: BRAIN_CORAL_BLOCK
     display: Brown Mud
@@ -209,20 +318,28 @@ Items:
     damage: 0
     display: Sand [12:0]
     category: Terra
-    type: VANILLA
+    blockData: minecraft:sand
+    type: BLOCK
   black_concrete_powder:
     itemMaterial: BLACK_CONCRETE_POWDER
     display: Continental Sand
     category: Terra
-    type: VANILLA
+    blockData: minecraft:black_concrete_powder
+    type: BLOCK
   grey_concrete_powder:
     itemMaterial: GRAY_CONCRETE_POWDER
     display: Wet Sand
     category: Terra
-    type: VANILLA
+    blockData: minecraft:gray_concrete_powder
+    type: BLOCK
   red_concrete:
     itemMaterial: RED_CONCRETE
     display: Sediment
+    category: Terra
+    type: VANILLA
+  orange_concrete:
+    itemMaterial: ORANGE_CONCRETE
+    display: Gray sediment
     category: Terra
     type: VANILLA
   green_concrete:
@@ -235,10 +352,10 @@ Items:
     display: Alluvium
     category: Terra
     type: VANILLA
-  slit:
+  silt:
     itemMaterial: PINK_CONCRETE
     damage: 0
-    display: Slit
+    display: Silt
     category: Terra
     type: VANILLA
   gravel:
@@ -246,28 +363,46 @@ Items:
     damage: 0
     display: Gravel [13:0]
     category: Terra
+    blockData: minecraft:gravel
+    type: BLOCK
+  dry_gravel:
+    itemMaterial: MAGENTA_CONCRETE_POWDER
+    damage: 0
+    display: Dry gravel 
+    category: Terra
+    blockData: minecraft:magenta_concrete_powder
+    type: BLOCK
+  mossy_gravel:
+    itemMaterial: TUBE_CORAL_BLOCK
+    damage: 6
+    display: Mossy gravel 
+    category: Terra
     type: VANILLA
   lime_concrete_powder:
     itemMaterial: LIME_CONCRETE_POWDER
     damage: 0
     display: Rough gravel [112:0]
     category: Terra
-    type: VANILLA
+    blockData: minecraft:lime_concrete_powder
+    type: BLOCK
   pink_concrete_powder:
     itemMaterial: PINK_CONCRETE_POWDER
     display: Light Gravel
     category: Terra
-    type: VANILLA
+    blockData: minecraft:pink_concrete_powder
+    type: BLOCK
   yellow_concrete_powder_gravel:
     itemMaterial: YELLOW_CONCRETE_POWDER
     display: Mixed Gravel
     category: Terra
-    type: VANILLA
+    blockData: minecraft:yellow_concrete_powder
+    type: BLOCK
   orange_concrete_powder:
     itemMaterial: ORANGE_CONCRETE_POWDER
     display: Dark Gravel
     category: Terra
-    type: VANILLA
+    blockData: minecraft:orange_concrete_powder
+    type: BLOCK
   mycelium:
     itemMaterial: MYCELIUM
     damage: 0
@@ -612,6 +747,58 @@ Items:
     category: Terra
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+  diorite_slab_riverbed:
+    itemMaterial: DIORITE_SLAB
+    display: Riverbed Mix Gravel I (lower slab)
+    category: Terra
+    blockData: minecraft:diorite_slab[type=bottom,waterlogged=false]
+    type: BLOCK
+  smooth_sandstone_slab_riverbed:
+    itemMaterial: SMOOTH_SANDSTONE_SLAB
+    display: Riverbed Mix Gravel II (lower slab)
+    category: Terra
+    blockData: minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]
+    type: BLOCK
+  smooth_quartz_slab_riverbed:
+    itemMaterial: SMOOTH_QUARTZ_SLAB
+    display: Riverbed Mix Gravel III (lower slab)
+    category: Terra
+    blockData: minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]
+    type: BLOCK
+  andesite_slab_mossy:
+    itemMaterial: ANDESITE_SLAB
+    display: Mossy slab (lower)
+    category: Terra
+    blockData: minecraft:andesite_slab[type=bottom,waterlogged=false]
+    type: BLOCK
+  campfire_light_boulders:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 314
+    display: Light boulders
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:campfire[facing=south,lit=false,signal_fire=false,waterlogged=false]
+  campfire_dark_boulders:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 315
+    display: Dark boulders
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:campfire[facing=east,lit=false,signal_fire=false,waterlogged=false]
+  campfire_mixed_boulders:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 316
+    display: Mixed boulders
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:campfire[facing=west,lit=false,signal_fire=false,waterlogged=false]
+  campfire_mossy_boulders:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 317
+    display: Mossy boulders
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:campfire[facing=north,lit=false,signal_fire=false,waterlogged=false]
   water0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 341
