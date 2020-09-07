@@ -1,16 +1,5 @@
 Items:
-  lit_pumpkin:
-    itemMaterial: JACK_O_LANTERN
-    damage: 0
-    display: Scarecrow head [91:0]
-    category: Exter
-    type: VANILLA
-  hay:
-    itemMaterial: HAY_BLOCK
-    damage: 0
-    display: Hay Block [91:0]
-    category: Exter
-    type: VANILLA
+  # gate/lift mechanism collection
   dropper_nwd:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 146
@@ -20,6 +9,19 @@ Items:
     blockDataZ: minecraft:dropper[facing=north,triggered=false]
     blockDataX: minecraft:dropper[facing=west,triggered=false]
     blockDataY: minecraft:dropper[facing=down,triggered=false]
+    collection:
+      A1: dropper_seu
+      A0: dispenser
+      F1: dropper_nwd
+      G2: detector_rail_flat
+      H2: detector_rail_flat_diagonal
+      I2: detector_rail_raised_e
+      J1: chain_up_north
+      E0: glass_pane_red
+      E1: chain_up_center
+      D2: golden_rail_raised_e
+      C2: golden_rail_flat_diagonal
+      B2: golden_rail_flat
   dropper_seu:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 147
@@ -29,44 +31,246 @@ Items:
     blockDataZ: minecraft:dropper[facing=south,triggered=false]
     blockDataX: minecraft:dropper[facing=east,triggered=false]
     blockDataY: minecraft:dropper[facing=up,triggered=false]
-  dropper_powered_nwd:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 148
-    display: Bundled logs [158:8]
-    category: Exter
-    type: THREE_AXIS
-    blockDataZ: minecraft:dropper[facing=north,triggered=true]
-    blockDataX: minecraft:dropper[facing=west,triggered=true]
-    blockDataY: minecraft:dropper[facing=down,triggered=true]
+    collection:
+      indirect: dropper_nwd
   dispenser:
     itemMaterial: DISPENSER
     damage: 0
     display: Mechanics block [23:0]
     category: Exter
     type: VANILLA
-  beacon:
+    collection:
+      indirect: dropper_nwd
+  chain_up_north:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 337
-    display: Lantern [138:0]
+    damage: 177
+    display: 3D chain [55:1]
     category: Exter
     type: BLOCK
-    blockData: minecraft:beacon
-  shutter:
-    blockMaterial: LEGACY_DARK_OAK_DOOR
+    blockData: minecraft:redstone_wire[east=none,north=none,power=1,south=none,west=none]
+    collection:
+      indirect: dropper_nwd
+  chain_up_center:
     itemMaterial: DIAMOND_LEGGINGS
-    open: true
-    rightHinge: true
-    damage: 327
-    display: Shutter [197:8]
-    category: Exter
-    type: THIN_WALL
-  cactus_stage2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 149
-    display: Bell [81:2]
+    damage: 178
+    display: 3D chain (horizontal) [55:2]
     category: Exter
     type: BLOCK
-    blockData: minecraft:cactus[age=2]
+    blockData: minecraft:redstone_wire[east=none,north=none,power=2,south=none,west=none]
+    collection:
+      indirect: dropper_nwd
+  golden_rail_flat:
+    itemMaterial: POWERED_RAIL
+    damage: 0
+    display: Chain horizontal [27:0]
+    category: Exter
+    type: VANILLA
+    collection:
+      indirect: dropper_nwd
+  golden_rail_raised_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 152
+    display: Chain vertical [27:10]
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:powered_rail[powered=true,shape=ascending_east]
+    collection:
+      indirect: dropper_nwd
+  detector_rail_flat:
+    itemMaterial: DETECTOR_RAIL
+    damage: 0
+    display: Rope horizontal [28:0]
+    category: Exter
+    type: VANILLA
+    collection:
+      indirect: dropper_nwd
+  detector_rail_raised_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 154
+    display: Rope vertical [28:10]
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:detector_rail[powered=true,shape=ascending_east]
+    collection:
+      indirect: dropper_nwd
+  glass_pane_red:
+    itemMaterial: RED_STAINED_GLASS_PANE
+    damage: 14
+    display: Net / Thin rope [160:14]
+    category: Exter
+    type: VANILLA
+    collection:
+      indirect: dropper_nwd
+  clothesline_empty_regular:
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 183
+    display: Empty clothesline
+    category: Exter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_fence_gate[facing=north,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:oak_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:oak_fence_gate[facing=north,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:oak_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      A1: clothesline_shirt_regular
+      F1: clothesline_shirt_long_regular
+      H2: clothesline_pants_regular
+      J1: clothesline_rag_regular
+      E0: clothesline_socks_regular
+      E1: clothesline_sheet_regular
+      C2: clothesline_dress_regular
+      C0: clothesline_empty_regular
+  clothesline_dress_regular:
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 185
+    display: Clothesline with dress
+    category: Exter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:oak_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:oak_fence_gate[facing=east,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:oak_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:oak_fence_gate[facing=east,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: clothesline_empty_regular
+  barrel_empty:
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 401
+    display: Barrel empty [81:15]
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:cactus[age=15]
+    collection:
+      A1: barrel_onions_full_regular
+      A0: barrel_onions_half_regular
+      F1: barrel_potatoes_full_regular
+      G2: barrel_potatoes_half_regular
+      H2: barrel_wheat_full_regular
+      I2: barrel_wheat_half_regular
+      J1: barrel_apples_full_regular
+      E0: barrel_apples_half_regular
+      E1: barrel_tomatoes_full_regular
+      D2: barrel_tomatoes_half_regular
+      C2: barrel_grapes_full_regular
+      B2: barrel_grapes_half_regular
+      A4: barrel_coal_full_regular
+      B4: barrel_coal_half_regular
+      D4: barrel_water_full_regular
+      E4: barrel_water_half_regular
+      F4: barrel_fish_full_regular
+      G4: barrel_fish_half_regular
+      I4: barrel_meat_full_regular
+      J4: barrel_meat_half_regular
+      C0: barrel_empty
+  barrel_apples_full_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 402
+    display: Barrel apples full
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=5,persistent=false]
+    collection:
+      indirect: barrel_empty
+  barrel_grapes_full_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 404
+    display: Barrel grapes full
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=4,persistent=true]
+    collection:
+      indirect: barrel_empty
+  barrel_potatoes_full_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 408
+    display: Barrel potatoes full
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=4,persistent=false]
+    collection:
+      indirect: barrel_empty
+  barrel_onions_full_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 410
+    display: Barrel onions full
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=2,persistent=false]
+    collection:
+      indirect: barrel_empty
+  barrel_wheat_full_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 412
+    display: Barrel wheat full
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=4,persistent=true]
+    collection:
+      indirect: barrel_empty
+  barrel_meat_full_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 414
+    display: Barrel meat full
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=6,persistent=true]
+    collection:
+      indirect: barrel_empty
+  barrel_fish_full_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 416
+    display: Barrel fish full
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=2,persistent=true]
+    collection:
+      indirect: barrel_empty
+  barrel_coal_full_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 418
+    display: Barrel coal full
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:acacia_leaves[distance=7,persistent=false]
+    collection:
+      indirect: barrel_empty
+  barrel_water_full_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 420
+    display: Barrel water full
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=2,persistent=true]
+    collection:
+      indirect: barrel_empty
+  
+
+  # wheel collection
+  sticky_piston:
+    itemMaterial: STICKY_PISTON
+    display: Wheel on stone base [29:0]
+    category: Exter
+    type: SIX_FACES
+    blockDataNorth: minecraft:spruce_leaves[distance=5,persistent=false]
+    blockDataEast: minecraft:spruce_leaves[distance=4,persistent=false]
+    blockDataSouth: minecraft:spruce_leaves[distance=6,persistent=false]
+    blockDataWest: minecraft:spruce_leaves[distance=3,persistent=false]
+    blockDataUp: minecraft:spruce_leaves[distance=2,persistent=false]
+    blockDataDown: minecraft:spruce_leaves[distance=1,persistent=false]
+    collection: 
+      A0: sticky_piston
+      H2: piston_head_sticky
+      J1: repeater_delay2_e
+      E1: repeater_delay2_n
+      C2: cocoa_age0_s
   piston_head_sticky:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 150
@@ -79,6 +283,8 @@ Items:
     blockDataEast: minecraft:spruce_leaves[distance=5,persistent=true]
     blockDataDown: minecraft:spruce_leaves[distance=2,persistent=true]
     blockDataUp: minecraft:spruce_leaves[distance=3,persistent=true]
+    collection: 
+      indirect: sticky_piston
   cocoa_age0_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 334
@@ -89,105 +295,31 @@ Items:
     blockDataWest: minecraft:dark_oak_button[face=wall,facing=east,powered=false]
     blockDataNorth: minecraft:dark_oak_button[face=wall,facing=south,powered=false]
     blockDataEast: minecraft:dark_oak_button[face=wall,facing=west,powered=false]
-  repeater_delay2_n:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 335
-    display: Wheel (on floor) [93:6]
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:dark_oak_button[face=floor,facing=north,powered=false]
-  repeater_delay2_e:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 336
-    display: Wheel (on ceiling) [93:7]
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:dark_oak_button[face=ceiling,facing=north,powered=false]
-  sticky_piston:
-    itemMaterial: STICKY_PISTON
-    display: Wheel on stone base [29:0]
-    category: Exter
-    type: SIX_FACES
-    blockDataNorth: minecraft:spruce_leaves[distance=5,persistent=false]
-    blockDataEast: minecraft:spruce_leaves[distance=4,persistent=false]
-    blockDataSouth: minecraft:spruce_leaves[distance=6,persistent=false]
-    blockDataWest: minecraft:spruce_leaves[distance=3,persistent=false]
-    blockDataUp: minecraft:spruce_leaves[distance=2,persistent=false]
-    blockDataDown: minecraft:spruce_leaves[distance=1,persistent=false]
-  chain_up_north:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 177
-    display: 3D chain [55:1]
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=1,south=none,west=none]
-  chain_up_center:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 178
-    display: 3D chain (horizontal) [55:2]
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=2,south=none,west=none]
-  barrier:
-    itemMaterial: BARRIER
+    collection:
+      indirect: sticky_piston
+  
+
+  # misc blocks
+  lit_pumpkin:
+    itemMaterial: JACK_O_LANTERN
     damage: 0
-    display: Barrier block (for 3D chain support) [166:0]
+    display: Scarecrow head [91:0]
     category: Exter
     type: VANILLA
-  golden_rail_flat:
-    itemMaterial: POWERED_RAIL
-    damage: 0
-    display: Chain horizontal [27:0]
-    category: Exter
-    type: VANILLA
-  golden_rail_flat_diagonal:
+  beacon:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 151
-    display: Chain diagonal [27:8]
-    category: Exter
-    type: EIGHT_FACES
-    blockDataSouth: minecraft:powered_rail[powered=true,shape=north_south]
-    blockDataSouthWest: minecraft:powered_rail[powered=true,shape=east_west]
-    blockDataWest: minecraft:powered_rail[powered=true,shape=east_west]
-    blockDataNorthWest: minecraft:powered_rail[powered=true,shape=north_south]
-    blockDataNorth: minecraft:powered_rail[powered=true,shape=north_south]
-    blockDataNorthEast: minecraft:powered_rail[powered=true,shape=east_west]
-    blockDataEast: minecraft:powered_rail[powered=true,shape=east_west]
-    blockDataSouthEast: minecraft:powered_rail[powered=true,shape=north_south]
-  golden_rail_raised_e:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 152
-    display: Chain vertical [27:10]
+    damage: 337
+    display: Lantern [138:0]
     category: Exter
     type: BLOCK
-    blockData: minecraft:powered_rail[powered=true,shape=ascending_east]
-  detector_rail_flat:
-    itemMaterial: DETECTOR_RAIL
-    damage: 0
-    display: Rope horizontal [28:0]
-    category: Exter
-    type: VANILLA
-  detector_rail_flat_diagonal:
+    blockData: minecraft:beacon
+  cactus_stage2:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 153
-    display: Rope diagonal [28:8]
-    category: Exter
-    type: EIGHT_FACES
-    blockDataSouth: minecraft:detector_rail[powered=true,shape=north_south]
-    blockDataSouthWest: minecraft:detector_rail[powered=true,shape=east_west]
-    blockDataWest: minecraft:detector_rail[powered=true,shape=east_west]
-    blockDataNorthWest: minecraft:detector_rail[powered=true,shape=north_south]
-    blockDataNorth: minecraft:detector_rail[powered=true,shape=north_south]
-    blockDataNorthEast: minecraft:detector_rail[powered=true,shape=east_west]
-    blockDataEast: minecraft:detector_rail[powered=true,shape=east_west]
-    blockDataSouthEast: minecraft:detector_rail[powered=true,shape=north_south]
-  detector_rail_raised_e:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 154
-    display: Rope vertical [28:10]
+    damage: 149
+    display: Bell [81:2]
     category: Exter
     type: BLOCK
-    blockData: minecraft:detector_rail[powered=true,shape=ascending_east]
+    blockData: minecraft:cactus[age=2]
   rail_curved:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 155
@@ -237,58 +369,54 @@ Items:
     category: Exter
     type: BLOCK
     blockData: minecraft:redstone_wire[east=none,north=none,power=5,south=none,west=none]
-  repeater_delay1_w:
+  dropper_powered_nwd:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 183
-    display: Forest ground [93:1]
+    damage: 148
+    display: Bundled logs [158:8]
     category: Exter
-    type: BLOCK
-    blockData: minecraft:repeater[delay=1,facing=west,locked=false,powered=false]
-  repeater_delay1_n:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 184
-    display: Forest ground [93:2]
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:repeater[delay=1,facing=north,locked=false,powered=false]
-  repeater_delay1_e:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 185
-    display: Forest ground [93:3]
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:repeater[delay=1,facing=east,locked=false,powered=false]
-  glass_pane_red:
-    itemMaterial: RED_STAINED_GLASS_PANE
-    damage: 14
-    display: Net / Thin rope [160:14]
+    type: THREE_AXIS
+    blockDataZ: minecraft:dropper[facing=north,triggered=true]
+    blockDataX: minecraft:dropper[facing=west,triggered=true]
+    blockDataY: minecraft:dropper[facing=down,triggered=true]
+  hay:
+    itemMaterial: HAY_BLOCK
+    damage: 0
+    display: Hay Block [91:0]
     category: Exter
     type: VANILLA
-  clothesline_empty_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 183
-    display: Empty clothesline
-    category: Exter
-    type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:oak_fence_gate[facing=north,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:oak_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:oak_fence_gate[facing=north,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:oak_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  clothesline_dress_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 185
-    display: Clothesline with dress
-    category: Exter
-    type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:oak_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:oak_fence_gate[facing=east,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:oak_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:oak_fence_gate[facing=east,in_wall=false,open=true,powered=true]
+  
+
+  # inside collections
+  golden_rail_flat_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 151
+    display: Chain diagonal [27:8]
+    type: EIGHT_FACES
+    blockDataSouth: minecraft:powered_rail[powered=true,shape=north_south]
+    blockDataSouthWest: minecraft:powered_rail[powered=true,shape=east_west]
+    blockDataWest: minecraft:powered_rail[powered=true,shape=east_west]
+    blockDataNorthWest: minecraft:powered_rail[powered=true,shape=north_south]
+    blockDataNorth: minecraft:powered_rail[powered=true,shape=north_south]
+    blockDataNorthEast: minecraft:powered_rail[powered=true,shape=east_west]
+    blockDataEast: minecraft:powered_rail[powered=true,shape=east_west]
+    blockDataSouthEast: minecraft:powered_rail[powered=true,shape=north_south]
+  detector_rail_flat_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 153
+    display: Rope diagonal [28:8]
+    type: EIGHT_FACES
+    blockDataSouth: minecraft:detector_rail[powered=true,shape=north_south]
+    blockDataSouthWest: minecraft:detector_rail[powered=true,shape=east_west]
+    blockDataWest: minecraft:detector_rail[powered=true,shape=east_west]
+    blockDataNorthWest: minecraft:detector_rail[powered=true,shape=north_south]
+    blockDataNorth: minecraft:detector_rail[powered=true,shape=north_south]
+    blockDataNorthEast: minecraft:detector_rail[powered=true,shape=east_west]
+    blockDataEast: minecraft:detector_rail[powered=true,shape=east_west]
+    blockDataSouthEast: minecraft:detector_rail[powered=true,shape=north_south]
   clothesline_shirt_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 190
     display: Clothesline with shirt
-    category: Exter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_fence_gate[facing=north,in_wall=true,open=true,powered=true]
     blockDataWest: minecraft:oak_fence_gate[facing=west,in_wall=true,open=true,powered=true]
@@ -298,7 +426,6 @@ Items:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 199
     display: Clothesline with long shirt
-    category: Exter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_fence_gate[facing=south,in_wall=true,open=true,powered=true]
     blockDataWest: minecraft:oak_fence_gate[facing=east,in_wall=true,open=true,powered=true]
@@ -308,7 +435,6 @@ Items:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 205
     display: Clothesline with pants
-    category: Exter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_fence_gate[facing=north,in_wall=false,open=true,powered=true]
     blockDataWest: minecraft:birch_fence_gate[facing=west,in_wall=false,open=true,powered=true]
@@ -318,7 +444,6 @@ Items:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 211
     display: Clothesline with socks
-    category: Exter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataWest: minecraft:birch_fence_gate[facing=east,in_wall=false,open=true,powered=true]
@@ -328,7 +453,6 @@ Items:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 219
     display: Clothesline with sheet
-    category: Exter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_fence_gate[facing=north,in_wall=true,open=true,powered=true]
     blockDataWest: minecraft:birch_fence_gate[facing=west,in_wall=true,open=true,powered=true]
@@ -338,49 +462,23 @@ Items:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 225
     display: Clothesline with rag
-    category: Exter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_fence_gate[facing=south,in_wall=true,open=true,powered=true]
     blockDataWest: minecraft:birch_fence_gate[facing=east,in_wall=true,open=true,powered=true]
     blockDataNorth: minecraft:birch_fence_gate[facing=south,in_wall=true,open=true,powered=true]
     blockDataEast: minecraft:birch_fence_gate[facing=east,in_wall=true,open=true,powered=true]
-  barrel_empty:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 401
-    display: Barrel empty [81:15]
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:cactus[age=15]
-  barrel_apples_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 402
-    display: Barrel apples full
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:acacia_leaves[distance=5,persistent=false]
   barrel_apples_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 403
     display: Barrel apples half
-    category: Exter
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=6,persistent=false]
-  barrel_grapes_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 404
-    display: Barrel grapes full
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:acacia_leaves[distance=4,persistent=true]
   barrel_grapes_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 405
     display: Barrel grapes half
-    category: Exter
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=5,persistent=true]
   barrel_tomatoes_full_regular:
@@ -388,7 +486,6 @@ Items:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 406
     display: Barrel tomatoes full
-    category: Exter
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=6,persistent=false]
   barrel_tomatoes_half_regular:
@@ -396,118 +493,66 @@ Items:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 407
     display: Barrel tomatoes half
-    category: Exter
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=7,persistent=true]
-  barrel_potatoes_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 408
-    display: Barrel potatoes full
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:birch_leaves[distance=4,persistent=false]
   barrel_potatoes_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 409
     display: Barrel potatoes half
-    category: Exter
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=5,persistent=false]
-  barrel_onions_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 410
-    display: Barrel onions full
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:birch_leaves[distance=2,persistent=false]
   barrel_onions_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 411
     display: Barrel onions half
-    category: Exter
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=3,persistent=false]
-  barrel_wheat_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 412
-    display: Barrel wheat full
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:birch_leaves[distance=4,persistent=true]
   barrel_wheat_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 413
     display: Barrel wheat half
-    category: Exter
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=5,persistent=true]
-  barrel_meat_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 414
-    display: Barrel meat full
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:acacia_leaves[distance=6,persistent=true]
   barrel_meat_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 415
     display: Barrel meat half
-    category: Exter
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=7,persistent=true]
-  barrel_fish_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 416
-    display: Barrel fish full
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:acacia_leaves[distance=2,persistent=true]
   barrel_fish_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 417
     display: Barrel fish half
-    category: Exter
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=3,persistent=true]
-  barrel_coal_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 418
-    display: Barrel coal full
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:acacia_leaves[distance=7,persistent=false]
   barrel_coal_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 419
     display: Barrel coal half
-    category: Exter
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=1,persistent=false]
-  barrel_water_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 420
-    display: Barrel water full
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:birch_leaves[distance=2,persistent=true]
   barrel_water_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 400
     display: Barrel water half
-    category: Exter
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=3,persistent=true]
+  repeater_delay2_n:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 335
+    display: Wheel (on floor) [93:6]
+    type: BLOCK
+    blockData: minecraft:dark_oak_button[face=floor,facing=north,powered=false]
+  repeater_delay2_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 336
+    display: Wheel (on ceiling) [93:7]
+    type: BLOCK
+    blockData: minecraft:dark_oak_button[face=ceiling,facing=north,powered=false]

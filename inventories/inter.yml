@@ -1,12 +1,5 @@
-# 
-#  lit_redstone_torch:
-#    itemMaterial: REDSTONE_TORCH_ON
-#    damage: 0
-#    display: Candle (lit) [76:0]
-#    category: Inter
-#    blockData: minecraft:redstone_torch[lit=true]
-#    type: BLOCK
 Items:
+  # door collection
   wooden_door_powered:
     blockMaterial: OAK_DOOR
     powered: true
@@ -15,6 +8,18 @@ Items:
     display: Wooden door 1 [64:10]
     category: Inter
     type: DOOR
+    collection:
+      A1: wooden_door_powered
+      A0: jungle_door_powered
+      F1: acacia_door_powered
+      G2: birch_door_powered
+      H2: spruce_door_powered
+      I2: iron_door
+      J1: iron_door_bottom
+      E1: birch_door_bottom
+      D2: birch_door
+      C2: dark_oak_door_powered
+      B2: iron_door_powered
   spruce_door_powered:
     blockMaterial: SPRUCE_DOOR
     powered: true
@@ -23,6 +28,8 @@ Items:
     display: Wooden door 2 [193:10]
     category: Inter
     type: DOOR
+    collection:
+      indirect: wooden_door_powered
   birch_door:
     blockMaterial: BIRCH_DOOR
     itemMaterial: BIRCH_DOOR
@@ -30,6 +37,8 @@ Items:
     display: Wooden door 3 [194:8]
     category: Inter
     type: DOOR
+    collection:
+      indirect: wooden_door_powered
   jungle_door_powered:
     blockMaterial: JUNGLE_DOOR
     powered: true
@@ -38,6 +47,8 @@ Items:
     display: Makeshift door [195:10]
     category: Inter
     type: DOOR
+    collection:
+      indirect: wooden_door_powered
   acacia_door_powered:
     blockMaterial: ACACIA_DOOR
     powered: true
@@ -46,6 +57,8 @@ Items:
     display: Wooden door 4 [196:10]
     category: Inter
     type: DOOR
+    collection:
+      indirect: wooden_door_powered
   dark_oak_door_powered:
     blockMaterial: DARK_OAK_DOOR
     powered: true
@@ -54,6 +67,8 @@ Items:
     display: Sturdy door [197:10]
     category: Inter
     type: DOOR
+    collection:
+      indirect: wooden_door_powered
   iron_door:
     blockMaterial: IRON_DOOR
     itemMaterial: IRON_DOOR
@@ -61,6 +76,8 @@ Items:
     display: Prison cell door [71:8]
     category: Inter
     type: DOOR
+    collection:
+      indirect: wooden_door_powered
   birch_door_powered:
     blockMaterial: BIRCH_DOOR
     itemMaterial: DIAMOND_LEGGINGS
@@ -69,6 +86,8 @@ Items:
     category: Inter
     type: DOOR
     powered: true
+    collection:
+      indirect: wooden_door_powered
   iron_door_powered:
     blockMaterial: IRON_DOOR
     itemMaterial: DIAMOND_LEGGINGS
@@ -77,24 +96,43 @@ Items:
     category: Inter
     type: DOOR
     powered: true
+    collection:
+      indirect: wooden_door_powered
+
+  
+  # storage collection
   chest:
     itemMaterial: CHEST
     damage: 0
     display: Chest [54:0]
     category: Inter
     type: VANILLA
+    collection:
+      A1: trapped_chest
+      A0: chest
+      F1: ender_chest
+      G2: double_slab_planks_oak
+      I2: prismarine_rough
+      J1: bookshelf
+      E1: round_barrel
+      D2: double_slab_planks_spruce
+      B2: double_slab_planks_birch
   trapped_chest:
     itemMaterial: TRAPPED_CHEST
     damage: 0
     display: Chest [146:0]
     category: Inter
     type: VANILLA
+    collection:
+      indirect: chest
   ender_chest:
     itemMaterial: ENDER_CHEST
     damage: 0
     display: Chest [130:0]
     category: Inter
     type: VANILLA
+    collection:
+      indirect: chest
   double_slab_planks_oak:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 163
@@ -102,12 +140,16 @@ Items:
     category: Inter
     type: BLOCK
     blockData: minecraft:oak_slab[type=double,waterlogged=false]
+    collection:
+      indirect: chest
   prismarine_rough:
     itemMaterial: PRISMARINE
     dataValue: 0
     display: Sturdy Crate [168:0]
     category: Inter
     type: VANILLA
+    collection:
+      indirect: chest
   double_slab_planks_birch:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 164
@@ -115,6 +157,8 @@ Items:
     category: Inter
     type: BLOCK
     blockData: minecraft:birch_slab[type=double,waterlogged=false]
+    collection:
+      indirect: chest
   double_slab_planks_spruce:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 165
@@ -122,12 +166,18 @@ Items:
     category: Inter
     type: BLOCK
     blockData: minecraft:spruce_slab[type=double,waterlogged=false]
+    collection:
+      indirect: chest
   bookshelf:
     itemMaterial: BOOKSHELF
     damage: 0
     display: Barrel [47:0]
     category: Inter
     type: VANILLA
+    collection:
+      indirect: chest
+
+  # books/library collecton
   double_slab_wood_old:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 166
@@ -138,6 +188,11 @@ Items:
     blockDataWest: minecraft:emerald_block
     blockDataNorth: minecraft:petrified_oak_slab[type=double,waterlogged=false]
     blockDataEast: minecraft:emerald_block
+    collection:
+      H2: brown_shulker_box
+      J1: cocoa_age2_s
+      E1: cocoa_age1_s
+      C2: double_slab_wood_old
   brown_shulker_box:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 166
@@ -148,31 +203,56 @@ Items:
     blockDataWest: minecraft:brown_shulker_box[facing=west]
     blockDataNorth: minecraft:brown_shulker_box[facing=north]
     blockDataEast: minecraft:brown_shulker_box[facing=east]
+    collection:
+      indirect: double_slab_wood_old
+  cocoa_age2_s:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 329
+    display: Bookshelf 1 [127:4]
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:cocoa[age=1,facing=south]
+    blockDataWest: minecraft:cocoa[age=1,facing=west]
+    blockDataNorth: minecraft:cocoa[age=1,facing=north]
+    blockDataEast: minecraft:cocoa[age=1,facing=east]
+    collection:
+      indirect: double_slab_wood_old
+
+  
+  # table collection
   crafting_table:
     itemMaterial: CRAFTING_TABLE
     damage: 0
     display: Workbench [58:0]
     category: Inter
     type: VANILLA
+    collection:
+      A1: note_block
+      F1: crafting_table
+      G2: piston_base
+      I2: piston_head_normal
+      J1: ender_portal_frame_filled_west
+      E1: ender_portal_frame_filled_east
+      D2: furnace
+      B2: lit_furnace
+      C0: jukebox
   note_block:
     itemMaterial: NOTE_BLOCK
     damage: 0
     display: Table [25:0]
     category: Inter
+    blockData: minecraft:note_block[instrument=harp,note=3,powered=false]
     type: VANILLA
+    collection:
+      indirect: crafting_table
   jukebox:
     itemMaterial: JUKEBOX
     damage: 0
     display: Drawers [84:0]
     category: Inter
     type: VANILLA
-  ender_portal_frame_filled_east:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 330
-    display: Low table 1 [120:7]
-    category: Inter
-    type: BLOCK
-    blockData: minecraft:end_portal_frame[eye=true,facing=east]
+    collection:
+      indirect: crafting_table
   ender_portal_frame_filled_west:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 331
@@ -180,6 +260,8 @@ Items:
     category: Inter
     type: BLOCK
     blockData: minecraft:end_portal_frame[eye=true,facing=west]
+    collection:
+      indirect: crafting_table
   piston_head_normal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 167
@@ -192,6 +274,8 @@ Items:
     blockDataEast: minecraft:piston_head[facing=east,short=false,type=normal]
     blockDataDown: minecraft:piston_head[facing=down,short=false,type=normal]
     blockDataUp: minecraft:piston_head[facing=up,short=false,type=normal]
+    collection:
+      indirect: crafting_table
   piston_base:
     itemMaterial: PISTON
     display: Table on stone base [33:0]
@@ -203,23 +287,19 @@ Items:
     blockDataEast: minecraft:piston[extended=false,facing=east]
     blockDataDown: minecraft:piston[extended=false,facing=down]
     blockDataUp: minecraft:piston[extended=false,facing=up]
+    collection:
+      indirect: crafting_table
   furnace:
     itemMaterial: FURNACE
     damage: 0
     display: Furnace [61:2]
     category: Inter
     type: VANILLA
-  lit_furnace:
-    blockMaterial: LEGACY_BURNING_FURNACE
-    dataValueNorth: 3
-    dataValueWest: 5
-    dataValueSouth: 2
-    dataValueEast: 4
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 168
-    display: Lit furnace [62:2]
-    category: Inter
-    type: BURNING_FURNACE
+    collection:
+      indirect: crafting_table
+
+
+  # cauldron collection
   cauldron_empty:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 169
@@ -227,20 +307,11 @@ Items:
     category: Inter
     type: BLOCK
     blockData: minecraft:cauldron[level=0]
-  cauldron_level1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 170
-    display: Cauldron 1/3 filled [118:1]
-    category: Inter
-    type: BLOCK
-    blockData: minecraft:cauldron[level=1]
-  cauldron_level2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 171
-    display: Cauldron 2/3 filled [118:2]
-    category: Inter
-    type: BLOCK
-    blockData: minecraft:cauldron[level=2]
+    collection:
+      A0: cauldron_level3
+      H2: cauldron_level2
+      E0: cauldron_level1
+      C2: cauldron_empty
   cauldron_level3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 172
@@ -248,19 +319,307 @@ Items:
     category: Inter
     type: BLOCK
     blockData: minecraft:cauldron[level=3]
-  brewing_stand:
+  
+
+  # seating collection
+  cactus_stage6:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 173
-    display: Suspension [117:0]
+    damage: 176
+    display: High seat [81:6]
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:cactus[age=8]
+    blockDataWest: minecraft:cactus[age=9]
+    blockDataNorth: minecraft:cactus[age=6]
+    blockDataEast: minecraft:cactus[age=7]
+    collection:
+      A1: comparator_powered_subtract_n
+      A0: cactus_stage6
+      F0: comparator_powered_subtract_e
+      G2: bed_orange
+      I2: bed_light_blue
+      J1: bed_green_half_regular
+      E0: bed_grey_half_regular
+      E1: bed_blue_half_regular
+      D2: bed_magenta
+      B2: bed_pink
+  comparator_powered_subtract_n:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 332
+    display: Red stool [149:14]
     category: Inter
     type: BLOCK
-    blockData: minecraft:brewing_stand[has_bottle_0=false,has_bottle_1=false,has_bottle_2=false]
+    collection:
+      indirect: cactus_stage6
+  comparator_powered_subtract_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 333
+    display: Wooden stool [149:15]
+    category: Inter
+    type: BLOCK
+    blockData: minecraft:comparator[facing=east,mode=subtract,powered=true]
+    collection:
+      indirect: cactus_stage6
+  bed_orange:
+    itemMaterial: ORANGE_BED
+    damage: 1
+    display: Wooden bench [355:1]
+    category: Inter
+    type: VANILLA
+    collection:
+      indirect: cactus_stage6
+  bed_magenta:
+    itemMaterial: MAGENTA_BED
+    damage: 2
+    display: Blue bench [355:2]
+    category: Inter
+    type: VANILLA
+    collection:
+      indirect: cactus_stage6
+  bed_light_blue:
+    itemMaterial: LIGHT_BLUE_BED
+    damage: 3
+    display: Green bench [355:3]
+    category: Inter
+    type: VANILLA
+    collection:
+      indirect: cactus_stage6
+  bed_pink:
+    itemMaterial: PINK_BED
+    damage: 6
+    display: Red bench [355:6]
+    category: Inter
+    type: VANILLA
+    collection:
+      indirect: cactus_stage6
+  bed_blue_half_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 243
+    display: Blue stool
+    category: Inter
+    type: BLOCK
+    blockData: minecraft:campfire[facing=north,lit=false,signal_fire=true,waterlogged=false]
+    collection:
+      indirect: cactus_stage6
+  bed_green_half_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 244
+    display: Green stool
+    category: Inter
+    type: BLOCK
+    blockData: minecraft:campfire[facing=south,lit=false,signal_fire=true,waterlogged=false]
+    collection:
+      indirect: cactus_stage6
+  bed_grey_half_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 245
+    display: Poor stool
+    category: Inter
+    type: BLOCK
+    blockData: minecraft:campfire[facing=east,lit=false,signal_fire=true,waterlogged=false]
+    collection:
+      indirect: cactus_stage6
+
+  
+  # bed collection
+  bed_yellow:
+    itemMaterial: YELLOW_BED
+    damage: 4
+    display: Yellow bed [355:4]
+    category: Inter
+    type: VANILLA
+    collection:
+      A1: bed_black
+      A0: bed_red
+      F1: bed_brown
+      G2: bed_purple
+      H2: bed_gray
+      I2: bed_blue
+      J1: bed_cyan
+      E0: bed_white
+      E1: bed_silver
+      D2: bed_yellow
+      C2: bed_lime
+      B2: bed_green
+  bed_silver:
+    itemMaterial: LIGHT_GRAY_BED
+    damage: 8
+    display: Poor bed 1 [355:8]
+    category: Inter
+    type: VANILLA
+    collection:
+      indirect: bed_yellow
+  bed_purple:
+    itemMaterial: PURPLE_BED
+    damage: 10
+    display: Purple bed [355:10]
+    category: Inter
+    type: VANILLA
+    collection:
+      indirect: bed_yellow
+  bed_brown:
+    itemMaterial: BROWN_BED
+    damage: 12
+    display: Cloth bed 1 [355:12]
+    category: Inter
+    type: VANILLA
+    collection:
+      indirect: bed_yellow
+  bed_green:
+    itemMaterial: GREEN_BED
+    damage: 13
+    display: Green bed [355:13]
+    category: Inter
+    type: VANILLA
+    collection:
+      indirect: bed_yellow
+  bed_red:
+    itemMaterial: RED_BED
+    damage: 14
+    display: Red bed [355:14]
+    category: Inter
+    type: VANILLA
+    collection:
+      indirect: bed_yellow
+  bed_white:
+    itemMaterial: WHITE_BED
+    damage: 16
+    display: Bed [355:16]
+    category: Inter
+    type: VANILLA
+    collection:
+      indirect: bed_yellow
+  curtain_blue:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 247
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 247
+    display: ITEMBLOCK Blue curtain
+    category: Inter
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      A1: curtain_white_top
+      A0: curtain_white
+      F1: curtain_white_bottom
+      G2: curtain_blue_top
+      H2: curtain_blue
+      I2: curtain_blue_bottom
+      J1: curtain_red_bottom
+      E0: curtain_red
+      E1: curtain_red_top
+      D2: curtain_green_bottom
+      C2: curtain_green
+      B2: curtain_green_top
+      B4: curtain_brown_top
+      C4: curtain_brown
+      D4: curtain_brown_bottom
+      G4: curtain_gray_top
+      H4: curtain_gray
+      I4: curtain_gray_bottom
+  curtain_brown:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 250
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 250
+    display: ITEMBLOCK Brown curtain
+    category: Inter
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
+  curtain_gray:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 253
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 253
+    display: ITEMBLOCK Gray curtain
+    category: Inter
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
+  curtain_green:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 256
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 256
+    display: ITEMBLOCK Green curtain
+    category: Inter
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
+  curtain_red:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 259
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 259
+    display: ITEMBLOCK Red curtain
+    category: Inter
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
+  curtain_white:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 262
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 262
+    display: ITEMBLOCK White curtain
+    category: Inter
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
+  
+
+  # food/plates collection
   cake:
     itemMaterial: CAKE
     damage: 0
     display: Bread [92:0]
     category: Inter
     type: VANILLA
+    collection:
+      A1: plate_1_regular
+      F1: plate_2_regular
+      G2: wooden_pressure_plate
+      H2: cutlery_regular
+      I2: stone_pressure_plate
+      J1: brewing_stand
+      E0: cake
+      E1: cactus_stage1
+      D2: heavy_pressure_plate
+      C2: repeater_delay1_s
+      B2: light_pressure_plate
   cactus_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 174
@@ -268,6 +627,123 @@ Items:
     category: Inter
     type: BLOCK
     blockData: minecraft:cactus[age=1]
+    collection:
+      indirect: cake
+  brewing_stand:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 173
+    display: Suspension [117:0]
+    category: Inter
+    type: BLOCK
+    blockData: minecraft:brewing_stand[has_bottle_0=false,has_bottle_1=false,has_bottle_2=false]
+    collection:
+      indirect: cake
+  wooden_pressure_plate:
+    itemMaterial: OAK_PRESSURE_PLATE
+    damage: 0
+    display: Wooden plate [72:0]
+    category: Inter
+    type: VANILLA
+    collection:
+      indirect: cake
+  light_pressure_plate:
+    itemMaterial: LIGHT_WEIGHTED_PRESSURE_PLATE
+    damage: 0
+    display: Plate [147:0]
+    category: Inter
+    type: VANILLA
+    collection:
+      indirect: cake
+  cutlery_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 390
+    display: Cutlery
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:light_weighted_pressure_plate[power=6]
+    blockDataWest: minecraft:light_weighted_pressure_plate[power=7]
+    blockDataNorth: minecraft:light_weighted_pressure_plate[power=4]
+    blockDataEast: minecraft:light_weighted_pressure_plate[power=5]
+    collection:
+      indirect: cake
+  plate_1_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 391
+    display: Plate
+    category: Inter
+    type: BLOCK
+    blockData: minecraft:light_weighted_pressure_plate[power=2]
+    collection:
+      indirect: cake
+  
+
+  # drinks collection
+  tripwire_hook:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 285
+    display: Hook [131:0]
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:tripwire_hook[attached=false,facing=north,powered=false]
+    blockDataWest: minecraft:tripwire_hook[attached=false,facing=east,powered=false]
+    blockDataNorth: minecraft:tripwire_hook[attached=false,facing=south,powered=false]
+    blockDataEast: minecraft:tripwire_hook[attached=false,facing=west,powered=false]
+    collection:
+      A0: beer_mug
+      G2: bottle_2
+      I2: lever
+      E0: roung_barrel
+      D2: tripwire_hook
+      B2: bottle_1
+  round_barrel:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 109
+    display: Round barrel
+    category: Inter
+    type: THREE_AXIS
+    blockDataZ: minecraft:acacia_leaves[distance=3,persistent=false]
+    blockDataX: minecraft:acacia_leaves[distance=2,persistent=false]
+    blockDataY: minecraft:acacia_leaves[distance=4,persistent=false]
+    collection:
+      indirect: tripwire_hook
+  beer_mug:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 124
+    display: Beer mug [105:0]
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:melon_stem[age=1]
+    blockDataWest: minecraft:melon_stem[age=2]
+    blockDataNorth: minecraft:melon_stem[age=3]
+    blockDataEast: minecraft:melon_stem[age=0]
+    collection:
+      indirect: tripwire_hook
+  bottle_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 122
+    display: Bottle of mineral water [105:6]
+    category: Inter
+    type: BLOCK
+    blockData: minecraft:melon_stem[age=6]
+    collection:
+      indirect: tripwire_hook
+  bottle_2:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 398
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 123
+    display: Vessel [105:7]
+    category: Inter
+    type: BLOCK
+    blockData: minecraft:melon_stem[age=7]
+    collection:
+      indirect: tripwire_hook
+
+  
+  # misc blocks
   anvil_damage0_sw:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 287
@@ -288,391 +764,6 @@ Items:
     blockDataWest: minecraft:ladder[facing=east,waterlogged=false]
     blockDataNorth: minecraft:ladder[facing=south,waterlogged=false]
     blockDataEast: minecraft:ladder[facing=west,waterlogged=false]
-  cactus_stage6:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 176
-    display: High seat [81:6]
-    category: Inter
-    type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:cactus[age=8]
-    blockDataWest: minecraft:cactus[age=9]
-    blockDataNorth: minecraft:cactus[age=6]
-    blockDataEast: minecraft:cactus[age=7]
-  comparator_powered_subtract_n:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 332
-    display: Red stool [149:14]
-    category: Inter
-    type: BLOCK
-    blockData: minecraft:comparator[facing=north,mode=subtract,powered=true]
-  comparator_powered_subtract_e:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 333
-    display: Wooden stool [149:15]
-    category: Inter
-    type: BLOCK
-    blockData: minecraft:comparator[facing=east,mode=subtract,powered=true]
-  bed_orange:
-    itemMaterial: ORANGE_BED
-    damage: 1
-    display: Orange bed [355:1]
-    category: Inter
-    type: VANILLA
-  bed_magenta:
-    itemMaterial: MAGENTA_BED
-    damage: 2
-    display: Magenta bed [355:2]
-    category: Inter
-    type: VANILLA
-  bed_light_blue:
-    itemMaterial: LIGHT_BLUE_BED
-    damage: 3
-    display: Light blue bed [355:3]
-    category: Inter
-    type: VANILLA
-  bed_yellow:
-    itemMaterial: YELLOW_BED
-    damage: 4
-    display: Yellow bed [355:4]
-    category: Inter
-    type: VANILLA
-  bed_lime:
-    itemMaterial: LIME_BED
-    damage: 5
-    display: Lime bed [355:5]
-    category: Inter
-    type: VANILLA
-  bed_pink:
-    itemMaterial: PINK_BED
-    damage: 6
-    display: Pink bed [355:6]
-    category: Inter
-    type: VANILLA
-  bed_gray:
-    itemMaterial: GRAY_BED
-    damage: 7
-    display: Gray bed [355:7]
-    category: Inter
-    type: VANILLA
-  bed_silver:
-    itemMaterial: LIGHT_GRAY_BED
-    damage: 8
-    display: Light gray bed [355:8]
-    category: Inter
-    type: VANILLA
-  bed_cyan:
-    itemMaterial: CYAN_BED
-    damage: 9
-    display: Cyan bed [355:9]
-    category: Inter
-    type: VANILLA
-  bed_purple:
-    itemMaterial: PURPLE_BED
-    damage: 10
-    display: Purple bed [355:10]
-    category: Inter
-    type: VANILLA
-  bed_blue:
-    itemMaterial: BLUE_BED
-    damage: 11
-    display: Blue bed [355:11]
-    category: Inter
-    type: VANILLA
-  bed_brown:
-    itemMaterial: BROWN_BED
-    damage: 12
-    display: Brown bed [355:12]
-    category: Inter
-    type: VANILLA
-  bed_green:
-    itemMaterial: GREEN_BED
-    damage: 13
-    display: Green bed [355:13]
-    category: Inter
-    type: VANILLA
-  bed_red:
-    itemMaterial: RED_BED
-    damage: 14
-    display: Red bed [355:14]
-    category: Inter
-    type: VANILLA
-  bed_black:
-    itemMaterial: BLACK_BED
-    damage: 15
-    display: Bed [355:15]
-    category: Inter
-    type: VANILLA
-  bed_white:
-    itemMaterial: WHITE_BED
-    damage: 16
-    display: Bed [355:16]
-    category: Inter
-    type: VANILLA
-  bed_blue_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 243
-    display: Blue stool
-    category: Inter
-    type: BLOCK
-    blockData: minecraft:campfire[facing=north,lit=false,signal_fire=true,waterlogged=false]
-  bed_green_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 244
-    display: Green stool
-    category: Inter
-    type: BLOCK
-    blockData: minecraft:campfire[facing=south,lit=false,signal_fire=true,waterlogged=false]
-  bed_grey_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 245
-    display: Poor stool
-    category: Inter
-    type: BLOCK
-    blockData: minecraft:campfire[facing=east,lit=false,signal_fire=true,waterlogged=false]
-  curtain_blue_top:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 246
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 246
-    display: ITEMBLOCK Blue curtain top
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_blue:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 247
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 247
-    display: ITEMBLOCK Blue curtain
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_blue_bottom:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 248
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 248
-    display: ITEMBLOCK Blue curtain bottom
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_brown_top:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 249
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 249
-    display: ITEMBLOCK Brown curtain top
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_brown:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 250
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 250
-    display: ITEMBLOCK Brown curtain
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_brown_bottom:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 251
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 251
-    display: ITEMBLOCK Brown curtain bottom
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_gray_top:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 252
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 252
-    display: ITEMBLOCK Gray curtain top
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_gray:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 253
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 253
-    display: ITEMBLOCK Gray curtain
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_gray_bottom:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 254
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 254
-    display: ITEMBLOCK Gray curtain bottom
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_green_top:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 255
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 255
-    display: ITEMBLOCK Green curtain top
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_green:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 256
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 256
-    display: ITEMBLOCK Green curtain
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_green_bottom:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 257
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 257
-    display: ITEMBLOCK Green curtain bottom
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_red_top:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 258
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 258
-    display: ITEMBLOCK Red curtain top
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_red:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 259
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 259
-    display: ITEMBLOCK Red curtain
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_red_bottom:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 260
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 260
-    display: ITEMBLOCK Red curtain bottom
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_white_top:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 261
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 261
-    display: ITEMBLOCK White curtain top
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_white:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 262
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 262
-    display: ITEMBLOCK White curtain
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  curtain_white_bottom:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 263
-    contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 263
-    display: ITEMBLOCK White curtain bottom
-    category: Inter
-    type: ITEM_BLOCK_FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-  repeater_delay1_s:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 182
-    display: Candle plate [93:0]
-    category: Inter
-    type: BLOCK
-    blockData: minecraft:repeater[delay=1,facing=south,locked=false,powered=false]
   repeater_delay2_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 186
@@ -687,57 +778,6 @@ Items:
     category: Inter
     type: BLOCK
     blockData: minecraft:repeater[delay=2,facing=west,locked=false,powered=false]
-  wooden_pressure_plate:
-    itemMaterial: OAK_PRESSURE_PLATE
-    damage: 0
-    display: Wooden plate [72:0]
-    category: Inter
-    type: VANILLA
-  stone_pressure_plate:
-    itemMaterial: STONE_PRESSURE_PLATE
-    damage: 0
-    display: Stone plate [70:0]
-    category: Inter
-    type: VANILLA
-  light_pressure_plate:
-    itemMaterial: LIGHT_WEIGHTED_PRESSURE_PLATE
-    damage: 0
-    display: Plate [147:0]
-    category: Inter
-    type: VANILLA
-  heavy_pressure_plate:
-    itemMaterial: HEAVY_WEIGHTED_PRESSURE_PLATE
-    damage: 0
-    display: Plate [148:0]
-    category: Inter
-    type: VANILLA
-  cutlery_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 390
-    display: Cutlery
-    category: Inter
-    type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:light_weighted_pressure_plate[power=6]
-    blockDataWest: minecraft:light_weighted_pressure_plate[power=7]
-    blockDataNorth: minecraft:light_weighted_pressure_plate[power=4]
-    blockDataEast: minecraft:light_weighted_pressure_plate[power=5]
-  plate_1_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 391
-    display: Plate
-    category: Inter
-    type: BLOCK
-    blockData: minecraft:light_weighted_pressure_plate[power=2]
-  plate_2_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 392
-    display: Fancy plate
-    category: Inter
-    type: BLOCK
-    blockData: minecraft:light_weighted_pressure_plate[power=3]
   torch:
     itemMaterial: TORCH
     damage: 0
@@ -768,87 +808,252 @@ Items:
     blockDataNorth: minecraft:redstone_wall_torch[facing=north,lit=false]
     blockDataEast: minecraft:redstone_wall_torch[facing=east,lit=false]
     blockDataUp: minecraft:redstone_torch[lit=false]
-  lever:
-    itemMaterial: LEVER
-    damage: 0
-    display: Lever / Barrel tap [69:0]
-    category: Inter
-    type: VANILLA
-  tripwire_hook:
+
+
+    # inside collections
+  iron_door_bottom:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 285
-    display: Hook [131:0]
-    category: Inter
+    damage: 134
+    display: Half prison cell door [71:0]
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:tripwire_hook[attached=false,facing=north,powered=false]
-    blockDataWest: minecraft:tripwire_hook[attached=false,facing=east,powered=false]
-    blockDataNorth: minecraft:tripwire_hook[attached=false,facing=south,powered=false]
-    blockDataEast: minecraft:tripwire_hook[attached=false,facing=west,powered=false]
-  stone_button:
-    itemMaterial: STONE_BUTTON
-    damage: 0
-    display: Stone button [77:0]
-    category: Inter
-    type: VANILLA
-  wooden_button:
-    itemMaterial: OAK_BUTTON
-    damage: 0
-    display: Stone button [143:0]
-    category: Inter
-    type: VANILLA
-  round_barrel:
+    blockDataSouth: minecraft:iron_door[facing=north,half=lower,hinge=right,open=false,powered=false]
+    blockDataWest: minecraft:iron_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    blockDataNorth: minecraft:iron_door[facing=south,half=lower,hinge=right,open=false,powered=false]
+    blockDataEast: minecraft:iron_door[facing=west,half=lower,hinge=right,open=false,powered=false]
+  birch_door_bottom:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 109
-    display: Round barrel
-    category: Inter
-    type: THREE_AXIS
-    blockDataZ: minecraft:acacia_leaves[distance=3,persistent=false]
-    blockDataX: minecraft:acacia_leaves[distance=2,persistent=false]
-    blockDataY: minecraft:acacia_leaves[distance=4,persistent=false]
-  cocoa_age2_s:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 329
-    display: Bookshelf 1 [127:4]
-    category: Inter
+    damage: 130
+    display: Half wooden door 3 [194:0]
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:cocoa[age=1,facing=south]
-    blockDataWest: minecraft:cocoa[age=1,facing=west]
-    blockDataNorth: minecraft:cocoa[age=1,facing=north]
-    blockDataEast: minecraft:cocoa[age=1,facing=east]
+    blockDataSouth: minecraft:birch_door[facing=north,half=lower,hinge=right,open=false,powered=false]
+    blockDataWest: minecraft:birch_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    blockDataNorth: minecraft:birch_door[facing=south,half=lower,hinge=right,open=false,powered=false]
+    blockDataEast: minecraft:birch_door[facing=west,half=lower,hinge=right,open=false,powered=false]
   cocoa_age1_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 328
     display: Bookshelf 2 [127:8]
-    category: Inter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:cocoa[age=2,facing=south]
     blockDataWest: minecraft:cocoa[age=2,facing=west]
     blockDataNorth: minecraft:cocoa[age=2,facing=north]
     blockDataEast: minecraft:cocoa[age=2,facing=east]
-  beer_mug:
+  ender_portal_frame_filled_east:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 124
-    display: Beer mug [105:0]
-    category: Inter
-    type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:melon_stem[age=1]
-    blockDataWest: minecraft:melon_stem[age=2]
-    blockDataNorth: minecraft:melon_stem[age=3]
-    blockDataEast: minecraft:melon_stem[age=0]
-  bottle_1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 122
-    display: Bottle of mineral water [105:6]
-    category: Inter
+    damage: 330
+    display: Low table 1 [120:7]
     type: BLOCK
-    blockData: minecraft:melon_stem[age=6]
-  bottle_2:
+    blockData: minecraft:end_portal_frame[eye=true,facing=east]
+  lit_furnace:
+    blockMaterial: LEGACY_BURNING_FURNACE
+    dataValueNorth: 3
+    dataValueWest: 5
+    dataValueSouth: 2
+    dataValueEast: 4
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 168
+    display: Lit furnace [62:2]
+    type: BURNING_FURNACE
+  cauldron_level1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 170
+    display: Cauldron 1/3 filled [118:1]
+    type: BLOCK
+    blockData: minecraft:cauldron[level=1]
+  cauldron_level2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 171
+    display: Cauldron 2/3 filled [118:2]
+    type: BLOCK
+    blockData: minecraft:cauldron[level=2]
+  bed_gray:
+    itemMaterial: GRAY_BED
+    damage: 7
+    display: Gray bed [355:7]
+    type: VANILLA
+  bed_cyan:
+    itemMaterial: CYAN_BED
+    damage: 9
+    display: Poor bed 2 [355:9]
+    type: VANILLA
+  bed_blue:
+    itemMaterial: BLUE_BED
+    damage: 11
+    display: Blue bed [355:11]
+    type: VANILLA
+  bed_lime:
+    itemMaterial: LIME_BED
+    damage: 5
+    display: Lime bed [355:5]
+    type: VANILLA
+  bed_black:
+    itemMaterial: BLACK_BED
+    damage: 15
+    display: Cloth bed 2 [355:15]
+    type: VANILLA
+  curtain_blue_top:
     contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 398
+    contentDamage: 246
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 123
-    display: Vessel [105:7]
-    category: Inter
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 246
+    display: ITEMBLOCK Blue curtain top
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+  curtain_blue_bottom:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 248
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 248
+    display: ITEMBLOCK Blue curtain bottom
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+  curtain_brown_top:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 249
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 249
+    display: ITEMBLOCK Brown curtain top
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true] 
+  curtain_brown_bottom:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 251
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 251
+    display: ITEMBLOCK Brown curtain bottom
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+  curtain_gray_top:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 252
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 252
+    display: ITEMBLOCK Gray curtain top
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true] 
+  curtain_gray_bottom:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 254
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 254
+    display: ITEMBLOCK Gray curtain bottom
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+  curtain_green_top:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 255
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 255
+    display: ITEMBLOCK Green curtain top
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+  curtain_green_bottom:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 257
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 257
+    display: ITEMBLOCK Green curtain bottom
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+  curtain_red_top:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 258
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 258
+    display: ITEMBLOCK Red curtain top
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+  curtain_red_bottom:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 260
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 260
+    display: ITEMBLOCK Red curtain bottom
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+  curtain_white_top:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 261
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 261
+    display: ITEMBLOCK White curtain top
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+  curtain_white_bottom:
+    contentItem: DIAMOND_CHESTPLATE
+    contentDamage: 263
+    contentHeight: 0.3125
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 263
+    display: ITEMBLOCK White curtain bottom
+    type: ITEM_BLOCK_FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+  heavy_pressure_plate:
+    itemMaterial: HEAVY_WEIGHTED_PRESSURE_PLATE
+    damage: 0
+    display: Plate [148:0]
+    type: VANILLA
+  stone_pressure_plate:
+    itemMaterial: STONE_PRESSURE_PLATE
+    damage: 0
+    display: Stone plate [70:0]
+    type: VANILLA
+  plate_2_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 392
+    display: Fancy plate
     type: BLOCK
-    blockData: minecraft:melon_stem[age=7]
+    blockData: minecraft:light_weighted_pressure_plate[power=3]
+  lever:
+    itemMaterial: LEVER
+    damage: 0
+    display: Lever / Barrel tap [69:0]
+    type: VANILLA
