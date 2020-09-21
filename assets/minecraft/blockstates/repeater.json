@@ -11,8 +11,23 @@
         "delay=1,facing=east,locked=false,powered=false": { "model": "block/repeater_delay1_e" },
 		"delay=2,facing=south,locked=false,powered=false": { "model": "block/repeater_delay2_s" },
         "delay=2,facing=west,locked=false,powered=false": { "model": "block/repeater_delay2_w" },
-		"delay=2,facing=north,locked=false,powered=false": { "model": "block/cocoa_stage0", "x": 270 },
-		"delay=2,facing=east,locked=false,powered=false": { "model": "block/cocoa_stage0", "x": 90 },
+		"delay=2,facing=north,locked=false,powered=false": [
+															{ "model": "block/repeater_delay2_n"},
+															{ "model": "block/repeater_delay2_n_1"},
+															{ "model": "block/repeater_delay2_n_2"},
+															{ "model": "block/repeater_delay2_n", "y": 90 },
+															{ "model": "block/repeater_delay2_n_1", "y": 90 },
+															{ "model": "block/repeater_delay2_n_2", "y": 90 },
+															{ "model": "block/repeater_delay2_n", "y": 180 },
+															{ "model": "block/repeater_delay2_n_1", "y": 180 },
+															{ "model": "block/repeater_delay2_n_2", "y": 180 }
+														],
+		"delay=2,facing=east,locked=false,powered=false": [ 
+															{ "model": "block/repeater_delay2_e" },
+															{ "model": "block/repeater_delay2_e", "y": 90 },
+															{ "model": "block/repeater_delay2_e", "y": 180 },
+															{ "model": "block/repeater_delay2_e", "y": 270 }
+														],
 		"delay=3,facing=south,locked=false,powered=false": { "model": "block/repeater_delay3_s" },
         "delay=3,facing=west,locked=false,powered=false": { "model": "block/repeater_delay3_w" },
 		"delay=3,facing=north,locked=false,powered=false": { "model": "block/repeater_delay3_n" },
