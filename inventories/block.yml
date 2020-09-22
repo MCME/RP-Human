@@ -135,14 +135,12 @@ Items:
       F4: double_slab_sandstone
       B4: smooth_red_sandstone
       B2: piston_sticky_extended
-      F3: large_small_sandstone_bricks
       G3: sandstone
-      G4: chiseled_red_sandstone
-      C4: large_sandsonte_red_brick
+      G4: large_small_sandstone_bricks
+      C4: brown_mushroom_block_sw
       C2: dark_oak_fence_gate_powered_closed
-      E4: brown_mushroom_block_c
       H4: red_sandstone_slab
-      D4: brown_mushroom_block_sw
+      D4: sandstone
       D2: trapdoor_double_slab_red_sandstone_seamless_open_regular
       I2: trapdoor_double_slab_red_sandstone_seamless_bottom
       I4: trapdoor_red_sandstone_normal_bottom
@@ -249,6 +247,7 @@ Items:
     type: BLOCK
     blockData: minecraft:sandstone_slab[type=double,waterlogged=false]
     collection:
+      H2: brown_mushroom_block_c
       G2: sandstone_ornament_large_brick_corner
       F1: brown_mushroom_block_sw
       A0: double_slab_sandstone
@@ -304,7 +303,7 @@ Items:
     display: Smooth sandstone trapdoor (horizontal) [147:6]
     type: BISECTED
     blockDataDown: minecraft:birch_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:birch_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false 
+    blockDataUp: minecraft:birch_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false] 
   trapdoor_sandstone_chiseled_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 288
@@ -369,6 +368,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 65
     display: Small sandstone bricks cornerstones [99:5]
+    category: Block
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=true]
     blockDataWest: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=true,up=false,west=true]
@@ -380,6 +380,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 66
     display: Sandstone ornament cornerstones [99:7]
+    category: Block
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=false]
     blockDataWest: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=false]
@@ -391,6 +392,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 67
     display: Sandstone with red bricks corner [99:9]
+    category: Block
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:brown_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]
     blockDataWest: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=true]
@@ -730,62 +732,6 @@ Items:
     damage: 240
     display: Weathered light stucco (stucco outer) [252:8]
     blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=true]
-  red_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 121
-    display: Red stucco [159:14]
-    category: Block
-    blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=false,up=false,west=false]
-    type: BLOCK
-    collection:
-      E1: red_stucco
-      D2: orange_stucco
-      C2: yellow_stucco
-      B2: light_yellow_stucco
-      A1: light_yellow_stucco_ornament
-      A0: white_stucco
-  orange_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 119
-    display: Orange stucco [159:1]
-    category: Block
-    blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=false,west=false]
-    type: BLOCK
-    collection:
-      indirect: red_stucco
-  yellow_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 118
-    display: Yellow stucco [159:4]
-    category: Block
-    blockData: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=true]
-    type: BLOCK
-    collection:
-      indirect: red_stucco
-  light_yellow_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 116
-    display: Light yellow stucco [159:7]
-    category: Block
-    blockData: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=true]
-    type: BLOCK
-    collection:
-      indirect: red_stucco
-  light_yellow_stucco_ornament:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 117
-    display: Light yellow stucco ornament [159:8]
-    blockData: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=false,west=true]
-    type: BLOCK
-  white_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 114
-    display: White stucco [159:0]
-    category: Block
-    blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=true]
-    type: BLOCK
-    collection:
-      indirect: red_stucco
   pink_stucco:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 120
@@ -1042,3 +988,62 @@ Items:
     blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=true,open=true,powered=true]
     blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=true,open=true,powered=true]
     blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=true,open=true,powered=true]
+  red_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 121
+    display: Red stucco [159:14]
+    category: Block
+    blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=false,up=false,west=false]
+    type: BLOCK
+    collection:
+      E1: red_stucco
+      D2: orange_stucco
+      C2: yellow_stucco
+      B2: light_yellow_stucco
+      A1: light_yellow_stucco_ornament
+      A0: white_stucco
+  orange_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 119
+    display: Orange stucco [159:1]
+    category: Block
+    blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=false,west=false]
+    type: BLOCK
+    collection:
+      indirect: red_stucco
+  yellow_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 118
+    display: Yellow stucco [159:4]
+    category: Block
+    blockData: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=true]
+    type: BLOCK
+    collection:
+      indirect: red_stucco
+  light_yellow_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 116
+    display: Light yellow stucco [159:7]
+    category: Block
+    blockData: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=true]
+    type: BLOCK
+    collection:
+      indirect: red_stucco
+  light_yellow_stucco_ornament:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 117
+    display: Light yellow stucco ornament [159:8]
+    category: Block
+    blockData: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=false,west=true]
+    type: BLOCK
+    collection:
+      indirect: red_stucco
+  white_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 114
+    display: White stucco [159:0]
+    category: Block
+    blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=true]
+    type: BLOCK
+    collection:
+      indirect: red_stucco

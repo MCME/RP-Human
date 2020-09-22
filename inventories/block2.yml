@@ -332,7 +332,6 @@ Items:
     itemMaterial: QUARTZ_STAIRS
     damage: 0
     display: Large white bricks stairs [156:0]
-    category: Block2
     type: VANILLA
   quartz_slab:
     itemMaterial: QUARTZ_SLAB
@@ -658,6 +657,7 @@ Items:
     category: Block2
     type: VANILLA
     collection:
+      I2: stonebrick_mixed
       H2: spruce_fence
       G2: piston_normal_extended
       F1: stonebrick_cracked
@@ -779,6 +779,14 @@ Items:
     blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=true,open=true,powered=false]
     blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=true,open=true,powered=false]
     blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=true,open=true,powered=false]
+  stonebrick_cracked:
+    itemMaterial: CRACKED_STONE_BRICKS
+    damage: 2
+    display: Cracked large light gray bricks [98:2]
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: stonebrick_normal
   stonebrick_mossy:
     itemMaterial: MOSSY_STONE_BRICKS
     damage: 1
@@ -803,14 +811,6 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=1,facing=south,locked=false,powered=true]
     blockDataUp: minecraft:mossy_stone_brick_slab[type=top,waterlogged=false]
-  stonebrick_cracked:
-    itemMaterial: CRACKED_STONE_BRICKS
-    damage: 2
-    display: Cracked large light gray bricks [98:2]
-    category: Block2
-    type: VANILLA
-    collection:
-      indirect: stonebrick_normal
   stonebrick_mixed:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 4
@@ -819,7 +819,7 @@ Items:
     blockData: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=false]
     type: BLOCK
     collection:
-      indirect: brick
+      indirect: stonebrick_normal
   double_slab_stonebrick:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 84
@@ -912,7 +912,11 @@ Items:
       H2: upper_slab_double_slab_brick_seamless
       G2: daylight_detector
       F1: trapdoor_double_slab_brick_seamless_bottom
-      B0: anvil_damage1_sw
+      F4: anvil_damage1_sw
+      A4: stonebrick_normal
+      B4: double_slab_stonebrick
+      C4: brick
+      D4: cobblestone
   trapdoor_double_slab_stonebrick_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 336
@@ -1119,6 +1123,15 @@ Items:
     blockData: minecraft:red_mushroom_block[north=true,south=false,east=true,west=true,up=false,down=true]
     collection:
       indirect: brick
+  dark_stonebrick_mixed:
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 12
+    display: Mixed dark gray bricks
+    category: Block2
+    blockData: minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=false,west=false]
+    type: BLOCK
+    collection:
+      indirect: brick
   red_mushroom_dark_small_brick:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 10
@@ -1131,18 +1144,12 @@ Items:
   red_mushroom_dark_small_brick_mossy:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 11
-    display: Small dark gray bricks
+    display: Mossy small dark gray bricks
     category: Block2
     type: BLOCK
     blockData: minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=true,west=false]
     collection:
       indirect: brick
-  dark_stonebrick_mixed:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 12
-    display: Mixed dark gray bricks
-    blockData: minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=false,west=false]
-    type: BLOCK
   monster_egg_stonebrick:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 87

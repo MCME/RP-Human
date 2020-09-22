@@ -175,8 +175,11 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 50
     display: White onions stage 3 [142:7]
+    category: Crop
     type: BLOCK
     blockData: minecraft:potatoes[age=7]
+    collection:
+      indirect: onions_red_stage3
   beetroots_stage3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 54
