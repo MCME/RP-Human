@@ -299,6 +299,13 @@ Items:
       C2: mossy_stone
       B2: moss_covered_stone
       A4: campfire_mossy_boulders
+      F4: repeater_delay2_n
+  repeater_delay2_n:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 363
+    display: Thin moss slab
+    type: BLOCK
+    blockData: minecraft:repeater[delay=2,facing=north,locked=false,powered=false]
   mossy_dirt:
     itemMaterial: YELLOW_CONCRETE
     damage: 1
@@ -345,6 +352,13 @@ Items:
       G4: soul_sand
       H4: comparator_subtract_e
       I4: upper_slab_soul_sand
+      E4: repeater_delay2_e
+  repeater_delay2_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 364
+    display: Thin coarse dirt slab
+    type: BLOCK
+    blockData: minecraft:repeater[delay=2,facing=east,locked=false,powered=false]
   grass_patchy:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 25

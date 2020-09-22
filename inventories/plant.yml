@@ -454,3 +454,17 @@ Items:
     category: Plant
     type: VANILLA
     blockData: minecraft:dark_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+  redstone_dust_power6_center:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 361
+    display: Algea
+    category: Plant
+    type: BLOCK
+    blockData: blockData: minecraft:redstone_wire[east=none,north=none,power=6,south=none,west=none]
+  redstone_dust_power7_center:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 362
+    display: Amphibious Bistort
+    category: Plant
+    type: BLOCK
+    blockData: blockData: minecraft:redstone_wire[east=none,north=none,power=7,south=none,west=none]

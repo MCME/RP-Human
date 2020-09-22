@@ -1042,6 +1042,16 @@ Items:
       F4: quartz_normal
       G4: end_stone
       H4: double_slab_stonebrick
+      A3: vertical_slab_mossy_dark_gray_brick
+  vertical_slab_mossy_dark_gray_brick:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 365
+    display: Vertical mossy dark bricks slab
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=false]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=false]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=true,powered=false]
+    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=true,powered=false]
   trapdoor_brick_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 354
