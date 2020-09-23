@@ -750,7 +750,13 @@ Items:
     blockData: minecraft:lilac[half=lower]
     nextBlock: double_syringa_top
 
-
+  redstone_dust_power3_center:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 157
+    display: Moss cover [55:3]
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:redstone_wire[east=none,north=none,power=3,south=none,west=none]
   redstone_dust_power6_center:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 361

@@ -446,27 +446,6 @@ Items:
     blockDataNorthEast: minecraft:activator_rail[powered=false,shape=ascending_west]
     blockDataEast: minecraft:activator_rail[powered=false,shape=east_west]
     blockDataSouthEast: minecraft:activator_rail[powered=true,shape=ascending_east]
-  redstone_dust_power3_center:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 157
-    display: Moss cover [55:3]
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=3,south=none,west=none]
-  redstone_dust_power4_center:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 158
-    display: Dirt cover [55:4]
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=4,south=none,west=none]
-  redstone_dust_power5_center:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 159
-    display: Puddle [55:5]
-    category: Exter
-    type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=5,south=none,west=none]
   dropper_powered_nwd:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 148

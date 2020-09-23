@@ -353,6 +353,7 @@ Items:
       H4: comparator_subtract_e
       I4: upper_slab_soul_sand
       E4: repeater_delay2_e
+      J4: redstone_dust_power4_center
   repeater_delay2_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 364
@@ -446,6 +447,15 @@ Items:
     category: Terra
     blockData: minecraft:green_concrete_powder
     type: BLOCK
+    collection:
+      indirect: grass
+  redstone_dust_power4_center:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 158
+    display: Dirt cover [55:4]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:redstone_wire[east=none,north=none,power=4,south=none,west=none]
     collection:
       indirect: grass
   comparator_subtract_w:
@@ -857,6 +867,10 @@ Items:
       F4: diorite_smooth
       G4: andesite_smooth
       H4: red_concrete
+      D4: large_boulders_light
+      E4: large_boulders_dark
+      I4: large_boulders_mixed
+      J4: large_boulders_mossy
   dry_gravel:
     itemMaterial: MAGENTA_CONCRETE_POWDER
     damage: 0
@@ -943,6 +957,54 @@ Items:
     category: Terra
     type: BLOCK
     blockData: minecraft:campfire[facing=north,lit=false,signal_fire=false,waterlogged=false]
+    collection:
+      indirect: gravel+
+  boulders_big_1:
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 366
+    display: Light large boulders
+    category: Terra
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:note_block[instrument=basedrum,note=0,powered=false]
+    blockDataWest: minecraft:note_block[instrument=basedrum,note=1,powered=false]
+    blockDataNorth: minecraft:note_block[instrument=basedrum,note=2,powered=false]
+    blockDataEast: minecraft:note_block[instrument=basedrum,note=3,powered=false]
+    collection:
+      indirect: gravel
+  boulders_big_2:
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 367
+    display: Dark large boulders
+    category: Terra
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:note_block[instrument=basedrum,note=4,powered=false]
+    blockDataWest: minecraft:note_block[instrument=basedrum,note=5,powered=false]
+    blockDataNorth: minecraft:note_block[instrument=basedrum,note=6,powered=false]
+    blockDataEast: minecraft:note_block[instrument=basedrum,note=7,powered=false]
+    collection:
+      indirect: gravel
+  boulders_big_3:
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 368
+    display: Mixed large boulders
+    category: Terra
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:note_block[instrument=basedrum,note=8,powered=false]
+    blockDataWest: minecraft:note_block[instrument=basedrum,note=9,powered=false]
+    blockDataNorth: minecraft:note_block[instrument=basedrum,note=10,powered=false]
+    blockDataEast: minecraft:note_block[instrument=basedrum,note=11,powered=false]
+    collection:
+      indirect: gravel
+  boulders_big_4:
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 369
+    display: Mossy large boulders
+    category: Terra
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:note_block[instrument=basedrum,note=12,powered=false]
+    blockDataWest: minecraft:note_block[instrument=basedrum,note=13,powered=false]
+    blockDataNorth: minecraft:note_block[instrument=basedrum,note=14,powered=false]
+    blockDataEast: minecraft:note_block[instrument=basedrum,note=15,powered=false]
     collection:
       indirect: gravel
   comparator_powered_compare_n:
@@ -1069,6 +1131,15 @@ Items:
     display: Water block level 1 [9:7]
     type: BLOCK
     blockData: minecraft:water[level=7]
+  redstone_dust_power5_center:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 159
+    display: Puddle [55:5]
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:redstone_wire[east=none,north=none,power=5,south=none,west=none]
+    collection:
+      indirect: water7
   snow:
     itemMaterial: SNOW_BLOCK
     damage: 0
@@ -1121,6 +1192,7 @@ Items:
       C2: water1
       B2: water0
       A1: ice
+      A4: redstone_dust_power5_center
   lava0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 339
