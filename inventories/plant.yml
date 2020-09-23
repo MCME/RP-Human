@@ -184,20 +184,6 @@ Items:
     category: Plant
     type: BLOCK
     blockData: minecraft:dark_oak_sapling[stage=0]
-  nether_wart_stage3:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 12
-    display: Green bush [115:3]
-    category: Plant
-    type: BLOCK
-    blockData: minecraft:nether_wart[age=3]
-  tall_grass:
-    itemMaterial: GRASS
-    damage: 1
-    display: Tallgrass [31:1]
-    category: Plant
-    type: BLOCK
-    blockData: minecraft:grass
   fern:
     itemMaterial: FERN
     damage: 2
@@ -205,37 +191,18 @@ Items:
     category: Plant
     type: BLOCK
     blockData: minecraft:fern
-  dead_bush:
-    itemMaterial: DEAD_BUSH
-    damage: 0
-    display: Mixed grass [32:0]
-    category: Plant
-    type: BLOCK
-    blockData: minecraft:dead_bush
-  double_grass_bottom:
-    lowerMaterial: TALL_GRASS
-    upperMaterial: TALL_GRASS
-    lowerDataValue: 2
-    upperDataValue: 10
-    itemMaterial: TALL_GRASS
-    damage: 2
-    display: Double tall grass [175:2]
-    category: Plant
-    type: DOUBLE_Y_BLOCK
-    blockDataLower: minecraft:tall_grass[half=lower]
-    blockDataUpper: minecraft:tall_grass[half=upper]
-  double_syringa_top:
-    lowerMaterial: LILAC
-    upperMaterial: LILAC
-    lowerDataValue: 1
-    upperDataValue: 9
-    itemMaterial: LILAC
-    damage: 1
-    display: Tall reeds [175:1]
-    category: Plant
-    type: DOUBLE_Y_BLOCK
-    blockDataLower: minecraft:lilac[half=lower]
-    blockDataUpper: minecraft:lilac[half=upper]
+ # double_grass_bottom:
+ #   lowerMaterial: TALL_GRASS
+ #   upperMaterial: TALL_GRASS
+ #   lowerDataValue: 2
+ #   upperDataValue: 10
+ #   itemMaterial: TALL_GRASS
+ #   damage: 2
+ #   display: Double tall grass [175:2]
+ #   category: Plant
+ #   type: DOUBLE_Y_BLOCK
+ #   blockDataLower: minecraft:tall_grass[half=lower]
+ #   blockDataUpper: minecraft:tall_grass[half=upper]
   reeds:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 13
@@ -454,6 +421,338 @@ Items:
     category: Plant
     type: VANILLA
     blockData: minecraft:dark_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+<<<<<<< HEAD
+
+
+  # new vegetation, to be sorted
+
+  # Grass Blades
+  tube_coral:
+    itemMaterial: TUBE_CORAL
+    damage: 0
+    display: Grass Blades High
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:tube_coral[waterlogged=false]
+    nextBlock: tube_coral2
+  tube_coral2:
+    itemMaterial: TUBE_CORAL
+    damage: 0
+    display: Grass Blades
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:tube_coral[waterlogged=false]
+    nextBlock: tube_coral3
+  tube_coral3:
+    itemMaterial: TUBE_CORAL
+    damage: 0
+    display: Vanilla Grass Blades
+    category: Plant
+    type: VANILLA
+    nextBlock: tube_coral
+
+
+  # Dry Grass
+  horn_coral:
+    itemMaterial: HORN_CORAL
+    damage: 0
+    display: Dry Grass High
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:horn_coral[waterlogged=false]
+    nextBlock: horn_coral2
+  horn_coral2:
+    itemMaterial: HORN_CORAL
+    damage: 0
+    display: Dry Grass
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:horn_coral[waterlogged=false]
+    nextBlock: horn_coral3
+  horn_coral3:
+    itemMaterial: HORN_CORAL
+    damage: 0
+    display: Vanilla Dry Grass
+    category: Plant
+    type: VANILLA
+    nextBlock: horn_coral
+
+
+  #  Rushes
+  bubble_coral:
+    itemMaterial: BUBBLE_CORAL
+    damage: 0
+    display: Rushes High
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:bubble_coral[waterlogged=false]
+    nextBlock: bubble_coral2
+  bubble_coral2:
+    itemMaterial: BUBBLE_CORAL
+    damage: 0
+    display: Rushes
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:bubble_coral[waterlogged=false]
+    nextBlock: bubble_coral3
+  bubble_coral3:
+    itemMaterial: BUBBLE_CORAL
+    damage: 0
+    display: Vanilla Rushes
+    category: Plant
+    type: VANILLA
+    nextBlock: bubble_coral
+
+
+  #  Stackable Reeds
+  brain_coral:
+    itemMaterial: BRAIN_CORAL
+    damage: 0
+    display: stackable Reeds High
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:brain_coral[waterlogged=false]
+    nextBlock: brain_coral2
+  brain_coral2:
+    itemMaterial: BRAIN_CORAL
+    damage: 0
+    display: Stackable Reeds
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:brain_coral[waterlogged=false]
+    nextBlock: brain_coral3
+  brain_coral3:
+    itemMaterial: BRAIN_CORAL
+    damage: 0
+    display: Vanilla Stackable Reeds
+    category: Plant
+    type: VANILLA
+    nextBlock: brain_coral
+  
+
+  # Reed Canary Grass
+  dead_brain_coral:
+    itemMaterial: DEAD_BRAIN_CORAL
+    damage: 0
+    display: Reed Canary Grass High
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:dead_brain_coral[waterlogged=false]
+    nextBlock: dead_brain_coral2
+  dead_brain_coral2:
+    itemMaterial: DEAD_BRAIN_CORAL
+    damage: 0
+    display: Reed Canary Grass
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dead_brain_coral[waterlogged=false]
+    nextBlock: dead_brain_coral3
+  dead_brain_coral3:
+    itemMaterial: DEAD_BRAIN_CORAL
+    damage: 0
+    display: Vanilla Reed Canary Grass
+    category: Plant
+    type: VANILLA
+    nextBlock: dead_brain_coral
+
+
+  # Reed Sweet Grass
+  dead_bubble_coral:
+    itemMaterial: DEAD_BUBBLE_CORAL
+    damage: 0
+    display: Reed Sweet Grass High
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:dead_bubble_coral[waterlogged=false]
+    nextBlock: dead_bubble_coral2
+  dead_bubble_coral2:
+    itemMaterial: DEAD_BUBBLE_CORAL
+    damage: 0
+    display: Reed Sweet Grass
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dead_bubble_coral[waterlogged=false]
+    nextBlock: dead_bubble_coral3
+  dead_bubble_coral3:
+    itemMaterial: DEAD_BUBBLE_CORAL
+    damage: 0
+    display: Vanilla Reed Sweet Grass
+    category: Plant
+    type: VANILLA
+    nextBlock: dead_bubble_coral
+
+
+  # Great Willowherb
+  fire_coral:
+    itemMaterial: FIRE_CORAL
+    damage: 0
+    display: Great Willowherb High
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:fire_coral[waterlogged=false]
+    nextBlock: fire_coral2
+  fire_coral2:
+    itemMaterial: FIRE_CORAL
+    damage: 0
+    display: Great Willowherb
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:fire_coral[waterlogged=false]
+    nextBlock: fire_coral3
+  fire_coral3:
+    itemMaterial: FIRE_CORAL
+    damage: 0
+    display: Vanilla Great Willowherb
+    category: Plant
+    type: VANILLA
+    nextBlock: fire_coral
+  
+
+  # Common Valerian / Hemlock
+  dead_fire_coral:
+    itemMaterial: DEAD_FIRE_CORAL
+    damage: 0
+    display: Common Valerian / Hemlock High
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:dead_fire_coral[waterlogged=false]
+    nextBlock: dead_fire_coral2
+  dead_fire_coral2:
+    itemMaterial: DEAD_FIRE_CORAL
+    damage: 0
+    display: Common Valerian / Hemlock
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dead_fire_coral[waterlogged=false]
+    nextBlock: dead_fire_coral3
+  dead_fire_coral3:
+    itemMaterial: DEAD_FIRE_CORAL
+    damage: 0
+    display: Vanilla Common Valerian / Hemlock
+    category: Plant
+    type: VANILLA
+    nextBlock: dead_fire_coral
+  
+  
+  # Nettles 
+  dead_horn_coral:
+    itemMaterial: DEAD_HORN_CORAL
+    damage: 0
+    display: Nettles High
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:dead_horn_coral[waterlogged=false]
+    nextBlock: dead_horn_coral2
+  dead_horn_coral2:
+    itemMaterial: DEAD_HORN_CORAL
+    damage: 0
+    display: Nettles
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dead_horn_coral[waterlogged=false]
+    nextBlock: dead_horn_coral3
+  dead_fire_coral3:
+    itemMaterial: DEAD_HORN_CORAL
+    damage: 0
+    display: Nettles
+    category: Plant
+    type: VANILLA
+    nextBlock: dead_horn_coral
+
+  
+  # Green Bush
+  nether_wart_stage3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 12
+    display: Green bush High [115:3]
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:nether_wart[age=3]
+    nextBlock: nether_wart_stage3_2
+  nether_wart_stage3_2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 12
+    display: Green bush [115:3]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:nether_wart[age=3]
+    nextBlock: nether_wart_stage3
+
+  
+  # Tall Grass
+  tall_grass:
+    itemMaterial: GRASS
+    damage: 1
+    display: Tallgrass High [31:1]
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:grass
+    nextBlock: tall_grass2
+  tall_grass2:
+    itemMaterial: GRASS
+    damage: 1
+    display: Tallgrass [31:1]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:grass
+    nextBlock: tall_grass
+  
+  # Mixed Grass
+  dead_bush:
+    itemMaterial: DEAD_BUSH
+    damage: 0
+    display: Mixed grass High [32:0]
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:dead_bush
+    nextBlock: dead_bush2
+  dead_bush2:
+    itemMaterial: DEAD_BUSH
+    damage: 0
+    display: Mixed grass [32:0]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dead_bush
+    nextBlock: dead_bush
+  
+
+  # Double Tall Grass
+  double_grass_bottom:
+    itemMaterial: TALL_GRASS
+    damage: 2
+    display: Double Tall Grass High [175:2]
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:tall_grass[half:lower]
+    nextBlock: double_grass_bottom2
+  double_grass_bottom2:
+    itemMaterial: TALL_GRASS
+    damage: 2
+    display: Double Tall Grass [175:2]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:tall_grass[half:lower]
+    nextBlock: double_grass_bottom
+
+  
+  # Tall Reeds
+  double_syringa_top:
+    itemMaterial: LILAC
+    damage: 1
+    display: Tall Reeds High [175:1]
+    category: Plant
+    type: UPSHIFT
+    blockData: minecraft:lilac[half=lower]
+    nextBlock: double_syringa_top2
+  double_syringa_top2:
+    itemMaterial: LILAC
+    damage: 1
+    display: Tall Reeds[175:1]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:lilac[half=lower]
+    nextBlock: double_syringa_top
+=======
   redstone_dust_power6_center:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 361
@@ -468,3 +767,4 @@ Items:
     category: Plant
     type: BLOCK
     blockData: blockData: minecraft:redstone_wire[east=none,north=none,power=7,south=none,west=none]
+>>>>>>> c32ac5942a1a853fc0bcc5d9f94548a25c2775cb
