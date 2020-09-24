@@ -505,7 +505,7 @@ Items:
   brain_coral:
     itemMaterial: BRAIN_CORAL
     damage: 0
-    display: stackable Reeds High
+    display: Stackable Reeds High
     category: Plant
     type: UPSHIFT
     blockData: minecraft:brain_coral[waterlogged=false]
@@ -648,10 +648,10 @@ Items:
     type: BLOCK
     blockData: minecraft:dead_horn_coral[waterlogged=false]
     nextBlock: dead_horn_coral3
-  dead_fire_coral3:
+  dead_horn_coral3:
     itemMaterial: DEAD_HORN_CORAL
     damage: 0
-    display: Nettles
+    display: Vanilla Nettles
     category: Plant
     type: VANILLA
     nextBlock: dead_horn_coral
@@ -677,22 +677,22 @@ Items:
 
   
   # Tall Grass
-  tall_grass:
+  grass:
     itemMaterial: GRASS
-    damage: 1
+    damage: 0
     display: Tallgrass High [31:1]
     category: Plant
     type: UPSHIFT
     blockData: minecraft:grass
-    nextBlock: tall_grass2
-  tall_grass2:
+    nextBlock: grass2
+  grass2:
     itemMaterial: GRASS
-    damage: 1
+    damage: 0
     display: Tallgrass [31:1]
     category: Plant
     type: BLOCK
     blockData: minecraft:grass
-    nextBlock: tall_grass
+    nextBlock: grass
   
   # Mixed Grass
   dead_bush:
@@ -744,7 +744,7 @@ Items:
   double_syringa_top2:
     itemMaterial: LILAC
     damage: 1
-    display: Tall Reeds[175:1]
+    display: Tall Reeds [175:1]
     category: Plant
     type: BLOCK
     blockData: minecraft:lilac[half=lower]
