@@ -3,9 +3,6 @@
 	"ambientocclusion": false,
 	"texture_size": [48, 48],
 	"textures": {
-		"0": "#0", 
-		"1": "#1", 
-		"2": "#2", 
 		"particle": "#1"
 	},
 	"elements": [
@@ -48,5 +45,9 @@
 			}
 		}
 	],
-	"display": {}
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.21, 0.21, 0.21]
+		}
+	}
 }
