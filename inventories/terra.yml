@@ -867,10 +867,10 @@ Items:
       F4: diorite_smooth
       G4: andesite_smooth
       H4: red_concrete
-      D4: boulders_big_1
-      E4: boulders_big_2
-      I4: boulders_big_3
-      J4: boulders_big_4
+      D4: noteblock_light_big_boulders
+      E4: noteblock_dark_big_boulders
+      I4: noteblock_mixed_big_boulders
+      J4: noteblock_mossy_big_boulders
   dry_gravel:
     itemMaterial: MAGENTA_CONCRETE_POWDER
     damage: 0
@@ -959,7 +959,7 @@ Items:
     blockData: minecraft:campfire[facing=north,lit=false,signal_fire=false,waterlogged=false]
     collection:
       indirect: gravel+
-  boulders_big_1:
+  noteblock_light_big_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 366
     display: Light large boulders
@@ -971,7 +971,7 @@ Items:
     blockDataEast: minecraft:note_block[instrument=basedrum,note=3,powered=false]
     collection:
       indirect: gravel
-  boulders_big_2:
+  noteblock_dark_big_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 367
     display: Dark large boulders
@@ -983,7 +983,7 @@ Items:
     blockDataEast: minecraft:note_block[instrument=basedrum,note=7,powered=false]
     collection:
       indirect: gravel
-  boulders_big_3:
+  noteblock_mixed_big_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 368
     display: Mixed large boulders
@@ -995,7 +995,7 @@ Items:
     blockDataEast: minecraft:note_block[instrument=basedrum,note=11,powered=false]
     collection:
       indirect: gravel
-  boulders_big_4:
+  noteblock_mossy_big_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 369
     display: Mossy large boulders
@@ -1139,7 +1139,7 @@ Items:
     type: BLOCK
     blockData: minecraft:redstone_wire[east=none,north=none,power=5,south=none,west=none]
     collection:
-      indirect: water7
+      indirect: water0
   snow:
     itemMaterial: SNOW_BLOCK
     damage: 0
@@ -1147,7 +1147,7 @@ Items:
     category: Terra
     type: VANILLA
     collection:
-      indirect: water7
+      indirect: water0
   snow_layer:
     itemMaterial: SNOW
     damage: 0
@@ -1155,7 +1155,7 @@ Items:
     category: Terra
     type: VANILLA
     collection:
-      indirect: water7
+      indirect: water0
   ice:
     itemMaterial: ICE
     damage: 0
@@ -1163,7 +1163,7 @@ Items:
     category: Terra
     type: VANILLA
     collection:
-      indirect: water7
+      indirect: water0
   packed_ice:
     itemMaterial: PACKED_ICE
     damage: 0
@@ -1171,7 +1171,7 @@ Items:
     category: Terra
     type: VANILLA
     collection:
-      indirect: water7
+      indirect: water0
   water0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 341

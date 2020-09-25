@@ -677,22 +677,22 @@ Items:
 
   
   # Tall Grass
-  grass:
+  tall_grass:
     itemMaterial: GRASS
     damage: 0
     display: Tallgrass High [31:1]
     category: Plant
     type: UPSHIFT
     blockData: minecraft:grass
-    nextBlock: grass2
-  grass2:
+    nextBlock: tall_grass2
+  tall_grass2:
     itemMaterial: GRASS
     damage: 0
     display: Tallgrass [31:1]
     category: Plant
     type: BLOCK
     blockData: minecraft:grass
-    nextBlock: grass
+    nextBlock: tall_grass
   
   # Mixed Grass
   dead_bush:
@@ -720,7 +720,7 @@ Items:
     display: Double Tall Grass High [175:2]
     category: Plant
     type: UPSHIFT
-    blockData: minecraft:tall_grass[half:lower]
+    blockData: minecraft:tall_grass
     nextBlock: double_grass_bottom2
   double_grass_bottom2:
     itemMaterial: TALL_GRASS
@@ -728,7 +728,7 @@ Items:
     display: Double Tall Grass [175:2]
     category: Plant
     type: BLOCK
-    blockData: minecraft:tall_grass[half:lower]
+    blockData: minecraft:tall_grass
     nextBlock: double_grass_bottom
 
   
