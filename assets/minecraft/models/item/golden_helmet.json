@@ -194,7 +194,8 @@
       "predicate": {
         "damage": 0.41026
       },
-      "model": "gui/misc_alt"
+      "model": "gui/misc_alt",
+	  "name": 32
     },
     {
       "predicate": {
@@ -207,6 +208,36 @@
         "damage": 0.43590
       },
       "model": "gui/heads"
+    },
+    {
+      "predicate": {
+        "damage": 0.44872
+      },
+      "model": "gui/block_collection_mask"
+    },
+    {
+      "predicate": {
+        "damage": 0.46154
+      },
+      "model": "block/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.47436
+      },
+      "model": "gui/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.48718
+      },
+      "model": "gui/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.50000
+      },
+      "model": "gui/replace"
     }
   ]
 }
