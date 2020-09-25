@@ -754,7 +754,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 157
     display: Moss cover [55:3]
-    category: Exter
+    category: Plant
     type: BLOCK
     blockData: minecraft:redstone_wire[east=none,north=none,power=3,south=none,west=none]
   redstone_dust_power6_center:
@@ -771,3 +771,24 @@ Items:
     category: Plant
     type: BLOCK
     blockData: minecraft:redstone_wire[east=none,north=none,power=7,south=none,west=none]
+  repeater_delay1_w:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 183
+    display: Forest ground [93:1]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=west,locked=false,powered=false]
+  repeater_delay1_n:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 184
+    display: Forest ground [93:2]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=north,locked=false,powered=false]
+  repeater_delay1_e:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 185
+    display: Forest ground [93:3]
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=east,locked=false,powered=false]
