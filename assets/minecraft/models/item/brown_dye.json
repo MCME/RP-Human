@@ -1,0 +1,148 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/diamond_leggings"
+  },
+  "overrides": [
+    {
+      "predicate": {
+		"custom_model_data": 1
+      },
+      "name": 1,
+      "model": "block/farmland_moisture0"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 2
+      },
+      "name": 2,
+      "model": "block/farmland_moisture1"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 3
+      },
+      "name": 3,
+      "model": "block/farmland_moisture2"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 4
+      },
+      "name": 4,
+      "model": "block/farmland_moisture3"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 5
+      },
+      "name": 5,
+      "model": "block/oak_sapling_stage1"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 6
+      },
+      "name": 6,
+      "model": "block/spruce_sapling_stage1"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 7
+      },
+      "name": 7,
+      "model": "block/birch_sapling_stage1"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 8
+      },
+      "name": 8,
+      "model": "block/jungle_sapling_stage1"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 9
+      },
+      "name": 9,
+      "model": "block/acacia_sapling_stage1"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 10
+      },
+      "name": 10,
+      "model": "block/dark_oak_sapling_stage1"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 11
+      },
+      "name": 11,
+      "model": "block/nether_wart_stage2"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 12
+      },
+      "name": 12,
+      "model": "block/nether_wart_stage3"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 13
+      },
+      "name": 13,
+      "model": "block/reeds_stage0"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 14
+      },
+      "name": 14,
+      "model": "block/oak_wood"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 15
+      },
+      "name": 15,
+      "model": "block/spruce_wood"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 16
+      },
+      "name": 16,
+      "model": "block/birch_wood"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 17
+      },
+      "name": 17,
+      "model": "block/jungle_wood"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 18
+      },
+      "name": 18,
+      "model": "block/acacia_wood"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 19
+      },
+      "name": 19,
+      "model": "item/chorus_plant_inventory"
+    },
+    {
+      "predicate": {
+		"custom_model_data": 20
+      },
+      "name": 20,
+      "model": "item/tree_spruce_inventory_y"
+    }
+  ]
+}
