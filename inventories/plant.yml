@@ -542,7 +542,7 @@ Items:
     damage: 0
     display: Lilypad [111:0]
     category: Plant
-    type: BLOCK
+    type: BLOCK_ON_WATER
     blockData: minecraft:lily_pad
     collection:
       A1: reeds #
@@ -770,24 +770,32 @@ Items:
     display: Vanilla Dry Grass
     type: VANILLA
     nextBlock: horn_coral
+    collection:
+      indirect: horn_coral
   fire_coral3:
     itemMaterial: FIRE_CORAL
     damage: 0
     display: Vanilla Great Willowherb
     type: VANILLA
     nextBlock: fire_coral
+    collection:
+      indirect: horn_coral
   dead_horn_coral3:
     itemMaterial: DEAD_HORN_CORAL
     damage: 0
     display: Vanilla Nettles
     type: VANILLA
     nextBlock: dead_horn_coral
+    collection:
+      indirect: horn_coral
   dead_fire_coral3:
     itemMaterial: DEAD_FIRE_CORAL
     damage: 0
     display: Vanilla Common Valerian / Hemlock
     type: VANILLA
     nextBlock: dead_fire_coral
+    collection:
+      indirect: horn_coral
   # inside collections
   bubble_coral:
     itemMaterial: BUBBLE_CORAL
@@ -853,30 +861,40 @@ Items:
     display: Vanilla Grass Blades
     type: VANILLA
     nextBlock: tube_coral
+    collection:
+      indirect: waterlily
   bubble_coral3:
     itemMaterial: BUBBLE_CORAL
     damage: 0
     display: Vanilla Rushes
     type: VANILLA
     nextBlock: bubble_coral
+    collection:
+      indirect: waterlily
   brain_coral3:
     itemMaterial: BRAIN_CORAL
     damage: 0
     display: Vanilla Stackable Reeds
     type: VANILLA
     nextBlock: brain_coral
+    collection:
+      indirect: waterlily
   dead_brain_coral3:
     itemMaterial: DEAD_BRAIN_CORAL
     damage: 0
     display: Vanilla Reed Canary Grass
     type: VANILLA
     nextBlock: dead_brain_coral
+    collection:
+      indirect: waterlily
   dead_bubble_coral3:
     itemMaterial: DEAD_BUBBLE_CORAL
     damage: 0
     display: Vanilla Reed Sweet Grass
     type: VANILLA
     nextBlock: dead_bubble_coral
+    collection:
+      indirect: waterlily
   cactus_stage0:
     itemMaterial: CACTUS
     damage: 0
@@ -884,4 +902,6 @@ Items:
     category: Plant
     type: BLOCK
     blockData: minecraft:cactus[age=0]
+    collection:
+      indirect: spruce_bark
 

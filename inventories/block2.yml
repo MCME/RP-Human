@@ -26,21 +26,29 @@ Items:
     damage: 0
     display: Oak stairs [53:0]
     type: VANILLA
+    collection:
+      indirect: oak_planks
   oak_slab:
     itemMaterial: OAK_SLAB
     damage: 0
     display: Oak slab [126:0]
     type: VANILLA
+    collection:
+      indirect: oak_planks
   oak_fence:
     itemMaterial: OAK_FENCE
     damage: 0
     display: Oak fence [85:0]
     type: VANILLA
+    collection:
+      indirect: oak_planks
   oak_fence_gate:
     itemMaterial: OAK_FENCE_GATE
     damage: 0
     display: Oak fence gate [107:0]
     type: VANILLA
+    collection:
+      indirect: oak_planks
   iron_trapdoor_top_open:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 281
@@ -50,6 +58,8 @@ Items:
     blockDataWest: minecraft:iron_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
     blockDataNorth: minecraft:iron_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
     blockDataEast: minecraft:iron_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: oak_planks
   iron_trapdoor_bottom_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 275
@@ -57,6 +67,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:iron_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: oak_planks
   trapdoor_double_slab_planks_acacia_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 384
@@ -66,6 +78,8 @@ Items:
     blockDataWest: minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
     blockDataNorth: minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
     blockDataEast: minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: oak_planks
   iron_trapdoor_bottom_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 277
@@ -73,6 +87,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:iron_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:iron_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: oak_planks
   oak_fence_gate_powered_closed:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 228
@@ -82,6 +98,8 @@ Items:
     blockDataWest: minecraft:oak_fence_gate[facing=west,in_wall=false,open=false,powered=true]
     blockDataNorth: minecraft:oak_fence_gate[facing=north,in_wall=false,open=false,powered=true]
     blockDataEast: minecraft:oak_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: oak_planks
   vertical_slab_double_slab_planks_acacia_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 107
@@ -91,6 +109,8 @@ Items:
     blockDataWest: minecraft:oak_fence_gate[facing=west,in_wall=true,open=false,powered=true]
     blockDataNorth: minecraft:oak_fence_gate[facing=north,in_wall=true,open=false,powered=true]
     blockDataEast: minecraft:oak_fence_gate[facing=east,in_wall=true,open=false,powered=true]
+    collection:
+      indirect: oak_planks
   double_slab_planks_acacia:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 98
@@ -106,7 +126,9 @@ Items:
     display: Brown wood planks slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=3,facing=south,locked=false,powered=true]
-    blockDataUp: minecraft:prismarine_brick_slab[type=top,waterlogged=false]  
+    blockDataUp: minecraft:prismarine_brick_slab[type=top,waterlogged=false]
+    collection:
+      indirect: oak_planks
   birch_planks:
     itemMaterial: BIRCH_PLANKS
     damage: 2
@@ -134,11 +156,15 @@ Items:
     damage: 0
     display: Birch stairs [135:0]
     type: VANILLA
+    collection:
+      indirect: birch_planks
   birch_slab:
     itemMaterial: BIRCH_SLAB
     damage: 2
     display: Birch slab [126:2]
     type: VANILLA
+    collection:
+      indirect: birch_planks
   spruce_door_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 129
@@ -148,6 +174,8 @@ Items:
     blockDataWest: minecraft:spruce_door[facing=east,half=lower,hinge=left,open=false,powered=false]
     blockDataNorth: minecraft:spruce_door[facing=south,half=lower,hinge=left,open=false,powered=false]
     blockDataEast: minecraft:spruce_door[facing=west,half=lower,hinge=left,open=false,powered=false]
+    collection:
+      indirect: birch_planks
   iron_trapdoor_bottom_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 276
@@ -155,16 +183,22 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:iron_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:iron_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: birch_planks
   birch_fence:
     itemMaterial: BIRCH_FENCE
     damage: 0
     display: Birch fence [189:0]
     type: VANILLA
+    collection:
+      indirect: birch_planks
   birch_fence_gate:
     itemMaterial: BIRCH_FENCE_GATE
     damage: 0
     display: Birch fence gate [184:0]
     type: VANILLA
+    collection:
+      indirect: birch_planks
   trapdoor_double_slab_planks_dark_oak_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 387
@@ -174,6 +208,8 @@ Items:
     blockDataWest: minecraft:oak_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
     blockDataNorth: minecraft:oak_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
     blockDataEast: minecraft:oak_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: birch_planks
   trapdoor_double_slab_planks_dark_oak_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 388
@@ -181,6 +217,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:oak_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
     blockDataUp: minecraft:oak_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: birch_planks
   birch_fence_gate_powered_closed:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 229
@@ -190,12 +228,16 @@ Items:
     blockDataWest: minecraft:birch_fence_gate[facing=west,in_wall=false,open=false,powered=true]
     blockDataNorth: minecraft:birch_fence_gate[facing=north,in_wall=false,open=false,powered=true]
     blockDataEast: minecraft:birch_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: birch_planks
   repeater_delay4_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 197
     display: Small white bricks slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=4,facing=east,locked=false,powered=false]
+    collection:
+      indirect: birch_planks
   powered_repeater_delay3_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 207
@@ -203,6 +245,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=3,facing=west,locked=false,powered=true]
     blockDataUp: minecraft:dark_prismarine_slab[type=top,waterlogged=false]
+    collection:
+      indirect: birch_planks
   vertical_slab_double_slab_planks_dark_oak_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 110
@@ -212,6 +256,8 @@ Items:
     blockDataWest: minecraft:oak_fence_gate[facing=west,in_wall=true,open=false,powered=false]
     blockDataNorth: minecraft:oak_fence_gate[facing=north,in_wall=true,open=false,powered=false]
     blockDataEast: minecraft:oak_fence_gate[facing=east,in_wall=true,open=false,powered=false]
+    collection:
+      indirect: birch_planks
   double_slab_planks_dark_oak:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 99
@@ -261,6 +307,8 @@ Items:
     blockDataWest: minecraft:end_stone_brick_wall[east=false,north=true,south=true,up=false,waterlogged=false,west=false]
     blockDataNorth: minecraft:end_stone_brick_wall[east=true,north=false,south=false,up=false,waterlogged=false,west=true]
     blockDataEast: minecraft:end_stone_brick_wall[east=false,north=true,south=true,up=false,waterlogged=false,west=false]
+    collection:
+      indirect: quartz_normal
   trapdoor_quartz_normal_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 303
@@ -270,13 +318,17 @@ Items:
     blockDataWest: minecraft:oak_door[facing=north,half=lower,hinge=left,open=true,powered=false]
     blockDataNorth: minecraft:oak_door[facing=east,half=lower,hinge=left,open=true,powered=false]
     blockDataEast: minecraft:oak_door[facing=south,half=lower,hinge=left,open=true,powered=false]
+    collection:
+      indirect: quartz_normal
   trapdoor_quartz_normal_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 254
     display: Large white bricks trapdoor (horizontal) [147:9]
     type: BISECTED
     blockDataDown: minecraft:jungle_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:jungle_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]    
+    blockDataUp: minecraft:jungle_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: quartz_normal
   trapdoor_double_slab_quartz_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 306
@@ -286,13 +338,17 @@ Items:
     blockDataWest: minecraft:jungle_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
     blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
     blockDataEast: minecraft:jungle_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: quartz_normal
   trapdoor_double_slab_quartz_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 255
     display: Mossy large white bricks trapdoor (horizontal) [147:10]
     type: BISECTED
     blockDataDown: minecraft:jungle_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:jungle_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]    
+    blockDataUp: minecraft:jungle_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: quartz_normal
   trapdoor_double_slab_quartz_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 309
@@ -302,6 +358,8 @@ Items:
     blockDataWest: minecraft:jungle_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
     blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
     blockDataEast: minecraft:jungle_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: quartz_normal
   trapdoor_double_slab_quartz_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 256
@@ -309,16 +367,22 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:jungle_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:jungle_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: quartz_normal
   jungle_fence:
     itemMaterial: JUNGLE_FENCE
     damage: 0
     display: White bricks wall [190:0]
     type: VANILLA
+    collection:
+      indirect: quartz_normal
   nether_fence:
     itemMaterial: NETHER_BRICK_FENCE
     damage: 0
     display: White bricks fence [113:0]
     type: VANILLA
+    collection:
+      indirect: quartz_normal
   birch_fence_gate_powered_open:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 322
@@ -328,16 +392,22 @@ Items:
     blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=true,open=false,powered=false]
     blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=true,open=false,powered=false]
     blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=true,open=false,powered=false]
+    collection:
+      indirect: quartz_normal
   quartz_stairs:
     itemMaterial: QUARTZ_STAIRS
     damage: 0
     display: Large white bricks stairs [156:0]
     type: VANILLA
+    collection:
+      indirect: quartz_normal
   quartz_slab:
     itemMaterial: QUARTZ_SLAB
     damage: 7
     display: Large white bricks slab [44:7]
     type: VANILLA
+    collection:
+      indirect: quartz_normal
   end_portal_frame_empty_south:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 79
@@ -353,6 +423,8 @@ Items:
     display: Large white bricks thick slab with stub [120:4]
     type: BLOCK
     blockData: minecraft:end_portal_frame[eye=true,facing=south]
+    collection:
+      indirect: quartz_normal
   repeater_delay4_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 196
@@ -360,6 +432,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=4,facing=north,locked=false,powered=false]
     blockDataUp: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    collection:
+      indirect: quartz_normal
   vertical_slab_double_slab_quartz_seamless_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 74
@@ -369,6 +443,8 @@ Items:
     blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=true,open=true,powered=false]
     blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=true,open=true,powered=false]
     blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=true,open=true,powered=false]
+    collection:
+      indirect: quartz_normal
   double_slab_quartz_seamless:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 81
@@ -424,6 +500,8 @@ Items:
     display: ITEMBLOCK Small white bricks slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    collection:
+      indirect: end_stone
   dark_oak_fence_gate_powered_open:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 323
@@ -433,6 +511,8 @@ Items:
     blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=true,open=false,powered=true]
     blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=true,open=false,powered=true]
     blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=true,open=false,powered=true]
+    collection:
+      indirect: end_stone
   trapdoor_end_stone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 312
@@ -442,13 +522,17 @@ Items:
     blockDataWest: minecraft:spruce_door[facing=north,half=lower,hinge=left,open=true,powered=false]
     blockDataNorth: minecraft:spruce_door[facing=east,half=lower,hinge=left,open=true,powered=false]
     blockDataEast: minecraft:spruce_door[facing=south,half=lower,hinge=left,open=true,powered=false]
+    collection:
+      indirect: end_stone
   trapdoor_end_stone_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 257
     display: Small white bricks trapdoor (horizontal) [147:12]
     type: BISECTED
     blockDataDown: minecraft:jungle_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
-    blockDataUp: minecraft:jungle_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]    
+    blockDataUp: minecraft:jungle_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: end_stone
   trapdoor_end_bricks_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 315
@@ -458,6 +542,8 @@ Items:
     blockDataWest: minecraft:jungle_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
     blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
     blockDataEast: minecraft:jungle_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: end_stone
   trapdoor_end_bricks_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 258
@@ -465,6 +551,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:jungle_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:jungle_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: end_stone
   quartz_chiseled:
     itemMaterial: CHISELED_QUARTZ_BLOCK
     damage: 1
@@ -528,6 +616,8 @@ Items:
     blockDataWest: minecraft:damaged_anvil[facing=north]
     blockDataNorth: minecraft:damaged_anvil[facing=east]
     blockDataEast: minecraft:damaged_anvil[facing=north]
+    collection:
+      indirect: bone_block
   coal_block:
     itemMaterial: COAL_BLOCK
     damage: 0
@@ -557,6 +647,8 @@ Items:
     blockDataWest: minecraft:jungle_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
     blockDataNorth: minecraft:jungle_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
     blockDataEast: minecraft:jungle_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: bone_block
   trapdoor_quartz_chiseled_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 259
@@ -564,18 +656,24 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:jungle_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
     blockDataUp: minecraft:jungle_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: bone_block
   chorus_flower_stage3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 296
     display: Fancy white bricks pillar bottom [200:3]
     type: BLOCK
     blockData: minecraft:chorus_flower[age=3]
+    collection:
+      indirect: bone_block
   chorus_flower_stage4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 297
     display: Fancy white bricks pillar middle [200:4]
     type: BLOCK
     blockData: minecraft:chorus_flower[age=4]
+    collection:
+      indirect: bone_block
   chorus_flower_stage5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 298
@@ -591,12 +689,16 @@ Items:
     display: Fancy grey bricks pillar bottom [200:0]
     type: BLOCK
     blockData: minecraft:chorus_flower[age=0]
+    collection:
+      indirect: chorus_flower_stage2
   chorus_flower_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 294
     display: Fancy grey bricks pillar middle [200:1]
     type: BLOCK
     blockData: minecraft:chorus_flower[age=1]
+    collection:
+      indirect: chorus_flower_stage2
   chorus_flower_stage2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 295
@@ -630,10 +732,12 @@ Items:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 6
     display: Weathered gray pillar
+    type: THREE_AXIS
     blockDataX: minecraft:red_mushroom_block[down=false,east=true,north=true,south=false,up=false,west=false]
     blockDataY: minecraft:red_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=false]
     blockDataZ: minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=false,west=false]
-    type: THREE_AXIS
+    collection:
+      indirect: chorus_flower_stage2
   purpur_pillar_top_mossy:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 7
@@ -642,6 +746,8 @@ Items:
     blockDataY: minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=false,west=true]
     blockDataZ: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=false]
     type: THREE_AXIS
+    collection:
+      indirect: chorus_flower_stage2
   dark_pillar:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 13
@@ -650,6 +756,8 @@ Items:
     blockDataY: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=true]
     blockDataZ: minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=true,west=true]
     type: THREE_AXIS
+    collection:
+      indirect: chorus_flower_stage2
   stonebrick_normal:
     itemMaterial: STONE_BRICKS
     damage: 0
@@ -685,6 +793,8 @@ Items:
     damage: 0
     display: Light gray bricks wall [188:0]
     type: VANILLA
+    collection:
+      indirect: stonebrick_normal
   wooden_door_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 128
@@ -694,6 +804,8 @@ Items:
     blockDataWest: minecraft:oak_door[facing=east,half=lower,hinge=left,open=false,powered=false]
     blockDataNorth: minecraft:oak_door[facing=south,half=lower,hinge=left,open=false,powered=false]
     blockDataEast: minecraft:oak_door[facing=west,half=lower,hinge=left,open=false,powered=false]
+    collection:
+      indirect: stonebrick_normal
   trapdoor_stonebrick_normal_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 260
@@ -701,6 +813,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
     blockDataUp: minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: stonebrick_normal
   trapdoor_stonebrick_mossy_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 324
@@ -710,6 +824,8 @@ Items:
     blockDataWest: minecraft:dark_oak_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
     blockDataNorth: minecraft:dark_oak_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
     blockDataEast: minecraft:dark_oak_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: stonebrick_normal
   trapdoor_stonebrick_mossy_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 261
@@ -717,6 +833,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:dark_oak_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: stonebrick_normal
   trapdoor_stonebrick_cracked_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 327
@@ -726,6 +844,8 @@ Items:
     blockDataWest: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
     blockDataNorth: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
     blockDataEast: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: stonebrick_normal
   trapdoor_stonebrick_cracked_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 328
@@ -733,6 +853,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:dark_oak_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: stonebrick_normal
   acacia_fence_gate_closed_sw:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 282
@@ -742,16 +864,22 @@ Items:
     blockDataWest: minecraft:stone_brick_wall[east=false,north=true,south=true,up=false,waterlogged=false,west=false]
     blockDataNorth: minecraft:stone_brick_wall[east=true,north=false,south=false,up=false,waterlogged=false,west=true]
     blockDataEast: minecraft:stone_brick_wall[east=false,north=true,south=true,up=false,waterlogged=false,west=false]
+    collection:
+      indirect: stonebrick_normal
   stone_brick_stairs:
     itemMaterial: STONE_BRICK_STAIRS
     damage: 0
     display: Large light gray bricks stairs [109:0]
     type: VANILLA
+    collection:
+      indirect: stonebrick_normal
   stone_brick_slab:
     itemMaterial: STONE_BRICK_SLAB
     damage: 5
     display: Large light gray bricks slab [44:5]
     type: VANILLA
+    collection:
+      indirect: stonebrick_normal
   piston_normal_extended:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 83
@@ -761,6 +889,8 @@ Items:
     blockDataWest: minecraft:piston[extended=true,facing=east]
     blockDataNorth: minecraft:piston[extended=true,facing=south]
     blockDataEast: minecraft:piston[extended=true,facing=west]
+    collection:
+      indirect: stonebrick_normal
   spruce_fence_gate_open:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 325
@@ -770,6 +900,8 @@ Items:
     blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=true,open=false,powered=false]
     blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=true,open=false,powered=false]
     blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=true,open=false,powered=false]
+    collection:
+      indirect: stonebrick_normal
   vertical_slab_stonebrick_mossy_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 81
@@ -779,6 +911,8 @@ Items:
     blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=true,open=true,powered=false]
     blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=true,open=true,powered=false]
     blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=true,open=true,powered=false]
+    collection:
+      indirect: stonebrick_normal
   stonebrick_cracked:
     itemMaterial: CRACKED_STONE_BRICKS
     damage: 2
@@ -811,6 +945,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=1,facing=south,locked=false,powered=true]
     blockDataUp: minecraft:mossy_stone_brick_slab[type=top,waterlogged=false]
+    collection:
+      indirect: stonebrick_normal
   stonebrick_mixed:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 4
@@ -819,7 +955,7 @@ Items:
     blockData: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=false]
     type: BLOCK
     collection:
-      indirect: stonebrick_normal
+      indirect: double_slab_stonebrick
   double_slab_stonebrick:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 84
@@ -852,6 +988,8 @@ Items:
     blockDataWest: minecraft:jungle_door[facing=north,half=lower,hinge=left,open=true,powered=false]
     blockDataNorth: minecraft:jungle_door[facing=east,half=lower,hinge=left,open=true,powered=false]
     blockDataEast: minecraft:jungle_door[facing=south,half=lower,hinge=left,open=true,powered=false]
+    collection:
+      indirect: double_slab_stonebrick
   trapdoor_double_slab_stonebrick_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 262
@@ -859,6 +997,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: double_slab_stonebrick
   upper_slab_double_slab_stonebrick:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 83
@@ -868,12 +1008,16 @@ Items:
     display: ITEMBLOCK Small light gray bricks slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    collection:
+      indirect: double_slab_stonebrick
   powered_repeater_delay1_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 199
     display: Small light gray bricks slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=1,facing=west,locked=false,powered=true]
+    collection:
+      indirect: double_slab_stonebrick
   double_slab_stonebrick_mossy:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 5
@@ -892,6 +1036,8 @@ Items:
     blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: double_slab_stonebrick
   double_slab_stonebrick_seamless:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 85
@@ -926,13 +1072,17 @@ Items:
     blockDataWest: minecraft:oak_door[facing=east,half=upper,hinge=left,open=false,powered=false]
     blockDataNorth: minecraft:oak_door[facing=south,half=upper,hinge=left,open=false,powered=false]
     blockDataEast: minecraft:oak_door[facing=west,half=upper,hinge=left,open=false,powered=false]
+    collection:
+      indirect: double_slab_stonebrick_seamless
   trapdoor_double_slab_stonebrick_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 263
     display: Light gray brick trapdoor (horizontal) [148:4]
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:dark_oak_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]   
+    blockDataUp: minecraft:dark_oak_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: double_slab_stonebrick_seamless    
   trapdoor_double_slab_brick_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 339
@@ -942,6 +1092,8 @@ Items:
     blockDataWest: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
     blockDataNorth: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
     blockDataEast: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: double_slab_stonebrick_seamless
   trapdoor_double_slab_brick_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 264
@@ -949,6 +1101,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
     blockDataUp: minecraft:dark_oak_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: double_slab_stonebrick_seamless
   double_slab_brick_seamless:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 86
@@ -965,6 +1119,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:petrified_oak_slab[type=bottom,waterlogged=false]
     blockDataUp: minecraft:petrified_oak_slab[type=top,waterlogged=false]
+    collection:
+      indirect: double_slab_stonebrick_seamless
   vertical_slab_double_slab_stonebrick_seamless_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 87
@@ -974,12 +1130,16 @@ Items:
     blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=true,open=false,powered=true]
     blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=true,open=false,powered=true]
     blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=true,open=false,powered=true]
+    collection:
+      indirect: double_slab_stonebrick_seamless
   powered_repeater_delay1_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 201
     display: Dark stone brick slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=1,facing=east,locked=false,powered=true]
+    collection:
+      indirect: double_slab_stonebrick_seamless
   upper_slab_double_slab_brick_seamless:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 89
@@ -989,6 +1149,8 @@ Items:
     display: ITEMBLOCK Dark stone brick slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    collection:
+      indirect: double_slab_stonebrick_seamless
   vertical_slab_double_slab_brick_seamless_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 90
@@ -998,11 +1160,15 @@ Items:
     blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=true,open=true,powered=true]
     blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=true,open=true,powered=true]
     blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=true,open=true,powered=true]
+    collection:
+      indirect: double_slab_stonebrick_seamless
   daylight_detector:
     itemMaterial: DAYLIGHT_DETECTOR
     damage: 0
     display: 1/3 thick stone slab [151:0]
     type: VANILLA
+    collection:
+      indirect: double_slab_stonebrick_seamless
   anvil_damage1_sw:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 289
@@ -1052,6 +1218,8 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=false]
     blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=true,powered=false]
     blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=true,powered=false]
+    collection:
+      indirect: brick
   trapdoor_brick_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 354
@@ -1061,6 +1229,8 @@ Items:
     blockDataWest: minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
     blockDataNorth: minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
     blockDataEast: minecraft:spruce_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: brick
   trapdoor_brick_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 269
@@ -1068,6 +1238,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: brick
   trapdoor_double_slab_brick_open_regular:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 357
@@ -1080,6 +1252,8 @@ Items:
     blockDataWest: minecraft:spruce_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
     blockDataNorth: minecraft:spruce_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
     blockDataEast: minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: brick
   trapdoor_double_slab_brick_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 358
@@ -1087,16 +1261,22 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:spruce_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: brick
   brick_stairs:
     itemMaterial: BRICK_STAIRS
     damage: 0
     display: Dark gray bricks stairs [108:0]
     type: VANILLA
+    collection:
+      indirect: brick
   half_slab_brick:
     itemMaterial: BRICK_SLAB
     damage: 4
     display: Dark gray bricks slab [44:4]
     type: VANILLA
+    collection:
+      indirect: brick
   vertical_slab_brick_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 91
@@ -1106,6 +1286,8 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=false]
     blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=false,powered=false]
     blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=false,powered=false]
+    collection:
+      indirect: brick
   double_slab_brick:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 91
@@ -1223,6 +1405,8 @@ Items:
     blockDataWest: minecraft:oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]
     blockDataNorth: minecraft:oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]
     blockDataEast: minecraft:oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]
+    collection:
+      indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 265
@@ -1230,6 +1414,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
     blockDataUp: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_mossy_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 345
@@ -1239,6 +1425,8 @@ Items:
     blockDataWest: minecraft:oak_door[facing=south,half=lower,hinge=right,open=true,powered=false]
     blockDataNorth: minecraft:oak_door[facing=west,half=lower,hinge=right,open=true,powered=false]
     blockDataEast: minecraft:oak_door[facing=north,half=lower,hinge=right,open=true,powered=false]
+    collection:
+      indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_mossy_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 266
@@ -1246,6 +1434,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
     blockDataUp: minecraft:spruce_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_cracked_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 348
@@ -1255,13 +1445,17 @@ Items:
     blockDataWest: minecraft:oak_door[facing=east,half=upper,hinge=right,open=false,powered=false]
     blockDataNorth: minecraft:oak_door[facing=south,half=upper,hinge=right,open=false,powered=false]
     blockDataEast: minecraft:oak_door[facing=west,half=upper,hinge=right,open=false,powered=false]
+    collection:
+      indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_cracked_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 267
     display: Floor pattern block trapdoor (horizontal) [148:8]
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
-    blockDataUp: minecraft:spruce_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]    
+    blockDataUp: minecraft:spruce_trapdoor[facing=south,half=top,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_chiseled_open_regular:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 351
@@ -1274,6 +1468,8 @@ Items:
     blockDataWest: minecraft:oak_door[facing=south,half=upper,hinge=right,open=true,powered=false]
     blockDataNorth: minecraft:oak_door[facing=west,half=upper,hinge=right,open=true,powered=false]
     blockDataEast: minecraft:oak_door[facing=north,half=upper,hinge=right,open=true,powered=false]
+    collection:
+      indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_chiseled_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 268
@@ -1281,6 +1477,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
     blockDataUp: minecraft:spruce_trapdoor[facing=west,half=top,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: monster_egg_stonebrick
   double_slab_stone_seamless:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 92
@@ -1345,6 +1543,8 @@ Items:
     blockDataWest: minecraft:dark_oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
     blockDataNorth: minecraft:dark_oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
     blockDataEast: minecraft:dark_oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: double_slab_stone
   trapdoor_stonebrick_chiseled_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 331
@@ -1352,6 +1552,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:dark_oak_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: double_slab_stone
   trapdoor_double_slab_stone_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 360
@@ -1361,6 +1563,8 @@ Items:
     blockDataWest: minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
     blockDataNorth: minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
     blockDataEast: minecraft:spruce_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: double_slab_stone
   trapdoor_double_slab_stone_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 270
@@ -1368,6 +1572,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:spruce_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: double_slab_stone
   trapdoor_monster_egg_stone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 363
@@ -1377,6 +1583,8 @@ Items:
     blockDataWest: minecraft:oak_door[facing=north,half=upper,hinge=left,open=true,powered=false]
     blockDataNorth: minecraft:oak_door[facing=east,half=upper,hinge=left,open=true,powered=false]
     blockDataEast: minecraft:oak_door[facing=south,half=upper,hinge=left,open=true,powered=false]
+    collection:
+      indirect: double_slab_stone
   trapdoor_monster_egg_stone_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 364
@@ -1384,6 +1592,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
     blockDataUp: minecraft:dark_oak_trapdoor[facing=west,half=top,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: double_slab_stone
   trapdoor_double_slab_stone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 366
@@ -1393,6 +1603,8 @@ Items:
     blockDataWest: minecraft:spruce_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
     blockDataNorth: minecraft:spruce_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
     blockDataEast: minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: double_slab_stone
   trapdoor_double_slab_stone_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 367
@@ -1400,6 +1612,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:spruce_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: double_slab_stone
   cobblestone:
     itemMaterial: COBBLESTONE
     damage: 0
@@ -1438,26 +1652,36 @@ Items:
     blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=true,open=false,powered=false]
     blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=true,open=false,powered=false]
     blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=true,open=false,powered=false]
+    collection:
+      indirect: cobblestone
   cobblestone_wall:
     itemMaterial: COBBLESTONE_WALL
     damage: 0
     display: Cobblestone wall [139:0]
     type: VANILLA
+    collection:
+      indirect: cobblestone
   cobblestone_wall_mossy:
     itemMaterial: MOSSY_COBBLESTONE_WALL
     damage: 1
     display: Mossy cobblestone wall [139:1]
     type: VANILLA
+    collection:
+      indirect: cobblestone
   cobblestone_stairs:
     itemMaterial: COBBLESTONE_STAIRS
     damage: 0
     display: Cobblestone stairs [67:0]
     type: VANILLA
+    collection:
+      indirect: cobblestone
   half_slab_cobblestone:
     itemMaterial: COBBLESTONE_SLAB
     damage: 3
     display: Cobblestone slab [44:3]
     type: VANILLA
+    collection:
+      indirect: cobblestone
   mossy_cobblestone:
     itemMaterial: MOSSY_COBBLESTONE
     damage: 0
@@ -1471,6 +1695,8 @@ Items:
     damage: 0
     display: Mossy cobblestone stairs
     type: VANILLA
+    collection:
+      indirect: cobblestone
   heavily_mossy_cobblestone:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 14
@@ -1489,6 +1715,8 @@ Items:
     blockDataWest: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=true,west=true]
     blockDataNorth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=true,west=true]
     blockDataEast: minecraft:red_mushroom_block[down=true,east=true,north=true,south=true,up=false,west=true]
+    collection:
+      indirect: cobblestone
   yellow_concrete_powder:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 311
@@ -1510,6 +1738,8 @@ Items:
     blockDataWest: minecraft:acacia_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
     blockDataNorth: minecraft:acacia_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
     blockDataEast: minecraft:acacia_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: cobblestone
   trapdoor_cobblestone_bottom_regular:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 271
@@ -1517,6 +1747,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:acacia_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:acacia_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: cobblestone
   trapdoor_mossy_cobblestone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 372
@@ -1526,6 +1758,8 @@ Items:
     blockDataWest: minecraft:acacia_trapdoor[facing=east,half=bottom,open=true,powered=true,waterlogged=false]
     blockDataNorth: minecraft:acacia_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
     blockDataEast: minecraft:acacia_trapdoor[facing=west,half=bottom,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: cobblestone
   trapdoor_mossy_cobblestone_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 272
@@ -1533,6 +1767,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:acacia_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:acacia_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: cobblestone
   powered_repeater_delay2_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 202
@@ -1540,6 +1776,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=2,facing=south,locked=false,powered=true]
     blockDataUp: minecraft:mossy_cobblestone_slab[type=top,waterlogged=false]
+    collection:
+      indirect: cobblestone
   vertical_slab_mossy_cobblestone_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 95
@@ -1549,6 +1787,8 @@ Items:
     blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=true,open=true,powered=true]
     blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=true,open=true,powered=true]
     blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=true,open=true,powered=true]
+    collection:
+      indirect: cobblestone
   double_slab_cobblestone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 95
@@ -1590,6 +1830,8 @@ Items:
     blockDataWest: minecraft:acacia_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
     blockDataNorth: minecraft:acacia_trapdoor[facing=south,half=top,open=true,powered=true,waterlogged=false]
     blockDataEast: minecraft:acacia_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
+    collection:
+      indirect: double_slab_cobblestone
   trapdoor_double_slab_cobblestone_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 273
@@ -1597,6 +1839,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:acacia_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:acacia_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: double_slab_cobblestone
   trapdoor_double_slab_cobblestone_seamless_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 378
@@ -1606,6 +1850,8 @@ Items:
     blockDataWest: minecraft:acacia_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
     blockDataNorth: minecraft:acacia_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
     blockDataEast: minecraft:acacia_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    collection:
+      indirect: double_slab_cobblestone
   trapdoor_double_slab_cobblestone_seamless_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 274
@@ -1613,6 +1859,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:acacia_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:acacia_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: double_slab_cobblestone
   trapdoor_monster_egg_cobblestone_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 381
@@ -1622,14 +1870,17 @@ Items:
     blockDataWest: minecraft:dark_oak_door[facing=east,half=lower,hinge=right,open=false,powered=false]
     blockDataNorth: minecraft:dark_oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]
     blockDataEast: minecraft:dark_oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]
+    collection:
+      indirect: double_slab_cobblestone
   trapdoor_monster_egg_cobblestone_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 382
     display: Red cobblestone trapdoor (horizontal)
-
     type: BISECTED
     blockDataDown: minecraft:iron_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
     blockDataUp: minecraft:iron_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
+    collection:
+      indirect: double_slab_cobblestone
   double_slab_cobblestone_seamless:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 96
@@ -1654,6 +1905,8 @@ Items:
     display: Black cobblestone slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=2,facing=west,locked=false,powered=true]
+    collection:
+      indirect: double_slab_cobblestone
   upper_slab_double_slab_cobblestone:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 97
@@ -1663,6 +1916,8 @@ Items:
     display: ITEMBLOCK Black cobblestone slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    collection:
+      indirect: double_slab_cobblestone
   vertical_slab_double_slab_cobblestone_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 98
@@ -1672,12 +1927,16 @@ Items:
     blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=true,open=false,powered=true]
     blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=true,open=false,powered=true]
     blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=true,open=false,powered=true]
+    collection:
+      indirect: double_slab_cobblestone
   powered_repeater_delay2_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 204
     display: Mixed cobblestone slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=2,facing=north,locked=false,powered=true]
+    collection:
+      indirect: double_slab_cobblestone
   upper_slab_double_slab_cobblestone_seamless:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 100
@@ -1687,6 +1946,8 @@ Items:
     display: ITEMBLOCK Mixed cobblestone slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    collection:
+      indirect: double_slab_cobblestone
   vertical_slab_double_slab_cobblestone_seamless_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 101
@@ -1696,12 +1957,16 @@ Items:
     blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=true,open=true,powered=false]
     blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=true,open=true,powered=false]
     blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=true,open=true,powered=false]
+    collection:
+      indirect: double_slab_cobblestone
   powered_repeater_delay2_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 205
     display: Red cobblestone slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=2,facing=east,locked=false,powered=true]
+    collection:
+      indirect: double_slab_cobblestone
   upper_slab_monster_egg_cobblestone:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 103
@@ -1711,6 +1976,8 @@ Items:
     display: ITEMBLOCK Red cobblestone slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    collection:
+      indirect: double_slab_cobblestone
   vertical_slab_monster_egg_cobblestone_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 104
@@ -1720,3 +1987,5 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=true,open=false,powered=false]
     blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=true,open=false,powered=false]
     blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=true,open=false,powered=false]  
+    collection:
+      indirect: double_slab_cobblestone

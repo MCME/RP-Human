@@ -23,42 +23,56 @@ Items:
     display: Wheat stage 0 [59:0]
     type: BLOCK
     blockData: minecraft:wheat[age=0]
+    collection:
+      indirect: wheat_stage7
   wheat_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 28
     display: Wheat stage 1 [59:1]
     type: BLOCK
     blockData: minecraft:wheat[age=1]
+    collection:
+      indirect: wheat_stage7
   wheat_stage2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 29
     display: Wheat stage 2 [59:2]
     type: BLOCK
     blockData: minecraft:wheat[age=2]
+    collection:
+      indirect: wheat_stage7
   wheat_stage3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 30
     display: Wheat stage 3 [59:3]
     type: BLOCK
     blockData: minecraft:wheat[age=3]
+    collection:
+      indirect: wheat_stage7
   wheat_stage4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 31
     display: Wheat stage 4 [59:4]
     type: BLOCK
     blockData: minecraft:wheat[age=4]
+    collection:
+      indirect: wheat_stage7
   wheat_stage5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 32
     display: Wheat stage 5 [59:5]
     type: BLOCK
     blockData: minecraft:wheat[age=5]
+    collection:
+      indirect: wheat_stage7
   wheat_stage6:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 33
     display: Wheat stage 6 [59:7]
     type: BLOCK
     blockData: minecraft:wheat[age=6]
+    collection:
+      indirect: wheat_stage7
   carrots_stage3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 38
@@ -77,18 +91,24 @@ Items:
     display: Carrots stage 0 [141:0]
     type: BLOCK
     blockData: minecraft:carrots[age=0]
+    collection:
+      indirect: carrots_stage3
   carrots_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 36
     display: Carrots stage 1 [141:1]
     type: BLOCK
     blockData: minecraft:carrots[age=1]
+    collection:
+      indirect: carrots_stage3
   carrots_stage2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 37
     display: Carrots stage 2 [141:2]
     type: BLOCK
     blockData: minecraft:carrots[age=2]
+    collection:
+      indirect: carrots_stage3
   potatoes_stage3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 42
@@ -107,18 +127,24 @@ Items:
     display: Potatoes stage 0 [142:0]
     type: BLOCK
     blockData: minecraft:potatoes[age=0]
+    collection:
+      indirect: potatoes_stage3
   potatoes_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 40
     display: Potatoes stage 1 [142:1]
     type: BLOCK
     blockData: minecraft:potatoes[age=1]
+    collection:
+      indirect: potatoes_stage3
   potatoes_stage2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 41
     display: Potatoes stage 2 [142:2]
     type: BLOCK
     blockData: minecraft:potatoes[age=2]
+    collection:
+      indirect: potatoes_stage3
   onions_red_stage3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 46
@@ -141,36 +167,48 @@ Items:
     display: Red onions stage 0 [141:4]
     type: BLOCK
     blockData: minecraft:carrots[age=4]
+    collection:
+      indirect: onions_red_stage3
   onions_red_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 44
     display: Red onions stage 1 [141:5]
     type: BLOCK
     blockData: minecraft:carrots[age=5]
+    collection:
+      indirect: onions_red_stage3
   onions_red_stage2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 45
     display: Red onions stage 2 [141:6]
     type: BLOCK
     blockData: minecraft:carrots[age=6]
+    collection:
+      indirect: onions_red_stage3
   onions_white_stage0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 47
     display: White onions stage 0 [142:4]
     type: BLOCK
     blockData: minecraft:potatoes[age=4]
+    collection:
+      indirect: onions_red_stage3
   onions_white_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 48
     display: White onions stage 1 [142:5]
     type: BLOCK
     blockData: minecraft:potatoes[age=5]
+    collection:
+      indirect: onions_red_stage3
   onions_white_stage2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 49
     display: White onions stage 2 [142:6]
     type: BLOCK
     blockData: minecraft:potatoes[age=6]
+    collection:
+      indirect: onions_red_stage3
   onions_white_stage3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 50
@@ -198,18 +236,24 @@ Items:
     display: Beetroots stage 0 [207:0]
     type: BLOCK
     blockData: minecraft:beetroots[age=0]
+    collection:
+      indirect: beetroots_stage3
   beetroots_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 52
     display: Beetroots stage 1 [207:1]
     type: BLOCK
     blockData: minecraft:beetroots[age=1]
+    collection:
+      indirect: beetroots_stage3
   beetroots_stage2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 53
     display: Beetroots stage 2 [207:2]
     type: BLOCK
     blockData: minecraft:beetroots[age=2]
+    collection:
+      indirect: beetroots_stage3
   nether_wart_stage0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 55

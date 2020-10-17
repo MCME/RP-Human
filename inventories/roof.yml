@@ -49,16 +49,22 @@ Items:
     blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=false,open=false,powered=false]
     blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=false,open=false,powered=false]
     blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=false,open=false,powered=false]
+    collection:
+      indirect: spruce_planks
   spruce_stairs:
     itemMaterial: SPRUCE_STAIRS
     damage: 0
     display: Grey shingles stair [134:0]
     type: VANILLA
+    collection:
+      indirect: spruce_planks
   half_slab_spruce:
     itemMaterial: SPRUCE_SLAB
     damage: 1
     display: Grey shingles slab [126:1]
     type: VANILLA
+    collection:
+      indirect: spruce_planks
   dark_oak_planks:
     itemMaterial: DARK_OAK_PLANKS
     damage: 5
@@ -85,16 +91,22 @@ Items:
     blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=false,open=false,powered=false]
     blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=false,open=false,powered=false]
     blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=false,open=false,powered=false]
+    collection:
+      indirect: dark_oak_planks
   dark_oak_stairs:
     itemMaterial: DARK_OAK_STAIRS
     damage: 0
     display: Blue shingles stair [164:0]
     type: VANILLA
+    collection:
+      indirect: dark_oak_planks
   half_slab_dark_oak:
     itemMaterial: DARK_OAK_SLAB
     damage: 5
     display: Blue shingles slab [126:5]
     type: VANILLA
+    collection:
+      indirect: dark_oak_planks
   acacia_planks:
     itemMaterial: ACACIA_PLANKS
     damage: 4
@@ -121,16 +133,22 @@ Items:
     blockDataWest: minecraft:spruce_fence_gate[facing=west,in_wall=false,open=false,powered=true]
     blockDataNorth: minecraft:spruce_fence_gate[facing=north,in_wall=false,open=false,powered=true]
     blockDataEast: minecraft:spruce_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: acacia_planks
   acacia_stairs:
     itemMaterial: ACACIA_STAIRS
     damage: 0
     display: Green shingles stair [163:0]
     type: VANILLA
+    collection:
+      indirect: acacia_planks
   half_slab_acacia:
     itemMaterial: ACACIA_SLAB
     damage: 4
     display: Green shingles slab [126:4]
     type: VANILLA
+    collection:
+      indirect: acacia_planks
   jungle_planks:
     itemMaterial: JUNGLE_PLANKS
     damage: 3
@@ -157,16 +175,22 @@ Items:
     blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=false,open=false,powered=true]
     blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=false,open=false,powered=true]
     blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: jungle_planks
   jungle_stairs:
     itemMaterial: JUNGLE_STAIRS
     damage: 0
     display: Orange shingles stair [136:0]
     type: VANILLA
+    collection:
+      indirect: jungle_planks
   half_slab_jungle:
     itemMaterial: JUNGLE_SLAB
     damage: 3
     display: Orange shingles slab [126:3]
     type: VANILLA
+    collection:
+      indirect: jungle_planks
   purpur_block:
     itemMaterial: PURPUR_BLOCK
     damage: 0
@@ -193,13 +217,19 @@ Items:
     blockDataWest: minecraft:jungle_fence_gate[facing=west,in_wall=false,open=true,powered=false]
     blockDataNorth: minecraft:jungle_fence_gate[facing=north,in_wall=false,open=true,powered=false]
     blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=false,open=true,powered=false]
+    collection:
+      indirect: purpur_block
   purpur_stairs:
     itemMaterial: PURPUR_STAIRS
     damage: 0
     display: Thatch stair [203:0]
     type: VANILLA
+    collection:
+      indirect: purpur_block
   half_slab_purpur:
     itemMaterial: PURPUR_SLAB
     damage: 0
     display: Thatch slab [205:0]
     type: VANILLA
+    collection:
+      indirect: purpur_block

@@ -196,6 +196,8 @@ Items:
     category: Inter
     type: BLOCK
     blockData: minecraft:cauldron[level=3]
+    collection:
+      indirect: cauldron_empty
   
 
   # seating collection
@@ -528,12 +530,16 @@ Items:
     blockDataWest: minecraft:cocoa[age=2,facing=west]
     blockDataNorth: minecraft:cocoa[age=2,facing=north]
     blockDataEast: minecraft:cocoa[age=2,facing=east]
+    collection:
+      indirect: double_slab_wood_old
   ender_portal_frame_filled_east:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 330
     display: Low table 1 [120:7]
     type: BLOCK
     blockData: minecraft:end_portal_frame[eye=true,facing=east]
+    collection:
+      indirect: crafting_table
   lit_furnace:
     blockMaterial: LEGACY_BURNING_FURNACE
     dataValueNorth: 3
@@ -544,68 +550,94 @@ Items:
     damage: 168
     display: Lit furnace [62:2]
     type: BURNING_FURNACE
+    collection:
+      indirect: crafting_table
   cauldron_level1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 170
     display: Cauldron 1/3 filled [118:1]
     type: BLOCK
     blockData: minecraft:cauldron[level=1]
+    collection:
+      indirect: cauldron_empty
   cauldron_level2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 171
     display: Cauldron 2/3 filled [118:2]
     type: BLOCK
     blockData: minecraft:cauldron[level=2]
+    collection:
+      indirect: cauldron_empty
   bed_cyan:
     itemMaterial: CYAN_BED
     damage: 9
     display: Poor bed 2 [355:9]
     type: VANILLA
+    collection:
+      indirect: bed_silver
   bed_blue:
     itemMaterial: BLUE_BED
     damage: 11
     display: Blue bed [355:11]
     type: VANILLA
+    collection:
+      indirect: bed_silver
   bed_lime:
     itemMaterial: LIME_BED
     damage: 5
     display: Lime bed [355:5]
     type: VANILLA
+    collection:
+      indirect: bed_silver
   bed_black:
     itemMaterial: BLACK_BED
     damage: 15
     display: Cloth bed 2 [355:15]
     type: VANILLA
+    collection:
+      indirect: bed_silver
   bed_yellow:
     itemMaterial: YELLOW_BED
     damage: 4
     display: Yellow bed [355:4]
     type: VANILLA
+    collection:
+      indirect: bed_silver
   bed_purple:
     itemMaterial: PURPLE_BED
     damage: 10
     display: Purple bed [355:10]
     type: VANILLA
+    collection:
+      indirect: bed_silver
   bed_green:
     itemMaterial: GREEN_BED
     damage: 13
     display: Green bed [355:13]
     type: VANILLA
+    collection:
+      indirect: bed_silver
   bed_red:
     itemMaterial: RED_BED
     damage: 14
     display: Red bed [355:14]
     type: VANILLA
+    collection:
+      indirect: bed_silver
   heavy_pressure_plate:
     itemMaterial: HEAVY_WEIGHTED_PRESSURE_PLATE
     damage: 0
     display: Plate [148:0]
     type: VANILLA
+    collection:
+      indirect: cake
   stone_pressure_plate:
     itemMaterial: STONE_PRESSURE_PLATE
     damage: 0
     display: Stone plate [70:0]
     type: VANILLA
+    collection:
+      indirect: cake
   plate_2_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -613,26 +645,36 @@ Items:
     display: Fancy plate
     type: BLOCK
     blockData: minecraft:light_weighted_pressure_plate[power=3]
+    collection:
+      indirect: cake
   lever:
     itemMaterial: LEVER
     damage: 0
     display: Lever / Barrel tap [69:0]
     type: VANILLA
+    collection:
+      indirect: tripwire_hook
   bed_magenta:
     itemMaterial: MAGENTA_BED
     damage: 2
     display: Blue bench [355:2]
     type: VANILLA
+    collection:
+      indirect: cactus_stage6
   bed_light_blue:
     itemMaterial: LIGHT_BLUE_BED
     damage: 3
     display: Green bench [355:3]
     type: VANILLA
+    collection:
+      indirect: cactus_stage6
   bed_pink:
     itemMaterial: PINK_BED
     damage: 6
     display: Red bench [355:6]
     type: VANILLA
+    collection:
+      indirect: cactus_stage6
   bed_blue_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -640,6 +682,8 @@ Items:
     display: Blue stool
     type: BLOCK
     blockData: minecraft:campfire[facing=north,lit=false,signal_fire=true,waterlogged=false]
+    collection:
+      indirect: cactus_stage6
   bed_green_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -647,23 +691,34 @@ Items:
     display: Green stool
     type: BLOCK
     blockData: minecraft:campfire[facing=south,lit=false,signal_fire=true,waterlogged=false]
+    collection:
+      indirect: cactus_stage6
   trapped_chest:
     itemMaterial: TRAPPED_CHEST
     damage: 0
     display: Chest [146:0]
     type: VANILLA
+    collection:
+      indirect: tripwire_hook
   ender_chest:
     itemMaterial: ENDER_CHEST
     damage: 0
     display: Chest [130:0]
     type: VANILLA
+    collection:
+      indirect: tripwire_hook
   prismarine_rough:
     itemMaterial: PRISMARINE
     dataValue: 0
     display: Sturdy Crate [168:0]
     type: VANILLA
+    collection:
+      indirect: tripwire_hook
   double_slab_planks_spruce:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 165
+    dispaly: Crate [125:1]
     type: BLOCK
     blockData: minecraft:spruce_slab[type=double,waterlogged=false]
+    collection:
+      indirect: tripwire_hook
