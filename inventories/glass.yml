@@ -1,4 +1,66 @@
 Items:
+  sandstone_glass_up:
+    itemMaterial: GRAY_STAINED_GLASS
+    damage: 0
+    display: Sandstone window up
+    category: Glass
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:gray_stained_glass
+    blockDataWest: minecraft:light_gray_stained_glass
+    blockDataNorth: minecraft:gray_stained_glass
+    blockDataEast: minecraft:light_gray_stained_glass
+    collection:
+      C2: sandstone_glass_down
+      B2: sandstone_glass_up
+      G2: cobblestone_glass_up
+      H2: cobblestone_glass_down
+      E0: cobblestone_glass_arrow
+  sandstone_glass_down:
+    itemMaterial: LIME_STAINED_GLASS
+    damage: 0
+    display: Sandstone window down
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:lime_stained_glass
+    blockDataWest: minecraft:pink_stained_glass
+    blockDataNorth: minecraft:lime_stained_glass
+    blockDataEast: minecraft:pink_stained_glass   
+    collection:
+      indirect: sandstone_glass_up
+  cobblestone_glass_up:
+    itemMaterial: BLUE_STAINED_GLASS
+    damage: 0
+    display: Cobblestone window up
+    category: Glass
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:blue_stained_glass
+    blockDataWest: minecraft:brown_stained_glass
+    blockDataNorth: minecraft:blue_stained_glass
+    blockDataEast: minecraft:brown_stained_glass
+    collection:
+      indirect: sandstone_glass_up
+  cobblestone_glass_down:
+    itemMaterial: CYAN_STAINED_GLASS
+    damage: 0
+    display: Cobblestone window down
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:cyan_stained_glass
+    blockDataWest: minecraft:purple_stained_glass
+    blockDataNorth: minecraft:cyan_stained_glass
+    blockDataEast: minecraft:purple_stained_glass
+    collection:
+      indirect: sandstone_glass_up
+  cobblestone_glass_arrow:
+    itemMaterial: MAGENTA_STAINED_GLASS
+    damage: 0
+    display: Cobblestone window arrow
+    category: Glass
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:orange_stained_glass
+    blockDataWest: minecraft:magenta_stained_glass
+    blockDataNorth: minecraft:light_blue_stained_glass
+    blockDataEast: minecraft:yellow_stained_glass
+    collection:
+      indirect: sandstone_glass_up
   shutter:
     # normal glass / shutters collection
     blockMaterial: LEGACY_DARK_OAK_DOOR
@@ -286,46 +348,64 @@ Items:
     damage: 1
     display: Window colorless circles [160:1]
     type: VANILLA
+    collection:
+      indirect: shutter
   glass_pane_yellow:
     itemMaterial: YELLOW_STAINED_GLASS_PANE
     damage: 4
     display: Window colorless wood [160:4]
     type: VANILLA
+    collection:
+      indirect: shutter
   glass_pane_light_blue:
     itemMaterial: LIGHT_BLUE_STAINED_GLASS_PANE
     damage: 3
     display: Window colorless diamond [160:3]
     type: VANILLA
+    collection:
+      indirect: shutter
   glass_pane_lime:
     itemMaterial: LIME_STAINED_GLASS_PANE
     damage: 5
     display: Window light gray circles [160:5]
     type: VANILLA
+    collection:
+      indirect: glass_pane_pink
   glass_pane_cyan:
     itemMaterial: CYAN_STAINED_GLASS_PANE
     damage: 9
     display: Window light gray circles [160:9]
     type: VANILLA
+    collection:
+      indirect: glass_pane_pink
   glass_pane_blue:
     itemMaterial: BLUE_STAINED_GLASS_PANE
     damage: 11
     display: Window light gray diamond [160:11]
     type: VANILLA
+    collection:
+      indirect: glass_pane_pink
   glass_pane_brown:
     itemMaterial: BROWN_STAINED_GLASS_PANE
     damage: 12
     display: Window light gray wood [160:12]
     type: VANILLA
+    collection:
+      indirect: glass_pane_pink
   glass_pane_silver:
     itemMaterial: LIGHT_GRAY_STAINED_GLASS_PANE
     damage: 8
     display: Window light gray wood [160:8]
     type: VANILLA
+    collection:
+      indirect: glass_pane_pink
   glass_pane_gray:
     itemMaterial: GRAY_STAINED_GLASS_PANE
     damage: 7
     display: Window light gray diamond [160:7]
     type: VANILLA
+    collection:
+      indirect: glass_pane_pink
   glass_pane_light_blue_circle:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 25
@@ -336,6 +416,8 @@ Items:
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
     blockDataX: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: glass_pane_light_blue_rhomb
   glass_pane_light_blue_diamond:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 27
@@ -346,6 +428,8 @@ Items:
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
     blockDataX: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: glass_pane_light_blue_rhomb
   glass_pane_light_blue_wood:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 28
@@ -356,6 +440,8 @@ Items:
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
     blockDataX: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: glass_pane_light_blue_rhomb
   glass_pane_blue_circle:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 29
@@ -366,6 +452,8 @@ Items:
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
     blockDataX: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: glass_pane_light_blue_rhomb
   glass_pane_blue_diamond:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 31
@@ -376,6 +464,8 @@ Items:
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
     blockDataX: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: glass_pane_light_blue_rhomb
   glass_pane_green_wood:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 32
@@ -386,6 +476,8 @@ Items:
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
     blockDataX: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: glass_pane_light_blue_rhomb
   glass_pane_dark_red_circle:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 33
@@ -396,6 +488,8 @@ Items:
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
     blockDataX: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: glass_pane_red_rhomb
   glass_pane_dark_red_diamond:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 35
@@ -406,6 +500,8 @@ Items:
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
     blockDataX: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: glass_pane_red_rhomb
   glass_pane_dark_red_wood:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 36
@@ -416,6 +512,8 @@ Items:
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
     blockDataX: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: glass_pane_red_rhomb
   glass_pane_color_circle:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 38
@@ -426,6 +524,8 @@ Items:
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
     blockDataX: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: glass_pane_color_rhomb
   glass_pane_color_diamond:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 40
@@ -436,6 +536,8 @@ Items:
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
     blockDataX: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: glass_pane_color_rhomb
   glass_pane_color_wood:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 41
@@ -446,6 +548,8 @@ Items:
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
     blockDataX: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
+    collection:
+      indirect: glass_pane_color_rhomb
   curtain_blue_top:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 246
@@ -458,6 +562,8 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
   curtain_blue_bottom:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 248
@@ -470,6 +576,8 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
   curtain_brown_top:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 249
@@ -482,6 +590,8 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true] 
+    collection:
+      indirect: curtain_blue
   curtain_brown_bottom:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 251
@@ -494,6 +604,8 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
   curtain_gray_top:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 252
@@ -506,6 +618,8 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true] 
+    collection:
+      indirect: curtain_blue
   curtain_gray_bottom:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 254
@@ -518,6 +632,8 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
   curtain_green_top:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 255
@@ -530,6 +646,8 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
   curtain_green_bottom:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 257
@@ -542,6 +660,8 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
   curtain_red_top:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 258
@@ -554,6 +674,8 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
   curtain_red_bottom:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 260
@@ -566,6 +688,8 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
   curtain_white_top:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 261
@@ -578,6 +702,8 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
   curtain_white_bottom:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 263
@@ -590,3 +716,5 @@ Items:
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: curtain_blue
