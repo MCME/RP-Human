@@ -195,6 +195,94 @@
 		{ "model": "block/red_mushroom_block_nwud_3" },
 		{ "model": "block/red_mushroom_block_nwud_4" },
 		{ "model": "block/red_mushroom_block_nwud_5" }
-	]}
+	]},
+	{ "when": {"north": true, "west": true, "south":false, "east": false, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/red_mushroom_block_nwu" },
+		{ "model": "block/red_mushroom_block_nwu_1" }
+	]},
+	{ "when": {"north": true, "west": true, "south":false, "east": false, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/red_mushroom_block_nwu", "y": 90, "uvlock": true },
+		{ "model": "block/red_mushroom_block_nwu_1", "y": 90, "uvlock": true }
+	]},
+	{ "when": {"north": true, "west": true, "south":false, "east": false, "up": false, "down": false },
+		"apply": [
+		{ "model": "block/red_mushroom_block_nw" },
+		{ "model": "block/red_mushroom_block_nw_1" }
+	]},
+	{ "when": {"north": true, "west": false, "south":false, "east": false, "up": true, "down": true },
+		"apply": [
+		{ "model": "block/red_mushroom_block_nw", "y": 90, "uvlock": true },
+		{ "model": "block/red_mushroom_block_nw_1", "y": 90, "uvlock": true }
+	]},
+	{ "when": {"north": true, "west": false, "south":false, "east": false, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/red_mushroom_block_nu" },
+		{ "model": "block/red_mushroom_block_nu_1" }
+	]},
+	{ "when": {"north": true, "west": false, "south":false, "east": false, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/red_mushroom_block_nu", "y": 90, "uvlock": true },
+		{ "model": "block/red_mushroom_block_nu_1", "y": 90, "uvlock": true }
+	]},
+	{ "when": {"north": true, "west": false, "south":false, "east": false, "up": false, "down": false },
+		"apply": [
+		{ "model": "block/red_mushroom_block_n" },
+		{ "model": "block/red_mushroom_block_n_1" },
+		{ "model": "block/red_mushroom_block_n_2" }
+	]},
+	{ "when": {"north": false, "west": true, "south":true, "east": true, "up": true, "down": true },
+		"apply": [
+		{ "model": "block/red_mushroom_block_n", "y": 90, "uvlock": true },
+		{ "model": "block/red_mushroom_block_n_1", "y": 90, "uvlock": true },
+		{ "model": "block/red_mushroom_block_n_2", "y": 90, "uvlock": true }
+	]},
+	{ "when": {"north": false, "west": true, "south":true, "east": true, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/red_mushroom_block_eswu" },
+		{ "model": "block/red_mushroom_block_eswu_1" }
+	]},
+	{ "when": {"north": false, "west": true, "south":true, "east": true, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/red_mushroom_block_eswu", "y": 90, "uvlock": true },
+		{ "model": "block/red_mushroom_block_eswu_1", "y": 90, "uvlock": true }
+	]},
+	{ "when": {"north": false, "west": true, "south":true, "east": true, "up": false, "down": false },
+		"apply": [
+		{ "model": "block/red_mushroom_block_esw", "weight": 1 },
+		{ "model": "block/red_mushroom_block_esw_1", "weight": 1 },
+		{ "model": "block/red_mushroom_block_esw_2", "weight": 5 },
+		{ "model": "block/red_mushroom_block_esw_3", "weight": 5 },
+		{ "model": "block/red_mushroom_block_esw_4", "weight": 1 },
+		{ "model": "block/red_mushroom_block_esw_5", "weight": 1 }
+	]},
+	{ "when": {"north": false, "west": false, "south":true, "east": true, "up": true, "down": true },
+		"apply": [
+		{ "model": "block/red_mushroom_block_esud", "weight": 1 },
+		{ "model": "block/red_mushroom_block_esud_1", "weight": 1 },
+		{ "model": "block/red_mushroom_block_esud_2", "weight": 5 },
+		{ "model": "block/red_mushroom_block_esud_3", "weight": 5 },
+		{ "model": "block/red_mushroom_block_esud_4", "weight": 1 },
+		{ "model": "block/red_mushroom_block_esud_5", "weight": 1 }
+	]},
+	{ "when": {"north": false, "west": false, "south":true, "east": true, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/red_mushroom_block_esu", "weight": 1 },
+		{ "model": "block/red_mushroom_block_esu_1", "weight": 1 },
+		{ "model": "block/red_mushroom_block_esu_2", "weight": 5 },
+		{ "model": "block/red_mushroom_block_esu_3", "weight": 5 },
+		{ "model": "block/red_mushroom_block_esu_4", "weight": 1 },
+		{ "model": "block/red_mushroom_block_esu_5", "weight": 1 }
+	]},
+	{ "when": {"north": false, "west": false, "south":true, "east": true, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/red_mushroom_block_esd", "weight": 1 },
+		{ "model": "block/red_mushroom_block_esd_1", "weight": 1 }
+		]},
+	{ "when": {"north": false, "west": false, "south":true, "east": true, "up": false, "down": false	 },
+		"apply": [
+		{ "model": "block/red_mushroom_block_es", "weight": 1 }
+		]}
   ]
 }

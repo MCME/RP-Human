@@ -356,8 +356,8 @@ Items:
     collection: 
       A0: sticky_piston
       H2: piston_head_sticky
-      J1: repeater_delay2_e
-      E1: repeater_delay2_n
+      J1: dark_oak_button_floor_n
+      E1: dark_oak_button_ceiling_n
       C2: cocoa_age0_s
   piston_head_sticky:
     itemMaterial: DIAMOND_LEGGINGS
@@ -477,6 +477,8 @@ Items:
     blockDataNorthEast: minecraft:powered_rail[powered=true,shape=east_west]
     blockDataEast: minecraft:powered_rail[powered=true,shape=east_west]
     blockDataSouthEast: minecraft:powered_rail[powered=true,shape=north_south]
+    collection:
+      indirect: dropper_nwd
   detector_rail_flat_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 153
@@ -490,6 +492,8 @@ Items:
     blockDataNorthEast: minecraft:detector_rail[powered=true,shape=east_west]
     blockDataEast: minecraft:detector_rail[powered=true,shape=east_west]
     blockDataSouthEast: minecraft:detector_rail[powered=true,shape=north_south]
+    collection:
+      indirect: dropper_nwd
   clothesline_shirt_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 190
@@ -499,6 +503,8 @@ Items:
     blockDataWest: minecraft:oak_fence_gate[facing=west,in_wall=true,open=true,powered=true]
     blockDataNorth: minecraft:oak_fence_gate[facing=north,in_wall=true,open=true,powered=true]
     blockDataEast: minecraft:oak_fence_gate[facing=west,in_wall=true,open=true,powered=true]
+    collection:
+      indirect: clothesline_empty_regular
   clothesline_shirt_long_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 199
@@ -508,6 +514,8 @@ Items:
     blockDataWest: minecraft:oak_fence_gate[facing=east,in_wall=true,open=true,powered=true]
     blockDataNorth: minecraft:oak_fence_gate[facing=south,in_wall=true,open=true,powered=true]
     blockDataEast: minecraft:oak_fence_gate[facing=east,in_wall=true,open=true,powered=true]
+    collection:
+      indirect: clothesline_empty_regular
   clothesline_pants_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 205
@@ -517,6 +525,8 @@ Items:
     blockDataWest: minecraft:birch_fence_gate[facing=west,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:birch_fence_gate[facing=north,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:birch_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: clothesline_empty_regular
   clothesline_socks_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 211
@@ -526,6 +536,8 @@ Items:
     blockDataWest: minecraft:birch_fence_gate[facing=east,in_wall=false,open=true,powered=true]
     blockDataNorth: minecraft:birch_fence_gate[facing=south,in_wall=false,open=true,powered=true]
     blockDataEast: minecraft:birch_fence_gate[facing=east,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: clothesline_empty_regular
   clothesline_sheet_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 219
@@ -535,6 +547,8 @@ Items:
     blockDataWest: minecraft:birch_fence_gate[facing=west,in_wall=true,open=true,powered=true]
     blockDataNorth: minecraft:birch_fence_gate[facing=north,in_wall=true,open=true,powered=true]
     blockDataEast: minecraft:birch_fence_gate[facing=west,in_wall=true,open=true,powered=true]
+    collection:
+      indirect: clothesline_empty_regular
   clothesline_rag_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 225
@@ -544,6 +558,8 @@ Items:
     blockDataWest: minecraft:birch_fence_gate[facing=east,in_wall=true,open=true,powered=true]
     blockDataNorth: minecraft:birch_fence_gate[facing=south,in_wall=true,open=true,powered=true]
     blockDataEast: minecraft:birch_fence_gate[facing=east,in_wall=true,open=true,powered=true]
+    collection:
+      indirect: clothesline_empty_regular
   barrel_apples_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -551,6 +567,8 @@ Items:
     display: Barrel apples half
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=6,persistent=false]
+    collection:
+      indirect: barrel_empty
   barrel_grapes_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -558,6 +576,8 @@ Items:
     display: Barrel grapes half
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=5,persistent=true]
+    collection:
+      indirect: barrel_empty
   barrel_tomatoes_full_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -565,6 +585,8 @@ Items:
     display: Barrel tomatoes full
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=6,persistent=false]
+    collection:
+      indirect: barrel_empty
   barrel_tomatoes_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -572,6 +594,8 @@ Items:
     display: Barrel tomatoes half
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=7,persistent=true]
+    collection:
+      indirect: barrel_empty
   barrel_potatoes_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -579,6 +603,8 @@ Items:
     display: Barrel potatoes half
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=5,persistent=false]
+    collection:
+      indirect: barrel_empty
   barrel_onions_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -586,6 +612,8 @@ Items:
     display: Barrel onions half
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=3,persistent=false]
+    collection:
+      indirect: barrel_empty
   barrel_wheat_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -593,6 +621,8 @@ Items:
     display: Barrel wheat half
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=5,persistent=true]
+    collection:
+      indirect: barrel_empty
   barrel_meat_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -600,6 +630,8 @@ Items:
     display: Barrel meat half
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=7,persistent=true]
+    collection:
+      indirect: barrel_empty
   barrel_fish_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -607,6 +639,8 @@ Items:
     display: Barrel fish half
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=3,persistent=true]
+    collection:
+      indirect: barrel_empty
   barrel_coal_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -614,6 +648,8 @@ Items:
     display: Barrel coal half
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=1,persistent=false]
+    collection:
+      indirect: barrel_empty
   barrel_water_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
@@ -621,18 +657,24 @@ Items:
     display: Barrel water half
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=3,persistent=true]
+    collection:
+      indirect: barrel_empty
   dark_oak_button_floor_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 335
     display: Wheel (on floor) [93:6]
     type: BLOCK
     blockData: minecraft:dark_oak_button[face=floor,facing=north,powered=false]
+    collection:
+      indirect: sticky_piston
   dark_oak_button_ceiling_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 336
     display: Wheel (on ceiling) [93:7]
     type: BLOCK
     blockData: minecraft:dark_oak_button[face=ceiling,facing=north,powered=false]
+    collection:
+      indirect: sticky_piston
   iron_door_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 134
@@ -642,6 +684,8 @@ Items:
     blockDataWest: minecraft:iron_door[facing=east,half=lower,hinge=right,open=false,powered=false]
     blockDataNorth: minecraft:iron_door[facing=south,half=lower,hinge=right,open=false,powered=false]
     blockDataEast: minecraft:iron_door[facing=west,half=lower,hinge=right,open=false,powered=false]
+    collection:
+      indirect: wooden_door_powered
   birch_door_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 130
@@ -651,12 +695,16 @@ Items:
     blockDataWest: minecraft:birch_door[facing=east,half=lower,hinge=right,open=false,powered=false]
     blockDataNorth: minecraft:birch_door[facing=south,half=lower,hinge=right,open=false,powered=false]
     blockDataEast: minecraft:birch_door[facing=west,half=lower,hinge=right,open=false,powered=false]
+    collection:
+      indirect: wooden_door_powered
   birch_door:
     blockMaterial: BIRCH_DOOR
     itemMaterial: BIRCH_DOOR
     damage: 0
     display: Wooden door 3 [194:8]
     type: DOOR
+    collection:
+      indirect: wooden_door_powered
   dark_oak_door_powered:
     blockMaterial: DARK_OAK_DOOR
     powered: true
@@ -664,3 +712,5 @@ Items:
     damage: 0
     display: Sturdy door [197:10]
     type: DOOR
+    collection:
+      indirect: wooden_door_powered

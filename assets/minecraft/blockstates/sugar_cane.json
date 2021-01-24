@@ -18,12 +18,28 @@
         "uvlock": true
       }
     },
+	{
+      "when": {
+        "age": "2"
+      },
+      "apply":[
+			{ "model": "block/grass_slab" },
+			{ "model": "block/grass_slab", "y": 90 },
+            { "model": "block/grass_slab", "y": 180 },
+            { "model": "block/grass_slab", "y": 270 },
+			{ "model": "block/grass_slab_1" },
+			{ "model": "block/grass_slab_1", "y": 90 },
+            { "model": "block/grass_slab_1", "y": 180 },
+            { "model": "block/grass_slab_1", "y": 270 },
+			{ "model": "block/grass_slab_2" },
+			{ "model": "block/grass_slab_2", "y": 90 },
+            { "model": "block/grass_slab_2", "y": 180 },
+            { "model": "block/grass_slab_2", "y": 270 }
+			]
+    },
     {
       "when": {
         "OR": [
-          {
-            "age": "2"
-          },
           {
             "age": "3"
           },
