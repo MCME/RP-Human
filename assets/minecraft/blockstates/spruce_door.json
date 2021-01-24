@@ -8,10 +8,23 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
+      "apply": [{
         "model": "block/spruce_door_bottom"
+      },
+	  {
+        "model": "block/spruce_door_bottom_2"
+      },
+	  {
+        "model": "block/spruce_door_bottom_3"
+      },
+	  {
+        "model": "block/spruce_door_bottom_4"
+      },
+	  {
+        "model": "block/spruce_door_bottom_5"
       }
-    },
+    ]
+	},
     {
       "when": {
         "facing": "south",
@@ -20,10 +33,27 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
+      "apply": [{
         "model": "block/spruce_door_bottom",
-        "y": 90
+		"y": 90
+      },
+	  {
+        "model": "block/spruce_door_bottom_2",
+		"y": 90
+      },
+      {
+        "model": "block/spruce_door_bottom_3",
+		"y": 90
+      },
+	  {
+        "model": "block/spruce_door_bottom_4",
+		"y": 90
+      },
+	  {
+        "model": "block/spruce_door_bottom_5",
+		"y": 90
       }
+    ]
     },
     {
       "when": {
@@ -33,10 +63,27 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
+      "apply": [{
         "model": "block/spruce_door_bottom",
-        "y": 180
+		"y": 180
+      },
+	  {
+        "model": "block/spruce_door_bottom_2",
+		"y": 180
+      },
+      {
+        "model": "block/spruce_door_bottom_3",
+		"y": 180
+      },
+	  {
+        "model": "block/spruce_door_bottom_4",
+		"y": 180
+      },
+	  {
+        "model": "block/spruce_door_bottom_5",
+		"y": 180
       }
+    ]
     },
     {
       "when": {
@@ -46,10 +93,27 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
+      "apply": [{
         "model": "block/spruce_door_bottom",
-        "y": 270
+		"y": 270
+      },
+	  {
+        "model": "block/spruce_door_bottom_2",
+		"y": 270
+      },
+      {
+        "model": "block/spruce_door_bottom_3",
+		"y": 270
+      },
+	  {
+        "model": "block/spruce_door_bottom_4",
+		"y": 270
+      },
+	  {
+        "model": "block/spruce_door_bottom_5",
+		"y": 270
       }
+    ]
     },
     {
       "when": {

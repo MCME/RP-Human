@@ -1,4 +1,66 @@
 Items:
+  sandstone_glass_up:
+    itemMaterial: GRAY_STAINED_GLASS
+    damage: 0
+    display: Sandstone window up
+    category: Glass
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:gray_stained_glass
+    blockDataWest: minecraft:light_gray_stained_glass
+    blockDataNorth: minecraft:gray_stained_glass
+    blockDataEast: minecraft:light_gray_stained_glass
+    collection:
+      C2: sandstone_glass_down
+      B2: sandstone_glass_up
+      G2: cobblestone_glass_up
+      H2: cobblestone_glass_down
+      E0: cobblestone_glass_arrow
+  sandstone_glass_down:
+    itemMaterial: LIME_STAINED_GLASS
+    damage: 0
+    display: Sandstone window down
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:lime_stained_glass
+    blockDataWest: minecraft:pink_stained_glass
+    blockDataNorth: minecraft:lime_stained_glass
+    blockDataEast: minecraft:pink_stained_glass   
+    collection:
+      indirect: sandstone_glass_up
+  cobblestone_glass_up:
+    itemMaterial: BLUE_STAINED_GLASS
+    damage: 0
+    display: Cobblestone window up
+    category: Glass
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:blue_stained_glass
+    blockDataWest: minecraft:brown_stained_glass
+    blockDataNorth: minecraft:blue_stained_glass
+    blockDataEast: minecraft:brown_stained_glass
+    collection:
+      indirect: sandstone_glass_up
+  cobblestone_glass_down:
+    itemMaterial: CYAN_STAINED_GLASS
+    damage: 0
+    display: Cobblestone window down
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:cyan_stained_glass
+    blockDataWest: minecraft:purple_stained_glass
+    blockDataNorth: minecraft:cyan_stained_glass
+    blockDataEast: minecraft:purple_stained_glass
+    collection:
+      indirect: sandstone_glass_up
+  cobblestone_glass_arrow:
+    itemMaterial: MAGENTA_STAINED_GLASS
+    damage: 0
+    display: Cobblestone window arrow
+    category: Glass
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:orange_stained_glass
+    blockDataWest: minecraft:magenta_stained_glass
+    blockDataNorth: minecraft:light_blue_stained_glass
+    blockDataEast: minecraft:yellow_stained_glass
+    collection:
+      indirect: sandstone_glass_up
   shutter:
     # normal glass / shutters collection
     blockMaterial: LEGACY_DARK_OAK_DOOR

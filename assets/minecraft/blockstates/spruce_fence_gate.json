@@ -7,10 +7,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_fence_gate",
-        "uvlock": true
-      }
+      "apply": [
+        {"model": "block/spruce_fence_gate_closed", "uvlock": true},
+		{"model": "block/spruce_fence_gate_closed_2", "uvlock": true},
+		{"model": "block/spruce_fence_gate_closed_3", "uvlock": true},
+		{"model": "block/spruce_fence_gate_closed_4", "uvlock": true}
+      ]
     },
     {
       "when": {
@@ -19,11 +21,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_fence_gate",
-        "uvlock": true,
-        "y": 90
-      }
+      "apply": [
+        {"model": "block/spruce_fence_gate_closed", "uvlock": true, "y": 90},
+		{"model": "block/spruce_fence_gate_closed_2", "uvlock": true, "y": 90},
+		{"model": "block/spruce_fence_gate_closed_3", "uvlock": true, "y": 90},
+		{"model": "block/spruce_fence_gate_closed_4", "uvlock": true, "y": 90}
+      ]
     },
     {
       "when": {
@@ -32,11 +35,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_fence_gate",
-        "uvlock": true,
-        "y": 180
-      }
+      "apply": [
+        {"model": "block/spruce_fence_gate_closed", "uvlock": true, "y": 180},
+		{"model": "block/spruce_fence_gate_closed_2", "uvlock": true, "y": 180},
+		{"model": "block/spruce_fence_gate_closed_3", "uvlock": true, "y": 180},
+		{"model": "block/spruce_fence_gate_closed_4", "uvlock": true, "y": 180}
+      ]
     },
     {
       "when": {
@@ -45,11 +49,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_fence_gate",
-        "uvlock": true,
-        "y": 270
-      }
+      "apply": [
+        {"model": "block/spruce_fence_gate_closed", "uvlock": true, "y": 270},
+		{"model": "block/spruce_fence_gate_closed_2", "uvlock": true, "y": 270},
+		{"model": "block/spruce_fence_gate_closed_3", "uvlock": true, "y": 270},
+		{"model": "block/spruce_fence_gate_closed_4", "uvlock": true, "y": 270}
+      ]
     },
     {
       "when": {
@@ -211,10 +216,12 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/spruce_fence_gate_powered_closed",
-        "uvlock": true
-      }
+      "apply": [
+        {"model": "block/spruce_fence_gate_powered_closed", "uvlock": true},
+		{"model": "block/spruce_fence_gate_powered_closed_2", "uvlock": true},
+		{"model": "block/spruce_fence_gate_powered_closed_3", "uvlock": true},
+		{"model": "block/spruce_fence_gate_powered_closed_4", "uvlock": true}
+      ]
     },
     {
       "when": {
@@ -223,11 +230,12 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/spruce_fence_gate_powered_closed",
-        "uvlock": true,
-        "y": 90
-      }
+      "apply": [
+        {"model": "block/spruce_fence_gate_powered_closed", "uvlock": true, "y": 90},
+		{"model": "block/spruce_fence_gate_powered_closed_2", "uvlock": true, "y": 90},
+		{"model": "block/spruce_fence_gate_powered_closed_3", "uvlock": true, "y": 90},
+		{"model": "block/spruce_fence_gate_powered_closed_4", "uvlock": true, "y": 90}
+      ]
     },
     {
       "when": {
@@ -236,11 +244,12 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/spruce_fence_gate_powered_closed",
-        "uvlock": true,
-        "y": 180
-      }
+      "apply": [
+        {"model": "block/spruce_fence_gate_powered_closed", "uvlock": true, "y": 180},
+		{"model": "block/spruce_fence_gate_powered_closed_2", "uvlock": true, "y": 180},
+		{"model": "block/spruce_fence_gate_powered_closed_3", "uvlock": true, "y": 180},
+		{"model": "block/spruce_fence_gate_powered_closed_4", "uvlock": true, "y": 180}
+      ]
     },
     {
       "when": {
@@ -249,11 +258,12 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/spruce_fence_gate_powered_closed",
-        "uvlock": true,
-        "y": 270
-      }
+      "apply": [
+        {"model": "block/spruce_fence_gate_powered_closed", "uvlock": true, "y": 270},
+		{"model": "block/spruce_fence_gate_powered_closed_2", "uvlock": true, "y": 270},
+		{"model": "block/spruce_fence_gate_powered_closed_3", "uvlock": true, "y": 270},
+		{"model": "block/spruce_fence_gate_powered_closed_4", "uvlock": true, "y": 270}
+      ]
     },
     {
       "when": {
