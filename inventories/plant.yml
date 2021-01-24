@@ -1,62 +1,266 @@
 Items:
-  oak_bark:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 14
-    display: Oak log all-bark [17:12]
+  oak_log:
+    itemMaterial: OAK_LOG
+    damage: 0
+    display: Oak log
     category: Plant
-    type: BLOCK
-    blockData: minecraft:oak_wood
+    type: VANILLA
     collection:
-      A1: oak_log
-      A0: repeater_delay1_n
-      F1: chorus_plant
+      collection:
+      A1: repeater_delay1_n
+      A0: branch_1
       G2: tree_thin_oak_vertical
-      H2: vine
+      C3: vine
       I2: birch_leaves
       J1: jungle_leaves
       E0: repeater_delay1_w
       E1: oak_leaves
       D2: dark_oak_leaves
       C2: redstone_dust_power3_center
-      B2: oak_bark
+      B2: oak_log
       A4: birch_bark
       B4: spruce_bark
       C4: sapling_oak_stage0
-      F4: red_mushroom
-      G4: brown_mushroom
-  oak_log:
-    itemMaterial: OAK_LOG
-    damage: 0
-    display: Oak log [17:0]
-    type: VANILLA
-  chorus_plant:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 19
-    display: Medium oak log [199:0]
-    type: BLOCK
-    blockData: minecraft:chorus_plant[down=false,east=false,north=false,south=false,up=false,west=false]
+      D4: red_mushroom
+      E4: brown_mushroom
+      F4: trunk_branch_1
+      G4: trunk_branch_2
+      H4: trunk_branch_3
+      I4: trunk_branch_4
+      J4: trunk_branch_5
+      H2: thin_branch_1
   tree_thin_oak_vertical:
     itemMaterial: ACACIA_FENCE
     damage: 25
-    display: Thin oak log [192:0]
+    display: Thin oak log
     type: VANILLA
     blockData: minecraft:acacia_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+    collection:
+      indirect: oak_log
   brown_mushroom:
     itemMaterial: BROWN_MUSHROOM
     damage: 0
-    display: Brown mushroom [39:0]
+    display: Brown mushroom
     type: BLOCK
     blockData: minecraft:brown_mushroom
+    collection:
+      indirect: oak_log
   red_mushroom:
     itemMaterial: RED_MUSHROOM
     damage: 0
-    display: Red mushroom [40:0]
+    display: Red mushroom
     type: BLOCK
     blockData: minecraft:red_mushroom
+    collection:
+      indirect: oak_log
+  trunk_branch_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 387
+    display: Oak Trunk Branch One Side
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:note_block[instrument=snare,note=2]
+    blockDataWest: minecraft:note_block[instrument=snare,note=3]
+    blockDataNorth: minecraft:note_block[instrument=snare,note=0]
+    blockDataEast: minecraft:note_block[instrument=snare,note=1]
+    collection:
+      indirect: branch_1
+  trunk_branch_2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 388
+    display: Oak Trunk Branch Opposite Sides
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:note_block[instrument=snare,note=4]
+    blockDataWest: minecraft:note_block[instrument=snare,note=5]
+    blockDataNorth: minecraft:note_block[instrument=snare,note=4]
+    blockDataEast: minecraft:note_block[instrument=snare,note=5]
+    collection:
+      indirect: branch_1
+  trunk_branch_3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 389
+    display: Oak Trunk Branch Three Way
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:note_block[instrument=snare,note=11]
+    blockDataWest: minecraft:note_block[instrument=snare,note=8]
+    blockDataNorth: minecraft:note_block[instrument=snare,note=9]
+    blockDataEast: minecraft:note_block[instrument=snare,note=10]
+    collection:
+      indirect: branch_1
+  trunk_branch_4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 390
+    display: Oak Trunk Branch Four Way
+    type: BLOCK
+    blockData: minecraft:note_block[instrument=snare,note=12]
+    collection:
+      indirect: branch_1
+  trunk_branch_5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 399
+    display: Oak Trunk Branch Two Sides
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:note_block[instrument=snare,note=14]
+    blockDataWest: minecraft:note_block[instrument=snare,note=15]
+    blockDataNorth: minecraft:note_block[instrument=snare,note=16]
+    blockDataEast: minecraft:note_block[instrument=snare,note=13]
+    collection:
+      indirect: branch_1
+  branch_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 391
+    display: Oak Branch One Side
+    category: Plant
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:andesite_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:andesite_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=none]
+    blockDataNorth: minecraft:andesite_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataEast: minecraft:andesite_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=low]
+    collection:
+      A1: trunk_branch_1
+      B2: trunk_branch_2
+      C2: trunk_branch_3
+      D2: trunk_branch_4
+      A0: branch_1
+      F1: branch_2_r
+      F2: branch_2_l
+      G2: branch_3
+      H2: branch_4
+      I2: thin_branch_1
+      J1: thin_branch_2_right
+      J2: thin_branch_2_left
+      E0: thin_branch_3
+      E1: thin_branch_4
+      A4: trunk_branch_5
+      F4: thick_branch_vertical
+      H4: thick_branch_diagonal
+      I4: tiny_branch_diagonal
+  branch_2_r:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 392
+    display: Oak Branch Two Sides Right
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:andesite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:andesite_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataNorth: minecraft:andesite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataEast: minecraft:andesite_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    collection:
+      indirect: branch_1
+  branch_2_l:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 392
+    display: Oak Branch Two Sides Left
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:andesite_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataWest: minecraft:andesite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataNorth: minecraft:andesite_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataEast: minecraft:andesite_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    collection:
+      indirect: branch_1
+  branch_3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 393
+    display: Oak Branch Three Way
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:andesite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataWest: minecraft:andesite_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=none]
+    blockDataNorth: minecraft:andesite_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:andesite_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=low]
+    collection:
+      indirect: branch_1
+  branch_4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 394
+    display: Oak Branch Four Way
+    type: BLOCK
+    blockData: minecraft:andesite_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=low]
+    collection:
+      indirect: branch_1
+  thin_branch_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 395
+    display: Oak Thin Branch One Side
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:andesite_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:andesite_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=none]
+    blockDataNorth: minecraft:andesite_wall[east=none,north=none,south=tall,up=false,waterlogged=false,west=none]
+    blockDataEast: minecraft:andesite_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=tall]
+    collection:
+      indirect: branch_1
+  thin_branch_2_right:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 396
+    display: Oak Thin Branch Two Sides Right
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:andesite_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=tall]
+    blockDataWest: minecraft:andesite_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=none]
+    blockDataNorth: minecraft:andesite_wall[east=tall,north=none,south=tall,up=false,waterlogged=false,west=none]
+    blockDataEast: minecraft:andesite_wall[east=none,north=none,south=tall,up=false,waterlogged=false,west=tall]
+    collection:
+      indirect: branch_1
+  thin_branch_2_left:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 396
+    display: Oak Tiny Branch Two Sides Left
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:andesite_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=tall]
+    blockDataWest: minecraft:andesite_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=none]
+    blockDataNorth: minecraft:andesite_wall[east=tall,north=none,south=tall,up=false,waterlogged=false,west=none]
+    blockDataEast: minecraft:andesite_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=tall]
+    collection:
+      indirect: branch_1
+  thin_branch_3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 397
+    display: Oak Thin Branch Three Way
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:andesite_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=tall]
+    blockDataWest: minecraft:andesite_wall[east=tall,north=tall,south=tall,up=false,waterlogged=false,west=none]
+    blockDataNorth: minecraft:andesite_wall[east=tall,north=none,south=tall,up=false,waterlogged=false,west=tall]
+    blockDataEast: minecraft:andesite_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=tall]
+    collection:
+      indirect: branch_1
+  thin_branch_4:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 398
+    display: Oak Thin Branch Four Way
+    type: BLOCK
+    blockData: minecraft:andesite_wall[east=tall,north=tall,south=tall,up=false,waterlogged=false,west=tall]
+    collection:
+      indirect: branch_1
+  thick_branch_vertical:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 400
+    display: Oak Branch Vertical
+    type: BLOCK
+    blockData: minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: branch_1
+  thick_branch_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 405
+    display: Oak Branch V
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:andesite_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=low]
+    blockDataWest: minecraft:andesite_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=none]
+    blockDataNorth: minecraft:andesite_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:andesite_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=none]
+    collection:
+      indirect: branch_1
+  tiny_branch_diagonal:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 403
+    display: Oak Tiny Branch V
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:andesite_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=tall]
+    blockDataWest: minecraft:andesite_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]
+    blockDataNorth: minecraft:andesite_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=tall]
+    blockDataEast: minecraft:andesite_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]
+    collection:
+      indirect: branch_1
   spruce_bark:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 15
-    display: Spruce log all-bark [17:13]
+    display: Spruce Bark
     category: Plant
     type: BLOCK
     blockData: minecraft:spruce_wood
@@ -77,48 +281,62 @@ Items:
   spruce_log:
     itemMaterial: SPRUCE_LOG
     damage: 1
-    display: Spruce log [17:1]
+    display: Spruce Log
     type: VANILLA
+    collection:
+      indirect: spruce_bark
   cactus_stage10:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 20
-    display: Medium spruce log Y [81:10]
+    display: Medium Spruce log Y
     type: BLOCK
     blockData: minecraft:cactus[age=10]
+    collection:
+      indirect: spruce_bark
   cactus_stage11:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 21
-    display: Medium spruce log X [81:11]
+    display: Medium Spruce log X
     type: BLOCK
     blockData: minecraft:cactus[age=11]
+    collection:
+      indirect: spruce_bark
   cactus_stage12:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 22
-    display: Medium spruce log Z [81:12]
+    display: Medium Spruce log Z
     type: BLOCK
     blockData: minecraft:cactus[age=12]
+    collection:
+      indirect: spruce_bark
   cactus_stage13:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 23
-    display: Medium spruce log cross [81:13]
+    display: Medium Spruce Log Cross
     type: BLOCK
     blockData: minecraft:cactus[age=13]
+    collection:
+      indirect: spruce_bark
   cactus_stage14:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 24
-    display: Medium spruce log cross flat [81:14]
+    display: Medium Spruce Log Cross Flat
     type: BLOCK
     blockData: minecraft:cactus[age=14]
+    collection:
+      indirect: spruce_bark
   tree_thin_spruce_vertical:
     itemMaterial: DARK_OAK_FENCE
     damage: 26
-    display: Thin spruce log [191:0]
+    display: Thin Spruce Log
     type: VANILLA
     blockData: minecraft:dark_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+    collection:
+      indirect: spruce_bark
   birch_bark:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 16
-    display: Birch log all-bark [17:14]
+    display: Birch Bark
     category: Plant
     type: BLOCK
     blockData: minecraft:birch_wood
@@ -128,40 +346,33 @@ Items:
       F1: acacia_log
       G2: acacia_bark
       H2: jungle_leaves
-      I2: reg_log
+      I2: red_log
       J1: grey_log
       E0: birch_leaves
       E1: birch_log
       D2: mossy_birch_log
       C2: dark_oak_leaves
-      B2: jungle_bark
-      F4: birch_log
       A4: oak_bark
       B4: spruce_bark
       C4: fern
   jungle_log:
     itemMaterial: JUNGLE_LOG
     damage: 3
-    display: Jungle log [17:3]
+    display: Jungle Log
     type: VANILLA
+    collection:
+      indirect: brich_bark
   acacia_log:
     itemMaterial: ACACIA_LOG
     damage: 0
-    display: Acacia log [162:0]
+    display: Acacia Log
     type: VANILLA
-  jungle_bark:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 17
-    display: Jungle log all-bark [17:15]
-    category: Plant
-    type: BLOCK
-    blockData: minecraft:jungle_wood
     collection:
-      indirect: birch_bark
+      indirect: spruce_bark
   acacia_bark:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 18
-    display: Acacia log all-bark [162:12]
+    display: Acacia Bark
     category: Plant
     type: BLOCK
     blockData: minecraft:acacia_wood
@@ -170,7 +381,7 @@ Items:
   grey_log:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 350
-    display: Grey Log [99:0]
+    display: Grey Log
     category: Plant
     type: BLOCK
     blockData: minecraft:stripped_spruce_wood[axis=x]
@@ -179,7 +390,7 @@ Items:
   birch_log:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 351
-    display: Birch Log [99:1]
+    display: Birch Log
     category: Plant
     type: BLOCK
     blockData: minecraft:stripped_oak_wood[axis=x]
@@ -188,19 +399,23 @@ Items:
   mossy_birch_log:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 352
-    display: Mossy Birch Log [99:2]
+    display: Mossy Birch Log
     type: BLOCK
     blockData: minecraft:stripped_oak_wood[axis=y]
-  reg_log:
+    collection:
+      indirect: brich_bark
+  red_log:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 354
-    display: Red Log [99:4]
+    display: Red Log
     type: BLOCK
     blockData: minecraft:stripped_birch_wood[axis=x]
+    collection:
+      indirect: brich_bark
   oak_leaves:
     itemMaterial: OAK_LEAVES
     damage: 0
-    display: Oak leaves [18:0]
+    display: Oak Leaves
     category: Plant
     blockData: minecraft:oak_leaves[distance=7,persistent=false]
     type: BLOCK
@@ -209,7 +424,7 @@ Items:
   spruce_leaves:
     itemMaterial: SPRUCE_LEAVES
     damage: 1
-    display: Spruce leaves [18:1]
+    display: Spruce Leaves
     category: Plant
     blockData: minecraft:spruce_leaves[distance=7,persistent=false]
     type: BLOCK
@@ -218,7 +433,7 @@ Items:
   birch_leaves:
     itemMaterial: BIRCH_LEAVES
     damage: 2
-    display: Birch leaves [18:2]
+    display: Birch Leaves
     category: Plant
     blockData: minecraft:birch_leaves[distance=7,persistent=false]
     type: BLOCK
@@ -227,8 +442,7 @@ Items:
   jungle_leaves:
     itemMaterial: JUNGLE_LEAVES
     damage: 3
-    display: Jungle leaves [18:3]
-    category: Plant
+    display: Jungle Leaves
     blockData: minecraft:jungle_leaves[distance=7,persistent=false]
     type: BLOCK
     collection:
@@ -236,7 +450,7 @@ Items:
   dark_oak_leaves:
     itemMaterial: DARK_OAK_LEAVES
     damage: 1
-    display: Dark oak leaves [18:5]
+    display: Dark Oak Leaves
     category: Plant
     blockData: minecraft:dark_oak_leaves[distance=7,persistent=false]
     type: BLOCK
@@ -245,7 +459,7 @@ Items:
   vine:
     itemMaterial: VINE
     damage: 0
-    display: Vines [106:0]
+    display: Vines
     category: Plant
     type: VANILLA
     collection:
@@ -253,7 +467,7 @@ Items:
   repeater_delay1_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 183
-    display: Forest ground [93:1]
+    display: Forest Ground Moss
     category: Plant
     type: BLOCK
     blockData: minecraft:repeater[delay=1,facing=west,locked=false,powered=false]
@@ -262,7 +476,7 @@ Items:
   repeater_delay1_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 184
-    display: Forest ground [93:2]
+    display: Forest Ground Leafs
     category: Plant
     type: BLOCK
     blockData: minecraft:repeater[delay=1,facing=north,locked=false,powered=false]
@@ -271,7 +485,7 @@ Items:
   repeater_delay1_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 185
-    display: Forest ground [93:3]
+    display: Forest Ground Pine Needles
     category: Plant
     type: BLOCK
     blockData: minecraft:repeater[delay=1,facing=east,locked=false,powered=false]
@@ -280,19 +494,19 @@ Items:
   redstone_dust_power3_center:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 157
-    display: Moss cover [55:3]
+    display: Moss Cover
     category: Plant
     type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=3,south=none,west=none]
+    blockData: minecraft:redstone_wire[power=3]
     collection:
       indirect: oak_bark
   redstone_dust_power6_center:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 361
-    display: Algea
+    display: Algae
     category: Plant
-    type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=6,south=none,west=none]
+    type: BLOCK_ON_WATER
+    blockData: minecraft:redstone_wire[power=6]
     collection:
       indirect: waterlily
   redstone_dust_power7_center:
@@ -301,13 +515,13 @@ Items:
     display: Amphibious Bistort
     category: Plant
     type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=7,south=none,west=none]
+    blockData: minecraft:redstone_wire[power=7]
     collection:
       indirect: waterlily
   sapling_oak_stage0:
     itemMaterial: OAK_SAPLING
     damage: 0
-    display: Oak sapling [6:0]
+    display: Oak Sapling
     category: Plant
     type: BLOCK
     blockData: minecraft:oak_sapling[stage=0]
@@ -316,7 +530,7 @@ Items:
   spruce_sapling_stage0:
     itemMaterial: SPRUCE_SAPLING
     damage: 1
-    display: Spruce sapling [6:1]
+    display: Spruce Sapling
     category: Plant
     type: BLOCK
     blockData: minecraft:spruce_sapling[stage=0]
@@ -325,31 +539,39 @@ Items:
   birch_sapling_stage0:
     itemMaterial: BIRCH_SAPLING
     damage: 2
-    display: Birch sapling [6:2]
+    display: Birch Sapling
     type: BLOCK
     blockData: minecraft:birch_sapling[stage=0]
+    collection:
+      indirect: fern
   jungle_sapling_stage0:
     itemMaterial: JUNGLE_SAPLING
     damage: 3
-    display: Jungle sapling [6:3]
+    display: Jungle Sapling
     type: BLOCK
     blockData: minecraft:jungle_sapling[stage=0]
+    collection:
+      indirect: fern
   acacia_sapling_stage0:
     itemMaterial: ACACIA_SAPLING
     damage: 4
-    display: Acacia sapling [6:4]
+    display: Acacia Sapling
     type: BLOCK
     blockData: minecraft:acacia_sapling[stage=0]
+    collection:
+      indirect: fern
   dark_oak_sapling_stage0:
     itemMaterial: DARK_OAK_SAPLING
     damage: 5
-    display: Dark oak sapling [6:5]
+    display: Dark Oak Sapling
     type: BLOCK
     blockData: minecraft:dark_oak_sapling[stage=0]
+    collection:
+      indirect: fern
   fern:
     itemMaterial: FERN
     damage: 2
-    display: Fern [31:2]
+    display: Fern
     category: Plant
     type: BLOCK
     blockData: minecraft:fern
@@ -368,13 +590,15 @@ Items:
   dandelion:
     itemMaterial: DANDELION
     damage: 0
-    display: Buttercup [37:0]
+    display: Buttercup
     type: BLOCK
     blockData: minecraft:dandelion
+    collection:
+      indirect: fern
   poppy:
     itemMaterial: POPPY
     damage: 0
-    display: Poppy [38:0]
+    display: Poppy
     category: Plant
     type: BLOCK
     blockData: minecraft:poppy
@@ -403,61 +627,80 @@ Items:
   blue_orchid:
     itemMaterial: BLUE_ORCHID
     damage: 1
-    display: Cornflower [38:1]
+    display: Cornflower
     type: BLOCK
     blockData: minecraft:blue_orchid
+    collection: 
+      indirect: poppy
   allium:
     itemMaterial: ALLIUM
     damage: 2
-    display: Camellia [38:2]
+    display: Camellia
     type: BLOCK
     blockData: minecraft:allium
-  houstonia:
-    itemMaterial: AZURE_BLUET
-    damage: 3
-    display: White lily [38:3]
-    category: Plant
-    type: BLOCK
-    blockData: minecraft:azure_bluet
-    collection:
+    collection: 
       indirect: poppy
   red_tulip:
     itemMaterial: RED_TULIP
     damage: 4
-    display: Snapdragon [38:4]
+    display: Snapdragon
     type: BLOCK
     blockData: minecraft:red_tulip
+    collection: 
+      indirect: poppy
   orange_tulip:
     itemMaterial: ORANGE_TULIP
     damage: 5
-    display: Marigold [38:5]
+    display: Marigold
     category: Plant
     type: BLOCK
     blockData: minecraft:orange_tulip
     collection:
       indirect: poppy
+  houstonia:
+    itemMaterial: AZURE_BLUET
+    damage: 3
+    display: White lily
+    type: BLOCK
+    blockData: minecraft:azure_bluet
+    collection:
+      indirect: poppy
+  acacia_sapling_stage1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 9
+    display: Daffodil
+    type: BLOCK
+    blockData: minecraft:acacia_sapling[stage=1]
+    collection:
+      indirect: poppy
   white_tulip:
     itemMaterial: WHITE_TULIP
     damage: 6
-    display: Alfirin [38:6]
+    display: Alfirin
     type: BLOCK
     blockData: minecraft:white_tulip
+    collection: 
+      indirect: poppy
   pink_tulip:
     itemMaterial: PINK_TULIP
     damage: 7
-    display: Pink flowered bush [38:7]
+    display: Pink Flowered Bush
     type: BLOCK
     blockData: minecraft:pink_tulip
+    collection: 
+      indirect: poppy
   oxeye_daisy:
     itemMaterial: OXEYE_DAISY
     damage: 8
-    display: Daisy [38:8]
+    display: Daisy
     type: BLOCK
     blockData: minecraft:oxeye_daisy
+    collection: 
+      indirect: poppy
   oak_sapling_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 5
-    display: Athelas [6:8]
+    display: Athelas
     category: Plant
     type: BLOCK
     blockData: minecraft:oak_sapling[stage=1]
@@ -466,37 +709,32 @@ Items:
   spruce_sapling_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 6
-    display: Red iris [6:9]
+    display: Red Iris
     type: BLOCK
     blockData: minecraft:spruce_sapling[stage=1]
+    collection: 
+      indirect: poppy
   birch_sapling_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 7
-    display: Violet iris [6:10]
+    display: Violet Iris
     type: BLOCK
     blockData: minecraft:birch_sapling[stage=1]
+    collection: 
+      indirect: poppy
   jungle_sapling_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 8
-    display: Blue orchid [6:11]
+    display: Blue Orchid
     category: Plant
     type: BLOCK
     blockData: minecraft:jungle_sapling[stage=1]
     collection:
       indirect: poppy
-  acacia_sapling_stage1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 9
-    display: Daffodil [6:12]
-    category: Plant
-    type: BLOCK
-    blockData: minecraft:acacia_sapling[stage=1]
-    collection:
-      indirect: poppy
   dark_oak_sapling_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 10
-    display: Red bush [6:13]
+    display: Red Bush
     category: Plant
     type: BLOCK
     blockData: minecraft:dark_oak_sapling[stage=1]
@@ -505,9 +743,11 @@ Items:
   nether_wart_stage2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 11
-    display: Heather [115:2]
+    display: Heather
     type: BLOCK
     blockData: minecraft:nether_wart[age=2]
+    collection: 
+      indirect: poppy
   double_rose_bottom:
     lowerMaterial: ROSE_BUSH
     upperMaterial: ROSE_BUSH
@@ -515,7 +755,7 @@ Items:
     upperDataValue: 12
     itemMaterial: ROSE_BUSH
     damage: 4
-    display: Rose bush [175:4]
+    display: Rose Bush 
     category: Plant
     type: DOUBLE_Y_BLOCK
     blockDataLower: minecraft:rose_bush[half=lower]
@@ -529,95 +769,106 @@ Items:
     upperDataValue: 13
     itemMaterial: PEONY
     damage: 5
-    display: Lavender [175:5]
+    display: Lavender
     category: Plant
     type: DOUBLE_Y_BLOCK
     blockDataLower: minecraft:peony[half=lower]
     blockDataUpper: minecraft:peony[half=upper]
     collection:
       indirect: poppy
+
   # aquatic vegetation collection
   waterlily:
     itemMaterial: LILY_PAD
     damage: 0
-    display: Lilypad [111:0]
+    display: Lilypad
     category: Plant
-    type: BLOCK
+    type: BLOCK_ON_WATER
     blockData: minecraft:lily_pad
     collection:
-      A1: reeds #
-      F1: tube_coral #
-      G2: bubble_coral # 
-      H2: redstone_dust_power7_center #
-      I2: brain_coral #
-      J1: dead_brain_coral #
-      E1: dead_bubble_coral #
-      D2: double_syringa_top #
-      C2: redstone_dust_power6_center #
+      A1: reeds 
+      F1: tube_coral
+      G2: bubble_coral 
+      H2: redstone_dust_power7_center 
+      I2: brain_coral 
+      J1: dead_brain_coral 
+      E1: dead_bubble_coral 
+      D2: double_syringa_top 
+      C2: redstone_dust_power6_center 
       B2: horn_coral 
       B4: horn_coral2
       C4: fern
-      D4: double_syringa_top2 #
-      E4: dead_bubble_coral2 #
-      F4: tube_coral2 #
-      G4: bubble_coral2 #
+      D4: double_syringa_top2 
+      E4: dead_bubble_coral2 
+      F4: tube_coral2 
+      G4: bubble_coral2 
       H4: dead_bush 
-      I4: brain_coral2 #
-      J4: dead_brain_coral2 #
+      I4: brain_coral2 
+      J4: dead_brain_coral2 
   reeds:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 13
-    display: Reeds [83:0]
+    display: Reeds
     category: Plant
     type: BLOCK
     blockData: minecraft:sugar_cane[age=0]
     collection:
       indirect: waterlily
-  tube_coral:
-    itemMaterial: TUBE_CORAL
+  bubble_coral2:
+    itemMaterial: BUBBLE_CORAL
     damage: 0
-    display: Grass Blades High
+    display: Rushes
     category: Plant
-    type: UPSHIFT
-    blockData: minecraft:tube_coral[waterlogged=false]
-    nextBlock: tube_coral2
+    type: BLOCK
+    blockData: minecraft:bubble_coral[waterlogged=false]
+    nextBlock: bubble_coral3
     collection:
       indirect: waterlily
-  brain_coral:
-    itemMaterial: BRAIN_CORAL
-    damage: 0
-    display: Stackable Reeds High
-    category: Plant
-    type: UPSHIFT
-    blockData: minecraft:brain_coral[waterlogged=false]
-    nextBlock: brain_coral2
-    collection:
-      indirect: waterlily
-  dead_brain_coral:
-    itemMaterial: DEAD_BRAIN_CORAL
-    damage: 0
-    display: Reed Canary Grass High
-    category: Plant
-    type: UPSHIFT
-    blockData: minecraft:dead_brain_coral[waterlogged=false]
-    nextBlock: dead_brain_coral2
-    collection:
-      indirect: waterlily
-  double_syringa_top:
+  double_syringa_top2:
     itemMaterial: LILAC
     damage: 1
-    display: Tall Reeds High [175:1]
+    display: Tall Reeds
     category: Plant
-    type: UPSHIFT
-    blockData: minecraft:lilac[half=lower]
-    nextBlock: double_syringa_top2
-    collection: 
+    type: BLOCK
+    blockData: minecraft:lilac[half=upper]
+    nextBlock: double_syringa_top
+    collection:
       indirect: waterlily
+  tube_coral2:
+    itemMaterial: TUBE_CORAL
+    damage: 0
+    display: Grass Blades
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:tube_coral[waterlogged=false]
+    nextBlock: tube_coral3
+    collection:
+      indirect: waterlily
+  brain_coral2:
+    itemMaterial: BRAIN_CORAL
+    damage: 0
+    display: Stackable Reeds
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:brain_coral[waterlogged=false]
+    nextBlock: brain_coral3
+    collection:
+      indirect: waterlily
+  dead_brain_coral2:
+    itemMaterial: DEAD_BRAIN_CORAL
+    damage: 0
+    display: Reed Canary Grass
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dead_brain_coral[waterlogged=false]
+    nextBlock: dead_brain_coral3
+    collection:
+      indirect: waterlily
+
   horn_coral:
     itemMaterial: HORN_CORAL
     damage: 0
     display: Dry Grass High
-    category: Plant
     type: UPSHIFT
     blockData: minecraft:horn_coral[waterlogged=false]
     nextBlock: horn_coral2
@@ -637,14 +888,97 @@ Items:
       E4: dead_fire_coral2 
       F4: horn_coral2 
       G4: dead_bush2 
-      H4: waterlily 
+      C2: waterlily
+      H2: dead_tube_coral
+      H4: dead_tube_coral2
       I4: dead_horn_coral2 
-      J4: nether_wart_stage3_2 
+      J4: nether_wart_stage3_2
+  dead_fire_coral2:
+    itemMaterial: DEAD_FIRE_CORAL
+    damage: 0
+    display: Common Valerian / Hemlock
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dead_fire_coral[waterlogged=false]
+    nextBlock: dead_fire_coral3
+    collection:
+      indirect: horn_coral
+  horn_coral2:
+    itemMaterial: HORN_CORAL
+    damage: 0
+    display: Dry Grass
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:horn_coral[waterlogged=false]
+    nextBlock: horn_coral3
+    collection:
+      indirect: horn_coral
+  dead_tube_coral:
+    itemMaterial: DEAD_TUBE_CORAL
+    damage: 0
+    display: Dry Vegetation
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dead_tube_coral[waterlogged=false]
+    nextBlock: dead_tube_coral2
+    collection:
+      indirect: horn_coral
+  fire_coral2:
+    itemMaterial: FIRE_CORAL
+    damage: 0
+    display: Great Willowherb
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:fire_coral[waterlogged=false]
+    nextBlock: fire_coral3
+    collection:
+      indirect: horn_coral
+  dead_horn_coral2:
+    itemMaterial: DEAD_HORN_CORAL
+    damage: 0
+    display: Nettles
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dead_horn_coral[waterlogged=false]
+    nextBlock: dead_horn_coral3
+    collection:
+      indirect: horn_coral
+  tall_grass2:
+    itemMaterial: GRASS
+    damage: 0
+    display: Tallgrass
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:grass
+    nextBlock: tall_grass
+    collection:
+      indirect: horn_coral
+  dead_bush2:
+    itemMaterial: DEAD_BUSH
+    damage: 0
+    display: Mixed Grass
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:dead_bush
+    nextBlock: dead_bush
+    collection:
+      indirect: horn_coral
+  nether_wart_stage3_2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 12
+    display: Green Bush
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:nether_wart[age=3]
+    nextBlock: nether_wart_stage3
+    collection:
+      indirect: horn_coral
+
+  # inside collections
   fire_coral:
     itemMaterial: FIRE_CORAL
     damage: 0
     display: Great Willowherb High
-    category: Plant
     type: UPSHIFT
     blockData: minecraft:fire_coral[waterlogged=false]
     nextBlock: fire_coral2
@@ -654,7 +988,6 @@ Items:
     itemMaterial: DEAD_FIRE_CORAL
     damage: 0
     display: Common Valerian / Hemlock High
-    category: Plant
     type: UPSHIFT
     blockData: minecraft:dead_fire_coral[waterlogged=false]
     nextBlock: dead_fire_coral2
@@ -663,8 +996,7 @@ Items:
   nether_wart_stage3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 12
-    display: Green bush High [115:3]
-    category: Plant
+    display: Green bush High
     type: UPSHIFT
     blockData: minecraft:nether_wart[age=3]
     nextBlock: nether_wart_stage3_2
@@ -673,8 +1005,7 @@ Items:
   tall_grass:
     itemMaterial: GRASS
     damage: 0
-    display: Tallgrass High [31:1]
-    category: Plant
+    display: Tallgrass High
     type: UPSHIFT
     blockData: minecraft:grass
     nextBlock: tall_grass2
@@ -683,71 +1014,21 @@ Items:
   dead_bush:
     itemMaterial: DEAD_BUSH
     damage: 0
-    display: Mixed grass High [32:0]
-    category: Plant
+    display: Mixed grass High
     type: UPSHIFT
     blockData: minecraft:dead_bush
     nextBlock: dead_bush2
     collection:
       indirect: horn_coral
-
-  # inside collections
-  dead_fire_coral2:
-    itemMaterial: DEAD_FIRE_CORAL
-    damage: 0
-    display: Common Valerian / Hemlock
-    type: BLOCK
-    blockData: minecraft:dead_fire_coral[waterlogged=false]
-    nextBlock: dead_fire_coral3
-  horn_coral2:
-    itemMaterial: HORN_CORAL
-    damage: 0
-    display: Dry Grass
-    type: BLOCK
-    blockData: minecraft:horn_coral[waterlogged=false]
-    nextBlock: horn_coral3
-  fire_coral2:
-    itemMaterial: FIRE_CORAL
-    damage: 0
-    display: Great Willowherb
-    type: BLOCK
-    blockData: minecraft:fire_coral[waterlogged=false]
-    nextBlock: fire_coral3
-  dead_horn_coral2:
-    itemMaterial: DEAD_HORN_CORAL
-    damage: 0
-    display: Nettles
-    type: BLOCK
-    blockData: minecraft:dead_horn_coral[waterlogged=false]
-    nextBlock: dead_horn_coral3
-  tall_grass2:
-    itemMaterial: GRASS
-    damage: 0
-    display: Tallgrass [31:1]
-    type: BLOCK
-    blockData: minecraft:grass
-    nextBlock: tall_grass
   double_grass_bottom2:
     itemMaterial: TALL_GRASS
     damage: 2
-    display: Double Tall Grass [175:2]
+    display: Double Tall Grass
     type: BLOCK
-    blockData: minecraft:tall_grass
+    blockData: minecraft:tall_grass[half=upper]
     nextBlock: double_grass_bottom
-  dead_bush2:
-    itemMaterial: DEAD_BUSH
-    damage: 0
-    display: Mixed grass [32:0]
-    type: BLOCK
-    blockData: minecraft:dead_bush
-    nextBlock: dead_bush
-  nether_wart_stage3_2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 12
-    display: Green bush [115:3]
-    type: BLOCK
-    blockData: minecraft:nether_wart[age=3]
-    nextBlock: nether_wart_stage3
+    collection:
+      indirect: horn_coral
   dead_horn_coral:
     itemMaterial: DEAD_HORN_CORAL
     damage: 0
@@ -755,13 +1036,26 @@ Items:
     type: UPSHIFT
     blockData: minecraft:dead_horn_coral[waterlogged=false]
     nextBlock: dead_horn_coral2
+    collection:
+      indirect: horn_coral
   double_grass_bottom:
     itemMaterial: TALL_GRASS
     damage: 2
-    display: Double Tall Grass High [175:2]
+    display: Double Tall Grass High
     type: UPSHIFT
     blockData: minecraft:tall_grass
     nextBlock: double_grass_bottom2
+    collection:
+      indirect: horn_coral
+  dead_tube_coral2:
+    itemMaterial: DEAD_TUBE_CORAL
+    damage: 0
+    display: Hight Dry vegetation
+    type: UPSHIFT
+    blockData: minecraft:dead_tube_coral[waterlogged=false]
+    nextBlock: dead_tube_coral3
+    collection:
+      indirect: horn_coral
 
   # q cycle blocks
   horn_coral3:
@@ -770,25 +1064,78 @@ Items:
     display: Vanilla Dry Grass
     type: VANILLA
     nextBlock: horn_coral
+    collection:
+      indirect: horn_coral
   fire_coral3:
     itemMaterial: FIRE_CORAL
     damage: 0
     display: Vanilla Great Willowherb
     type: VANILLA
     nextBlock: fire_coral
+    collection:
+      indirect: horn_coral
   dead_horn_coral3:
     itemMaterial: DEAD_HORN_CORAL
     damage: 0
     display: Vanilla Nettles
     type: VANILLA
     nextBlock: dead_horn_coral
+    collection:
+      indirect: horn_coral
   dead_fire_coral3:
     itemMaterial: DEAD_FIRE_CORAL
     damage: 0
     display: Vanilla Common Valerian / Hemlock
     type: VANILLA
     nextBlock: dead_fire_coral
+    collection:
+      indirect: horn_coral
+  dead_tube_coral3:
+    itemMaterial: DEAD_TUBE_CORAL
+    damage: 0
+    display: Vanilla Dry vegetation
+    type: VANILLA
+    nextBlock: dead_tube_coral
+    collection:
+      indirect: horn_coral
+
   # inside collections
+  tube_coral:
+    itemMaterial: TUBE_CORAL
+    damage: 0
+    display: Grass Blades High
+    type: UPSHIFT
+    blockData: minecraft:tube_coral[waterlogged=false]
+    nextBlock: tube_coral2
+    collection:
+      indirect: waterlily
+  brain_coral:
+    itemMaterial: BRAIN_CORAL
+    damage: 0
+    display: Stackable Reeds High
+    type: UPSHIFT
+    blockData: minecraft:brain_coral[waterlogged=false]
+    nextBlock: brain_coral2
+    collection:
+      indirect: waterlily
+  dead_brain_coral:
+    itemMaterial: DEAD_BRAIN_CORAL
+    damage: 0
+    display: Reed Canary Grass High
+    type: UPSHIFT
+    blockData: minecraft:dead_brain_coral[waterlogged=false]
+    nextBlock: dead_brain_coral2
+    collection:
+      indirect: waterlily
+  double_syringa_top:
+    itemMaterial: LILAC
+    damage: 1
+    display: Tall Reeds High
+    type: UPSHIFT
+    blockData: minecraft:lilac[half=lower]
+    nextBlock: double_syringa_top2
+    collection: 
+      indirect: waterlily
   bubble_coral:
     itemMaterial: BUBBLE_CORAL
     damage: 0
@@ -796,6 +1143,8 @@ Items:
     type: UPSHIFT
     blockData: minecraft:bubble_coral[waterlogged=false]
     nextBlock: bubble_coral2
+    collection:
+      indirect: waterlily
   dead_bubble_coral:
     itemMaterial: DEAD_BUBBLE_CORAL
     damage: 0
@@ -803,13 +1152,8 @@ Items:
     type: UPSHIFT
     blockData: minecraft:dead_bubble_coral[waterlogged=false]
     nextBlock: dead_bubble_coral2
-  double_syringa_top2:
-    itemMaterial: LILAC
-    damage: 1
-    display: Tall Reeds [175:1]
-    type: BLOCK
-    blockData: minecraft:lilac[half=lower]
-    nextBlock: double_syringa_top
+    collection:
+      indirect: waterlily
   dead_bubble_coral2:
     itemMaterial: DEAD_BUBBLE_CORAL
     damage: 0
@@ -817,34 +1161,8 @@ Items:
     type: BLOCK
     blockData: minecraft:dead_bubble_coral[waterlogged=false]
     nextBlock: dead_bubble_coral3
-  tube_coral2:
-    itemMaterial: TUBE_CORAL
-    damage: 0
-    display: Grass Blades
-    type: BLOCK
-    blockData: minecraft:tube_coral[waterlogged=false]
-    nextBlock: tube_coral3
-  bubble_coral2:
-    itemMaterial: BUBBLE_CORAL
-    damage: 0
-    display: Rushes
-    type: BLOCK
-    blockData: minecraft:bubble_coral[waterlogged=false]
-    nextBlock: bubble_coral3
-  brain_coral2:
-    itemMaterial: BRAIN_CORAL
-    damage: 0
-    display: Stackable Reeds
-    type: BLOCK
-    blockData: minecraft:brain_coral[waterlogged=false]
-    nextBlock: brain_coral3
-  dead_brain_coral2:
-    itemMaterial: DEAD_BRAIN_CORAL
-    damage: 0
-    display: Reed Canary Grass
-    type: BLOCK
-    blockData: minecraft:dead_brain_coral[waterlogged=false]
-    nextBlock: dead_brain_coral3
+    collection:
+      indirect: waterlily
 
   # q cycle blocks
   tube_coral3:
@@ -853,30 +1171,40 @@ Items:
     display: Vanilla Grass Blades
     type: VANILLA
     nextBlock: tube_coral
+    collection:
+      indirect: waterlily
   bubble_coral3:
     itemMaterial: BUBBLE_CORAL
     damage: 0
     display: Vanilla Rushes
     type: VANILLA
     nextBlock: bubble_coral
+    collection:
+      indirect: waterlily
   brain_coral3:
     itemMaterial: BRAIN_CORAL
     damage: 0
     display: Vanilla Stackable Reeds
     type: VANILLA
     nextBlock: brain_coral
+    collection:
+      indirect: waterlily
   dead_brain_coral3:
     itemMaterial: DEAD_BRAIN_CORAL
     damage: 0
     display: Vanilla Reed Canary Grass
     type: VANILLA
     nextBlock: dead_brain_coral
+    collection:
+      indirect: waterlily
   dead_bubble_coral3:
     itemMaterial: DEAD_BUBBLE_CORAL
     damage: 0
     display: Vanilla Reed Sweet Grass
     type: VANILLA
     nextBlock: dead_bubble_coral
+    collection:
+      indirect: waterlily
   cactus_stage0:
     itemMaterial: CACTUS
     damage: 0
@@ -884,4 +1212,3 @@ Items:
     category: Plant
     type: BLOCK
     blockData: minecraft:cactus[age=0]
-

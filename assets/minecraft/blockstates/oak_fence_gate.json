@@ -211,11 +211,28 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
+      "apply": [{
         "model": "block/oak_fence_gate_powered_closed",
         "uvlock": true
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_2",
+        "uvlock": true
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_3",
+        "uvlock": true
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_4",
+        "uvlock": true
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_5",
+        "uvlock": true
       }
-    },
+    ]
+	},
     {
       "when": {
         "facing": "west",
@@ -223,11 +240,32 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
+      "apply": [{
         "model": "block/oak_fence_gate_powered_closed",
         "uvlock": true,
         "y": 90
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_2",
+        "uvlock": true,
+        "y": 90
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_3",
+        "uvlock": true,
+        "y": 90
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_4",
+        "uvlock": true,
+        "y": 90
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_5",
+        "uvlock": true,
+        "y": 90
       }
+	]
     },
     {
       "when": {
@@ -236,11 +274,32 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
+      "apply": [{
         "model": "block/oak_fence_gate_powered_closed",
         "uvlock": true,
         "y": 180
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_2",
+        "uvlock": true,
+        "y": 180
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_3",
+        "uvlock": true,
+        "y": 180
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_4",
+        "uvlock": true,
+        "y": 180
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_5",
+        "uvlock": true,
+        "y": 180
       }
+	]
     },
     {
       "when": {
@@ -249,11 +308,32 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
+      "apply": [{
         "model": "block/oak_fence_gate_powered_closed",
         "uvlock": true,
         "y": 270
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_2",
+        "uvlock": true,
+        "y": 270
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_3",
+        "uvlock": true,
+        "y": 270
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_4",
+        "uvlock": true,
+        "y": 270
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_5",
+        "uvlock": true,
+        "y": 270
       }
+	]
     },
     {
       "when": {

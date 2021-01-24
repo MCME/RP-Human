@@ -765,7 +765,7 @@
         "damage": 0.21976
       },
       "name": 109,
-      "model": "block/farmland_moisture4"
+      "model": "block/big_barrel"
     },
     {
       "predicate": {
@@ -1388,7 +1388,7 @@
         "damage": 0.39919
       },
       "name": 198,
-      "model": "block/powered_repeater_delay1_s"
+      "model": "block/"
     },
     {
       "predicate": {
@@ -1416,7 +1416,7 @@
         "damage": 0.40726
       },
       "name": 202,
-      "model": "block/powered_repeater_delay2_s"
+      "model": "block/"
     },
     {
       "predicate": {
@@ -1983,7 +1983,7 @@
         "damage": 0.57056
       },
       "name": 283,
-      "model": "block/acacia_fence_gate_closed_ne"
+      "model": "block/"
     },
     {
       "predicate": {
@@ -2586,6 +2586,252 @@
       },
       "name": 369,
       "model": "block/note_block_19"
-    }
+    },
+	{
+      "predicate": {
+        "damage": 0.74597
+      },
+      "name": 370,
+      "model": "block/red_mushroom_block_nwu"
+    },
+	{
+      "predicate": {
+        "damage": 0.74798
+      },
+      "name": 371,
+      "model": "block/red_mushroom_block_nw"
+    },
+	{
+      "predicate": {
+        "damage": 0.75000
+      },
+      "name": 372,
+      "model": "block/red_mushroom_block_n"
+    },
+	{
+      "predicate": {
+        "damage": 0.75201
+      },
+      "name": 373,
+      "model": "block/red_mushroom_block_nu"
+    },
+	{
+      "predicate": {
+        "damage": 0.75403
+      },
+      "name": 374,
+      "model": "block/red_mushroom_block_eswu"
+    },
+	{
+      "predicate": {
+        "damage": 0.75605
+      },
+      "name": 375,
+      "model": "block/grass_slab_inventory"
+    },
+	{
+      "predicate": {
+        "damage": 0.75807
+      },
+      "name": 376,
+      "model": "block/vertical_slab_red_mushroom_block_newud"
+	},
+	{
+      "predicate": {
+        "damage": 0.76008
+      },
+      "name": 377,
+      "model": "block/vertical_slab_red_mushroom_block_new"
+	  },
+	{
+      "predicate": {
+        "damage": 0.76210
+      },
+      "name": 378,
+      "model": "block/vertical_slab_red_mushroom_block_neud"
+	  },
+	{
+      "predicate": {
+        "damage": 0.76411
+      },
+      "name": 379,
+      "model": "block/vertical_slab_red_mushroom_block_newd"
+	  },
+	{
+      "predicate": {
+        "damage": 0.76613
+      },
+      "name": 380,
+      "model": "block/vertical_slab_red_mushroom_block_nwud"
+	  },
+	{
+      "predicate": {
+        "damage": 0.76815
+      },
+      "name": 381,
+      "model": "block/vertical_slab_double_slab_mossy_stone_brick"
+	  },
+	{
+      "predicate": {
+        "damage": 0.77016
+      },
+      "name": 382,
+      "model": "block/red_mushroom_block_esw"
+	  },
+	{
+      "predicate": {
+        "damage": 0.77218
+      },
+      "name": 383,
+      "model": "block/red_mushroom_block_esu"
+	  },
+	{
+      "predicate": {
+        "damage": 0.77419
+      },
+      "name": 384,
+      "model": "block/red_mushroom_block_esud"
+	  },
+  {
+      "predicate": {
+        "damage": 0.77621
+      },
+      "name": 385,
+      "model": "block/red_mushroom_block_esd"
+    },
+  {
+      "predicate": {
+         "damage": 0.77823
+      },
+      "name": 386,
+      "model": "block/red_mushroom_block_es"
+      },
+  {
+      "predicate": {
+         "damage": 0.78024
+      },
+      "name": 387,
+      "model": "block/note_block_snare_0"
+      },
+  {
+      "predicate": {
+         "damage": 0.78226
+      },
+      "name": 388,
+      "model": "block/note_block_snare_1"
+      },
+  {
+      "predicate": {
+         "damage": 0.78427
+      },
+      "name": 389,
+      "model": "block/note_block_snare_2"
+      },
+  {
+      "predicate": {
+         "damage": 0.78629
+      },
+      "name": 390,
+      "model": "block/note_block_snare_3"
+      },
+  {
+      "predicate": {
+         "damage": 0.78831
+      },
+      "name": 391,
+      "model": "block/trunk_diagonal"
+      },
+  {
+      "predicate": {
+         "damage": 0.79032
+      },
+      "name": 392,
+      "model": "item/display_trunk_diagonal_ne"
+      },
+  {
+      "predicate": {
+         "damage": 0.79234
+      },
+      "name": 393,
+      "model": "item/display_trunk_diagonal_nse"
+      },
+  {
+      "predicate": {
+         "damage": 0.79435
+      },
+      "name": 394,
+      "model": "item/display_trunk_diagonal_nsew"
+      },
+  {
+      "predicate": {
+         "damage": 0.79637
+      },
+      "name": 395,
+      "model": "block/trunk_diagonal_thin"
+      },
+  {
+      "predicate": {
+         "damage": 0.79839
+      },
+      "name": 396,
+      "model": "item/display_trunk_diagonal_thin_ne"
+      },
+  {
+      "predicate": {
+         "damage": 0.80040
+      },
+      "name": 397,
+      "model": "item/display_trunk_diagonal_thin_nse"
+      },
+  {
+      "predicate": {
+         "damage": 0.80242
+      },
+      "name": 398,
+      "model": "item/display_trunk_diagonal_thin_nsew"
+      },
+  {
+      "predicate": {
+         "damage": 0.80444
+      },
+      "name": 399,
+      "model": "block/note_block_snare_4"
+      },
+  {
+      "predicate": {
+          "damage": 0.80645
+      },
+      "name": 400,
+      "model": "block/trunk_vertical"
+      },
+  {
+      "predicate": {
+          "damage": 0.80847
+      },
+      "name": 401,
+      "model": "block/"
+      },
+  {
+      "predicate": {
+          "damage": 0.81048
+      },
+      "name": 402,
+      "model": "item/display_grass_block_stones_only"
+      },
+  {
+      "predicate": {
+          "damage": 0.81250
+      },
+      "name": 403,
+      "model": "item/display_trunk_diagonal_thin_ns"
+      },
+  {
+      "predicate": {
+          "damage": 0.81452
+      },
+      "name": 404,
+      "model": "item/display_trunk_diagonal_ns"
+      }
+
   ]
 }

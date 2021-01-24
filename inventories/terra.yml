@@ -2,7 +2,7 @@ Items:
   stone:
     itemMaterial: STONE
     damage: 0
-    display: Stone [1:0]
+    display: Stone
     category: Terra
     type: VANILLA
     collection:
@@ -10,7 +10,7 @@ Items:
   diorite_smooth:
     itemMaterial: POLISHED_DIORITE
     damage: 4
-    display: Smooth light stone [1:4]
+    display: Smooth Light Stone
     category: Terra
     type: VANILLA
     collection:
@@ -18,7 +18,7 @@ Items:
   diorite:
     itemMaterial: DIORITE
     damage: 3
-    display: Rough light stone [1:3]
+    display: Rough Light Stone
     category: Terra
     type: VANILLA
     collection:
@@ -44,7 +44,7 @@ Items:
   diamond_ore:
     itemMaterial: DIAMOND_ORE
     damage: 0
-    display: Rough light stone 2 [56:0]
+    display: Rough Light Stone 2
     category: Terra
     type: VANILLA
     collection:
@@ -52,47 +52,53 @@ Items:
   powered_repeater_delay4_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 213
-    display: Rough light stone 2 slab (lower)
+    display: Rough Light Stone 2 Slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=4,facing=east,locked=false,powered=true]
+    collection:
+      indirect: diorite
   comparator_compare_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 214
-    display: Smooth light stone slab
+    display: Smooth Light Stone Slab
     type: BISECTED
     blockDataDown: minecraft:comparator[facing=south,mode=compare,powered=false]
     blockDataUp: minecraft:polished_diorite_slab[type=top,waterlogged=false]
+    collection:
+      indirect: diorite
   upper_slab_diamond_ore:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 265
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 265
-    display: ITEMBLOCK Rough light stone 2 slab (upper)
+    display: ITEMBLOCK Rough Light Stone 2 Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: diorite
   stone_slab:
     itemMaterial: STONE_SLAB
-    display: Stone slab 
+    display: Stone Slab 
     type: VANILLA
   comparator_compare_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 217
-    display: Mossy stone slab
+    display: Mossy Stone Slab
     type: BISECTED
     blockDataDown: minecraft:comparator[facing=east,mode=compare,powered=false]
     blockDataUp: minecraft:prismarine_slab[type=top,waterlogged=false]
   powered_repeater_delay4_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 212
-    display: Rough light stone slab
+    display: Rough Light Stone Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=4,facing=north,locked=false,powered=true]
     blockDataUp: minecraft:diorite_slab[type=top,waterlogged=false]
   andesite:
     itemMaterial: ANDESITE
     damage: 5
-    display: Rough dark stone [1:5]
+    display: Rough Dark Stone
     category: Terra
     type: VANILLA
     collection:
@@ -113,7 +119,7 @@ Items:
   andesite_smooth:
     itemMaterial: POLISHED_ANDESITE
     damage: 6
-    display: Smooth dark stone [1:6]
+    display: Smooth Dark Stone
     category: Terra
     type: VANILLA
     collection:
@@ -121,7 +127,7 @@ Items:
   granite:
     itemMaterial: GRANITE
     damage: 1
-    display: Rough dark stone [1:1]
+    display: Rough Dark Stone
     category: Terra
     type: VANILLA
     collection:
@@ -148,21 +154,25 @@ Items:
   rough_dark_stone_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 209
-    display: Rough dark stone slab
+    display: Rough Dark Stone Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=3,facing=east,locked=false,powered=true]
     blockDataUp: minecraft:granite_slab[type=top,waterlogged=false]
+    collection:
+      indirect: granite
   powered_repeater_delay4_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 211
-    display: Smooth red stone slab
+    display: Smooth Red Stone Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=4,facing=west,locked=false,powered=true]
     blockDataUp: minecraft:polished_granite_slab[type=top,waterlogged=false]
+    collection:
+      indirect: granite
   granite_smooth:
     itemMaterial: POLISHED_GRANITE
     damage: 2
-    display: Smooth red stone [1:2]
+    display: Smooth Red Stone
     category: Terra
     type: VANILLA
     collection:
@@ -170,7 +180,7 @@ Items:
   quartz_ore:
     itemMaterial: NETHER_QUARTZ_ORE
     damage: 0
-    display: Rough red stone [153:0]
+    display: Rough Red Stone
     category: Terra
     type: VANILLA
     collection:
@@ -178,37 +188,45 @@ Items:
   comparator_subtract_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 218
-    display: Brown stone slab (lower)
+    display: Brown Stone Slab (lower)
     type: BLOCK
     blockData: minecraft:comparator[facing=south,mode=subtract,powered=false]
+    collection:
+      indirect: granite
   upper_slab_hardened_clay:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 16
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 16
-    display: ITEMBLOCK Brown stone slab (upper)
+    display: ITEMBLOCK Brown Stone Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: granite
   powered_repeater_delay4_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 210
-    display: Rough red stone slab (lower)
+    display: Rough Red Stone Slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=4,facing=south,locked=false,powered=true]
+    collection:
+      indirect: granite
   upper_slab_quartz_ore:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 269
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 269
-    display: ITEMBLOCK Rough red stone slab (upper)
+    display: ITEMBLOCK Rough Red Stone Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: granite
   hardened_clay:
     itemMaterial: TERRACOTTA
     damage: 0
-    display: Smooth brown stone [172:0]
+    display: Smooth Brown Stone
     category: Terra
     type: VANILLA
     collection:
@@ -216,7 +234,7 @@ Items:
   mossy_andesite_smooth:
     itemMaterial: DEAD_TUBE_CORAL_BLOCK
     damage: 6
-    display: Mossy smooth dark stone 
+    display: Mossy Smooth Dark Stone 
     category: Terra
     type: VANILLA
     collection:
@@ -224,7 +242,7 @@ Items:
   mossy_granite_smooth:
     itemMaterial: DEAD_BRAIN_CORAL_BLOCK
     damage: 1
-    display: Mossy smooth red stone 
+    display: Mossy Smooth Red Stone 
     category: Terra
     type: VANILLA
     collection:
@@ -232,7 +250,7 @@ Items:
   mossy_stone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 279
-    display: Moist mossy stone 
+    display: Moist Mossy Stone
     category: Terra
     blockData: minecraft:polished_diorite_slab[type=double,waterlogged=false]
     type: BLOCK
@@ -241,7 +259,7 @@ Items:
   emerald_ore:
     itemMaterial: EMERALD_ORE
     damage: 0
-    display: Dry mossy stone [129:0]
+    display: Dry Mossy Stone
     category: Terra
     type: VANILLA
     collection:
@@ -249,7 +267,7 @@ Items:
   moss_covered_stone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 278
-    display: Moss covered stone 
+    display: Moss Covered Stone
     category: Terra
     blockData: minecraft:polished_andesite_slab[type=double,waterlogged=false]
     type: BLOCK
@@ -258,7 +276,7 @@ Items:
   moss_covered_dark_stone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 280
-    display: Moss covered dark stone 
+    display: Moss Covered Dark Stone
     category: Terra
     blockData: minecraft:andesite_slab[type=double,waterlogged=false]
     type: BLOCK
@@ -267,21 +285,25 @@ Items:
   comparator_compare_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 215
-    display: Rough dark stone 2 slab
+    display: Rough Dark Stone 2 Slab
     type: BISECTED
     blockDataDown: minecraft:comparator[facing=west,mode=compare,powered=false]
     blockDataUp: minecraft:andesite_slab[type=top,waterlogged=false]
+    collection:
+      indirect: andesite
   comparator_compare_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 216
-    display: Smooth dark stone slab
+    display: Smooth Dark Stone Slab
     type: BISECTED
     blockDataDown: minecraft:comparator[facing=north,mode=compare,powered=false]
     blockDataUp: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    collection:
+      indirect: andesite
   very_mossy_birch_log:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 353
-    display: Moss block
+    display: Moss Block
     category: Terra
     type: BLOCK
     blockData: minecraft:stripped_oak_wood[axis=z]
@@ -303,39 +325,47 @@ Items:
   repeater_delay2_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 363
-    display: Thin moss slab
+    display: Thin Moss Slab
     type: BLOCK
     blockData: minecraft:repeater[delay=2,facing=north,locked=false,powered=false]
+    collection:
+      indirect: very_mossy_birch_log
   mossy_dirt:
     itemMaterial: YELLOW_CONCRETE
     damage: 1
-    display: Mossy dirt
+    display: Mossy Dirt
     category: Terra
     type: VANILLA
     collection:
       indirect: very_mossy_birch_log
   andesite_slab_mossy:
     itemMaterial: ANDESITE_SLAB
-    display: Mossy slab (lower)
+    display: Mossy Slab (lower)
     blockData: minecraft:andesite_slab[type=bottom,waterlogged=false]
     type: BLOCK
+    collection:
+      indirect: very_mossy_birch_log
   polished_granite_slab:
     itemMaterial: POLISHED_GRANITE_SLAB
     display: Muddy Vegetation Slab (lower)
     blockData: minecraft:polished_granite_slab[type=bottom,waterlogged=false]
     type: BLOCK
+    collection:
+      indirect: very_mossy_birch_log
   grass:
     itemMaterial: GRASS_BLOCK
     damage: 0
-    display: Grass block [2:0]
+    display: Grass Block
     category: Terra
     type: VANILLA
     collection:
       A0: grass
       F1: grass_dirt
+      F2: grass_slab
       G2: grass_patchy
       H2: grass_stony
-      I2: pebble_dirt
+      I2: grass_stones
+      J2: pebble_dirt
       J1: dirt
       E0: comparator_subtract_w
       E1: upper_slab_dirt
@@ -354,25 +384,46 @@ Items:
       I4: upper_slab_soul_sand
       E4: repeater_delay2_e
       J4: redstone_dust_power4_center
+  
+  grass_slab:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 375
+    display: Grass Slab
+    category: Terra
+    blockData: minecraft:sugar_cane[age=2]
+    type: BLOCK
+    collection:
+      indirect: grass
   repeater_delay2_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 364
-    display: Thin coarse dirt slab
+    display: Thin Coarse Dirt Slab
     type: BLOCK
     blockData: minecraft:repeater[delay=2,facing=east,locked=false,powered=false]
+    collection:
+      indirect: grass
   grass_patchy:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 25
-    display: Patchy grass
+    display: Patchy Grass
     category: Terra
     blockData: minecraft:oak_leaves[distance=5,persistent=true]
+    type: BLOCK
+    collection:
+      indirect: grass
+  grass_stones:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 402
+    display: Dirty Grass With Stones
+    category: Terra
+    blockData: minecraft:oak_leaves[distance=6,persistent=true]
     type: BLOCK
     collection:
       indirect: grass
   grass_stony:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 26
-    display: Grass with stones
+    display: Grass With Stones
     category: Terra
     blockData: minecraft:oak_leaves[distance=4,persistent=false]
     type: BLOCK
@@ -381,7 +432,7 @@ Items:
   dirt:
     itemMaterial: DIRT
     damage: 0
-    display: Dirt block [3:0]
+    display: Dirt Block
     category: Terra
     type: VANILLA
     collection:
@@ -389,7 +440,7 @@ Items:
   clay:
     itemMaterial: CLAY
     damage: 0
-    display: Light dirt [82:0]
+    display: Light Dirt
     category: Terra
     type: VANILLA
     collection:
@@ -397,7 +448,7 @@ Items:
   soul_sand:
     itemMaterial: SOUL_SAND
     damage: 0
-    display: Dark dirt [88:0]
+    display: Dark Dirt
     category: Terra
     type: VANILLA
     collection:
@@ -405,22 +456,26 @@ Items:
   comparator_subtract_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 221
-    display: Dark dirt slab (lower)
+    display: Dark Dirt Slab (lower)
     type: BLOCK
     blockData: minecraft:comparator[facing=east,mode=subtract,powered=false]
+    collection:
+      indirect: grass
   upper_slab_soul_sand:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 22
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 22
-    display: ITEMBLOCK Dark dirt slab (upper)
+    display: ITEMBLOCK Dark Dirt Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: grass
   coarse_dirt:
     itemMaterial: COARSE_DIRT
     damage: 1
-    display: Coarse dirt [3:1]
+    display: Coarse Dirt
     category: Terra
     type: VANILLA
     collection:
@@ -428,22 +483,26 @@ Items:
   comparator_powered_compare_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 222
-    display: Coarse dirt slab (lower)
+    display: Coarse Dirt Slab (lower)
     type: BLOCK
     blockData: minecraft:comparator[facing=south,mode=compare,powered=true]
+    collection:
+      indirect: grass
   upper_slab_coarse_dirt:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 24
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 24
-    display: ITEMBLOCK Coarse dirt slab (upper)
+    display: ITEMBLOCK Coarse Dirt Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: grass
   pebble_dirt:
     itemMaterial: GREEN_CONCRETE_POWDER
     damage: 1
-    display: Dirt with pebbles
+    display: Dirt With Pebbles
     category: Terra
     blockData: minecraft:green_concrete_powder
     type: BLOCK
@@ -452,7 +511,7 @@ Items:
   redstone_dust_power4_center:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 158
-    display: Dirt cover [55:4]
+    display: Dirt Cover
     category: Terra
     type: BLOCK
     blockData: minecraft:redstone_wire[east=none,north=none,power=4,south=none,west=none]
@@ -461,37 +520,45 @@ Items:
   comparator_subtract_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 219
-    display: Dirt slab (lower)
+    display: Dirt Slab (lower)
     type: BLOCK
     blockData: minecraft:comparator[facing=west,mode=subtract,powered=false]
+    collection:
+      indirect: grass
   upper_slab_dirt:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 18
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 18
-    display: ITEMBLOCK Dirt slab (upper)
+    display: ITEMBLOCK Dirt Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: grass
   comparator_subtract_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 220
-    display: Light dirt slab (lower)
+    display: Light Dirt Slab (lower)
     type: BLOCK
     blockData: minecraft:comparator[facing=north,mode=subtract,powered=false]
+    collection:
+      indirect: grass
   upper_slab_clay:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 20
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 20
-    display: ITEMBLOCK Light dirt slab (upper)
+    display: ITEMBLOCK Light Dirt Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: grass
   mycelium:
     itemMaterial: MYCELIUM
     damage: 0
-    display: Greenish dirt [110:0]
+    display: Greenish Dirt
     category: Terra
     type: VANILLA
     collection:
@@ -499,22 +566,26 @@ Items:
   comparator_powered_subtract_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 227
-    display: Greenish dirt slab (lower)
+    display: Greenish Dirt Slab (lower)
     type: BLOCK
     blockData: minecraft:comparator[facing=west,mode=subtract,powered=true]
+    collection:
+      indirect: grass
   upper_slab_mycelium:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 51
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 51
-    display: ITEMBLOCK Greenish dirt slab (upper)
+    display: ITEMBLOCK Greenish Dirt Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: grass
   farmland_moisture0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 1
-    display: Dry farmland [60:0]
+    display: Dry Farmland
     category: Terra
     type: BLOCK
     blockData: minecraft:farmland[moisture=0]
@@ -529,25 +600,31 @@ Items:
   farmland_moisture1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 2
-    display: Wet farmland [60:1]
+    display: Wet Farmland
     type: BLOCK
     blockData: minecraft:farmland[moisture=1]
+    collection:
+      indirect: farmland_moisture0
   farmland_moisture2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 3
-    display: Very wet farmland [60:2]
+    display: Very Wet Farmland
     type: BLOCK
     blockData: minecraft:farmland[moisture=2]
+    collection:
+      indirect: farmland_moisture0
   farmland_moisture3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 4
-    display: Dark soil [60:3]
+    display: Dark Soil
     type: BLOCK
     blockData: minecraft:farmland[moisture=3]
+    collection:
+      indirect: farmland_moisture0
   podzol:
     itemMaterial: PODZOL
     damage: 2
-    display: Podzol [3:2]
+    display: Podzol
     category: Terra
     blockData: minecraft:podzol[snowy=false]
     type: BLOCK
@@ -613,7 +690,7 @@ Items:
   double_slab_planks_jungle:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 349
-    display: Red Slate [125:3]
+    display: Red Slate
     category: Terra
     type: BLOCK
     blockData: minecraft:jungle_slab[type=double,waterlogged=false]
@@ -624,20 +701,26 @@ Items:
     display: Riverbed Mix Gravel I (lower slab)
     blockData: minecraft:diorite_slab[type=bottom,waterlogged=false]
     type: BLOCK
+    collection:
+      indirect: brain_coral_block
   smooth_sandstone_slab_riverbed:
     itemMaterial: SMOOTH_SANDSTONE_SLAB
     display: Riverbed Mix Gravel II (lower slab)
     blockData: minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]
     type: BLOCK
+    collection:
+      indirect: brain_coral_block
   smooth_quartz_slab_riverbed:
     itemMaterial: SMOOTH_QUARTZ_SLAB
     display: Riverbed Mix Gravel III (lower slab)
     blockData: minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]
     type: BLOCK
+    collection:
+      indirect: brain_coral_block
   horn_coral_block:
     itemMaterial: HORN_CORAL_BLOCK
     damage: 0
-    display: Muddy vegetation
+    display: Muddy Vegetation
     category: Terra
     type: VANILLA
     collection:
@@ -645,7 +728,7 @@ Items:
   grass_mud:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 161
-    display: Grass on mud
+    display: Grass On Mud
     category: Terra
     blockData: minecraft:oak_leaves[distance=2,persistent=false]
     type: BLOCK
@@ -654,7 +737,7 @@ Items:
   grass_dark_clay:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 162
-    display: Grass on Dark Clay
+    display: Grass On Dark Clay
     category: Terra
     blockData: minecraft:oak_leaves[distance=3,persistent=false]
     type: BLOCK
@@ -663,7 +746,7 @@ Items:
   grass_dirt:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 160
-    display: Grass on Dirt
+    display: Grass On Dirt
     category: Terra
     blockData: minecraft:oak_leaves[distance=1,persistent=false]
     type: BLOCK
@@ -672,7 +755,7 @@ Items:
   grass_alluvium:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 125
-    display: Grass on alluvium
+    display: Grass On Alluvium
     category: Terra
     blockData: minecraft:oak_leaves[distance=5,persistent=false]
     type: BLOCK
@@ -690,7 +773,7 @@ Items:
   grass_sediment:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 180
-    display: Grass on sediment
+    display: Grass On Sediment
     category: Terra
     blockData: minecraft:oak_leaves[distance=6,persistent=false]
     type: BLOCK
@@ -699,19 +782,23 @@ Items:
   grass_gray_sediment:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 181
-    display: Grass on gray sediment
+    display: Grass On Gray Sediment
     blockData: minecraft:oak_leaves[distance=4,persistent=true]
     type: BLOCK
+    collection:
+      indirect: grass_alluvium
   grass_loam:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 188
-    display: Grass on loam
+    display: Grass On Loam
     blockData: minecraft:oak_leaves[distance=1,persistent=true]
     type: BLOCK
+    collection:
+      indirect: grass_alluvium
   grass_light_stone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 189
-    display: Grass on light stone
+    display: Grass On Light Stone
     category: Terra
     blockData: minecraft:oak_leaves[distance=2,persistent=true]
     type: BLOCK
@@ -720,7 +807,7 @@ Items:
   grass_dark_stone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 319
-    display: Grass on dark stone
+    display: Grass On Dark Stone
     category: Terra
     blockData: minecraft:oak_leaves[distance=3,persistent=true]
     type: BLOCK
@@ -729,7 +816,7 @@ Items:
   sand:
     itemMaterial: SAND
     damage: 0
-    display: Sand [12:0]
+    display: Sand
     category: Terra
     blockData: minecraft:sand
     type: BLOCK
@@ -737,6 +824,7 @@ Items:
       A0: upper_slab_sand
       F1: sand
       G2: black_concrete_powder
+      G3: continental_sand_slab
       H2: grey_concrete_powder
       I2: green_concrete
       J1: white_concrete
@@ -752,24 +840,35 @@ Items:
   comparator_powered_compare_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 223
-    display: Sand slab (lower)
+    display: Sand Slab (lower)
     type: BLOCK
     blockData: minecraft:comparator[facing=west,mode=compare,powered=true]
+    collection:
+      indirect: sand
   upper_slab_sand:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 43
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 43
-    display: ITEMBLOCK Sand slab (upper)
+    display: ITEMBLOCK Sand Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: sand
   black_concrete_powder:
     itemMaterial: BLACK_CONCRETE_POWDER
     display: Continental Sand
     category: Terra
     blockData: minecraft:black_concrete_powder
     type: BLOCK
+    collection:
+      indirect: sand
+  continental_sand_slab:
+    itemMaterial: SMOOTH_RED_SANDSTONE_SLAB
+    display: Continental Sand Slab
+    type: BLOCK
+    blockData: minecraft:smooth_red_sandstone_slab[type=bottom,waterlogged=false]
     collection:
       indirect: sand
   grey_concrete_powder:
@@ -811,7 +910,7 @@ Items:
       indirect: sand
   orange_concrete:
     itemMaterial: ORANGE_CONCRETE
-    display: Gray sediment
+    display: Gray Sediment
     category: Terra
     type: VANILLA
     collection:
@@ -819,32 +918,40 @@ Items:
   comparator_powered_compare_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 225
-    display: Sediment slab (lower)
+    display: Sediment Slab (lower)
     type: BLOCK
     blockData: minecraft:comparator[facing=east,mode=compare,powered=true]
+    collection:
+      indirect: sand
   upper_slab_red_sand:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 47
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 47
-    display: ITEMBLOCK Sediment slab (upper)
+    display: ITEMBLOCK Sediment Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    collection:
+      indirect: sand
   dark_prismarine_slab:
     itemMaterial: DARK_PRISMARINE_SLAB
     display: Muddy Riverbed Mix Slab (lower)
     type: BLOCK
     blockData: minecraft:dark_prismarine_slab[type=bottom,waterlogged=false]
+    collection:
+      indirect: sand
   prismarine_slab:
     itemMaterial: PRISMARINE_SLAB
     display: Riverbed Mix Slab (lower)
     type: BLOCK
-    blockData:  minecraft:prismarine_slab[type=bottom,waterlogged=false]
+    blockData: minecraft:prismarine_slab[type=bottom,waterlogged=false]
+    collection:
+      indirect: sand
   gravel:
     itemMaterial: GRAVEL
     damage: 0
-    display: Gravel [13:0]
+    display: Gravel
     category: Terra
     blockData: minecraft:gravel
     type: BLOCK
@@ -874,13 +981,15 @@ Items:
   dry_gravel:
     itemMaterial: MAGENTA_CONCRETE_POWDER
     damage: 0
-    display: Dry gravel 
+    display: Dry Gravel 
     blockData: minecraft:magenta_concrete_powder
     type: BLOCK
+    collection:
+      indirect: granit
   granite_stairs:
     itemMaterial: GRANITE_STAIRS
     damage: 0
-    display: Rough gravel stairs [114:0]
+    display: Rough Gravel Stairs
     category: Terra
     type: VANILLA
     collection:
@@ -888,9 +997,11 @@ Items:
   lime_concrete_powder:
     itemMaterial: LIME_CONCRETE_POWDER
     damage: 0
-    display: Rough gravel [112:0]
+    display: Rough Gravel
     blockData: minecraft:lime_concrete_powder
     type: BLOCK
+    collection:
+      indirect: granit
   pink_concrete_powder:
     itemMaterial: PINK_CONCRETE_POWDER
     display: Light Gravel
@@ -918,7 +1029,7 @@ Items:
   mossy_gravel:
     itemMaterial: TUBE_CORAL_BLOCK
     damage: 6
-    display: Mossy gravel 
+    display: Mossy Gravel 
     category: Terra
     type: VANILLA
     collection:
@@ -926,7 +1037,7 @@ Items:
   campfire_light_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 314
-    display: Light boulders
+    display: Light Boulders
     category: Terra
     type: BLOCK
     blockData: minecraft:campfire[facing=south,lit=false,signal_fire=false,waterlogged=false]
@@ -935,7 +1046,7 @@ Items:
   campfire_dark_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 315
-    display: Dark boulders
+    display: Dark Boulders
     category: Terra
     type: BLOCK
     blockData: minecraft:campfire[facing=east,lit=false,signal_fire=false,waterlogged=false]
@@ -944,7 +1055,7 @@ Items:
   campfire_mixed_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 316
-    display: Mixed boulders
+    display: Mixed Boulders
     category: Terra
     type: BLOCK
     blockData: minecraft:campfire[facing=west,lit=false,signal_fire=false,waterlogged=false]
@@ -953,7 +1064,7 @@ Items:
   campfire_mossy_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 317
-    display: Mossy boulders
+    display: Mossy Boulders
     category: Terra
     type: BLOCK
     blockData: minecraft:campfire[facing=north,lit=false,signal_fire=false,waterlogged=false]
@@ -962,7 +1073,7 @@ Items:
   noteblock_light_big_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 366
-    display: Light large boulders
+    display: Light Large Boulders
     category: Terra
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=basedrum,note=0,powered=false]
@@ -974,7 +1085,7 @@ Items:
   noteblock_dark_big_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 367
-    display: Dark large boulders
+    display: Dark Large Boulders
     category: Terra
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=basedrum,note=4,powered=false]
@@ -986,7 +1097,7 @@ Items:
   noteblock_mixed_big_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 368
-    display: Mixed large boulders
+    display: Mixed Large Boulders
     category: Terra
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=basedrum,note=8,powered=false]
@@ -998,7 +1109,7 @@ Items:
   noteblock_mossy_big_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 369
-    display: Mossy large boulders
+    display: Mossy Large Boulders
     category: Terra
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=basedrum,note=12,powered=false]
@@ -1010,28 +1121,30 @@ Items:
   comparator_powered_compare_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 224
-    display: Gravel slab (lower)
+    display: Gravel Slab (lower)
     type: BLOCK
     blockData: minecraft:comparator[facing=north,mode=compare,powered=true]
+    collection:
+      indirect: granit
   upper_slab_gravel:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 45
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 45
-    display: ITEMBLOCK Gravel slab (upper)
+    display: ITEMBLOCK Gravel Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
   granite_slab:
     itemMaterial: GRANITE_SLAB
     damage: 6
-    display: Rough gravel slab [44:6]
+    display: Rough Gravel Slab
     blockData: minecraft:granite_slab[type=bottom,waterlogged=false]
     type: BLOCK
   gold_ore:
     itemMaterial: GOLD_ORE
     damage: 0
-    display: Gold ore [14:0]
+    display: Gold Ore
     category: Terra
     type: VANILLA
     collection:
@@ -1048,7 +1161,7 @@ Items:
   iron_ore:
     itemMaterial: IRON_ORE
     damage: 0
-    display: Iron ore [15:0]
+    display: Iron Ore
     category: Terra
     type: VANILLA
     collection:
@@ -1056,19 +1169,23 @@ Items:
   coal_ore:
     itemMaterial: COAL_ORE
     damage: 0
-    display: Coal ore [16:0]
+    display: Coal Ore
     category: Terra
     type: VANILLA
+    collection:
+      indirect: gold_ore
   lapis_ore:
     itemMaterial: LAPIS_ORE
     damage: 0
-    display: Copper ore [21:0]
+    display: Copper Ore
     category: Terra
     type: VANILLA
+    collection:
+      indirect: gold_ore
   obsidian:
     itemMaterial: OBSIDIAN
     damage: 0
-    display: Obsidian [49:0]
+    display: Obsidian
     category: Terra
     type: VANILLA
     collection:
@@ -1076,7 +1193,7 @@ Items:
   netherrack:
     itemMaterial: NETHERRACK
     damage: 0
-    display: Ash/coal block [87:0]
+    display: Ash/Coal Block
     category: Terra
     type: VANILLA
     collection:
@@ -1084,7 +1201,7 @@ Items:
   bedrock:
     itemMaterial: BEDROCK
     damage: 0
-    display: Bedrock [7:0]
+    display: Bedrock
     category: Terra
     type: VANILLA
     collection:
@@ -1092,49 +1209,63 @@ Items:
   water1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 348
-    display: Water block level 7 [9:1]
+    display: Water Block Level 7
     type: BLOCK
     blockData: minecraft:water[level=1]
+    collection:
+      indirect: water0
   water2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 347
-    display: Water block level 6 [9:2]
+    display: Water Block Level 6
     type: BLOCK
     blockData: minecraft:water[level=2]
+    collection:
+      indirect: water0
   water3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 346
-    display: Water block level 5 [9:3]
+    display: Water Block Level 5
     type: BLOCK
     blockData: minecraft:water[level=3]
+    collection:
+      indirect: water0
   water4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 345
-    display: Water block level 4 [9:4]
+    display: Water Block Level 4
     type: BLOCK
     blockData: minecraft:water[level=4]
+    collection:
+      indirect: water0
   water5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 344
-    display: Water block level 3 [9:5]
+    display: Water Block Level 3 
     type: BLOCK
     blockData: minecraft:water[level=5]
+    collection:
+      indirect: water0
   water6:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 343
-    display: Water block level 2 [9:6]
+    display: Water Block Level 2
     type: BLOCK
     blockData: minecraft:water[level=6]
+    collection:
+      indirect: water0
   water7:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 342
-    display: Water block level 1 [9:7]
+    display: Water Block Level 1
     type: BLOCK
     blockData: minecraft:water[level=7]
+    collection:
+      indirect: water0
   redstone_dust_power5_center:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 159
-    display: Puddle [55:5]
+    display: Puddle
     category: Terra
     type: BLOCK
     blockData: minecraft:redstone_wire[east=none,north=none,power=5,south=none,west=none]
@@ -1143,7 +1274,7 @@ Items:
   snow:
     itemMaterial: SNOW_BLOCK
     damage: 0
-    display: Snow block [80:0]
+    display: Snow Block
     category: Terra
     type: VANILLA
     collection:
@@ -1151,7 +1282,7 @@ Items:
   snow_layer:
     itemMaterial: SNOW
     damage: 0
-    display: Layered snow [78:0]
+    display: Layered Snow
     category: Terra
     type: VANILLA
     collection:
@@ -1159,7 +1290,7 @@ Items:
   ice:
     itemMaterial: ICE
     damage: 0
-    display: Ice [79:0]
+    display: Ice
     category: Terra
     type: VANILLA
     collection:
@@ -1167,7 +1298,7 @@ Items:
   packed_ice:
     itemMaterial: PACKED_ICE
     damage: 0
-    display: Ice [174:0]
+    display: DenSe Ice
     category: Terra
     type: VANILLA
     collection:
@@ -1175,7 +1306,7 @@ Items:
   water0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 341
-    display: Water block level 8 [9:0]
+    display: Water Block Level 8
     category: Terra
     type: BLOCK
     blockData: minecraft:water[level=0]
@@ -1196,7 +1327,7 @@ Items:
   lava0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 339
-    display: Lava block level 8 [11:0]
+    display: Lava Block Level 8
     category: Terra
     type: BLOCK
     blockData: minecraft:lava[level=0]
@@ -1212,42 +1343,56 @@ Items:
   lava1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 360
-    display: Lava block level 7 [11:1]
+    display: Lava Block Level 7
     type: BLOCK
     blockData: minecraft:lava[level=1]
+    collection:
+      indirect: lava0
   lava2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 359
-    display: Lava block level 6 [11:2]
+    display: Lava Block Level 6
     type: BLOCK
     blockData: minecraft:lava[level=2]
+    collection:
+      indirect: lava0
   lava3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 358
-    display: Lava block level 5 [11:3]
+    display: Lava Block Level 5
     type: BLOCK
     blockData: minecraft:lava[level=3]
+    collection:
+      indirect: lava0
   lava4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 357
-    display: Lava block level 4 [11:4]
+    display: Lava Block Level 4
     type: BLOCK
     blockData: minecraft:lava[level=4]
+    collection:
+      indirect: lava0
   lava5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 356
-    display: Lava block level 3 [11:5]
+    display: Lava Block Level 3
     type: BLOCK
     blockData: minecraft:lava[level=5]
+    collection:
+      indirect: lava0
   lava6:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 355
-    display: Lava block level 2 [11:6]
+    display: Lava Block Level 2
     type: BLOCK
     blockData: minecraft:lava[level=6]
+    collection:
+      indirect: lava0
   lava7:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 340
-    display: Lava block level 1 [11:7]
+    display: Lava Block Level 1
     type: BLOCK
     blockData: minecraft:lava[level=7]
+    collection:
+      indirect: lava0
