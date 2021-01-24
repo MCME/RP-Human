@@ -520,7 +520,7 @@ Items:
     display: Dirt Cover
     category: Terra
     type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=4,south=none,west=none]
+    blockData: minecraft:redstone_wire[power=4]
     collection:
       indirect: grass
   comparator_subtract_w:
@@ -1280,7 +1280,7 @@ Items:
     display: Puddle
     category: Terra
     type: BLOCK
-    blockData: minecraft:redstone_wire[east=none,north=none,power=5,south=none,west=none]
+    blockData: minecraft:redstone_wire[power=5]
     collection:
       indirect: water0
   snow:

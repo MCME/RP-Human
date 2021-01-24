@@ -56,7 +56,7 @@ Items:
   trunk_branch_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 387
-    display: Oak Trunk Branch One Side
+    display: Oak Branch Transition One Side
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=snare,note=2]
     blockDataWest: minecraft:note_block[instrument=snare,note=3]
@@ -67,7 +67,7 @@ Items:
   trunk_branch_2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 388
-    display: Oak Trunk Branch Opposite Sides
+    display: Oak Branch Transition Opposite Sides
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=snare,note=4]
     blockDataWest: minecraft:note_block[instrument=snare,note=5]
@@ -78,7 +78,7 @@ Items:
   trunk_branch_3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 389
-    display: Oak Trunk Branch Three Way
+    display: Oak Branch Transition Three Way
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=snare,note=11]
     blockDataWest: minecraft:note_block[instrument=snare,note=8]
@@ -89,7 +89,7 @@ Items:
   trunk_branch_4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 390
-    display: Oak Trunk Branch Four Way
+    display: Oak Branch Transition Four Way
     type: BLOCK
     blockData: minecraft:note_block[instrument=snare,note=12]
     collection:
@@ -97,7 +97,7 @@ Items:
   trunk_branch_5:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 399
-    display: Oak Trunk Branch Two Sides
+    display: Oak Trunk Transition Two Sides
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:note_block[instrument=snare,note=14]
     blockDataWest: minecraft:note_block[instrument=snare,note=15]
@@ -108,8 +108,7 @@ Items:
   branch_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 391
-    display: Oak Branch One Side
-    category: Plant
+    display: Oak Trunk System One Side
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:andesite_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=none]
     blockDataWest: minecraft:andesite_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=none]
@@ -137,7 +136,7 @@ Items:
   branch_2_r:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 392
-    display: Oak Branch Two Sides Right
+    display: Oak Trunk System Two Sides Right
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:andesite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
     blockDataWest: minecraft:andesite_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
@@ -148,7 +147,7 @@ Items:
   branch_2_l:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 392
-    display: Oak Branch Two Sides Left
+    display: Oak Trunk System Two Sides Left
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:andesite_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
     blockDataWest: minecraft:andesite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
@@ -159,7 +158,7 @@ Items:
   branch_3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 393
-    display: Oak Branch Three Way
+    display: Oak Trunk System Three Way
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:andesite_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=low]
     blockDataWest: minecraft:andesite_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=none]
@@ -170,7 +169,7 @@ Items:
   branch_4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 394
-    display: Oak Branch Four Way
+    display: Oak Trunk System Four Way
     type: BLOCK
     blockData: minecraft:andesite_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=low]
     collection:
@@ -178,7 +177,7 @@ Items:
   thin_branch_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 395
-    display: Oak Thin Branch One Side
+    display: Thin Oak Trunk One Side
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:andesite_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=none]
     blockDataWest: minecraft:andesite_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=none]
@@ -189,7 +188,7 @@ Items:
   thin_branch_2_right:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 396
-    display: Oak Thin Branch Two Sides Right
+    display: Thin Oak Trunk Two Sides Right
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:andesite_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=tall]
     blockDataWest: minecraft:andesite_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=none]
@@ -200,7 +199,7 @@ Items:
   thin_branch_2_left:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 396
-    display: Oak Tiny Branch Two Sides Left
+    display: Thin Oak Trunk Two Sides Left
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:andesite_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=tall]
     blockDataWest: minecraft:andesite_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=none]
@@ -211,7 +210,7 @@ Items:
   thin_branch_3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 397
-    display: Oak Thin Branch Three Way
+    display: Thin Oak Trunk Three Way
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:andesite_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=tall]
     blockDataWest: minecraft:andesite_wall[east=tall,north=tall,south=tall,up=false,waterlogged=false,west=none]
@@ -222,7 +221,7 @@ Items:
   thin_branch_4:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 398
-    display: Oak Thin Branch Four Way
+    display: Thin Oak Trunk Four Way
     type: BLOCK
     blockData: minecraft:andesite_wall[east=tall,north=tall,south=tall,up=false,waterlogged=false,west=tall]
     collection:
@@ -230,7 +229,8 @@ Items:
   thick_branch_vertical:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 400
-    display: Oak Branch Vertical
+    display: Oak Trunk System Vertical
+    category: Plant
     type: BLOCK
     blockData: minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
     collection:
@@ -238,7 +238,7 @@ Items:
   thick_branch_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 405
-    display: Oak Branch V
+    display: Oak Trunk System Opposite 
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:andesite_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=low]
     blockDataWest: minecraft:andesite_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=none]
@@ -249,7 +249,7 @@ Items:
   tiny_branch_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 403
-    display: Oak Tiny Branch V
+    display: Thin Oak Trunk Opposite
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:andesite_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=tall]
     blockDataWest: minecraft:andesite_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]
