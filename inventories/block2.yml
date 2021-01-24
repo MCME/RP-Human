@@ -21,7 +21,7 @@ Items:
       A4: birch_planks
       B4: double_slab_planks_dark_oak
       F4: oak_fence_gate
-      G4: oak_bark
+      G4: oak_log
       H4: chorus_plant
   oak_stairs:
     itemMaterial: OAK_STAIRS
@@ -131,13 +131,12 @@ Items:
     blockDataUp: minecraft:prismarine_brick_slab[type=top,waterlogged=false]
     collection:
       indirect: oak_planks
-  oak_bark:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 14
+  oak_log:
+    itemMaterial: OAK_LOG
+    damage: 0
     display: Dark Wooden Beam
     category: Block2
-    type: BLOCK
-    blockData: minecraft:oak_wood[axis=x]
+    type: VANILLA
     collection:
       indirect: oak_planks
   chorus_plant:  
@@ -170,14 +169,13 @@ Items:
       A4: double_slab_planks_acacia
       B4: oak_planks
       F4: birch_fence_gate
-      G4: jungle_bark
-  jungle_bark:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 17
+      G4: jungle_log
+  jungle_log:
+    itemMaterial: JUNGLE_LOG
+    damage: 3
     display: Light Wooden Beam 
     category: Block2
-    type: BLOCK
-    blockData: minecraft:jungle_wood
+    type: VANILLA
     collection:
       indirect: birch_planks
   birch_stairs:
