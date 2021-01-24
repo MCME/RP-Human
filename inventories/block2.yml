@@ -131,6 +131,23 @@ Items:
     blockDataUp: minecraft:prismarine_brick_slab[type=top,waterlogged=false]
     collection:
       indirect: oak_planks
+   oak_bark:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 14
+    display: Dark Wooden Beam
+    category: Block2
+    type: BLOCK
+    blockData: minecraft:oak_wood[axis=x]
+    collection:
+      indirect: oak_planks
+  chorus_plant:  
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 19
+    display: Medium Dark Wooden Beam 
+    type: BLOCK
+    blockData: minecraft:chorus_plant
+    collection:
+      indirect: oak_planks
   birch_planks:
     itemMaterial: BIRCH_PLANKS
     damage: 2
