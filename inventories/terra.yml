@@ -81,6 +81,8 @@ Items:
     itemMaterial: STONE_SLAB
     display: Stone Slab 
     type: VANILLA
+    collection:
+      indirect: diorite
   comparator_compare_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 217
@@ -88,6 +90,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:comparator[facing=east,mode=compare,powered=false]
     blockDataUp: minecraft:prismarine_slab[type=top,waterlogged=false]
+    collection:
+      indirect: diorite
   powered_repeater_delay4_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 212
@@ -95,6 +99,8 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=4,facing=north,locked=false,powered=true]
     blockDataUp: minecraft:diorite_slab[type=top,waterlogged=false]
+    collection:
+      indirect: diorite
   andesite:
     itemMaterial: ANDESITE
     damage: 5
@@ -804,6 +810,8 @@ Items:
     type: BLOCK
     collection:
       indirect: grass_alluvium
+    collection:
+      indirect: grass_alluvium
   grass_dark_stone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 319
@@ -993,7 +1001,7 @@ Items:
     category: Terra
     type: VANILLA
     collection:
-      indirect: granite
+      indirect: gravel
   lime_concrete_powder:
     itemMaterial: LIME_CONCRETE_POWDER
     damage: 0
@@ -1069,7 +1077,7 @@ Items:
     type: BLOCK
     blockData: minecraft:campfire[facing=north,lit=false,signal_fire=false,waterlogged=false]
     collection:
-      indirect: gravel+
+      indirect: gravel
   noteblock_light_big_boulders:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 366
@@ -1135,12 +1143,16 @@ Items:
     display: ITEMBLOCK Gravel Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    collection:
+      indirect: gravel
   granite_slab:
     itemMaterial: GRANITE_SLAB
     damage: 6
     display: Rough Gravel Slab
     blockData: minecraft:granite_slab[type=bottom,waterlogged=false]
     type: BLOCK
+    collection:
+      indirect: gravel
   gold_ore:
     itemMaterial: GOLD_ORE
     damage: 0

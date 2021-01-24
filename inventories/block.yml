@@ -304,6 +304,27 @@ Items:
       C4: trapdoor_sandstone_chiseled_bottom_regular
       F4: sandstone
       G4: red_sandstone
+  vertical_slab_sandstone_smooth_regular:
+    contentItem: DIAMOND_CHESTPLATE
+    itemMaterial: DIAMOND_CHESTPLATE
+    damage: 64
+    display: Vertical smooth sandstone slab
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=true,open=true,powered=true]
+    blockDataWest: minecraft:dark_oak_fence_gate[facing=west,in_wall=true,open=true,powered=true]
+    blockDataNorth: minecraft:dark_oak_fence_gate[facing=north,in_wall=true,open=true,powered=true]
+    blockDataEast: minecraft:dark_oak_fence_gate[facing=east,in_wall=true,open=true,powered=true]
+    collection:
+      indirect: double_slab_sandstone
+  repeater_delay3_n:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 192
+    display: Smooth sandstone slab
+    type: BISECTED
+    blockDataDown: minecraft:repeater[delay=3,facing=north,locked=false,powered=false]
+    blockDataUp: minecraft:cut_sandstone_slab[type=top,waterlogged=false]
+    collection:
+      indirect: double_slab_sandstone
   chiseled_sandstone:
     itemMaterial: CHISELED_SANDSTONE
     damage: 1
@@ -476,6 +497,8 @@ Items:
     blockDataZ: minecraft:brown_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=true]
     blockDataX: minecraft:brown_mushroom_block[down=false,east=false,north=true,south=true,up=true,west=true]
     blockDataY: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=false,up=false,west=false]
+    collection:
+      indirect: cactus_stage5
   brown_mushroom_nwd:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 73

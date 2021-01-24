@@ -131,23 +131,6 @@ Items:
     blockDataUp: minecraft:prismarine_brick_slab[type=top,waterlogged=false]
     collection:
       indirect: oak_planks
-  oak_bark:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 14
-    display: Dark Wooden Beam
-    category: Block2
-    type: BLOCK
-    blockData: minecraft:oak_wood[axis=x]
-    collection:
-      indirect: oak_planks
-  chorus_plant:  
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 19
-    display: Medium Dark Wooden Beam 
-    type: BLOCK
-    blockData: minecraft:chorus_plant
-    collection:
-      indirect: oak_planks
   birch_planks:
     itemMaterial: BIRCH_PLANKS
     damage: 2
@@ -707,7 +690,7 @@ Items:
     type: BLOCK
     blockData: minecraft:chorus_flower[age=0]
     collection:
-      indirect: bone_block
+      indirect: chorus_flower_stage2
   chorus_flower_stage1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 294
@@ -715,7 +698,7 @@ Items:
     type: BLOCK
     blockData: minecraft:chorus_flower[age=1]
     collection:
-      indirect: bone_block
+      indirect: chorus_flower_stage2
   chorus_flower_stage2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 295
@@ -749,10 +732,10 @@ Items:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 6
     display: Weathered gray pillar
+    type: THREE_AXIS
     blockDataX: minecraft:red_mushroom_block[down=false,east=true,north=true,south=false,up=false,west=false]
     blockDataY: minecraft:red_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=false]
     blockDataZ: minecraft:red_mushroom_block[down=true,east=true,north=true,south=false,up=false,west=false]
-    type: THREE_AXIS
     collection:
       indirect: chorus_flower_stage2
   purpur_pillar_top_mossy:
@@ -1064,7 +1047,7 @@ Items:
     blockData: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=false]
     type: BLOCK
     collection:
-      indirect: stonebrick_normal
+      indirect: double_slab_stonebrick
   double_slab_stonebrick:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 84
@@ -2197,6 +2180,6 @@ Items:
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=true,open=false,powered=false]
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=true,open=false,powered=false]
     blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=true,open=false,powered=false]
-    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=true,open=false,powered=false]
+    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=true,open=false,powered=false]  
     collection:
       indirect: double_slab_cobblestone
