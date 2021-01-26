@@ -788,8 +788,8 @@ Items:
       I2: magenta_glazed_terracotta
       J1: light_blue_glazed_terracotta
       E0: orange_glazed_terracotta
-      E1: light_blue_stucco_outer
-      D2: light_blue_stucco_inner
+      E1: light_stucco_outer
+      D2: light_stucco_inner
       A4: red_sandstone
       B4: sandstone
       D4: red_glazed_terracotta
@@ -847,6 +847,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 239
     display: Weathered light stucco (stucco inner)
+    type: BLOCK
     blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=false,west=true]
     collection:
       indirect: lime_stucco
@@ -854,6 +855,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 240
     display: Weathered light stucco (stucco outer)
+    type: BLOCK
     blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=true]
     collection:
       indirect: lime_stucco
@@ -868,11 +870,11 @@ Items:
       A0: pink_stucco
       F1: yellow_glazed_terracotta_sw
       G2: yellow_glazed_terracotta_ne
-      I2: pink_stucco_inner
-      J1: pink_stucco_outer
-      E0: pink_glazed_terracotta
-      E1: lime_glazed_terracotta
-      D2: gray_glazed_terracotta
+      I2: pink_glazed_terracotta
+      J1: gray_glazed_terracotta
+      E0: lime_glazed_terracotta
+      E1: pink_stucco_outer
+      D2: pink_stucco_inner
       A4: red_sandstone
       B4: sandstone
       D4: red_glazed_terracotta
@@ -954,9 +956,9 @@ Items:
       A0: blue_stucco
       F1: brown_glazed_terracotta_sw
       G2: brown_glazed_terracotta_ne
-      I2: green_glazed_terracotta
+      I2: red_glazed_terracotta
       J1: black_glazed_terracotta
-      E0: red_glazed_terracotta
+      E0: green_glazed_terracotta 
       E1: blue_stucco_outer
       D2: blue_stucco_inner
       A4: red_sandstone
@@ -1048,9 +1050,9 @@ Items:
       A0: light_blue_stucco
       F1: silver_glazed_terracotta_sw
       G2: silver_glazed_terracotta_ne
-      I2: cyan_glazed_terracotta
+      I2: purple_glazed_terracotta
       J1: blue_glazed_terracotta
-      E0: purple_glazed_terracotta
+      E0: cyan_glazed_terracotta 
       E1: light_blue_stucco_outer
       D2: light_blue_stucco_inner
       A4: red_sandstone
