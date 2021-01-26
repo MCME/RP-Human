@@ -1,10 +1,11 @@
 Items:
-  oak_log:
-    itemMaterial: OAK_LOG
-    damage: 0
+  oak_bark:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 14
     display: Oak log
     category: Plant
-    type: VANILLA
+    type: BLOCK
+    blockData: minecraft:oak_wood[axis=x]
     collection:
       collection:
       A1: repeater_delay1_n
@@ -17,7 +18,7 @@ Items:
       E1: oak_leaves
       D2: dark_oak_leaves
       C2: redstone_dust_power3_center
-      B2: oak_log
+      B2: oak_bark
       A4: birch_bark
       B4: spruce_bark
       C4: sapling_oak_stage0
@@ -36,7 +37,7 @@ Items:
     type: VANILLA
     blockData: minecraft:acacia_fence[east=false,north=false,south=false,waterlogged=false,west=false]
     collection:
-      indirect: oak_log
+      indirect: oak_bark
   brown_mushroom:
     itemMaterial: BROWN_MUSHROOM
     damage: 0
@@ -44,7 +45,7 @@ Items:
     type: BLOCK
     blockData: minecraft:brown_mushroom
     collection:
-      indirect: oak_log
+      indirect: oak_bark
   red_mushroom:
     itemMaterial: RED_MUSHROOM
     damage: 0
@@ -52,7 +53,7 @@ Items:
     type: BLOCK
     blockData: minecraft:red_mushroom
     collection:
-      indirect: oak_log
+      indirect: oak_bark
   trunk_branch_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 387
@@ -341,7 +342,7 @@ Items:
     type: BLOCK
     blockData: minecraft:birch_wood
     collection:
-      A1: jungle_log
+      A1: jungle_bark
       A0: oak_leaves
       F1: acacia_log
       G2: acacia_bark
@@ -355,11 +356,13 @@ Items:
       A4: oak_bark
       B4: spruce_bark
       C4: fern
-  jungle_log:
-    itemMaterial: JUNGLE_LOG
-    damage: 3
+  jungle_bark:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 17
     display: Jungle Log
-    type: VANILLA
+    category: Plant
+    type: BLOCK
+    blockData: minecraft:jungle_wood
     collection:
       indirect: brich_bark
   acacia_log:
