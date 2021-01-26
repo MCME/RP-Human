@@ -121,7 +121,7 @@ Items:
     type: BLOCK
     blockData: minecraft:acacia_slab[type=double,waterlogged=false]
     collection:
-      indirect: oak_planks   
+      indirect: oak_planks
   powered_repeater_delay3_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 206
@@ -139,10 +139,10 @@ Items:
     type: VANILLA
     collection:
       indirect: oak_planks
-  chorus_plant:  
+  chorus_plant:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 19
-    display: Medium Dark Wooden Beam 
+    display: Medium Dark Wooden Beam
     type: BLOCK
     blockData: minecraft:chorus_plant
     collection:
@@ -173,7 +173,7 @@ Items:
   jungle_log:
     itemMaterial: JUNGLE_LOG
     damage: 3
-    display: Light Wooden Beam 
+    display: Light Wooden Beam
     category: Block2
     type: VANILLA
     collection:
@@ -547,7 +547,7 @@ Items:
     blockDataDown: minecraft:jungle_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
     blockDataUp: minecraft:jungle_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
     collection:
-      indirect: end_stone    
+      indirect: end_stone
   trapdoor_end_bricks_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 315
@@ -605,7 +605,7 @@ Items:
       F1: quartz_chiseled
       A4: quartz_normal
       B4: end_stone
-      E4: gold_block 
+      E4: gold_block
   gold_block:
     itemMaterial: GOLD_BLOCK
     damage: 0
@@ -640,7 +640,7 @@ Items:
     category: Block2
     type: VANILLA
     collection:
-      indirect: bone_block      
+      indirect: bone_block
   anvil_damage1_ne:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 290
@@ -722,19 +722,19 @@ Items:
     type: BLOCK
     blockData: minecraft:chorus_flower[age=2]
     collection:
-     A1: purpur_pillar_top
-     B2: purpur_pillar_top_weathered
-     C2: purpur_pillar_top_mossy
-     H2: chorus_flower_stage0
-     G2: chorus_flower_stage1
-     F1: chorus_flower_stage2
-     A4: stonebrick_normal
-     B4: double_slab_stonebrick
-     F4: brick
-     G4: red_mushroom_dark_small_brick
-     H4: cobblestone
-     I4: double_slab_cobblestone
-     A0: dark_pillar
+      A1: purpur_pillar_top
+      B2: purpur_pillar_top_weathered
+      C2: purpur_pillar_top_mossy
+      H2: chorus_flower_stage0
+      G2: chorus_flower_stage1
+      F1: chorus_flower_stage2
+      A4: stonebrick_normal
+      B4: double_slab_stonebrick
+      F4: brick
+      G4: red_mushroom_dark_small_brick
+      H4: cobblestone
+      I4: double_slab_cobblestone
+      A0: dark_pillar
   purpur_pillar_top:
     itemMaterial: PURPUR_PILLAR
     damage: 0
@@ -1446,7 +1446,7 @@ Items:
     display: Mossy dark gray bricks stairs
     type: VANILLA
     collection:
-      indirect: brick    
+      indirect: brick
   half_slab_brick:
     itemMaterial: BRICK_SLAB
     damage: 4
@@ -1839,7 +1839,7 @@ Items:
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=false,west=true]
     blockDataWest: minecraft:red_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=true]
-    blockDataNorth: minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=false,west=true] 
+    blockDataNorth: minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=false,west=true]
     blockDataEast: minecraft:red_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=true]
     collection:
       indirect: cobblestone
@@ -1916,7 +1916,7 @@ Items:
     type: BLOCK
     blockData: minecraft:red_mushroom_block[down=true,east=false,north=true,south=false,up=true,west=true]
     collection:
-      indirect: cobblestone 
+      indirect: cobblestone
   white_concrete_powder:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 310
@@ -1984,6 +1984,13 @@ Items:
     itemMaterial: MOSSY_COBBLESTONE_SLAB
     damage: 0
     display: Mossy cobblestone slab
+    type: VANILLA
+    collection:
+      indirect: cobblestone
+  cobblestone_slab:
+    itemMaterial: COBBLESTONE_SLAB
+    damage: 0
+    display: Cobblestone slab
     type: VANILLA
     collection:
       indirect: cobblestone
@@ -2195,6 +2202,6 @@ Items:
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=true,open=false,powered=false]
     blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=true,open=false,powered=false]
     blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=true,open=false,powered=false]
-    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=true,open=false,powered=false]  
+    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=true,open=false,powered=false]
     collection:
       indirect: double_slab_cobblestone
