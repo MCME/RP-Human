@@ -466,7 +466,7 @@ Items:
     category: Plant
     type: VANILLA
     collection:
-      indirect: oak_bark
+      indirect: oak_log
   repeater_delay1_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 183
@@ -499,7 +499,7 @@ Items:
     damage: 157
     display: Moss Cover
     category: Plant
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[power=3]
     collection:
       indirect: oak_bark
@@ -508,7 +508,7 @@ Items:
     damage: 361
     display: Algae
     category: Plant
-    type: BLOCK_ON_WATER
+    type: BLOCK_ON_WATER_CONNECT
     blockData: minecraft:redstone_wire[power=6]
     collection:
       indirect: waterlily
@@ -517,7 +517,7 @@ Items:
     damage: 362
     display: Amphibious Bistort
     category: Plant
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[power=7]
     collection:
       indirect: waterlily

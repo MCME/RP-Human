@@ -213,7 +213,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/vertical_slab_red_mushroom_block_nwud",
+        "model": "block/placeholder",
         "uvlock": true
       }
     },
@@ -225,7 +225,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/vertical_slab_red_mushroom_block_nwud",
+        "model": "block/placeholder",
         "uvlock": true,
         "y": 90
       }
@@ -238,7 +238,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/vertical_slab_red_mushroom_block_nwud",
+        "model": "block/placeholder",
         "uvlock": true,
         "y": 180
       }
@@ -251,7 +251,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/vertical_slab_red_mushroom_block_nwud",
+        "model": "block/placeholder",
         "uvlock": true,
         "y": 270
       }
@@ -264,7 +264,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/vertical_slab_red_mushroom_block_newud",
+        "model": "block/placeholder",
         "uvlock": true
       }
     },
@@ -276,7 +276,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/vertical_slab_red_mushroom_block_newud",
+        "model": "block/placeholder",
         "uvlock": true,
         "y": 90
       }
@@ -289,7 +289,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/vertical_slab_red_mushroom_block_newud",
+        "model": "block/placeholder",
         "uvlock": true
       }
     },
@@ -301,7 +301,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/vertical_slab_red_mushroom_block_newud",
+        "model": "block/placeholder",
         "uvlock": true,
         "y": 90
       }
@@ -391,7 +391,8 @@
       },
       "apply": {
         "model": "block/vertical_slab_red_mushroom_block_new",
-        "uvlock": true
+        "uvlock": true,
+        "y":180
       }
     },
     {
@@ -404,7 +405,7 @@
       "apply": {
         "model": "block/vertical_slab_red_mushroom_block_new",
         "uvlock": true,
-        "y": 90
+        "y": 270
       }
     }
   ]

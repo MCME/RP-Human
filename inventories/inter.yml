@@ -4,7 +4,7 @@ Items:
   chest:
     itemMaterial: CHEST
     damage: 0
-    display: Chest [54:0]
+    display: Chest
     category: Inter
     type: VANILLA
     collection:
@@ -24,7 +24,7 @@ Items:
   double_slab_planks_oak:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 163
-    display: Crate [125:0]
+    display: Crate
     category: Inter
     type: BLOCK
     blockData: minecraft:oak_slab[type=double,waterlogged=false]
@@ -33,7 +33,7 @@ Items:
   double_slab_planks_birch:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 164
-    display: Crate [125:2]
+    display: Crate
     category: Inter
     type: BLOCK
     blockData: minecraft:birch_slab[type=double,waterlogged=false]
@@ -42,7 +42,7 @@ Items:
   bookshelf:
     itemMaterial: BOOKSHELF
     damage: 0
-    display: Barrel [47:0]
+    display: Barrel
     category: Inter
     type: VANILLA
     collection:
@@ -52,7 +52,7 @@ Items:
   double_slab_wood_old:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 166
-    display: Bookshelf [43:2]
+    display: Bookshelf
     category: Inter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:petrified_oak_slab[type=double,waterlogged=false]
@@ -62,11 +62,12 @@ Items:
     collection:
       H2: brown_shulker_box
       J1: cocoa_age2_s
+      E1: cocoa_age1_s
       C2: double_slab_wood_old
   brown_shulker_box:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 166
-    display: OPENABLE Bookshelf [231:2]
+    display: OPENABLE Bookshelf
     category: Inter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:brown_shulker_box[facing=south]
@@ -78,7 +79,7 @@ Items:
   cocoa_age2_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 329
-    display: Bookshelf 1 [127:4]
+    display: Bookshelf 1
     category: Inter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:cocoa[age=1,facing=south]
@@ -87,13 +88,24 @@ Items:
     blockDataEast: minecraft:cocoa[age=1,facing=east]
     collection:
       indirect: double_slab_wood_old
+  cocoa_age1_s:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 328
+    display: Bookshelf 2
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:cocoa[age=2,facing=south]
+    blockDataWest: minecraft:cocoa[age=2,facing=west]
+    blockDataNorth: minecraft:cocoa[age=2,facing=north]
+    blockDataEast: minecraft:cocoa[age=2,facing=east]
+    collection:
+      indirect: double_slab_wood_old
 
   
   # table collection
   crafting_table:
     itemMaterial: CRAFTING_TABLE
     damage: 0
-    display: Workbench [58:0]
+    display: Workbench
     category: Inter
     type: VANILLA
     collection:
@@ -113,7 +125,7 @@ Items:
   note_block:   
     itemMaterial: NOTE_BLOCK
     damage: 0
-    display: Table [25:0]
+    display: Table
     category: Inter
     type: BLOCK
     blockData: minecraft:note_block[instrument=harp,note=6,powered=false]
@@ -122,7 +134,7 @@ Items:
   jukebox:
     itemMaterial: JUKEBOX
     damage: 0
-    display: Drawers [84:0]
+    display: Drawers
     category: Inter
     type: VANILLA
     collection:
@@ -130,7 +142,7 @@ Items:
   ender_portal_frame_filled_west:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 331
-    display: Low table 2 [120:5]
+    display: Low table 2
     category: Inter
     type: BLOCK
     blockData: minecraft:end_portal_frame[eye=true,facing=west]
@@ -139,7 +151,7 @@ Items:
   piston_head_normal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 167
-    display: Table [34:1]
+    display: Table
     category: Inter
     type: SIX_FACES
     blockDataSouth: minecraft:piston_head[facing=south,short=false,type=normal]
@@ -152,7 +164,7 @@ Items:
       indirect: crafting_table
   piston_base:
     itemMaterial: PISTON
-    display: Table on stone base [33:0]
+    display: Table on stone base
     category: Inter
     type: SIX_FACES
     blockDataSouth: minecraft:piston[extended=false,facing=south]
@@ -166,7 +178,7 @@ Items:
   furnace:
     itemMaterial: FURNACE
     damage: 0
-    display: Furnace [61:2]
+    display: Furnace
     category: Inter
     type: VANILLA
     collection:
@@ -177,7 +189,7 @@ Items:
   cauldron_empty:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 169
-    display: Empty cauldron [118:0]
+    display: Empty cauldron
     category: Inter
     type: BLOCK
     blockData: minecraft:cauldron[level=0]
@@ -191,7 +203,7 @@ Items:
   cauldron_level3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 172
-    display: Cauldron 3/3 filled [118:3]
+    display: Cauldron 3/3 filled
     category: Inter
     type: BLOCK
     blockData: minecraft:cauldron[level=3]
