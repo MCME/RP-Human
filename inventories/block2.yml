@@ -1848,10 +1848,10 @@ Items:
     damage: 380
     display: Heavily Mossy Cobblestone Vertical Slab
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=false,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=false,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=false,powered=true]
+    blockDataSouth: minecraft:crimson_fence_gate[facing=south,in_wall=true,open=false,powered=false]
+    blockDataWest: minecraft:crimson_fence_gate[facing=west,in_wall=true,open=false,powered=false]
+    blockDataNorth: minecraft:crimson_fence_gate[facing=north,in_wall=true,open=false,powered=false]
+    blockDataEast: minecraft:crimson_fence_gate[facing=east,in_wall=true,open=false,powered=false]
     collection:
       indirect: cobblestone
   acacia_fence_gate_open:
