@@ -519,7 +519,7 @@ Items:
     damage: 158
     display: Dirt Cover
     category: Terra
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[power=4]
     collection:
       indirect: grass
@@ -1279,7 +1279,7 @@ Items:
     damage: 159
     display: Puddle
     category: Terra
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[power=5]
     collection:
       indirect: water0
