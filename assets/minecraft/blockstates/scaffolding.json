@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "bottom=false,distance=7": { "model": "minecraft:block/scaffolding_1x1arch" },
+	"bottom=false,distance=0": { "model": "minecraft:block/scaffolding_1x1arch", "y":90 },
+    "bottom=true": { "model": "minecraft:block/scaffolding_unstable" }
+  }
+}
