@@ -2683,14 +2683,14 @@
         "damage": 0.77218
       },
       "name": 383,
-      "model": "block/red_mushroom_block_esu"
+      "model": "block/crimson_hyphae"
 	  },
 	{
       "predicate": {
         "damage": 0.77419
       },
       "name": 384,
-      "model": "block/red_mushroom_block_esud"
+      "model": "block/stripped_crimson_hyphae"
 	  },
   {
       "predicate": {
@@ -2809,7 +2809,7 @@
           "damage": 0.80847
       },
       "name": 401,
-      "model": "block/"
+      "model": "block/stripped_crimson_hyphae_y"
       },
   {
       "predicate": {
@@ -2831,6 +2831,69 @@
       },
       "name": 404,
       "model": "item/display_trunk_diagonal_ns"
+      },
+  {
+      "predicate": {
+          "damage": 0.81653
+      },
+      "name": 405,
+      "model": "block/hopper_light_gray_large_doric"
+      },
+  {
+      "predicate": {
+          "damage": 0.81855
+      },
+      "name": 406,
+      "model": "block/birch_leaves_pillar_thick"
+      },
+  {
+      "predicate": {
+          "damage": 0.82057
+      },
+      "name": 407,
+      "model": "block/birch_leaves_pillar_thick_bottom"
+      },
+  {
+      "predicate": {
+          "damage": 0.82258
+      },
+      "name": 408,
+      "model": "block/scaffolding_1x1arch"
+      },
+  {
+      "predicate": {
+          "damage": 0.82460
+      },
+      "name": 409,
+      "model": "block/smooth_quartz_stairs_1x2arch"
+      },
+  {
+      "predicate": {
+          "damage": 0.82661
+      },
+      "name": 410,
+      "model": "block/"
+      },
+  {
+      "predicate": {
+          "damage": 0.82863
+      },
+      "name": 411,
+      "model": "block/"
+      },
+  {
+      "predicate": {
+          "damage": 0.83065
+      },
+      "name": 412,
+      "model": "block/acacia_door_corbel"
+      },
+  {
+      "predicate": {
+          "damage": 0.83266
+      },
+      "name": 413,
+      "model": "block/jungle_button_corbel"
       }
 
   ]

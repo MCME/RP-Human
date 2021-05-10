@@ -735,6 +735,9 @@ Items:
       H4: cobblestone
       I4: double_slab_cobblestone
       A0: dark_pillar
+      D2: stone_brick_pillar_top
+      E1: stone_brick_pillar_middle
+      E0: stone_brick_pillar_bottom
   purpur_pillar_top:
     itemMaterial: PURPUR_PILLAR
     damage: 0
@@ -773,6 +776,25 @@ Items:
     type: THREE_AXIS
     collection:
       indirect: chorus_flower_stage2
+  stone_brick_pillar_top:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 405
+    display: Fancy Pillar Top
+    category: Block2
+    type: BLOCK
+    blockData: minecraft:hopper[enabled=true,facing=down]
+  stone_brick_pillar_middle:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 406
+    display: Fancy Pillar Middle
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=1,persistent=false]
+  stone_brick_pillar_bottom:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 407
+    display: Fancy Pillar Bottom
+    type: BLOCK
+    blockData: minecraft:birch_leaves[distance=6,persistent=true]
   stonebrick_normal:
     itemMaterial: STONE_BRICKS
     damage: 0
@@ -877,6 +899,18 @@ Items:
     damage: 0
     display: Heavily Mossy Large Grey Brick Stairs
     type: VANILLA
+    collection:
+      indirect: stonebrick_normal
+  large_stone_slab:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 401
+    display: Carved Stone Large Slab
+    category: Block2
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:crimson_hyphae[axis=y]
+    blockDataWest: minecraft:spripped_crimson_hyphae[axis=y]
+    blockDataNorth: minecraft:crimson_hyphae[axis=y]
+    blockDataEast: minecraft:spripped_crimson_hyphae[axis=y]
     collection:
       indirect: stonebrick_normal
   Stone_brick_wall:
@@ -1029,22 +1063,16 @@ Items:
     blockData: minecraft:mossy_stone_brick_slab[type=double,waterlogged=false]
     collection:
       indirect: stonebrick_normal
-  large_stone_slab:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 382
-    display: Carved Stone Large Slab
-    category: Block2
-    blockData: minecraft:red_mushroom_block[down=false,east=true,north=false,south=true,up=false,west=true]
-    type: BLOCK
-    collection:
-      indirect: stonebrick_normal
   large_mossy_stone_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 383
     display: Mossy Carved Stone Large Slab
     category: Block2
-    blockData: minecraft:red_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=false]
-    type: BLOCK
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:crimson_hyphae[axis=y]
+    blockDataWest: minecraft:crimson_hyphae[axis=x]
+    blockDataNorth: minecraft:crimson_hyphae[axis=y]
+    blockDataEast: minecraft:crimson_hyphae[axis=x]
     collection:
       indirect: stonebrick_normal
   mossy_stone_brick_slab:
@@ -1170,6 +1198,68 @@ Items:
     blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=false,open=true,powered=true]
     collection:
       indirect: double_slab_stonebrick
+  small_arch:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 408
+    display: Small Arch
+    category: Block2
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:scaffolding[bottom=false,distance=0]
+    blockDataWest: minecraft:scaffolding[bottom=false,distance=7]
+    blockDataNorth: minecraft:scaffolding[bottom=false,distance=0]
+    blockDataEast: minecraft:scaffolding[bottom=false,distance=7]
+    collection:
+      A1: small_arch
+      B2: medium_arch
+      C2: large_arch
+      D2: large_arch_1
+      F1: stone_corbel_round
+      G2: stone_corbel_steps
+  medium_arch:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 409
+    display: Medium Arch
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:smooth_quartz_stairs[facing=south,half=top,shape=outer_left]
+    blockDataWest: minecraft:smooth_quartz_stairs[facing=north,half=top,shape=outer_left]
+    blockDataNorth: minecraft:smooth_quartz_stairs[facing=north,half=top,shape=outer_right]
+    blockDataEast: minecraft:smooth_quartz_stairs[facing=east,half=top,shape=outer_left]
+  large_arch:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 410
+    display: Large Arch
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:
+    blockDataWest: minecraft:
+    blockDataNorth: minecraft:
+    blockDataEast: minecraft:
+  large_arch_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 411
+    display: Large Arch
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:
+    blockDataWest: minecraft:
+    blockDataNorth: minecraft:
+    blockDataEast: minecraft:
+  stone_corbel_round:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 412
+    display: Stone Corbel Round
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_door[facing=north,half=upper,hinge=right,open=true,powered=false]
+    blockDataWest: minecraft:acacia_door[facing=east,half=upper,hinge=right,open=true,powered=false]
+    blockDataNorth: minecraft:acacia_door[facing=south,half=upper,hinge=right,open=true,powered=false]
+    blockDataEast: minecraft:acacia_door[facing=west,half=upper,hinge=right,open=true,powered=false]
+  stone_corbel_steps:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 413
+    display: Stone Corbel Steps
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:jungle_button[face=wall,facing=east,powered=false]
+    blockDataWest: minecraft:jungle_button[face=wall,facing=south,powered=false]
+    blockDataNorth: minecraft:jungle_button[face=wall,facing=west,powered=false]
+    blockDataEast: minecraft:jungle_button[face=wall,facing=north,powered=false]
   double_slab_stonebrick_seamless:
     itemMaterial: WET_SPONGE
     damage: 0
@@ -1497,8 +1587,11 @@ Items:
     damage: 384
     display: Carved Dark Stone Large Slab
     category: Block2
-    blockData: minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=false]
-    type: BLOCK
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:stripped_crimson_hyphae[axis=y]
+    blockDataWest: minecraft:stripped_crimson_hyphae[axis=x]
+    blockDataNorth: minecraft:stripped_crimson_hyphae[axis=y]
+    blockDataEast: minecraft:stripped_crimson_hyphae[axis=x]
     collection:
       indirect: brick
   dark_stonebrick_mixed:
@@ -1800,6 +1893,15 @@ Items:
     blockDataUp: minecraft:spruce_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
     collection:
       indirect: double_slab_stone
+  large_cobblestone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 382
+    display: Large Cobblestone
+    category: Block2
+    blockData: minecraft:red_mushroom_block[down=false,east=true,north=false,south=true,up=false,west=true]
+    type: BLOCK
+    collection:
+      indirect: cobblestone
   cobblestone:
     itemMaterial: COBBLESTONE
     damage: 0
@@ -1821,6 +1923,7 @@ Items:
       E0: heavily_mossy_cobblestone
       J1: mossy_cobblestone_stairs
       C3: cobblestone_wall
+      I1: large_cobblestone
       I2: acacia_fence_gate_open_power_moss
       A4: trapdoor_cobblestone_open_regular
       B4: trapdoor_cobblestone_bottom_regular
