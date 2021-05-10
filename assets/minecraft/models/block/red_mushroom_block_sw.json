@@ -1,12 +1,12 @@
 {
-    "parent": "block/cube",
-    "textures": {
-        "particle": "block/mushroom_block_inside",
-        "down": "block/mushroom_block_inside",
-        "up": "block/red_mushroom_block",
-        "north": "block/mushroom_block_inside",
-        "east": "block/mushroom_block_inside",
-        "south": "block/red_mushroom_block",
-        "west": "block/red_mushroom_block"
-    }
+  "parent": "block/corner_parent",
+  "textures": {
+    "particle": "block/red_mushroom_block_sw",
+    "down": "block/red_mushroom_block_sw",
+    "up": "block/red_mushroom_block_sw",
+    "north": "block/red_mushroom_block_sw",
+    "east": "block/red_mushroom_block_sw",
+    "south": "block/red_mushroom_block_sw",
+    "west": "block/red_mushroom_block_sw"
+  }
 }

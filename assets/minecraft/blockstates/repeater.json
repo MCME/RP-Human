@@ -51,7 +51,12 @@
         "delay=4,facing=south,locked=false,powered=true": { "model": "block/powered_repeater_delay4_s" },
         "delay=4,facing=west,locked=false,powered=true": { "model": "block/powered_repeater_delay4_w" },
         "delay=4,facing=north,locked=false,powered=true": { "model": "block/powered_repeater_delay4_n" },
-        "delay=4,facing=east,locked=false,powered=true": { "model": "block/powered_repeater_delay4_e" }
+        "delay=4,facing=east,locked=false,powered=true": { "model": "block/powered_repeater_delay4_e" },
+		"delay=1,facing=south,locked=true,powered=false": { "model": "block/locked_repeater_delay1_s" },
+		"delay=1,facing=north,locked=true,powered=false": { "model": "block/locked_repeater_delay1_n" },
+		"delay=1,facing=east,locked=true,powered=false": { "model": "block/locked_repeater_delay1_e" },
+		"delay=1,facing=west,locked=true,powered=false": { "model": "block/locked_repeater_delay1_w" },
+		"delay=1,facing=north,locked=true,powered=true": { "model": "block/locked_powered_repeater_delay1_n" }
 
     }
 }
