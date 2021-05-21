@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
 	"textures": {
 		"0": "block/stripped_oak_log",
 		"1": "block/stripped_oak_log_top_3",
@@ -7,8 +8,8 @@
 	},
 	"elements": [
 		{
-			"from": [-3, 0, -3],
-			"to": [3, 16, 3],
+			"from": [-3, 0.006, -3],
+			"to": [3, 15.986, 3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 8, 0]},
 			"faces": {
 				"north": {"uv": [10, 0, 16, 16], "texture": "#0"},

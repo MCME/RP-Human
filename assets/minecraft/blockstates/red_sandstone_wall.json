@@ -118,29 +118,29 @@
 	  },
 	
 	  
-	{"when": { "up": "true", "north": "none", "east": "tall", "south": "tall", "west": "none" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_se" }]
-	  },
-	{"when": { "up": "true", "north": "none", "east": "none", "south": "tall", "west": "tall" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_se", "y": 90 }]
-	  },
 	{"when": { "up": "true", "north": "tall", "east": "none", "south": "none", "west": "tall" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_se", "y": 180 }]
+      "apply": [{ "model": "minecraft:block/beam_diagonal_n_support" }]
 	  },
 	{"when": { "up": "true", "north": "tall", "east": "tall", "south": "none", "west": "none" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_se", "y": 270 }]
+      "apply": [{ "model": "minecraft:block/beam_diagonal_n_support", "y": 90 }]
 	  },
-	{"when": { "up": "false", "north": "none", "east": "tall", "south": "low", "west": "none" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_se_down" }]
+	{"when": { "up": "true", "north": "none", "east": "tall", "south": "tall", "west": "none" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_n_support", "y": 180 }]
 	  },
-	{"when": { "up": "false", "north": "none", "east": "none", "south": "tall", "west": "low" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_se_down", "y": 90 }]
+	{"when": { "up": "true", "north": "none", "east": "none", "south": "tall", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_n_support", "y": 270 }]
 	  },
 	{"when": { "up": "false", "north": "low", "east": "none", "south": "none", "west": "tall" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_se_down", "y": 180 }]
+      "apply": [{ "model": "minecraft:block/beam_diagonal_w_support" }]
 	  },
 	{"when": { "up": "false", "north": "tall", "east": "low", "south": "none", "west": "none" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_se_down", "y": 270 }]
+      "apply": [{ "model": "minecraft:block/beam_diagonal_w_support", "y": 90 }]
+	  },
+	{"when": { "up": "false", "north": "none", "east": "tall", "south": "low", "west": "none" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_w_support", "y": 180 }]
+	  },
+	{"when": { "up": "false", "north": "none", "east": "none", "south": "tall", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_w_support", "y": 270 }]
 	  },
 	  
 	  
@@ -352,29 +352,29 @@
 	  },
 	  
 	  
-	{"when": { "up": "false", "north": "tall", "east": "low", "south": "low", "west": "none" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_nse" }]
-	  },
-	{"when": { "up": "false", "north": "none", "east": "tall", "south": "low", "west": "low" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_nse", "y": 90 }]
-	  },
 	{"when": { "up": "false", "north": "low", "east": "none", "south": "tall", "west": "low" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_nse", "y": 180 }]
+      "apply": [{ "model": "minecraft:block/beam_diagonal_sw_support" }]
 	  },
 	{"when": { "up": "false", "north": "low", "east": "low", "south": "none", "west": "tall" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_nse", "y": 270 }]
+      "apply": [{ "model": "minecraft:block/beam_diagonal_sw_support", "y": 90 }]
 	  },
-	{"when": { "up": "true", "north": "tall", "east": "low", "south": "low", "west": "none" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_nse_down" }]
+	{"when": { "up": "false", "north": "tall", "east": "low", "south": "low", "west": "none" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_sw_support", "y": 180 }]
 	  },
-	{"when": { "up": "true", "north": "none", "east": "tall", "south": "low", "west": "low" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_nse_down", "y": 90 }]
-	  },
-	{"when": { "up": "true", "north": "low", "east": "none", "south": "tall", "west": "low" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_nse_down", "y": 180 }]
+	{"when": { "up": "false", "north": "none", "east": "tall", "south": "low", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_sw_support", "y": 270 }]
 	  },
 	{"when": { "up": "true", "north": "low", "east": "low", "south": "none", "west": "tall" },
-      "apply": [{ "model": "minecraft:block/beam_diagonal_nse_down", "y": 270 }]
+      "apply": [{ "model": "minecraft:block/beam_diagonal_ne_support" }]
+	  },
+	{"when": { "up": "true", "north": "tall", "east": "low", "south": "low", "west": "none" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_ne_support", "y": 90 }]
+	  },
+	{"when": { "up": "true", "north": "none", "east": "tall", "south": "low", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_ne_support", "y": 180 }]
+	  },
+	{"when": { "up": "true", "north": "low", "east": "none", "south": "tall", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_ne_support", "y": 270 }]
 	  },
 	  
 	  
@@ -401,6 +401,114 @@
 	  },
 	{"when": { "up": "true", "north": "low", "east": "low", "south": "tall", "west": "tall" },
       "apply": [{ "model": "minecraft:block/beam_diagonal_nswe_down", "y": 270 }]
+	  },
+	  
+	  
+	{"when": { "up": "false", "north": "tall", "east": "tall", "south": "none", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_e_support" }]
+	  },
+	{"when": { "up": "false", "north": "low", "east": "tall", "south": "tall", "west": "none" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_e_support", "y": 90 }]
+	  },
+	{"when": { "up": "false", "north": "none", "east": "low", "south": "tall", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_e_support", "y": 180 }]
+	  },
+	{"when": { "up": "false", "north": "tall", "east": "none", "south": "low", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_e_support", "y": 270 }]
+	  },
+	{"when": { "up": "true", "north": "tall", "east": "none", "south": "tall", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_s_support" }]
+	  },
+	{"when": { "up": "true", "north": "low", "east": "tall", "south": "none", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_s_support", "y": 90 }]
+	  },
+	{"when": { "up": "true", "north": "tall", "east": "low", "south": "tall", "west": "none" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_s_support", "y": 180 }]
+	  },
+	{"when": { "up": "true", "north": "none", "east": "tall", "south": "low", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_s_support", "y": 270 }]
+	  },
+	  
+	  
+	{"when": { "up": "false", "north": "tall", "east": "none", "south": "none", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_nw_support" }]
+	  },
+	{"when": { "up": "false", "north": "low", "east": "tall", "south": "none", "west": "none" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_nw_support", "y": 90 }]
+	  },
+	{"when": { "up": "false", "north": "none", "east": "low", "south": "tall", "west": "none" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_nw_support", "y": 180 }]
+	  },
+	{"when": { "up": "false", "north": "none", "east": "none", "south": "low", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_nw_support", "y": 270 }]
+	  },
+	  
+	  
+	{"when": { "up": "false", "north": "tall", "east": "tall", "south": "tall", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_se_support" }]
+	  },
+	{"when": { "up": "false", "north": "low", "east": "tall", "south": "tall", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_se_support", "y": 90 }]
+	  },
+	{"when": { "up": "false", "north": "tall", "east": "low", "south": "tall", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_se_support", "y": 180 }]
+	  },
+	{"when": { "up": "false", "north": "tall", "east": "tall", "south": "low", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_se_support", "y": 270 }]
+	  },
+	  
+	  
+	{"when": { "up": "true", "north": "low", "east": "tall", "south": "low", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_se" }]
+	  },
+	{"when": { "up": "true", "north": "low", "east": "low", "south": "tall", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_se", "y": 90 }]
+	  },
+	{"when": { "up": "true", "north": "low", "east": "low", "south": "low", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_se", "y": 180 }]
+	  },
+	{"when": { "up": "true", "north": "tall", "east": "low", "south": "low", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_se", "y": 270 }]
+	  },
+	  
+	  
+	{"when": { "up": "false", "north": "low", "east": "low", "south": "low", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_se_down" }]
+	  },
+	{"when": { "up": "false", "north": "tall", "east": "low", "south": "low", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_se_down", "y": 90 }]
+	  },
+	{"when": { "up": "false", "north": "low", "east": "tall", "south": "low", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_se_down", "y": 180 }]
+	  },
+	{"when": { "up": "false", "north": "low", "east": "low", "south": "tall", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_se_down", "y": 270 }]
+	  },
+	  
+	  
+	{"when": { "up": "true", "north": "tall", "east": "tall", "south": "tall", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_nse" }]
+	  },
+	{"when": { "up": "true", "north": "low", "east": "tall", "south": "tall", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_nse", "y": 90 }]
+	  },
+	{"when": { "up": "true", "north": "tall", "east": "low", "south": "tall", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_nse", "y": 180 }]
+	  },
+	{"when": { "up": "true", "north": "tall", "east": "tall", "south": "low", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_nse", "y": 270 }]
+	  },
+	{"when": { "up": "false", "north": "low", "east": "tall", "south": "low", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_nse_down" }]
+	  },
+	{"when": { "up": "false", "north": "tall", "east": "low", "south": "tall", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_nse_down", "y": 90 }]
+	  },
+	{"when": { "up": "true", "north": "low", "east": "tall", "south": "low", "west": "tall" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_nse_down", "y": 180 }]
+	  },
+	{"when": { "up": "true", "north": "tall", "east": "low", "south": "tall", "west": "low" },
+      "apply": [{ "model": "minecraft:block/beam_diagonal_nse_down", "y": 270 }]
 	  }
   ]
 }
