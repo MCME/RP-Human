@@ -39,8 +39,16 @@ Items:
       C4: moss_covered_stone
       D4: campfire_light_boulders
       F4: stone
-      G4: stone_slab
-      H4: comparator_compare_e
+      G4: stone_stairs
+      H4: stone_slab
+      I4: comparator_compare_e
+  stone_stairs:
+    itemMaterial: STONE_STAIRS
+    damage: 0
+    display: Stone Stairs
+    type: VANILLA
+    collection:
+      indirect: diorite
   diamond_ore:
     itemMaterial: DIAMOND_ORE
     damage: 0
@@ -142,6 +150,7 @@ Items:
       G2: rough_dark_stone_slab
       H2: powered_repeater_delay4_w
       I2: granite_smooth
+      J2: granite_smooth_stairs
       J1: mossy_granite_smooth
       E0: dry_gravel
       E1: red_concrete
@@ -180,6 +189,13 @@ Items:
     damage: 2
     display: Smooth Red Stone
     category: Terra
+    type: VANILLA
+    collection:
+      indirect: granite
+  granite_smooth:
+    itemMaterial: POLISHED_GRANITE_STAIRS
+    damage: 2
+    display: Smooth Red Stone Stairs
     type: VANILLA
     collection:
       indirect: granite
@@ -829,6 +845,7 @@ Items:
     blockData: minecraft:sand
     type: BLOCK
     collection:
+      A2: sand_waterlogged
       A0: upper_slab_sand
       F1: sand
       G2: black_concrete_powder
@@ -845,6 +862,14 @@ Items:
       A4: dark_prismarine_slab
       B4: prismarine_slab
       F4: brain_coral_block
+  sand_waterlogged:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 396
+    display: Sand Slab (waterlogged)
+    type: BLOCK
+    blockData: minecraft:purpur_slab[type=bottom,waterlogged=true]
+    collection:
+      indirect: sand
   comparator_powered_compare_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 223

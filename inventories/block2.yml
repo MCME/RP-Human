@@ -143,7 +143,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 19
     display: Medium Dark Wooden Beam
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:chorus_plant
     collection:
       indirect: oak_planks
@@ -170,12 +170,39 @@ Items:
       B4: oak_planks
       F4: birch_fence_gate
       G4: jungle_log
+      H4: dark_prismarine
+      I4: dark_prismarine_stairs
+      J4: dark_prismarine_slabs
   jungle_log:
     itemMaterial: JUNGLE_LOG
     damage: 3
     display: Light Wooden Beam
     category: Block2
     type: VANILLA
+    collection:
+      indirect: birch_planks
+  dark_prismarine:
+    itemMaterial: DARK_PRISMARINE
+    damage: 3
+    display: Leather Block
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: birch_planks
+  dark_prismarine_stairs:
+    itemMaterial: DARK_PRISMARINE_STAIRS
+    damage: 0
+    display: Leather Block Stairs
+    type: VANILLA
+    collection:
+      indirect: birch_planks
+  dark_prismarine_slabs:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 414
+    display: Leather Block Slab
+    type: BISECTED
+    blockDataDown: minecraft:repeater[delay=1,facing=north,locked=false,powered=true]
+    blockDataUp: minecraft:dark_prismarine_slab[type=top,waterlogged=false]
     collection:
       indirect: birch_planks
   birch_stairs:
@@ -268,10 +295,9 @@ Items:
   powered_repeater_delay3_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 207
-    display: White Plank Slab
-    type: BISECTED
-    blockDataDown: minecraft:repeater[delay=3,facing=west,locked=false,powered=true]
-    blockDataUp: minecraft:dark_prismarine_slab[type=top,waterlogged=false]
+    display: White Plank Slab (lower)
+    type: BLOCK
+    blockData: minecraft:repeater[delay=3,facing=west,locked=false,powered=true]
     collection:
       indirect: birch_planks
   vertical_slab_double_slab_planks_dark_oak_regular:
@@ -1085,7 +1111,7 @@ Items:
   stonebrick_mixed:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 4
-    display: Mixed Gray Bricks
+    display: Mixed Light Grey Bricks
     category: Block2
     blockData: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=false]
     type: BLOCK
@@ -1227,21 +1253,21 @@ Items:
   large_arch:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 410
-    display: Large Arch
+    display: Large Arch Middle
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:
-    blockDataWest: minecraft:
-    blockDataNorth: minecraft:
-    blockDataEast: minecraft:
+    blockDataSouth: minecraft:dark_oak_button[face=ceiling,facing=east,powered=false]
+    blockDataWest: minecraft:dark_oak_button[face=ceiling,facing=south,powered=false]
+    blockDataNorth: minecraft:dark_oak_button[face=ceiling,facing=east,powered=false]
+    blockDataEast: minecraft:dark_oak_button[face=ceiling,facing=south,powered=false]
   large_arch_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 411
     display: Large Arch
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:
-    blockDataWest: minecraft:
-    blockDataNorth: minecraft:
-    blockDataEast: minecraft:
+    blockDataSouth: minecraft:acacia_door[facing=north,half=lower,hinge=right,open=false,powered=false]
+    blockDataWest: minecraft:acacia_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    blockDataNorth: minecraft:acacia_door[facing=south,half=lower,hinge=right,open=false,powered=false]
+    blockDataEast: minecraft:acacia_door[facing=west,half=lower,hinge=right,open=false,powered=false]
   stone_corbel_round:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 412
@@ -1597,7 +1623,7 @@ Items:
   dark_stonebrick_mixed:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 12
-    display: Mixed Grey Bricks
+    display: Mixed Dark Grey Bricks
     category: Block2
     blockData: minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=false,west=false]
     type: BLOCK

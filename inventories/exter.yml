@@ -3,7 +3,7 @@ Items:
   dropper_nwd:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 146
-    display: Rope log [158:0]
+    display: Rope log
     category: Exter
     type: THREE_AXIS
     blockDataZ: minecraft:dropper[facing=north,triggered=false]
@@ -25,7 +25,7 @@ Items:
   dropper_seu:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 147
-    display: Chain log [158:1]
+    display: Chain log
     category: Exter
     type: THREE_AXIS
     blockDataZ: minecraft:dropper[facing=south,triggered=false]
@@ -36,7 +36,7 @@ Items:
   dispenser:
     itemMaterial: DISPENSER
     damage: 0
-    display: Mechanics block [23:0]
+    display: Mechanics block
     category: Exter
     type: VANILLA
     collection:
@@ -44,25 +44,25 @@ Items:
   chain_up_north:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 177
-    display: 3D chain [55:1]
+    display: 3D chain
     category: Exter
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[east=none,north=none,power=1,south=none,west=none]
     collection:
       indirect: dropper_nwd
   chain_up_center:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 178
-    display: 3D chain (horizontal) [55:2]
+    display: 3D chain (horizontal)
     category: Exter
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:redstone_wire[east=none,north=none,power=2,south=none,west=none]
     collection:
       indirect: dropper_nwd
   golden_rail_flat:
     itemMaterial: POWERED_RAIL
     damage: 0
-    display: Chain horizontal [27:0]
+    display: Chain horizontal
     category: Exter
     type: VANILLA
     collection:
@@ -70,7 +70,7 @@ Items:
   golden_rail_raised_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 152
-    display: Chain vertical [27:10]
+    display: Chain vertical
     category: Exter
     type: BLOCK
     blockData: minecraft:powered_rail[powered=true,shape=ascending_east]
@@ -79,7 +79,7 @@ Items:
   detector_rail_flat:
     itemMaterial: DETECTOR_RAIL
     damage: 0
-    display: Rope horizontal [28:0]
+    display: Rope horizontal
     category: Exter
     type: VANILLA
     collection:
@@ -87,7 +87,7 @@ Items:
   detector_rail_raised_e:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 154
-    display: Rope vertical [28:10]
+    display: Rope vertical
     category: Exter
     type: BLOCK
     blockData: minecraft:detector_rail[powered=true,shape=ascending_east]
@@ -96,7 +96,7 @@ Items:
   glass_pane_red:
     itemMaterial: RED_STAINED_GLASS_PANE
     damage: 14
-    display: Net / Thin rope [160:14]
+    display: Net / Thin rope
     category: Exter
     type: VANILLA
     collection:
@@ -109,7 +109,7 @@ Items:
     powered: true
     itemMaterial: OAK_DOOR
     damage: 0
-    display: Wooden door 1 [64:10]
+    display: Wooden door 1
     category: Exter
     type: DOOR
     collection:
@@ -129,7 +129,7 @@ Items:
     powered: true
     itemMaterial: SPRUCE_DOOR
     damage: 0
-    display: Wooden door 2 [193:10]
+    display: Wooden door 2
     category: Exter
     type: DOOR
     collection:
@@ -139,7 +139,7 @@ Items:
     powered: true
     itemMaterial: JUNGLE_DOOR
     damage: 0
-    display: Makeshift door [195:10]
+    display: Makeshift door
     category: Exter
     type: DOOR
     collection:
@@ -149,7 +149,7 @@ Items:
     powered: true
     itemMaterial: ACACIA_DOOR
     damage: 0
-    display: Wooden door 4 [196:10]
+    display: Wooden door 4
     category: Exter
     type: DOOR
     collection:
@@ -158,7 +158,7 @@ Items:
     blockMaterial: IRON_DOOR
     itemMaterial: IRON_DOOR
     damage: 0
-    display: Prison cell door [71:8]
+    display: Prison cell door
     category: Exter
     type: DOOR
     collection:
@@ -167,7 +167,7 @@ Items:
     blockMaterial: BIRCH_DOOR
     itemMaterial: DIAMOND_LEGGINGS
     damage: 126
-    display: Palace door [194:10]
+    display: Palace door
     category: Exter
     type: DOOR
     powered: true
@@ -177,14 +177,60 @@ Items:
     blockMaterial: IRON_DOOR
     itemMaterial: DIAMOND_LEGGINGS
     damage: 127
-    display: Barn door [71:10]
+    display: Barn door
     category: Exter
     type: DOOR
     powered: true
     collection:
       indirect: wooden_door_powered
-  
-  
+  wooden_railing:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 392
+    display: Wooden Railing
+    category: Exter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_door[facing=east,half=lower,hinge=right,open=true,powered=false]
+    blockDataWest: minecraft:acacia_door[facing=south,half=lower,hinge=right,open=true,powered=false]
+    blockDataNorth: minecraft:acacia_door[facing=west,half=lower,hinge=right,open=true,powered=false]
+    blockDataEast: minecraft:acacia_door[facing=north,half=lower,hinge=right,open=true,powered=false]
+    collection:
+      A0: wooden_railing
+      A1: wooden_railing_down
+      B2: wooden_railing_corner
+      E0: wooden_fence_big
+  wooden_railing_down:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 393
+    display: Wooden Railing Down
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_door[facing=north,half=lower,hinge=left,open=false,powered=false]
+    blockDataWest: minecraft:acacia_door[facing=west,half=lower,hinge=left,open=false,powered=false]
+    blockDataNorth: minecraft:acacia_door[facing=south,half=lower,hinge=left,open=false,powered=false]
+    blockDataEast: minecraft:acacia_door[facing=east,half=lower,hinge=left,open=false,powered=false]
+    collection:
+      indirect: wooden_railing
+  wooden_railing_corner:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 394
+    display: Wooden Railing Corner
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_door[facing=west,half=upper,hinge=left,open=true,powered=false]
+    blockDataWest: minecraft:acacia_door[facing=north,half=upper,hinge=left,open=true,powered=false]
+    blockDataNorth: minecraft:acacia_door[facing=east,half=upper,hinge=left,open=true,powered=false]
+    blockDataEast: minecraft:acacia_door[facing=south,half=upper,hinge=left,open=true,powered=false]
+    collection:
+      indirect: wooden_railing
+  wooden_fence_big:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 395
+    display: Wooden Fence Big
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_door[facing=north,half=upper,hinge=right,open=false,powered=false]
+    blockDataWest: minecraft:acacia_door[facing=east,half=upper,hinge=right,open=false,powered=false]
+    blockDataNorth: minecraft:acacia_door[facing=south,half=upper,hinge=right,open=false,powered=false]
+    blockDataEast: minecraft:acacia_door[facing=west,half=upper,hinge=right,open=false,powered=false]
+    collection:
+      indirect: wooden_railing
   # clothesline collection
   clothesline_empty_regular:
     itemMaterial: DIAMOND_CHESTPLATE
@@ -223,7 +269,7 @@ Items:
   barrel_empty:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 401
-    display: Barrel empty [81:15]
+    display: Barrel empty
     category: Exter
     type: BLOCK
     blockData: minecraft:cactus[age=15]
@@ -344,7 +390,7 @@ Items:
   # wheel collection
   sticky_piston:
     itemMaterial: STICKY_PISTON
-    display: Wheel on stone base [29:0]
+    display: Wheel on stone base
     category: Exter
     type: SIX_FACES
     blockDataNorth: minecraft:spruce_leaves[distance=5,persistent=false]
@@ -362,7 +408,7 @@ Items:
   piston_head_sticky:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 150
-    display: Wheel [34:0]
+    display: Wheel
     category: Exter
     type: SIX_FACES
     blockDataSouth: minecraft:spruce_leaves[distance=7,persistent=true]
@@ -376,7 +422,7 @@ Items:
   cocoa_age0_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 334
-    display: Wheel (short axle) [127:0]
+    display: Wheel (short axle)
     category: Exter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_button[face=wall,facing=north,powered=false]
@@ -391,8 +437,8 @@ Items:
   anvil_damage0_sw:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 287
-    display: Anvil [145:0]
-    category: Inter
+    display: Anvil
+    category: Exter
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:anvil[facing=west]
     blockDataWest: minecraft:anvil[facing=south]
@@ -401,27 +447,27 @@ Items:
   lit_pumpkin:
     itemMaterial: JACK_O_LANTERN
     damage: 0
-    display: Scarecrow head [91:0]
+    display: Scarecrow head
     category: Exter
     type: VANILLA
   beacon:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 337
-    display: Lantern [138:0]
+    display: Lantern
     category: Exter
     type: BLOCK
     blockData: minecraft:beacon
   cactus_stage2:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 149
-    display: Bell [81:2]
+    display: Bell
     category: Exter
     type: BLOCK
     blockData: minecraft:cactus[age=2]
   rail_curved:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 155
-    display: Fireplace [66:6]
+    display: Fireplace
     category: Exter
     type: EIGHT_FACES
     blockDataSouth: minecraft:rail[shape=north_west]
@@ -435,7 +481,7 @@ Items:
   activator_rail_flat:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 156
-    display: Footprints [157:0]
+    display: Footprints
     category: Exter
     type: EIGHT_FACES
     blockDataSouth: minecraft:activator_rail[powered=true,shape=north_south]
@@ -449,7 +495,7 @@ Items:
   dropper_powered_nwd:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 148
-    display: Bundled logs [158:8]
+    display: Bundled logs
     category: Exter
     type: THREE_AXIS
     blockDataZ: minecraft:dropper[facing=north,triggered=true]
@@ -458,7 +504,7 @@ Items:
   hay:
     itemMaterial: HAY_BLOCK
     damage: 0
-    display: Hay Block [91:0]
+    display: Hay Block
     category: Exter
     type: VANILLA
   
@@ -467,7 +513,7 @@ Items:
   golden_rail_flat_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 151
-    display: Chain diagonal [27:8]
+    display: Chain diagonal
     type: EIGHT_FACES
     blockDataSouth: minecraft:powered_rail[powered=true,shape=north_south]
     blockDataSouthWest: minecraft:powered_rail[powered=true,shape=east_west]
@@ -482,7 +528,7 @@ Items:
   detector_rail_flat_diagonal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 153
-    display: Rope diagonal [28:8]
+    display: Rope diagonal
     type: EIGHT_FACES
     blockDataSouth: minecraft:detector_rail[powered=true,shape=north_south]
     blockDataSouthWest: minecraft:detector_rail[powered=true,shape=east_west]
@@ -662,7 +708,7 @@ Items:
   dark_oak_button_floor_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 335
-    display: Wheel (on floor) [93:6]
+    display: Wheel (on floor)
     type: BLOCK
     blockData: minecraft:dark_oak_button[face=floor,facing=north,powered=false]
     collection:
@@ -670,7 +716,7 @@ Items:
   dark_oak_button_ceiling_n:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 336
-    display: Wheel (on ceiling) [93:7]
+    display: Wheel (on ceiling)
     type: BLOCK
     blockData: minecraft:dark_oak_button[face=ceiling,facing=north,powered=false]
     collection:
@@ -678,7 +724,7 @@ Items:
   iron_door_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 134
-    display: Half prison cell door [71:0]
+    display: Half prison cell door
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:iron_door[facing=north,half=lower,hinge=right,open=false,powered=false]
     blockDataWest: minecraft:iron_door[facing=east,half=lower,hinge=right,open=false,powered=false]
@@ -689,7 +735,7 @@ Items:
   birch_door_bottom:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 130
-    display: Half wooden door 3 [194:0]
+    display: Half wooden door 3
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_door[facing=north,half=lower,hinge=right,open=false,powered=false]
     blockDataWest: minecraft:birch_door[facing=east,half=lower,hinge=right,open=false,powered=false]
@@ -701,7 +747,7 @@ Items:
     blockMaterial: BIRCH_DOOR
     itemMaterial: BIRCH_DOOR
     damage: 0
-    display: Wooden door 3 [194:8]
+    display: Wooden door 3
     type: DOOR
     collection:
       indirect: wooden_door_powered
@@ -710,7 +756,7 @@ Items:
     powered: true
     itemMaterial: DARK_OAK_DOOR
     damage: 0
-    display: Sturdy door [197:10]
+    display: Sturdy door
     type: DOOR
     collection:
       indirect: wooden_door_powered
