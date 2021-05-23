@@ -2774,7 +2774,7 @@
          "damage": 0.79839
       },
       "name": 396,
-      "model": "block/sand_slab_waterlogged"
+      "model": "item/waterlogged_sand_slab"
       },
   {
       "predicate": {
@@ -2908,6 +2908,13 @@
       },
       "name": 415,
       "model": "block/scaffolding_spinning_wheel"
+      },
+      {
+       "predicate": {
+        "damage": 0.83871
+          },
+        "name": 416,
+        "model": "block/redstone_dust_power8_center"
       }
 
   ]

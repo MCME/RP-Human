@@ -203,10 +203,10 @@ Items:
     damage: 393
     display: Wooden Railing Down
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_door[facing=north,half=lower,hinge=left,open=false,powered=false]
-    blockDataWest: minecraft:acacia_door[facing=west,half=lower,hinge=left,open=false,powered=false]
-    blockDataNorth: minecraft:acacia_door[facing=south,half=lower,hinge=left,open=false,powered=false]
-    blockDataEast: minecraft:acacia_door[facing=east,half=lower,hinge=left,open=false,powered=false]
+    blockDataSouth: minecraft:acacia_door[facing=north,half=upper,hinge=left,open=false,powered=false]
+    blockDataWest: minecraft:acacia_door[facing=east,half=upper,hinge=left,open=false,powered=false]
+    blockDataNorth: minecraft:acacia_door[facing=south,half=upper,hinge=left,open=false,powered=false]
+    blockDataEast: minecraft:acacia_door[facing=west,half=upper,hinge=left,open=false,powered=false]
     collection:
       indirect: wooden_railing
   wooden_railing_corner:
