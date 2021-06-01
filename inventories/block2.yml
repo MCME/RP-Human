@@ -20,9 +20,100 @@ Items:
       I2: iron_trapdoor_bottom_e
       A4: birch_planks
       B4: double_slab_planks_dark_oak
-      F4: oak_fence_gate
-      G4: oak_log
-      H4: chorus_plant
+      C4: oak_fence_gate
+      F4: oak_log
+      G4: chorus_plant
+      H4: support
+      I4: upper_support
+      J4: upper_support_plus
+  support:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 400
+    display: Support Beams
+    type: FOUR_DIRECTIONS_COMPLEX
+    blockDataNorth: minecraft:red_sandstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:red_sandstone_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataSouth: minecraft:red_sandstone_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:red_sandstone_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]
+    # editDataNorth refer to blockDataNorth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Block data for no connection is taken from blockDataNorth
+    editDataNorth:
+      N: minecraft:red_sandstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+      W: minecraft:red_sandstone_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=low]
+      S: minecraft:red_sandstone_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=low]
+      E: minecraft:red_sandstone_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=low]
+      NW: minecraft:red_sandstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+      WS: minecraft:red_sandstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=low]
+      SE: minecraft:red_sandstone_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=tall]
+      EN: minecraft:red_sandstone_wall[east=low,north=tall,south=none,up=false,waterlogged=false,west=low]
+      NS: minecraft:red_sandstone_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=tall]
+      WE: minecraft:red_sandstone_wall[east=low,north=tall,south=none,up=true,waterlogged=false,west=low]
+      NWS: minecraft:red_sandstone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=low]
+      WSE: minecraft:red_sandstone_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=tall]
+      SEN: minecraft:red_sandstone_wall[east=tall,north=low,south=low,up=false,waterlogged=false,west=tall]
+      ENW: minecraft:red_sandstone_wall[east=low,north=tall,south=none,up=true,waterlogged=false,west=tall]
+      NWSE: minecraft:red_sandstone_wall[east=low,north=tall,south=low,up=true,waterlogged=false,west=tall]
+    # editDataEast refer to blockDataEast. Block data which are obmitted here are obtained from editDataNorth
+    # by rotation
+  upper_support:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 403
+    display: Upper Support Beams
+    type: FOUR_DIRECTIONS_COMPLEX
+    blockDataNorth: minecraft:red_sandstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:red_sandstone_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataSouth: minecraft:red_sandstone_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:red_sandstone_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]
+    # Edit data refer to blockDataNorth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Missing entries will make that combination not available.
+    # Block data for no connection is taken from blockDataNorth
+    editDataNorth:
+      N: minecraft:red_sandstone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
+      W: minecraft:red_sandstone_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=tall]
+      S: minecraft:red_sandstone_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]
+      E: minecraft:red_sandstone_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=low]
+      NW: minecraft:red_sandstone_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=tall]
+      WS: minecraft:red_sandstone_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=tall]
+      SE: minecraft:red_sandstone_wall[east=tall,north=low,south=low,up=true,waterlogged=false,west=low]
+      EN: minecraft:red_sandstone_wall[east=tall,north=low,south=none,up=false,waterlogged=false,west=tall]
+      NS: minecraft:red_sandstone_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=tall]
+      WE: minecraft:red_sandstone_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=tall]
+      NWS: minecraft:red_sandstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=tall]
+      WSE: minecraft:red_sandstone_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=tall]
+      SEN: minecraft:red_sandstone_wall[east=tall,north=tall,south=tall,up=true,waterlogged=false,west=low]
+      ENW: minecraft:red_sandstone_wall[east=low,north=tall,south=none,up=false,waterlogged=false,west=tall]
+      NWSE: minecraft:red_sandstone_wall[east=low,north=tall,south=low,up=false,waterlogged=false,west=tall]
+    # editDataSouth refer to blockDataSouth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Block data for no connection is taken from blockDataSouth
+    # Entries which are obmitted here are obtained from editDataNorth by rotation
+    editDataSouth:
+      WE: minecraft:red_sandstone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=tall]
+    editDataWest:
+      NS: minecraft:red_sandstone_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=none]
+  upper_support_plus:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 417
+    display: Upper Support Beams with horizontal Beam
+    type: FOUR_DIRECTIONS_COMPLEX
+    blockDataNorth: minecraft:red_sandstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:red_sandstone_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataSouth: minecraft:red_sandstone_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:red_sandstone_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]
+    # Edit data refer to blockDataNorth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Block data for no connection is taken from blockDataNorth
+    editDataNorth:
+      N: minecraft:red_sandstone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=tall]
+      W: minecraft:red_sandstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=tall]
+      S: minecraft:red_sandstone_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=low]
+      E: minecraft:red_sandstone_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=low]
+      NW: minecraft:red_sandstone_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=low]
+      WS: minecraft:red_sandstone_wall[east=none,north=low,south=tall,up=false,waterlogged=false,west=low]
+      SE: minecraft:red_sandstone_wall[east=tall,north=tall,south=tall,up=false,waterlogged=false,west=low]
+      EN: minecraft:red_sandstone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=tall]
   oak_stairs:
     itemMaterial: OAK_STAIRS
     damage: 0
@@ -143,7 +234,7 @@ Items:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 19
     display: Medium Dark Wooden Beam
-    type: BLOCK
+    type: BLOCK_CONNECT
     blockData: minecraft:chorus_plant
     collection:
       indirect: oak_planks
@@ -170,12 +261,39 @@ Items:
       B4: oak_planks
       F4: birch_fence_gate
       G4: jungle_log
+      H4: dark_prismarine
+      I4: dark_prismarine_stairs
+      J4: dark_prismarine_slabs
   jungle_log:
     itemMaterial: JUNGLE_LOG
     damage: 3
     display: Light Wooden Beam
     category: Block2
     type: VANILLA
+    collection:
+      indirect: birch_planks
+  dark_prismarine:
+    itemMaterial: DARK_PRISMARINE
+    damage: 3
+    display: Leather Block
+    category: Block2
+    type: VANILLA
+    collection:
+      indirect: birch_planks
+  dark_prismarine_stairs:
+    itemMaterial: DARK_PRISMARINE_STAIRS
+    damage: 0
+    display: Leather Block Stairs
+    type: VANILLA
+    collection:
+      indirect: birch_planks
+  dark_prismarine_slabs:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 414
+    display: Leather Block Slab
+    type: BISECTED
+    blockDataDown: minecraft:repeater[delay=1,facing=north,locked=false,powered=true]
+    blockDataUp: minecraft:dark_prismarine_slab[type=top,waterlogged=false]
     collection:
       indirect: birch_planks
   birch_stairs:
@@ -268,10 +386,9 @@ Items:
   powered_repeater_delay3_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 207
-    display: White Plank Slab
-    type: BISECTED
-    blockDataDown: minecraft:repeater[delay=3,facing=west,locked=false,powered=true]
-    blockDataUp: minecraft:dark_prismarine_slab[type=top,waterlogged=false]
+    display: White Plank Slab (lower)
+    type: BLOCK
+    blockData: minecraft:repeater[delay=3,facing=west,locked=false,powered=true]
     collection:
       indirect: birch_planks
   vertical_slab_double_slab_planks_dark_oak_regular:
@@ -1085,7 +1202,7 @@ Items:
   stonebrick_mixed:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 4
-    display: Mixed Gray Bricks
+    display: Mixed Light Grey Bricks
     category: Block2
     blockData: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=false]
     type: BLOCK
@@ -1227,21 +1344,21 @@ Items:
   large_arch:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 410
-    display: Large Arch
+    display: Large Arch Middle
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:
-    blockDataWest: minecraft:
-    blockDataNorth: minecraft:
-    blockDataEast: minecraft:
+    blockDataSouth: minecraft:dark_oak_button[face=ceiling,facing=east,powered=false]
+    blockDataWest: minecraft:dark_oak_button[face=ceiling,facing=south,powered=false]
+    blockDataNorth: minecraft:dark_oak_button[face=ceiling,facing=east,powered=false]
+    blockDataEast: minecraft:dark_oak_button[face=ceiling,facing=south,powered=false]
   large_arch_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 411
     display: Large Arch
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:
-    blockDataWest: minecraft:
-    blockDataNorth: minecraft:
-    blockDataEast: minecraft:
+    blockDataSouth: minecraft:acacia_door[facing=north,half=lower,hinge=right,open=false,powered=false]
+    blockDataWest: minecraft:acacia_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    blockDataNorth: minecraft:acacia_door[facing=south,half=lower,hinge=right,open=false,powered=false]
+    blockDataEast: minecraft:acacia_door[facing=west,half=lower,hinge=right,open=false,powered=false]
   stone_corbel_round:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 412
@@ -1597,7 +1714,7 @@ Items:
   dark_stonebrick_mixed:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 12
-    display: Mixed Grey Bricks
+    display: Mixed Dark Grey Bricks
     category: Block2
     blockData: minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=false,west=false]
     type: BLOCK

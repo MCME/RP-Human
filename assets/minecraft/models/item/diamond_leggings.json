@@ -2746,49 +2746,49 @@
          "damage": 0.79032
       },
       "name": 392,
-      "model": "item/display_trunk_diagonal_ne"
+      "model": "block/acacia_door_railing"
       },
   {
       "predicate": {
          "damage": 0.79234
       },
       "name": 393,
-      "model": "item/display_trunk_diagonal_nse"
+      "model": "block/acacia_door_railing_diagonal"
       },
   {
       "predicate": {
          "damage": 0.79435
       },
       "name": 394,
-      "model": "item/display_trunk_diagonal_nsew"
+      "model": "block/acacia_door_railing_corner"
       },
   {
       "predicate": {
          "damage": 0.79637
       },
       "name": 395,
-      "model": "block/trunk_diagonal_thin"
+      "model": "block/acacia_door_fence"
       },
   {
       "predicate": {
          "damage": 0.79839
       },
       "name": 396,
-      "model": "item/display_trunk_diagonal_thin_ne"
+      "model": "item/waterlogged_sand_slab"
       },
   {
       "predicate": {
          "damage": 0.80040
       },
       "name": 397,
-      "model": "item/display_trunk_diagonal_thin_nse"
+      "model": "block/double_slab_dark_prismarine"
       },
   {
       "predicate": {
          "damage": 0.80242
       },
       "name": 398,
-      "model": "item/display_trunk_diagonal_thin_nsew"
+      "model": "block/redstone_dust_power8_center"
       },
   {
       "predicate": {
@@ -2802,7 +2802,7 @@
           "damage": 0.80645
       },
       "name": 400,
-      "model": "block/trunk_vertical"
+      "model": "block/beam_diagonal_s_down"
       },
   {
       "predicate": {
@@ -2823,7 +2823,7 @@
           "damage": 0.81250
       },
       "name": 403,
-      "model": "item/display_trunk_diagonal_thin_ns"
+      "model": "block/beam_diagonal_s"
       },
   {
       "predicate": {
@@ -2872,14 +2872,14 @@
           "damage": 0.82661
       },
       "name": 410,
-      "model": "block/"
+      "model": "block/dark_oak_button_1x3arch_top"
       },
   {
       "predicate": {
           "damage": 0.82863
       },
       "name": 411,
-      "model": "block/"
+      "model": "block/acacia_door_1x3arch"
       },
   {
       "predicate": {
@@ -2894,6 +2894,34 @@
       },
       "name": 413,
       "model": "block/jungle_button_corbel"
+      },
+  {
+      "predicate": {
+          "damage": 0.83468
+      },
+      "name": 414,
+      "model": "block/dark_prismarine_slab_inv"
+      },
+  {
+      "predicate": {
+          "damage": 0.83669
+      },
+      "name": 415,
+      "model": "block/scaffolding_spinning_wheel"
+      },
+      {
+       "predicate": {
+        "damage": 0.83871
+          },
+        "name": 416,
+        "model": "block/unused_cross_0"
+      },
+      {
+       "predicate": {
+        "damage": 0.84073
+          },
+        "name": 417,
+        "model": "block/beam_diagonal_s_support"
       }
 
   ]

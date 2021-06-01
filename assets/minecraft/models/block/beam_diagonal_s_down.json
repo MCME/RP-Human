@@ -34,5 +34,47 @@
 				"down": {"uv": [3, 3, 9, 9], "texture": "#1"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [30, -90, 30],
+			"translation": [-3, 3.5, 4.5],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [30, -90, 30],
+			"translation": [-3.25, 3.25, -1.5],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [30, -90, 30],
+			"translation": [-3.25, 3.25, 4.5],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [30, -90, 30],
+			"translation": [-3.25, 3.25, -2.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"rotation": [30, -90, 30],
+			"translation": [-3.25, 3.25, 4.5],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [30, 120, 0],
+			"translation": [-1.5, 3, 1.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"rotation": [30, -90, 30],
+			"translation": [-3.25, 10, 4.5],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"fixed": {
+			"rotation": [30, -90, 30],
+			"translation": [0, 0, 6.5],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	}
 }
