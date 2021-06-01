@@ -1,0 +1,129 @@
+{
+  "variants": {
+    "facing=east,half=lower,hinge=left,open=false,powered=true": {
+      "model": "minecraft:block/warped_door_diagonal_beam",
+	  "y": 90
+    },
+    "facing=east,half=lower,hinge=left,open=true,powered=true": {
+      "model": "minecraft:block/warped_door_diagonal_beam_1",
+      "y": 180
+    },
+    "facing=east,half=lower,hinge=right,open=false,powered=true": {
+      "model": "minecraft:block/warped_door_diagonal_beam_2",
+	  "y": 90
+    },
+    "facing=east,half=lower,hinge=right,open=true,powered=true": [
+	{ "model": "minecraft:block/warped_door_railing" },
+	{ "model": "minecraft:block/warped_door_railing_1" },
+	{ "model": "minecraft:block/warped_door_railing_2" }
+	],
+    "facing=east,half=upper,hinge=left,open=false,powered=true": {
+      "model": "minecraft:block/warped_door_cross_railing",
+	  "y": 270
+    },
+    "facing=east,half=upper,hinge=left,open=true": {
+      "model": "minecraft:block/warped_door_top_hinge",
+      "y": 90
+    },
+    "facing=east,half=upper,hinge=right,open=false": {
+      "model": "minecraft:block/warped_door_top_hinge"
+    },
+    "facing=east,half=upper,hinge=right,open=true": {
+      "model": "minecraft:block/warped_door_top",
+      "y": 270
+    },
+    "facing=north,half=lower,hinge=left,open=false,powered=true": {
+      "model": "minecraft:block/warped_door_diagonal_beam"
+    },
+    "facing=north,half=lower,hinge=left,open=true,powered=true": {
+      "model": "minecraft:block/warped_door_diagonal_beam_1",
+	  "y": 90
+    },
+    "facing=north,half=lower,hinge=right,open=false,powered=true": {
+      "model": "minecraft:block/warped_door_diagonal_beam_2"
+    },
+    "facing=north,half=lower,hinge=right,open=true,powered=true": [
+	{ "model": "minecraft:block/warped_door_railing", "y": 270 },
+	{ "model": "minecraft:block/warped_door_railing_1", "y": 270 },
+	{ "model": "minecraft:block/warped_door_railing_2", "y": 270 }
+	],
+    "facing=north,half=upper,hinge=left,open=false,powered=true": {
+      "model": "minecraft:block/warped_door_cross_railing",
+	  "y": 180
+    },
+    "facing=north,half=upper,hinge=left,open=true": {
+      "model": "minecraft:block/warped_door_top_hinge"
+    },
+    "facing=north,half=upper,hinge=right,open=false": {
+      "model": "minecraft:block/warped_door_top_hinge",
+      "y": 270
+    },
+    "facing=north,half=upper,hinge=right,open=true": {
+      "model": "minecraft:block/warped_door_top",
+      "y": 180
+    },
+    "facing=south,half=lower,hinge=left,open=false,powered=true": {
+      "model": "minecraft:block/warped_door_diagonal_beam",
+      "y": 180
+    },
+    "facing=south,half=lower,hinge=left,open=true,powered=true": {
+      "model": "minecraft:block/warped_door_diagonal_beam_1",
+      "y": 270
+    },
+    "facing=south,half=lower,hinge=right,open=false,powered=true": {
+      "model": "minecraft:block/warped_door_diagonal_beam_2",
+      "y": 180
+    },
+    "facing=south,half=lower,hinge=right,open=true,powered=true": [
+		{ "model": "minecraft:block/warped_door_railing", "y": 90 },
+		{ "model": "minecraft:block/warped_door_railing_1", "y": 90 },
+		{ "model": "minecraft:block/warped_door_railing_2", "y": 90 }
+    ],
+    "facing=south,half=upper,hinge=left,open=false,powered=true": {
+      "model": "minecraft:block/warped_door_cross_railing"
+    },
+    "facing=south,half=upper,hinge=left,open=true": {
+      "model": "minecraft:block/warped_door_top_hinge",
+      "y": 180
+    },
+    "facing=south,half=upper,hinge=right,open=false": {
+      "model": "minecraft:block/warped_door_top_hinge",
+      "y": 90
+    },
+    "facing=south,half=upper,hinge=right,open=true": {
+      "model": "minecraft:block/warped_door_top"
+    },
+    "facing=west,half=lower,hinge=left,open=false,powered=true": {
+      "model": "minecraft:block/warped_door_diagonal_beam",
+      "y": 270
+    },
+    "facing=west,half=lower,hinge=left,open=true,powered=true": {
+      "model": "minecraft:block/warped_door_diagonal_beam_1"
+    },
+    "facing=west,half=lower,hinge=right,open=false,powered=true": {
+      "model": "minecraft:block/warped_door_diagonal_beam_2",
+      "y": 270
+    },
+    "facing=west,half=lower,hinge=right,open=true,powered=true": [
+		{ "model": "minecraft:block/warped_door_railing", "y": 180 },
+		{ "model": "minecraft:block/warped_door_railing_1", "y": 180 },
+		{ "model": "minecraft:block/warped_door_railing_2", "y": 180 }
+    ],
+    "facing=west,half=upper,hinge=left,open=false,powered=true": {
+      "model": "minecraft:block/warped_door_cross_railing",
+      "y": 90
+    },
+    "facing=west,half=upper,hinge=left,open=true": {
+      "model": "minecraft:block/warped_door_top_hinge",
+      "y": 270
+    },
+    "facing=west,half=upper,hinge=right,open=false": {
+      "model": "minecraft:block/warped_door_top_hinge",
+      "y": 180
+    },
+    "facing=west,half=upper,hinge=right,open=true": {
+      "model": "minecraft:block/warped_door_top",
+      "y": 90
+    }
+  }
+}
