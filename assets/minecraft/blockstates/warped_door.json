@@ -21,10 +21,11 @@
       "model": "minecraft:block/warped_door_cross_railing",
 	  "y": 270
     },
-    "facing=east,half=upper,hinge=left,open=true": {
-      "model": "minecraft:block/warped_door_top_hinge",
-      "y": 90
-    },
+    "facing=east,half=upper,hinge=left,open=true,powered=true": [
+	{ "model": "minecraft:block/warped_door_woven_fence", "y": 180 },
+	{ "model": "minecraft:block/warped_door_woven_fence_1", "y": 180 },
+	{ "model": "minecraft:block/warped_door_woven_fence_2", "y": 180 }
+	],
     "facing=east,half=upper,hinge=right,open=false": {
       "model": "minecraft:block/warped_door_top_hinge"
     },
@@ -51,9 +52,11 @@
       "model": "minecraft:block/warped_door_cross_railing",
 	  "y": 180
     },
-    "facing=north,half=upper,hinge=left,open=true": {
-      "model": "minecraft:block/warped_door_top_hinge"
-    },
+    "facing=north,half=upper,hinge=left,open=true,powered=true": [
+	{ "model": "minecraft:block/warped_door_woven_fence", "y": 90 },
+	{ "model": "minecraft:block/warped_door_woven_fence_1", "y": 90 },
+	{ "model": "minecraft:block/warped_door_woven_fence_2", "y": 90 }
+	],
     "facing=north,half=upper,hinge=right,open=false": {
       "model": "minecraft:block/warped_door_top_hinge",
       "y": 270
@@ -82,10 +85,11 @@
     "facing=south,half=upper,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/warped_door_cross_railing"
     },
-    "facing=south,half=upper,hinge=left,open=true": {
-      "model": "minecraft:block/warped_door_top_hinge",
-      "y": 180
-    },
+    "facing=south,half=upper,hinge=left,open=true,powered=true": [
+	{ "model": "minecraft:block/warped_door_woven_fence", "y": 270 },
+	{ "model": "minecraft:block/warped_door_woven_fence_1", "y": 270 },
+	{ "model": "minecraft:block/warped_door_woven_fence_2", "y": 270 }
+	],
     "facing=south,half=upper,hinge=right,open=false": {
       "model": "minecraft:block/warped_door_top_hinge",
       "y": 90
@@ -113,10 +117,11 @@
       "model": "minecraft:block/warped_door_cross_railing",
       "y": 90
     },
-    "facing=west,half=upper,hinge=left,open=true": {
-      "model": "minecraft:block/warped_door_top_hinge",
-      "y": 270
-    },
+    "facing=west,half=upper,hinge=left,open=true,powered=true": [
+	{ "model": "minecraft:block/warped_door_woven_fence"},
+	{ "model": "minecraft:block/warped_door_woven_fence_1" },
+	{ "model": "minecraft:block/warped_door_woven_fence_2" }
+	],
     "facing=west,half=upper,hinge=right,open=false": {
       "model": "minecraft:block/warped_door_top_hinge",
       "y": 180
