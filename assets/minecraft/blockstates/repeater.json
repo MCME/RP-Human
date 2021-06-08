@@ -65,7 +65,12 @@
 															{ "model": "block/repeater_delay1_nl_2", "y": 90 },
 															{ "model": "block/repeater_delay1_nl_2", "y": 180 },
 															{ "model": "block/repeater_delay1_nl_2", "y": 270 }
-														]
+														],
+		"delay=1,facing=south,locked=true,powered=false": { "model": "block/locked_repeater_delay1_s" },												
+		"delay=1,facing=east,locked=true,powered=false": { "model": "block/locked_repeater_delay1_e" },
+		"delay=1,facing=west,locked=true,powered=false": { "model": "block/locked_repeater_delay1_w" },
+		"delay=1,facing=north,locked=true,powered=true": { "model": "block/locked_powered_repeater_delay1_n" },
+        "delay=1,facing=east,locked=true,powered=true": { "model": "block/locked_powered_repeater_delay1_e" }	
 
     }
 }
