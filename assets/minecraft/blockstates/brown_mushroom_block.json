@@ -41,9 +41,16 @@
       }
     ]},
     { "when": {"north": false, "west": true, "south": true, "east": true, "up": true, "down": true },
-      "apply": {
-      "model": "block/stucco_white"
-    }},
+      "apply":[
+		{ "model": "block/stucco_white"},
+		{ "model": "block/stucco_white_2"},
+		{ "model": "block/stucco_white_3"},
+		{ "model": "block/stucco_white_4"},
+		{ "model": "block/stucco_white_5"},
+		{ "model": "block/stucco_white_6"},
+		{ "model": "block/stucco_white_7"}
+		]
+	},
     { "when": {"north": false, "west": false, "south": false, "east": true, "up": false, "down": false },
       "apply": {
       "model": "block/stucco_orange"

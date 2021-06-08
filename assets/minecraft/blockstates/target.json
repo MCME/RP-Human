@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "power=0": { "model": "minecraft:block/target_block_power0" },
+	"power=1":[
+			{ "model": "minecraft:block/target_block_power1" },
+			{ "model": "minecraft:block/target_block_power1_2" },
+			{ "model": "minecraft:block/target_block_power1_3" },
+			{ "model": "minecraft:block/target_block_power1_4" },
+			{ "model": "minecraft:block/target_block_power1_5" },
+			{ "model": "minecraft:block/target_block_power1_6" }
+			],
+	"power=2": [
+			{ "model": "minecraft:block/target_block_power2" },
+			{ "model": "minecraft:block/target_block_power2_2" },
+			{ "model": "minecraft:block/target_block_power2_3" }
+			]
+  }
+}
