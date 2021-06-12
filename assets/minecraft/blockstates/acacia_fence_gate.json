@@ -412,57 +412,6 @@
       "when": {
         "facing": "north",
         "in_wall": "false",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/acacia_fence_gate_powered_closed",
-        "uvlock": true,
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "in_wall": "false",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/acacia_fence_gate_powered_closed",
-        "uvlock": true,
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "in_wall": "false",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/acacia_fence_gate_powered_closed",
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "in_wall": "false",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/acacia_fence_gate_powered_closed",
-        "uvlock": true,
-        "y": 90
-      }
-	},
-    {
-      "when": {
-        "facing": "north",
-        "in_wall": "false",
         "open": "true",
         "powered": "true"
       },
