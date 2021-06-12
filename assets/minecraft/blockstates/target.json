@@ -1,6 +1,11 @@
 {
   "variants": {
-    "power=0": { "model": "minecraft:block/target_block_power0" },
+    "power=0": [
+			{ "model": "minecraft:block/target_block_power0" },
+			{ "model": "minecraft:block/target_block_power0_2" },
+			{ "model": "minecraft:block/target_block_power0_3" },
+			{ "model": "minecraft:block/target_block_power0_4" }
+			],
 	"power=1":[
 			{ "model": "minecraft:block/target_block_power1" },
 			{ "model": "minecraft:block/target_block_power1_2" },
@@ -13,6 +18,26 @@
 			{ "model": "minecraft:block/target_block_power2" },
 			{ "model": "minecraft:block/target_block_power2_2" },
 			{ "model": "minecraft:block/target_block_power2_3" }
+			],
+	"power=3": [
+			{ "model": "minecraft:block/target_block_power0", "y": 90 },
+			{ "model": "minecraft:block/target_block_power0_2", "y": 90 },
+			{ "model": "minecraft:block/target_block_power0_3", "y": 90 },
+			{ "model": "minecraft:block/target_block_power0_4", "y": 90 }
+			],
+	"power=4": [
+			{ "model": "minecraft:block/target_block_power4" },
+			{ "model": "minecraft:block/target_block_power4_2" },
+			{ "model": "minecraft:block/target_block_power4_3" }
+			],
+	"power=5": [
+			{ "model": "minecraft:block/target_block_power5" },
+			{ "model": "minecraft:block/target_block_power5_2" },
+			{ "model": "minecraft:block/target_block_power5_3" },
+			{ "model": "minecraft:block/target_block_power5_4" },
+			{ "model": "minecraft:block/target_block_power5_5" },
+			{ "model": "minecraft:block/target_block_power5_6" },
+			{ "model": "minecraft:block/target_block_power5_7" }
 			]
   }
 }
