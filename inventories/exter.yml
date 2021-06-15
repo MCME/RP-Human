@@ -229,6 +229,7 @@ Items:
       B2: wooden_railing_corner
       F1: wooden_railing_cross
       G2: wooden_palisade
+      J1: woven_fence
       E0: wooden_fence_big
   wooden_railing_cross:
     itemMaterial: DIAMOND_LEGGINGS
@@ -252,6 +253,18 @@ Items:
     blockDataSouth: minecraft:warped_door[facing=west,half=lower,hinge=right,open=true,powered=true]
     blockDataEast: minecraft:warped_door[facing=south,half=lower,hinge=right,open=true,powered=true]
     blockDataWest: minecraft:warped_door[facing=north,half=lower,hinge=right,open=true,powered=true]
+    collection:
+      indirect: wooden_railing
+  woven_fence:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 423
+    display: Woven Fence
+    category: Exter
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:warped_door[facing=east,half=upper,hinge=left,open=true,powered=true]
+    blockDataSouth: minecraft:warped_door[facing=west,half=upper,hinge=left,open=true,powered=true]
+    blockDataEast: minecraft:warped_door[facing=south,half=upper,hinge=left,open=true,powered=true]
+    blockDataWest: minecraft:warped_door[facing=north,half=upper,hinge=left,open=true,powered=true]
     collection:
       indirect: wooden_railing
   wooden_railing_down:

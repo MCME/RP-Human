@@ -24,6 +24,8 @@ Items:
       A4: birch_planks
       B4: double_slab_planks_dark_oak
       C4: oak_fence_gate
+      D4: upper_oak_beam
+      E4: lower_oak_beam
       F4: oak_log
       G4: chorus_plant
       H4: support
@@ -59,6 +61,8 @@ Items:
       NWSE: minecraft:red_sandstone_wall[east=low,north=tall,south=low,up=true,waterlogged=false,west=tall]
     # editDataEast refer to blockDataEast. Block data which are obmitted here are obtained from editDataNorth
     # by rotation
+    collection:
+      indirect: oak_planks
   upper_support:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 403
@@ -96,6 +100,8 @@ Items:
       WE: minecraft:red_sandstone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=tall]
     editDataWest:
       NS: minecraft:red_sandstone_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: oak_planks
   upper_support_plus:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 417
@@ -117,6 +123,30 @@ Items:
       WS: minecraft:red_sandstone_wall[east=none,north=low,south=tall,up=false,waterlogged=false,west=low]
       SE: minecraft:red_sandstone_wall[east=tall,north=tall,south=tall,up=false,waterlogged=false,west=low]
       EN: minecraft:red_sandstone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: oak_planks
+  lower_oak_beam:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 424
+    display: Lower Wooden Beam
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:tripwire[attached=false,disarmed=false,east=false,north=false,powered=true,south=false,west=true]
+    blockDataSouth: minecraft:tripwire[attached=false,disarmed=false,east=false,north=false,powered=true,south=true,west=true]
+    blockDataEast: minecraft:tripwire[attached=false,disarmed=false,east=false,north=false,powered=true,south=true,west=false]
+    blockDataWest: minecraft:tripwire[attached=false,disarmed=false,east=false,north=false,powered=true,south=false,west=false]
+    collections:
+      indirect: oak_planks
+  upper_oak_beam:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 425
+    display: Upper Wooden Beam
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:tripwire[attached=false,disarmed=false,east=true,north=false,powered=true,south=false,west=true]
+    blockDataSouth: minecraft:tripwire[attached=false,disarmed=false,east=true,north=false,powered=true,south=true,west=true]
+    blockDataEast: minecraft:tripwire[attached=false,disarmed=false,east=true,north=false,powered=true,south=true,west=false]
+    blockDataWest: minecraft:tripwire[attached=false,disarmed=false,east=true,north=false,powered=true,south=false,west=false]
+    collections:
+      indirect: oak_planks
   oak_stairs:
     itemMaterial: OAK_STAIRS
     damage: 0
@@ -2070,6 +2100,7 @@ Items:
       F2: small_stone_bricks_cobblestone_corner
       A0: cobblestone
       A1: cobblestone_slab
+      A2: cobble_pavement
       B2: acacia_fence_gate_open
       C2: vertical_slab_mossy_cobblestone_regular
       D2: mossy_cobblestone_slab
@@ -2089,6 +2120,18 @@ Items:
       H4: monster_egg_cobblestone
       I4: brick
       J4: red_mushroom_dark_small_brick
+  cobble_pavement:
+    itemMaterial: LOOM
+    damage: 0
+    display: Cobble Pavement
+    category: Block2
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:loom[facing=east]
+    blockDataSouth: minecraft:loom[facing=north]
+    blockDataEast: minecraft:loom[facing=south]
+    blockDataWest: minecraft:loom[facing=west]
+    collection: 
+      indirect: cobblestone
   small_stone_bricks_cobblestone_corner:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 374
