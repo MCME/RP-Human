@@ -18,6 +18,9 @@ Items:
       E0: double_slab_planks_acacia
       J1: powered_repeater_delay3_s
       I2: iron_trapdoor_bottom_e
+      A3: twisting_vine_stairs_1
+      B3: twisting_vine_stairs_2
+      C3: twisting_vine_stairs_3
       A4: birch_planks
       B4: double_slab_planks_dark_oak
       C4: oak_fence_gate
@@ -220,6 +223,40 @@ Items:
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=3,facing=south,locked=false,powered=true]
     blockDataUp: minecraft:prismarine_brick_slab[type=top,waterlogged=false]
+    collection:
+      indirect: oak_planks
+  twisting_vine_stairs_1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 420
+    display: Fancy Oak Stairs
+    category: Block2
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:twisting_vines[age=6]
+    blockDataSouth: minecraft:twisting_vines[age=4]
+    blockDataEast: minecraft:twisting_vines[age=7]
+    blockDataWest: minecraft:twisting_vines[age=5]
+    collection:
+      indirect: oak_planks
+  twisting_vine_stairs_2:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 421
+    display: Fancy Brown Plank Stairs
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:twisting_vines[age=8]
+    blockDataSouth: minecraft:twisting_vines[age=10]
+    blockDataEast: minecraft:twisting_vines[age=9]
+    blockDataWest: minecraft:twisting_vines[age=11]
+    collection:
+      indirect: oak_planks
+  twisting_vine_stairs_3:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 422
+    display: Fancy Small Stairs
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:twisting_vines[age=14]
+    blockDataSouth: minecraft:twisting_vines[age=12]
+    blockDataEast: minecraft:twisting_vines[age=15]
+    blockDataWest: minecraft:twisting_vines[age=13]
     collection:
       indirect: oak_planks
   oak_log:
