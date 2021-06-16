@@ -401,12 +401,17 @@ Items:
       D4: comparator_powered_compare_s
       E4: upper_slab_coarse_dirt
       F4: podzol
-      G4: soul_sand
+      G4: dark_dirt
       H4: comparator_subtract_e
       I4: upper_slab_soul_sand
       E4: repeater_delay2_e
       J4: redstone_dust_power4_center
-  
+      F2: grass_reverse
+  grass_reverse:
+    itemMaterial: NETHER_WART_BLOCK
+    damage: 0
+    display: Grass Block Reverse
+    type: VANILLA
   grass_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 375
@@ -467,12 +472,13 @@ Items:
     type: VANILLA
     collection:
       indirect: grass
-  soul_sand:
-    itemMaterial: SOUL_SAND
-    damage: 0
+  dark_dirt:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 442
     display: Dark Dirt
     category: Terra
-    type: VANILLA
+    type: BLOCK
+    blockData: minecraft:mycelium[snowy=true]
     collection:
       indirect: grass
   comparator_subtract_e:
@@ -862,6 +868,7 @@ Items:
       A4: dark_prismarine_slab
       B4: prismarine_slab
       F4: brain_coral_block
+      F2: light_blue_concrete_powder
   sand_waterlogged:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 396
@@ -889,9 +896,17 @@ Items:
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
     collection:
       indirect: sand
+  light_blue_concrete_powder:
+    itemMaterial: LIGHT_BLUE_CONCRETE_POWDER
+    display: Continental Sand
+    category: Terra
+    blockData: minecraft:light_blue_concrete_powder
+    type: BLOCK
+    collection:
+      indirect: sand
   black_concrete_powder:
     itemMaterial: BLACK_CONCRETE_POWDER
-    display: Continental Sand
+    display: Wet Continental Sand
     category: Terra
     blockData: minecraft:black_concrete_powder
     type: BLOCK

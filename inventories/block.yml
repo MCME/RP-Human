@@ -1144,8 +1144,9 @@ Items:
       D2: orange_stucco
       C2: yellow_stucco
       B2: light_yellow_stucco
-      A1: light_yellow_stucco_ornament
-      A0: white_stucco
+      A0: light_yellow_stucco_ornament
+      F1: white_stucco
+      A1: light_yellow_stucco_ornament_thin
   orange_stucco:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 119
@@ -1173,12 +1174,28 @@ Items:
     type: BLOCK
     collection:
       indirect: red_stucco
+  light_yellow_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 446
+    display: Light Yellow Stucco Thin
+    blockData: minecraft:repeater[delay=1,facing=west,locked=true,powered=false]
+    type: BLOCK
+    collection:
+      indirect: red_stucco
   light_yellow_stucco_ornament:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 117
     display: Ornamental Light Yellow Stucco
     category: Block
     blockData: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=false,west=true]
+    type: BLOCK
+    collection:
+      indirect: red_stucco
+  light_yellow_stucco_ornament_thin:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 444
+    display: Ornamental Light Yellow Stucco Thin
+    blockData: minecraft:repeater[delay=1,facing=east,locked=true,powered=false]
     type: BLOCK
     collection:
       indirect: red_stucco

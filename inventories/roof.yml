@@ -14,6 +14,7 @@ Items:
       E0: acacia_planks
       J1: dark_oak_planks
       I2: spruce_planks
+      C2: crimson_planks
   piston_sticky_extended_up:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 111
@@ -23,6 +24,49 @@ Items:
     blockData: minecraft:sticky_piston[extended=true,facing=up]
     collection:
       indirect: piston_normal_extended_up
+  crimson_planks:
+    itemMaterial: CRIMSON_PLANKS
+    damage: 1
+    display: Wooden Shingles
+    category: Roof
+    type: VANILLA
+    collection:
+      A1: acacia_fence_gate_powered_open
+      A0: crimson_planks
+      F1: crimson_stairs
+      G2: crimson_slab
+      F4: spruce_planks
+      G4: dark_oak_planks
+      H4: jungle_planks
+      I4: purpur_block
+      A4: piston_sticky_extended_up
+      B4: piston_normal_extended_up
+      J4: acacia_planks
+  crimson_stairs:
+    itemMaterial: CRIMSON_STAIRS
+    damage: 0
+    display: Grey shingles Stairs
+    type: VANILLA
+    collection:
+      indirect: crimson_planks
+  crimson_slab:
+    itemMaterial: CRIMSON_SLAB
+    damage: 1
+    display: Grey shingles slab [126:1]
+    type: VANILLA
+    collection:
+      indirect: crimson_planks
+  acacia_fence_gate_powered_open:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 434
+    display: Grey shingles vertical Slab 
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
+    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
+    blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=true,powered=true]
+    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=true,powered=true]
+    collection:
+      indirect: crimson_planks
   spruce_planks:
     itemMaterial: SPRUCE_PLANKS
     damage: 1
@@ -40,6 +84,7 @@ Items:
       I4: purpur_block
       A4: piston_sticky_extended_up
       B4: piston_normal_extended_up
+      J4: crimson_planks
   jungle_fence_gate_closed:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 230
@@ -82,6 +127,7 @@ Items:
       I4: purpur_block
       A4: piston_sticky_extended_up
       B4: piston_normal_extended_up
+      J4: crimson_planks
   spruce_fence_gate_closed:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 233
@@ -124,6 +170,7 @@ Items:
       I4: purpur_block
       A4: piston_sticky_extended_up
       B4: piston_normal_extended_up
+      J4: crimson_planks
   spruce_fence_gate_powered_closed:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 234
@@ -166,6 +213,7 @@ Items:
       I4: purpur_block
       A4: piston_sticky_extended_up
       B4: piston_normal_extended_up
+      J4: crimson_planks
   jungle_fence_gate_powered_closed:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 232
@@ -212,6 +260,7 @@ Items:
       I4: jungle_planks
       A4: piston_sticky_extended_up
       B4: piston_normal_extended_up
+      F4: crimson_planks
   jungle_fence_gate_open:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 231

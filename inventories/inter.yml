@@ -22,6 +22,7 @@ Items:
       H4: lit_redstone_torch
       I4: piston_head_normal
       J4: bed_orange
+      G3: repeater_delay1_s_l
   double_slab_planks_oak:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 163
@@ -29,6 +30,14 @@ Items:
     category: Inter
     type: BLOCK
     blockData: minecraft:oak_slab[type=double,waterlogged=false]
+    collection:
+      indirect: chest
+  repeater_delay1_s_l:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 445
+    display: Crate Thin
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=south,locked=true,powered=false]
     collection:
       indirect: chest
   double_slab_planks_birch:
@@ -152,8 +161,8 @@ Items:
       F1: crafting_table
       G2: piston_base
       I2: piston_head_normal
-      J1: ender_portal_frame_filled_west
-      E1: ender_portal_frame_filled_east
+      J1: low_table_2
+      E1: low_table_1
       D2: furnace
       C2: spinning_wheel
       B2: lit_furnace
@@ -192,13 +201,13 @@ Items:
     type: VANILLA
     collection:
       indirect: crafting_table
-  ender_portal_frame_filled_west:
+  low_table_2:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 331
+    damage: 449
     display: Low table 2
     category: Inter
     type: BLOCK
-    blockData: minecraft:end_portal_frame[eye=true,facing=west]
+    blockData: minecraft:stonecutter[facing=east]
     collection:
       indirect: crafting_table
   piston_head_normal:
@@ -237,12 +246,12 @@ Items:
     collection:
       indirect: crafting_table
   # inside collection
-  ender_portal_frame_filled_east:
+  low_table_1:
     itemMaterial: DIAMOND_LEGGINGS
-    damage: 330
+    damage: 450
     display: Low table 1
     type: BLOCK
-    blockData: minecraft:end_portal_frame[eye=true,facing=east]
+    blockData: minecraft:stonecutter[facing=north]
     collection:
       indirect: crafting_table
   lit_furnace:
@@ -737,9 +746,9 @@ Items:
     type: VANILLA
     collection:
       C0: torch
-      D2: lit_redstone_torch
+      C2: lit_redstone_torch
       A0: unlit_redstone_torch
-      I2: repeater_delay1_s
+      H2: repeater_delay1_s
       F4: bottle_1
       G4: plate_1_regular
       H4: piston_head_normal

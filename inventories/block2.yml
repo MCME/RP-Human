@@ -31,6 +31,54 @@ Items:
       H4: support
       I4: upper_support
       J4: upper_support_plus
+      F3: dark_oak_plank
+      F2: mossy_oak_plank
+      E2: stacked_logs_wall
+      E3: stacked_logs_wall_corner
+      H3: diagonal_beam45
+      I3: diagonal_beam22_5_up
+      J3: diagonal_beam22_5
+  mossy_oak_plank:
+    itemMaterial: CARTOGRAPHY_TABLE
+    damage: 1
+    display: Mossy Oak Planks
+    category: Block2
+    type: BLOCK
+    blockData: minecraft:cartography_table
+    collection:
+      indirect: oak_planks
+  dark_oak_plank:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 435
+    display: Dark Vertical Planks
+    category: Block2
+    type: BLOCK
+    blockData: minecraft:crimson_slab[type=double]
+    collection:
+      indirect: oak_planks
+  stacked_logs_wall:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 439
+    display: Stacked Logs Wall
+    category: Block2
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:target[power=3]
+    blockDataSouth: minecraft:target[power=3]
+    blockDataEast: minecraft:target[power=0]
+    blockDataWest: minecraft:target[power=0]
+    collection:
+      indirect: oak_planks
+  stacked_logs_wall_corner:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 440
+    display: Stacked Logs Wall Corner
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:note_block[instrument=hat,note=2,powered=false]
+    blockDataSouth: minecraft:note_block[instrument=hat,note=0,powered=false]
+    blockDataEast: minecraft:note_block[instrument=hat,note=3,powered=false]
+    blockDataWest: minecraft:note_block[instrument=hat,note=1,powered=false]
+    collection:
+      indirect: oak_planks
   support:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 400
@@ -297,6 +345,40 @@ Items:
     type: VANILLA
     collection:
       indirect: oak_planks
+  diagonal_beam45:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 452
+    display: Diagonal Beam 45 degrees
+    category: Block2
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=left,open=false,powered=true]
+    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=left,open=false,powered=true]
+    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=left,open=false,powered=true]
+    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=left,open=false,powered=true]
+    collection:
+      indirect: oak_planks
+  diagonal_beam22_5_up:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 453
+    display: Diagonal Beam 22.5 degrees UP
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=right,open=false,powered=true]
+    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=right,open=false,powered=true]
+    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=right,open=false,powered=true]
+    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=right,open=false,powered=true]
+    collection:
+      indirect: oak_planks
+  diagonal_beam22_5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 454
+    display: Diagonal Beam 22.5 degrees
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=left,open=true,powered=true]
+    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=left,open=true,powered=true]
+    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=left,open=true,powered=true]
+    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=left,open=true,powered=true]
+    collection:
+      indirect: oak_planks
   chorus_plant:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 19
@@ -331,6 +413,16 @@ Items:
       H4: dark_prismarine
       I4: dark_prismarine_stairs
       J4: dark_prismarine_slabs
+      G3: light_vertical_planks
+  light_vertical_planks:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 436
+    display: Light Vertical Planks
+    category: Block2
+    type: BLOCK
+    blockData: minecraft:prismarine_brick_slab[type=double]
+    collection:
+      indirect: birch_planks
   jungle_log:
     itemMaterial: JUNGLE_LOG
     damage: 3
@@ -922,6 +1014,7 @@ Items:
       D2: stone_brick_pillar_top
       E1: stone_brick_pillar_middle
       E0: stone_brick_pillar_bottom
+      J1: ionic_column
   purpur_pillar_top:
     itemMaterial: PURPUR_PILLAR
     damage: 0
@@ -967,6 +1060,19 @@ Items:
     category: Block2
     type: BLOCK
     blockData: minecraft:hopper[enabled=true,facing=down]
+    collection:
+      indirect: chorus_flower_stage2
+  ionic_column:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 433
+    display: Ionic Column
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:hopper[enabled=true,facing=east]
+    blockDataWest: minecraft:hopper[enabled=true,facing=north]
+    blockDataNorth: minecraft:hopper[enabled=true,facing=east]
+    blockDataEast: minecraft:hopper[enabled=true,facing=north]
+    collection:
+      indirect: chorus_flower_stage2
   stone_brick_pillar_middle:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 406
@@ -979,6 +1085,8 @@ Items:
     display: Fancy Pillar Bottom
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=6,persistent=true]
+    collection:
+      indirect: chorus_flower_stage2
   stonebrick_normal:
     itemMaterial: STONE_BRICKS
     damage: 0
@@ -990,7 +1098,6 @@ Items:
       H2: Stone_brick_wall
       G2: piston_normal_extended
       F1: stonebrick_weathered
-      F2: large_stone_slab
       A0: stonebrick_normal
       A1: stone_brick_stairs
       A2: red_mushroom_block_es
@@ -1014,6 +1121,25 @@ Items:
       J3: small_stone_bricks_mixed_stone_bricks_corner
       J2: large_mossy_stone_slab
       J1: spruce_fence_gate_open_mossy
+      A3: large_stone_slab
+      F3: ender_portal_frame_filled_west
+      G3: ender_portal_frame_filled_west_fill
+  ender_portal_frame_filled_west_fill:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 331
+    display: 3/4+ Large Grey Bricks
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=true,facing=west]
+    collection:
+      indirect: stonebrick_normal
+  ender_portal_frame_filled_west:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 448
+    display: 3/4 Large Grey Bricks
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=false,facing=west]
+    collection:
+      indirect: stonebrick_normal
   red_mushroom_block_es:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 386
@@ -1092,9 +1218,9 @@ Items:
     category: Block2
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:crimson_hyphae[axis=y]
-    blockDataWest: minecraft:spripped_crimson_hyphae[axis=y]
+    blockDataWest: minecraft:stripped_crimson_hyphae[axis=y]
     blockDataNorth: minecraft:crimson_hyphae[axis=y]
-    blockDataEast: minecraft:spripped_crimson_hyphae[axis=y]
+    blockDataEast: minecraft:stripped_crimson_hyphae[axis=y]
     collection:
       indirect: stonebrick_normal
   Stone_brick_wall:
@@ -1253,10 +1379,10 @@ Items:
     display: Mossy Carved Stone Large Slab
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:crimson_hyphae[axis=y]
-    blockDataWest: minecraft:crimson_hyphae[axis=x]
-    blockDataNorth: minecraft:crimson_hyphae[axis=y]
-    blockDataEast: minecraft:crimson_hyphae[axis=x]
+    blockDataSouth: minecraft:crimson_hyphae[axis=x]
+    blockDataWest: minecraft:crimson_hyphae[axis=z]
+    blockDataNorth: minecraft:crimson_hyphae[axis=x]
+    blockDataEast: minecraft:crimson_hyphae[axis=z]
     collection:
       indirect: stonebrick_normal
   mossy_stone_brick_slab:
@@ -1399,6 +1525,31 @@ Items:
       D2: large_arch_1
       F1: stone_corbel_round
       G2: stone_corbel_steps
+      H2: stone_window_top
+      I2: stone_window_bottom
+  stone_window_top:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 432
+    display: Stone Window Top
+    category: Block2
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:scaffolding[bottom=false,distance=4]
+    blockDataWest: minecraft:scaffolding[bottom=false,distance=3]
+    blockDataNorth: minecraft:scaffolding[bottom=false,distance=4]
+    blockDataEast: minecraft:scaffolding[bottom=false,distance=3]
+    collection:
+      indirect: small_arch
+  stone_window_bottom:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 431
+    display: Stone Window Bottom
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:scaffolding[bottom=false,distance=2]
+    blockDataWest: minecraft:scaffolding[bottom=false,distance=1]
+    blockDataNorth: minecraft:scaffolding[bottom=false,distance=2]
+    blockDataEast: minecraft:scaffolding[bottom=false,distance=1]
+    collection:
+      indirect: small_arch
   medium_arch:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 409
@@ -1408,6 +1559,8 @@ Items:
     blockDataWest: minecraft:smooth_quartz_stairs[facing=north,half=top,shape=outer_left]
     blockDataNorth: minecraft:smooth_quartz_stairs[facing=north,half=top,shape=outer_right]
     blockDataEast: minecraft:smooth_quartz_stairs[facing=east,half=top,shape=outer_left]
+    collection:
+      indirect: small_arch
   large_arch:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 410
@@ -1417,6 +1570,8 @@ Items:
     blockDataWest: minecraft:dark_oak_button[face=ceiling,facing=south,powered=false]
     blockDataNorth: minecraft:dark_oak_button[face=ceiling,facing=east,powered=false]
     blockDataEast: minecraft:dark_oak_button[face=ceiling,facing=south,powered=false]
+    collection:
+      indirect: small_arch
   large_arch_1:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 411
@@ -1426,6 +1581,8 @@ Items:
     blockDataWest: minecraft:acacia_door[facing=east,half=lower,hinge=right,open=false,powered=false]
     blockDataNorth: minecraft:acacia_door[facing=south,half=lower,hinge=right,open=false,powered=false]
     blockDataEast: minecraft:acacia_door[facing=west,half=lower,hinge=right,open=false,powered=false]
+    collection:
+      indirect: small_arch
   stone_corbel_round:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 412
@@ -1435,6 +1592,8 @@ Items:
     blockDataWest: minecraft:acacia_door[facing=east,half=upper,hinge=right,open=true,powered=false]
     blockDataNorth: minecraft:acacia_door[facing=south,half=upper,hinge=right,open=true,powered=false]
     blockDataEast: minecraft:acacia_door[facing=west,half=upper,hinge=right,open=true,powered=false]
+    collection:
+      indirect: small_arch
   stone_corbel_steps:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 413
@@ -1444,6 +1603,8 @@ Items:
     blockDataWest: minecraft:jungle_button[face=wall,facing=south,powered=false]
     blockDataNorth: minecraft:jungle_button[face=wall,facing=west,powered=false]
     blockDataEast: minecraft:jungle_button[face=wall,facing=north,powered=false]
+    collection:
+      indirect: small_arch
   double_slab_stonebrick_seamless:
     itemMaterial: WET_SPONGE
     damage: 0
@@ -1620,6 +1781,24 @@ Items:
       E3: vertical_slab_heavy_mossy_dark_gray_brick
       A3: vertical_slab_small_dark_gray_brick
       B3: vertical_slab_small_mossy_dark_gray_brick
+      F3: ender_portal_frame_filled_east
+      G3: ender_portal_frame_filled_east_fill
+  ender_portal_frame_filled_east:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 447
+    display: 3/4 Large Dark Bricks
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=false,facing=east]
+    collection:
+      indirect: brick
+  ender_portal_frame_filled_east_fill:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 330
+    display: 3/4+ Large Dark Bricks
+    type: BLOCK
+    blockData: minecraft:end_portal_frame[eye=true,facing=east]
+    collection:
+      indirect: brick
   vertical_slab_small_dark_gray_brick:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 377
@@ -1772,9 +1951,9 @@ Items:
     display: Carved Dark Stone Large Slab
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:stripped_crimson_hyphae[axis=y]
+    blockDataSouth: minecraft:stripped_crimson_hyphae[axis=z]
     blockDataWest: minecraft:stripped_crimson_hyphae[axis=x]
-    blockDataNorth: minecraft:stripped_crimson_hyphae[axis=y]
+    blockDataNorth: minecraft:stripped_crimson_hyphae[axis=z]
     blockDataEast: minecraft:stripped_crimson_hyphae[axis=x]
     collection:
       indirect: brick
@@ -2077,6 +2256,48 @@ Items:
     blockDataUp: minecraft:spruce_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
     collection:
       indirect: double_slab_stone
+  plastered:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 441
+    display: Plaster
+    category: Block2
+    type: BLOCK
+    blockData: minecraft:target[power=5]
+    collection:
+      A1: plastered_cobble
+      A0: plastered
+      F1: plastered_cobblestone
+      G2: plastered_river_cobblestone
+      F4: cobblestone
+      G4: double_slab_cobblestone
+      H4: double_slab_cobblestone_seamless
+  plastered_cobble:
+    itemMaterial: FLETCHING_TABLE
+    damage: 0
+    display: Plastered Cobble
+    category: Block2
+    blockData: minecraft:fletching_table
+    type: BLOCK
+    collection:
+      indirect: cobblestone
+  plastered_cobblestone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 437
+    display: Plastered Cobble Weathered
+    category: Block2
+    blockData: minecraft:target[power=4]
+    type: BLOCK
+    collection:
+      indirect: cobblestone
+  plastered_river_cobblestone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 438
+    display: Plastered River Cobble
+    category: Block2
+    blockData: minecraft:target[power=2]
+    type: BLOCK
+    collection:
+      indirect: cobblestone
   large_cobblestone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 382
@@ -2086,6 +2307,15 @@ Items:
     type: BLOCK
     collection:
       indirect: cobblestone
+  large_detailed_cobblestone:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 451
+    display: Rought Large Cobblestone
+    category: Block2
+    blockData: minecraft:target[power=1]
+    type: BLOCK
+    collection:
+      indirect: cobblestone 
   cobblestone:
     itemMaterial: COBBLESTONE
     damage: 0
@@ -2108,7 +2338,7 @@ Items:
       E0: heavily_mossy_cobblestone
       J1: mossy_cobblestone_stairs
       C3: cobblestone_wall
-      I1: large_cobblestone
+      F3: large_cobblestone
       I2: acacia_fence_gate_open_power_moss
       A4: trapdoor_cobblestone_open_regular
       B4: trapdoor_cobblestone_bottom_regular
@@ -2120,6 +2350,10 @@ Items:
       H4: monster_egg_cobblestone
       I4: brick
       J4: red_mushroom_dark_small_brick
+      G3: large_detailed_cobblestone
+      D3: plastered_cobble
+      E3: plastered_cobblestone
+      E2: plastered_river_cobblestone
   cobble_pavement:
     itemMaterial: LOOM
     damage: 0
