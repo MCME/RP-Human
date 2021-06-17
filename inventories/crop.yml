@@ -19,6 +19,7 @@ Items:
       A1: wheat_stage7
       A4: barley_stage1
       B4: barley_stage0
+      C4: hanging_hops_high
       D4: hanging_hops
       E4: dried_hops
   wheat_stage0:
@@ -101,6 +102,16 @@ Items:
     category: Crop
     type: BLOCK
     blockData: minecraft:twisting_vines_plant
+    nextBlock: hanging_hops_high
+    collection:
+      indirect: wheat_stage7
+  hanging_hops_high:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 428
+    display: Hanging Hops High
+    type: UPSHIFT
+    blockData: minecraft:twisting_vines_plant
+    nextBlock: hanging_hops
     collection:
       indirect: wheat_stage7
   dried_hops:

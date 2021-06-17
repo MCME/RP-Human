@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "block/block",
 	"texture_size": [48, 48],
 	"ambientocclusion": false,
 	"textures": {
@@ -106,5 +107,11 @@
 				}
 			]
 		}
-	]
+	],
+	"display": {
+		"gui": {
+			"rotation": [30,45,0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
 }
