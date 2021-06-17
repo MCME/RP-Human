@@ -154,6 +154,8 @@ Items:
       D2: birch_door
       C2: dark_oak_door_powered
       B2: iron_door_powered
+      E0: warped_door
+      F4: hobbit_door_block
   spruce_door_powered:
     blockMaterial: SPRUCE_DOOR
     powered: true
@@ -211,6 +213,25 @@ Items:
     category: Exter
     type: DOOR
     powered: true
+    collection:
+      indirect: wooden_door_powered
+  warped_door:
+    blockMaterial: WARPED_DOOR
+    itemMaterial: WARPED_DOOR
+    damage: 0
+    display: Hobbit door
+    category: Exter
+    type: DOOR
+    powered: false
+    collection:
+      indirect: wooden_door_powered
+  hobbit_door_block:
+    itemMaterial: WARPED_WART_BLOCK
+    damage: 0
+    display: Hobbit door block
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:warped_wart_block
     collection:
       indirect: wooden_door_powered
   wooden_railing:

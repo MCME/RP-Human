@@ -45,26 +45,26 @@ Items:
   crimson_stairs:
     itemMaterial: CRIMSON_STAIRS
     damage: 0
-    display: Grey shingles Stairs
+    display: Wooden shingles Stairs
     type: VANILLA
     collection:
       indirect: crimson_planks
   crimson_slab:
     itemMaterial: CRIMSON_SLAB
     damage: 1
-    display: Grey shingles slab [126:1]
+    display: Wooden shingles slab [126:1]
     type: VANILLA
     collection:
       indirect: crimson_planks
   acacia_fence_gate_powered_open:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 434
-    display: Grey shingles vertical Slab 
+    display: Wooden shingles vertical Slab 
     type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
-    blockDataWest: minecraft:acacia_fence_gate[facing=west,in_wall=false,open=true,powered=true]
-    blockDataNorth: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=true,powered=true]
-    blockDataEast: minecraft:acacia_fence_gate[facing=east,in_wall=false,open=true,powered=true]
+    blockDataSouth: minecraft:crimson_fence_gate[facing=south,in_wall=true,open=true,powered=false]
+    blockDataWest: minecraft:crimson_fence_gate[facing=west,in_wall=true,open=true,powered=false]
+    blockDataNorth: minecraft:crimson_fence_gate[facing=north,in_wall=true,open=true,powered=false]
+    blockDataEast: minecraft:crimson_fence_gate[facing=east,in_wall=true,open=true,powered=false]
     collection:
       indirect: crimson_planks
   spruce_planks:
