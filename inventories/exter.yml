@@ -154,6 +154,8 @@ Items:
       D2: birch_door
       C2: dark_oak_door_powered
       B2: iron_door_powered
+      E0: warped_door
+      F4: hobbit_door_block
   spruce_door_powered:
     blockMaterial: SPRUCE_DOOR
     powered: true
@@ -213,6 +215,25 @@ Items:
     powered: true
     collection:
       indirect: wooden_door_powered
+  warped_door:
+    blockMaterial: WARPED_DOOR
+    itemMaterial: WARPED_DOOR
+    damage: 0
+    display: Hobbit door
+    category: Exter
+    type: DOOR
+    powered: false
+    collection:
+      indirect: wooden_door_powered
+  hobbit_door_block:
+    itemMaterial: WARPED_WART_BLOCK
+    damage: 0
+    display: Hobbit door block
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:warped_wart_block
+    collection:
+      indirect: wooden_door_powered
   wooden_railing:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 392
@@ -227,7 +248,46 @@ Items:
       A0: wooden_railing
       A1: wooden_railing_down
       B2: wooden_railing_corner
+      F1: wooden_railing_cross
+      G2: wooden_palisade
+      J1: woven_fence
       E0: wooden_fence_big
+  wooden_railing_cross:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 418
+    display: Wooden Cross Support Railing
+    category: Exter
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:warped_door[facing=south,half=upper,hinge=left,open=false,powered=true]
+    blockDataSouth: minecraft:warped_door[facing=north,half=upper,hinge=left,open=false,powered=true]
+    blockDataEast: minecraft:warped_door[facing=west,half=upper,hinge=left,open=false,powered=true]
+    blockDataWest: minecraft:warped_door[facing=east,half=upper,hinge=left,open=false,powered=true]
+    collection:
+      indirect: wooden_railing
+  wooden_palisade:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 419
+    display: Wooden Palisade
+    category: Exter
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:warped_door[facing=east,half=lower,hinge=right,open=true,powered=true]
+    blockDataSouth: minecraft:warped_door[facing=west,half=lower,hinge=right,open=true,powered=true]
+    blockDataEast: minecraft:warped_door[facing=south,half=lower,hinge=right,open=true,powered=true]
+    blockDataWest: minecraft:warped_door[facing=north,half=lower,hinge=right,open=true,powered=true]
+    collection:
+      indirect: wooden_railing
+  woven_fence:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 423
+    display: Woven Fence
+    category: Exter
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:warped_door[facing=east,half=upper,hinge=left,open=true,powered=true]
+    blockDataSouth: minecraft:warped_door[facing=west,half=upper,hinge=left,open=true,powered=true]
+    blockDataEast: minecraft:warped_door[facing=south,half=upper,hinge=left,open=true,powered=true]
+    blockDataWest: minecraft:warped_door[facing=north,half=upper,hinge=left,open=true,powered=true]
+    collection:
+      indirect: wooden_railing
   wooden_railing_down:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 393

@@ -17,6 +17,11 @@ Items:
       D2: wheat_stage5
       B2: wheat_stage6
       A1: wheat_stage7
+      A4: barley_stage1
+      B4: barley_stage0
+      C4: hanging_hops_high
+      D4: hanging_hops
+      E4: dried_hops
   wheat_stage0:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 27
@@ -73,6 +78,59 @@ Items:
     blockData: minecraft:wheat[age=6]
     collection:
       indirect: wheat_stage7
+  barley_stage1:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 426
+    display: Barley Grown
+    category: Crop
+    type: BLOCK
+    blockData: minecraft:crimson_roots
+    collection:
+      indirect: wheat_stage7
+  barley_stage0:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 427
+    display: Barley Half Grown
+    type: BLOCK
+    blockData: minecraft:warped_roots
+    collection:
+      indirect: wheat_stage7
+  hanging_hops:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 428
+    display: Hanging Hops
+    category: Crop
+    type: BLOCK
+    blockData: minecraft:twisting_vines_plant
+    nextBlock: hanging_hops_high
+    collection:
+      indirect: wheat_stage7
+  hanging_hops_high:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 428
+    display: Hanging Hops High
+    type: UPSHIFT
+    blockData: minecraft:twisting_vines_plant
+    nextBlock: hanging_hops
+    collection:
+      indirect: wheat_stage7
+  dried_hops:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 429
+    display: Dried Hops
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=north,locked=true,powered=false]
+    collection:
+      indirect: wheat_stage7
+  corn:
+    itemMaterial: WEEPING_VINES
+    damage: 0
+    display: Corn
+    category: Crop
+    type: BLOCK
+    blockData: minecraft:weeping_vines_plant
+    collection:
+      indirect: corn
   carrots_stage3:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 38
