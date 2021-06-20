@@ -577,6 +577,67 @@ Items:
     type: VANILLA
     collection:
       indirect: white_wool
+  flint:
+    itemMaterial: FLINT
+    damage: 0
+    display: Get Block Tool
+    category: Misc
+    collection:
+      A1: flint
+      F1: prismarine_crystal
+      G2: ghast_tear
+      I2: torch_hand
+      J1: axe
+      E1: blaze_rod
+      D2: gunpowder
+      B2: arrow
+  prismarine_crystal:
+    itemMaterial: PRISMARINE_CRYSTALS
+    damage: 0
+    display: Fix Lighting Tool
+    category: Misc
+    collection:
+      indirect: flint
+  axe:
+    itemMaterial: WOODEN_AXE
+    damage: 0
+    display: World Edit Wand
+    category: Misc
+    collection:
+      indirect: flint
+  arrow:
+    itemMaterial: ARROW
+    damage: 0
+    display: Voxel Place
+    category: Misc
+    collection:
+      indirect: flint
+  gunpowder:
+    itemMaterial: GUNPOWDER
+    damage: 0
+    display: Voxel Remove
+    category: Misc
+    collection:
+      indirect: flint
+  torch_hand:
+    itemMaterial: TORCH
+    damage: 0
+    display: Torch
+    category: Misc
+    collection:
+      indirect: flint
+  ghast_tear:
+    itemMaterial: GHAST_TEAR
+    damage: 0
+    display: Sitting Tool (Requires perk)
+    collection:
+      indirect: flint
+  blaze_rod:
+    itemMaterial: BLAZE_ROD
+    damage: 0
+    display: Animation Tool
+    collection:
+      indirect: flint
 
   
 

@@ -22,8 +22,16 @@ Items:
       B4: double_slab_planks_dark_oak
       G4: oak_fence_gate
       F4: oak_log
-      A3: dark_oak_plank
+      J4: dark_oak_plank
       A1: mossy_oak_plank
+      H4: oak_trapdoor
+  oak_trapdoor:
+    itemMaterial: OAK_TRAPDOOR
+    damage: 1
+    display: Oak Trapdoor
+    type: VANILLA
+    collection:
+      indirect: oak_planks
   mossy_oak_plank:
     itemMaterial: CARTOGRAPHY_TABLE
     damage: 1
@@ -296,40 +304,6 @@ Items:
     blockDataWest: minecraft:tripwire[attached=false,disarmed=false,east=true,north=false,powered=true,south=false,west=false]
     collections:
       indirect: chorus_plant
-  diagonal_beam45:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 452
-    display: Diagonal Beam 45 degrees
-    category: Block2
-    type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=left,open=false,powered=true]
-    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=left,open=false,powered=true]
-    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=left,open=false,powered=true]
-    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=left,open=false,powered=true]
-    collection:
-      indirect: chorus_plant
-  diagonal_beam22_5_up:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 453
-    display: Diagonal Beam 22.5 degrees UP
-    type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=right,open=false,powered=true]
-    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=right,open=false,powered=true]
-    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=right,open=false,powered=true]
-    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=right,open=false,powered=true]
-    collection:
-      indirect: chorus_plant
-  diagonal_beam22_5:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 454
-    display: Diagonal Beam 22.5 degrees
-    type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=left,open=true,powered=true]
-    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=left,open=true,powered=true]
-    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=left,open=true,powered=true]
-    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=left,open=true,powered=true]
-    collection:
-      indirect: chorus_plant
   stacked_logs_wall:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 439
@@ -385,6 +359,40 @@ Items:
     blockDataSouth: minecraft:twisting_vines[age=12]
     blockDataEast: minecraft:twisting_vines[age=15]
     blockDataWest: minecraft:twisting_vines[age=13]
+    collection:
+      indirect: chorus_plant
+  diagonal_beam45:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 452
+    display: Diagonal Beam 45 degrees
+    category: Block2
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=left,open=false,powered=true]
+    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=left,open=false,powered=true]
+    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=left,open=false,powered=true]
+    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=left,open=false,powered=true]
+    collection:
+      indirect: chorus_plant
+  diagonal_beam22_5_up:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 453
+    display: Diagonal Beam 22.5 degrees UP
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=right,open=false,powered=true]
+    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=right,open=false,powered=true]
+    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=right,open=false,powered=true]
+    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=right,open=false,powered=true]
+    collection:
+      indirect: chorus_plant
+  diagonal_beam22_5:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 454
+    display: Diagonal Beam 22.5 degrees
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=left,open=true,powered=true]
+    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=left,open=true,powered=true]
+    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=left,open=true,powered=true]
+    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=left,open=true,powered=true]
     collection:
       indirect: chorus_plant
   birch_planks:

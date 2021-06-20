@@ -161,10 +161,12 @@
           "open": "true",
           "powered": "false"
         },
-        "apply": {
-          "model": "block/crimson_fence_gate_wall_powered",
-          "uvlock": true
-        }
+        "apply": [
+        {"model": "block/crimson_fence_gate_open", "uvlock": true},
+		{"model": "block/crimson_fence_gate_open_2", "uvlock": true},
+		{"model": "block/crimson_fence_gate_open_3", "uvlock": true},
+		{"model": "block/crimson_fence_gate_open_4", "uvlock": true}
+		]
       },
       {
         "when": {
@@ -173,11 +175,12 @@
           "open": "true",
           "powered": "false"
         },
-        "apply": {
-          "model": "block/crimson_fence_gate_wall_powered",
-          "uvlock": true,
-          "y": 90
-        }
+        "apply": [
+        {"model": "block/crimson_fence_gate_open", "uvlock": true, "y": 90},
+		{"model": "block/crimson_fence_gate_open_2", "uvlock": true, "y": 90},
+		{"model": "block/crimson_fence_gate_open_3", "uvlock": true, "y": 90},
+		{"model": "block/crimson_fence_gate_open_4", "uvlock": true, "y": 90}
+		]
       },
       {
         "when": {
@@ -186,11 +189,12 @@
           "open": "true",
           "powered": "false"
         },
-        "apply": {
-          "model": "block/crimson_fence_gate_wall_powered",
-          "uvlock": true,
-          "y": 180
-        }
+        "apply": [
+        {"model": "block/crimson_fence_gate_open", "uvlock": true, "y": 180},
+		{"model": "block/crimson_fence_gate_open_2", "uvlock": true, "y": 180},
+		{"model": "block/crimson_fence_gate_open_3", "uvlock": true, "y": 180},
+		{"model": "block/crimson_fence_gate_open_4", "uvlock": true, "y": 180}
+		]
       },
       {
         "when": {
@@ -199,11 +203,12 @@
           "open": "true",
           "powered": "false"
         },
-        "apply": {
-          "model": "block/crimson_fence_gate_wall_powered",
-          "uvlock": true,
-          "y": 270
-        }
+        "apply": [
+        {"model": "block/crimson_fence_gate_open", "uvlock": true, "y": 270},
+		{"model": "block/crimson_fence_gate_open_2", "uvlock": true, "y": 270},
+		{"model": "block/crimson_fence_gate_open_3", "uvlock": true, "y": 270},
+		{"model": "block/crimson_fence_gate_open_4", "uvlock": true, "y": 270}
+		]
       },
       {
         "when": {
@@ -263,10 +268,14 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/crimson_fence_gate_powered_open",
-          "uvlock": true
-        }
+        "apply": [
+        {"model": "block/crimson_fence_gate_powered_open", "uvlock": true},
+		{"model": "block/crimson_fence_gate_powered_open_2", "uvlock": true},
+		{"model": "block/crimson_fence_gate_powered_open_3", "uvlock": true},
+		{"model": "block/crimson_fence_gate_powered_open_4", "uvlock": true},
+		{"model": "block/crimson_fence_gate_powered_open_5", "uvlock": true},
+		{"model": "block/crimson_fence_gate_powered_open_6", "uvlock": true}
+        ]
       },
       {
         "when": {
@@ -275,11 +284,14 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/crimson_fence_gate_powered_open",
-          "uvlock": true,
-          "y": 90
-        }
+        "apply": [
+        {"model": "block/crimson_fence_gate_powered_open", "uvlock": true, "y": 90},
+		{"model": "block/crimson_fence_gate_powered_open_2", "uvlock": true, "y": 90},
+		{"model": "block/crimson_fence_gate_powered_open_3", "uvlock": true, "y": 90},
+		{"model": "block/crimson_fence_gate_powered_open_4", "uvlock": true, "y": 90},
+		{"model": "block/crimson_fence_gate_powered_open_5", "uvlock": true, "y": 90},
+		{"model": "block/crimson_fence_gate_powered_open_6", "uvlock": true, "y": 90}
+        ]
       },
       {
         "when": {
@@ -288,11 +300,14 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/crimson_fence_gate_powered_open",
-          "uvlock": true,
-          "y": 180
-        }
+        "apply": [
+        {"model": "block/crimson_fence_gate_powered_open", "uvlock": true, "y": 180},
+		{"model": "block/crimson_fence_gate_powered_open_2", "uvlock": true, "y": 180},
+		{"model": "block/crimson_fence_gate_powered_open_3", "uvlock": true, "y": 180},
+		{"model": "block/crimson_fence_gate_powered_open_4", "uvlock": true, "y": 180},
+		{"model": "block/crimson_fence_gate_powered_open_5", "uvlock": true, "y": 180},
+		{"model": "block/crimson_fence_gate_powered_open_6", "uvlock": true, "y": 180}
+        ]
       },
       {
         "when": {
@@ -301,11 +316,14 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/crimson_fence_gate_powered_open",
-          "uvlock": true,
-          "y": 270
-        }
+        "apply": [
+        {"model": "block/crimson_fence_gate_powered_open", "uvlock": true, "y": 270},
+		{"model": "block/crimson_fence_gate_powered_open_2", "uvlock": true, "y": 270},
+		{"model": "block/crimson_fence_gate_powered_open_3", "uvlock": true, "y": 270},
+		{"model": "block/crimson_fence_gate_powered_open_4", "uvlock": true, "y": 270},
+		{"model": "block/crimson_fence_gate_powered_open_5", "uvlock": true, "y": 270},
+		{"model": "block/crimson_fence_gate_powered_open_6", "uvlock": true, "y": 270}
+        ]
       },
       {
         "when": {
