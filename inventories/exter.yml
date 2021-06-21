@@ -819,6 +819,13 @@ Items:
     display: Hay Block
     category: Exter
     type: VANILLA
+  hay_thin:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 459
+    display: Hay thin
+    category: Exter
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=north,locked=true,powered=true]
   redstone_dust_power8:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 398

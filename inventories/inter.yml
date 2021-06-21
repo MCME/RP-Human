@@ -172,6 +172,7 @@ Items:
       H4: lit_redstone_torch
       I4: bed_orange
       J4: double_slab_planks_oak
+      H2: piston_head_normal_short
   spinning_wheel:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 415
@@ -222,6 +223,19 @@ Items:
     blockDataEast: minecraft:piston_head[facing=east,short=false,type=normal]
     blockDataDown: minecraft:piston_head[facing=down,short=false,type=normal]
     blockDataUp: minecraft:piston_head[facing=up,short=false,type=normal]
+    collection:
+      indirect: crafting_table
+  piston_head_normal_short:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 443
+    display: Oak Table
+    type: SIX_FACES
+    blockDataSouth: minecraft:piston_head[facing=south,short=true,type=normal]
+    blockDataWest: minecraft:piston_head[facing=west,short=true,type=normal]
+    blockDataNorth: minecraft:piston_head[facing=north,short=true,type=normal]
+    blockDataEast: minecraft:piston_head[facing=east,short=true,type=normal]
+    blockDataDown: minecraft:piston_head[facing=down,short=true,type=normal]
+    blockDataUp: minecraft:piston_head[facing=up,short=true,type=normal]
     collection:
       indirect: crafting_table
   piston_base:

@@ -3103,7 +3103,7 @@
         "damage": 0.89315
           },
         "name": 443,
-        "model": "block/"
+        "model": "block/piston_head_short"
       },
       {
        "predicate": {
@@ -3209,6 +3209,20 @@
           },
         "name": 458,
         "model": "item/dark_oak_leaves_grass_soil_inventory"
+      },
+      {
+       "predicate": {
+        "damage": 0.92540
+          },
+        "name": 459,
+        "model": "block/locked_powered_repeater_delay1_n"
+      },
+      {
+       "predicate": {
+        "damage": 0.92742
+          },
+        "name": 460,
+        "model": "block/locked_powered_repeater_delay1_e"
       }
 
   ]

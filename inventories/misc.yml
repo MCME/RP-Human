@@ -303,12 +303,19 @@ Items:
     display: Star Block
     category: Misc
     type: VANILLA
-  map_block:
+  elven_block:
     itemMaterial: LAPIS_BLOCK
     damage: 0
-    display: Map Block
+    display: Elven Deco Block
     category: Misc
     type: VANILLA
+  elven_block_thin:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 460
+    display: Elven Deco Block thin
+    category: Misc
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=east,locked=true,powered=true]
   dragon_egg:
     itemMaterial: DRAGON_EGG
     damage: 0

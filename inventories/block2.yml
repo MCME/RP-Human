@@ -589,6 +589,8 @@ Items:
     blockDataSouth: minecraft:target[power=8]
     blockDataEast: minecraft:target[power=7]
     blockDataWest: minecraft:target[power=7]
+    collection:
+      indirect: birch_planks
   quartz_normal:
     itemMaterial: QUARTZ_BLOCK
     damage: 0
@@ -2307,7 +2309,7 @@ Items:
     blockData: minecraft:fletching_table
     type: BLOCK
     collection:
-      indirect: cobblestone
+      indirect: plastered
   plastered_support:
     itemMaterial: DRIED_KELP_BLOCK
     damage: 0
@@ -2315,7 +2317,7 @@ Items:
     blockData: minecraft:dried_kelp_block
     type: BLOCK
     collection:
-      indirect: cobblestone
+      indirect: plastered
   plastered_cobblestone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 437
@@ -2324,7 +2326,7 @@ Items:
     blockData: minecraft:target[power=4]
     type: BLOCK
     collection:
-      indirect: cobblestone
+      indirect: plastered
   plastered_river_cobblestone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 438
@@ -2333,7 +2335,7 @@ Items:
     blockData: minecraft:target[power=2]
     type: BLOCK
     collection:
-      indirect: cobblestone
+      indirect: plastered
   large_cobblestone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 382
