@@ -861,6 +861,7 @@ Items:
       J1: white_concrete
       E0: orange_concrete
       E1: silt
+      E2: silt_patchy
       D2: red_concrete
       C2: upper_slab_red_sand
       B2: comparator_powered_compare_e
@@ -954,6 +955,15 @@ Items:
     display: Sediment
     category: Terra
     type: VANILLA
+    collection:
+      indirect: sand
+  silt_patchy:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 458
+    display: Patchy Grass With Silt
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:dark_oak_leaves[distance=5,persistent=true]
     collection:
       indirect: sand
   orange_concrete:

@@ -402,8 +402,9 @@ Items:
     category: Block2
     type: VANILLA
     collection:
+      C0: birch_planks
       F1: birch_stairs
-      A0: birch_planks
+      A0: light_vertical_planks
       A1: birch_slab
       B2: iron_trapdoor_bottom_w
       C2: birch_fence
@@ -411,6 +412,7 @@ Items:
       E1: birch_fence_gate_powered_closed
       E0: trapdoor_double_slab_planks_dark_oak_open_regular
       J1: vertical_slab_double_slab_planks_dark_oak_regular
+      J2: stacked_white_logs_wall
       I2: double_slab_planks_dark_oak
       H2: powered_repeater_delay3_w
       G2: trapdoor_double_slab_planks_dark_oak_bottom_regular
@@ -421,7 +423,6 @@ Items:
       H4: dark_prismarine
       I4: dark_prismarine_stairs
       J4: dark_prismarine_slabs
-      G3: light_vertical_planks
   light_vertical_planks:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 436
@@ -514,7 +515,7 @@ Items:
   trapdoor_double_slab_planks_dark_oak_open_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 387
-    display: White Plank Vertical Thin Slab
+    display: White Washed Plank Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
     blockDataWest: minecraft:oak_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
@@ -525,7 +526,7 @@ Items:
   trapdoor_double_slab_planks_dark_oak_bottom_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 388
-    display: White Plank Thin Slab
+    display: White Washed Plank Thin Slab
     type: BISECTED
     blockDataDown: minecraft:oak_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
     blockDataUp: minecraft:oak_trapdoor[facing=east,half=top,open=false,powered=true,waterlogged=false]
@@ -553,7 +554,7 @@ Items:
   powered_repeater_delay3_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 207
-    display: White Plank Slab (lower)
+    display: White Washed Plank Slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=3,facing=west,locked=false,powered=true]
     collection:
@@ -561,7 +562,7 @@ Items:
   vertical_slab_double_slab_planks_dark_oak_regular:
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 110
-    display: White Plank Vertical Slab
+    display: White Washed Plank Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_fence_gate[facing=south,in_wall=true,open=false,powered=false]
     blockDataWest: minecraft:oak_fence_gate[facing=west,in_wall=true,open=false,powered=false]
@@ -572,12 +573,22 @@ Items:
   double_slab_planks_dark_oak:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 99
-    display: White Planks
+    display: White Washed Planks
     category: Block2
     type: BLOCK
     blockData: minecraft:dark_oak_slab[type=double,waterlogged=false]
     collection:
       indirect: birch_planks
+  stacked_white_logs_wall:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 456
+    display: White Washed Stacked Logs Wall
+    category: Block2
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:target[power=8]
+    blockDataSouth: minecraft:target[power=8]
+    blockDataEast: minecraft:target[power=7]
+    blockDataWest: minecraft:target[power=7]
   quartz_normal:
     itemMaterial: QUARTZ_BLOCK
     damage: 0
