@@ -322,6 +322,7 @@ Items:
     collection:
       A1: nether_wart_stage0
       B2: nether_wart_stage1
+      C2: grape_vine
       F1: pumpkin
       G2: melon
   nether_wart_stage1:
@@ -331,6 +332,15 @@ Items:
     category: Crop
     type: BLOCK
     blockData: minecraft:nether_wart[age=1]
+    collection:
+      indirect: nether_wart_stage0
+  grape_vine:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 461
+    display: Grape Vines
+    category: Crop
+    type: BLOCK
+    blockData: minecraft:twisting_vines[age=16]
     collection:
       indirect: nether_wart_stage0
   pumpkin:
