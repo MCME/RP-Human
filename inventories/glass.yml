@@ -1,4 +1,20 @@
 Items:
+  glass_black:
+    itemMaterial: BLACK_STAINED_GLASS
+    damage: 1
+    category: Glass
+    display: Hobbit Window
+    type: VANILLA
+    collection:
+      A0: glass_black
+      A1: glass_black_pane
+  glass_black_pane:
+    itemMaterial: BLACK_STAINED_GLASS_PANE
+    damage: 1
+    display: Hobbit Window Pane
+    type: VANILLA
+    collection:
+      indirect: glass_black
   sandstone_glass_up:
     itemMaterial: GRAY_STAINED_GLASS
     damage: 0
@@ -87,7 +103,7 @@ Items:
   glass_pane_green:
     itemMaterial: GREEN_STAINED_GLASS_PANE
     damage: 13
-    display: Window wood simple [160:13]
+    display: Window wood simple
     category: Glass
     type: VANILLA
     collection:
@@ -95,7 +111,7 @@ Items:
   glass_pane_magenta:
     itemMaterial: MAGENTA_STAINED_GLASS_PANE
     damage: 2
-    display: Window colorless rhomboid [160:2]
+    display: Window colorless rhomboid
     category: Glass
     type: VANILLA
     collection:
@@ -106,7 +122,7 @@ Items:
   glass_pane_pink:
     itemMaterial: PINK_STAINED_GLASS_PANE
     damage: 6
-    display: Window light gray rhomboid [160:6]
+    display: Window light gray rhomboid
     category: Glass
     type: VANILLA
     collection:
@@ -125,7 +141,7 @@ Items:
   glass_pane_purple:
     itemMaterial: PURPLE_STAINED_GLASS_PANE
     damage: 10
-    display: Window light gray rhomboid [160:10]
+    display: Window light gray rhomboid
     category: Glass
     type: VANILLA
     collection:
@@ -346,63 +362,63 @@ Items:
   glass_pane_orange:
     itemMaterial: ORANGE_STAINED_GLASS_PANE
     damage: 1
-    display: Window colorless circles [160:1]
+    display: Window colorless circles
     type: VANILLA
     collection:
       indirect: shutter
   glass_pane_yellow:
     itemMaterial: YELLOW_STAINED_GLASS_PANE
     damage: 4
-    display: Window colorless wood [160:4]
+    display: Window colorless wood
     type: VANILLA
     collection:
       indirect: shutter
   glass_pane_light_blue:
     itemMaterial: LIGHT_BLUE_STAINED_GLASS_PANE
     damage: 3
-    display: Window colorless diamond [160:3]
+    display: Window colorless diamond
     type: VANILLA
     collection:
       indirect: shutter
   glass_pane_lime:
     itemMaterial: LIME_STAINED_GLASS_PANE
     damage: 5
-    display: Window light gray circles [160:5]
+    display: Window light gray circles
     type: VANILLA
     collection:
       indirect: glass_pane_pink
   glass_pane_cyan:
     itemMaterial: CYAN_STAINED_GLASS_PANE
     damage: 9
-    display: Window light gray circles [160:9]
+    display: Window light gray circles
     type: VANILLA
     collection:
       indirect: glass_pane_pink
   glass_pane_blue:
     itemMaterial: BLUE_STAINED_GLASS_PANE
     damage: 11
-    display: Window light gray diamond [160:11]
+    display: Window light gray diamond
     type: VANILLA
     collection:
       indirect: glass_pane_pink
   glass_pane_brown:
     itemMaterial: BROWN_STAINED_GLASS_PANE
     damage: 12
-    display: Window light gray wood [160:12]
+    display: Window light gray wood
     type: VANILLA
     collection:
       indirect: glass_pane_pink
   glass_pane_silver:
     itemMaterial: LIGHT_GRAY_STAINED_GLASS_PANE
     damage: 8
-    display: Window light gray wood [160:8]
+    display: Window light gray wood
     type: VANILLA
     collection:
       indirect: glass_pane_pink
   glass_pane_gray:
     itemMaterial: GRAY_STAINED_GLASS_PANE
     damage: 7
-    display: Window light gray diamond [160:7]
+    display: Window light gray diamond
     type: VANILLA
     collection:
       indirect: glass_pane_pink

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "enabled=true,facing=down": {
+      "model": "minecraft:block/hopper_light_gray_large_doric"
+    },
+	"enabled=true,facing=north": {
+      "model": "minecraft:block/hopper_light_gray_ionic"
+    },
+	"enabled=true,facing=east": {
+      "model": "minecraft:block/hopper_light_gray_ionic", "y": 90
+    }
+  }
+}

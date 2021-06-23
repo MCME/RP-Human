@@ -1,29 +1,11 @@
 {
   "parent": "block/block",
   "textures": {
-    "particle": "block/table_low_2_top",
-    "bottom": "block/oak_planks",
-    "top": "block/table_low_2_top",
-    "side": "block/table_low_2_side"
-  },
-  "display": {
-    "head": {
-      "rotation": [
-        -30,
-        0,
-        0
-      ],
-      "translation": [
-        0,
-        -30.7,
-        -7.25
-      ],
-      "scale": [
-        3.0135,
-        3.0135,
-        3.0135
-      ]
-    }
+    "particle": "block/stone_bricks",
+    "bottom": "block/stone_bricks",
+    "top": "block/stone_bricks",
+    "side": "block/stone_bricks",
+    "eye": "block/stone_bricks"
   },
   "elements": [
     {
@@ -91,6 +73,74 @@
             16
           ],
           "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        13,
+        4
+      ],
+      "to": [
+        12,
+        16,
+        12
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "texture": "#eye"
+        },
+        "up": {
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "texture": "#eye"
+        },
+        "north": {
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ],
+          "texture": "#eye"
+        },
+        "south": {
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ],
+          "texture": "#eye"
+        },
+        "west": {
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ],
+          "texture": "#eye"
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ],
+          "texture": "#eye"
         }
       }
     }

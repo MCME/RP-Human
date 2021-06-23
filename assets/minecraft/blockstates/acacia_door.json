@@ -60,7 +60,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_bottom_hinge"
+        "model": "block/acacia_door_1x3arch_3"
       }
     },
     {
@@ -72,8 +72,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_bottom_hinge",
-        "y": 90
+       "model": "block/acacia_door_1x3arch"
       }
     },
     {
@@ -85,8 +84,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_bottom_hinge",
-        "y": 180
+        "model": "block/acacia_door_1x3arch_4"
       }
     },
     {
@@ -98,8 +96,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_bottom_hinge",
-        "y": 270
+        "model": "block/acacia_door_1x3arch_2"
       }
     },
     {
@@ -162,8 +159,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_bottom_open",
-        "y": 270
+        "model": "block/acacia_door_railing", "y": 180
       }
     },
     {
@@ -175,7 +171,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_bottom_open"
+        "model": "block/acacia_door_railing", "y": 270
       }
     },
     {
@@ -187,8 +183,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_bottom_open",
-        "y": 90
+        "model": "block/acacia_door_railing"
       }
     },
     {
@@ -200,8 +195,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_bottom_open",
-        "y": 180
+        "model": "block/acacia_door_railing", "y": 90
       }
     },
     {
@@ -213,7 +207,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_top"
+        "model": "block/acacia_door_railing_diagonal", "y": 270
       }
     },
     {
@@ -225,8 +219,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_top",
-        "y": 90
+        "model": "block/acacia_door_railing_diagonal"
       }
     },
     {
@@ -238,8 +231,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_top",
-        "y": 180
+        "model": "block/acacia_door_railing_diagonal", "y": 90
       }
     },
     {
@@ -251,8 +243,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_top",
-        "y": 270
+        "model": "block/acacia_door_railing_diagonal", "y": 180
       }
     },
     {
@@ -263,9 +254,14 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/acacia_door_top_hinge"
-      }
+      "apply": [
+		{ "model": "block/acacia_door_fence", "weight": 5, "y": 270 },
+		{ "model": "block/acacia_door_fence_2", "weight": 5, "y": 270 },
+		{ "model": "block/acacia_door_fence_3", "weight": 1, "y": 270 },
+		{ "model": "block/acacia_door_fence_4", "weight": 1, "y": 270 },
+		{ "model": "block/acacia_door_fence_5", "weight": 5, "y": 270 },
+		{ "model": "block/acacia_door_fence_6", "weight": 5, "y": 270 }
+		]
     },
     {
       "when": {
@@ -275,10 +271,14 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/acacia_door_top_hinge",
-        "y": 90
-      }
+      "apply":[
+		{ "model": "block/acacia_door_fence", "weight": 5 },
+		{ "model": "block/acacia_door_fence_2", "weight": 5 },
+		{ "model": "block/acacia_door_fence_3", "weight": 1 },
+		{ "model": "block/acacia_door_fence_4", "weight": 1 },
+		{ "model": "block/acacia_door_fence_5", "weight": 5 },
+		{ "model": "block/acacia_door_fence_6", "weight": 5 }
+		]
     },
     {
       "when": {
@@ -288,10 +288,14 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/acacia_door_top_hinge",
-        "y": 180
-      }
+      "apply": [
+		{ "model": "block/acacia_door_fence", "weight": 5, "y": 90 },
+		{ "model": "block/acacia_door_fence_2", "weight": 5, "y": 90 },
+		{ "model": "block/acacia_door_fence_3", "weight": 1, "y": 90 },
+		{ "model": "block/acacia_door_fence_4", "weight": 1, "y": 90 },
+		{ "model": "block/acacia_door_fence_5", "weight": 5, "y": 90 },
+		{ "model": "block/acacia_door_fence_6", "weight": 5, "y": 90 }
+		]
     },
     {
       "when": {
@@ -301,10 +305,14 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/acacia_door_top_hinge",
-        "y": 270
-      }
+      "apply": [
+		{ "model": "block/acacia_door_fence", "weight": 5, "y": 180 },
+		{ "model": "block/acacia_door_fence_2", "weight": 5, "y": 180 },
+		{ "model": "block/acacia_door_fence_3", "weight": 1, "y": 180 },
+		{ "model": "block/acacia_door_fence_4", "weight": 1, "y": 180 },
+		{ "model": "block/acacia_door_fence_5", "weight": 5, "y": 180 },
+		{ "model": "block/acacia_door_fence_6", "weight": 5, "y": 180 }
+		]
     },
     {
       "when": {
@@ -315,8 +323,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_top_rh_open",
-        "y": 90
+        "model": "block/acacia_door_railing_corner", "y": 180
       }
     },
     {
@@ -328,8 +335,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_top_rh_open",
-        "y": 180
+        "model": "block/acacia_door_railing_corner", "y": 270
       }
     },
     {
@@ -341,8 +347,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_top_rh_open",
-        "y": 270
+        "model": "block/acacia_door_railing_corner"
       }
     },
     {
@@ -354,7 +359,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_top_rh_open"
+        "model": "block/acacia_door_railing_corner", "y": 90
       }
     },
     {
@@ -366,8 +371,8 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_top_open",
-        "y": 270
+        "model": "block/acacia_door_corbel",
+        "y": 90
       }
     },
     {
@@ -379,7 +384,8 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_top_open"
+        "model": "block/acacia_door_corbel",
+		"y": 180
       }
     },
     {
@@ -391,8 +397,8 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_top_open",
-        "y": 90
+        "model": "block/acacia_door_corbel",
+        "y": 270
       }
     },
     {
@@ -404,8 +410,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/acacia_door_top_open",
-        "y": 180
+        "model": "block/acacia_door_corbel"
       }
     },
     {

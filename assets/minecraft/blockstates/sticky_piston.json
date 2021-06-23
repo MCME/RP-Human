@@ -1,49 +1,16 @@
 {
   "variants": {
-    "extended\u003dfalse,facing\u003ddown": {
-      "model": "block/replace",
-      "x": 90
-    },
-    "extended\u003dfalse,facing\u003dup": {
-      "model": "block/replace",
-      "x": 270
-    },
-    "extended\u003dfalse,facing\u003dnorth": {
-      "model": "block/replace"
-    },
-    "extended\u003dfalse,facing\u003dsouth": {
-      "model": "block/replace",
-      "y": 180
-    },
-    "extended\u003dfalse,facing\u003dwest": {
-      "model": "block/replace",
-      "y": 270
-    },
-    "extended\u003dfalse,facing\u003deast": {
-      "model": "block/replace",
-      "y": 90
-    },
-    "extended\u003dtrue,facing\u003ddown": {
-      "model": "block/piston_sticky_extended",
-      "x": 90
-    },
-    "extended\u003dtrue,facing\u003dup": {
-      "model": "block/piston_sticky_extended_up"
-    },
-    "extended\u003dtrue,facing\u003dnorth": {
-      "model": "block/piston_sticky_extended"
-    },
-    "extended\u003dtrue,facing\u003dsouth": {
-      "model": "block/piston_sticky_extended",
-      "y": 180
-    },
-    "extended\u003dtrue,facing\u003dwest": {
-      "model": "block/piston_sticky_extended",
-      "y": 270
-    },
-    "extended\u003dtrue,facing\u003deast": {
-      "model": "block/piston_sticky_extended",
-      "y": 90
-    }
+    "extended=false,facing=down": { "model": "block/replace", "x": 90 },
+    "extended=false,facing=up": { "model": "block/replace", "x": 270 },
+    "extended=false,facing=north": { "model": "block/replace" },
+    "extended=false,facing=south": { "model": "block/replace", "y": 180 },
+    "extended=false,facing=west": { "model": "block/replace", "y": 270 },
+    "extended=false,facing=east": { "model": "block/replace", "y": 90 },
+    "extended=true,facing=down": { "model": "block/piston_sticky_extended", "x": 90 },
+    "extended=true,facing=up": { "model": "block/piston_sticky_extended_up" },
+    "extended=true,facing=north": { "model": "block/piston_sticky_extended" },
+    "extended=true,facing=south": { "model": "block/piston_sticky_extended", "y": 180 },
+    "extended=true,facing=west": { "model": "block/piston_sticky_extended", "y": 270 },
+    "extended=true,facing=east": { "model": "block/piston_sticky_extended", "y": 90 }
   }
 }
