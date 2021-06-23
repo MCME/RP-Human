@@ -1,6 +1,10 @@
 {
   "variants": {
-    "moisture\u003d0": { "model": "block/farmland_moisture0" },
+    "moisture\u003d0": [
+	        { "model": "block/farmland_moisture0" },
+            { "model": "block/farmland_moisture0_2" }, 
+			{ "model": "block/farmland_moisture0_2" } 
+		],
     "moisture\u003d1": { "model": "block/farmland_moisture1" },
     "moisture\u003d2": { "model": "block/farmland_moisture2" },
     "moisture\u003d3": [

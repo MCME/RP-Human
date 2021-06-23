@@ -1,12 +1,6 @@
 {
-  "parent": "block/corner_parent",
-  "textures": {
-    "particle": "block/red_mushroom_block_esw_5",
-    "down": "block/red_mushroom_block_esw_5",
-    "up": "block/red_mushroom_block_esw_5",
-    "north": "block/red_mushroom_block_esw_5",
-    "east": "block/red_mushroom_block_esw_5",
-    "south": "block/red_mushroom_block_esw_5",
-    "west": "block/red_mushroom_block_esw_5"
-  }
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "block/red_mushroom_block_esw_5"
+    }
 }

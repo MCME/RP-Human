@@ -1140,12 +1140,24 @@ Items:
     blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=false,up=false,west=false]
     type: BLOCK
     collection:
-      E1: red_stucco
-      D2: orange_stucco
-      C2: yellow_stucco
+      J1: red_stucco
+      E0: red_plaster
+      E1: orange_stucco
+      D2: yellow_stucco
+      C2: loam_wall
       B2: light_yellow_stucco
-      A1: light_yellow_stucco_ornament
-      A0: white_stucco
+      A0: light_yellow_stucco_ornament
+      F1: white_stucco
+      A1: light_yellow_stucco_ornament_thin
+  red_plaster:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 457
+    display: Red Plaster
+    category: Block
+    type: BLOCK
+    blockData: minecraft:target[power=9]
+    collection:
+      indirect: red_stucco
   orange_stucco:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 119
@@ -1164,6 +1176,15 @@ Items:
     type: BLOCK
     collection:
       indirect: red_stucco
+  loam_wall:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 455
+    display: Loam Wall
+    category: Block
+    type: BLOCK
+    blockData: minecraft:target[power=6]
+    collection:
+      indirect: red_stucco
   light_yellow_stucco:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 116
@@ -1173,12 +1194,28 @@ Items:
     type: BLOCK
     collection:
       indirect: red_stucco
+  light_yellow_stucco:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 446
+    display: Light Yellow Stucco Thin
+    blockData: minecraft:repeater[delay=1,facing=west,locked=true,powered=false]
+    type: BLOCK
+    collection:
+      indirect: red_stucco
   light_yellow_stucco_ornament:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 117
     display: Ornamental Light Yellow Stucco
     category: Block
     blockData: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=false,west=true]
+    type: BLOCK
+    collection:
+      indirect: red_stucco
+  light_yellow_stucco_ornament_thin:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 444
+    display: Ornamental Light Yellow Stucco Thin
+    blockData: minecraft:repeater[delay=1,facing=east,locked=true,powered=false]
     type: BLOCK
     collection:
       indirect: red_stucco

@@ -39,8 +39,16 @@ Items:
       C4: moss_covered_stone
       D4: campfire_light_boulders
       F4: stone
-      G4: stone_slab
-      H4: comparator_compare_e
+      G4: stone_stairs
+      H4: stone_slab
+      I4: comparator_compare_e
+  stone_stairs:
+    itemMaterial: STONE_STAIRS
+    damage: 0
+    display: Stone Stairs
+    type: VANILLA
+    collection:
+      indirect: diorite
   diamond_ore:
     itemMaterial: DIAMOND_ORE
     damage: 0
@@ -142,6 +150,7 @@ Items:
       G2: rough_dark_stone_slab
       H2: powered_repeater_delay4_w
       I2: granite_smooth
+      J2: granite_smooth_stairs
       J1: mossy_granite_smooth
       E0: dry_gravel
       E1: red_concrete
@@ -180,6 +189,13 @@ Items:
     damage: 2
     display: Smooth Red Stone
     category: Terra
+    type: VANILLA
+    collection:
+      indirect: granite
+  granite_smooth:
+    itemMaterial: POLISHED_GRANITE_STAIRS
+    damage: 2
+    display: Smooth Red Stone Stairs
     type: VANILLA
     collection:
       indirect: granite
@@ -385,12 +401,17 @@ Items:
       D4: comparator_powered_compare_s
       E4: upper_slab_coarse_dirt
       F4: podzol
-      G4: soul_sand
+      G4: dark_dirt
       H4: comparator_subtract_e
       I4: upper_slab_soul_sand
       E4: repeater_delay2_e
       J4: redstone_dust_power4_center
-  
+      F2: grass_reverse
+  grass_reverse:
+    itemMaterial: NETHER_WART_BLOCK
+    damage: 0
+    display: Grass Block Reverse
+    type: VANILLA
   grass_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 375
@@ -451,12 +472,13 @@ Items:
     type: VANILLA
     collection:
       indirect: grass
-  soul_sand:
-    itemMaterial: SOUL_SAND
-    damage: 0
+  dark_dirt:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 442
     display: Dark Dirt
     category: Terra
-    type: VANILLA
+    type: BLOCK
+    blockData: minecraft:mycelium[snowy=true]
     collection:
       indirect: grass
   comparator_subtract_e:
@@ -829,6 +851,7 @@ Items:
     blockData: minecraft:sand
     type: BLOCK
     collection:
+      A2: sand_waterlogged
       A0: upper_slab_sand
       F1: sand
       G2: black_concrete_powder
@@ -838,6 +861,7 @@ Items:
       J1: white_concrete
       E0: orange_concrete
       E1: silt
+      E2: silt_patchy
       D2: red_concrete
       C2: upper_slab_red_sand
       B2: comparator_powered_compare_e
@@ -845,6 +869,15 @@ Items:
       A4: dark_prismarine_slab
       B4: prismarine_slab
       F4: brain_coral_block
+      F2: light_blue_concrete_powder
+  sand_waterlogged:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 396
+    display: Sand Slab (waterlogged)
+    type: BLOCK
+    blockData: minecraft:purpur_slab[type=bottom,waterlogged=true]
+    collection:
+      indirect: sand
   comparator_powered_compare_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 223
@@ -864,9 +897,17 @@ Items:
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
     collection:
       indirect: sand
+  light_blue_concrete_powder:
+    itemMaterial: LIGHT_BLUE_CONCRETE_POWDER
+    display: Continental Sand
+    category: Terra
+    blockData: minecraft:light_blue_concrete_powder
+    type: BLOCK
+    collection:
+      indirect: sand
   black_concrete_powder:
     itemMaterial: BLACK_CONCRETE_POWDER
-    display: Continental Sand
+    display: Wet Continental Sand
     category: Terra
     blockData: minecraft:black_concrete_powder
     type: BLOCK
@@ -914,6 +955,15 @@ Items:
     display: Sediment
     category: Terra
     type: VANILLA
+    collection:
+      indirect: sand
+  silt_patchy:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 458
+    display: Patchy Grass With Silt
+    category: Terra
+    type: BLOCK
+    blockData: minecraft:dark_oak_leaves[distance=5,persistent=true]
     collection:
       indirect: sand
   orange_concrete:
