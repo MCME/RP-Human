@@ -407,6 +407,57 @@
         "uvlock": true,
         "y": 270
       }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/placeholder",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/placeholder",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/placeholder",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/placeholder",
+        "uvlock": true,
+        "y": 90
+      }
     }
   ]
 }

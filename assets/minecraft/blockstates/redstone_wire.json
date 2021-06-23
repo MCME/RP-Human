@@ -635,36 +635,26 @@
         "west": "none"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_center"
-        },
-        {
-          "model": "block/redstone_dust_power4_center",
-          "y": 90
-        },
-        {
-          "model": "block/redstone_dust_power4_center",
-          "y": 180
-        },
-        {
-          "model": "block/redstone_dust_power4_center",
-          "y": 270
-        },
-        {
-          "model": "block/redstone_dust_power4_center_1"
-        },
-        {
-          "model": "block/redstone_dust_power4_center_1",
-          "y": 90
-        },
-        {
-          "model": "block/redstone_dust_power4_center_1",
-          "y": 180
-        },
-        {
-          "model": "block/redstone_dust_power4_center_1",
-          "y": 270
-        }
+        {  "model": "block/redstone_dust_power4_center" },
+        { "model": "block/redstone_dust_power4_center", "y": 90 },
+        { "model": "block/redstone_dust_power4_center", "y": 180 },
+        { "model": "block/redstone_dust_power4_center", "y": 270 },
+        { "model": "block/redstone_dust_power4_center_1" },
+        { "model": "block/redstone_dust_power4_center_1", "y": 90 },
+        { "model": "block/redstone_dust_power4_center_1", "y": 180 },
+        { "model": "block/redstone_dust_power4_center_1", "y": 270 },
+		{ "model": "block/redstone_dust_power4_center_2" },
+        { "model": "block/redstone_dust_power4_center_2", "y": 90 },
+        { "model": "block/redstone_dust_power4_center_2", "y": 180 },
+        { "model": "block/redstone_dust_power4_center_2", "y": 270 },
+		{ "model": "block/redstone_dust_power4_center_3" },
+        { "model": "block/redstone_dust_power4_center_3", "y": 90 },
+        { "model": "block/redstone_dust_power4_center_3", "y": 180 },
+        { "model": "block/redstone_dust_power4_center_3", "y": 270 },
+		{ "model": "block/redstone_dust_power4_center_4" },
+        { "model": "block/redstone_dust_power4_center_4", "y": 90 },
+        { "model": "block/redstone_dust_power4_center_4", "y": 180 },
+        { "model": "block/redstone_dust_power4_center_4", "y": 270 }
       ]
     },
     {
@@ -676,9 +666,10 @@
         "west": "none"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_one_edge"
-        }
+        { "model": "block/redstone_dust_power4_one_edge" },
+		{ "model": "block/redstone_dust_power4_one_edge_1" },
+		{ "model": "block/redstone_dust_power4_one_edge_2" },
+		{ "model": "block/redstone_dust_power4_one_edge_3" }
       ]
     },
     {
@@ -690,10 +681,10 @@
         "west": "none"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_one_edge",
-          "y": 90
-        }
+        { "model": "block/redstone_dust_power4_one_edge", "y": 90 },
+		{ "model": "block/redstone_dust_power4_one_edge_1", "y": 90 },
+		{ "model": "block/redstone_dust_power4_one_edge_2", "y": 90 },
+		{ "model": "block/redstone_dust_power4_one_edge_3", "y": 90 }
       ]
     },
     {
@@ -705,10 +696,10 @@
         "west": "none"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_one_edge",
-          "y": 180
-        }
+        { "model": "block/redstone_dust_power4_one_edge", "y": 180 },
+		{ "model": "block/redstone_dust_power4_one_edge_1", "y": 180 },
+		{ "model": "block/redstone_dust_power4_one_edge_2", "y": 180 },
+		{ "model": "block/redstone_dust_power4_one_edge_3", "y": 180 }
       ]
     },
     {
@@ -720,10 +711,10 @@
         "west": "side|up"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_one_edge",
-          "y": 270
-        }
+        { "model": "block/redstone_dust_power4_one_edge", "y": 270 },
+		{ "model": "block/redstone_dust_power4_one_edge_1", "y": 270 },
+		{ "model": "block/redstone_dust_power4_one_edge_2", "y": 270 },
+		{ "model": "block/redstone_dust_power4_one_edge_3", "y": 270 }
       ]
     },
     {
@@ -735,9 +726,9 @@
         "west": "none"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_two_edges"
-        }
+        { "model": "block/redstone_dust_power4_two_edges" },
+		{ "model": "block/redstone_dust_power4_two_edges_1" },
+		{ "model": "block/redstone_dust_power4_two_edges_2" }
       ]
     },
     {
@@ -749,10 +740,9 @@
         "west": "none"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_two_edges",
-          "y": 90
-        }
+        { "model": "block/redstone_dust_power4_two_edges", "y": 90 },
+		{ "model": "block/redstone_dust_power4_two_edges_1", "y": 90 },
+		{ "model": "block/redstone_dust_power4_two_edges_2", "y": 90 }
       ]
     },
     {
@@ -764,10 +754,9 @@
         "west": "side|up"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_two_edges",
-          "y": 180
-        }
+        { "model": "block/redstone_dust_power4_two_edges", "y": 180 },
+		{ "model": "block/redstone_dust_power4_two_edges_1", "y": 180 },
+		{ "model": "block/redstone_dust_power4_two_edges_2", "y": 180 }
       ]
     },
     {
@@ -779,10 +768,9 @@
         "west": "side|up"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_two_edges",
-          "y": 270
-        }
+        { "model": "block/redstone_dust_power4_two_edges", "y": 270 },
+		{ "model": "block/redstone_dust_power4_two_edges_1", "y": 270 },
+		{ "model": "block/redstone_dust_power4_two_edges_2", "y": 270 }
       ]
     },
     {
@@ -794,9 +782,9 @@
         "west": "none"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_opposite_edges"
-        }
+        { "model": "block/redstone_dust_power4_opposite_edges" },
+		{ "model": "block/redstone_dust_power4_opposite_edges_1" },
+		{ "model": "block/redstone_dust_power4_opposite_edges_2" }
       ]
     },
     {
@@ -808,10 +796,9 @@
         "west": "side|up"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_opposite_edges",
-          "y": 90
-        }
+        { "model": "block/redstone_dust_power4_opposite_edges", "y": 90 },
+		{ "model": "block/redstone_dust_power4_opposite_edges_1", "y": 90 },
+		{ "model": "block/redstone_dust_power4_opposite_edges_2", "y": 90 }
       ]
     },
     {
@@ -823,9 +810,9 @@
         "west": "none"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_three_edges"
-        }
+        { "model": "block/redstone_dust_power4_three_edges" },
+		{ "model": "block/redstone_dust_power4_three_edges_1" },
+		{ "model": "block/redstone_dust_power4_three_edges_2" }
       ]
     },
     {
@@ -837,10 +824,9 @@
         "west": "side|up"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_three_edges",
-          "y": 90
-        }
+        { "model": "block/redstone_dust_power4_three_edges", "y": 90 },
+		{ "model": "block/redstone_dust_power4_three_edges_1", "y": 90 },
+		{ "model": "block/redstone_dust_power4_three_edges_2", "y": 90 }
       ]
     },
     {
@@ -852,10 +838,9 @@
         "west": "side|up"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_three_edges",
-          "y": 180
-        }
+        { "model": "block/redstone_dust_power4_three_edges", "y": 180 },
+		{ "model": "block/redstone_dust_power4_three_edges_1", "y": 180 },
+		{ "model": "block/redstone_dust_power4_three_edges_2", "y": 180 }
       ]
     },
     {
@@ -867,10 +852,9 @@
         "west": "side|up"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_three_edges",
-          "y": 270
-        }
+        { "model": "block/redstone_dust_power4_three_edges", "y": 270 },
+		{ "model": "block/redstone_dust_power4_three_edges_1", "y": 270 },
+		{ "model": "block/redstone_dust_power4_three_edges_2", "y": 270 }
       ]
     },
     {
@@ -882,21 +866,22 @@
         "west": "side|up"
       },
       "apply": [
-        {
-          "model": "block/redstone_dust_power4_four_edges"
-        },
-        {
-          "model": "block/redstone_dust_power4_four_edges",
-          "y": 90
-        },
-        {
-          "model": "block/redstone_dust_power4_four_edges",
-          "y": 180
-        },
-        {
-          "model": "block/redstone_dust_power4_four_edges",
-          "y": 270
-        }
+        { "model": "block/redstone_dust_power4_four_edges" },
+        { "model": "block/redstone_dust_power4_four_edges", "y": 90 },
+        { "model": "block/redstone_dust_power4_four_edges", "y": 180 },
+        { "model": "block/redstone_dust_power4_four_edges", "y": 270 },
+		{ "model": "block/redstone_dust_power4_four_edges_1" },
+        { "model": "block/redstone_dust_power4_four_edges_1", "y": 90 },
+        { "model": "block/redstone_dust_power4_four_edges_1", "y": 180 },
+        { "model": "block/redstone_dust_power4_four_edges_1", "y": 270 },
+		{ "model": "block/redstone_dust_power4_four_edges_2" },
+        { "model": "block/redstone_dust_power4_four_edges_2", "y": 90 },
+        { "model": "block/redstone_dust_power4_four_edges_2", "y": 180 },
+        { "model": "block/redstone_dust_power4_four_edges_2", "y": 270 },
+		{ "model": "block/redstone_dust_power4_four_edges_3" },
+        { "model": "block/redstone_dust_power4_four_edges_3", "y": 90 },
+        { "model": "block/redstone_dust_power4_four_edges_3", "y": 180 },
+        { "model": "block/redstone_dust_power4_four_edges_3", "y": 270 }
       ]
     },
     {
@@ -906,11 +891,11 @@
         "west": "side|none",
         "east": "side|none"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_opposite_edges",
-        "x": 90,
-        "y": 180
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_opposite_edges", "x": 90, "y": 180 },
+		{ "model": "block/redstone_dust_power4_opposite_edges_1", "x": 90, "y": 180 },
+		{ "model": "block/redstone_dust_power4_opposite_edges_2", "x": 90, "y": 180 }
+		]
     },
     {
       "when": {
@@ -919,11 +904,11 @@
         "west": "up",
         "east": "side|none"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_three_edges",
-        "x": 90,
-        "y": 180
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_three_edges", "x": 90, "y": 180 },
+		{ "model": "block/redstone_dust_power4_three_edges_1", "x": 90, "y": 180 },
+		{ "model": "block/redstone_dust_power4_three_edges_2", "x": 90, "y": 180 }
+		]
     },
     {
       "when": {
@@ -932,10 +917,11 @@
         "west": "side|none",
         "east": "up"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_three_edges",
-        "x": 270
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_three_edges", "x": 270 },
+		{ "model": "block/redstone_dust_power4_three_edges_1", "x": 270 },
+		{ "model": "block/redstone_dust_power4_three_edges_2", "x": 270 }
+		]
     },
     {
       "when": {
@@ -944,11 +930,12 @@
         "west": "up",
         "east": "up"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_four_edges",
-        "x": 90,
-        "y": 180
-      }
+      "apply": [
+		{ "model": "block/redstone_dust_power4_four_edges", "x": 90, "y": 180 },
+		{ "model": "block/redstone_dust_power4_four_edges_1", "x": 90, "y": 180 },
+		{ "model": "block/redstone_dust_power4_four_edges_2", "x": 90, "y": 180 },
+		{ "model": "block/redstone_dust_power4_four_edges_3", "x": 90, "y": 180 }
+		]
     },
     {
       "when": {
@@ -957,11 +944,11 @@
         "north": "side|none",
         "south": "side|none"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_opposite_edges",
-        "x": 90,
-        "y": 270
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_opposite_edges", "x": 90, "y": 270 },
+		{ "model": "block/redstone_dust_power4_opposite_edges_1", "x": 90, "y": 270 },
+		{ "model": "block/redstone_dust_power4_opposite_edges_2", "x": 90, "y": 270 }
+		]
     },
     {
       "when": {
@@ -970,11 +957,11 @@
         "north": "up",
         "south": "side|none"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_three_edges",
-        "x": 90,
-        "y": 270
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_three_edges", "x": 90, "y": 270 },
+		{ "model": "block/redstone_dust_power4_three_edges_1", "x": 90, "y": 270 },
+		{ "model": "block/redstone_dust_power4_three_edges_2", "x": 90, "y": 270 }
+		]
     },
     {
       "when": {
@@ -983,11 +970,11 @@
         "north": "side|none",
         "south": "up"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_three_edges",
-        "x": 270,
-        "y": 90
-      }
+      "apply": [
+		{ "model": "block/redstone_dust_power4_three_edges", "x": 270, "y": 90 },
+		{ "model": "block/redstone_dust_power4_three_edges_1", "x": 270, "y": 90 },
+		{ "model": "block/redstone_dust_power4_three_edges_2", "x": 270, "y": 90 }
+		]
     },
     {
       "when": {
@@ -996,11 +983,12 @@
         "north": "up",
         "south": "up"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_four_edges",
-        "x": 90,
-        "y": 270
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_four_edges", "x": 90, "y": 270 },
+		{ "model": "block/redstone_dust_power4_four_edges_1", "x": 90, "y": 270 },
+		{ "model": "block/redstone_dust_power4_four_edges_2", "x": 90, "y": 270 },
+		{ "model": "block/redstone_dust_power4_four_edges_3", "x": 90, "y": 270 }
+		]
     },
     {
       "when": {
@@ -1009,10 +997,11 @@
         "east": "side|none",
         "west": "side|none"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_opposite_edges",
-        "x": 90
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_opposite_edges", "x": 90 },
+		{ "model": "block/redstone_dust_power4_opposite_edges_1", "x": 90 },
+		{ "model": "block/redstone_dust_power4_opposite_edges_2", "x": 90 }
+		]
     },
     {
       "when": {
@@ -1021,10 +1010,11 @@
         "east": "up",
         "west": "side|none"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_three_edges",
-        "x": 90
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_three_edges", "x": 90 },
+		{ "model": "block/redstone_dust_power4_three_edges_1", "x": 90 },
+		{ "model": "block/redstone_dust_power4_three_edges_2", "x": 90 }
+		]
     },
     {
       "when": {
@@ -1033,11 +1023,11 @@
         "east": "side|none",
         "west": "up"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_three_edges",
-        "x": 270,
-        "y": 180
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_three_edges", "x": 270, "y": 180 },
+		{ "model": "block/redstone_dust_power4_three_edges_1", "x": 270, "y": 180 },
+		{ "model": "block/redstone_dust_power4_three_edges_2", "x": 270, "y": 180 }
+		]
     },
     {
       "when": {
@@ -1046,10 +1036,12 @@
         "east": "up",
         "west": "up"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_four_edges",
-        "x": 90
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_four_edges", "x": 90 },
+		{ "model": "block/redstone_dust_power4_four_edges_1", "x": 90 },
+		{ "model": "block/redstone_dust_power4_four_edges_2", "x": 90 },
+		{ "model": "block/redstone_dust_power4_four_edges_3", "x": 90 }
+		]
     },
     {
       "when": {
@@ -1058,11 +1050,11 @@
         "south": "side|none",
         "north": "side|none"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_opposite_edges",
-        "x": 90,
-        "y": 90
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_opposite_edges", "x": 90, "y": 90 },
+		{ "model": "block/redstone_dust_power4_opposite_edges_1", "x": 90, "y": 90 },
+		{ "model": "block/redstone_dust_power4_opposite_edges_2", "x": 90, "y": 90 }
+		]
     },
     {
       "when": {
@@ -1071,11 +1063,11 @@
         "south": "up",
         "north": "side|none"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_three_edges",
-        "x": 90,
-        "y": 90
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_three_edges", "x": 90, "y": 90 },
+		{ "model": "block/redstone_dust_power4_three_edges_1", "x": 90, "y": 90 },
+		{ "model": "block/redstone_dust_power4_three_edges_2", "x": 90, "y": 90 }
+		]
     },
     {
       "when": {
@@ -1084,11 +1076,11 @@
         "south": "side|none",
         "north": "up"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_three_edges",
-        "x": 270,
-        "y": 270
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_three_edges", "x": 270, "y": 270 },
+		{ "model": "block/redstone_dust_power4_three_edges_1", "x": 270, "y": 270 },
+		{ "model": "block/redstone_dust_power4_three_edges_2", "x": 270, "y": 270 }
+		]
     },
     {
       "when": {
@@ -1097,11 +1089,12 @@
         "south": "up",
         "north": "up"
       },
-      "apply": {
-        "model": "block/redstone_dust_power4_four_edges",
-        "x": 90,
-        "y": 90
-      }
+      "apply":[
+		{ "model": "block/redstone_dust_power4_four_edges", "x": 90, "y": 90 },
+		{ "model": "block/redstone_dust_power4_four_edges_1", "x": 90, "y": 90 },
+		{ "model": "block/redstone_dust_power4_four_edges_2", "x": 90, "y": 90 },
+		{ "model": "block/redstone_dust_power4_four_edges_3", "x": 90, "y": 90 }
+		]
     },
     {
       "when": {
@@ -2708,6 +2701,528 @@
         "x": 90,
         "y": 90
         }
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "none",
+        "east": "none",
+        "south": "none",
+        "west": "none"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_center"
+        },
+        {
+          "model": "block/redstone_dust_power8_center",
+          "y": 90
+        },
+        {
+          "model": "block/redstone_dust_power8_center",
+          "y": 180
+        },
+        {
+          "model": "block/redstone_dust_power8_center",
+          "y": 270
+        },
+        {
+          "model": "block/redstone_dust_power8_center_1"
+        },
+        {
+          "model": "block/redstone_dust_power8_center_1",
+          "y": 90
+        },
+        {
+          "model": "block/redstone_dust_power8_center_1",
+          "y": 180
+        },
+        {
+          "model": "block/redstone_dust_power8_center_1",
+          "y": 270
+        },
+        {
+          "model": "block/redstone_dust_power8_center_2"
+        },
+        {
+          "model": "block/redstone_dust_power8_center_2",
+          "y": 90
+        },
+        {
+          "model": "block/redstone_dust_power8_center_2",
+          "y": 180
+        },
+        {
+          "model": "block/redstone_dust_power8_center_2",
+          "y": 270
+        },
+        {
+          "model": "block/redstone_dust_power8_center_3"
+        },
+        {
+          "model": "block/redstone_dust_power8_center_3",
+          "y": 90
+        },
+        {
+          "model": "block/redstone_dust_power8_center_3",
+          "y": 180
+        },
+        {
+          "model": "block/redstone_dust_power8_center_3",
+          "y": 270
+        },
+        {
+          "model": "block/redstone_dust_power8_center_4"
+        },
+        {
+          "model": "block/redstone_dust_power8_center_4",
+          "y": 90
+        },
+        {
+          "model": "block/redstone_dust_power8_center_4",
+          "y": 180
+        },
+        {
+          "model": "block/redstone_dust_power8_center_4",
+          "y": 270
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "side|up",
+        "east": "none",
+        "south": "none",
+        "west": "none"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_one_edge"
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "none",
+        "east": "side|up",
+        "south": "none",
+        "west": "none"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_one_edge",
+          "y": 90
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "none",
+        "east": "none",
+        "south": "side|up",
+        "west": "none"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_one_edge",
+          "y": 180
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "none",
+        "east": "none",
+        "south": "none",
+        "west": "side|up"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_one_edge",
+          "y": 270
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "side|up",
+        "east": "side|up",
+        "south": "none",
+        "west": "none"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_two_edges"
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "none",
+        "east": "side|up",
+        "south": "side|up",
+        "west": "none"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_two_edges",
+          "y": 90
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "none",
+        "east": "none",
+        "south": "side|up",
+        "west": "side|up"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_two_edges",
+          "y": 180
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "side|up",
+        "east": "none",
+        "south": "none",
+        "west": "side|up"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_two_edges",
+          "y": 270
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "side|up",
+        "east": "none",
+        "south": "side|up",
+        "west": "none"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_opposite_edges"
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "none",
+        "east": "side|up",
+        "south": "none",
+        "west": "side|up"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_opposite_edges",
+          "y": 90
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "side|up",
+        "east": "side|up",
+        "south": "side|up",
+        "west": "none"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_three_edges"
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "none",
+        "east": "side|up",
+        "south": "side|up",
+        "west": "side|up"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_three_edges",
+          "y": 90
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "side|up",
+        "east": "none",
+        "south": "side|up",
+        "west": "side|up"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_three_edges",
+          "y": 180
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "side|up",
+        "east": "side|up",
+        "south": "none",
+        "west": "side|up"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_three_edges",
+          "y": 270
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "side|up",
+        "east": "side|up",
+        "south": "side|up",
+        "west": "side|up"
+      },
+      "apply": [
+        {
+          "model": "block/redstone_dust_power8_four_edges"
+        },
+        {
+          "model": "block/redstone_dust_power8_four_edges",
+          "y": 90
+        },
+        {
+          "model": "block/redstone_dust_power8_four_edges",
+          "y": 180
+        },
+        {
+          "model": "block/redstone_dust_power8_four_edges",
+          "y": 270
+        }
+      ]
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "up",
+        "west": "side|none",
+        "east": "side|none"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_opposite_edges",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "up",
+        "west": "up",
+        "east": "side|none"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_three_edges",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "up",
+        "west": "side|none",
+        "east": "up"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_three_edges",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "north": "up",
+        "west": "up",
+        "east": "up"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_four_edges",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "east": "up",
+        "north": "side|none",
+        "south": "side|none"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_opposite_edges",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "east": "up",
+        "north": "up",
+        "south": "side|none"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_three_edges",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "east": "up",
+        "north": "side|none",
+        "south": "up"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_three_edges",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "east": "up",
+        "north": "up",
+        "south": "up"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_four_edges",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "south": "up",
+        "east": "side|none",
+        "west": "side|none"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_opposite_edges",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "south": "up",
+        "east": "up",
+        "west": "side|none"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_three_edges",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "south": "up",
+        "east": "side|none",
+        "west": "up"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_three_edges",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "south": "up",
+        "east": "up",
+        "west": "up"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_four_edges",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "west": "up",
+        "south": "side|none",
+        "north": "side|none"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_opposite_edges",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "west": "up",
+        "south": "up",
+        "north": "side|none"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_three_edges",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "west": "up",
+        "south": "side|none",
+        "north": "up"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_three_edges",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "power": "8",
+        "west": "up",
+        "south": "up",
+        "north": "up"
+      },
+      "apply": {
+        "model": "block/redstone_dust_power8_four_edges",
+        "x": 90,
+        "y": 90
+      }
     }
   ]
 }

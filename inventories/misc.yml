@@ -3,7 +3,7 @@ Items:
   white_wool:
     itemMaterial: WHITE_WOOL
     damage: 0
-    display: White wool block [35:0]
+    display: White wool block
     category: Misc
     type: VANILLA
     collection:
@@ -27,7 +27,7 @@ Items:
   silver_wool: 
     itemMaterial: LIGHT_GRAY_WOOL
     damage: 8
-    display: light gray wool block [35:8]
+    display: light gray wool block
     category: Misc
     type: VANILLA
     collection:
@@ -35,7 +35,7 @@ Items:
   gray_wool:
     itemMaterial: GRAY_WOOL
     damage: 7
-    display: Dark gray wool block [35:7]
+    display: Dark gray wool block
     category: Misc
     type: VANILLA
     collection:
@@ -43,7 +43,7 @@ Items:
   black_wool:
     itemMaterial: BLACK_WOOL
     damage: 15
-    display: Black wool block [35:15]
+    display: Black wool block
     category: Misc
     type: VANILLA
     collection:
@@ -54,7 +54,7 @@ Items:
   yellow_wool:
     itemMaterial: YELLOW_WOOL
     damage: 4
-    display: Yellow wool block [35:4]
+    display: Yellow wool block
     category: Misc
     type: VANILLA
     collection:
@@ -75,7 +75,7 @@ Items:
   orange_wool:
     itemMaterial: ORANGE_WOOL
     damage: 1
-    display: Orange wool block [35:1]
+    display: Orange wool block
     category: Misc
     type: VANILLA
     collection:
@@ -83,7 +83,7 @@ Items:
   red_wool:
     itemMaterial: RED_WOOL
     damage: 14
-    display: Red wool block [35:14]
+    display: Red wool block
     category: Misc
     type: VANILLA
     collection:
@@ -94,7 +94,7 @@ Items:
   pink_wool:
     itemMaterial: PINK_WOOL
     damage: 6
-    display: Pink wool block [35:6]
+    display: Pink wool block
     category: Misc
     type: VANILLA
     collection:
@@ -115,7 +115,7 @@ Items:
   magenta_wool:
     itemMaterial: MAGENTA_WOOL
     damage: 2
-    display: Magenta wool block [35:2]
+    display: Magenta wool block
     category: Misc
     type: VANILLA
     collection:
@@ -123,7 +123,7 @@ Items:
   purple_wool:
     itemMaterial: PURPLE_WOOL
     damage: 10
-    display: Purple wool block [35:10]
+    display: Purple wool block
     category: Misc
     type: VANILLA
     collection:
@@ -134,7 +134,7 @@ Items:
   light_blue_wool:
     itemMaterial: LIGHT_BLUE_WOOL
     damage: 3
-    display: Light wool block [35:3]
+    display: Light wool block
     category: Misc
     type: VANILLA
     collection:
@@ -155,7 +155,7 @@ Items:
   cyan_wool:
     itemMaterial: CYAN_WOOL
     damage: 9
-    display: Cyan wool block [35:9]
+    display: Cyan wool block
     category: Misc
     type: VANILLA
     collection:
@@ -163,7 +163,7 @@ Items:
   blue_wool:
     itemMaterial: BLUE_WOOL
     damage: 11
-    display: Blue wool block [35:11]
+    display: Blue wool block
     category: Misc
     type: VANILLA
     collection:
@@ -174,7 +174,7 @@ Items:
   lime_wool:
     itemMaterial: LIME_WOOL
     damage: 5
-    display: Lime wool block [35:5]
+    display: Lime wool block
     category: Misc
     type: VANILLA
     collection:
@@ -195,7 +195,7 @@ Items:
   green_wool:
     itemMaterial: GREEN_WOOL
     damage: 13
-    display: Green wool block [35:13]
+    display: Green wool block
     category: Misc
     type: VANILLA
     collection:
@@ -203,7 +203,7 @@ Items:
   brown_wool:
     itemMaterial: BROWN_WOOL
     damage: 12
-    display: Brown wool block [35:12]
+    display: Brown wool block
     category: Misc
     type: VANILLA
     collection:
@@ -294,25 +294,44 @@ Items:
   glowstone:
     itemMaterial: GLOWSTONE
     damage: 0
-    display: Glowing stone [89:0]
+    display: Glowing stone
     category: Misc
     type: VANILLA
+  fancy_block:
+    itemMaterial: HONEYCOMB_BLOCK
+    damage: 0
+    display: Star Block
+    category: Misc
+    type: VANILLA
+  elven_block:
+    itemMaterial: LAPIS_BLOCK
+    damage: 0
+    display: Elven Deco Block
+    category: Misc
+    type: VANILLA
+  elven_block_thin:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 460
+    display: Elven Deco Block thin
+    category: Misc
+    type: BLOCK
+    blockData: minecraft:repeater[delay=1,facing=east,locked=true,powered=true]
   dragon_egg:
     itemMaterial: DRAGON_EGG
     damage: 0
-    display: Palantir [122:0]
+    display: Palantir
     category: Misc
     type: VANILLA
   tnt:
     itemMaterial: TNT
     damage: 0
-    display: Fireworks [46:0]
+    display: Fireworks
     category: Misc
     type: VANILLA
   portal:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 145
-    display: Eye of Sauron [90:0]
+    display: Eye of Sauron
     category: Misc
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:nether_portal[axis=x]
@@ -322,7 +341,7 @@ Items:
   fire:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 286
-    display: Fire [51:0]
+    display: Fire
     category: Misc
     type: BLOCK
     blockData: minecraft:fire[age=0,east=false,north=false,south=false,up=false,west=false]
@@ -344,227 +363,288 @@ Items:
   banner_white:
     itemMaterial: WHITE_BANNER
     damage: 15
-    display: White Banner [176:0]
+    display: White Banner
     type: VANILLA
     collection:
       indirect: white_wool
   banner_yellow:
     itemMaterial: YELLOW_BANNER
     damage: 11
-    display: Yellow Banner [176:0]
+    display: Yellow Banner
     type: VANILLA
     collection:
       indirect: yellow_wool
   banner_orange:
     itemMaterial: ORANGE_BANNER
     damage: 14
-    display: Orange Banner [176:0]
+    display: Orange Banner
     type: VANILLA
     collection:
       indirect: yellow_wool
   banner_pink:
     itemMaterial: PINK_BANNER
     damage: 9
-    display: Pink Banner [176:0]
+    display: Pink Banner
     type: VANILLA
     collection:
       indirect: pink_wool
   banner_red:
     itemMaterial: RED_BANNER
     damage: 1
-    display: Red Banner [176:0]
+    display: Red Banner
     type: VANILLA
     collection:
       indirect: yellow_wool
   banner_magenta:
     itemMaterial: MAGENTA_BANNER
     damage: 13
-    display: Magenta Banner [176:0]
+    display: Magenta Banner
     type: VANILLA
     collection:
       indirect: pink_wool
   banner_purple:
     itemMaterial: PURPLE_BANNER
     damage: 5
-    display: Purple Banner [176:0]
+    display: Purple Banner
     type: VANILLA
     collection:
       indirect: pink_wool
   banner_blue:
     itemMaterial: BLUE_BANNER
     damage: 4
-    display: Blue Banner [176:0]
+    display: Blue Banner
     type: VANILLA
     collection:
       indirect: light_blue_wool
   banner_light_blue:
     itemMaterial: LIGHT_BLUE_BANNER
     damage: 12
-    display: Light Blue Banner [176:0]
+    display: Light Blue Banner
     type: VANILLA
     collection:
       indirect: light_blue_wool
   banner_cyan:
     itemMaterial: CYAN_BANNER
     damage: 6
-    display: Cyan Banner [176:0]
+    display: Cyan Banner
     type: VANILLA
     collection:
       indirect: light_blue_wool
   banner_green:
     itemMaterial: GREEN_BANNER
     damage: 2
-    display: Green Banner [176:0]
+    display: Green Banner
     type: VANILLA
     collection:
       indirect: lime_wool
   banner_lime:
     itemMaterial: LIME_BANNER
     damage: 10
-    display: Lime Banner [176:0]
+    display: Lime Banner
     type: VANILLA
     collection:
       indirect: lime_wool
   banner_brown:
     itemMaterial: BROWN_BANNER
     damage: 3
-    display: Brown Banner [176:0]
+    display: Brown Banner
     type: VANILLA
     collection:
       indirect: lime_wool
   banner_silver:
     itemMaterial: LIGHT_GRAY_BANNER
     damage: 7
-    display: Silver Banner [176:0]
+    display: Silver Banner
     type: VANILLA
     collection:
       indirect: white_wool
   banner_gray:
     itemMaterial: GRAY_BANNER
     damage: 8
-    display: Gray Banner [176:0]
+    display: Gray Banner
     type: VANILLA
     collection:
       indirect: white_wool
   banner_black:
     itemMaterial: BLACK_BANNER
     damage: 0
-    display: Black Banner [176:0]
+    display: Black Banner
     type: VANILLA
     collection:
       indirect: white_wool
   carpet_white:
     itemMaterial: WHITE_CARPET
     damage: 0
-    display: White Carpet [176:0]
+    display: White Carpet
     type: VANILLA
     collection:
       indirect: white_wool
   carpet_yellow:
     itemMaterial: YELLOW_CARPET
     damage: 4
-    display: Yellow Carpet [176:0]
+    display: Yellow Carpet
     type: VANILLA
     collection:
       indirect: yellow_wool
   carpet_orange:
     itemMaterial: ORANGE_CARPET
     damage: 1
-    display: Orange Carpet [176:0]
+    display: Orange Carpet
     type: VANILLA
     collection:
       indirect: yellow_wool
   carpet_pink:
     itemMaterial: PINK_CARPET
     damage: 6
-    display: Pink Carpet [176:0]
+    display: Pink Carpet
     type: VANILLA
     collection:
       indirect: pink_wool
   carpet_red:
     itemMaterial: RED_CARPET
     damage: 14
-    display: Red Carpet [176:0]
+    display: Red Carpet
     type: VANILLA
     collection:
       indirect: yellow_wool
   carpet_magenta:
     itemMaterial: MAGENTA_CARPET
     damage: 2
-    display: Magenta Carpet [176:0]
+    display: Magenta Carpet
     type: VANILLA
     collection:
       indirect: pink_wool
   carpet_purple:
     itemMaterial: PURPLE_CARPET
     damage: 10
-    display: Purple Carpet [176:0]
+    display: Purple Carpet
     type: VANILLA
     collection:
       indirect: pink_wool
   carpet_blue:
     itemMaterial: BLUE_CARPET
     damage: 11
-    display: Blue Carpet [176:0]
+    display: Blue Carpet
     type: VANILLA
     collection:
       indirect: light_blue_wool
   carpet_light_blue:
     itemMaterial: LIGHT_BLUE_CARPET
     damage: 3
-    display: Light Blue Carpet [176:0]
+    display: Light Blue Carpet
     type: VANILLA
     collection:
       indirect: light_blue_wool
   carpet_cyan:
     itemMaterial: CYAN_CARPET
     damage: 9
-    display: Cyan Carpet [176:0]
+    display: Cyan Carpet
     type: VANILLA
     collection:
       indirect: light_blue_wool
   carpet_green:
     itemMaterial: GREEN_CARPET
     damage: 13
-    display: Green Carpet [176:0]
+    display: Green Carpet
     type: VANILLA
     collection:
       indirect: lime_wool
   carpet_lime:
     itemMaterial: LIME_CARPET
     damage: 5
-    display: Lime Carpet [176:0]
+    display: Lime Carpet
     type: VANILLA
     collection:
       indirect: lime_wool
   carpet_brown:
     itemMaterial: BROWN_CARPET
     damage: 12
-    display: Brown Carpet [176:0]
+    display: Brown Carpet
     type: VANILLA
     collection:
       indirect: lime_wool
   carpet_silver:
     itemMaterial: LIGHT_GRAY_CARPET
     damage: 8
-    display: Silver Carpet [176:0]
+    display: Silver Carpet
     type: VANILLA
     collection:
       indirect: white_wool
   carpet_gray:
     itemMaterial: GRAY_CARPET
     damage: 7
-    display: Gray Carpet [176:0]
+    display: Gray Carpet
     type: VANILLA
     collection:
       indirect: white_wool
   carpet_black:
     itemMaterial: BLACK_CARPET
     damage: 15
-    display: Black Carpet [176:0]
+    display: Black Carpet
     type: VANILLA
     collection:
       indirect: white_wool
+  flint:
+    itemMaterial: FLINT
+    damage: 0
+    display: Get Block Tool
+    category: Misc
+    collection:
+      A1: flint
+      F1: prismarine_crystal
+      G2: ghast_tear
+      I2: torch_hand
+      J1: axe
+      E1: blaze_rod
+      D2: gunpowder
+      B2: arrow
+  prismarine_crystal:
+    itemMaterial: PRISMARINE_CRYSTALS
+    damage: 0
+    display: Fix Lighting Tool
+    category: Misc
+    collection:
+      indirect: flint
+  axe:
+    itemMaterial: WOODEN_AXE
+    damage: 0
+    display: World Edit Wand
+    category: Misc
+    collection:
+      indirect: flint
+  arrow:
+    itemMaterial: ARROW
+    damage: 0
+    display: Voxel Place
+    category: Misc
+    collection:
+      indirect: flint
+  gunpowder:
+    itemMaterial: GUNPOWDER
+    damage: 0
+    display: Voxel Remove
+    category: Misc
+    collection:
+      indirect: flint
+  torch_hand:
+    itemMaterial: TORCH
+    damage: 0
+    display: Torch
+    category: Misc
+    collection:
+      indirect: flint
+  ghast_tear:
+    itemMaterial: GHAST_TEAR
+    damage: 0
+    display: Sitting Tool (Requires perk)
+    collection:
+      indirect: flint
+  blaze_rod:
+    itemMaterial: BLAZE_ROD
+    damage: 0
+    display: Animation Tool
+    collection:
+      indirect: flint
 
   
 
