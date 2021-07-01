@@ -389,10 +389,10 @@ Items:
     damage: 454
     display: Diagonal Beam 22.5 degrees
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=left,open=true,powered=true]
-    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=left,open=true,powered=true]
-    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=left,open=true,powered=true]
-    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=left,open=true,powered=true]
+    blockDataNorth: minecraft:warped_door[facing=south,half=lower,hinge=left,open=true,powered=true]
+    blockDataSouth: minecraft:warped_door[facing=north,half=lower,hinge=left,open=true,powered=true]
+    blockDataEast: minecraft:warped_door[facing=west,half=lower,hinge=left,open=true,powered=true]
+    blockDataWest: minecraft:warped_door[facing=east,half=lower,hinge=left,open=true,powered=true]
     collection:
       indirect: chorus_plant
   birch_planks:
@@ -1319,17 +1319,6 @@ Items:
     blockDataUp: minecraft:dark_oak_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
     collection:
       indirect: stonebrick_normal
-  acacia_fence_gate_closed_sw:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 282
-    display: Large Grey Brick Wall Straight 
-    type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:stone_brick_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=none]
-    blockDataWest: minecraft:stone_brick_wall[east=false,north=true,south=true,up=false,waterlogged=false,west=false]
-    blockDataNorth: minecraft:stone_brick_wall[east=true,north=false,south=false,up=false,waterlogged=false,west=true]
-    blockDataEast: minecraft:stone_brick_wall[east=false,north=true,south=true,up=false,waterlogged=false,west=false]
-    collection:
-      indirect: stonebrick_normal
   stone_brick_stairs:
     itemMaterial: STONE_BRICK_STAIRS
     damage: 0
@@ -2055,7 +2044,7 @@ Items:
     display: Floor Pattern
     category: Block2
     type: BLOCK
-    blockData: minecraft:infested_weathered_stone_bricks
+    blockData: minecraft:infested_cracked_stone_bricks
     collection:
       indirect: monster_egg_stonebrick
   monster_egg_stonebrick_chiseled:
@@ -2348,7 +2337,7 @@ Items:
   large_detailed_cobblestone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 451
-    display: Rought Large Cobblestone
+    display: Rough Large Cobblestone
     category: Block2
     blockData: minecraft:target[power=1]
     type: BLOCK

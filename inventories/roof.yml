@@ -305,7 +305,8 @@ Items:
     itemMaterial: PRISMARINE_BRICK_SLAB
     damage: 0
     display: Dark Thatch Slab
-    type: VANILLA
+    type: BLOCK
+    blockData: minecraft:prismarine_brick_slab[type=bottom]
     collection:
       indirect: purpur_block
   crimson_fence_gate_powered_open:
