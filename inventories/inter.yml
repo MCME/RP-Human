@@ -830,6 +830,8 @@ Items:
     blockDataWest: minecraft:warped_button[face=wall,facing=east,powered=true]
     blockDataNorth: minecraft:warped_button[face=wall,facing=south,powered=true]
     blockDataEast: minecraft:warped_button[face=wall,facing=west,powered=true]
+    collection:
+      indirect: banner_gondor
   banner_elf:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 464
@@ -840,6 +842,8 @@ Items:
     blockDataWest: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
     blockDataNorth: minecraft:polished_blackstone_button[face=wall,facing=south,powered=false]
     blockDataEast: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    collection:
+      indirect: banner_gondor
   banner_Sea:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 465
@@ -850,6 +854,8 @@ Items:
     blockDataWest: minecraft:polished_blackstone_button[face=wall,facing=east,powered=true]
     blockDataNorth: minecraft:polished_blackstone_button[face=wall,facing=south,powered=true]
     blockDataEast: minecraft:polished_blackstone_button[face=wall,facing=west,powered=true]
+    collection:
+      indirect: banner_gondor
   tools:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 466
