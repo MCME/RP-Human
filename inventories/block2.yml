@@ -180,9 +180,12 @@ Items:
       B2: stacked_logs_wall_corner
       A1: stacked_logs_wall
       A0: chorus_plant
-      F1: diagonal_beam22_5_up
-      G2: diagonal_beam45
-      H2: diagonal_beam22_5
+      F1: diagonal_beam22_5_up_left
+      G2: diagonal_beam45_left
+      H2: diagonal_beam22_5_left
+      F2: diagonal_beam22_5_up_right
+      G3: diagonal_beam45_right
+      H3: diagonal_beam22_5_right
       I2: support
       J1: upper_support
       F4: oak_planks
@@ -361,38 +364,72 @@ Items:
     blockDataWest: minecraft:twisting_vines[age=13]
     collection:
       indirect: chorus_plant
-  diagonal_beam45:
+  diagonal_beam45_left:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 452
-    display: Diagonal Beam 45 degrees
+    display: Diagonal Beam 45 degrees Left
     category: Block2
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=left,open=false,powered=true]
-    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=left,open=false,powered=true]
-    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=left,open=false,powered=true]
-    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=left,open=false,powered=true]
+    blockDataNorth: minecraft:weeping_vines[age=3]
+    blockDataSouth: minecraft:weeping_vines[age=1]
+    blockDataEast: minecraft:weeping_vines[age=0]
+    blockDataWest: minecraft:weeping_vines[age=2]
     collection:
       indirect: chorus_plant
-  diagonal_beam22_5_up:
+  diagonal_beam22_5_up_left:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 453
-    display: Diagonal Beam 22.5 degrees UP
+    display: Diagonal Beam 22.5 degrees UP Left
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=right,open=false,powered=true]
-    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=right,open=false,powered=true]
-    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=right,open=false,powered=true]
-    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=right,open=false,powered=true]
+    blockDataNorth: minecraft:weeping_vines[age=11]
+    blockDataSouth: minecraft:weeping_vines[age=9]
+    blockDataEast: minecraft:weeping_vines[age=8]
+    blockDataWest: minecraft:weeping_vines[age=10]
     collection:
       indirect: chorus_plant
-  diagonal_beam22_5:
+  diagonal_beam22_5_left:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 454
-    display: Diagonal Beam 22.5 degrees
+    display: Diagonal Beam 22.5 degrees Left
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=left,open=true,powered=true]
-    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=left,open=true,powered=true]
-    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=left,open=true,powered=true]
-    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=left,open=true,powered=true]
+    blockDataNorth: minecraft:weeping_vines[age=7]
+    blockDataSouth: minecraft:weeping_vines[age=5]
+    blockDataEast: minecraft:weeping_vines[age=4]
+    blockDataWest: minecraft:weeping_vines[age=6]
+    collection:
+      indirect: chorus_plant
+  diagonal_beam45_right:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 468
+    display: Diagonal Beam 45 degrees Right
+    category: Block2
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:weeping_vines[age=15]
+    blockDataSouth: minecraft:weeping_vines[age=13]
+    blockDataEast: minecraft:weeping_vines[age=12]
+    blockDataWest: minecraft:weeping_vines[age=14]
+    collection:
+      indirect: chorus_plant
+  diagonal_beam22_5_up_right:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 470
+    display: Diagonal Beam 22.5 degrees UP Right
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:weeping_vines[age=23]
+    blockDataSouth: minecraft:weeping_vines[age=21]
+    blockDataEast: minecraft:weeping_vines[age=20]
+    blockDataWest: minecraft:weeping_vines[age=22]
+    collection:
+      indirect: chorus_plant
+  diagonal_beam22_5_right:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 469
+    display: Diagonal Beam 22.5 degrees Right
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:weeping_vines[age=19]
+    blockDataSouth: minecraft:weeping_vines[age=17]
+    blockDataEast: minecraft:weeping_vines[age=16]
+    blockDataWest: minecraft:weeping_vines[age=18]
     collection:
       indirect: chorus_plant
   birch_planks:
@@ -1319,17 +1356,6 @@ Items:
     blockDataUp: minecraft:dark_oak_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
     collection:
       indirect: stonebrick_normal
-  acacia_fence_gate_closed_sw:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 282
-    display: Large Grey Brick Wall Straight 
-    type: FOUR_DIRECTIONS
-    blockDataSouth: minecraft:stone_brick_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=none]
-    blockDataWest: minecraft:stone_brick_wall[east=false,north=true,south=true,up=false,waterlogged=false,west=false]
-    blockDataNorth: minecraft:stone_brick_wall[east=true,north=false,south=false,up=false,waterlogged=false,west=true]
-    blockDataEast: minecraft:stone_brick_wall[east=false,north=true,south=true,up=false,waterlogged=false,west=false]
-    collection:
-      indirect: stonebrick_normal
   stone_brick_stairs:
     itemMaterial: STONE_BRICK_STAIRS
     damage: 0
@@ -2055,7 +2081,7 @@ Items:
     display: Floor Pattern
     category: Block2
     type: BLOCK
-    blockData: minecraft:infested_weathered_stone_bricks
+    blockData: minecraft:infested_cracked_stone_bricks
     collection:
       indirect: monster_egg_stonebrick
   monster_egg_stonebrick_chiseled:
@@ -2348,7 +2374,7 @@ Items:
   large_detailed_cobblestone:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 451
-    display: Rought Large Cobblestone
+    display: Rough Large Cobblestone
     category: Block2
     blockData: minecraft:target[power=1]
     type: BLOCK
