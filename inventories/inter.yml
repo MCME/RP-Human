@@ -805,6 +805,77 @@ Items:
     blockDataUp: minecraft:redstone_torch[lit=false]
     collection:
       indirect: torch
+  banner_gondor:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 462
+    display: Banner Gondor
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:warped_button[face=wall,facing=north,powered=false]
+    blockDataWest: minecraft:warped_button[face=wall,facing=east,powered=false]
+    blockDataNorth: minecraft:warped_button[face=wall,facing=south,powered=false]
+    blockDataEast: minecraft:warped_button[face=wall,facing=west,powered=false]
+    collection:
+      A0: banner_gondor
+      C2: banner_elf
+      E0: banner_Inn
+      H2: banner_Sea
+  banner_Inn:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 463
+    display: Banner Inn
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:warped_button[face=wall,facing=north,powered=true]
+    blockDataWest: minecraft:warped_button[face=wall,facing=east,powered=true]
+    blockDataNorth: minecraft:warped_button[face=wall,facing=south,powered=true]
+    blockDataEast: minecraft:warped_button[face=wall,facing=west,powered=true]
+    collection:
+      indirect: banner_gondor
+  banner_elf:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 464
+    display: Banner Elf
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:polished_blackstone_button[face=wall,facing=north,powered=false]
+    blockDataWest: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    blockDataNorth: minecraft:polished_blackstone_button[face=wall,facing=south,powered=false]
+    blockDataEast: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    collection:
+      indirect: banner_gondor
+  banner_Sea:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 465
+    display: Banner Sea
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:polished_blackstone_button[face=wall,facing=north,powered=true]
+    blockDataWest: minecraft:polished_blackstone_button[face=wall,facing=east,powered=true]
+    blockDataNorth: minecraft:polished_blackstone_button[face=wall,facing=south,powered=true]
+    blockDataEast: minecraft:polished_blackstone_button[face=wall,facing=west,powered=true]
+    collection:
+      indirect: banner_gondor
+  tools:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 466
+    display: Tools
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:crimson_button[face=wall,facing=north,powered=true]
+    blockDataWest: minecraft:crimson_button[face=wall,facing=east,powered=true]
+    blockDataNorth: minecraft:crimson_button[face=wall,facing=south,powered=true]
+    blockDataEast: minecraft:crimson_button[face=wall,facing=west,powered=true]
+  sword:
+    itemMaterial: DIAMOND_LEGGINGS
+    damage: 467
+    display: Sword on wall
+    category: Inter
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:crimson_button[face=wall,facing=north,powered=false]
+    blockDataWest: minecraft:crimson_button[face=wall,facing=east,powered=false]
+    blockDataNorth: minecraft:crimson_button[face=wall,facing=south,powered=false]
+    blockDataEast: minecraft:crimson_button[face=wall,facing=west,powered=false]
     
 
   
