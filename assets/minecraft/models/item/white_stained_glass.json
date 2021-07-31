@@ -1,0 +1,89 @@
+{
+  "parent": "minecraft:block/white_stained_glass",
+  "overrides": [
+	{
+	  "predicate": {
+	    "custom_model_data": 1
+	  },
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_n1"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 2
+	  },
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_n2"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 3
+	  },
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_n3"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 4
+	  },
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_n4"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 5
+	  },
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_n5"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 6
+	  },
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_n6"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 7
+	  },
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_n7"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 11
+	},
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_w1"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 12
+	  },
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_w2"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 13
+	  },
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_w3"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 14
+	  },
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_w4"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 15
+	  },
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_w5"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 16
+	  },
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_w6"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 17
+	  },
+	  "model": "minecraft:entity/speech_balloon/speech_balloon_w7"
+	}
+  ]
+}
