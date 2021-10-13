@@ -590,7 +590,50 @@
         "model": "block/stucco_blue_inside",
         "y": 90
       }
-    ]}
+    ]},
+    { "when": {"north": true, "west": true, "south":true, "east": true, "up": true, "down": true },
+		"apply": [
+		{ "model": "block/brown_mushroom_block_neswud"}, 
+		{ "model": "block/brown_mushroom_block_neswud_2"}, 
+		{ "model": "block/brown_mushroom_block_neswud_3"}
+		]},
+    { "when": {"north": true, "west": true, "south":true, "east": true, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/brown_mushroom_block_neswu"}, 
+		{ "model": "block/brown_mushroom_block_neswu_2"}, 
+		{ "model": "block/brown_mushroom_block_neswu_3"}
+		]},
+    { "when": {"north": true, "west": true, "south":true, "east": true, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/brown_mushroom_block_neswd"}, 
+		{ "model": "block/brown_mushroom_block_neswd_2"}, 
+		{ "model": "block/brown_mushroom_block_neswd_3"},
+    { "model": "block/brown_mushroom_block_neswd_4"},
+    { "model": "block/brown_mushroom_block_neswd_5"}
+		]},
+    { "when": {"north": true, "west": true, "south":true, "east": true, "up": false, "down": false },
+		"apply": [
+		{ "model": "block/brown_mushroom_block_nesw"}, 
+		{ "model": "block/brown_mushroom_block_nesw_2"}
+		]},
+    { "when": {"north": true, "west": false, "south":true, "east": true, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/brown_mushroom_block_nesud"}, 
+		{ "model": "block/brown_mushroom_block_nesud_2"}, 
+		{ "model": "block/brown_mushroom_block_nesud_3"},
+    { "model": "block/brown_mushroom_block_nesud_4"},
+    { "model": "block/brown_mushroom_block_nesud_5"},
+    { "model": "block/brown_mushroom_block_nesud_6"}
+		]},
+    { "when": {"north": false, "west": false, "south":true, "east": true, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/brown_mushroom_block_esu"}, 
+		{ "model": "block/brown_mushroom_block_esu_2"}, 
+		{ "model": "block/brown_mushroom_block_esu_3"},
+    { "model": "block/brown_mushroom_block_esu_4"},
+    { "model": "block/brown_mushroom_block_esu_5"},
+    { "model": "block/brown_mushroom_block_esu_6"}
+		]}
 	
   ]
 }
