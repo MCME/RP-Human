@@ -707,8 +707,50 @@
     { "model": "block/brown_mushroom_block_nswud_4"}, 
     { "model": "block/brown_mushroom_block_nswud_5"}, 
     { "model": "block/brown_mushroom_block_nswud_6"} 
+		]},
+    { "when": {"north": true, "west": true, "south":true, "east": false, "up":false, "down": false },
+		"apply": [
+		{ "model": "block/brown_mushroom_block_nsw"}, 
+    { "model": "block/brown_mushroom_block_nsw_2"}, 
+    { "model": "block/brown_mushroom_block_nsw_3"}
+		]},
+    { "when": {"north": true, "west": false, "south":true, "east": false, "up":true, "down": true },
+		"apply": [
+		{ "model": "block/brown_mushroom_block_nsud"}, 
+    { "model": "block/brown_mushroom_block_nsud_2"}, 
+    { "model": "block/brown_mushroom_block_nsud_3"}
+		]},
+    { "when": {"north": true, "west": false, "south":true, "east": false, "up":true, "down": false },
+		"apply": [
+		{ "model": "block/brown_mushroom_block_nsu"}, 
+    { "model": "block/brown_mushroom_block_nsu_2"}, 
+    { "model": "block/brown_mushroom_block_nsu_3"},
+    { "model": "block/brown_mushroom_block_nsu_4"},
+    { "model": "block/brown_mushroom_block_nsu_5"}
+		]},
+    { "when": {"north": true, "west": false, "south":true, "east": false, "up":false, "down": true },
+		"apply": [
+		{ "model": "block/brown_mushroom_block_nsd"}, 
+    { "model": "block/brown_mushroom_block_nsd_2"}
+		]},
+    { "when": {"north": true, "west": false, "south":true, "east": false, "up":false, "down": false },
+		"apply": [
+		{ "model": "block/brown_mushroom_block_ns"}, 
+    { "model": "block/brown_mushroom_block_ns_2"}
+		]},
+    { "when": {"north": true, "west": true, "south":false, "east": false, "up":true, "down": true },
+		"apply": [
+		{ "model": "block/brown_mushroom_block_nwud"}
+		]},
+    { "when": {"north": true, "west": true, "south":false, "east": false, "up":true, "down": false },
+		"apply": [
+		{ "model": "block/brown_mushroom_block_nwu"},
+    { "model": "block/brown_mushroom_block_nwu_2"},
+    { "model": "block/brown_mushroom_block_nwu_3"},
+    { "model": "block/brown_mushroom_block_nwu_4"},
+    { "model": "block/brown_mushroom_block_nwu_5"},
+    { "model": "block/brown_mushroom_block_nwu_6"}
 		]}
-	
 	
 	
 	
