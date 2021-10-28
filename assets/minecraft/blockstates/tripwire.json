@@ -117,6 +117,12 @@
     },
     "attached=true,east=true,north=true,south=true,west=true": {
       "model": "minecraft:block/tripwire_attached_nsew"
+    },
+    "attached=false,disarmed=false,powered=true,east=false,north=true,south=false,west=false": {
+      "model": "minecraft:block/tripwire_palantir"
+    },
+    "attached=false,disarmed=false,powered=true,east=false,north=true,south=false,west=true": {
+      "model": "minecraft:block/tripwire_palantir_off"
     }
   }
 }
