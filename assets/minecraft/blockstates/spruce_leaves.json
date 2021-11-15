@@ -1,12 +1,12 @@
 {
     "variants": {
-        "distance=1,persistent=false": { "model": "block/piston_sticky", "x": 90 },
-        "distance=2,persistent=false": { "model": "block/piston_sticky", "x": 270 },
-		"distance=3,persistent=false": { "model": "block/piston_sticky", "y": 270 },
+        "distance=1,persistent=false": { "model": "block/horizontal_spike_small_nw"},
+        "distance=2,persistent=false": { "model": "block/horizontal_spike_small_se" },
+		"distance=3,persistent=false": { "model": "block/horizontal_spike_small_sw" },
 		"distance=4,persistent=false": { "model": "block/piston_sticky", "y": 90 },
 		"distance=5,persistent=false": { "model": "block/piston_sticky" },
 		"distance=6,persistent=false": { "model": "block/piston_sticky", "y": 180 },
-		"distance=7,persistent=false": { "model": "block/spruce_leaves" },
+		"distance=7,persistent=false": { "model": "block/horizontal_spike_small_ne" },
 		"distance=1,persistent=true": { "model": "block/spruce_leaves" },
 		"distance=2,persistent=true": { "model": "block/piston_head_sticky", "x": 90 },
 		"distance=3,persistent=true": { "model": "block/piston_head_sticky", "x": 270 },
