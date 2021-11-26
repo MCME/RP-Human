@@ -1,0 +1,24 @@
+{
+ "parent": "item/handheld",
+ "textures": {
+  "layer0": "item/netherite_sword"
+ },
+
+ "overrides": [
+  { "predicate": {"custom_model_data": 1000}, "model": "item/custom/anduril"},
+  { "predicate": {"custom_model_data": 1001}, "model": "item/custom/beorn_axe"},
+  { "predicate": {"custom_model_data": 1002}, "model": "item/custom/boromir_sword"},
+  { "predicate": {"custom_model_data": 1003}, "model": "item/custom/ghost_sword"},
+  { "predicate": {"custom_model_data": 1004}, "model": "item/custom/glamdring"},
+  { "predicate": {"custom_model_data": 1005}, "model": "item/custom/gondor_sword"},
+  { "predicate": {"custom_model_data": 1006}, "model": "item/custom/herugrim"},
+  { "predicate": {"custom_model_data": 1007}, "model": "item/custom/high_elven_sword"},
+  { "predicate": {"custom_model_data": 1008}, "model": "item/custom/orc_axe"},
+  { "predicate": {"custom_model_data": 1009}, "model": "item/custom/orc_sword"},
+  { "predicate": {"custom_model_data": 1010}, "model": "item/custom/invisi_sword"}
+
+
+ ]
+
+ 
+}

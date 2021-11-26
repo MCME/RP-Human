@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [96, 96],
+	"textures": {
+		"0": "entity/animated/warg/warg_bright_4"
+	},
+	"elements": [
+		{
+			"from": [7.14286, 7.56929, 8],
+			"to": [11.75565, 9.21912, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [6.37505, 6.75, 5.54375, 7.08747], "texture": "#0"},
+				"east": {"uv": [0.004, 0.004, 0.004, 0.3125], "texture": "#0"},
+				"south": {"uv": [5.504, 6.754, 6.371, 7.0625], "texture": "#0"},
+				"west": {"uv": [0.004, 0.004, 0.004, 0.3125], "texture": "#0"},
+				"up": {"uv": [0.871, 0.004, 0.004, 0.004], "texture": "#0"},
+				"down": {"uv": [0.871, 0.004, 0.004, 0.004], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, -6.4, 0],
+			"scale": [3.2, 3.2, 3.2]
+		}
+	}
+}
