@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "display": {
+      "head": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 20, 5 ],
+      "scale": [ 4, 2, 0.2 ]
+    }
+  },
+  "textures": {
+    "layer0": "minecraft:entity/speech_balloon/speech_balloon_0"
+  }    
+}

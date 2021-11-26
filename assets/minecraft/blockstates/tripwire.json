@@ -1,0 +1,128 @@
+{
+  "variants": {
+    "attached=false,east=false,north=false,south=false,west=false,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal_down" },
+	{ "model": "minecraft:block/beam_horizontal_down_2" },
+	{ "model": "minecraft:block/beam_horizontal_down_3" }
+	],
+    "attached=false,east=false,north=false,south=false,west=true,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal_down", "y": 90},
+	{ "model": "minecraft:block/beam_horizontal_down_2", "y": 90},
+	{ "model": "minecraft:block/beam_horizontal_down_3", "y": 90}
+	],
+    "attached=false,east=false,north=false,south=true,west=false,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal_down", "y": 180},
+	{ "model": "minecraft:block/beam_horizontal_down_2", "y": 180},
+	{ "model": "minecraft:block/beam_horizontal_down_3", "y": 180}
+	],
+    "attached=false,east=false,north=false,south=true,west=true,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal_down", "y": 270},
+	{ "model": "minecraft:block/beam_horizontal_down_2", "y": 270},
+	{ "model": "minecraft:block/beam_horizontal_down_3", "y": 270}
+	],
+    "attached=false,east=true,north=false,south=false,west=false,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal" },
+	{ "model": "minecraft:block/beam_horizontal_2" },
+	{ "model": "minecraft:block/beam_horizontal_3" }
+	],
+    "attached=false,east=true,north=false,south=false,west=true,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal", "y": 90},
+	{ "model": "minecraft:block/beam_horizontal_2", "y": 90},
+	{ "model": "minecraft:block/beam_horizontal_3", "y": 90}
+	],
+	"attached=false,east=true,north=false,south=true,west=false,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal", "y": 180},
+	{ "model": "minecraft:block/beam_horizontal_2", "y": 180},
+	{ "model": "minecraft:block/beam_horizontal_3", "y": 180}
+	],
+	"attached=false,east=true,north=false,south=true,west=true,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal", "y": 270},
+	{ "model": "minecraft:block/beam_horizontal_2", "y": 270},
+	{ "model": "minecraft:block/beam_horizontal_3", "y": 270}
+	],
+    "attached=false,east=false,north=true,south=true,west=false": {
+      "model": "minecraft:block/tripwire_ns"
+    },
+    "attached=false,east=false,north=true,south=true,west=true": {
+      "model": "minecraft:block/tripwire_nse",
+      "y": 180
+    },
+    "attached=false,east=true,north=true,south=false,west=false": {
+      "model": "minecraft:block/tripwire_ne"
+    },
+    "attached=false,east=true,north=true,south=false,west=true": {
+      "model": "minecraft:block/tripwire_nse",
+      "y": 270
+    },
+    "attached=false,east=true,north=true,south=true,west=false": {
+      "model": "minecraft:block/tripwire_nse"
+    },
+    "attached=false,east=true,north=true,south=true,west=true": {
+      "model": "minecraft:block/tripwire_nsew"
+    },
+    "attached=true,east=false,north=false,south=false,west=false": {
+      "model": "minecraft:block/tripwire_attached_ns"
+    },
+    "attached=true,east=false,north=false,south=false,west=true": {
+      "model": "minecraft:block/tripwire_attached_n",
+      "y": 270
+    },
+    "attached=true,east=false,north=false,south=true,west=false": {
+      "model": "minecraft:block/tripwire_attached_n",
+      "y": 180
+    },
+    "attached=true,east=false,north=false,south=true,west=true": {
+      "model": "minecraft:block/tripwire_attached_ne",
+      "y": 180
+    },
+    "attached=true,east=false,north=true,south=false,west=false": {
+      "model": "minecraft:block/tripwire_attached_n"
+    },
+    "attached=true,east=false,north=true,south=false,west=true": {
+      "model": "minecraft:block/tripwire_attached_ne",
+      "y": 270
+    },
+    "attached=true,east=false,north=true,south=true,west=false": {
+      "model": "minecraft:block/tripwire_attached_ns"
+    },
+    "attached=true,east=false,north=true,south=true,west=true": {
+      "model": "minecraft:block/tripwire_attached_nse",
+      "y": 180
+    },
+    "attached=true,east=true,north=false,south=false,west=false": {
+      "model": "minecraft:block/tripwire_attached_n",
+      "y": 90
+    },
+    "attached=true,east=true,north=false,south=false,west=true": {
+      "model": "minecraft:block/tripwire_attached_ns",
+      "y": 90
+    },
+    "attached=true,east=true,north=false,south=true,west=false": {
+      "model": "minecraft:block/tripwire_attached_ne",
+      "y": 90
+    },
+    "attached=true,east=true,north=false,south=true,west=true": {
+      "model": "minecraft:block/tripwire_attached_nse",
+      "y": 90
+    },
+    "attached=true,east=true,north=true,south=false,west=false": {
+      "model": "minecraft:block/tripwire_attached_ne"
+    },
+    "attached=true,east=true,north=true,south=false,west=true": {
+      "model": "minecraft:block/tripwire_attached_nse",
+      "y": 270
+    },
+    "attached=true,east=true,north=true,south=true,west=false": {
+      "model": "minecraft:block/tripwire_attached_nse"
+    },
+    "attached=true,east=true,north=true,south=true,west=true": {
+      "model": "minecraft:block/tripwire_attached_nsew"
+    },
+    "attached=false,disarmed=false,powered=true,east=false,north=true,south=false,west=false": {
+      "model": "minecraft:block/tripwire_palantir"
+    },
+    "attached=false,disarmed=false,powered=true,east=false,north=true,south=false,west=true": {
+      "model": "minecraft:block/tripwire_palantir_off"
+    }
+  }
+}
