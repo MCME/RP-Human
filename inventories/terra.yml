@@ -169,7 +169,7 @@ Items:
   rough_dark_stone_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 209
-    display: Dark Brown Slab
+    display: Dark Brown Stone Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=3,facing=east,locked=false,powered=true]
     blockDataUp: minecraft:granite_slab[type=top,waterlogged=false]
@@ -178,7 +178,7 @@ Items:
   powered_repeater_delay4_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 211
-    display: Brown Slab
+    display: Brown Stone Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=4,facing=west,locked=false,powered=true]
     blockDataUp: minecraft:polished_granite_slab[type=top,waterlogged=false]
