@@ -141,7 +141,7 @@ Items:
   granite:
     itemMaterial: GRANITE
     damage: 1
-    display: Rough Dark Stone
+    display: Dark Brown Stone
     category: Terra
     type: VANILLA
     collection:
@@ -169,7 +169,7 @@ Items:
   rough_dark_stone_slab:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 209
-    display: Rough Dark Stone Slab
+    display: Dark Brown Stone Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=3,facing=east,locked=false,powered=true]
     blockDataUp: minecraft:granite_slab[type=top,waterlogged=false]
@@ -178,7 +178,7 @@ Items:
   powered_repeater_delay4_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 211
-    display: Smooth Red Stone Slab
+    display: Brown Stone Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=4,facing=west,locked=false,powered=true]
     blockDataUp: minecraft:polished_granite_slab[type=top,waterlogged=false]
@@ -187,7 +187,7 @@ Items:
   granite_smooth:
     itemMaterial: POLISHED_GRANITE
     damage: 2
-    display: Smooth Red Stone
+    display: Brown Stone
     category: Terra
     type: VANILLA
     collection:
@@ -195,14 +195,14 @@ Items:
   granite_smooth_stairs:
     itemMaterial: POLISHED_GRANITE_STAIRS
     damage: 2
-    display: Smooth Red Stone Stairs
+    display: Brown Stone Stairs
     type: VANILLA
     collection:
       indirect: granite
   quartz_ore:
     itemMaterial: NETHER_QUARTZ_ORE
     damage: 0
-    display: Rough Red Stone
+    display: Rough Brown Stone
     category: Terra
     type: VANILLA
     collection:
@@ -210,7 +210,7 @@ Items:
   comparator_subtract_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 218
-    display: Brown Stone Slab (lower)
+    display: Smooth Brown Stone Slab (lower)
     type: BLOCK
     blockData: minecraft:comparator[facing=south,mode=subtract,powered=false]
     collection:
@@ -221,7 +221,7 @@ Items:
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 16
-    display: ITEMBLOCK Brown Stone Slab (upper)
+    display: ITEMBLOCK Smooth Brown Stone Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
     collection:
@@ -229,7 +229,7 @@ Items:
   powered_repeater_delay4_s:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 210
-    display: Rough Red Stone Slab (lower)
+    display: Rough Brown Stone Slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=4,facing=south,locked=false,powered=true]
     collection:
@@ -240,7 +240,7 @@ Items:
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
     damage: 269
-    display: ITEMBLOCK Rough Red Stone Slab (upper)
+    display: ITEMBLOCK Rough Brown Stone Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
     collection:
@@ -264,7 +264,7 @@ Items:
   mossy_granite_smooth:
     itemMaterial: DEAD_BRAIN_CORAL_BLOCK
     damage: 1
-    display: Mossy Smooth Red Stone 
+    display: Mossy Brown Stone 
     category: Terra
     type: VANILLA
     collection:
@@ -307,7 +307,7 @@ Items:
   comparator_compare_w:
     itemMaterial: DIAMOND_LEGGINGS
     damage: 215
-    display: Rough Dark Stone 2 Slab
+    display: Rough Dark Stone Slab
     type: BISECTED
     blockDataDown: minecraft:comparator[facing=west,mode=compare,powered=false]
     blockDataUp: minecraft:andesite_slab[type=top,waterlogged=false]
@@ -1043,7 +1043,7 @@ Items:
     blockData: minecraft:magenta_concrete_powder
     type: BLOCK
     collection:
-      indirect: granit
+      indirect: granite
   granite_stairs:
     itemMaterial: GRANITE_STAIRS
     damage: 0
@@ -1059,7 +1059,7 @@ Items:
     blockData: minecraft:lime_concrete_powder
     type: BLOCK
     collection:
-      indirect: granit
+      indirect: granite
   pink_concrete_powder:
     itemMaterial: PINK_CONCRETE_POWDER
     display: Light Gravel
@@ -1183,7 +1183,7 @@ Items:
     type: BLOCK
     blockData: minecraft:comparator[facing=north,mode=compare,powered=true]
     collection:
-      indirect: granit
+      indirect: granite
   upper_slab_gravel:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 45
