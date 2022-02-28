@@ -288,7 +288,7 @@ Items:
     display: Empty cauldron
     category: Inter
     type: BLOCK
-    blockData: minecraft:cauldron[level=0]
+    blockData: minecraft:cauldron
     collection:
       A0: cauldron_level3
       H2: cauldron_level2
@@ -302,7 +302,7 @@ Items:
     display: Cauldron 3/3 filled
     category: Inter
     type: BLOCK
-    blockData: minecraft:cauldron[level=3]
+    blockData: minecraft:water_cauldron[level=3]
     collection:
       indirect: cauldron_empty
   # inside collection
@@ -311,7 +311,7 @@ Items:
     damage: 170
     display: Cauldron 1/3 filled
     type: BLOCK
-    blockData: minecraft:cauldron[level=1]
+    blockData: minecraft:water_cauldron[level=1]
     collection:
       indirect: cauldron_empty
   cauldron_level2:
@@ -319,7 +319,7 @@ Items:
     damage: 171
     display: Cauldron 2/3 filled
     type: BLOCK
-    blockData: minecraft:cauldron[level=2]
+    blockData: minecraft:water_cauldron[level=2]
     collection:
       indirect: cauldron_empty
   

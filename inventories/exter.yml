@@ -270,10 +270,10 @@ Items:
     display: Wooden Palisade
     category: Exter
     type: FOUR_DIRECTIONS
-    blockDataNorth: minecraft:warped_door[facing=east,half=lower,hinge=right,open=true,powered=true]
-    blockDataSouth: minecraft:warped_door[facing=west,half=lower,hinge=right,open=true,powered=true]
-    blockDataEast: minecraft:warped_door[facing=south,half=lower,hinge=right,open=true,powered=true]
-    blockDataWest: minecraft:warped_door[facing=north,half=lower,hinge=right,open=true,powered=true]
+    blockDataNorth: minecraft:warped_door[facing=west,half=lower,hinge=right,open=true,powered=true]
+    blockDataSouth: minecraft:warped_door[facing=east,half=lower,hinge=right,open=true,powered=true]
+    blockDataEast: minecraft:warped_door[facing=north,half=lower,hinge=right,open=true,powered=true]
+    blockDataWest: minecraft:warped_door[facing=south,half=lower,hinge=right,open=true,powered=true]
     collection:
       indirect: wooden_railing
   woven_fence:
