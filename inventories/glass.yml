@@ -1,7 +1,7 @@
 Items:
   glass_black:
     itemMaterial: BLACK_STAINED_GLASS
-    damage: 1
+    cmd: 1
     category: Glass
     display: Hobbit Window
     type: VANILLA
@@ -10,14 +10,14 @@ Items:
       A1: glass_black_pane
   glass_black_pane:
     itemMaterial: BLACK_STAINED_GLASS_PANE
-    damage: 1
+    cmd: 1
     display: Hobbit Window Pane
     type: VANILLA
     collection:
       indirect: glass_black
   sandstone_glass_up:
     itemMaterial: GRAY_STAINED_GLASS
-    damage: 0
+    cmd: 0
     display: Sandstone window up
     category: Glass
     type: FOUR_DIRECTIONS
@@ -33,7 +33,7 @@ Items:
       E0: cobblestone_glass_arrow
   sandstone_glass_down:
     itemMaterial: LIME_STAINED_GLASS
-    damage: 0
+    cmd: 0
     display: Sandstone window down
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:lime_stained_glass
@@ -44,7 +44,7 @@ Items:
       indirect: sandstone_glass_up
   cobblestone_glass_up:
     itemMaterial: BLUE_STAINED_GLASS
-    damage: 0
+    cmd: 0
     display: Cobblestone window up
     category: Glass
     type: FOUR_DIRECTIONS
@@ -56,7 +56,7 @@ Items:
       indirect: sandstone_glass_up
   cobblestone_glass_down:
     itemMaterial: CYAN_STAINED_GLASS
-    damage: 0
+    cmd: 0
     display: Cobblestone window down
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:cyan_stained_glass
@@ -67,7 +67,7 @@ Items:
       indirect: sandstone_glass_up
   cobblestone_glass_arrow:
     itemMaterial: MAGENTA_STAINED_GLASS
-    damage: 0
+    cmd: 0
     display: Cobblestone window arrow
     category: Glass
     type: FOUR_DIRECTIONS
@@ -80,10 +80,10 @@ Items:
   shutter:
     # normal glass / shutters collection
     blockMaterial: LEGACY_DARK_OAK_DOOR
-    itemMaterial: DIAMOND_LEGGINGS
+    itemMaterial: CLAY_BALL
     open: true
     rightHinge: true
-    damage: 327
+    cmd: 327
     display: Shutter [197:8]
     category: Glass
     type: THIN_WALL
@@ -102,7 +102,7 @@ Items:
       J4: glass_pane_color_rhomb
   glass_pane_green:
     itemMaterial: GREEN_STAINED_GLASS_PANE
-    damage: 13
+    cmd: 13
     display: Window wood simple
     category: Glass
     type: VANILLA
@@ -110,7 +110,7 @@ Items:
       indirect: shutter
   glass_pane_magenta:
     itemMaterial: MAGENTA_STAINED_GLASS_PANE
-    damage: 2
+    cmd: 2
     display: Window colorless rhomboid
     category: Glass
     type: VANILLA
@@ -121,7 +121,7 @@ Items:
   # light single window collection
   glass_pane_pink:
     itemMaterial: PINK_STAINED_GLASS_PANE
-    damage: 6
+    cmd: 6
     display: Window light gray rhomboid
     category: Glass
     type: VANILLA
@@ -140,7 +140,7 @@ Items:
       J4: glass_pane_color_rhomb
   glass_pane_purple:
     itemMaterial: PURPLE_STAINED_GLASS_PANE
-    damage: 10
+    cmd: 10
     display: Window light gray rhomboid
     category: Glass
     type: VANILLA
@@ -154,7 +154,7 @@ Items:
     contentDamage: 26
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 26
+    cmd: 26
     display: ITEMBLOCK Window light blue rhomboid
     category: Glass
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -178,7 +178,7 @@ Items:
     contentDamage: 30
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 30
+    cmd: 30
     display: ITEMBLOCK Window blue rhomboid
     category: Glass
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -194,7 +194,7 @@ Items:
     contentDamage: 37
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 37
+    cmd: 37
     display: ITEMBLOCK Window red rhomboid
     category: Glass
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -215,7 +215,7 @@ Items:
     contentDamage: 34
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 34
+    cmd: 34
     display: ITEMBLOCK Window dark red rhomboid
     category: Glass
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -231,7 +231,7 @@ Items:
     contentDamage: 39
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 39
+    cmd: 39
     display: ITEMBLOCK Window colored rhomboid
     category: Glass
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -254,7 +254,7 @@ Items:
     contentDamage: 247
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 247
+    cmd: 247
     display: ITEMBLOCK Blue curtain
     category: Glass
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -286,7 +286,7 @@ Items:
     contentDamage: 250
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 250
+    cmd: 250
     display: ITEMBLOCK Brown curtain
     category: Glass
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -301,7 +301,7 @@ Items:
     contentDamage: 253
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 253
+    cmd: 253
     display: ITEMBLOCK Gray curtain
     category: Glass
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -316,7 +316,7 @@ Items:
     contentDamage: 256
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 256
+    cmd: 256
     display: ITEMBLOCK Green curtain
     category: Glass
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -331,7 +331,7 @@ Items:
     contentDamage: 259
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 259
+    cmd: 259
     display: ITEMBLOCK Red curtain
     category: Glass
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -346,7 +346,7 @@ Items:
     contentDamage: 262
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 262
+    cmd: 262
     display: ITEMBLOCK White curtain
     category: Glass
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -361,63 +361,63 @@ Items:
   # inside collections
   glass_pane_orange:
     itemMaterial: ORANGE_STAINED_GLASS_PANE
-    damage: 1
+    cmd: 1
     display: Window colorless circles
     type: VANILLA
     collection:
       indirect: shutter
   glass_pane_yellow:
     itemMaterial: YELLOW_STAINED_GLASS_PANE
-    damage: 4
+    cmd: 4
     display: Window colorless wood
     type: VANILLA
     collection:
       indirect: shutter
   glass_pane_light_blue:
     itemMaterial: LIGHT_BLUE_STAINED_GLASS_PANE
-    damage: 3
+    cmd: 3
     display: Window colorless diamond
     type: VANILLA
     collection:
       indirect: shutter
   glass_pane_lime:
     itemMaterial: LIME_STAINED_GLASS_PANE
-    damage: 5
+    cmd: 5
     display: Window light gray circles
     type: VANILLA
     collection:
       indirect: glass_pane_pink
   glass_pane_cyan:
     itemMaterial: CYAN_STAINED_GLASS_PANE
-    damage: 9
+    cmd: 9
     display: Window light gray circles
     type: VANILLA
     collection:
       indirect: glass_pane_pink
   glass_pane_blue:
     itemMaterial: BLUE_STAINED_GLASS_PANE
-    damage: 11
+    cmd: 11
     display: Window light gray diamond
     type: VANILLA
     collection:
       indirect: glass_pane_pink
   glass_pane_brown:
     itemMaterial: BROWN_STAINED_GLASS_PANE
-    damage: 12
+    cmd: 12
     display: Window light gray wood
     type: VANILLA
     collection:
       indirect: glass_pane_pink
   glass_pane_silver:
     itemMaterial: LIGHT_GRAY_STAINED_GLASS_PANE
-    damage: 8
+    cmd: 8
     display: Window light gray wood
     type: VANILLA
     collection:
       indirect: glass_pane_pink
   glass_pane_gray:
     itemMaterial: GRAY_STAINED_GLASS_PANE
-    damage: 7
+    cmd: 7
     display: Window light gray diamond
     type: VANILLA
     collection:
@@ -427,7 +427,7 @@ Items:
     contentDamage: 25
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 25
+    cmd: 25
     display: ITEMBLOCK Window light blue circle
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -439,7 +439,7 @@ Items:
     contentDamage: 27
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 27
+    cmd: 27
     display: ITEMBLOCK Window light blue diamond
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -451,7 +451,7 @@ Items:
     contentDamage: 28
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 28
+    cmd: 28
     display: ITEMBLOCK Window light blue wood
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -463,7 +463,7 @@ Items:
     contentDamage: 29
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 29
+    cmd: 29
     display: ITEMBLOCK Window blue circle
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -475,7 +475,7 @@ Items:
     contentDamage: 31
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 31
+    cmd: 31
     display: ITEMBLOCK Window blue diamond
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -487,7 +487,7 @@ Items:
     contentDamage: 32
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 32
+    cmd: 32
     display: ITEMBLOCK Window green wood
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -499,7 +499,7 @@ Items:
     contentDamage: 33
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 33
+    cmd: 33
     display: ITEMBLOCK Window dark red circle
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -511,7 +511,7 @@ Items:
     contentDamage: 35
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 35
+    cmd: 35
     display: ITEMBLOCK Window dark red diamond
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -523,7 +523,7 @@ Items:
     contentDamage: 36
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 36
+    cmd: 36
     display: ITEMBLOCK Window dark red wood
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -535,7 +535,7 @@ Items:
     contentDamage: 38
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 38
+    cmd: 38
     display: ITEMBLOCK Window colored circle
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -547,7 +547,7 @@ Items:
     contentDamage: 40
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 40
+    cmd: 40
     display: ITEMBLOCK Window coloured diamond
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -559,7 +559,7 @@ Items:
     contentDamage: 41
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 41
+    cmd: 41
     display: ITEMBLOCK Window coloured wood
     type: ITEM_BLOCK_TWO_DIRECTIONS
     blockDataZ: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -571,7 +571,7 @@ Items:
     contentDamage: 246
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 246
+    cmd: 246
     display: ITEMBLOCK Blue curtain top
     type: ITEM_BLOCK_FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -585,7 +585,7 @@ Items:
     contentDamage: 248
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 248
+    cmd: 248
     display: ITEMBLOCK Blue curtain bottom
     type: ITEM_BLOCK_FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -599,7 +599,7 @@ Items:
     contentDamage: 249
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 249
+    cmd: 249
     display: ITEMBLOCK Brown curtain top
     type: ITEM_BLOCK_FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -613,7 +613,7 @@ Items:
     contentDamage: 251
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 251
+    cmd: 251
     display: ITEMBLOCK Brown curtain bottom
     type: ITEM_BLOCK_FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -627,7 +627,7 @@ Items:
     contentDamage: 252
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 252
+    cmd: 252
     display: ITEMBLOCK Gray curtain top
     type: ITEM_BLOCK_FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -641,7 +641,7 @@ Items:
     contentDamage: 254
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 254
+    cmd: 254
     display: ITEMBLOCK Gray curtain bottom
     type: ITEM_BLOCK_FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -655,7 +655,7 @@ Items:
     contentDamage: 255
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 255
+    cmd: 255
     display: ITEMBLOCK Green curtain top
     type: ITEM_BLOCK_FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -669,7 +669,7 @@ Items:
     contentDamage: 257
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 257
+    cmd: 257
     display: ITEMBLOCK Green curtain bottom
     type: ITEM_BLOCK_FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -683,7 +683,7 @@ Items:
     contentDamage: 258
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 258
+    cmd: 258
     display: ITEMBLOCK Red curtain top
     type: ITEM_BLOCK_FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -697,7 +697,7 @@ Items:
     contentDamage: 260
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 260
+    cmd: 260
     display: ITEMBLOCK Red curtain bottom
     type: ITEM_BLOCK_FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -711,7 +711,7 @@ Items:
     contentDamage: 261
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 261
+    cmd: 261
     display: ITEMBLOCK White curtain top
     type: ITEM_BLOCK_FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -725,7 +725,7 @@ Items:
     contentDamage: 263
     contentHeight: 0.3125
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 263
+    cmd: 263
     display: ITEMBLOCK White curtain bottom
     type: ITEM_BLOCK_FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=true]

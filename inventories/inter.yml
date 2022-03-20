@@ -3,7 +3,7 @@ Items:
   # storage collection
   chest:
     itemMaterial: CHEST
-    damage: 0
+    cmd: 0
     display: Chest
     category: Inter
     type: VANILLA
@@ -24,8 +24,8 @@ Items:
       J4: bed_orange
       G3: repeater_delay1_s_l
   double_slab_planks_oak:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 163
+    itemMaterial: CLAY_BALL
+    cmd: 163
     display: Crate
     category: Inter
     type: BLOCK
@@ -33,16 +33,16 @@ Items:
     collection:
       indirect: chest
   repeater_delay1_s_l:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 445
+    itemMaterial: CLAY_BALL
+    cmd: 445
     display: Crate Thin
     type: BLOCK
     blockData: minecraft:repeater[delay=1,facing=south,locked=true,powered=false]
     collection:
       indirect: chest
   double_slab_planks_birch:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 164
+    itemMaterial: CLAY_BALL
+    cmd: 164
     display: Crate
     category: Inter
     type: BLOCK
@@ -51,7 +51,7 @@ Items:
       indirect: chest
   bookshelf:
     itemMaterial: BOOKSHELF
-    damage: 0
+    cmd: 0
     display: Barrel
     category: Inter
     type: VANILLA
@@ -60,14 +60,14 @@ Items:
     # inside collection
   trapped_chest:
     itemMaterial: TRAPPED_CHEST
-    damage: 0
+    cmd: 0
     display: Chest
     type: VANILLA
     collection:
       indirect: chest
   ender_chest:
     itemMaterial: ENDER_CHEST
-    damage: 0
+    cmd: 0
     display: Chest
     type: VANILLA
     collection:
@@ -80,8 +80,8 @@ Items:
     collection:
       indirect: chest
   double_slab_planks_spruce:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 165
+    itemMaterial: CLAY_BALL
+    cmd: 165
     display: Crate
     type: BLOCK
     blockData: minecraft:spruce_slab[type=double,waterlogged=false]
@@ -91,8 +91,8 @@ Items:
 
   # books/library collecton
   double_slab_wood_old:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 166
+    itemMaterial: CLAY_BALL
+    cmd: 166
     display: Bookshelf
     category: Inter
     type: FOUR_DIRECTIONS
@@ -106,8 +106,8 @@ Items:
       E1: cocoa_age1_s
       C2: light_bookshelf
   brown_shulker_box:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 166
+    itemMaterial: CLAY_BALL
+    cmd: 166
     display: OPENABLE Bookshelf
     category: Inter
     type: FOUR_DIRECTIONS
@@ -118,8 +118,8 @@ Items:
     collection:
       indirect: double_slab_wood_old
   cocoa_age2_s:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 329
+    itemMaterial: CLAY_BALL
+    cmd: 329
     display: Bookshelf 1
     category: Inter
     type: FOUR_DIRECTIONS
@@ -130,8 +130,8 @@ Items:
     collection:
       indirect: double_slab_wood_old
   cocoa_age1_s:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 328
+    itemMaterial: CLAY_BALL
+    cmd: 328
     display: Bookshelf 2
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:cocoa[age=2,facing=south]
@@ -141,8 +141,8 @@ Items:
     collection:
       indirect: double_slab_wood_old
   light_bookshelf:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 397
+    itemMaterial: CLAY_BALL
+    cmd: 397
     display: Light Bookshelf
     type: BLOCK
     blockData: minecraft:dark_prismarine_slab[type=double,waterlogged=true]
@@ -152,7 +152,7 @@ Items:
   # table collection
   crafting_table:
     itemMaterial: CRAFTING_TABLE
-    damage: 0
+    cmd: 0
     display: Workbench
     category: Inter
     type: VANILLA
@@ -174,8 +174,8 @@ Items:
       J4: double_slab_planks_oak
       H2: piston_head_normal_short
   spinning_wheel:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 415
+    itemMaterial: CLAY_BALL
+    cmd: 415
     display: Spinning Wheel
     category: Inter
     type: FOUR_DIRECTIONS
@@ -187,7 +187,7 @@ Items:
       indirect: crafting_table
   note_block:   
     itemMaterial: NOTE_BLOCK
-    damage: 0
+    cmd: 0
     display: Table
     category: Inter
     type: BLOCK
@@ -196,15 +196,15 @@ Items:
       indirect: crafting_table
   jukebox:
     itemMaterial: JUKEBOX
-    damage: 0
+    cmd: 0
     display: Drawers
     category: Inter
     type: VANILLA
     collection:
       indirect: crafting_table
   low_table_2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 449
+    itemMaterial: CLAY_BALL
+    cmd: 449
     display: Low table 2
     category: Inter
     type: BLOCK
@@ -212,8 +212,8 @@ Items:
     collection:
       indirect: crafting_table
   piston_head_normal:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 167
+    itemMaterial: CLAY_BALL
+    cmd: 167
     display: Table
     category: Inter
     type: SIX_FACES
@@ -226,8 +226,8 @@ Items:
     collection:
       indirect: crafting_table
   piston_head_normal_short:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 443
+    itemMaterial: CLAY_BALL
+    cmd: 443
     display: Oak Table
     type: SIX_FACES
     blockDataSouth: minecraft:piston_head[facing=south,short=true,type=normal]
@@ -253,7 +253,7 @@ Items:
       indirect: crafting_table
   furnace:
     itemMaterial: FURNACE
-    damage: 0
+    cmd: 0
     display: Furnace
     category: Inter
     type: VANILLA
@@ -261,8 +261,8 @@ Items:
       indirect: crafting_table
   # inside collection
   low_table_1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 450
+    itemMaterial: CLAY_BALL
+    cmd: 450
     display: Low table 1
     type: BLOCK
     blockData: minecraft:stonecutter[facing=north]
@@ -274,8 +274,8 @@ Items:
     dataValueWest: 5
     dataValueSouth: 2
     dataValueEast: 4
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 168
+    itemMaterial: CLAY_BALL
+    cmd: 168
     display: Lit furnace
     type: BURNING_FURNACE
     collection:
@@ -283,8 +283,8 @@ Items:
 
   # cauldron collection
   cauldron_empty:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 169
+    itemMaterial: CLAY_BALL
+    cmd: 169
     display: Empty cauldron
     category: Inter
     type: BLOCK
@@ -297,8 +297,8 @@ Items:
       I4: piston_head_normal
       J4:
   cauldron_level3:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 172
+    itemMaterial: CLAY_BALL
+    cmd: 172
     display: Cauldron 3/3 filled
     category: Inter
     type: BLOCK
@@ -307,16 +307,16 @@ Items:
       indirect: cauldron_empty
   # inside collection
   cauldron_level1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 170
+    itemMaterial: CLAY_BALL
+    cmd: 170
     display: Cauldron 1/3 filled
     type: BLOCK
     blockData: minecraft:water_cauldron[level=1]
     collection:
       indirect: cauldron_empty
   cauldron_level2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 171
+    itemMaterial: CLAY_BALL
+    cmd: 171
     display: Cauldron 2/3 filled
     type: BLOCK
     blockData: minecraft:water_cauldron[level=2]
@@ -326,8 +326,8 @@ Items:
 
   # seating collection
   cactus_stage6:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 176
+    itemMaterial: CLAY_BALL
+    cmd: 176
     display: High seat
     category: Inter
     type: FOUR_DIRECTIONS
@@ -353,8 +353,8 @@ Items:
       I4: piston_head_normal
       J4: double_slab_planks_oak
   comparator_powered_subtract_n:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 332
+    itemMaterial: CLAY_BALL
+    cmd: 332
     display: Red stool
     category: Inter
     type: BLOCK
@@ -362,8 +362,8 @@ Items:
     collection:
       indirect: cactus_stage6
   comparator_powered_subtract_e:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 333
+    itemMaterial: CLAY_BALL
+    cmd: 333
     display: Wooden stool
     category: Inter
     type: BLOCK
@@ -372,7 +372,7 @@ Items:
       indirect: cactus_stage6
   bed_orange:
     itemMaterial: ORANGE_BED
-    damage: 1
+    cmd: 1
     display: Wooden bench
     category: Inter
     type: VANILLA
@@ -381,7 +381,7 @@ Items:
   bed_grey_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 245
+    cmd: 245
     display: Poor stool
     category: Inter
     type: BLOCK
@@ -391,21 +391,21 @@ Items:
   # inside collection
   bed_magenta:
     itemMaterial: MAGENTA_BED
-    damage: 2
+    cmd: 2
     display: Blue bench
     type: VANILLA
     collection:
       indirect: cactus_stage6
   bed_light_blue:
     itemMaterial: LIGHT_BLUE_BED
-    damage: 3
+    cmd: 3
     display: Green bench
     type: VANILLA
     collection:
       indirect: cactus_stage6
   bed_pink:
     itemMaterial: PINK_BED
-    damage: 6
+    cmd: 6
     display: Red bench
     type: VANILLA
     collection:
@@ -413,7 +413,7 @@ Items:
   bed_blue_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 243
+    cmd: 243
     display: Blue stool
     type: BLOCK
     blockData: minecraft:campfire[facing=north,lit=false,signal_fire=true,waterlogged=false]
@@ -422,7 +422,7 @@ Items:
   bed_green_half_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 244
+    cmd: 244
     display: Green stool
     type: BLOCK
     blockData: minecraft:campfire[facing=south,lit=false,signal_fire=true,waterlogged=false]
@@ -434,7 +434,7 @@ Items:
   # bed collection
   bed_silver:
     itemMaterial: LIGHT_GRAY_BED
-    damage: 8
+    cmd: 8
     display: Poor bed 1
     category: Inter
     type: VANILLA
@@ -455,7 +455,7 @@ Items:
       J4: bed_orange
   bed_brown:
     itemMaterial: BROWN_BED
-    damage: 12
+    cmd: 12
     display: Cloth bed 1
     category: Inter
     type: VANILLA
@@ -463,7 +463,7 @@ Items:
       indirect: bed_silver
   bed_gray:
     itemMaterial: GRAY_BED
-    damage: 7
+    cmd: 7
     display: Gray bed
     category: Inter
     type: VANILLA
@@ -471,7 +471,7 @@ Items:
       indirect: bed_silver
   bed_white:
     itemMaterial: WHITE_BED
-    damage: 16
+    cmd: 16
     display: Bed
     category: Inter
     type: VANILLA
@@ -480,56 +480,56 @@ Items:
   # inside collection
   bed_cyan:
     itemMaterial: CYAN_BED
-    damage: 9
+    cmd: 9
     display: Poor bed 2
     type: VANILLA
     collection:
       indirect: bed_silver
   bed_blue:
     itemMaterial: BLUE_BED
-    damage: 11
+    cmd: 11
     display: Blue bed
     type: VANILLA
     collection:
       indirect: bed_silver
   bed_lime:
     itemMaterial: LIME_BED
-    damage: 5
+    cmd: 5
     display: Lime bed
     type: VANILLA
     collection:
       indirect: bed_silver
   bed_black:
     itemMaterial: BLACK_BED
-    damage: 15
+    cmd: 15
     display: Cloth bed 2
     type: VANILLA
     collection:
       indirect: bed_silver
   bed_yellow:
     itemMaterial: YELLOW_BED
-    damage: 4
+    cmd: 4
     display: Yellow bed
     type: VANILLA
     collection:
       indirect: bed_silver
   bed_purple:
     itemMaterial: PURPLE_BED
-    damage: 10
+    cmd: 10
     display: Purple bed
     type: VANILLA
     collection:
       indirect: bed_silver
   bed_green:
     itemMaterial: GREEN_BED
-    damage: 13
+    cmd: 13
     display: Green bed
     type: VANILLA
     collection:
       indirect: bed_silver
   bed_red:
     itemMaterial: RED_BED
-    damage: 14
+    cmd: 14
     display: Red bed
     type: VANILLA
     collection:
@@ -539,7 +539,7 @@ Items:
   # food/plates collection
   cake:
     itemMaterial: CAKE
-    damage: 0
+    cmd: 0
     display: Bread
     category: Inter
     type: VANILLA
@@ -561,8 +561,8 @@ Items:
       I4: bed_orange
       J4: double_slab_planks_oak
   cactus_stage1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 174
+    itemMaterial: CLAY_BALL
+    cmd: 174
     display: Meat
     category: Inter
     type: BLOCK
@@ -570,8 +570,8 @@ Items:
     collection:
       indirect: cake
   brewing_stand:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 173
+    itemMaterial: CLAY_BALL
+    cmd: 173
     display: Suspension
     category: Inter
     type: BLOCK
@@ -580,7 +580,7 @@ Items:
       indirect: cake
   wooden_pressure_plate:
     itemMaterial: OAK_PRESSURE_PLATE
-    damage: 0
+    cmd: 0
     display: Wooden plate
     category: Inter
     type: VANILLA
@@ -588,7 +588,7 @@ Items:
       indirect: cake
   light_pressure_plate:
     itemMaterial: LIGHT_WEIGHTED_PRESSURE_PLATE
-    damage: 0
+    cmd: 0
     display: Plate
     category: Inter
     type: VANILLA
@@ -597,7 +597,7 @@ Items:
   cutlery_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 390
+    cmd: 390
     display: Cutlery
     category: Inter
     type: FOUR_DIRECTIONS
@@ -610,7 +610,7 @@ Items:
   plate_1_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 391
+    cmd: 391
     display: Plate
     category: Inter
     type: BLOCK
@@ -620,14 +620,14 @@ Items:
   # inside collection
   heavy_pressure_plate:
     itemMaterial: HEAVY_WEIGHTED_PRESSURE_PLATE
-    damage: 0
+    cmd: 0
     display: Plate
     type: VANILLA
     collection:
       indirect: cake
   stone_pressure_plate:
     itemMaterial: STONE_PRESSURE_PLATE
-    damage: 0
+    cmd: 0
     display: Stone plate
     type: VANILLA
     collection:
@@ -635,7 +635,7 @@ Items:
   plate_2_regular:
     contentItem: DIAMOND_CHESTPLATE
     itemMaterial: DIAMOND_CHESTPLATE
-    damage: 392
+    cmd: 392
     display: Fancy plate
     type: BLOCK
     blockData: minecraft:light_weighted_pressure_plate[power=3]
@@ -644,8 +644,8 @@ Items:
 
   # drinks collection
   tripwire_hook:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 285
+    itemMaterial: CLAY_BALL
+    cmd: 285
     display: Hook 
     category: Inter
     type: FOUR_DIRECTIONS
@@ -666,8 +666,8 @@ Items:
       I4: bed_orange
       J4: double_slab_planks_oak
   round_barrel:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 109
+    itemMaterial: CLAY_BALL
+    cmd: 109
     display: Round barrel
     category: Inter
     type: THREE_AXIS
@@ -677,8 +677,8 @@ Items:
     collection:
       indirect: tripwire_hook
   beer_mug:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 124
+    itemMaterial: CLAY_BALL
+    cmd: 124
     display: Beer mug
     category: Inter
     type: FOUR_DIRECTIONS
@@ -689,8 +689,8 @@ Items:
     collection:
       indirect: tripwire_hook
   bottle_1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 122
+    itemMaterial: CLAY_BALL
+    cmd: 122
     display: Bottle of mineral water
     category: Inter
     type: BLOCK
@@ -701,8 +701,8 @@ Items:
     contentItem: DIAMOND_CHESTPLATE
     contentDamage: 398
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 123
+    itemMaterial: CLAY_BALL
+    cmd: 123
     display: Vessel
     category: Inter
     type: BLOCK
@@ -712,7 +712,7 @@ Items:
   # inside collection
   lever:
     itemMaterial: LEVER
-    damage: 0
+    cmd: 0
     display: Lever / Barrel tap
     type: VANILLA
     collection:
@@ -722,13 +722,13 @@ Items:
   # misc blocks
   iron_fence:
     itemMaterial: IRON_BARS
-    damage: 0
+    cmd: 0
     display: Iron fence
     category: Inter
     type: VANILLA
   ladder:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 175
+    itemMaterial: CLAY_BALL
+    cmd: 175
     display: Ladder
     category: Inter
     type: FOUR_DIRECTIONS
@@ -737,15 +737,15 @@ Items:
     blockDataNorth: minecraft:ladder[facing=south,waterlogged=false]
     blockDataEast: minecraft:ladder[facing=west,waterlogged=false]
   repeater_delay2_s:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 186
+    itemMaterial: CLAY_BALL
+    cmd: 186
     display: Cloth mat
     category: Inter
     type: BLOCK
     blockData: minecraft:repeater[delay=2,facing=south,locked=false,powered=false]
   repeater_delay2_w:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 187
+    itemMaterial: CLAY_BALL
+    cmd: 187
     display: Leather mat
     category: Inter
     type: BLOCK
@@ -754,7 +754,7 @@ Items:
   # lighting collection
   torch:
     itemMaterial: TORCH
-    damage: 0
+    cmd: 0
     display: Torch
     category: Inter
     type: VANILLA
@@ -770,8 +770,8 @@ Items:
       J4: double_slab_planks_oak
   lit_redstone_torch:
     blockMaterial: REDSTONE_TORCH
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 246
+    itemMaterial: CLAY_BALL
+    cmd: 246
     display: Candle (lit)
     category: Inter
     type: FIVE_FACES
@@ -783,8 +783,8 @@ Items:
     collection:
       indirect: torch
   repeater_delay1_s:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 182
+    itemMaterial: CLAY_BALL
+    cmd: 182
     display: Candle Tray
     category: Inter
     type: BLOCK
@@ -794,8 +794,8 @@ Items:
   # inside collection
   unlit_redstone_torch:
     blockMaterial: REDSTONE_TORCH
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 284
+    itemMaterial: CLAY_BALL
+    cmd: 284
     display: Candle (unlit)
     type: FIVE_FACES
     blockDataSouth: minecraft:redstone_wall_torch[facing=south,lit=false]
@@ -806,8 +806,8 @@ Items:
     collection:
       indirect: torch
   banner_gondor:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 462
+    itemMaterial: CLAY_BALL
+    cmd: 462
     display: Banner Gondor
     category: Inter
     type: FOUR_DIRECTIONS
@@ -821,8 +821,8 @@ Items:
       E0: banner_Inn
       H2: banner_Sea
   banner_Inn:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 463
+    itemMaterial: CLAY_BALL
+    cmd: 463
     display: Banner Inn
     category: Inter
     type: FOUR_DIRECTIONS
@@ -833,8 +833,8 @@ Items:
     collection:
       indirect: banner_gondor
   banner_elf:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 464
+    itemMaterial: CLAY_BALL
+    cmd: 464
     display: Banner Elf
     category: Inter
     type: FOUR_DIRECTIONS
@@ -845,8 +845,8 @@ Items:
     collection:
       indirect: banner_gondor
   banner_Sea:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 465
+    itemMaterial: CLAY_BALL
+    cmd: 465
     display: Banner Sea
     category: Inter
     type: FOUR_DIRECTIONS
@@ -857,8 +857,8 @@ Items:
     collection:
       indirect: banner_gondor
   tools:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 466
+    itemMaterial: CLAY_BALL
+    cmd: 466
     display: Tools
     category: Inter
     type: FOUR_DIRECTIONS
@@ -867,8 +867,8 @@ Items:
     blockDataNorth: minecraft:crimson_button[face=wall,facing=south,powered=true]
     blockDataEast: minecraft:crimson_button[face=wall,facing=west,powered=true]
   sword:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 467
+    itemMaterial: CLAY_BALL
+    cmd: 467
     display: Sword on wall
     category: Inter
     type: FOUR_DIRECTIONS
