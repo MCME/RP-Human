@@ -99,7 +99,7 @@ Items:
     collection:
       indirect: oak_planks
   trapdoor_double_slab_planks_acacia_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 384
     display: Brown Plank Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -130,7 +130,7 @@ Items:
     collection:
       indirect: oak_planks
   vertical_slab_double_slab_planks_acacia_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 107
     display: Brown Plank Vertical Slab
     type: FOUR_DIRECTIONS
@@ -550,7 +550,7 @@ Items:
     collection:
       indirect: birch_planks
   trapdoor_double_slab_planks_dark_oak_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 387
     display: White Washed Plank Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -561,7 +561,7 @@ Items:
     collection:
       indirect: birch_planks
   trapdoor_double_slab_planks_dark_oak_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 388
     display: White Washed Plank Thin Slab
     type: BISECTED
@@ -597,7 +597,7 @@ Items:
     collection:
       indirect: birch_planks
   vertical_slab_double_slab_planks_dark_oak_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 110
     display: White Washed Plank Vertical Slab
     type: FOUR_DIRECTIONS
@@ -659,7 +659,7 @@ Items:
       J4: brick
       J3: stonebrick_normal
   trapdoor_quartz_normal_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 303
     display: Large White Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -679,7 +679,7 @@ Items:
     collection:
       indirect: quartz_normal
   trapdoor_double_slab_quartz_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 306
     display: Mossy Large White Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -699,7 +699,7 @@ Items:
     collection:
       indirect: quartz_normal
   trapdoor_double_slab_quartz_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 309
     display: Weathered Large White Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -784,7 +784,7 @@ Items:
     collection:
       indirect: quartz_normal
   vertical_slab_double_slab_quartz_seamless_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 74
     display: Mossy Large White Brick Vertical Slab
     type: FOUR_DIRECTIONS
@@ -841,10 +841,10 @@ Items:
     collection:
       indirect: end_stone
   upper_slab_end_stone:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 76
+    contentItem: BRICK
+    contentCmd: 76
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 76
     display: ITEMBLOCK Small White Brick Slab (upper)
     type: ITEM_BLOCK
@@ -863,7 +863,7 @@ Items:
     collection:
       indirect: end_stone
   trapdoor_end_stone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 312
     display: Small White Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -883,7 +883,7 @@ Items:
     collection:
       indirect: end_stone
   trapdoor_end_bricks_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 315
     display: Weathered Small White Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -988,7 +988,7 @@ Items:
     collection:
       indirect: bone_block
   trapdoor_quartz_chiseled_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 318
     display: Carved White Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -1082,7 +1082,7 @@ Items:
     collection:
       indirect: chorus_flower_stage2
   purpur_pillar_top_weathered:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 6
     display: Weathered Grey Stone Pillar
     type: THREE_AXIS
@@ -1092,7 +1092,7 @@ Items:
     collection:
       indirect: chorus_flower_stage2
   purpur_pillar_top_mossy:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 7
     display: Mossy Grey Stone Pillar
     blockDataX: minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=true,west=false]
@@ -1102,7 +1102,7 @@ Items:
     collection:
       indirect: chorus_flower_stage2
   dark_pillar:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 13
     display: Dark Stone Pillar
     blockDataX: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=true]
@@ -1317,7 +1317,7 @@ Items:
     collection:
       indirect: stonebrick_normal
   trapdoor_stonebrick_mossy_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 324
     display: Mossy Large Grey Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -1337,7 +1337,7 @@ Items:
     collection:
       indirect: stonebrick_normal
   trapdoor_stonebrick_weathered_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 327
     display: Weathered Large Grey Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -1348,7 +1348,7 @@ Items:
     collection:
       indirect: stonebrick_normal
   trapdoor_stonebrick_weathered_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 328
     display: Weathered Large Grey Brick Thin Slab
     type: BISECTED
@@ -1393,7 +1393,7 @@ Items:
     collection:
       indirect: stonebrick_normal
   vertical_slab_stonebrick_mossy_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 81
     display: Mossy Grey Brick Vertical Slab
     type: FOUR_DIRECTIONS
@@ -1420,7 +1420,7 @@ Items:
     collection:
       indirect: stonebrick_normal
   stonebrick_heavily_mossy:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 3
     display: Heavily Mossy Large Grey Bricks
     category: Block2
@@ -1448,7 +1448,7 @@ Items:
     collection:
       indirect: stonebrick_normal
   stonebrick_mixed:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 4
     display: Mixed Light Grey Bricks
     category: Block2
@@ -1505,7 +1505,7 @@ Items:
     collection:
       indirect: double_slab_stonebrick
   trapdoor_double_slab_stonebrick_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 333
     display: Small Grey Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -1525,10 +1525,10 @@ Items:
     collection:
       indirect: double_slab_stonebrick
   upper_slab_double_slab_stonebrick:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 83
+    contentItem: BRICK
+    contentCmd: 83
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 83
     display: ITEMBLOCK Small Grey Brick Slab (upper)
     type: ITEM_BLOCK
@@ -1544,7 +1544,7 @@ Items:
     collection:
       indirect: double_slab_stonebrick
   double_slab_stonebrick_mossy:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 5
     display: Mossy Small Grey Brick 
     category: Block2
@@ -1686,7 +1686,7 @@ Items:
       C4: brick
       D4: cobblestone
   trapdoor_double_slab_stonebrick_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 336
     display: Smooth Grey Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -1706,7 +1706,7 @@ Items:
     collection:
       indirect: double_slab_stonebrick_seamless
   trapdoor_double_slab_brick_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 339
     display: Smooth Dark Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -1735,7 +1735,7 @@ Items:
     collection:
       indirect: double_slab_stonebrick_seamless
   slab_double_slab_stonebrick_seamless:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 82
     display: Smooth Grey Stone Slab
     type: BISECTED
@@ -1744,7 +1744,7 @@ Items:
     collection:
       indirect: double_slab_stonebrick_seamless
   vertical_slab_double_slab_stonebrick_seamless_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 87
     display: Smooth Grey Stone Vertical Slab
     type: FOUR_DIRECTIONS
@@ -1763,10 +1763,10 @@ Items:
     collection:
       indirect: double_slab_stonebrick_seamless
   upper_slab_double_slab_brick_seamless:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 89
+    contentItem: BRICK
+    contentCmd: 89
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 89
     display: ITEMBLOCK Smooth Dark Stone Slab (upper)
     type: ITEM_BLOCK
@@ -1774,7 +1774,7 @@ Items:
     collection:
       indirect: double_slab_stonebrick_seamless
   vertical_slab_double_slab_brick_seamless_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 90
     display: Smooth Dark Stone Vertical Slab
     type: FOUR_DIRECTIONS
@@ -1899,7 +1899,7 @@ Items:
     collection:
       indirect: brick
   trapdoor_brick_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 354
     display: Large Dark Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -1919,10 +1919,10 @@ Items:
     collection:
       indirect: brick
   trapdoor_double_slab_brick_open_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 357
+    contentItem: BRICK
+    contentCmd: 357
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 357
     display: Weathered Large Dark Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -1933,7 +1933,7 @@ Items:
     collection:
       indirect: brick
   trapdoor_double_slab_brick_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 358
     display: Weathered Large Dark Brick Thin Slab
     type: BISECTED
@@ -1963,7 +1963,7 @@ Items:
     collection:
       indirect: brick
   vertical_slab_brick_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 91
     display: Large Dark Brick Vertical Slab
     type: FOUR_DIRECTIONS
@@ -1983,7 +1983,7 @@ Items:
     collection:
       indirect: brick
   red_mushroom_dark_brick_mossy:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 8
     display: Mossy Large Dark Bricks
     category: Block2
@@ -1992,7 +1992,7 @@ Items:
     collection:
       indirect: brick
   red_mushroom_dark_brick_heavily_mossy:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 9
     display: Heavily Mossy Large Dark Bricks
     category: Block2
@@ -2013,7 +2013,7 @@ Items:
     collection:
       indirect: brick
   dark_stonebrick_mixed:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 12
     display: Mixed Dark Grey Bricks
     category: Block2
@@ -2022,7 +2022,7 @@ Items:
     collection:
       indirect: brick
   red_mushroom_dark_small_brick:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 10
     display: Small Dark Bricks
     category: Block2
@@ -2031,7 +2031,7 @@ Items:
     collection:
       indirect: brick
   red_mushroom_dark_small_brick_mossy:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 11
     display: Mossy Small Dark Bricks
     category: Block2
@@ -2094,7 +2094,7 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 342
     display: Floor Pattern Vertical Thin slab
     type: FOUR_DIRECTIONS
@@ -2114,7 +2114,7 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_mossy_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 345
     display: Floor Pattern Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -2134,7 +2134,7 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_weathered_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 348
     display: Floor Pattern Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -2154,10 +2154,10 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_chiseled_open_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 351
+    contentItem: BRICK
+    contentCmd: 351
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 351
     display: Floor Pattern Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -2232,7 +2232,7 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_stonebrick_chiseled_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 330
     display: Ornamental Light Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -2243,7 +2243,7 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_stonebrick_chiseled_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 331
     display: Ornamental Light Stone Thin Stone
     type: BISECTED
@@ -2252,7 +2252,7 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_double_slab_stone_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 360
     display: Smooth Dark Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -2272,7 +2272,7 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_monster_egg_stone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 363
     display: Ornamental Dark Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -2283,7 +2283,7 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_monster_egg_stone_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 364
     display: Ornamental Dark Stone Thin Slab
     type: BISECTED
@@ -2292,7 +2292,7 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_double_slab_stone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 366
     display: Double Stone Slab Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -2303,7 +2303,7 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_double_slab_stone_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 367
     display: Double Stone Slab Thin Slab
     type: BISECTED
@@ -2505,7 +2505,7 @@ Items:
     collection:
       indirect: cobblestone
   heavily_mossy_cobblestone:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 14
     display: Heavily mossy Cobblestone
     category: Block2
@@ -2537,7 +2537,7 @@ Items:
     collection:
       indirect: cobblestone
   trapdoor_cobblestone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 369
     display: Cobblestone Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -2557,7 +2557,7 @@ Items:
     collection:
       indirect: cobblestone
   trapdoor_mossy_cobblestone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 372
     display: Mossy Cobblestone Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -2591,7 +2591,7 @@ Items:
     collection:
       indirect: cobblestone
   vertical_slab_mossy_cobblestone_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 95
     display: Mossy Cobblestone Vertical Slab
     type: FOUR_DIRECTIONS
@@ -2634,7 +2634,7 @@ Items:
       J4: cobblestone
       J3: mossy_cobblestone
   trapdoor_double_slab_cobblestone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 375
     display: Black Cobblestone Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -2654,7 +2654,7 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   trapdoor_double_slab_cobblestone_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 378
     display: Mixed Cobblestone Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -2674,7 +2674,7 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   trapdoor_monster_egg_cobblestone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 381
     display: Red Cobblestone Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -2685,7 +2685,7 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   trapdoor_monster_egg_cobblestone_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 382
     display: Red Cobblestone Thin Slab
     type: BISECTED
@@ -2720,10 +2720,10 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   upper_slab_double_slab_cobblestone:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 97
+    contentItem: BRICK
+    contentCmd: 97
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 97
     display: ITEMBLOCK Black Cobblestone Slab (upper)
     type: ITEM_BLOCK
@@ -2731,7 +2731,7 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   vertical_slab_double_slab_cobblestone_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 98
     display: Black Cobblestone Vertical Slab
     type: FOUR_DIRECTIONS
@@ -2750,10 +2750,10 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   upper_slab_double_slab_cobblestone_seamless:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 100
+    contentItem: BRICK
+    contentCmd: 100
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 100
     display: ITEMBLOCK Mixed Cobblestone Slab (upper)
     type: ITEM_BLOCK
@@ -2761,7 +2761,7 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   vertical_slab_double_slab_cobblestone_seamless_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 101
     display: Mixed Cobblestone Vertical Slab
     type: FOUR_DIRECTIONS
@@ -2780,10 +2780,10 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   upper_slab_monster_egg_cobblestone:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 103
+    contentItem: BRICK
+    contentCmd: 103
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 103
     display: ITEMBLOCK Red Cobblestone Slab (upper)
     type: ITEM_BLOCK
@@ -2791,7 +2791,7 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   vertical_slab_monster_egg_cobblestone_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 104
     display: Red Cobblestone Vertical Slab
     type: FOUR_DIRECTIONS

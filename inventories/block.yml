@@ -31,7 +31,7 @@ Items:
       J2: silver_glazed_terracotta_ne
       J3: white_glazed_terracotta_ne
   trapdoor_double_slab_sandstone_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 282
     display: Mossy Large Sandstone Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -122,8 +122,8 @@ Items:
     collection:
       indirect: sandstone
   vertical_slab_double_slab_sandstone_seamless_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 58
     display: Mossy Large Sandstone Brick Vertical Slab
     type: FOUR_DIRECTIONS
@@ -174,7 +174,7 @@ Items:
       J3: magenta_glazed_terracotta
       J4: jungle_door_bottom
   trapdoor_double_slab_red_sandstone_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 285
     display: Mossy Small Sandstone Bricks Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -223,8 +223,8 @@ Items:
     collection:
       indirect: red_sandstone
   vertical_slab_double_slab_red_sandstone_seamless_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 61
     display: Mossy Small Sandstone Brick Vertical Slab
     type: FOUR_DIRECTIONS
@@ -305,8 +305,8 @@ Items:
       F4: sandstone
       G4: red_sandstone
   vertical_slab_sandstone_smooth_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 64
     display: Smooth Sandstone Vertical Slab
     type: FOUR_DIRECTIONS
@@ -350,7 +350,7 @@ Items:
     collection:
       indirect: double_slab_sandstone
   trapdoor_sandstone_smooth_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 291
     display: Smooth Sandstone Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -370,7 +370,7 @@ Items:
     collection:
       indirect: double_slab_sandstone
   trapdoor_sandstone_chiseled_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 288
     display: Ornamental Sandstone Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -381,7 +381,7 @@ Items:
     collection:
       indirect: double_slab_sandstone
   trapdoor_sandstone_chiseled_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 289
     display: Ornamental Sandstone Thin Slab
     type: BISECTED
@@ -589,10 +589,10 @@ Items:
     collection:
       indirect: red_nether_brick
   upper_slab_double_slab_nether_brick:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 66
+    contentItem: BRICK
+    contentCmd: 66
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 66
     display: ITEMBLOCK Small Red Brick Slab (upper)
     type: ITEM_BLOCK
@@ -600,7 +600,7 @@ Items:
     collection:
       indirect: red_nether_brick
   trapdoor_nether_brick_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 294 
     display: Small Red Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -611,7 +611,7 @@ Items:
     collection:
       indirect: red_nether_brick
   trapdoor_nether_brick_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 295
     display: Small Red Brick Thin Slab
     type: BISECTED
@@ -620,7 +620,7 @@ Items:
     collection:
       indirect: red_nether_brick
   vertical_slab_double_slab_nether_brick_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 67
     display: Small Red Brick Vertical Slab
     type: FOUR_DIRECTIONS
@@ -682,7 +682,7 @@ Items:
     collection:
       indirect: double_slab_netherbrick_seamless
   trapdoor_mushroom_block_s_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 300
     display: Mossy Small Brown Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
@@ -733,7 +733,7 @@ Items:
     collection:
       indirect: double_slab_netherbrick_seamless
   vertical_slab_brown_mushroom_block_s_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 113
     display: Mossy Small Brown Bricks Vertical Slab
     type: FOUR_DIRECTIONS
@@ -744,10 +744,10 @@ Items:
     collection:
       indirect: double_slab_netherbrick_seamless
   upper_slab_brown_mushroom_block_s:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 112
+    contentItem: BRICK
+    contentCmd: 112
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 112
     display: ITEMBLOCK Mossy Small Brown Brick Slab (upper)
     type: ITEM_BLOCK
