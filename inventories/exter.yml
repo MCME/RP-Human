@@ -1,8 +1,8 @@
 Items:
   # gate/lift mechanism collection
   dropper_nwd:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 146
+    itemMaterial: CLAY_BALL
+    cmd: 146
     display: Rope log
     category: Exter
     type: THREE_AXIS
@@ -23,8 +23,8 @@ Items:
       C2: golden_rail_flat_diagonal
       B2: golden_rail_flat
   dropper_seu:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 147
+    itemMaterial: CLAY_BALL
+    cmd: 147
     display: Chain log
     category: Exter
     type: THREE_AXIS
@@ -35,15 +35,15 @@ Items:
       indirect: dropper_nwd
   dispenser:
     itemMaterial: DISPENSER
-    damage: 0
+    cmd: 0
     display: Mechanics block
     category: Exter
     type: VANILLA
     collection:
       indirect: dropper_nwd
   chain_up_north:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 177
+    itemMaterial: CLAY_BALL
+    cmd: 177
     display: 3D chain
     category: Exter
     type: BLOCK_CONNECT
@@ -51,8 +51,8 @@ Items:
     collection:
       indirect: dropper_nwd
   chain_up_center:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 178
+    itemMaterial: CLAY_BALL
+    cmd: 178
     display: 3D chain (horizontal)
     category: Exter
     type: BLOCK_CONNECT
@@ -61,15 +61,15 @@ Items:
       indirect: dropper_nwd
   golden_rail_flat:
     itemMaterial: POWERED_RAIL
-    damage: 0
+    cmd: 0
     display: Chain horizontal
     category: Exter
     type: VANILLA
     collection:
       indirect: dropper_nwd
   golden_rail_raised_e:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 152
+    itemMaterial: CLAY_BALL
+    cmd: 152
     display: Chain vertical
     category: Exter
     type: BLOCK
@@ -78,15 +78,15 @@ Items:
       indirect: dropper_nwd
   detector_rail_flat:
     itemMaterial: DETECTOR_RAIL
-    damage: 0
+    cmd: 0
     display: Rope horizontal
     category: Exter
     type: VANILLA
     collection:
       indirect: dropper_nwd
   detector_rail_raised_e:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 154
+    itemMaterial: CLAY_BALL
+    cmd: 154
     display: Rope vertical
     category: Exter
     type: BLOCK
@@ -95,7 +95,7 @@ Items:
       indirect: dropper_nwd
   glass_pane_red:
     itemMaterial: RED_STAINED_GLASS_PANE
-    damage: 14
+    cmd: 14
     display: Net / Thin rope
     category: Exter
     type: VANILLA
@@ -103,8 +103,8 @@ Items:
       indirect: dropper_nwd
   # inside collection
   golden_rail_flat_diagonal:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 151
+    itemMaterial: CLAY_BALL
+    cmd: 151
     display: Chain diagonal
     type: EIGHT_FACES
     blockDataSouth: minecraft:powered_rail[powered=true,shape=north_south]
@@ -118,8 +118,8 @@ Items:
     collection:
       indirect: dropper_nwd
   detector_rail_flat_diagonal:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 153
+    itemMaterial: CLAY_BALL
+    cmd: 153
     display: Rope diagonal
     type: EIGHT_FACES
     blockDataSouth: minecraft:detector_rail[powered=true,shape=north_south]
@@ -138,7 +138,7 @@ Items:
     blockMaterial: OAK_DOOR
     powered: true
     itemMaterial: OAK_DOOR
-    damage: 0
+    cmd: 0
     display: Wooden door 1
     category: Exter
     type: DOOR
@@ -160,7 +160,7 @@ Items:
     blockMaterial: SPRUCE_DOOR
     powered: true
     itemMaterial: SPRUCE_DOOR
-    damage: 0
+    cmd: 0
     display: Wooden door 2
     category: Exter
     type: DOOR
@@ -170,7 +170,7 @@ Items:
     blockMaterial: JUNGLE_DOOR
     powered: true
     itemMaterial: JUNGLE_DOOR
-    damage: 0
+    cmd: 0
     display: Makeshift door
     category: Exter
     type: DOOR
@@ -180,7 +180,7 @@ Items:
     blockMaterial: ACACIA_DOOR
     powered: true
     itemMaterial: ACACIA_DOOR
-    damage: 0
+    cmd: 0
     display: Wooden door 4
     category: Exter
     type: DOOR
@@ -189,7 +189,7 @@ Items:
   iron_door:
     blockMaterial: IRON_DOOR
     itemMaterial: IRON_DOOR
-    damage: 0
+    cmd: 0
     display: Prison cell door
     category: Exter
     type: DOOR
@@ -197,8 +197,8 @@ Items:
       indirect: wooden_door_powered
   birch_door_powered:
     blockMaterial: BIRCH_DOOR
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 126
+    itemMaterial: CLAY_BALL
+    cmd: 126
     display: Palace door
     category: Exter
     type: DOOR
@@ -207,8 +207,8 @@ Items:
       indirect: wooden_door_powered
   iron_door_powered:
     blockMaterial: IRON_DOOR
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 127
+    itemMaterial: CLAY_BALL
+    cmd: 127
     display: Barn door
     category: Exter
     type: DOOR
@@ -218,7 +218,7 @@ Items:
   warped_door:
     blockMaterial: WARPED_DOOR
     itemMaterial: WARPED_DOOR
-    damage: 0
+    cmd: 0
     display: Hobbit door
     category: Exter
     type: DOOR
@@ -227,7 +227,7 @@ Items:
       indirect: wooden_door_powered
   hobbit_door_block:
     itemMaterial: WARPED_WART_BLOCK
-    damage: 0
+    cmd: 0
     display: Hobbit door block
     category: Exter
     type: BLOCK
@@ -235,8 +235,8 @@ Items:
     collection:
       indirect: wooden_door_powered
   wooden_railing:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 392
+    itemMaterial: CLAY_BALL
+    cmd: 392
     display: Wooden Railing
     category: Exter
     type: FOUR_DIRECTIONS
@@ -253,8 +253,8 @@ Items:
       J1: woven_fence
       E0: wooden_fence_big
   wooden_railing_cross:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 418
+    itemMaterial: CLAY_BALL
+    cmd: 418
     display: Wooden Cross Support Railing
     category: Exter
     type: FOUR_DIRECTIONS
@@ -265,8 +265,8 @@ Items:
     collection:
       indirect: wooden_railing
   wooden_palisade:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 419
+    itemMaterial: CLAY_BALL
+    cmd: 419
     display: Wooden Palisade
     category: Exter
     type: FOUR_DIRECTIONS
@@ -277,8 +277,8 @@ Items:
     collection:
       indirect: wooden_railing
   woven_fence:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 423
+    itemMaterial: CLAY_BALL
+    cmd: 423
     display: Woven Fence
     category: Exter
     type: FOUR_DIRECTIONS
@@ -289,8 +289,8 @@ Items:
     collection:
       indirect: wooden_railing
   wooden_railing_down:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 393
+    itemMaterial: CLAY_BALL
+    cmd: 393
     display: Wooden Railing Down
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_door[facing=north,half=upper,hinge=left,open=false,powered=false]
@@ -300,8 +300,8 @@ Items:
     collection:
       indirect: wooden_railing
   wooden_railing_corner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 394
+    itemMaterial: CLAY_BALL
+    cmd: 394
     display: Wooden Railing Corner
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_door[facing=west,half=upper,hinge=left,open=true,powered=false]
@@ -311,8 +311,8 @@ Items:
     collection:
       indirect: wooden_railing
   wooden_fence_big:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 395
+    itemMaterial: CLAY_BALL
+    cmd: 395
     display: Wooden Fence Big
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_door[facing=north,half=upper,hinge=right,open=false,powered=false]
@@ -323,8 +323,8 @@ Items:
       indirect: wooden_railing
   # inside collection
   iron_door_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 134
+    itemMaterial: CLAY_BALL
+    cmd: 134
     display: Half prison cell door
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:iron_door[facing=north,half=lower,hinge=right,open=false,powered=false]
@@ -334,8 +334,8 @@ Items:
     collection:
       indirect: wooden_door_powered
   birch_door_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 130
+    itemMaterial: CLAY_BALL
+    cmd: 130
     display: Half wooden door 3
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_door[facing=north,half=lower,hinge=right,open=false,powered=false]
@@ -347,7 +347,7 @@ Items:
   birch_door:
     blockMaterial: BIRCH_DOOR
     itemMaterial: BIRCH_DOOR
-    damage: 0
+    cmd: 0
     display: Wooden door 3
     type: DOOR
     collection:
@@ -356,7 +356,7 @@ Items:
     blockMaterial: DARK_OAK_DOOR
     powered: true
     itemMaterial: DARK_OAK_DOOR
-    damage: 0
+    cmd: 0
     display: Sturdy door
     type: DOOR
     collection:
@@ -364,8 +364,8 @@ Items:
 
   # clothesline collection
   clothesline_empty_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 183
+    itemMaterial: BRICK
+    cmd: 183
     display: Empty clothesline
     category: Exter
     type: FOUR_DIRECTIONS
@@ -383,8 +383,8 @@ Items:
       C2: clothesline_dress_regular
       C0: clothesline_empty_regular
   clothesline_dress_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 185
+    itemMaterial: BRICK
+    cmd: 185
     display: Clothesline with dress
     category: Exter
     type: FOUR_DIRECTIONS
@@ -396,8 +396,8 @@ Items:
       indirect: clothesline_empty_regular
   # inside collection
   clothesline_shirt_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 190
+    itemMaterial: BRICK
+    cmd: 190
     display: Clothesline with shirt
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_fence_gate[facing=north,in_wall=true,open=true,powered=true]
@@ -407,8 +407,8 @@ Items:
     collection:
       indirect: clothesline_empty_regular
   clothesline_shirt_long_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 199
+    itemMaterial: BRICK
+    cmd: 199
     display: Clothesline with long shirt
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_fence_gate[facing=south,in_wall=true,open=true,powered=true]
@@ -418,8 +418,8 @@ Items:
     collection:
       indirect: clothesline_empty_regular
   clothesline_pants_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 205
+    itemMaterial: BRICK
+    cmd: 205
     display: Clothesline with pants
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_fence_gate[facing=north,in_wall=false,open=true,powered=true]
@@ -429,8 +429,8 @@ Items:
     collection:
       indirect: clothesline_empty_regular
   clothesline_socks_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 211
+    itemMaterial: BRICK
+    cmd: 211
     display: Clothesline with socks
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -440,8 +440,8 @@ Items:
     collection:
       indirect: clothesline_empty_regular
   clothesline_sheet_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 219
+    itemMaterial: BRICK
+    cmd: 219
     display: Clothesline with sheet
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_fence_gate[facing=north,in_wall=true,open=true,powered=true]
@@ -451,8 +451,8 @@ Items:
     collection:
       indirect: clothesline_empty_regular
   clothesline_rag_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 225
+    itemMaterial: BRICK
+    cmd: 225
     display: Clothesline with rag
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_fence_gate[facing=south,in_wall=true,open=true,powered=true]
@@ -464,8 +464,8 @@ Items:
 
   # barrels collection
   barrel_empty:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 401
+    itemMaterial: BRICK
+    cmd: 401
     display: Barrel empty
     category: Exter
     type: BLOCK
@@ -493,9 +493,9 @@ Items:
       J4: barrel_meat_half_regular
       C0: barrel_empty
   barrel_apples_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 402
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 402
     display: Barrel apples full
     category: Exter
     type: BLOCK
@@ -503,9 +503,9 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_grapes_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 404
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 404
     display: Barrel grapes full
     category: Exter
     type: BLOCK
@@ -513,9 +513,9 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_potatoes_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 408
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 408
     display: Barrel potatoes full
     category: Exter
     type: BLOCK
@@ -523,9 +523,9 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_onions_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 410
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 410
     display: Barrel onions full
     category: Exter
     type: BLOCK
@@ -533,9 +533,9 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_wheat_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 412
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 412
     display: Barrel wheat full
     category: Exter
     type: BLOCK
@@ -543,9 +543,9 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_meat_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 414
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 414
     display: Barrel meat full
     category: Exter
     type: BLOCK
@@ -553,9 +553,9 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_fish_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 416
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 416
     display: Barrel fish full
     category: Exter
     type: BLOCK
@@ -563,9 +563,9 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_coal_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 418
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 418
     display: Barrel coal full
     category: Exter
     type: BLOCK
@@ -573,9 +573,9 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_water_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 420
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 420
     display: Barrel water full
     category: Exter
     type: BLOCK
@@ -584,99 +584,99 @@ Items:
       indirect: barrel_empty
   # inside collection
   barrel_apples_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 403
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 403
     display: Barrel apples half
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=6,persistent=false]
     collection:
       indirect: barrel_empty
   barrel_grapes_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 405
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 405
     display: Barrel grapes half
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=5,persistent=true]
     collection:
       indirect: barrel_empty
   barrel_tomatoes_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 406
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 406
     display: Barrel tomatoes full
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=6,persistent=false]
     collection:
       indirect: barrel_empty
   barrel_tomatoes_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 407
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 407
     display: Barrel tomatoes half
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=7,persistent=true]
     collection:
       indirect: barrel_empty
   barrel_potatoes_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 409
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 409
     display: Barrel potatoes half
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=5,persistent=false]
     collection:
       indirect: barrel_empty
   barrel_onions_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 411
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 411
     display: Barrel onions half
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=3,persistent=false]
     collection:
       indirect: barrel_empty
   barrel_wheat_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 413
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 413
     display: Barrel wheat half
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=5,persistent=true]
     collection:
       indirect: barrel_empty
   barrel_meat_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 415
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 415
     display: Barrel meat half
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=7,persistent=true]
     collection:
       indirect: barrel_empty
   barrel_fish_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 417
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 417
     display: Barrel fish half
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=3,persistent=true]
     collection:
       indirect: barrel_empty
   barrel_coal_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 419
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 419
     display: Barrel coal half
     type: BLOCK
     blockData: minecraft:acacia_leaves[distance=1,persistent=false]
     collection:
       indirect: barrel_empty
   barrel_water_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 400
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 400
     display: Barrel water half
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=3,persistent=true]
@@ -702,8 +702,8 @@ Items:
       E1: dark_oak_button_ceiling_n
       C2: cocoa_age0_s
   piston_head_sticky:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 150
+    itemMaterial: CLAY_BALL
+    cmd: 150
     display: Wheel
     category: Exter
     type: SIX_FACES
@@ -716,8 +716,8 @@ Items:
     collection: 
       indirect: sticky_piston
   cocoa_age0_s:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 334
+    itemMaterial: CLAY_BALL
+    cmd: 334
     display: Wheel (short axle)
     category: Exter
     type: FOUR_DIRECTIONS
@@ -729,16 +729,16 @@ Items:
       indirect: sticky_piston
   # inside collection
   dark_oak_button_floor_n:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 335
+    itemMaterial: CLAY_BALL
+    cmd: 335
     display: Wheel (on floor)
     type: BLOCK
     blockData: minecraft:dark_oak_button[face=floor,facing=north,powered=false]
     collection:
       indirect: sticky_piston
   dark_oak_button_ceiling_n:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 336
+    itemMaterial: CLAY_BALL
+    cmd: 336
     display: Wheel (on ceiling)
     type: BLOCK
     blockData: minecraft:dark_oak_button[face=ceiling,facing=north,powered=false]
@@ -747,8 +747,8 @@ Items:
 
   # misc blocks
   anvil_damage0_sw:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 287
+    itemMaterial: CLAY_BALL
+    cmd: 287
     display: Anvil
     category: Exter
     type: FOUR_DIRECTIONS
@@ -758,27 +758,27 @@ Items:
     blockDataEast: minecraft:anvil[facing=south]
   lit_pumpkin:
     itemMaterial: JACK_O_LANTERN
-    damage: 0
+    cmd: 0
     display: Scarecrow head
     category: Exter
     type: VANILLA
   beacon:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 337
+    itemMaterial: CLAY_BALL
+    cmd: 337
     display: Lantern
     category: Exter
     type: BLOCK
     blockData: minecraft:beacon
   cactus_stage2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 149
+    itemMaterial: CLAY_BALL
+    cmd: 149
     display: Bell
     category: Exter
     type: BLOCK
     blockData: minecraft:cactus[age=2]
   rail_curved:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 155
+    itemMaterial: CLAY_BALL
+    cmd: 155
     display: Fireplace
     category: Exter
     type: EIGHT_FACES
@@ -791,8 +791,8 @@ Items:
     blockDataEast: minecraft:rail[shape=south_west]
     blockDataSouthEast: minecraft:rail[shape=north_west]
   activator_rail_flat:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 156
+    itemMaterial: CLAY_BALL
+    cmd: 156
     display: Footprints
     category: Exter
     type: EIGHT_FACES
@@ -805,8 +805,8 @@ Items:
     blockDataEast: minecraft:activator_rail[powered=false,shape=east_west]
     blockDataSouthEast: minecraft:activator_rail[powered=true,shape=ascending_east]
   dropper_powered_nwd:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 148
+    itemMaterial: CLAY_BALL
+    cmd: 148
     display: Bundled logs
     category: Exter
     type: THREE_AXIS
@@ -815,20 +815,20 @@ Items:
     blockDataY: minecraft:dropper[facing=down,triggered=true]
   hay:
     itemMaterial: HAY_BLOCK
-    damage: 0
+    cmd: 0
     display: Hay Block
     category: Exter
     type: VANILLA
   hay_thin:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 459
+    itemMaterial: CLAY_BALL
+    cmd: 459
     display: Hay thin
     category: Exter
     type: BLOCK
     blockData: minecraft:repeater[delay=1,facing=north,locked=true,powered=true]
   redstone_dust_power8:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 398
+    itemMaterial: CLAY_BALL
+    cmd: 398
     display: Dust
     category: Exter
     type: BLOCK_CONNECT

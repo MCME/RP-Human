@@ -1,7 +1,7 @@
 Items:
   oak_planks:
     itemMaterial: OAK_PLANKS
-    damage: 0
+    cmd: 0
     display: Oak Planks
     category: Block2
     type: VANILLA
@@ -27,14 +27,14 @@ Items:
       H4: oak_trapdoor
   oak_trapdoor:
     itemMaterial: OAK_TRAPDOOR
-    damage: 1
+    cmd: 1
     display: Oak Trapdoor
     type: VANILLA
     collection:
       indirect: oak_planks
   mossy_oak_plank:
     itemMaterial: CARTOGRAPHY_TABLE
-    damage: 1
+    cmd: 1
     display: Mossy Oak Planks
     category: Block2
     type: BLOCK
@@ -42,8 +42,8 @@ Items:
     collection:
       indirect: oak_planks
   dark_oak_plank:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 435
+    itemMaterial: CLAY_BALL
+    cmd: 435
     display: Dark Vertical Planks
     category: Block2
     type: BLOCK
@@ -52,35 +52,35 @@ Items:
       indirect: oak_planks
   oak_stairs:
     itemMaterial: OAK_STAIRS
-    damage: 0
+    cmd: 0
     display: Oak Plank Stairs
     type: VANILLA
     collection:
       indirect: oak_planks
   oak_slab:
     itemMaterial: OAK_SLAB
-    damage: 0
+    cmd: 0
     display: Oak Plank Slab
     type: VANILLA
     collection:
       indirect: oak_planks
   oak_fence:
     itemMaterial: OAK_FENCE
-    damage: 0
+    cmd: 0
     display: Oak Plank Fence
     type: VANILLA
     collection:
       indirect: oak_planks
   oak_fence_gate:
     itemMaterial: OAK_FENCE_GATE
-    damage: 0
+    cmd: 0
     display: Oak Plank Fence Gate
     type: VANILLA
     collection:
       indirect: oak_planks
   iron_trapdoor_top_open:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 281
+    itemMaterial: CLAY_BALL
+    cmd: 281
     display: Oak Plank Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:iron_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
@@ -90,8 +90,8 @@ Items:
     collection:
       indirect: oak_planks
   iron_trapdoor_bottom_s:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 275
+    itemMaterial: CLAY_BALL
+    cmd: 275
     display: Oak Plank Thin Slab
     type: BISECTED
     blockDataDown: minecraft:iron_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
@@ -99,8 +99,8 @@ Items:
     collection:
       indirect: oak_planks
   trapdoor_double_slab_planks_acacia_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 384
+    itemMaterial: BRICK
+    cmd: 384
     display: Brown Plank Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
@@ -110,8 +110,8 @@ Items:
     collection:
       indirect: oak_planks
   iron_trapdoor_bottom_e:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 277
+    itemMaterial: CLAY_BALL
+    cmd: 277
     display: Brown Plank Thin Slab 
     type: BISECTED
     blockDataDown: minecraft:iron_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
@@ -119,8 +119,8 @@ Items:
     collection:
       indirect: oak_planks
   oak_fence_gate_powered_closed:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 228
+    itemMaterial: CLAY_BALL
+    cmd: 228
     display: Oak Plank Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -130,8 +130,8 @@ Items:
     collection:
       indirect: oak_planks
   vertical_slab_double_slab_planks_acacia_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 107
+    itemMaterial: BRICK
+    cmd: 107
     display: Brown Plank Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_fence_gate[facing=south,in_wall=true,open=false,powered=true]
@@ -141,8 +141,8 @@ Items:
     collection:
       indirect: oak_planks
   double_slab_planks_acacia:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 98
+    itemMaterial: CLAY_BALL
+    cmd: 98
     display: Brown Planks
     category: Block2
     type: BLOCK
@@ -150,8 +150,8 @@ Items:
     collection:
       indirect: oak_planks
   powered_repeater_delay3_s:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 206
+    itemMaterial: CLAY_BALL
+    cmd: 206
     display: Brown Plank Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=3,facing=south,locked=false,powered=true]
@@ -160,15 +160,15 @@ Items:
       indirect: oak_planks
   oak_log:
     itemMaterial: OAK_LOG
-    damage: 0
+    cmd: 0
     display: Dark Wooden Beam
     category: Block2
     type: VANILLA
     collection:
       indirect: chorus_plant
   chorus_plant:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 19
+    itemMaterial: CLAY_BALL
+    cmd: 19
     display: Medium Dark Wooden Beam
     type: BLOCK_CONNECT
     blockData: minecraft:chorus_plant
@@ -192,8 +192,8 @@ Items:
       H4: upper_oak_beam
       I4: lower_oak_beam
   support:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 400
+    itemMaterial: CLAY_BALL
+    cmd: 400
     display: Support Beams
     type: FOUR_DIRECTIONS_COMPLEX
     blockDataNorth: minecraft:red_sandstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
@@ -224,8 +224,8 @@ Items:
     collection:
       indirect: chorus_plant
   upper_support:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 403
+    itemMaterial: CLAY_BALL
+    cmd: 403
     display: Upper Support Beams
     type: FOUR_DIRECTIONS_COMPLEX
     blockDataNorth: minecraft:red_sandstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
@@ -263,8 +263,8 @@ Items:
     collection:
       indirect: chorus_plant
   upper_support_plus:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 417
+    itemMaterial: CLAY_BALL
+    cmd: 417
     display: Upper Support Beams with horizontal Beam
     type: FOUR_DIRECTIONS_COMPLEX
     blockDataNorth: minecraft:red_sandstone_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
@@ -286,8 +286,8 @@ Items:
     collection:
       indirect: chorus_plant
   lower_oak_beam:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 424
+    itemMaterial: CLAY_BALL
+    cmd: 424
     display: Lower Wooden Beam
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:tripwire[attached=false,disarmed=false,east=false,north=false,powered=true,south=false,west=true]
@@ -297,8 +297,8 @@ Items:
     collections:
       indirect: chorus_plant
   upper_oak_beam:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 425
+    itemMaterial: CLAY_BALL
+    cmd: 425
     display: Upper Wooden Beam
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:tripwire[attached=false,disarmed=false,east=true,north=false,powered=true,south=false,west=true]
@@ -308,8 +308,8 @@ Items:
     collections:
       indirect: chorus_plant
   stacked_logs_wall:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 439
+    itemMaterial: CLAY_BALL
+    cmd: 439
     display: Stacked Logs Wall
     category: Block2
     type: FOUR_DIRECTIONS
@@ -320,8 +320,8 @@ Items:
     collection:
       indirect: chorus_plant
   stacked_logs_wall_corner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 440
+    itemMaterial: CLAY_BALL
+    cmd: 440
     display: Stacked Logs Wall Corner
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:note_block[instrument=hat,note=2,powered=false]
@@ -331,8 +331,8 @@ Items:
     collection:
       indirect: chorus_plant
   twisting_vine_stairs_1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 420
+    itemMaterial: CLAY_BALL
+    cmd: 420
     display: Fancy Oak Stairs
     category: Block2
     type: FOUR_DIRECTIONS
@@ -343,8 +343,8 @@ Items:
     collection:
       indirect: chorus_plant
   twisting_vine_stairs_2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 421
+    itemMaterial: CLAY_BALL
+    cmd: 421
     display: Fancy Brown Plank Stairs
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:twisting_vines[age=8]
@@ -354,8 +354,8 @@ Items:
     collection:
       indirect: chorus_plant
   twisting_vine_stairs_3:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 422
+    itemMaterial: CLAY_BALL
+    cmd: 422
     display: Fancy Small Stairs
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:twisting_vines[age=14]
@@ -365,8 +365,8 @@ Items:
     collection:
       indirect: chorus_plant
   diagonal_beam45_right:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 452
+    itemMaterial: CLAY_BALL
+    cmd: 452
     display: Diagonal Beam 45 degrees Right
     category: Block2
     type: FOUR_DIRECTIONS
@@ -377,8 +377,8 @@ Items:
     collection:
       indirect: chorus_plant
   diagonal_beam22_5_up_right:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 453
+    itemMaterial: CLAY_BALL
+    cmd: 453
     display: Diagonal Beam 22.5 degrees UP Right
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:weeping_vines[age=11]
@@ -388,8 +388,8 @@ Items:
     collection:
       indirect: chorus_plant
   diagonal_beam22_5_right:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 454
+    itemMaterial: CLAY_BALL
+    cmd: 454
     display: Diagonal Beam 22.5 degrees Right
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:weeping_vines[age=7]
@@ -399,8 +399,8 @@ Items:
     collection:
       indirect: chorus_plant
   diagonal_beam45_left:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 468
+    itemMaterial: CLAY_BALL
+    cmd: 468
     display: Diagonal Beam 45 degrees Left
     category: Block2
     type: FOUR_DIRECTIONS
@@ -411,8 +411,8 @@ Items:
     collection:
       indirect: chorus_plant
   diagonal_beam22_5_up_left:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 470
+    itemMaterial: CLAY_BALL
+    cmd: 470
     display: Diagonal Beam 22.5 degrees UP Left
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:weeping_vines[age=23]
@@ -422,8 +422,8 @@ Items:
     collection:
       indirect: chorus_plant
   diagonal_beam22_5_left:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 469
+    itemMaterial: CLAY_BALL
+    cmd: 469
     display: Diagonal Beam 22.5 degrees Left
     type: FOUR_DIRECTIONS
     blockDataNorth: minecraft:weeping_vines[age=19]
@@ -434,7 +434,7 @@ Items:
       indirect: chorus_plant
   birch_planks:
     itemMaterial: BIRCH_PLANKS
-    damage: 2
+    cmd: 2
     display: Birch Planks
     category: Block2
     type: VANILLA
@@ -461,8 +461,8 @@ Items:
       I4: dark_prismarine_stairs
       J4: dark_prismarine_slabs
   light_vertical_planks:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 436
+    itemMaterial: CLAY_BALL
+    cmd: 436
     display: Light Vertical Planks
     category: Block2
     type: BLOCK
@@ -471,7 +471,7 @@ Items:
       indirect: birch_planks
   jungle_log:
     itemMaterial: JUNGLE_LOG
-    damage: 3
+    cmd: 3
     display: Light Wooden Beam
     category: Block2
     type: VANILLA
@@ -479,7 +479,7 @@ Items:
       indirect: birch_planks
   dark_prismarine:
     itemMaterial: DARK_PRISMARINE
-    damage: 3
+    cmd: 3
     display: Leather Block
     category: Block2
     type: VANILLA
@@ -487,14 +487,14 @@ Items:
       indirect: birch_planks
   dark_prismarine_stairs:
     itemMaterial: DARK_PRISMARINE_STAIRS
-    damage: 0
+    cmd: 0
     display: Leather Block Stairs
     type: VANILLA
     collection:
       indirect: birch_planks
   dark_prismarine_slabs:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 414
+    itemMaterial: CLAY_BALL
+    cmd: 414
     display: Leather Block Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=1,facing=north,locked=false,powered=true]
@@ -503,21 +503,21 @@ Items:
       indirect: birch_planks
   birch_stairs:
     itemMaterial: BIRCH_STAIRS
-    damage: 0
+    cmd: 0
     display: Birch Plank Stairs
     type: VANILLA
     collection:
       indirect: birch_planks
   birch_slab:
     itemMaterial: BIRCH_SLAB
-    damage: 2
+    cmd: 2
     display: Birch Plank Slab
     type: VANILLA
     collection:
       indirect: birch_planks
   spruce_door_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 129
+    itemMaterial: CLAY_BALL
+    cmd: 129
     display: Birch Plank Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:spruce_door[facing=north,half=lower,hinge=left,open=false,powered=false]
@@ -527,8 +527,8 @@ Items:
     collection:
       indirect: birch_planks
   iron_trapdoor_bottom_w:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 276
+    itemMaterial: CLAY_BALL
+    cmd: 276
     display: Birch Plank Thin Slab
     type: BISECTED
     blockDataDown: minecraft:iron_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
@@ -537,21 +537,21 @@ Items:
       indirect: birch_planks
   birch_fence:
     itemMaterial: BIRCH_FENCE
-    damage: 0
+    cmd: 0
     display: Birch Plank Fence
     type: VANILLA
     collection:
       indirect: birch_planks
   birch_fence_gate:
     itemMaterial: BIRCH_FENCE_GATE
-    damage: 0
+    cmd: 0
     display: Birch Plank Fence Gate
     type: VANILLA
     collection:
       indirect: birch_planks
   trapdoor_double_slab_planks_dark_oak_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 387
+    itemMaterial: BRICK
+    cmd: 387
     display: White Washed Plank Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
@@ -561,8 +561,8 @@ Items:
     collection:
       indirect: birch_planks
   trapdoor_double_slab_planks_dark_oak_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 388
+    itemMaterial: BRICK
+    cmd: 388
     display: White Washed Plank Thin Slab
     type: BISECTED
     blockDataDown: minecraft:oak_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
@@ -570,8 +570,8 @@ Items:
     collection:
       indirect: birch_planks
   birch_fence_gate_powered_closed:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 229
+    itemMaterial: CLAY_BALL
+    cmd: 229
     display: Birch Plank Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -581,24 +581,24 @@ Items:
     collection:
       indirect: birch_planks
   repeater_delay4_e:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 197
+    itemMaterial: CLAY_BALL
+    cmd: 197
     display: Small White Bricks Slab Lower
     type: BLOCK
     blockData: minecraft:repeater[delay=4,facing=east,locked=false,powered=false]
     collection:
       indirect: birch_planks
   powered_repeater_delay3_w:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 207
+    itemMaterial: CLAY_BALL
+    cmd: 207
     display: White Washed Plank Slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=3,facing=west,locked=false,powered=true]
     collection:
       indirect: birch_planks
   vertical_slab_double_slab_planks_dark_oak_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 110
+    itemMaterial: BRICK
+    cmd: 110
     display: White Washed Plank Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_fence_gate[facing=south,in_wall=true,open=false,powered=false]
@@ -608,8 +608,8 @@ Items:
     collection:
       indirect: birch_planks
   double_slab_planks_dark_oak:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 99
+    itemMaterial: CLAY_BALL
+    cmd: 99
     display: White Washed Planks
     category: Block2
     type: BLOCK
@@ -617,8 +617,8 @@ Items:
     collection:
       indirect: birch_planks
   stacked_white_logs_wall:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 456
+    itemMaterial: CLAY_BALL
+    cmd: 456
     display: White Washed Stacked Logs Wall
     category: Block2
     type: FOUR_DIRECTIONS
@@ -630,7 +630,7 @@ Items:
       indirect: birch_planks
   quartz_normal:
     itemMaterial: QUARTZ_BLOCK
-    damage: 0
+    cmd: 0
     display: Large White Bricks
     category: Block2
     type: VANILLA
@@ -659,8 +659,8 @@ Items:
       J4: brick
       J3: stonebrick_normal
   trapdoor_quartz_normal_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 303
+    itemMaterial: BRICK
+    cmd: 303
     display: Large White Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_door[facing=west,half=lower,hinge=left,open=true,powered=false]
@@ -670,8 +670,8 @@ Items:
     collection:
       indirect: quartz_normal
   trapdoor_quartz_normal_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 254
+    itemMaterial: CLAY_BALL
+    cmd: 254
     display: Large White Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:jungle_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
@@ -679,8 +679,8 @@ Items:
     collection:
       indirect: quartz_normal
   trapdoor_double_slab_quartz_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 306
+    itemMaterial: BRICK
+    cmd: 306
     display: Mossy Large White Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:jungle_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
@@ -690,8 +690,8 @@ Items:
     collection:
       indirect: quartz_normal
   trapdoor_double_slab_quartz_seamless_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 255
+    itemMaterial: CLAY_BALL
+    cmd: 255
     display: Mossy Large White Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:jungle_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
@@ -699,8 +699,8 @@ Items:
     collection:
       indirect: quartz_normal
   trapdoor_double_slab_quartz_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 309
+    itemMaterial: BRICK
+    cmd: 309
     display: Weathered Large White Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:jungle_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
@@ -710,8 +710,8 @@ Items:
     collection:
       indirect: quartz_normal
   trapdoor_double_slab_quartz_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 256
+    itemMaterial: CLAY_BALL
+    cmd: 256
     display: Weathered Large White Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:jungle_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
@@ -720,21 +720,21 @@ Items:
       indirect: quartz_normal
   end_stone_brick_wall:
     itemMaterial: END_STONE_BRICK_WALL
-    damage: 0
+    cmd: 0
     display: Large White Brick Wall
     type: VANILLA
     collection:
       indirect: quartz_normal
   nether_fence:
     itemMaterial: NETHER_BRICK_FENCE
-    damage: 0
+    cmd: 0
     display: Large White Brick Fence
     type: VANILLA
     collection:
       indirect: quartz_normal
   birch_fence_gate_powered_open:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 322
+    itemMaterial: CLAY_BALL
+    cmd: 322
     display: Large White Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=true,open=false,powered=false]
@@ -745,21 +745,21 @@ Items:
       indirect: quartz_normal
   quartz_stairs:
     itemMaterial: QUARTZ_STAIRS
-    damage: 0
+    cmd: 0
     display: Large White Brick Stairs
     type: VANILLA
     collection:
       indirect: quartz_normal
   quartz_slab:
     itemMaterial: QUARTZ_SLAB
-    damage: 7
+    cmd: 7
     display: Large White Brick Slab
     type: VANILLA
     collection:
       indirect: quartz_normal
   end_portal_frame_empty_south:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 79
+    itemMaterial: CLAY_BALL
+    cmd: 79
     display: Large White Brick 3/4 Block
     category: Block2
     type: BLOCK
@@ -767,16 +767,16 @@ Items:
     collection:
       indirect: quartz_normal
   end_portal_frame_filled_south:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 80
+    itemMaterial: CLAY_BALL
+    cmd: 80
     display: Large White Brick 3/4 Block (Stub)
     type: BLOCK
     blockData: minecraft:end_portal_frame[eye=true,facing=south]
     collection:
       indirect: quartz_normal
   repeater_delay4_n:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 196
+    itemMaterial: CLAY_BALL
+    cmd: 196
     display: Mossy Large White Brick Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=4,facing=north,locked=false,powered=false]
@@ -784,8 +784,8 @@ Items:
     collection:
       indirect: quartz_normal
   vertical_slab_double_slab_quartz_seamless_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 74
+    itemMaterial: BRICK
+    cmd: 74
     display: Mossy Large White Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=true,open=true,powered=false]
@@ -795,8 +795,8 @@ Items:
     collection:
       indirect: quartz_normal
   double_slab_quartz_seamless:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 81
+    itemMaterial: CLAY_BALL
+    cmd: 81
     display: Mossy Large White Bricks
     category: Block2
     type: BLOCK
@@ -804,8 +804,8 @@ Items:
     collection:
       indirect: quartz_normal
   double_slab_quartz:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 82
+    itemMaterial: CLAY_BALL
+    cmd: 82
     display: Weathered Large White Bricks
     category: Block2
     type: BLOCK
@@ -814,7 +814,7 @@ Items:
       indirect: quartz_normal
   end_stone:
     itemMaterial: END_STONE
-    damage: 0
+    cmd: 0
     display: Small White Bricks
     category: Block2
     type: VANILLA
@@ -835,25 +835,25 @@ Items:
       E4: red_mushroom_dark_small_brick
   end_bricks:
     itemMaterial: END_STONE_BRICKS
-    damage: 0
+    cmd: 0
     display: Weathered Small White Bricks
     type: VANILLA
     collection:
       indirect: end_stone
   upper_slab_end_stone:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 76
+    contentItem: BRICK
+    contentCmd: 76
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 76
+    itemMaterial: BRICK
+    cmd: 76
     display: ITEMBLOCK Small White Brick Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
     collection:
       indirect: end_stone
   dark_oak_fence_gate_powered_open:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 323
+    itemMaterial: CLAY_BALL
+    cmd: 323
     display: Small White Bricks Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=true,open=false,powered=true]
@@ -863,8 +863,8 @@ Items:
     collection:
       indirect: end_stone
   trapdoor_end_stone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 312
+    itemMaterial: BRICK
+    cmd: 312
     display: Small White Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:spruce_door[facing=west,half=lower,hinge=left,open=true,powered=false]
@@ -874,8 +874,8 @@ Items:
     collection:
       indirect: end_stone
   trapdoor_end_stone_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 257
+    itemMaterial: CLAY_BALL
+    cmd: 257
     display: Small White Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:jungle_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
@@ -883,8 +883,8 @@ Items:
     collection:
       indirect: end_stone
   trapdoor_end_bricks_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 315
+    itemMaterial: BRICK
+    cmd: 315
     display: Weathered Small White Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:jungle_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
@@ -894,8 +894,8 @@ Items:
     collection:
       indirect: end_stone
   trapdoor_end_bricks_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 258
+    itemMaterial: CLAY_BALL
+    cmd: 258
     display: Weathered Small White Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:jungle_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
@@ -904,7 +904,7 @@ Items:
       indirect: end_stone
   quartz_chiseled:
     itemMaterial: CHISELED_QUARTZ_BLOCK
-    damage: 1
+    cmd: 1
     display: Carved White Stone
     category: Block2
     type: VANILLA
@@ -912,7 +912,7 @@ Items:
       indirect: bone_block
   quartz_lines:
     itemMaterial: QUARTZ_PILLAR
-    damage: 2
+    cmd: 2
     display: White Stone Pillar
     category: Block2
     type: VANILLA
@@ -920,7 +920,7 @@ Items:
       indirect: bone_block
   bone_block:
     itemMaterial: BONE_BLOCK
-    damage: 0
+    cmd: 0
     display: White Stone Ornamental Pillar
     category: Block2
     type: VANILLA
@@ -942,7 +942,7 @@ Items:
       E4: gold_block
   gold_block:
     itemMaterial: GOLD_BLOCK
-    damage: 0
+    cmd: 0
     display: Gold Ornamental Block
     category: Block2
     type: VANILLA
@@ -950,15 +950,15 @@ Items:
       indirect: bone_block
   iron_block:
     itemMaterial: IRON_BLOCK
-    damage: 0
+    cmd: 0
     display: White Marble
     category: Block2
     type: VANILLA
     collection:
       indirect: bone_block
   anvil_damage2_ne:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 292
+    itemMaterial: CLAY_BALL
+    cmd: 292
     display: White Marble Balustrade
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:damaged_anvil[facing=east]
@@ -969,15 +969,15 @@ Items:
       indirect: bone_block
   coal_block:
     itemMaterial: COAL_BLOCK
-    damage: 0
+    cmd: 0
     display: Black Marble
     category: Block2
     type: VANILLA
     collection:
       indirect: bone_block
   anvil_damage1_ne:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 290
+    itemMaterial: CLAY_BALL
+    cmd: 290
     display: Carved White Stone Baulstrade
     category: Block2
     type: FOUR_DIRECTIONS
@@ -988,8 +988,8 @@ Items:
     collection:
       indirect: bone_block
   trapdoor_quartz_chiseled_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 318
+    itemMaterial: BRICK
+    cmd: 318
     display: Carved White Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:jungle_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
@@ -999,8 +999,8 @@ Items:
     collection:
       indirect: bone_block
   trapdoor_quartz_chiseled_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 259
+    itemMaterial: CLAY_BALL
+    cmd: 259
     display: Carved White Stone Thin Slab
     type: BISECTED
     blockDataDown: minecraft:jungle_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
@@ -1008,24 +1008,24 @@ Items:
     collection:
       indirect: bone_block
   chorus_flower_stage3:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 296
+    itemMaterial: CLAY_BALL
+    cmd: 296
     display: Fancy White Stone Pillar Bottom
     type: BLOCK
     blockData: minecraft:chorus_flower[age=3]
     collection:
       indirect: bone_block
   chorus_flower_stage4:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 297
+    itemMaterial: CLAY_BALL
+    cmd: 297
     display: Fancy White Stone Pillar Middle
     type: BLOCK
     blockData: minecraft:chorus_flower[age=4]
     collection:
       indirect: bone_block
   chorus_flower_stage5:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 298
+    itemMaterial: CLAY_BALL
+    cmd: 298
     display: Fancy White Stone Pillar Top
     category: Block2
     type: BLOCK
@@ -1033,24 +1033,24 @@ Items:
     collection:
       indirect: bone_block
   chorus_flower_stage0:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 293
+    itemMaterial: CLAY_BALL
+    cmd: 293
     display: Fancy Grey Stone Pillar Bottom
     type: BLOCK
     blockData: minecraft:chorus_flower[age=0]
     collection:
       indirect: chorus_flower_stage2
   chorus_flower_stage1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 294
+    itemMaterial: CLAY_BALL
+    cmd: 294
     display: Fancy Grey Stone Pillar Middle
     type: BLOCK
     blockData: minecraft:chorus_flower[age=1]
     collection:
       indirect: chorus_flower_stage2
   chorus_flower_stage2:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 295
+    itemMaterial: CLAY_BALL
+    cmd: 295
     display: Fancy Grey Stone Pillar Top
     category: Block2
     type: BLOCK
@@ -1075,15 +1075,15 @@ Items:
       J1: ionic_column
   purpur_pillar_top:
     itemMaterial: PURPUR_PILLAR
-    damage: 0
+    cmd: 0
     display: Gray pillar
     category: Block2
     type: VANILLA
     collection:
       indirect: chorus_flower_stage2
   purpur_pillar_top_weathered:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 6
+    itemMaterial: BRICK
+    cmd: 6
     display: Weathered Grey Stone Pillar
     type: THREE_AXIS
     blockDataX: minecraft:red_mushroom_block[down=false,east=true,north=true,south=false,up=false,west=false]
@@ -1092,8 +1092,8 @@ Items:
     collection:
       indirect: chorus_flower_stage2
   purpur_pillar_top_mossy:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 7
+    itemMaterial: BRICK
+    cmd: 7
     display: Mossy Grey Stone Pillar
     blockDataX: minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=true,west=false]
     blockDataY: minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=false,west=true]
@@ -1102,8 +1102,8 @@ Items:
     collection:
       indirect: chorus_flower_stage2
   dark_pillar:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 13
+    itemMaterial: BRICK
+    cmd: 13
     display: Dark Stone Pillar
     blockDataX: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=true]
     blockDataY: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=true]
@@ -1112,8 +1112,8 @@ Items:
     collection:
       indirect: chorus_flower_stage2
   stone_brick_pillar_top:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 405
+    itemMaterial: CLAY_BALL
+    cmd: 405
     display: Fancy Pillar Top
     category: Block2
     type: BLOCK
@@ -1121,8 +1121,8 @@ Items:
     collection:
       indirect: chorus_flower_stage2
   ionic_column:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 433
+    itemMaterial: CLAY_BALL
+    cmd: 433
     display: Ionic Column
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:hopper[enabled=true,facing=east]
@@ -1132,14 +1132,14 @@ Items:
     collection:
       indirect: chorus_flower_stage2
   stone_brick_pillar_middle:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 406
+    itemMaterial: CLAY_BALL
+    cmd: 406
     display: Fancy Pillar Middle
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=1,persistent=false]
   stone_brick_pillar_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 407
+    itemMaterial: CLAY_BALL
+    cmd: 407
     display: Fancy Pillar Bottom
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=6,persistent=true]
@@ -1147,7 +1147,7 @@ Items:
       indirect: chorus_flower_stage2
   stonebrick_normal:
     itemMaterial: STONE_BRICKS
-    damage: 0
+    cmd: 0
     display: Large Grey Bricks
     category: Block2
     type: VANILLA
@@ -1184,24 +1184,24 @@ Items:
       G3: ender_portal_frame_filled_west_fill
       H3: stone_brick_small_wall
   ender_portal_frame_filled_west_fill:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 331
+    itemMaterial: CLAY_BALL
+    cmd: 331
     display: 3/4+ Large Grey Bricks
     type: BLOCK
     blockData: minecraft:end_portal_frame[eye=true,facing=west]
     collection:
       indirect: stonebrick_normal
   ender_portal_frame_filled_west:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 448
+    itemMaterial: CLAY_BALL
+    cmd: 448
     display: 3/4 Large Grey Bricks
     type: BLOCK
     blockData: minecraft:end_portal_frame[eye=false,facing=west]
     collection:
       indirect: stonebrick_normal
   red_mushroom_block_es:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 386
+    itemMaterial: CLAY_BALL
+    cmd: 386
     display: Carved Stone
     category: Block2
     type: BLOCK
@@ -1209,8 +1209,8 @@ Items:
     collection:
       indirect: stonebrick_normal
   large_stone_bricks_mixed_stone_bricks_corner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 370
+    itemMaterial: CLAY_BALL
+    cmd: 370
     display: Large Grey Bricks-Mixed Stone Bricks Corner
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:red_mushroom_block[down=false,east=false,north=true,south=false,up=true,west=true]
@@ -1220,8 +1220,8 @@ Items:
     collection:
       indirect: stonebrick_normal
   large_stone_bricks_small_stone_bricks_corner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 371
+    itemMaterial: CLAY_BALL
+    cmd: 371
     display: Large Grey Bricks-Small Light Bricks Corner
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:red_mushroom_block[down=false,east=false,north=true,south=false,up=false,west=true]
@@ -1231,8 +1231,8 @@ Items:
     collection:
       indirect: stonebrick_normal
   large_stone_bricks_cobblestone_stone_bricks_corner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 372
+    itemMaterial: CLAY_BALL
+    cmd: 372
     display: Large Grey Bricks-Cobblestone Corner
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:red_mushroom_block[down=false,east=false,north=true,south=false,up=false,west=false]
@@ -1242,8 +1242,8 @@ Items:
     collection:
       indirect: stonebrick_normal
   small_stone_bricks_mixed_stone_bricks_corner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 373
+    itemMaterial: CLAY_BALL
+    cmd: 373
     display: Small Grey Bricks-Mixed Grey Brick Corner
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:red_mushroom_block[down=true,east=false,north=true,south=false,up=false,west=false]
@@ -1253,8 +1253,8 @@ Items:
     collection:
       indirect: stonebrick_normal
   spruce_fence_gate_open_mossy:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 381
+    itemMaterial: CLAY_BALL
+    cmd: 381
     display: Heavily Mossy Large Grey Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=false,open=true,powered=false]
@@ -1265,14 +1265,14 @@ Items:
       indirect: stonebrick_normal
   heavy_mossy_stonebricks_stairs:
     itemMaterial: PRISMARINE_BRICK_STAIRS
-    damage: 0
+    cmd: 0
     display: Heavily Mossy Large Grey Brick Stairs
     type: VANILLA
     collection:
       indirect: stonebrick_normal
   large_stone_slab:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 401
+    itemMaterial: CLAY_BALL
+    cmd: 401
     display: Carved Stone Large Slab
     category: Block2
     type: FOUR_DIRECTIONS
@@ -1284,21 +1284,21 @@ Items:
       indirect: stonebrick_normal
   Stone_brick_wall:
     itemMaterial: STONE_BRICK_WALL
-    damage: 0
+    cmd: 0
     display: Large Grey Brick Wall
     type: VANILLA
     collection:
       indirect: stonebrick_normal
   stone_brick_small_wall:
     itemMaterial: SPRUCE_FENCE
-    damage: 0
+    cmd: 0
     display: Small Grey Brick Wall
     type: VANILLA
     collection:
       indirect: stonebrick_normal
   wooden_door_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 128
+    itemMaterial: CLAY_BALL
+    cmd: 128
     display: Large Grey Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_door[facing=north,half=lower,hinge=left,open=false,powered=false]
@@ -1308,8 +1308,8 @@ Items:
     collection:
       indirect: stonebrick_normal
   trapdoor_stonebrick_normal_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 260
+    itemMaterial: CLAY_BALL
+    cmd: 260
     display: Large Grey Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
@@ -1317,8 +1317,8 @@ Items:
     collection:
       indirect: stonebrick_normal
   trapdoor_stonebrick_mossy_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 324
+    itemMaterial: BRICK
+    cmd: 324
     display: Mossy Large Grey Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
@@ -1328,8 +1328,8 @@ Items:
     collection:
       indirect: stonebrick_normal
   trapdoor_stonebrick_mossy_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 261
+    itemMaterial: CLAY_BALL
+    cmd: 261
     display: Mossy Large Grey Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
@@ -1337,8 +1337,8 @@ Items:
     collection:
       indirect: stonebrick_normal
   trapdoor_stonebrick_weathered_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 327
+    itemMaterial: BRICK
+    cmd: 327
     display: Weathered Large Grey Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
@@ -1348,8 +1348,8 @@ Items:
     collection:
       indirect: stonebrick_normal
   trapdoor_stonebrick_weathered_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 328
+    itemMaterial: BRICK
+    cmd: 328
     display: Weathered Large Grey Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
@@ -1358,21 +1358,21 @@ Items:
       indirect: stonebrick_normal
   stone_brick_stairs:
     itemMaterial: STONE_BRICK_STAIRS
-    damage: 0
+    cmd: 0
     display: Large Grey Brick Stairs
     type: VANILLA
     collection:
       indirect: stonebrick_normal
   stone_brick_slab:
     itemMaterial: STONE_BRICK_SLAB
-    damage: 5
+    cmd: 5
     display: Large Grey Brick Slab
     type: VANILLA
     collection:
       indirect: stonebrick_normal
   piston_normal_extended:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 83
+    itemMaterial: CLAY_BALL
+    cmd: 83
     display: Large Grey Brick Vertical 3/4 Block
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:piston[extended=true,facing=north]
@@ -1382,8 +1382,8 @@ Items:
     collection:
       indirect: stonebrick_normal
   spruce_fence_gate_open:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 325
+    itemMaterial: CLAY_BALL
+    cmd: 325
     display: Large Grey Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=true,open=false,powered=false]
@@ -1393,8 +1393,8 @@ Items:
     collection:
       indirect: stonebrick_normal
   vertical_slab_stonebrick_mossy_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 81
+    itemMaterial: BRICK
+    cmd: 81
     display: Mossy Grey Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=true,open=true,powered=false]
@@ -1405,7 +1405,7 @@ Items:
       indirect: stonebrick_normal
   stonebrick_weathered:
     itemMaterial: CRACKED_STONE_BRICKS
-    damage: 2
+    cmd: 2
     display: Weathered Large Grey Bricks
     category: Block2
     type: VANILLA
@@ -1413,15 +1413,15 @@ Items:
       indirect: stonebrick_normal
   stonebrick_mossy:
     itemMaterial: MOSSY_STONE_BRICKS
-    damage: 1
+    cmd: 1
     display: Mossy large Grey Bricks
     category: Block2
     type: VANILLA
     collection:
       indirect: stonebrick_normal
   stonebrick_heavily_mossy:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 3
+    itemMaterial: BRICK
+    cmd: 3
     display: Heavily Mossy Large Grey Bricks
     category: Block2
     type: BLOCK
@@ -1429,8 +1429,8 @@ Items:
     collection:
       indirect: stonebrick_normal
   large_mossy_stone_slab:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 383
+    itemMaterial: CLAY_BALL
+    cmd: 383
     display: Mossy Carved Stone Large Slab
     category: Block2
     type: FOUR_DIRECTIONS
@@ -1442,14 +1442,14 @@ Items:
       indirect: stonebrick_normal
   mossy_stone_brick_slab:
     itemMaterial: MOSSY_STONE_BRICK_SLAB
-    damage: 0
+    cmd: 0
     display: Mossy Large Gray Brick Slab
     type: VANILLA
     collection:
       indirect: stonebrick_normal
   stonebrick_mixed:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 4
+    itemMaterial: BRICK
+    cmd: 4
     display: Mixed Light Grey Bricks
     category: Block2
     blockData: minecraft:red_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=false]
@@ -1457,8 +1457,8 @@ Items:
     collection:
       indirect: double_slab_stonebrick
   double_slab_stonebrick:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 84
+    itemMaterial: CLAY_BALL
+    cmd: 84
     display: Small Grey Bricks
     category: Block2
     type: BLOCK
@@ -1485,8 +1485,8 @@ Items:
       I4: cobblestone
       J4: double_slab_cobblestone
   red_mushroom_block_esd:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 385
+    itemMaterial: CLAY_BALL
+    cmd: 385
     display: Ornamental Grey Bricks
     category: Block2
     type: BLOCK
@@ -1494,8 +1494,8 @@ Items:
     collection:
       indirect: double_slab_stonebrick
   acacia_fence_gate_open_power:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 376
+    itemMaterial: CLAY_BALL
+    cmd: 376
     display: Mossy Small Grey Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:crimson_fence_gate[facing=south,in_wall=false,open=true,powered=false]
@@ -1505,8 +1505,8 @@ Items:
     collection:
       indirect: double_slab_stonebrick
   trapdoor_double_slab_stonebrick_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 333
+    itemMaterial: BRICK
+    cmd: 333
     display: Small Grey Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:jungle_door[facing=west,half=lower,hinge=left,open=true,powered=false]
@@ -1516,8 +1516,8 @@ Items:
     collection:
       indirect: double_slab_stonebrick
   trapdoor_double_slab_stonebrick_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 262
+    itemMaterial: CLAY_BALL
+    cmd: 262
     display: Small Grey Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
@@ -1525,27 +1525,27 @@ Items:
     collection:
       indirect: double_slab_stonebrick
   upper_slab_double_slab_stonebrick:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 83
+    contentItem: BRICK
+    contentCmd: 83
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 83
+    itemMaterial: BRICK
+    cmd: 83
     display: ITEMBLOCK Small Grey Brick Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
     collection:
       indirect: double_slab_stonebrick
   powered_repeater_delay1_w:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 199
+    itemMaterial: CLAY_BALL
+    cmd: 199
     display: Small Grey Brick Slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=1,facing=west,locked=false,powered=true]
     collection:
       indirect: double_slab_stonebrick
   double_slab_stonebrick_mossy:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 5
+    itemMaterial: BRICK
+    cmd: 5
     display: Mossy Small Grey Brick 
     category: Block2
     type: BLOCK
@@ -1553,8 +1553,8 @@ Items:
     collection:
       indirect: double_slab_stonebrick
   jungle_fence_gate_powered_open:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 324
+    itemMaterial: CLAY_BALL
+    cmd: 324
     display: Small Grey Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:jungle_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -1564,8 +1564,8 @@ Items:
     collection:
       indirect: double_slab_stonebrick
   small_arch:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 408
+    itemMaterial: CLAY_BALL
+    cmd: 408
     display: Small Arch
     category: Block2
     type: FOUR_DIRECTIONS
@@ -1583,8 +1583,8 @@ Items:
       H2: stone_window_top
       I2: stone_window_bottom
   stone_window_top:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 432
+    itemMaterial: CLAY_BALL
+    cmd: 432
     display: Stone Window Top
     category: Block2
     type: FOUR_DIRECTIONS
@@ -1595,8 +1595,8 @@ Items:
     collection:
       indirect: small_arch
   stone_window_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 431
+    itemMaterial: CLAY_BALL
+    cmd: 431
     display: Stone Window Bottom
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:scaffolding[bottom=false,distance=2]
@@ -1606,8 +1606,8 @@ Items:
     collection:
       indirect: small_arch
   medium_arch:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 409
+    itemMaterial: CLAY_BALL
+    cmd: 409
     display: Medium Arch
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:smooth_quartz_stairs[facing=south,half=top,shape=outer_left]
@@ -1617,8 +1617,8 @@ Items:
     collection:
       indirect: small_arch
   large_arch:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 410
+    itemMaterial: CLAY_BALL
+    cmd: 410
     display: Large Arch Middle
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_button[face=ceiling,facing=east,powered=false]
@@ -1628,8 +1628,8 @@ Items:
     collection:
       indirect: small_arch
   large_arch_1:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 411
+    itemMaterial: CLAY_BALL
+    cmd: 411
     display: Large Arch
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_door[facing=north,half=lower,hinge=right,open=false,powered=false]
@@ -1639,8 +1639,8 @@ Items:
     collection:
       indirect: small_arch
   stone_corbel_round:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 412
+    itemMaterial: CLAY_BALL
+    cmd: 412
     display: Stone Corbel Round
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_door[facing=north,half=upper,hinge=right,open=true,powered=false]
@@ -1650,8 +1650,8 @@ Items:
     collection:
       indirect: small_arch
   stone_corbel_steps:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 413
+    itemMaterial: CLAY_BALL
+    cmd: 413
     display: Stone Corbel Steps
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:jungle_button[face=wall,facing=east,powered=false]
@@ -1662,7 +1662,7 @@ Items:
       indirect: small_arch
   double_slab_stonebrick_seamless:
     itemMaterial: WET_SPONGE
-    damage: 0
+    cmd: 0
     display: Smooth Grey Stone Block
     category: Block2
     type: BLOCK
@@ -1686,8 +1686,8 @@ Items:
       C4: brick
       D4: cobblestone
   trapdoor_double_slab_stonebrick_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 336
+    itemMaterial: BRICK
+    cmd: 336
     display: Smooth Grey Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_door[facing=north,half=upper,hinge=left,open=false,powered=false]
@@ -1697,8 +1697,8 @@ Items:
     collection:
       indirect: double_slab_stonebrick_seamless
   trapdoor_double_slab_stonebrick_seamless_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 263
+    itemMaterial: CLAY_BALL
+    cmd: 263
     display: Smooth Grey Stone Thin Slab
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
@@ -1706,8 +1706,8 @@ Items:
     collection:
       indirect: double_slab_stonebrick_seamless
   trapdoor_double_slab_brick_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 339
+    itemMaterial: BRICK
+    cmd: 339
     display: Smooth Dark Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
@@ -1717,8 +1717,8 @@ Items:
     collection:
       indirect: double_slab_stonebrick_seamless
   trapdoor_double_slab_brick_seamless_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 264
+    itemMaterial: CLAY_BALL
+    cmd: 264
     display: Smooth Dark Stone Thin Slab
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
@@ -1727,7 +1727,7 @@ Items:
       indirect: double_slab_stonebrick_seamless
   double_slab_brick_seamless:
     itemMaterial: SPONGE
-    damage: 0
+    cmd: 0
     display: Smooth Dark Stone Block
     category: Block2
     type: BLOCK
@@ -1735,8 +1735,8 @@ Items:
     collection:
       indirect: double_slab_stonebrick_seamless
   slab_double_slab_stonebrick_seamless:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 82
+    itemMaterial: BRICK
+    cmd: 82
     display: Smooth Grey Stone Slab
     type: BISECTED
     blockDataDown: minecraft:petrified_oak_slab[type=bottom,waterlogged=false]
@@ -1744,8 +1744,8 @@ Items:
     collection:
       indirect: double_slab_stonebrick_seamless
   vertical_slab_double_slab_stonebrick_seamless_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 87
+    itemMaterial: BRICK
+    cmd: 87
     display: Smooth Grey Stone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=true,open=false,powered=true]
@@ -1755,27 +1755,27 @@ Items:
     collection:
       indirect: double_slab_stonebrick_seamless
   powered_repeater_delay1_e:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 201
+    itemMaterial: CLAY_BALL
+    cmd: 201
     display: Smooth Dark Stone Slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=1,facing=east,locked=false,powered=true]
     collection:
       indirect: double_slab_stonebrick_seamless
   upper_slab_double_slab_brick_seamless:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 89
+    contentItem: BRICK
+    contentCmd: 89
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 89
+    itemMaterial: BRICK
+    cmd: 89
     display: ITEMBLOCK Smooth Dark Stone Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
     collection:
       indirect: double_slab_stonebrick_seamless
   vertical_slab_double_slab_brick_seamless_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 90
+    itemMaterial: BRICK
+    cmd: 90
     display: Smooth Dark Stone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=true,open=true,powered=true]
@@ -1786,14 +1786,14 @@ Items:
       indirect: double_slab_stonebrick_seamless
   daylight_detector:
     itemMaterial: DAYLIGHT_DETECTOR
-    damage: 0
+    cmd: 0
     display: Smooth Grey Stone 1/3 Slab
     type: VANILLA
     collection:
       indirect: double_slab_stonebrick_seamless
   anvil_damage1_sw:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 289
+    itemMaterial: CLAY_BALL
+    cmd: 289
     display: Smooth Grey Stone Balustrade
     category: Block2
     type: FOUR_DIRECTIONS
@@ -1805,7 +1805,7 @@ Items:
       indirect: double_slab_stonebrick_seamless
   brick:
     itemMaterial: BRICKS
-    damage: 0
+    cmd: 0
     display: Large Dark Bricks
     category: Block2
     type: VANILLA
@@ -1839,24 +1839,24 @@ Items:
       F3: ender_portal_frame_filled_east
       G3: ender_portal_frame_filled_east_fill
   ender_portal_frame_filled_east:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 447
+    itemMaterial: CLAY_BALL
+    cmd: 447
     display: 3/4 Large Dark Bricks
     type: BLOCK
     blockData: minecraft:end_portal_frame[eye=false,facing=east]
     collection:
       indirect: brick
   ender_portal_frame_filled_east_fill:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 330
+    itemMaterial: CLAY_BALL
+    cmd: 330
     display: 3/4+ Large Dark Bricks
     type: BLOCK
     blockData: minecraft:end_portal_frame[eye=true,facing=east]
     collection:
       indirect: brick
   vertical_slab_small_dark_gray_brick:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 377
+    itemMaterial: CLAY_BALL
+    cmd: 377
     display: Small Dark Brick Vertical Slab 
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=true,open=true,powered=true]
@@ -1866,8 +1866,8 @@ Items:
     collection:
       indirect: brick
   vertical_slab_small_mossy_dark_gray_brick:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 378
+    itemMaterial: CLAY_BALL
+    cmd: 378
     display: Mossy Small Dark Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:crimson_fence_gate[facing=south,in_wall=false,open=false,powered=false]
@@ -1877,8 +1877,8 @@ Items:
     collection:
       indirect: brick
   vertical_slab_heavy_mossy_dark_gray_brick:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 379
+    itemMaterial: CLAY_BALL
+    cmd: 379
     display: Heavily Mossy Large Dark Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:spruce_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -1888,8 +1888,8 @@ Items:
     collection:
       indirect: brick
   vertical_slab_mossy_dark_gray_brick:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 365
+    itemMaterial: CLAY_BALL
+    cmd: 365
     display: Mossy Large Dark Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=true,powered=false]
@@ -1899,8 +1899,8 @@ Items:
     collection:
       indirect: brick
   trapdoor_brick_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 354
+    itemMaterial: BRICK
+    cmd: 354
     display: Large Dark Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:spruce_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
@@ -1910,8 +1910,8 @@ Items:
     collection:
       indirect: brick
   trapdoor_brick_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 269
+    itemMaterial: CLAY_BALL
+    cmd: 269
     display: Large Dark Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
@@ -1919,11 +1919,11 @@ Items:
     collection:
       indirect: brick
   trapdoor_double_slab_brick_open_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 357
+    contentItem: BRICK
+    contentCmd: 357
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 357
+    itemMaterial: BRICK
+    cmd: 357
     display: Weathered Large Dark Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:spruce_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
@@ -1933,8 +1933,8 @@ Items:
     collection:
       indirect: brick
   trapdoor_double_slab_brick_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 358
+    itemMaterial: BRICK
+    cmd: 358
     display: Weathered Large Dark Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
@@ -1943,28 +1943,28 @@ Items:
       indirect: brick
   brick_stairs:
     itemMaterial: BRICK_STAIRS
-    damage: 0
+    cmd: 0
     display: Large Dark Brick Stairs
     type: VANILLA
     collection:
       indirect: brick
   mossy_brick_stairs:
     itemMaterial: ANDESITE_STAIRS
-    damage: 0
+    cmd: 0
     display: Mossy Large Dark Brick Stairs
     type: VANILLA
     collection:
       indirect: brick
   half_slab_brick:
     itemMaterial: BRICK_SLAB
-    damage: 4
+    cmd: 4
     display: Large Dark Brick Slab
     type: VANILLA
     collection:
       indirect: brick
   vertical_slab_brick_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 91
+    itemMaterial: BRICK
+    cmd: 91
     display: Large Dark Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=false,open=false,powered=false]
@@ -1974,8 +1974,8 @@ Items:
     collection:
       indirect: brick
   double_slab_brick:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 91
+    itemMaterial: CLAY_BALL
+    cmd: 91
     display: Weathered Large Dark Bricks
     category: Block2
     type: BLOCK
@@ -1983,8 +1983,8 @@ Items:
     collection:
       indirect: brick
   red_mushroom_dark_brick_mossy:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 8
+    itemMaterial: BRICK
+    cmd: 8
     display: Mossy Large Dark Bricks
     category: Block2
     type: BLOCK
@@ -1992,8 +1992,8 @@ Items:
     collection:
       indirect: brick
   red_mushroom_dark_brick_heavily_mossy:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 9
+    itemMaterial: BRICK
+    cmd: 9
     display: Heavily Mossy Large Dark Bricks
     category: Block2
     type: BLOCK
@@ -2001,8 +2001,8 @@ Items:
     collection:
       indirect: brick
   large_dark_stone_slab:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 384
+    itemMaterial: CLAY_BALL
+    cmd: 384
     display: Carved Dark Stone Large Slab
     category: Block2
     type: FOUR_DIRECTIONS
@@ -2013,8 +2013,8 @@ Items:
     collection:
       indirect: brick
   dark_stonebrick_mixed:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 12
+    itemMaterial: BRICK
+    cmd: 12
     display: Mixed Dark Grey Bricks
     category: Block2
     blockData: minecraft:red_mushroom_block[down=false,east=false,north=true,south=true,up=false,west=false]
@@ -2022,8 +2022,8 @@ Items:
     collection:
       indirect: brick
   red_mushroom_dark_small_brick:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 10
+    itemMaterial: BRICK
+    cmd: 10
     display: Small Dark Bricks
     category: Block2
     type: BLOCK
@@ -2031,8 +2031,8 @@ Items:
     collection:
       indirect: brick
   red_mushroom_dark_small_brick_mossy:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 11
+    itemMaterial: BRICK
+    cmd: 11
     display: Mossy Small Dark Bricks
     category: Block2
     type: BLOCK
@@ -2040,8 +2040,8 @@ Items:
     collection:
       indirect: brick
   monster_egg_stonebrick:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 87
+    itemMaterial: CLAY_BALL
+    cmd: 87
     display: Floor Pattern 
     category: Block2
     type: BLOCK
@@ -2067,8 +2067,8 @@ Items:
       F4: brick
       G4: red_mushroom_dark_small_brick
   monster_egg_stonebrick_mossy:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 88
+    itemMaterial: CLAY_BALL
+    cmd: 88
     display: Floor Pattern 
     category: Block2
     type: BLOCK
@@ -2076,8 +2076,8 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   monster_egg_stonebrick_weathered:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 89
+    itemMaterial: CLAY_BALL
+    cmd: 89
     display: Floor Pattern
     category: Block2
     type: BLOCK
@@ -2085,8 +2085,8 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   monster_egg_stonebrick_chiseled:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 90
+    itemMaterial: CLAY_BALL
+    cmd: 90
     display: Floor Pattern 
     category: Block2
     type: BLOCK
@@ -2094,8 +2094,8 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 342
+    itemMaterial: BRICK
+    cmd: 342
     display: Floor Pattern Vertical Thin slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_door[facing=north,half=lower,hinge=right,open=false,powered=false]
@@ -2105,8 +2105,8 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 265
+    itemMaterial: CLAY_BALL
+    cmd: 265
     display: Floor Pattern Thin Slab
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
@@ -2114,8 +2114,8 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_mossy_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 345
+    itemMaterial: BRICK
+    cmd: 345
     display: Floor Pattern Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_door[facing=east,half=lower,hinge=right,open=true,powered=false]
@@ -2125,8 +2125,8 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_mossy_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 266
+    itemMaterial: CLAY_BALL
+    cmd: 266
     display: Floor Pattern Thin Slab
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
@@ -2134,8 +2134,8 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_weathered_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 348
+    itemMaterial: BRICK
+    cmd: 348
     display: Floor Pattern Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_door[facing=north,half=upper,hinge=right,open=false,powered=false]
@@ -2145,8 +2145,8 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_weathered_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 267
+    itemMaterial: CLAY_BALL
+    cmd: 267
     display: Floor Pattern Thin Slab
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
@@ -2154,11 +2154,11 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_chiseled_open_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 351
+    contentItem: BRICK
+    contentCmd: 351
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 351
+    itemMaterial: BRICK
+    cmd: 351
     display: Floor Pattern Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_door[facing=east,half=upper,hinge=right,open=true,powered=false]
@@ -2168,8 +2168,8 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   trapdoor_monster_egg_stonebrick_chiseled_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 268
+    itemMaterial: CLAY_BALL
+    cmd: 268
     display: Floor Pattern Thin Slab
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
@@ -2177,8 +2177,8 @@ Items:
     collection:
       indirect: monster_egg_stonebrick
   double_slab_stone_seamless:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 92
+    itemMaterial: CLAY_BALL
+    cmd: 92
     display: Smooth Dark Stone
     category: Block2
     type: BLOCK
@@ -2186,8 +2186,8 @@ Items:
     collection:
       indirect: double_slab_stone
   monster_egg_stone:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 93
+    itemMaterial: CLAY_BALL
+    cmd: 93
     display: Ornamental Dark Stone
     category: Block2
     type: BLOCK
@@ -2195,8 +2195,8 @@ Items:
     collection:
       indirect: double_slab_stone
   double_slab_stone:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 94
+    itemMaterial: CLAY_BALL
+    cmd: 94
     display: Double Stone Slab
     category: Block2
     type: BLOCK
@@ -2225,15 +2225,15 @@ Items:
       I4: red_mushroom_dark_small_brick
   stonebrick_chiseled:
     itemMaterial: CHISELED_STONE_BRICKS
-    damage: 3
+    cmd: 3
     display: Ornamental Light Stone
     category: Block2
     type: VANILLA
     collection:
       indirect: double_slab_stone
   trapdoor_stonebrick_chiseled_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 330
+    itemMaterial: BRICK
+    cmd: 330
     display: Ornamental Light Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
@@ -2243,8 +2243,8 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_stonebrick_chiseled_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 331
+    itemMaterial: BRICK
+    cmd: 331
     display: Ornamental Light Stone Thin Stone
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
@@ -2252,8 +2252,8 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_double_slab_stone_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 360
+    itemMaterial: BRICK
+    cmd: 360
     display: Smooth Dark Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:spruce_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
@@ -2263,8 +2263,8 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_double_slab_stone_seamless_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 270
+    itemMaterial: CLAY_BALL
+    cmd: 270
     display: Smooth Dark Stone Thin Slab
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
@@ -2272,8 +2272,8 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_monster_egg_stone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 363
+    itemMaterial: BRICK
+    cmd: 363
     display: Ornamental Dark Stone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:oak_door[facing=west,half=upper,hinge=left,open=true,powered=false]
@@ -2283,8 +2283,8 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_monster_egg_stone_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 364
+    itemMaterial: BRICK
+    cmd: 364
     display: Ornamental Dark Stone Thin Slab
     type: BISECTED
     blockDataDown: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
@@ -2292,8 +2292,8 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_double_slab_stone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 366
+    itemMaterial: BRICK
+    cmd: 366
     display: Double Stone Slab Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:spruce_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
@@ -2303,8 +2303,8 @@ Items:
     collection:
       indirect: double_slab_stone
   trapdoor_double_slab_stone_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 367
+    itemMaterial: BRICK
+    cmd: 367
     display: Double Stone Slab Thin Slab
     type: BISECTED
     blockDataDown: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
@@ -2312,8 +2312,8 @@ Items:
     collection:
       indirect: double_slab_stone
   plastered:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 441
+    itemMaterial: CLAY_BALL
+    cmd: 441
     display: Plaster
     category: Block2
     type: BLOCK
@@ -2329,7 +2329,7 @@ Items:
       A4: plastered_support
   plastered_cobble:
     itemMaterial: FLETCHING_TABLE
-    damage: 0
+    cmd: 0
     display: Plastered Cobble
     category: Block2
     blockData: minecraft:fletching_table
@@ -2338,15 +2338,15 @@ Items:
       indirect: plastered
   plastered_support:
     itemMaterial: DRIED_KELP_BLOCK
-    damage: 0
+    cmd: 0
     display: Plastered Wooden Support
     blockData: minecraft:dried_kelp_block
     type: BLOCK
     collection:
       indirect: plastered
   plastered_cobblestone:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 437
+    itemMaterial: CLAY_BALL
+    cmd: 437
     display: Plastered Cobble Weathered
     category: Block2
     blockData: minecraft:target[power=4]
@@ -2354,8 +2354,8 @@ Items:
     collection:
       indirect: plastered
   plastered_river_cobblestone:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 438
+    itemMaterial: CLAY_BALL
+    cmd: 438
     display: Plastered River Cobble
     category: Block2
     blockData: minecraft:target[power=2]
@@ -2363,8 +2363,8 @@ Items:
     collection:
       indirect: plastered
   large_cobblestone:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 382
+    itemMaterial: CLAY_BALL
+    cmd: 382
     display: Large Cobblestone
     category: Block2
     blockData: minecraft:red_mushroom_block[down=false,east=true,north=false,south=true,up=false,west=true]
@@ -2372,8 +2372,8 @@ Items:
     collection:
       indirect: cobblestone
   large_detailed_cobblestone:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 451
+    itemMaterial: CLAY_BALL
+    cmd: 451
     display: Rough Large Cobblestone
     category: Block2
     blockData: minecraft:target[power=1]
@@ -2382,7 +2382,7 @@ Items:
       indirect: cobblestone 
   cobblestone:
     itemMaterial: COBBLESTONE
-    damage: 0
+    cmd: 0
     display: Cobblestone
     category: Block2
     type: VANILLA
@@ -2418,7 +2418,7 @@ Items:
       E2: plastered_river_cobblestone
   cobble_pavement:
     itemMaterial: LOOM
-    damage: 0
+    cmd: 0
     display: Cobble Pavement
     category: Block2
     type: FOUR_DIRECTIONS
@@ -2429,8 +2429,8 @@ Items:
     collection: 
       indirect: cobblestone
   small_stone_bricks_cobblestone_corner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 374
+    itemMaterial: CLAY_BALL
+    cmd: 374
     display: Small Grey Bricks-Cobblestone corner
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:red_mushroom_block[down=true,east=true,north=false,south=true,up=false,west=true]
@@ -2440,8 +2440,8 @@ Items:
     collection:
       indirect: cobblestone
   acacia_fence_gate_open_power_moss:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 380
+    itemMaterial: CLAY_BALL
+    cmd: 380
     display: Heavily Mossy Cobblestone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:crimson_fence_gate[facing=south,in_wall=true,open=false,powered=false]
@@ -2451,8 +2451,8 @@ Items:
     collection:
       indirect: cobblestone
   acacia_fence_gate_open:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 326
+    itemMaterial: CLAY_BALL
+    cmd: 326
     display: Cobblestone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:jungle_fence_gate[facing=south,in_wall=true,open=false,powered=false]
@@ -2463,35 +2463,35 @@ Items:
       indirect: cobblestone
   cobblestone_wall:
     itemMaterial: COBBLESTONE_WALL
-    damage: 0
+    cmd: 0
     display: Cobblestone Wall
     type: VANILLA
     collection:
       indirect: cobblestone
   cobblestone_wall_mossy:
     itemMaterial: MOSSY_COBBLESTONE_WALL
-    damage: 1
+    cmd: 1
     display: Mossy Cobblestone Wall
     type: VANILLA
     collection:
       indirect: cobblestone
   cobblestone_stairs:
     itemMaterial: COBBLESTONE_STAIRS
-    damage: 0
+    cmd: 0
     display: Cobblestone Stairs
     type: VANILLA
     collection:
       indirect: cobblestone
   half_slab_cobblestone:
     itemMaterial: COBBLESTONE_SLAB
-    damage: 3
+    cmd: 3
     display: Cobblestone Slab
     type: VANILLA
     collection:
       indirect: cobblestone
   mossy_cobblestone:
     itemMaterial: MOSSY_COBBLESTONE
-    damage: 0
+    cmd: 0
     display: Mossy Cobblestone
     category: Block2
     type: VANILLA
@@ -2499,14 +2499,14 @@ Items:
       indirect: cobblestone
   mossy_cobblestone_stairs:
     itemMaterial: MOSSY_COBBLESTONE_STAIRS
-    damage: 0
+    cmd: 0
     display: Mossy Cobblestone Stairs
     type: VANILLA
     collection:
       indirect: cobblestone
   heavily_mossy_cobblestone:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 14
+    itemMaterial: BRICK
+    cmd: 14
     display: Heavily mossy Cobblestone
     category: Block2
     type: BLOCK
@@ -2514,8 +2514,8 @@ Items:
     collection:
       indirect: cobblestone
   white_concrete_powder:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 310
+    itemMaterial: CLAY_BALL
+    cmd: 310
     display: Weathered Stone Lower Corner
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:red_mushroom_block[down=false,east=true,north=true,south=true,up=false,west=true]
@@ -2525,8 +2525,8 @@ Items:
     collection:
       indirect: cobblestone
   yellow_concrete_powder:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 311
+    itemMaterial: CLAY_BALL
+    cmd: 311
     display: Weathered Stone Upper Corner
     category: Block2
     type: FOUR_DIRECTIONS
@@ -2537,8 +2537,8 @@ Items:
     collection:
       indirect: cobblestone
   trapdoor_cobblestone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 369
+    itemMaterial: BRICK
+    cmd: 369
     display: Cobblestone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
@@ -2548,8 +2548,8 @@ Items:
     collection:
       indirect: cobblestone
   trapdoor_cobblestone_bottom_regular:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 271
+    itemMaterial: CLAY_BALL
+    cmd: 271
     display: Cobblestone Thin Slab
     type: BISECTED
     blockDataDown: minecraft:acacia_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
@@ -2557,8 +2557,8 @@ Items:
     collection:
       indirect: cobblestone
   trapdoor_mossy_cobblestone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 372
+    itemMaterial: BRICK
+    cmd: 372
     display: Mossy Cobblestone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
@@ -2568,8 +2568,8 @@ Items:
     collection:
       indirect: cobblestone
   trapdoor_mossy_cobblestone_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 272
+    itemMaterial: CLAY_BALL
+    cmd: 272
     display: Mossy Cobblestone Thin Slab
     type: BISECTED
     blockDataDown: minecraft:acacia_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
@@ -2578,21 +2578,21 @@ Items:
       indirect: cobblestone
   mossy_cobblestone_slab:
     itemMaterial: MOSSY_COBBLESTONE_SLAB
-    damage: 0
+    cmd: 0
     display: Mossy Cobblestone Slab
     type: VANILLA
     collection:
       indirect: cobblestone
   cobblestone_slab:
     itemMaterial: COBBLESTONE_SLAB
-    damage: 0
+    cmd: 0
     display: Cobblestone slab
     type: VANILLA
     collection:
       indirect: cobblestone
   vertical_slab_mossy_cobblestone_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 95
+    itemMaterial: BRICK
+    cmd: 95
     display: Mossy Cobblestone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:jungle_fence_gate[facing=south,in_wall=true,open=true,powered=true]
@@ -2602,8 +2602,8 @@ Items:
     collection:
       indirect: cobblestone
   double_slab_cobblestone:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 95
+    itemMaterial: CLAY_BALL
+    cmd: 95
     display: Black Cobblestone
     category: Block2
     type: BLOCK
@@ -2634,8 +2634,8 @@ Items:
       J4: cobblestone
       J3: mossy_cobblestone
   trapdoor_double_slab_cobblestone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 375
+    itemMaterial: BRICK
+    cmd: 375
     display: Black Cobblestone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
@@ -2645,8 +2645,8 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   trapdoor_double_slab_cobblestone_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 273
+    itemMaterial: CLAY_BALL
+    cmd: 273
     display: Black Cobblestone Thin Slab
     type: BISECTED
     blockDataDown: minecraft:acacia_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
@@ -2654,8 +2654,8 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   trapdoor_double_slab_cobblestone_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 378
+    itemMaterial: BRICK
+    cmd: 378
     display: Mixed Cobblestone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
@@ -2665,8 +2665,8 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   trapdoor_double_slab_cobblestone_seamless_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 274
+    itemMaterial: CLAY_BALL
+    cmd: 274
     display: Mixed Cobblestone Thin Slab
     type: BISECTED
     blockDataDown: minecraft:acacia_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
@@ -2674,8 +2674,8 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   trapdoor_monster_egg_cobblestone_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 381
+    itemMaterial: BRICK
+    cmd: 381
     display: Red Cobblestone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_door[facing=north,half=lower,hinge=right,open=false,powered=false]
@@ -2685,8 +2685,8 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   trapdoor_monster_egg_cobblestone_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 382
+    itemMaterial: BRICK
+    cmd: 382
     display: Red Cobblestone Thin Slab
     type: BISECTED
     blockDataDown: minecraft:iron_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
@@ -2694,8 +2694,8 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   double_slab_cobblestone_seamless:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 96
+    itemMaterial: CLAY_BALL
+    cmd: 96
     display: Mixed Cobblestone
     category: Block2
     type: BLOCK
@@ -2703,8 +2703,8 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   monster_egg_cobblestone:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 97
+    itemMaterial: CLAY_BALL
+    cmd: 97
     display: Red Cobblestone
     category: Block2
     type: BLOCK
@@ -2712,27 +2712,27 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   powered_repeater_delay2_w:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 203
+    itemMaterial: CLAY_BALL
+    cmd: 203
     display: Black Cobblestone Slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=2,facing=west,locked=false,powered=true]
     collection:
       indirect: double_slab_cobblestone
   upper_slab_double_slab_cobblestone:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 97
+    contentItem: BRICK
+    contentCmd: 97
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 97
+    itemMaterial: BRICK
+    cmd: 97
     display: ITEMBLOCK Black Cobblestone Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
     collection:
       indirect: double_slab_cobblestone
   vertical_slab_double_slab_cobblestone_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 98
+    itemMaterial: BRICK
+    cmd: 98
     display: Black Cobblestone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:jungle_fence_gate[facing=south,in_wall=true,open=false,powered=true]
@@ -2742,27 +2742,27 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   powered_repeater_delay2_n:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 204
+    itemMaterial: CLAY_BALL
+    cmd: 204
     display: Mixed Cobblestone Slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=2,facing=north,locked=false,powered=true]
     collection:
       indirect: double_slab_cobblestone
   upper_slab_double_slab_cobblestone_seamless:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 100
+    contentItem: BRICK
+    contentCmd: 100
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 100
+    itemMaterial: BRICK
+    cmd: 100
     display: ITEMBLOCK Mixed Cobblestone Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
     collection:
       indirect: double_slab_cobblestone
   vertical_slab_double_slab_cobblestone_seamless_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 101
+    itemMaterial: BRICK
+    cmd: 101
     display: Mixed Cobblestone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:jungle_fence_gate[facing=south,in_wall=true,open=true,powered=false]
@@ -2772,27 +2772,27 @@ Items:
     collection:
       indirect: double_slab_cobblestone
   powered_repeater_delay2_e:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 205
+    itemMaterial: CLAY_BALL
+    cmd: 205
     display: Red Cobblestone Slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=2,facing=east,locked=false,powered=true]
     collection:
       indirect: double_slab_cobblestone
   upper_slab_monster_egg_cobblestone:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 103
+    contentItem: BRICK
+    contentCmd: 103
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 103
+    itemMaterial: BRICK
+    cmd: 103
     display: ITEMBLOCK Red Cobblestone Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
     collection:
       indirect: double_slab_cobblestone
   vertical_slab_monster_egg_cobblestone_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 104
+    itemMaterial: BRICK
+    cmd: 104
     display: Red Cobblestone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=true,open=false,powered=false]
