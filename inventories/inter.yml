@@ -379,8 +379,8 @@ Items:
     collection:
       indirect: cactus_stage6
   bed_grey_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 245
     display: Poor stool
     category: Inter
@@ -411,8 +411,8 @@ Items:
     collection:
       indirect: cactus_stage6
   bed_blue_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 243
     display: Blue stool
     type: BLOCK
@@ -420,8 +420,8 @@ Items:
     collection:
       indirect: cactus_stage6
   bed_green_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 244
     display: Green stool
     type: BLOCK
@@ -595,8 +595,8 @@ Items:
     collection:
       indirect: cake
   cutlery_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 390
     display: Cutlery
     category: Inter
@@ -608,8 +608,8 @@ Items:
     collection:
       indirect: cake
   plate_1_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 391
     display: Plate
     category: Inter
@@ -633,8 +633,8 @@ Items:
     collection:
       indirect: cake
   plate_2_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 392
     display: Fancy plate
     type: BLOCK
@@ -698,8 +698,8 @@ Items:
     collection:
       indirect: tripwire_hook
   bottle_2:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 398
+    contentItem: BRICK
+    contentCmd: 398
     contentHeight: 0.3125
     itemMaterial: CLAY_BALL
     cmd: 123

@@ -150,10 +150,10 @@ Items:
 
   # blue double windows collection
   glass_pane_light_blue_rhomb:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 26
+    contentItem: BRICK
+    contentCmd: 26
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 26
     display: ITEMBLOCK Window light blue rhomboid
     category: Glass
@@ -174,10 +174,10 @@ Items:
       I4: glass_pane_dark_red_rhomb
       J4: glass_pane_color_rhomb
   glass_pane_blue_rhomb:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 30
+    contentItem: BRICK
+    contentCmd: 30
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 30
     display: ITEMBLOCK Window blue rhomboid
     category: Glass
@@ -190,10 +190,10 @@ Items:
 
   # red double windows collection
   glass_pane_red_rhomb:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 37
+    contentItem: BRICK
+    contentCmd: 37
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 37
     display: ITEMBLOCK Window red rhomboid
     category: Glass
@@ -211,10 +211,10 @@ Items:
       I4: glass_pane_blue_rhomb
       J4: glass_pane_color_rhomb
   glass_pane_dark_red_rhomb:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 34
+    contentItem: BRICK
+    contentCmd: 34
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 34
     display: ITEMBLOCK Window dark red rhomboid
     category: Glass
@@ -227,10 +227,10 @@ Items:
 
   # mixed double windows collection
   glass_pane_color_rhomb:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 39
+    contentItem: BRICK
+    contentCmd: 39
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 39
     display: ITEMBLOCK Window colored rhomboid
     category: Glass
@@ -250,10 +250,10 @@ Items:
   
     # curtain collection
   curtain_blue:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 247
+    contentItem: BRICK
+    contentCmd: 247
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 247
     display: ITEMBLOCK Blue curtain
     category: Glass
@@ -282,10 +282,10 @@ Items:
       H4: curtain_gray
       I4: curtain_gray_bottom
   curtain_brown:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 250
+    contentItem: BRICK
+    contentCmd: 250
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 250
     display: ITEMBLOCK Brown curtain
     category: Glass
@@ -297,10 +297,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_gray:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 253
+    contentItem: BRICK
+    contentCmd: 253
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 253
     display: ITEMBLOCK Gray curtain
     category: Glass
@@ -312,10 +312,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_green:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 256
+    contentItem: BRICK
+    contentCmd: 256
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 256
     display: ITEMBLOCK Green curtain
     category: Glass
@@ -327,10 +327,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_red:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 259
+    contentItem: BRICK
+    contentCmd: 259
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 259
     display: ITEMBLOCK Red curtain
     category: Glass
@@ -342,10 +342,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_white:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 262
+    contentItem: BRICK
+    contentCmd: 262
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 262
     display: ITEMBLOCK White curtain
     category: Glass
@@ -423,10 +423,10 @@ Items:
     collection:
       indirect: glass_pane_pink
   glass_pane_light_blue_circle:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 25
+    contentItem: BRICK
+    contentCmd: 25
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 25
     display: ITEMBLOCK Window light blue circle
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -435,10 +435,10 @@ Items:
     collection:
       indirect: glass_pane_light_blue_rhomb
   glass_pane_light_blue_diamond:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 27
+    contentItem: BRICK
+    contentCmd: 27
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 27
     display: ITEMBLOCK Window light blue diamond
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -447,10 +447,10 @@ Items:
     collection:
       indirect: glass_pane_light_blue_rhomb
   glass_pane_light_blue_wood:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 28
+    contentItem: BRICK
+    contentCmd: 28
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 28
     display: ITEMBLOCK Window light blue wood
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -459,10 +459,10 @@ Items:
     collection:
       indirect: glass_pane_light_blue_rhomb
   glass_pane_blue_circle:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 29
+    contentItem: BRICK
+    contentCmd: 29
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 29
     display: ITEMBLOCK Window blue circle
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -471,10 +471,10 @@ Items:
     collection:
       indirect: glass_pane_light_blue_rhomb
   glass_pane_blue_diamond:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 31
+    contentItem: BRICK
+    contentCmd: 31
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 31
     display: ITEMBLOCK Window blue diamond
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -483,10 +483,10 @@ Items:
     collection:
       indirect: glass_pane_light_blue_rhomb
   glass_pane_green_wood:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 32
+    contentItem: BRICK
+    contentCmd: 32
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 32
     display: ITEMBLOCK Window green wood
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -495,10 +495,10 @@ Items:
     collection:
       indirect: glass_pane_light_blue_rhomb
   glass_pane_dark_red_circle:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 33
+    contentItem: BRICK
+    contentCmd: 33
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 33
     display: ITEMBLOCK Window dark red circle
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -507,10 +507,10 @@ Items:
     collection:
       indirect: glass_pane_red_rhomb
   glass_pane_dark_red_diamond:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 35
+    contentItem: BRICK
+    contentCmd: 35
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 35
     display: ITEMBLOCK Window dark red diamond
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -519,10 +519,10 @@ Items:
     collection:
       indirect: glass_pane_red_rhomb
   glass_pane_dark_red_wood:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 36
+    contentItem: BRICK
+    contentCmd: 36
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 36
     display: ITEMBLOCK Window dark red wood
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -531,10 +531,10 @@ Items:
     collection:
       indirect: glass_pane_red_rhomb
   glass_pane_color_circle:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 38
+    contentItem: BRICK
+    contentCmd: 38
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 38
     display: ITEMBLOCK Window colored circle
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -543,10 +543,10 @@ Items:
     collection:
       indirect: glass_pane_color_rhomb
   glass_pane_color_diamond:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 40
+    contentItem: BRICK
+    contentCmd: 40
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 40
     display: ITEMBLOCK Window coloured diamond
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -555,10 +555,10 @@ Items:
     collection:
       indirect: glass_pane_color_rhomb
   glass_pane_color_wood:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 41
+    contentItem: BRICK
+    contentCmd: 41
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 41
     display: ITEMBLOCK Window coloured wood
     type: ITEM_BLOCK_TWO_DIRECTIONS
@@ -567,10 +567,10 @@ Items:
     collection:
       indirect: glass_pane_color_rhomb
   curtain_blue_top:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 246
+    contentItem: BRICK
+    contentCmd: 246
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 246
     display: ITEMBLOCK Blue curtain top
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -581,10 +581,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_blue_bottom:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 248
+    contentItem: BRICK
+    contentCmd: 248
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 248
     display: ITEMBLOCK Blue curtain bottom
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -595,10 +595,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_brown_top:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 249
+    contentItem: BRICK
+    contentCmd: 249
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 249
     display: ITEMBLOCK Brown curtain top
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -609,10 +609,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_brown_bottom:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 251
+    contentItem: BRICK
+    contentCmd: 251
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 251
     display: ITEMBLOCK Brown curtain bottom
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -623,10 +623,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_gray_top:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 252
+    contentItem: BRICK
+    contentCmd: 252
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 252
     display: ITEMBLOCK Gray curtain top
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -637,10 +637,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_gray_bottom:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 254
+    contentItem: BRICK
+    contentCmd: 254
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 254
     display: ITEMBLOCK Gray curtain bottom
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -651,10 +651,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_green_top:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 255
+    contentItem: BRICK
+    contentCmd: 255
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 255
     display: ITEMBLOCK Green curtain top
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -665,10 +665,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_green_bottom:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 257
+    contentItem: BRICK
+    contentCmd: 257
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 257
     display: ITEMBLOCK Green curtain bottom
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -679,10 +679,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_red_top:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 258
+    contentItem: BRICK
+    contentCmd: 258
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 258
     display: ITEMBLOCK Red curtain top
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -693,10 +693,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_red_bottom:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 260
+    contentItem: BRICK
+    contentCmd: 260
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 260
     display: ITEMBLOCK Red curtain bottom
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -707,10 +707,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_white_top:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 261
+    contentItem: BRICK
+    contentCmd: 261
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 261
     display: ITEMBLOCK White curtain top
     type: ITEM_BLOCK_FOUR_DIRECTIONS
@@ -721,10 +721,10 @@ Items:
     collection:
       indirect: curtain_blue
   curtain_white_bottom:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 263
+    contentItem: BRICK
+    contentCmd: 263
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 263
     display: ITEMBLOCK White curtain bottom
     type: ITEM_BLOCK_FOUR_DIRECTIONS

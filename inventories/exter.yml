@@ -364,7 +364,7 @@ Items:
 
   # clothesline collection
   clothesline_empty_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 183
     display: Empty clothesline
     category: Exter
@@ -383,7 +383,7 @@ Items:
       C2: clothesline_dress_regular
       C0: clothesline_empty_regular
   clothesline_dress_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 185
     display: Clothesline with dress
     category: Exter
@@ -396,7 +396,7 @@ Items:
       indirect: clothesline_empty_regular
   # inside collection
   clothesline_shirt_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 190
     display: Clothesline with shirt
     type: FOUR_DIRECTIONS
@@ -407,7 +407,7 @@ Items:
     collection:
       indirect: clothesline_empty_regular
   clothesline_shirt_long_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 199
     display: Clothesline with long shirt
     type: FOUR_DIRECTIONS
@@ -418,7 +418,7 @@ Items:
     collection:
       indirect: clothesline_empty_regular
   clothesline_pants_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 205
     display: Clothesline with pants
     type: FOUR_DIRECTIONS
@@ -429,7 +429,7 @@ Items:
     collection:
       indirect: clothesline_empty_regular
   clothesline_socks_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 211
     display: Clothesline with socks
     type: FOUR_DIRECTIONS
@@ -440,7 +440,7 @@ Items:
     collection:
       indirect: clothesline_empty_regular
   clothesline_sheet_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 219
     display: Clothesline with sheet
     type: FOUR_DIRECTIONS
@@ -451,7 +451,7 @@ Items:
     collection:
       indirect: clothesline_empty_regular
   clothesline_rag_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 225
     display: Clothesline with rag
     type: FOUR_DIRECTIONS
@@ -464,7 +464,7 @@ Items:
 
   # barrels collection
   barrel_empty:
-    itemMaterial: DIAMOND_CHESTPLATE
+    itemMaterial: BRICK
     cmd: 401
     display: Barrel empty
     category: Exter
@@ -493,8 +493,8 @@ Items:
       J4: barrel_meat_half_regular
       C0: barrel_empty
   barrel_apples_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 402
     display: Barrel apples full
     category: Exter
@@ -503,8 +503,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_grapes_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 404
     display: Barrel grapes full
     category: Exter
@@ -513,8 +513,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_potatoes_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 408
     display: Barrel potatoes full
     category: Exter
@@ -523,8 +523,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_onions_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 410
     display: Barrel onions full
     category: Exter
@@ -533,8 +533,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_wheat_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 412
     display: Barrel wheat full
     category: Exter
@@ -543,8 +543,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_meat_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 414
     display: Barrel meat full
     category: Exter
@@ -553,8 +553,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_fish_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 416
     display: Barrel fish full
     category: Exter
@@ -563,8 +563,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_coal_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 418
     display: Barrel coal full
     category: Exter
@@ -573,8 +573,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_water_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 420
     display: Barrel water full
     category: Exter
@@ -584,8 +584,8 @@ Items:
       indirect: barrel_empty
   # inside collection
   barrel_apples_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 403
     display: Barrel apples half
     type: BLOCK
@@ -593,8 +593,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_grapes_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 405
     display: Barrel grapes half
     type: BLOCK
@@ -602,8 +602,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_tomatoes_full_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 406
     display: Barrel tomatoes full
     type: BLOCK
@@ -611,8 +611,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_tomatoes_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 407
     display: Barrel tomatoes half
     type: BLOCK
@@ -620,8 +620,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_potatoes_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 409
     display: Barrel potatoes half
     type: BLOCK
@@ -629,8 +629,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_onions_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 411
     display: Barrel onions half
     type: BLOCK
@@ -638,8 +638,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_wheat_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 413
     display: Barrel wheat half
     type: BLOCK
@@ -647,8 +647,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_meat_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 415
     display: Barrel meat half
     type: BLOCK
@@ -656,8 +656,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_fish_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 417
     display: Barrel fish half
     type: BLOCK
@@ -665,8 +665,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_coal_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 419
     display: Barrel coal half
     type: BLOCK
@@ -674,8 +674,8 @@ Items:
     collection:
       indirect: barrel_empty
   barrel_water_half_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
+    contentItem: BRICK
+    itemMaterial: BRICK
     cmd: 400
     display: Barrel water half
     type: BLOCK
