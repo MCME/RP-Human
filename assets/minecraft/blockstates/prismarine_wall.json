@@ -1,0 +1,56 @@
+{
+  "multipart": [
+    {"when": { "up": "true", "north": "low", "east": "none", "south": "none", "west": "low" },
+      "apply": [
+			{ "model": "minecraft:block/oak_log_diagonal" }
+	  ]},
+	{"when": { "up": "true", "north": "low", "east": "low", "south": "none", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/oak_log_diagonal", "y": 90 }
+	  ]},
+	{"when": { "up": "true", "north": "none", "east": "low", "south": "low", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/oak_log_diagonal", "y": 180 }
+	  ]},
+	{"when": { "up": "true", "north": "none", "east": "none", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "minecraft:block/oak_log_diagonal", "y": 270 }
+	  ]},
+	{"when": { "up": "true", "north": "none", "east": "tall", "south": "none", "west": "tall" },
+      "apply": [
+			{ "model": "minecraft:block/oak_log_vertical_slab"}
+	  ]},
+	{"when": { "up": "false", "north": "none", "east": "tall", "south": "none", "west": "tall" },
+      "apply": [
+			{ "model": "minecraft:block/oak_log_vertical_slab", "y": 180}
+	  ]},
+	{"when": { "up": "true", "north": "tall", "east": "none", "south": "tall", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/oak_log_vertical_slab"}
+	  ]},
+	{"when": { "up": "false", "north": "tall", "east": "none", "south": "tall", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/oak_log_vertical_slab", "y": 180}
+	  ]},
+	{"when": { "up": "false", "north": "low", "east": "none", "south": "none", "west": "tall" },
+      "apply": [
+			{ "model": "minecraft:block/branch_45_diagonal"}
+	  ]},
+	{"when": { "up": "false", "north": "tall", "east": "low", "south": "none", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/branch_45_diagonal_2"}
+	  ]},
+	{"when": { "up": "false", "north": "none", "east": "tall", "south": "low", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/branch_45_diagonal_3"}
+	  ]},
+	{"when": { "up": "false", "north": "none", "east": "none", "south": "tall", "west": "low" },
+      "apply": [
+			{ "model": "minecraft:block/branch_45_diagonal_4"}
+	  ]},
+	{"when": { "up": "false", "north": "low", "east": "none", "south": "none", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/thin_branch_45_diagonal"}
+	  ]}
+  ]
+}
