@@ -48,9 +48,21 @@
       "apply": [
 			{ "model": "minecraft:block/branch_45_diagonal_4"}
 	  ]},
-	{"when": { "up": "false", "north": "low", "east": "none", "south": "none", "west": "none" },
+	{"when": { "up": "false", "north": "none", "east": "none", "south": "low", "west": "none" },
       "apply": [
 			{ "model": "minecraft:block/thin_branch_45_diagonal"}
+	  ]},
+	{"when": { "up": "false", "north": "none", "east": "none", "south": "none", "west": "low" },
+      "apply": [
+			{ "model": "minecraft:block/thin_branch_45_diagonal_2"}
+	  ]},
+	{"when": { "up": "false", "north": "low", "east": "none", "south": "none", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/thin_branch_45_diagonal_3"}
+	  ]},
+	{"when": { "up": "false", "north": "none", "east": "low", "south": "none", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/thin_branch_45_diagonal_4"}
 	  ]}
   ]
 }
