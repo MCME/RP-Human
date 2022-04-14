@@ -1,7 +1,7 @@
 Items:
   sandstone:
     itemMaterial: SANDSTONE
-    damage: 0
+    cmd: 0
     display: Large Sandstone Bricks
     category: Block
     type: VANILLA
@@ -31,8 +31,8 @@ Items:
       J2: silver_glazed_terracotta_ne
       J3: white_glazed_terracotta_ne
   trapdoor_double_slab_sandstone_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 282
+    itemMaterial: BRICK
+    cmd: 282
     display: Mossy Large Sandstone Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
@@ -42,8 +42,8 @@ Items:
     collection:
       indirect: sandstone
   trapdoor_double_slab_sandstone_seamless_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 249
+    itemMaterial: CLAY_BALL
+    cmd: 249
     display: Mossy Large Sandstone Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:birch_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
@@ -51,8 +51,8 @@ Items:
     collection:
       indirect: sandstone
   acacia_door_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 132
+    itemMaterial: CLAY_BALL
+    cmd: 132
     display: Large Sandstone Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_door[facing=north,half=lower,hinge=left,open=false,powered=false]
@@ -62,8 +62,8 @@ Items:
     collection:
       indirect: sandstone
   trapdoor_sandstone_normal_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 247
+    itemMaterial: CLAY_BALL
+    cmd: 247
     display: Large Sandstone Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:birch_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
@@ -72,21 +72,21 @@ Items:
       indirect: sandstone
   sandstone_stairs:
     itemMaterial: SANDSTONE_STAIRS
-    damage: 0
+    cmd: 0
     display: Large Sandstone Brick Stairs
     type: VANILLA
     collection:
       indirect: sandstone
   sandstone_slab:
     itemMaterial: SANDSTONE_SLAB
-    damage: 1
+    cmd: 1
     display: Large Sandstone Brick Slab
     type: VANILLA
     collection:
       indirect: sandstone
   end_portal_frame_empty_north:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 57
+    itemMaterial: CLAY_BALL
+    cmd: 57
     display: Large Sandstone Brick 3/4 Block
     category: Block
     type: BLOCK
@@ -94,16 +94,16 @@ Items:
     collection:
       indirect: sandstone
   end_portal_frame_filled_north:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 58
+    itemMaterial: CLAY_BALL
+    cmd: 58
     display: Large Sandstone Brick 3/4 Block (Stub)
     type: BLOCK
     blockData: minecraft:end_portal_frame[eye=true,facing=north]
     collection:
       indirect: sandstone
   dark_oak_fence_gate_closed:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 235
+    itemMaterial: CLAY_BALL
+    cmd: 235
     display: Large Sandstone Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=false,powered=false]
@@ -113,8 +113,8 @@ Items:
     collection:
       indirect: sandstone
   repeater_delay3_s:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 190
+    itemMaterial: CLAY_BALL
+    cmd: 190
     display: Mossy Large Sandstone Brick Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=3,facing=south,locked=false,powered=false]
@@ -122,9 +122,9 @@ Items:
     collection:
       indirect: sandstone
   vertical_slab_double_slab_sandstone_seamless_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 58
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 58
     display: Mossy Large Sandstone Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=true,powered=false]
@@ -134,8 +134,8 @@ Items:
     collection:
       indirect: sandstone
   double_slab_sandstone_seamless:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 60
+    itemMaterial: CLAY_BALL
+    cmd: 60
     display: Mossy Large Sandstone Bricks
     category: Block
     type: BLOCK
@@ -144,7 +144,7 @@ Items:
       indirect: sandstone
   red_sandstone:
     itemMaterial: RED_SANDSTONE
-    damage: 0
+    cmd: 0
     display: Small Sandstone Bricks
     category: Block
     type: VANILLA
@@ -174,8 +174,8 @@ Items:
       J3: magenta_glazed_terracotta
       J4: jungle_door_bottom
   trapdoor_double_slab_red_sandstone_seamless_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 285
+    itemMaterial: BRICK
+    cmd: 285
     display: Mossy Small Sandstone Bricks Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
@@ -185,8 +185,8 @@ Items:
     collection:
       indirect: red_sandstone
   trapdoor_double_slab_red_sandstone_seamless_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 250
+    itemMaterial: CLAY_BALL
+    cmd: 250
     display: Mossy Small Sandstone Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:birch_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
@@ -195,14 +195,14 @@ Items:
       indirect: red_sandstone
   red_sandstone_stairs:
     itemMaterial: RED_SANDSTONE_STAIRS
-    damage: 0
+    cmd: 0
     display: Small Sandstone Brick Slab
     type: VANILLA
     collection:
       indirect: red_sandstone
   piston_sticky_extended:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 59
+    itemMaterial: CLAY_BALL
+    cmd: 59
     display: Large Sandstone Brick Vertical 3/4 Block
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:sticky_piston[extended=true,facing=north]
@@ -212,8 +212,8 @@ Items:
     collection:
       indirect: red_sandstone
   dark_oak_fence_gate_powered_closed:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 237
+    itemMaterial: CLAY_BALL
+    cmd: 237
     display: Small Sandstone Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=false,powered=true]
@@ -223,9 +223,9 @@ Items:
     collection:
       indirect: red_sandstone
   vertical_slab_double_slab_red_sandstone_seamless_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 61
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 61
     display: Mossy Small Sandstone Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=true,powered=true]
@@ -235,8 +235,8 @@ Items:
     collection:
       indirect: red_sandstone
   double_slab_red_sandstone_seamless:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 61
+    itemMaterial: CLAY_BALL
+    cmd: 61
     display: Mossy Small Sandstone Bricks
     category: Block
     type: BLOCK
@@ -244,8 +244,8 @@ Items:
     collection:
       indirect: red_sandstone
   repeater_delay3_w:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 191
+    itemMaterial: CLAY_BALL
+    cmd: 191
     display: Mossy Small Sandstone Brick Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=3,facing=west,locked=false,powered=false]
@@ -254,14 +254,14 @@ Items:
       indirect: red_sandstone
   red_sandstone_slab:
     itemMaterial: RED_SANDSTONE_SLAB
-    damage: 0
+    cmd: 0
     display: Small Sandstone Brick Slab
     type: VANILLA
     collection:
       indirect: red_sandstone
   trapdoor_red_sandstone_normal_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 248
+    itemMaterial: CLAY_BALL
+    cmd: 248
     display: Small Sandstone Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:birch_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]
@@ -269,8 +269,8 @@ Items:
     collection:
       indirect: red_sandstone
   jungle_door_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 131
+    itemMaterial: CLAY_BALL
+    cmd: 131
     display: Small Sandstone Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:jungle_door[facing=north,half=lower,hinge=left,open=false,powered=false]
@@ -280,8 +280,8 @@ Items:
     collection:
       indirect: red_sandstone
   double_slab_sandstone:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 62
+    itemMaterial: CLAY_BALL
+    cmd: 62
     display: Ornamental Sandstone Bricks
     category: Block
     type: BLOCK
@@ -305,9 +305,9 @@ Items:
       F4: sandstone
       G4: red_sandstone
   vertical_slab_sandstone_smooth_regular:
-    contentItem: DIAMOND_CHESTPLATE
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 64
+    contentItem: BRICK
+    itemMaterial: BRICK
+    cmd: 64
     display: Smooth Sandstone Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_fence_gate[facing=south,in_wall=true,open=true,powered=true]
@@ -317,8 +317,8 @@ Items:
     collection:
       indirect: double_slab_sandstone
   repeater_delay3_n:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 192
+    itemMaterial: CLAY_BALL
+    cmd: 192
     display: Smooth Sandstone Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=3,facing=north,locked=false,powered=false]
@@ -327,7 +327,7 @@ Items:
       indirect: double_slab_sandstone
   chiseled_sandstone:
     itemMaterial: CHISELED_SANDSTONE
-    damage: 1
+    cmd: 1
     display: Ornamental Sandstone
     category: Block
     type: VANILLA
@@ -335,7 +335,7 @@ Items:
       indirect: double_slab_sandstone
   smooth_sandstone:
     itemMaterial: CUT_SANDSTONE
-    damage: 2
+    cmd: 2
     display: Smooth Sandstone
     category: Block
     type: VANILLA
@@ -343,15 +343,15 @@ Items:
       indirect: double_slab_sandstone
   smooth_red_sandstone:
     itemMaterial: CUT_RED_SANDSTONE
-    damage: 2
+    cmd: 2
     display: Small Sandstone Brick with Red Bricks
     category: Block
     type: VANILLA
     collection:
       indirect: double_slab_sandstone
   trapdoor_sandstone_smooth_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 291
+    itemMaterial: BRICK
+    cmd: 291
     display: Smooth Sandstone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
@@ -361,8 +361,8 @@ Items:
     collection:
       indirect: double_slab_sandstone
   trapdoor_sandstone_smooth_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 251
+    itemMaterial: CLAY_BALL
+    cmd: 251
     display: Smooth Sandstone Thin Slab
     type: BISECTED
     blockDataDown: minecraft:birch_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
@@ -370,8 +370,8 @@ Items:
     collection:
       indirect: double_slab_sandstone
   trapdoor_sandstone_chiseled_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 288
+    itemMaterial: BRICK
+    cmd: 288
     display: Ornamental Sandstone Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
@@ -381,8 +381,8 @@ Items:
     collection:
       indirect: double_slab_sandstone
   trapdoor_sandstone_chiseled_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 289
+    itemMaterial: BRICK
+    cmd: 289
     display: Ornamental Sandstone Thin Slab
     type: BISECTED
     blockDataDown: minecraft:birch_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
@@ -391,23 +391,23 @@ Items:
       indirect: double_slab_sandstone
   chiseled_red_sandstone:
     itemMaterial: CHISELED_RED_SANDSTONE
-    damage: 1
+    cmd: 1
     display: Mixed Sandstone Bricks
     category: Block
     type: VANILLA
     collection:
       indirect: red_sandstone
   double_slab_red_sandstone:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 63
+    itemMaterial: CLAY_BALL
+    cmd: 63
     display: Mixed Small Sandstone Bricks
     type: BLOCK
     blockData: minecraft:red_sandstone_slab[type=double,waterlogged=false]
     collection:
       indirect: double_slab_sandstone
   large_small_sandstone_bricks:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 308
+    itemMaterial: CLAY_BALL
+    cmd: 308
     display: Large Sandstone Bricks-Small Sandstone Brick Corner
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:brown_mushroom_block[down=true,east=false,north=true,south=true,up=false,west=true]
@@ -417,8 +417,8 @@ Items:
     collection:
       indirect: double_slab_sandstone
   large_sandsonte_red_brick:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 307
+    itemMaterial: CLAY_BALL
+    cmd: 307
     display: Large Sandstone Brick-Red Brick Corner
     category: Block
     type: FOUR_DIRECTIONS
@@ -429,8 +429,8 @@ Items:
     collection:
       indirect: double_slab_sandstone
   sandstone_ornament_large_brick_corner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 309
+    itemMaterial: CLAY_BALL
+    cmd: 309
     display: Large Sandstone Brick-Ornamental Sandstone Brick Corner
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=false]
@@ -440,8 +440,8 @@ Items:
     collection:
       indirect: double_slab_sandstone
   brown_mushroom_block_c:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 65
+    itemMaterial: CLAY_BALL
+    cmd: 65
     display: Small Sandstone Brick Cornerstones
     category: Block
     type: FOUR_DIRECTIONS
@@ -452,8 +452,8 @@ Items:
     collection:
       indirect: double_slab_sandstone
   brown_mushroom_block_sw:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 66
+    itemMaterial: CLAY_BALL
+    cmd: 66
     display: Ornamental Sandstone Brick Cornerstones
     category: Block
     type: FOUR_DIRECTIONS
@@ -464,8 +464,8 @@ Items:
     collection:
       indirect: double_slab_sandstone
   brown_mushroom_block_se:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 67
+    itemMaterial: CLAY_BALL
+    cmd: 67
     display: Small Sandstone Brick with Red Brick Cornerstones
     category: Block
     type: FOUR_DIRECTIONS
@@ -476,8 +476,8 @@ Items:
     collection:
       indirect: double_slab_sandstone
   brown_mushroom_normal:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 71
+    itemMaterial: CLAY_BALL
+    cmd: 71
     display: Sandstone Pillar End
     category: Block
     type: SIX_FACES
@@ -490,8 +490,8 @@ Items:
     collection:
       indirect: cactus_stage5
   brown_mushroom_seu:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 72
+    itemMaterial: CLAY_BALL
+    cmd: 72
     display: Sandstone Pillar Middle
     type: THREE_AXIS
     blockDataZ: minecraft:brown_mushroom_block[down=true,east=false,north=true,south=true,up=true,west=true]
@@ -500,8 +500,8 @@ Items:
     collection:
       indirect: cactus_stage5
   brown_mushroom_nwd:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 73
+    itemMaterial: CLAY_BALL
+    cmd: 73
     display: Sandstone Pillar Middle 
     type: THREE_AXIS
     blockDataZ: minecraft:brown_mushroom_block[down=false,east=true,north=true,south=true,up=false,west=false]
@@ -510,8 +510,8 @@ Items:
     collection:
       indirect: cactus_stage5
   anvil_damage0_ne:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 288
+    itemMaterial: CLAY_BALL
+    cmd: 288
     display: Large Sandstone Brick Balustrade
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:anvil[facing=east]
@@ -521,8 +521,8 @@ Items:
     collection:
       indirect: cactus_stage5
   anvil_damage2_sw:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 291
+    itemMaterial: CLAY_BALL
+    cmd: 291
     display: Rough Sandstone Balustrade
     category: Block
     type: FOUR_DIRECTIONS
@@ -533,24 +533,24 @@ Items:
     collection:
       indirect: cactus_stage5
   cactus_stage3:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 74
+    itemMaterial: CLAY_BALL
+    cmd: 74
     display: Fancy Sandstone Pillar Bottom
     type: BLOCK
     blockData: minecraft:cactus[age=3]
     collection:
       indirect: cactus_stage5
   cactus_stage4:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 75
+    itemMaterial: CLAY_BALL
+    cmd: 75
     display: Fancy Sandstone Pillar Middle
     type: BLOCK
     blockData: minecraft:cactus[age=4]
     collection:
       indirect: cactus_stage5
   cactus_stage5:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 76
+    itemMaterial: CLAY_BALL
+    cmd: 76
     display: Fancy sandstone Pillar Top
     category: Block
     type: BLOCK
@@ -581,27 +581,27 @@ Items:
       F4: red_sandstone
       G4: double_slab_netherbrick_seamless
   repeater_delay3_e:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 193
+    itemMaterial: CLAY_BALL
+    cmd: 193
     display: Small Red Brick Slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=3,facing=east,locked=false,powered=false]
     collection:
       indirect: red_nether_brick
   upper_slab_double_slab_nether_brick:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 66
+    contentItem: BRICK
+    contentCmd: 66
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 66
+    itemMaterial: BRICK
+    cmd: 66
     display: ITEMBLOCK Small Red Brick Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
     collection:
       indirect: red_nether_brick
   trapdoor_nether_brick_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 294 
+    itemMaterial: BRICK
+    cmd: 294 
     display: Small Red Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
@@ -611,8 +611,8 @@ Items:
     collection:
       indirect: red_nether_brick
   trapdoor_nether_brick_bottom_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 295
+    itemMaterial: BRICK
+    cmd: 295
     display: Small Red Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:iron_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
@@ -620,8 +620,8 @@ Items:
     collection:
       indirect: red_nether_brick
   vertical_slab_double_slab_nether_brick_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 67
+    itemMaterial: BRICK
+    cmd: 67
     display: Small Red Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:acacia_fence_gate[facing=south,in_wall=true,open=false,powered=true]
@@ -631,8 +631,8 @@ Items:
     collection:
       indirect: red_nether_brick
   double_slab_netherbrick_seamless:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 78
+    itemMaterial: CLAY_BALL
+    cmd: 78
     display: Small Brown Bricks
     category: Block
     type: BLOCK
@@ -653,8 +653,8 @@ Items:
       G4: sandstone_brown_brick_upper
       H4: red_sandstone
   double_slab_nether_brick:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 77
+    itemMaterial: CLAY_BALL
+    cmd: 77
     display: Mossy Small Brown Bricks
     category: Block
     type: BLOCK
@@ -662,8 +662,8 @@ Items:
     collection:
       indirect: double_slab_netherbrick_seamless
   dark_oak_door_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 133
+    itemMaterial: CLAY_BALL
+    cmd: 133
     display: Small Brown Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:dark_oak_door[facing=north,half=lower,hinge=left,open=false,powered=false]
@@ -673,8 +673,8 @@ Items:
     collection:
       indirect: double_slab_netherbrick_seamless
   trapdoor_nether_brick_seamless_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 252
+    itemMaterial: CLAY_BALL
+    cmd: 252
     display: Small Brown Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:iron_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]
@@ -682,8 +682,8 @@ Items:
     collection:
       indirect: double_slab_netherbrick_seamless
   trapdoor_mushroom_block_s_open_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 300
+    itemMaterial: BRICK
+    cmd: 300
     display: Mossy Small Brown Brick Vertical Thin Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:iron_trapdoor[facing=north,half=top,open=true,powered=true,waterlogged=false]
@@ -693,8 +693,8 @@ Items:
     collection:
       indirect: double_slab_netherbrick_seamless
   trapdoor_mushroom_block_s_bottom:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 253
+    itemMaterial: CLAY_BALL
+    cmd: 253
     display: Mossy Small Brown Brick Thin Slab
     type: BISECTED
     blockDataDown: minecraft:iron_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]
@@ -702,8 +702,8 @@ Items:
     collection:
       indirect: double_slab_netherbrick_seamless
   repeater_delay4_s:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 194
+    itemMaterial: CLAY_BALL
+    cmd: 194
     display: Small Brown Brick Slab
     type: BISECTED
     blockDataDown: minecraft:repeater[delay=4,facing=south,locked=false,powered=false]
@@ -711,8 +711,8 @@ Items:
     collection:
       indirect: double_slab_netherbrick_seamless
   sandstone_brown_brick_lower:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 312
+    itemMaterial: CLAY_BALL
+    cmd: 312
     display: Small Sandstone Brick-Small Brown Brick Left
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:brown_mushroom_block[down=true,east=false,north=true,south=false,up=false,west=true]
@@ -722,8 +722,8 @@ Items:
     collection:
       indirect: double_slab_netherbrick_seamless
   acacia_fence_gate_powered_ne:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 321
+    itemMaterial: CLAY_BALL
+    cmd: 321
     display: Small Brown Brick Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_fence_gate[facing=south,in_wall=true,open=false,powered=true]
@@ -733,8 +733,8 @@ Items:
     collection:
       indirect: double_slab_netherbrick_seamless
   vertical_slab_brown_mushroom_block_s_regular:
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 113
+    itemMaterial: BRICK
+    cmd: 113
     display: Mossy Small Brown Bricks Vertical Slab
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:birch_fence_gate[facing=south,in_wall=true,open=false,powered=false]
@@ -744,27 +744,27 @@ Items:
     collection:
       indirect: double_slab_netherbrick_seamless
   upper_slab_brown_mushroom_block_s:
-    contentItem: DIAMOND_CHESTPLATE
-    contentDamage: 112
+    contentItem: BRICK
+    contentCmd: 112
     contentHeight: 0.3125
-    itemMaterial: DIAMOND_CHESTPLATE
-    damage: 112
+    itemMaterial: BRICK
+    cmd: 112
     display: ITEMBLOCK Mossy Small Brown Brick Slab (upper)
     type: ITEM_BLOCK
     blockData: minecraft:nether_brick_slab[type=top,waterlogged=false]
     collection:
       indirect: double_slab_netherbrick_seamless
   repeater_delay4_w:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 195
+    itemMaterial: CLAY_BALL
+    cmd: 195
     display: Mossy Small Brown Brick Slab (lower)
     type: BLOCK
     blockData: minecraft:repeater[delay=4,facing=west,locked=false,powered=false]
     collection:
       indirect: double_slab_netherbrick_seamless
   sandstone_brown_brick_upper:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 313
+    itemMaterial: CLAY_BALL
+    cmd: 313
     display: Small Sandstone Brick-Small Brown Brick Right
     category: Block
     type: FOUR_DIRECTIONS
@@ -775,8 +775,8 @@ Items:
     collection:
       indirect: double_slab_netherbrick_seamless
   lime_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 115
+    itemMaterial: CLAY_BALL
+    cmd: 115
     display: Light Stucco 
     category: Block
     blockData: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=false,west=true]
@@ -799,8 +799,8 @@ Items:
       I4: pink_glazed_terracotta
       J4: yellow_glazed_terracotta_ne
   white_glazed_terracotta_sw:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 299
+    itemMaterial: CLAY_BALL
+    cmd: 299
     display: Light Stucco Cornerstones
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:white_glazed_terracotta[facing=south]
@@ -810,8 +810,8 @@ Items:
     collection:
       indirect: lime_stucco
   white_glazed_terracotta_ne:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 300
+    itemMaterial: CLAY_BALL
+    cmd: 300
     display: Large Sandstone brick-Light Stucco Corner
     category: Block
     type: FOUR_DIRECTIONS
@@ -823,14 +823,14 @@ Items:
       indirect: lime_stucco
   orange_glazed_terracotta:
     itemMaterial: ORANGE_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Small Sandstone Brick-Light Stucco Corner
     type: VANILLA
     collection:
       indirect: lime_stucco
   magenta_glazed_terracotta:
     itemMaterial: MAGENTA_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Weathered Light Stucco Lower Corner
     category: Block
     type: VANILLA
@@ -838,30 +838,30 @@ Items:
       indirect: lime_stucco
   light_blue_glazed_terracotta:
     itemMaterial: LIGHT_BLUE_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Weathered Light Stucco Upper Corner
     type: VANILLA
     collection:
       indirect: lime_stucco
   light_stucco_inner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 239
+    itemMaterial: CLAY_BALL
+    cmd: 239
     display: Weathered Light Stucco Inner
     type: BLOCK
     blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=false,west=true]
     collection:
       indirect: lime_stucco
   light_stucco_outer:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 240
+    itemMaterial: CLAY_BALL
+    cmd: 240
     display: Weathered Light Stucco Outer
     type: BLOCK
     blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=true]
     collection:
       indirect: lime_stucco
   pink_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 120
+    itemMaterial: CLAY_BALL
+    cmd: 120
     display: Pink Stucco
     category: Block
     blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=false,west=false]
@@ -884,8 +884,8 @@ Items:
       I4: magenta_glazed_terracotta
       J4: white_glazed_terracotta_ne
   yellow_glazed_terracotta_sw:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 301
+    itemMaterial: CLAY_BALL
+    cmd: 301
     display: Pink Stucco Cornerstones
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:yellow_glazed_terracotta[facing=south]
@@ -895,8 +895,8 @@ Items:
     collection:
       indirect: pink_stucco
   yellow_glazed_terracotta_ne:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 302
+    itemMaterial: CLAY_BALL
+    cmd: 302
     display: Large Sandstone Brick-Pink Stucco Corner
     category: Block
     type: FOUR_DIRECTIONS
@@ -908,14 +908,14 @@ Items:
       indirect: pink_stucco
   lime_glazed_terracotta:
     itemMaterial: LIME_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Small Sandstone Brick-Pink Stucco Corner
     type: VANILLA
     collection:
       indirect: pink_stucco
   pink_glazed_terracotta:
     itemMaterial: PINK_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Weathered Pink Stucco Lower Corner
     category: Block
     type: VANILLA
@@ -923,30 +923,30 @@ Items:
       indirect: pink_stucco
   gray_glazed_terracotta:
     itemMaterial: GRAY_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Weathered Pink Stucco Upper Corner
     type: VANILLA
     collection:
       indirect: pink_stucco
   pink_stucco_inner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 241
+    itemMaterial: CLAY_BALL
+    cmd: 241
     display: Weathered Pink Stucco (inner)
     blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=true,west=true]
     type: BLOCK
     collection:
       indirect: pink_stucco
   pink_stucco_outer:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 242
+    itemMaterial: CLAY_BALL
+    cmd: 242
     display: Weathered Pink Stucco (outer)
     blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=false,up=true,west=true]
     type: BLOCK
     collection:
       indirect: pink_stucco
   blue_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 107
+    itemMaterial: CLAY_BALL
+    cmd: 107
     display: Blue Stucco
     category: Block
     blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=false,west=true]
@@ -970,8 +970,8 @@ Items:
       I4: pink_glazed_terracotta
       J4: yellow_glazed_terracotta_ne
   brown_glazed_terracotta_sw:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 305
+    itemMaterial: CLAY_BALL
+    cmd: 305
     display: Blue Stucco Cornerstones
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:brown_glazed_terracotta[facing=south]
@@ -981,8 +981,8 @@ Items:
     collection:
       indirect: blue_stucco
   brown_glazed_terracotta_ne:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 306
+    itemMaterial: CLAY_BALL
+    cmd: 306
     display: Large Sandstone Brick-Blue Stucco Corner
     category: Block
     type: FOUR_DIRECTIONS
@@ -994,14 +994,14 @@ Items:
       indirect: blue_stucco
   green_glazed_terracotta:
     itemMaterial: GREEN_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Small Sandstone Brick-Blue Stucco Corner
     type: VANILLA
     collection:
       indirect: blue_stucco
   red_glazed_terracotta:
     itemMaterial: RED_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Weathered Blue Stucco Lower Corner
     category: Block
     type: VANILLA
@@ -1009,38 +1009,38 @@ Items:
       indirect: blue_stucco
   black_glazed_terracotta:
     itemMaterial: BLACK_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Weathered Blue Stucco Upper Corner
     type: VANILLA
     collection:
       indirect: blue_stucco
   blue_stucco_inner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 236
+    itemMaterial: CLAY_BALL
+    cmd: 236
     display: Weathered Blue Stucco (inner)
     blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=true,west=false]
     type: BLOCK
     collection:
       indirect: blue_stucco
   blue_stucco_outer:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 245
+    itemMaterial: CLAY_BALL
+    cmd: 245
     display: Weathered Blue Stucco (outer)
     blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=false,up=true,west=false]
     type: BLOCK
     collection:
       indirect: blue_stucco
   purple_stained_hardened_clay:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 106
+    itemMaterial: CLAY_BALL
+    cmd: 106
     display: Ornamental Blue Stucco 
     blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=false,up=false,west=true]
     type: BLOCK
     collection:
       indirect: blue_stucco
   light_blue_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 110
+    itemMaterial: CLAY_BALL
+    cmd: 110
     display: Light Blue Stucco
     category: Block
     blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=false]
@@ -1064,8 +1064,8 @@ Items:
       I4: pink_glazed_terracotta
       J4: yellow_glazed_terracotta_ne
   silver_glazed_terracotta_sw:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 303
+    itemMaterial: CLAY_BALL
+    cmd: 303
     display: Light Blue Stucco Cornerstones
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:light_gray_glazed_terracotta[facing=south]
@@ -1075,8 +1075,8 @@ Items:
     collection:
       indirect: light_blue_stucco
   silver_glazed_terracotta_ne:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 304
+    itemMaterial: CLAY_BALL
+    cmd: 304
     display: Large Sandstone Brick-Light Blue Stucco Corner
     category: Block
     type: FOUR_DIRECTIONS
@@ -1088,14 +1088,14 @@ Items:
       indirect: light_blue_stucco
   cyan_glazed_terracotta:
     itemMaterial: CYAN_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Small Sandstone Brick-Light Blue Stucco Corner
     type: VANILLA
     collection:
       indirect: light_blue_stucco
   purple_glazed_terracotta:
     itemMaterial: PURPLE_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Weathered Light Blue Stucco Lower Corner
     category: Block
     type: VANILLA
@@ -1103,38 +1103,38 @@ Items:
       indirect: light_blue_stucco
   blue_glazed_terracotta:
     itemMaterial: BLUE_GLAZED_TERRACOTTA
-    damage: 0
+    cmd: 0
     display: Weathered Light Blue Stucco Upper Corner
     type: VANILLA
     collection:
       indirect: light_blue_stucco
   light_blue_stucco_inner:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 243
+    itemMaterial: CLAY_BALL
+    cmd: 243
     display: Weathered Light Blue Stucco (inner)
     blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=false,west=false]
     type: BLOCK
     collection:
       indirect: light_blue_stucco
   light_blue_stucco_outer:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 244
+    itemMaterial: CLAY_BALL
+    cmd: 244
     display: Weathered Light Blue Stucco (outer)
     blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=true,west=false]
     type: BLOCK
     collection:
       indirect: light_blue_stucco
   magenta_stucco_base:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 108
+    itemMaterial: CLAY_BALL
+    cmd: 108
     display: Ornamental Light Blue Stucco
     blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=true,up=false,west=true]
     type: BLOCK
     collection:
       indirect: light_blue_stucco
   red_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 121
+    itemMaterial: CLAY_BALL
+    cmd: 121
     display: Red Stucco
     category: Block
     blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=false,up=false,west=false]
@@ -1150,8 +1150,8 @@ Items:
       F1: white_stucco
       A1: light_yellow_stucco_ornament_thin
   red_plaster:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 457
+    itemMaterial: CLAY_BALL
+    cmd: 457
     display: Red Plaster
     category: Block
     type: BLOCK
@@ -1159,8 +1159,8 @@ Items:
     collection:
       indirect: red_stucco
   orange_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 119
+    itemMaterial: CLAY_BALL
+    cmd: 119
     display: Orange Stucco
     category: Block
     blockData: minecraft:brown_mushroom_block[down=false,east=true,north=false,south=false,up=false,west=false]
@@ -1168,8 +1168,8 @@ Items:
     collection:
       indirect: red_stucco
   yellow_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 118
+    itemMaterial: CLAY_BALL
+    cmd: 118
     display: Yellow Stucco
     category: Block
     blockData: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=true,west=true]
@@ -1177,8 +1177,8 @@ Items:
     collection:
       indirect: red_stucco
   loam_wall:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 455
+    itemMaterial: CLAY_BALL
+    cmd: 455
     display: Loam Wall
     category: Block
     type: BLOCK
@@ -1186,8 +1186,8 @@ Items:
     collection:
       indirect: red_stucco
   light_yellow_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 116
+    itemMaterial: CLAY_BALL
+    cmd: 116
     display: Light Yellow Stucco
     category: Block
     blockData: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=true,up=true,west=true]
@@ -1195,16 +1195,16 @@ Items:
     collection:
       indirect: red_stucco
   light_yellow_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 446
+    itemMaterial: CLAY_BALL
+    cmd: 446
     display: Light Yellow Stucco Thin
     blockData: minecraft:repeater[delay=1,facing=west,locked=true,powered=false]
     type: BLOCK
     collection:
       indirect: red_stucco
   light_yellow_stucco_ornament:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 117
+    itemMaterial: CLAY_BALL
+    cmd: 117
     display: Ornamental Light Yellow Stucco
     category: Block
     blockData: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=false,west=true]
@@ -1212,16 +1212,16 @@ Items:
     collection:
       indirect: red_stucco
   light_yellow_stucco_ornament_thin:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 444
+    itemMaterial: CLAY_BALL
+    cmd: 444
     display: Ornamental Light Yellow Stucco Thin
     blockData: minecraft:repeater[delay=1,facing=east,locked=true,powered=false]
     type: BLOCK
     collection:
       indirect: red_stucco
   white_stucco:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 114
+    itemMaterial: CLAY_BALL
+    cmd: 114
     display: White Stucco
     category: Block
     blockData: minecraft:brown_mushroom_block[down=true,east=true,north=false,south=true,up=true,west=true]

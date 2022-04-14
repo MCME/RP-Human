@@ -1,0 +1,2539 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/brick"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "itemblock/upper_slab_stone_natural"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "block/mossy_stone_brick_slab_double"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "block/red_mushroom_block_nsd",
+            "state": "[down=true,east=false,north=true,south=true,up=false,west=false]"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "block/red_mushroom_block_newud",
+            "state": "[north=true,south=false,east=true,west=true,up=true,down=true]"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "block/red_mushroom_block_neu",
+            "state": "[down=false,east=true,north=true,south=false,up=true,west=false]"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "block/red_mushroom_block_nsw",
+            "state": "[down=false,east=false,north=true,south=true,up=false,west=true]"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "block/red_mushroom_block_newu",
+            "state": "[north=true,south=false,east=true,west=true,up=true,down=false]"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "block/red_mushroom_block_newd",
+            "state": "[north=true,south=false,east=true,west=true,up=false,down=true]"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "block/red_mushroom_block_new",
+            "state": "[north=true,south=false,east=true,west=true,up=false,down=false]"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "block/red_mushroom_block_neud",
+            "state": "[down=true,east=true,north=true,south=false,up=true,west=false]"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "block/red_mushroom_block_ns",
+            "state": "[down=false,east=false,north=true,south=true,up=false,west=false]"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "block/red_mushroom_block_nswud",
+            "state": "[down=true,east=false,north=true,south=true,up=true,west=true]"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "block/red_mushroom_block_nwud",
+            "state": "[down=true,east=false,north=true,south=false,up=true,west=true]"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model": "itemblock/upper_slab_hardened_clay"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 17
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model": "itemblock/upper_slab_dirt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 19
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20
+            },
+            "model": "itemblock/upper_slab_clay"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 21
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 22
+            },
+            "model": "itemblock/upper_slab_mycelium_snow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 23
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 24
+            },
+            "model": "itemblock/upper_slab_coarse_dirt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 25
+            },
+            "model": "itemblock/glass_pane_light_blue_circle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 26
+            },
+            "model": "itemblock/glass_pane_light_blue_rhomb"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 27
+            },
+            "model": "itemblock/glass_pane_light_blue_diamond"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 28
+            },
+            "model": "itemblock/glass_pane_light_blue_wood"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 29
+            },
+            "model": "itemblock/glass_pane_blue_circle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 30
+            },
+            "model": "itemblock/glass_pane_blue_rhomb"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 31
+            },
+            "model": "itemblock/glass_pane_blue_diamond"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 32
+            },
+            "model": "itemblock/glass_pane_green_wood"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 33
+            },
+            "model": "itemblock/glass_pane_dark_red_circle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 34
+            },
+            "model": "itemblock/glass_pane_dark_red_rhomb"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 35
+            },
+            "model": "itemblock/glass_pane_dark_red_diamond"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 36
+            },
+            "model": "itemblock/glass_pane_dark_red_wood"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 37
+            },
+            "model": "itemblock/glass_pane_red_rhomb"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 38
+            },
+            "model": "itemblock/glass_pane_color_circle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39
+            },
+            "model": "itemblock/glass_pane_color_rhomb"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 40
+            },
+            "model": "itemblock/glass_pane_color_diamond"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 41
+            },
+            "model": "itemblock/glass_pane_color_wood"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 42
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 43
+            },
+            "model": "itemblock/upper_slab_sand"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 44
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 45
+            },
+            "model": "itemblock/upper_slab_gravel"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 46
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 47
+            },
+            "model": "itemblock/upper_slab_sediment"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 48
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 49
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 50
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 51
+            },
+            "model": "itemblock/upper_slab_mycelium"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 52
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 53
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 54
+            },
+            "model": "itemblock/replace_vertical_slab_sandstone_normal"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 55
+            },
+            "model": "itemblock/replace_vertical_slab_red_sandstone_normal"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 56
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 57
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 58
+            },
+            "model": "itemblock/vertical_slab_double_slab_sandstone_seamless"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 59
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 60
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 61
+            },
+            "model": "itemblock/vertical_slab_double_slab_red_sandstone_seamless"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 62
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 63
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 64
+            },
+            "model": "itemblock/vertical_slab_sandstone_smooth"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 65
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 66
+            },
+            "model": "itemblock/upper_slab_red_nether_brick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 67
+            },
+            "model": "itemblock/vertical_slab_red_nether_brick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 68
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 69
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 70
+            },
+            "model": "itemblock/replace_vertical_slab_double_slab_nether_brick_seamless"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 71
+            },
+            "model": "itemblock/replace_vertical_slab_quartz_block"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 72
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 73
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 74
+            },
+            "model": "itemblock/vertical_slab_double_slab_quartz_seamless"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 75
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 76
+            },
+            "model": "itemblock/upper_slab_end_stone"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 77
+            },
+            "model": "itemblock/replace_vertical_slab_end_stone"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 78
+            },
+            "model": "itemblock/replace_vertical_slab_stonebrick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 79
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 80
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 81
+            },
+            "model": "itemblock/vertical_slab_stonebrick_mossy"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 82
+            },
+            "model": "itemblock/slab_double_slab_stonebrick_seamless"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 83
+            },
+            "model": "itemblock/upper_slab_double_slab_stonebrick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 84
+            },
+            "model": "itemblock/replace_vertical_slab_double_slab_stonebrick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 85
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 86
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 87
+            },
+            "model": "itemblock/vertical_slab_double_slab_stonebrick_seamless"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 88
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 89
+            },
+            "model": "itemblock/upper_slab_double_slab_brick_seamless"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 90
+            },
+            "model": "itemblock/vertical_slab_double_slab_brick_seamless"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 91
+            },
+            "model": "itemblock/vertical_slab_brick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 92
+            },
+            "model": "itemblock/replace_vertical_slab_cobblestone"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 93
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 94
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 95
+            },
+            "model": "itemblock/vertical_slab_cobblestone_mossy"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 96
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 97
+            },
+            "model": "itemblock/upper_slab_double_slab_cobblestone"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 98
+            },
+            "model": "itemblock/vertical_slab_double_slab_cobblestone"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 99
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 100
+            },
+            "model": "itemblock/upper_slab_double_slab_cobblestone_seamless"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 101
+            },
+            "model": "itemblock/vertical_slab_double_slab_cobblestone_seamless"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 102
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 103
+            },
+            "model": "itemblock/upper_slab_monster_egg_cobblestone"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 104
+            },
+            "model": "itemblock/vertical_slab_monster_egg_cobblestone"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 105
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 106
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 107
+            },
+            "model": "itemblock/vertical_slab_double_slab_planks_acacia"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 108
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 109
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 110
+            },
+            "model": "itemblock/vertical_slab_double_slab_planks_dark_oak"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 111
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 112
+            },
+            "model": "itemblock/upper_slab_double_slab_nether_brick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 113
+            },
+            "model": "itemblock/vertical_slab_double_slab_nether_brick"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 114
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 115
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 116
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 117
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 118
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 119
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 120
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 121
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 122
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 123
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 124
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 125
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 126
+            },
+            "model": "itemblock/upper_slab_roof_thatch_dark"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 127
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 128
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 129
+            },
+            "model": "itemblock/inverted_stairs_double_slab_purpur_block"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 130
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 131
+            },
+            "model": "itemblock/inverted_stairs_double_slab_planks_jungle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 132
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 133
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 134
+            },
+            "model": "itemblock/outer_stairs_double_slab_purpur_block"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 135
+            },
+            "model": "itemblock/inner_stairs_double_slab_purpur_block"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 136
+            },
+            "model": "itemblock/outer_stairs_double_slab_planks_jungle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 137
+            },
+            "model": "itemblock/inner_stairs_double_slab_planks_jungle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 138
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 139
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 140
+            },
+            "model": "itemblock/inverted_outer_stairs_double_slab_purpur_block"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 141
+            },
+            "model": "itemblock/inverted_inner_stairs_double_slab_purpur_block"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 142
+            },
+            "model": "itemblock/inverted_outer_stairs_double_slab_planks_jungle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 143
+            },
+            "model": "itemblock/inverted_inner_stairs_double_slab_planks_jungle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 144
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 145
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 146
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 147
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 148
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 149
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 150
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 151
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 152
+            },
+            "model": "itemblock/inverted_stairs_inventory_double_slab_purpur_block"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 153
+            },
+            "model": "itemblock/inverted_stairs_inventory_double_slab_planks_jungle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 154
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 155
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 156
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 157
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 158
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 159
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 160
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 161
+            },
+            "model": "itemblock/replace_barrel_empty"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 162
+            },
+            "model": "itemblock/barrel_apples_full"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 163
+            },
+            "model": "itemblock/barrel_apples_half"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 164
+            },
+            "model": "itemblock/barrel_grapes_full"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 165
+            },
+            "model": "itemblock/barrel_grapes_half"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 166
+            },
+            "model": "itemblock/barrel_tomatoes_full"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 167
+            },
+            "model": "itemblock/barrel_tomatoes_half"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 168
+            },
+            "model": "itemblock/barrel_potatoes_full"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 169
+            },
+            "model": "itemblock/barrel_potatoes_half"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 170
+            },
+            "model": "itemblock/barrel_onions_full"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 171
+            },
+            "model": "itemblock/barrel_onions_half"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 172
+            },
+            "model": "itemblock/barrel_wheat_full"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 173
+            },
+            "model": "itemblock/barrel_wheat_half"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 174
+            },
+            "model": "itemblock/barrel_meat_full"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 175
+            },
+            "model": "itemblock/barrel_meat_half"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 176
+            },
+            "model": "itemblock/barrel_fish_full"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 177
+            },
+            "model": "itemblock/barrel_fish_half"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 178
+            },
+            "model": "itemblock/barrel_coal_full"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 179
+            },
+            "model": "itemblock/barrel_coal_half"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 180
+            },
+            "model": "itemblock/barrel_water_full"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 181
+            },
+            "model": "itemblock/barrel_water_half"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 182
+            },
+            "model": "itemblock/clothesline_empty"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 183
+            },
+            "model": "itemblock/clothesline_empty_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 184
+            },
+            "model": "itemblock/clothesline_empty_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 185
+            },
+            "model": "itemblock/clothesline_dress"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 186
+            },
+            "model": "itemblock/clothesline_dress_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 187
+            },
+            "model": "itemblock/clothesline_dress_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 188
+            },
+            "model": "itemblock/clothesline_dress_3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 189
+            },
+            "model": "itemblock/clothesline_dress_4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 190
+            },
+            "model": "itemblock/clothesline_shirt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 191
+            },
+            "model": "itemblock/clothesline_shirt_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 192
+            },
+            "model": "itemblock/clothesline_shirt_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 193
+            },
+            "model": "itemblock/clothesline_shirt_3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 194
+            },
+            "model": "itemblock/clothesline_shirt_4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 195
+            },
+            "model": "itemblock/clothesline_shirt_5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 196
+            },
+            "model": "itemblock/clothesline_shirt_6"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 197
+            },
+            "model": "itemblock/clothesline_shirt_7"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 198
+            },
+            "model": "itemblock/clothesline_shirt_8"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 199
+            },
+            "model": "itemblock/clothesline_shirt_long"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 200
+            },
+            "model": "itemblock/clothesline_shirt_long_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 201
+            },
+            "model": "itemblock/clothesline_shirt_long_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 202
+            },
+            "model": "itemblock/clothesline_shirt_long_3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 203
+            },
+            "model": "itemblock/clothesline_shirt_long_4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 204
+            },
+            "model": "itemblock/clothesline_shirt_long_5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 205
+            },
+            "model": "itemblock/clothesline_pants"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 206
+            },
+            "model": "itemblock/clothesline_pants_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 207
+            },
+            "model": "itemblock/clothesline_pants_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 208
+            },
+            "model": "itemblock/clothesline_pants_3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 209
+            },
+            "model": "itemblock/clothesline_pants_4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 210
+            },
+            "model": "itemblock/clothesline_pants_5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 211
+            },
+            "model": "itemblock/clothesline_socks"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 212
+            },
+            "model": "itemblock/clothesline_socks_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 213
+            },
+            "model": "itemblock/clothesline_socks_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 214
+            },
+            "model": "itemblock/clothesline_socks_3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 215
+            },
+            "model": "itemblock/clothesline_socks_4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 216
+            },
+            "model": "itemblock/clothesline_socks_5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 217
+            },
+            "model": "itemblock/clothesline_socks_6"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 218
+            },
+            "model": "itemblock/clothesline_socks_7"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 219
+            },
+            "model": "itemblock/clothesline_sheet"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 220
+            },
+            "model": "itemblock/clothesline_sheet_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 221
+            },
+            "model": "itemblock/clothesline_sheet_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 222
+            },
+            "model": "itemblock/clothesline_sheet_3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 223
+            },
+            "model": "itemblock/clothesline_sheet_4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 224
+            },
+            "model": "itemblock/clothesline_sheet_5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 225
+            },
+            "model": "itemblock/clothesline_rag"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 226
+            },
+            "model": "itemblock/clothesline_rag_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 227
+            },
+            "model": "itemblock/clothesline_rag_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 228
+            },
+            "model": "itemblock/clothesline_rag_3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 229
+            },
+            "model": "itemblock/clothesline_rag_4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 230
+            },
+            "model": "itemblock/clothesline_rag_5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 231
+            },
+            "model": "itemblock/clothesline_rag_6"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 232
+            },
+            "model": "itemblock/clothesline_rag_7"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 233
+            },
+            "model": "itemblock/clothesline_rag_8"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 234
+            },
+            "model": "itemblock/clothesline_rag_9"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 235
+            },
+            "model": "itemblock/clothesline_rag_10"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 236
+            },
+            "model": "itemblock/clothesline_rag_11"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 237
+            },
+            "model": "itemblock/clothesline_rag_12"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 238
+            },
+            "model": "itemblock/clothesline_rag_13"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 239
+            },
+            "model": "itemblock/replace_table_low_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 240
+            },
+            "model": "itemblock/replace_table_low_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 241
+            },
+            "model": "itemblock/replace_stool_red"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 242
+            },
+            "model": "itemblock/replace_stool_wood"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 243
+            },
+            "model": "itemblock/bed_blue_half"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 244
+            },
+            "model": "itemblock/bed_green_half"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 245
+            },
+            "model": "itemblock/bed_grey_half"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 246
+            },
+            "model": "itemblock/curtain_blue_top"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 247
+            },
+            "model": "itemblock/curtain_blue"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 248
+            },
+            "model": "itemblock/curtain_blue_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 249
+            },
+            "model": "itemblock/curtain_brown_top"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 250
+            },
+            "model": "itemblock/curtain_brown"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 251
+            },
+            "model": "itemblock/curtain_brown_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 252
+            },
+            "model": "itemblock/curtain_gray_top"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 253
+            },
+            "model": "itemblock/curtain_gray"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 254
+            },
+            "model": "itemblock/curtain_gray_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 255
+            },
+            "model": "itemblock/curtain_green_top"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 256
+            },
+            "model": "itemblock/curtain_green"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 257
+            },
+            "model": "itemblock/curtain_green_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 258
+            },
+            "model": "itemblock/curtain_red_top"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 259
+            },
+            "model": "itemblock/curtain_red"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 260
+            },
+            "model": "itemblock/curtain_red_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 261
+            },
+            "model": "itemblock/curtain_white_top"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 262
+            },
+            "model": "itemblock/curtain_white"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 263
+            },
+            "model": "itemblock/curtain_white_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 264
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 265
+            },
+            "model": "itemblock/upper_slab_diamond_ore"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 266
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 267
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 268
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 269
+            },
+            "model": "itemblock/upper_slab_quartz_ore"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 270
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 271
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 272
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 273
+            },
+            "model": "itemblock/replace_trapdoor_planks_birch_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 274
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 275
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 276
+            },
+            "model": "itemblock/replace_trapdoor_sandstone_normal_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 277
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 278
+            },
+            "model": "itemblock/trapdoor_sandstone_normal_top"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 279
+            },
+            "model": "itemblock/replace_trapdoor_red_sandstone_normal_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 280
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 281
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 282
+            },
+            "model": "itemblock/trapdoor_double_slab_sandstone_seamless_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 283
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 284
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 285
+            },
+            "model": "itemblock/trapdoor_double_slab_red_sandstone_seamless_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 286
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 287
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 288
+            },
+            "model": "itemblock/trapdoor_sandstone_chiseled_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 289
+            },
+            "model": "itemblock/trapdoor_sandstone_chiseled_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 290
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 291
+            },
+            "model": "itemblock/trapdoor_sandstone_smooth_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 292
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 293
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 294
+            },
+            "model": "itemblock/trapdoor_red_nether_brick_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 295
+            },
+            "model": "itemblock/trapdoor_red_nether_brick_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 296
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 297
+            },
+            "model": "itemblock/replace_trapdoor_double_slab_nether_brick_seamless_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 298
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 299
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 300
+            },
+            "model": "itemblock/trapdoor_double_slab_nether_brick_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 301
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 302
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 303
+            },
+            "model": "itemblock/trapdoor_quartz_normal_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 304
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 305
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 306
+            },
+            "model": "itemblock/trapdoor_double_slab_quartz_seamless_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 307
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 308
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 309
+            },
+            "model": "itemblock/trapdoor_double_slab_quartz_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 310
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 311
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 312
+            },
+            "model": "itemblock/trapdoor_end_stone_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 313
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 314
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 315
+            },
+            "model": "itemblock/trapdoor_end_bricks_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 316
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 317
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 318
+            },
+            "model": "itemblock/trapdoor_quartz_chiseled_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 319
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 320
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 321
+            },
+            "model": "itemblock/replace_trapdoor_stonebrick_normal_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 322
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 323
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 324
+            },
+            "model": "itemblock/trapdoor_stonebrick_mossy_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 325
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 326
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 327
+            },
+            "model": "itemblock/trapdoor_stonebrick_cracked_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 328
+            },
+            "model": "itemblock/trapdoor_stonebrick_cracked_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 329
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 330
+            },
+            "model": "itemblock/trapdoor_stonebrick_chiseled_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 331
+            },
+            "model": "itemblock/trapdoor_stonebrick_chiseled_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 332
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 333
+            },
+            "model": "itemblock/trapdoor_double_slab_stonebrick_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 334
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 335
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 336
+            },
+            "model": "itemblock/trapdoor_double_slab_stonebrick_seamless_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 337
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 338
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 339
+            },
+            "model": "itemblock/trapdoor_double_slab_brick_seamless_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 340
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 341
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 342
+            },
+            "model": "itemblock/trapdoor_monster_egg_stonebrick_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 343
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 344
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 345
+            },
+            "model": "itemblock/trapdoor_monster_egg_stonebrick_mossy_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 346
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 347
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 348
+            },
+            "model": "itemblock/trapdoor_monster_egg_stonebrick_cracked_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 349
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 350
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 351
+            },
+            "model": "itemblock/trapdoor_monster_egg_stonebrick_chiseled_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 352
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 353
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 354
+            },
+            "model": "itemblock/trapdoor_brick_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 355
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 356
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 357
+            },
+            "model": "itemblock/trapdoor_double_slab_brick_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 358
+            },
+            "model": "itemblock/trapdoor_double_slab_brick_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 359
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 360
+            },
+            "model": "itemblock/trapdoor_double_slab_stone_seamless_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 361
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 362
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 363
+            },
+            "model": "itemblock/trapdoor_monster_egg_stone_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 364
+            },
+            "model": "itemblock/trapdoor_monster_egg_stone_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 365
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 366
+            },
+            "model": "itemblock/trapdoor_double_slab_stone_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 367
+            },
+            "model": "itemblock/trapdoor_double_slab_stone_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 368
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 369
+            },
+            "model": "itemblock/trapdoor_cobblestone_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 370
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 371
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 372
+            },
+            "model": "itemblock/trapdoor_mossy_cobblestone_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 373
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 374
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 375
+            },
+            "model": "itemblock/trapdoor_double_slab_cobblestone_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 376
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 377
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 378
+            },
+            "model": "itemblock/trapdoor_double_slab_cobblestone_seamless_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 379
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 380
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 381
+            },
+            "model": "itemblock/trapdoor_monster_egg_cobblestone_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 382
+            },
+            "model": "itemblock/trapdoor_monster_egg_cobblestone_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 383
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 384
+            },
+            "model": "itemblock/trapdoor_double_slab_planks_acacia_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 385
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 386
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 387
+            },
+            "model": "itemblock/trapdoor_double_slab_planks_dark_oak_open"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 388
+            },
+            "model": "itemblock/trapdoor_double_slab_planks_dark_oak_bottom"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 389
+            },
+            "model": "itemblock/replace"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 390
+            },
+            "model": "itemblock/cutlery"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 391
+            },
+            "model": "itemblock/plate_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 392
+            },
+            "model": "itemblock/plate_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 393
+            },
+            "model": "itemblock/replace_small_barrel"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 394
+            },
+            "model": "itemblock/replace_shelf_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 395
+            },
+            "model": "itemblock/replace_shelf_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 396
+            },
+            "model": "itemblock/replace_beer_mug"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 397
+            },
+            "model": "itemblock/replace_bottle_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 398
+            },
+            "model": "itemblock/replace_bottle_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 399
+            },
+            "model": "itemblock/replace_shutter"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 400
+            },
+            "model": "itemblock/barrel_water_half_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 401
+            },
+            "model": "itemblock/barrel_empty"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 402
+            },
+            "model": "itemblock/barrel_apples_full_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 403
+            },
+            "model": "itemblock/barrel_apples_half_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 404
+            },
+            "model": "itemblock/barrel_grapes_full_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 405
+            },
+            "model": "itemblock/barrel_grapes_half_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 406
+            },
+            "model": "itemblock/barrel_tomatoes_full_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 407
+            },
+            "model": "itemblock/barrel_tomatoes_half_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 408
+            },
+            "model": "itemblock/barrel_potatoes_full_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 409
+            },
+            "model": "itemblock/barrel_potatoes_half_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 410
+            },
+            "model": "itemblock/barrel_onions_full_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 411
+            },
+            "model": "itemblock/barrel_onions_half_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 412
+            },
+            "model": "itemblock/barrel_wheat_full_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 413
+            },
+            "model": "itemblock/barrel_wheat_half_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 414
+            },
+            "model": "itemblock/barrel_meat_full_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 415
+            },
+            "model": "itemblock/barrel_meat_half_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 416
+            },
+            "model": "itemblock/barrel_fish_full_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 417
+            },
+            "model": "itemblock/barrel_fish_half_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 418
+            },
+            "model": "itemblock/barrel_coal_full_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 419
+            },
+            "model": "itemblock/barrel_coal_half_item"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 420
+            },
+            "model": "itemblock/barrel_water_full_item"
+        }
+    ]
+}
