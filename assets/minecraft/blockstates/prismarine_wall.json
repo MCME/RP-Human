@@ -26,11 +26,11 @@
 	  ]},
 	{"when": { "up": "true", "north": "tall", "east": "none", "south": "tall", "west": "none" },
       "apply": [
-			{ "model": "minecraft:block/oak_log_vertical_slab"}
+			{ "model": "minecraft:block/oak_log_vertical_slab", "y": 90}
 	  ]},
 	{"when": { "up": "false", "north": "tall", "east": "none", "south": "tall", "west": "none" },
       "apply": [
-			{ "model": "minecraft:block/oak_log_vertical_slab", "y": 180}
+			{ "model": "minecraft:block/oak_log_vertical_slab", "y": 270}
 	  ]},
 	{"when": { "up": "false", "north": "low", "east": "none", "south": "none", "west": "tall" },
       "apply": [
