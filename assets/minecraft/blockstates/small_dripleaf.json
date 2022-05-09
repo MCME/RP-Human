@@ -1,0 +1,30 @@
+{
+	"multipart": [
+	{ "when":{
+			"waterlogged": false, "facing": "east", "half": "lower" },
+		"apply": [
+      { "model": "block/small_dripleaf_be" },
+	  { "model": "block/small_dripleaf_be", "y": 90 },
+	  { "model": "block/small_dripleaf_be", "y": 180 },
+	  { "model": "block/small_dripleaf_be", "y": 270 },
+	   { "model": "block/small_dripleaf_be_1" },
+	  { "model": "block/small_dripleaf_be_1", "y": 90 },
+	  { "model": "block/small_dripleaf_be_1", "y": 180 },
+	  { "model": "block/small_dripleaf_be_1", "y": 270 },
+	    { "model": "block/small_dripleaf_be_2" },
+	  { "model": "block/small_dripleaf_be_2", "y": 90 },
+	  { "model": "block/small_dripleaf_be_2", "y": 180 },
+	  { "model": "block/small_dripleaf_be_2", "y": 270 }
+] },
+    { "when":{
+			"waterlogged": "false",
+			"facing": "south",
+			"half": "lower"
+		},
+		"apply": {
+			"model": "block/poppy"
+		}
+
+	}
+]
+}
