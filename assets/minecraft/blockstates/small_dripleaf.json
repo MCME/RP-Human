@@ -57,6 +57,26 @@
 	  { "model": "block/small_dripleaf_bw_2", "y": 90 },
 	  { "model": "block/small_dripleaf_bw_2", "y": 180 },
 	  { "model": "block/small_dripleaf_bw_2", "y": 270 }
+		 ] },
+		 	 { "when":{
+			"waterlogged": "false",
+			"facing": "north",
+			"half": "lower"
+		},
+		"apply": [
+	  { "model": "block/small_dripleaf_bn" },
+	  { "model": "block/small_dripleaf_bn", "y": 90 },
+	  { "model": "block/small_dripleaf_bn", "y": 180 },
+	  { "model": "block/small_dripleaf_bn", "y": 270 },
+	  { "model": "block/small_dripleaf_bn_1" },
+	  { "model": "block/small_dripleaf_bn_1", "y": 90 },
+	  { "model": "block/small_dripleaf_bn_1", "y": 180 },
+	  { "model": "block/small_dripleaf_bn_1", "y": 270 },
+	  { "model": "block/small_dripleaf_bn_2" },
+	  { "model": "block/small_dripleaf_bn_2", "y": 90 },
+	  { "model": "block/small_dripleaf_bn_2", "y": 180 },
+	  { "model": "block/small_dripleaf_bn_2", "y": 270 }
+	  
 		 ] }
 ]
 }
