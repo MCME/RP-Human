@@ -8,7 +8,7 @@
         "west": "false"
       },
       "apply": {
-        "model": "block/tree_thin_oak_vertical"
+        "model": "block/oak_thin_trunk_vertical"
       }
     },
     {
@@ -16,18 +16,11 @@
         "OR": [
           {
             "north": "true"
-          },
-          {
-            "north": "false",
-            "east": "false",
-            "south": "true",
-            "west": "false"
           }
         ]
       },
       "apply": {
-        "model": "block/tree_thin_oak_horizontal",
-        "uvlock": true
+        "model": "block/oak_thin_trunk_horizontal"
       }
     },
     {
@@ -35,19 +28,11 @@
         "OR": [
           {
             "east": "true"
-          },
-          {
-            "north": "false",
-            "east": "false",
-            "south": "false",
-            "west": "true"
           }
         ]
       },
       "apply": {
-        "model": "block/tree_thin_oak_horizontal",
-        "y": 90,
-        "uvlock": true
+        "model": "block/oak_thin_trunk_horizontal_2"
       }
     },
     {
@@ -55,19 +40,11 @@
         "OR": [
           {
             "south": "true"
-          },
-          {
-            "north": "true",
-            "east": "false",
-            "south": "false",
-            "west": "false"
           }
         ]
       },
       "apply": {
-        "model": "block/tree_thin_oak_horizontal",
-        "y": 180,
-        "uvlock": true
+        "model": "block/oak_thin_trunk_horizontal_3"
       }
     },
     {
@@ -75,19 +52,11 @@
         "OR": [
           {
             "west": "true"
-          },
-          {
-            "north": "false",
-            "east": "true",
-            "south": "false",
-            "west": "false"
           }
         ]
       },
       "apply": {
-        "model": "block/tree_thin_oak_horizontal",
-        "y": 270,
-        "uvlock": true
+        "model": "block/oak_thin_trunk_horizontal_4"
       }
     },
     {
@@ -109,9 +78,7 @@
         "west": "false"
       },
       "apply": {
-        "model": "block/tree_thin_oak_center_alt",
-        "y": 90,
-        "uvlock": true
+        "model": "block/tree_thin_oak_center_alt"
       }
     },
     {
@@ -122,9 +89,7 @@
         "west": "true"
       },
       "apply": {
-        "model": "block/tree_thin_oak_center_alt",
-        "y": 180,
-        "uvlock": true
+        "model": "block/tree_thin_oak_center_alt"
       }
     },
     {
@@ -135,9 +100,7 @@
         "west": "true"
       },
       "apply": {
-        "model": "block/tree_thin_oak_center_alt",
-        "y": 270,
-        "uvlock": true
+        "model": "block/tree_thin_oak_center_alt"
       }
     }
   ]
