@@ -59,9 +59,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/jungle_door_bottom_hinge"
-      }
+      "apply": [
+	  { "model": "block/oak_leaves_vertical_slab_13"},
+	  { "model": "block/oak_leaves_vertical_slab_14"},
+	  { "model": "block/oak_leaves_vertical_slab_15"},
+	  { "model": "block/oak_leaves_vertical_slab_16"}
+		]
     },
     {
       "when": {
@@ -71,11 +74,13 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/jungle_door_bottom_hinge",
-        "y": 90
-      }
-    },
+      "apply": [
+	  { "model": "block/oak_leaves_vertical_slab"},
+	  { "model": "block/oak_leaves_vertical_slab_2"},
+	  { "model": "block/oak_leaves_vertical_slab_3"},
+	  { "model": "block/oak_leaves_vertical_slab_4"}
+		]
+	},
     {
       "when": {
         "facing": "west",
@@ -84,10 +89,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/jungle_door_bottom_hinge",
-        "y": 180
-      }
+      "apply": [
+	  { "model": "block/oak_leaves_vertical_slab_5"},
+	  { "model": "block/oak_leaves_vertical_slab_6"},
+	  { "model": "block/oak_leaves_vertical_slab_7"},
+	  { "model": "block/oak_leaves_vertical_slab_8"}
+		]
     },
     {
       "when": {
@@ -97,10 +104,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/jungle_door_bottom_hinge",
-        "y": 270
-      }
+      "apply": [
+	  { "model": "block/oak_leaves_vertical_slab_9"},
+	  { "model": "block/oak_leaves_vertical_slab_10"},
+	  { "model": "block/oak_leaves_vertical_slab_11"},
+	  { "model": "block/oak_leaves_vertical_slab_12"}
+		]
     },
     {
       "when": {

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/oak_leaves",
@@ -73,4 +74,11 @@
 			}
 		}
 	]
+=======
+  "parent": "block/leaves_parent",
+  "textures": {
+    "0": "block/oak_leaves",
+	"particle": "block/oak_leaves_particle"
+  }
+>>>>>>> 802dc9ab2e5166de5dfae73d5bd001c8a3a67801
 }
