@@ -133,17 +133,6 @@
 	  { "model": "block/small_dripleaf_ts_2", "y": 90 },
 	  { "model": "block/small_dripleaf_ts_2", "y": 180 },
 	  { "model": "block/small_dripleaf_ts_2", "y": 270 } 
-		 ] },
-		 	  	 	 { "when":{
-			"waterlogged": "false",
-			"facing": "east",
-			"half": "upper"
-		},
-		"apply": [
-	  { "model": "block/Burdock" },
-	  { "model": "block/Burdock", "y": 90 },
-	  { "model": "block/Burdock", "y": 180 },
-	  { "model": "block/Burdock", "y": 270 }
-		] }
+		 ] }
 ]
 }
