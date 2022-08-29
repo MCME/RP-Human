@@ -214,6 +214,17 @@
 	{ "when": {"north": false, "west": false, "south":true, "east": true, "up": false, "down": false	 },
 		"apply": [
 		{ "model": "block/red_mushroom_block_es", "weight": 1 }
+		]},
+	{ "when": {"north": false, "west": true, "south":true, "east": false, "up": false, "down": true	 },
+		"apply": [
+		{ "model": "block/red_mushroom_block_swd", "weight": 1 },
+		{ "model": "block/red_mushroom_block_swd_2", "weight": 1 },
+		{ "model": "block/red_mushroom_block_swd_3", "weight": 1 },
+		{ "model": "block/red_mushroom_block_swd_4", "weight": 1 },
+		{ "model": "block/red_mushroom_block_swd_5", "weight": 1 },
+		{ "model": "block/red_mushroom_block_swd_6", "weight": 1 },
+		{ "model": "block/red_mushroom_block_swd_7", "weight": 1 },
+		{ "model": "block/red_mushroom_block_swd_8", "weight": 1 }
 		]}
   ]
 }
