@@ -8,6 +8,15 @@
     },
 	"enabled=true,facing=east": {
       "model": "minecraft:block/hopper_light_gray_ionic", "y": 90
+    },
+  "enabled=true,facing=south": {
+      "model": "minecraft:block/hopper_sandstone_ionic"
+  },
+  "enabled=true,facing=west": {
+    "model": "minecraft:block/hopper_sandstone_ionic", "y": 90
+  },
+  "enabled=false,facing=down": {
+    "model": "minecraft:block/hopper_sandstone_large_doric"
     }
   }
 }
