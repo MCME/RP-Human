@@ -588,6 +588,12 @@
         "model": "block/stucco_blue_inside",
         "y": 90
       }
+    ]},
+    { "when": {"north": false, "west": false, "south": true, "east": false, "up": false, "down": true },
+      "apply": [
+      {
+        "model": "block/brown_mushroom_block_sd"
+      }
     ]}
 	
   ]
