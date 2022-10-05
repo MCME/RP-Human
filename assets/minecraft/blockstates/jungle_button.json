@@ -72,29 +72,38 @@
       "model": "minecraft:block/jungle_button_corbel"
     },
     "face=wall,facing=east,powered=true": {
-      "model": "minecraft:block/jungle_button_corbel_sandstone"
+      "model": "minecraft:block/jungle_button_pressed",
+      "y": 90,
+      "x": 90,
+      "uvlock": true
     },
     "face=wall,facing=north,powered=false": {
       "model": "minecraft:block/jungle_button_corbel", "y": 270
     },
     "face=wall,facing=north,powered=true": {
-      "model": "minecraft:block/jungle_button_corbel_sandstone", "y": 270
+      "model": "minecraft:block/jungle_button_pressed",
+      "x": 90,
+      "uvlock": true
     },
     "face=wall,facing=south,powered=false": {
       "model": "minecraft:block/jungle_button_corbel",
       "y": 90
     },
     "face=wall,facing=south,powered=true": {
-      "model": "minecraft:block/jungle_button_corbel_sandstone",
-      "y": 90
+      "model": "minecraft:block/jungle_button_pressed",
+      "y": 180,
+      "x": 90,
+      "uvlock": true
     },
     "face=wall,facing=west,powered=false": {
       "model": "minecraft:block/jungle_button_corbel",
       "y": 180
     },
     "face=wall,facing=west,powered=true": {
-      "model": "minecraft:block/jungle_button_corbel_sandstone", 
-      "y": 180
+      "model": "minecraft:block/jungle_button_pressed",
+      "y": 270,
+      "x": 90,
+      "uvlock": true
     }
   }
 }

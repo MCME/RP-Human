@@ -3,19 +3,8 @@
     "stage\u003d0": {
       "model": "block/dark_oak_sapling_stage0"
     },
-    "stage\u003d1": [
-	  { "model": "block/dark_oak_sapling_stage1" },
-      { "model": "block/dark_oak_sapling_stage1", "y": 90 },
-      { "model": "block/dark_oak_sapling_stage1", "y": 180 },
-      { "model": "block/dark_oak_sapling_stage1", "y": 270 },
-	   { "model": "block/dark_oak_sapling_stage1_1" },
-      { "model": "block/dark_oak_sapling_stage1_1", "y": 90 },
-      { "model": "block/dark_oak_sapling_stage1_1", "y": 180 },
-      { "model": "block/dark_oak_sapling_stage1_1", "y": 270 },
-	   { "model": "block/dark_oak_sapling_stage1_2" },
-      { "model": "block/dark_oak_sapling_stage1_2", "y": 90 },
-      { "model": "block/dark_oak_sapling_stage1_2", "y": 180 },
-      { "model": "block/dark_oak_sapling_stage1_2", "y": 270 }
-    ]
+    "stage\u003d1": {
+      "model": "block/dark_oak_sapling_stage1"
+    }
   }
 }

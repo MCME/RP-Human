@@ -117,17 +117,6 @@
     },
     "attached=true,east=true,north=true,south=true,west=true": {
       "model": "minecraft:block/tripwire_attached_nsew"
-    },
-    "attached=false,east=false,north=false,south=false,west=false,powered=true,disarmed=true": [
-      { "model": "block/autumn_dandelion" },
-      { "model": "block/autumn_dandelion", "y": 90 },
-      { "model": "block/autumn_dandelion", "y": 180 },
-      { "model": "block/autumn_dandelion", "y": 270 },
-	{ "model": "block/autumn_dandelion_2" },
-      { "model": "block/autumn_dandelion_2", "y": 90 },
-      { "model": "block/autumn_dandelion_2", "y": 180 },
-      { "model": "block/autumn_dandelion_2", "y": 270 }
-
-    ]
+    }
   }
 }
