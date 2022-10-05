@@ -523,7 +523,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top"
+        "model": "block/warped_door_top_rh_powered"
       }
     },
     {
@@ -535,7 +535,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top",
+        "model": "block/warped_door_top_rh_powered",
         "y": 90
       }
     },
@@ -548,7 +548,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top",
+        "model": "block/warped_door_top_rh_powered",
         "y": 180
       }
     },
@@ -561,7 +561,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top",
+        "model": "block/warped_door_top_rh_powered",
         "y": 270
       }
     },
@@ -630,7 +630,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top",
+        "model": "block/warped_door_top_powered",
         "y": 270
       }
     },
@@ -643,7 +643,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top_open"
+        "model": "block/warped_door_top_powered"
       }
     },
     {
@@ -655,7 +655,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top_open",
+        "model": "block/warped_door_top_powered",
         "y": 90
       }
     },
@@ -668,9 +668,109 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top_open",
+        "model": "block/warped_door_top_powered",
         "y": 180
       }
+    },
+	   {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_cross_railing_light",
+		"y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_cross_railing_light"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_cross_railing_light",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_cross_railing_light",
+        "y": 180
+      }
+    },
+	   {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/door_railing_light", "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/door_railing_light", "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/door_railing_light"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/door_railing_light", "y": 90
+      }
     }
+
   ]
 }
