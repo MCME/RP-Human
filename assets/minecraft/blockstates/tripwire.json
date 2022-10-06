@@ -40,33 +40,46 @@
 	{ "model": "minecraft:block/beam_horizontal_2", "y": 270},
 	{ "model": "minecraft:block/beam_horizontal_3", "y": 270}
 	],
-    "attached=false,east=false,north=true,south=true,west=false": {
-      "model": "minecraft:block/tripwire_ns"
-    },
-    "attached=false,east=false,north=true,south=true,west=true": {
-      "model": "minecraft:block/tripwire_nse",
-      "y": 180
-    },
-    "attached=false,east=true,north=true,south=false,west=false": {
-      "model": "minecraft:block/tripwire_ne"
-    },
-    "attached=false,east=true,north=true,south=false,west=true": {
-      "model": "minecraft:block/tripwire_nse",
-      "y": 270
-    },
-    "attached=false,east=true,north=true,south=true,west=false": {
-      "model": "minecraft:block/tripwire_nse"
-    },
-    "attached=false,east=true,north=true,south=true,west=true": {
-      "model": "minecraft:block/tripwire_nsew"
-    },
-    "attached=true,east=false,north=false,south=false,west=false": {
-      "model": "minecraft:block/tripwire_attached_ns"
-    },
-    "attached=true,east=false,north=false,south=false,west=true": {
-      "model": "minecraft:block/tripwire_attached_n",
-      "y": 270
-    },
+	"attached=false,east=false,north=true,south=true,west=false,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal_light" },
+	{ "model": "minecraft:block/beam_horizontal_light_2" },
+	{ "model": "minecraft:block/beam_horizontal_light_3" }
+	],
+    "attached=false,east=false,north=true,south=true,west=true,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal_light", "y": 90},
+	{ "model": "minecraft:block/beam_horizontal_light_2", "y": 90},
+	{ "model": "minecraft:block/beam_horizontal_light_3", "y": 90}
+	],
+    "attached=false,east=true,north=true,south=false,west=false,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal_light", "y": 180},
+	{ "model": "minecraft:block/beam_horizontal_light_2", "y": 180},
+	{ "model": "minecraft:block/beam_horizontal_light_3", "y": 180}
+	],
+    "attached=false,east=true,north=true,south=false,west=true,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal_light", "y": 270},
+	{ "model": "minecraft:block/beam_horizontal_light_2", "y": 270},
+	{ "model": "minecraft:block/beam_horizontal_light_3", "y": 270}
+	],
+    "attached=false,east=true,north=true,south=true,west=false,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal_light_down" },
+	{ "model": "minecraft:block/beam_horizontal_light_down_2" },
+	{ "model": "minecraft:block/beam_horizontal_light_down_3" }
+	],
+    "attached=false,east=true,north=true,south=true,west=true,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal_light_down", "y": 90},
+	{ "model": "minecraft:block/beam_horizontal_light_down_2", "y": 90},
+	{ "model": "minecraft:block/beam_horizontal_light_down_3", "y": 90}
+	],
+    "attached=true,east=false,north=false,south=false,west=false,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal_light_down", "y": 180},
+	{ "model": "minecraft:block/beam_horizontal_light_down_2", "y": 180},
+	{ "model": "minecraft:block/beam_horizontal_light_down_3", "y": 180}
+	],
+    "attached=true,east=false,north=false,south=false,west=true,powered=true,disarmed=false": [
+	{ "model": "minecraft:block/beam_horizontal_light_down", "y": 270},
+	{ "model": "minecraft:block/beam_horizontal_light_down_2", "y": 270},
+	{ "model": "minecraft:block/beam_horizontal_light_down_3", "y": 270}
+	],
     "attached=true,east=false,north=false,south=true,west=false": {
       "model": "minecraft:block/tripwire_attached_n",
       "y": 180
