@@ -304,6 +304,7 @@ Items:
       C4: trapdoor_sandstone_chiseled_bottom_regular
       F4: sandstone
       G4: red_sandstone
+      D4: carved_sandstone
   vertical_slab_sandstone_smooth_regular:
     contentItem: BRICK
     itemMaterial: BRICK
@@ -339,6 +340,15 @@ Items:
     display: Smooth Sandstone
     category: Block
     type: VANILLA
+    collection:
+      indirect: double_slab_sandstone
+  carved_sandstone:
+    itemMaterial: CLAY_BALL
+    cmd: 491
+    display: Carved Sandstone
+    category: Block
+    type: BLOCK
+    blockData: minecraft:brown_mushroom_block[down=true,east=false,north=false,south=true,up=false,west=false]
     collection:
       indirect: double_slab_sandstone
   smooth_red_sandstone:
@@ -562,10 +572,130 @@ Items:
       E1: anvil_damage2_sw
       J1: anvil_damage0_ne
       G2: brown_mushroom_normal
+      G4: sandstone_thick_pillar
       H2: brown_mushroom_seu
       I2: brown_mushroom_nwd
       A4: sandstone
       B4: red_sandstone
+      E0: sandstone_architrave
+      A1: sandstone_brick_pillar_top
+      A0: sandstone_brick_pillar_middle
+      F1: sandstone_brick_pillar_bottom
+      F4: ionic_sandstone_column
+  ionic_sandstone_column:
+    itemMaterial: CLAY_BALL
+    cmd: 481
+    display: Ionic Sandstone Column
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:hopper[enabled=true,facing=west]
+    blockDataWest: minecraft:hopper[enabled=true,facing=south]
+    blockDataNorth: minecraft:hopper[enabled=true,facing=west]
+    blockDataEast: minecraft:hopper[enabled=true,facing=south]
+    collection:
+      indirect: cactus_stage5
+  sandstone_brick_pillar_top:
+    itemMaterial: CLAY_BALL
+    cmd: 482
+    display: Fancy Sandstone Pillar Top
+    category: Block
+    type: BLOCK
+    blockData: minecraft:hopper[enabled=false,facing=down]
+    collection:
+      indirect: cactus_stage5
+  sandstone_brick_pillar_middle:
+    itemMaterial: CLAY_BALL
+    cmd: 483
+    display: Fancy Sandstone Pillar Middle
+    type: BLOCK
+    blockData: minecraft:azalea_leaves[distance=1,persistent=false]
+    collection:
+      indirect: cactus_stage5
+  sandstone_brick_pillar_bottom:
+    itemMaterial: CLAY_BALL
+    cmd: 484
+    display: Fancy Sandstone Pillar Bottom
+    type: BLOCK
+    blockData: minecraft:azalea_leaves[distance=2,persistent=false]
+    collection:
+      indirect: cactus_stage5
+  sandstone_thick_pillar:
+    itemMaterial: CLAY_BALL
+    cmd: 492
+    display: Sandstone Thick Pillar
+    category: Block
+    type: BLOCK
+    blockData: minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=true,west=true]
+    collection:
+      indirect: cactus_stage5
+  sandstone_architrave:
+    itemMaterial: CLAY_BALL
+    cmd: 485
+    display: Sandstone Architrave
+    type: BLOCK
+    blockData: minecraft:hopper[enabled=false,facing=east]
+    collection:
+      indirect: cactus_stage5
+  small_sandstone_arch:
+    itemMaterial: CLAY_BALL
+    cmd: 474
+    display: Small Sandstone Arch
+    category: Block
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:scaffolding[bottom=false,distance=6]
+    blockDataWest: minecraft:scaffolding[bottom=false,distance=5]
+    blockDataNorth: minecraft:scaffolding[bottom=false,distance=6]
+    blockDataEast: minecraft:scaffolding[bottom=false,distance=5]
+    collection:
+      A1: small_sandstone_arch
+      C2: large_sandstone_arch_m
+      F1: sandstone_corbel_steps
+      B2: medium_sandstone_arch
+      D2: large_sandstone_arch
+      E1:   
+  large_sandstone_arch_m:
+    itemMaterial: CLAY_BALL
+    cmd: 475
+    display: Large Sandstone Arch Middle
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:crimson_button[face=ceiling,facing=west,powered=false]
+    blockDataWest: minecraft:dark_oak_button[face=ceiling,facing=west,powered=false]
+    blockDataNorth: minecraft:crimson_button[face=ceiling,facing=west,powered=false]
+    blockDataEast: minecraft:dark_oak_button[face=ceiling,facing=west,powered=false]
+    collection:
+      indirect: small_sandstone_arch
+  large_sandstone_arch:
+    itemMaterial: CLAY_BALL
+    cmd: 488
+    display: Large Arch
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:crimson_door[facing=north,half=lower,hinge=left,open=false,powered=false]
+    blockDataWest: minecraft:crimson_door[facing=east,half=lower,hinge=left,open=false,powered=false]
+    blockDataNorth: minecraft:crimson_door[facing=south,half=lower,hinge=left,open=false,powered=false]
+    blockDataEast: minecraft:crimson_door[facing=west,half=lower,hinge=left,open=false,powered=false]
+    collection:
+      indirect: small_arch
+  sandstone_corbel_steps:
+    itemMaterial: CLAY_BALL
+    cmd: 476
+    display: Sandstone Corbel Steps
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:jungle_button[face=wall,facing=east,powered=true]
+    blockDataWest: minecraft:jungle_button[face=wall,facing=south,powered=true]
+    blockDataNorth: minecraft:jungle_button[face=wall,facing=west,powered=true]
+    blockDataEast: minecraft:jungle_button[face=wall,facing=north,powered=true]
+    collection:
+      indirect: small_sandstone_arch   
+  medium_sandstone_arch:
+    itemMaterial: CLAY_BALL
+    cmd: 487
+    display: Medium Sandstone Arch
+    type: FOUR_DIRECTIONS
+    blockDataSouth: minecraft:smooth_quartz_stairs[facing=south,half=top,shape=outer_right]
+    blockDataWest: minecraft:smooth_quartz_stairs[facing=west,half=top,shape=outer_left]
+    blockDataNorth: minecraft:smooth_quartz_stairs[facing=west,half=top,shape=outer_right]
+    blockDataEast: minecraft:smooth_quartz_stairs[facing=east,half=top,shape=outer_right]
+    collection:
+      indirect: small_sandstone_arch      
   red_nether_brick:
     itemMaterial: RED_NETHER_BRICKS
     display: Small Red Bricks
