@@ -457,9 +457,130 @@ Items:
       B4: oak_planks
       F4: birch_fence_gate
       G4: jungle_log
+      D3: lower_birch_beam
+      E3: upper_birch_beam
       H4: dark_prismarine
       I4: dark_prismarine_stairs
       J4: dark_prismarine_slabs
+      C4: support_light
+      D4: upper_support_light
+      E4: upper_support_plus_light
+  support_light:
+    itemMaterial: CLAY_BALL
+    cmd: 477
+    display: Support Light Beams
+    type: FOUR_DIRECTIONS_COMPLEX
+    blockDataNorth: minecraft:deepslate_tile_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:deepslate_tile_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataSouth: minecraft:deepslate_tile_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:deepslate_tile_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]
+    # editDataNorth refer to blockDataNorth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Block data for no connection is taken from blockDataNorth
+    editDataNorth:
+      N: minecraft:deepslate_tile_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+      W: minecraft:deepslate_tile_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=low]
+      S: minecraft:deepslate_tile_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=low]
+      E: minecraft:deepslate_tile_wall[east=low,north=none,south=none,up=false,waterlogged=false,west=low]
+      NW: minecraft:deepslate_tile_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+      WS: minecraft:deepslate_tile_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=low]
+      SE: minecraft:deepslate_tile_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=tall]
+      EN: minecraft:deepslate_tile_wall[east=low,north=tall,south=none,up=false,waterlogged=false,west=low]
+      NS: minecraft:deepslate_tile_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=tall]
+      WE: minecraft:deepslate_tile_wall[east=low,north=tall,south=none,up=true,waterlogged=false,west=low]
+      NWS: minecraft:deepslate_tile_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=low]
+      WSE: minecraft:deepslate_tile_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=tall]
+      SEN: minecraft:deepslate_tile_wall[east=tall,north=low,south=low,up=false,waterlogged=false,west=tall]
+      ENW: minecraft:deepslate_tile_wall[east=low,north=tall,south=none,up=true,waterlogged=false,west=tall]
+      NWSE: minecraft:deepslate_tile_wall[east=low,north=tall,south=low,up=true,waterlogged=false,west=tall]
+    # editDataEast refer to blockDataEast. Block data which are obmitted here are obtained from editDataNorth
+    # by rotation
+    collection:
+      indirect: birch_planks
+  upper_support_light:
+    itemMaterial: CLAY_BALL
+    cmd: 478
+    display: Upper Support Light Beams
+    type: FOUR_DIRECTIONS_COMPLEX
+    blockDataNorth: minecraft:deepslate_tile_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:deepslate_tile_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataSouth: minecraft:deepslate_tile_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:deepslate_tile_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]
+    # Edit data refer to blockDataNorth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Missing entries will make that combination not available.
+    # Block data for no connection is taken from blockDataNorth
+    editDataNorth:
+      N: minecraft:deepslate_tile_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]
+      W: minecraft:deepslate_tile_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=tall]
+      S: minecraft:deepslate_tile_wall[east=none,north=low,south=tall,up=true,waterlogged=false,west=none]
+      E: minecraft:deepslate_tile_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=low]
+      NW: minecraft:deepslate_tile_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=tall]
+      WS: minecraft:deepslate_tile_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=tall]
+      SE: minecraft:deepslate_tile_wall[east=tall,north=low,south=low,up=true,waterlogged=false,west=low]
+      EN: minecraft:deepslate_tile_wall[east=tall,north=low,south=none,up=false,waterlogged=false,west=tall]
+      NS: minecraft:deepslate_tile_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=tall]
+      WE: minecraft:deepslate_tile_wall[east=tall,north=none,south=none,up=false,waterlogged=false,west=tall]
+      NWS: minecraft:deepslate_tile_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=tall]
+      WSE: minecraft:deepslate_tile_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=tall]
+      SEN: minecraft:deepslate_tile_wall[east=tall,north=tall,south=tall,up=true,waterlogged=false,west=low]
+      ENW: minecraft:deepslate_tile_wall[east=low,north=tall,south=none,up=false,waterlogged=false,west=tall]
+      NWSE: minecraft:deepslate_tile_wall[east=low,north=tall,south=low,up=false,waterlogged=false,west=tall]
+    # editDataSouth refer to blockDataSouth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Block data for no connection is taken from blockDataSouth
+    # Entries which are obmitted here are obtained from editDataNorth by rotation
+    editDataSouth:
+      WE: minecraft:deepslate_tile_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=tall]
+    editDataWest:
+      NS: minecraft:deepslate_tile_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=none]
+    collection:
+      indirect: birch_planks
+  upper_support_plus_light:
+    itemMaterial: CLAY_BALL
+    cmd: 479
+    display: Upper Support Light Beams with horizontal Beam
+    type: FOUR_DIRECTIONS_COMPLEX
+    blockDataNorth: minecraft:deepslate_tile_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=low]
+    blockDataEast: minecraft:deepslate_tile_wall[east=low,north=low,south=none,up=false,waterlogged=false,west=none]
+    blockDataSouth: minecraft:deepslate_tile_wall[east=low,north=none,south=low,up=false,waterlogged=false,west=none]
+    blockDataWest: minecraft:deepslate_tile_wall[east=none,north=none,south=low,up=false,waterlogged=false,west=low]
+    # Edit data refer to blockDataNorth. They define the block data to place to add connections in the 
+    # specified directions N = North, NW = North and West. Letters of a key must NOT be permuted.
+    # Block data for no connection is taken from blockDataNorth
+    editDataNorth:
+      N: minecraft:deepslate_tile_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=tall]
+      W: minecraft:deepslate_tile_wall[east=none,north=low,south=none,up=false,waterlogged=false,west=tall]
+      S: minecraft:deepslate_tile_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=low]
+      E: minecraft:deepslate_tile_wall[east=tall,north=tall,south=none,up=false,waterlogged=false,west=low]
+      NW: minecraft:deepslate_tile_wall[east=none,north=tall,south=none,up=false,waterlogged=false,west=low]
+      WS: minecraft:deepslate_tile_wall[east=none,north=low,south=tall,up=false,waterlogged=false,west=low]
+      SE: minecraft:deepslate_tile_wall[east=tall,north=tall,south=tall,up=false,waterlogged=false,west=low]
+      EN: minecraft:deepslate_tile_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=tall]
+    collection:
+      indirect: birch_planks
+  lower_birch_beam:
+    itemMaterial: CLAY_BALL
+    cmd: 472
+    display: Lower Birch Beam
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:tripwire[attached=false,disarmed=false,east=true,north=true,powered=true,south=true,west=true]
+    blockDataSouth: minecraft:tripwire[attached=true,disarmed=false,east=false,north=false,powered=true,south=false,west=true]
+    blockDataEast: minecraft:tripwire[attached=true,disarmed=false,east=false,north=false,powered=true,south=false,west=false]
+    blockDataWest: minecraft:tripwire[attached=false,disarmed=false,east=true,north=true,powered=true,south=true,west=false]
+    collections:
+      indirect: birch_planks
+  upper_birch_beam:
+    itemMaterial: CLAY_BALL
+    cmd: 473
+    display: Upper Birch Beam
+    type: FOUR_DIRECTIONS
+    blockDataNorth: minecraft:tripwire[attached=false,disarmed=false,east=false,north=true,powered=true,south=true,west=true]
+    blockDataSouth: minecraft:tripwire[attached=false,disarmed=false,east=true,north=true,powered=true,south=false,west=true]
+    blockDataEast: minecraft:tripwire[attached=false,disarmed=false,east=true,north=true,powered=true,south=false,west=false]
+    blockDataWest: minecraft:tripwire[attached=false,disarmed=false,east=false,north=true,powered=true,south=true,west=false]
+    collections:
+      indirect: birch_planks
   light_vertical_planks:
     itemMaterial: CLAY_BALL
     cmd: 436
@@ -1073,6 +1194,7 @@ Items:
       E1: stone_brick_pillar_middle
       E0: stone_brick_pillar_bottom
       J1: ionic_column
+      I2: stone_architrave
   purpur_pillar_top:
     itemMaterial: PURPUR_PILLAR
     cmd: 0
@@ -1120,6 +1242,15 @@ Items:
     blockData: minecraft:hopper[enabled=true,facing=down]
     collection:
       indirect: chorus_flower_stage2
+  stone_architrave:
+    itemMaterial: CLAY_BALL
+    cmd: 480
+    display: Stonebrick Architrave
+    category: Block2
+    type: BLOCK
+    blockData: minecraft:hopper[enabled=false,facing=north]
+    collection:
+      indirect: chorus_flower_stage2
   ionic_column:
     itemMaterial: CLAY_BALL
     cmd: 433
@@ -1137,6 +1268,8 @@ Items:
     display: Fancy Pillar Middle
     type: BLOCK
     blockData: minecraft:birch_leaves[distance=1,persistent=false]
+    collection:
+      indirect: chorus_flower_stage2
   stone_brick_pillar_bottom:
     itemMaterial: CLAY_BALL
     cmd: 407
@@ -1563,9 +1696,9 @@ Items:
     blockDataEast: minecraft:jungle_fence_gate[facing=east,in_wall=false,open=true,powered=true]
     collection:
       indirect: double_slab_stonebrick
-  small_arch:
+  small_stone_arch:
     itemMaterial: CLAY_BALL
-    cmd: 408
+    cmd: 486
     display: Small Arch
     category: Block2
     type: FOUR_DIRECTIONS
@@ -1574,7 +1707,7 @@ Items:
     blockDataNorth: minecraft:scaffolding[bottom=false,distance=0]
     blockDataEast: minecraft:scaffolding[bottom=false,distance=7]
     collection:
-      A1: small_arch
+      A1: small_stone_arch
       B2: medium_arch
       C2: large_arch
       D2: large_arch_1
@@ -1608,7 +1741,7 @@ Items:
   medium_arch:
     itemMaterial: CLAY_BALL
     cmd: 409
-    display: Medium Arch
+    display: Medium Stone Arch
     type: FOUR_DIRECTIONS
     blockDataSouth: minecraft:smooth_quartz_stairs[facing=south,half=top,shape=outer_left]
     blockDataWest: minecraft:smooth_quartz_stairs[facing=north,half=top,shape=outer_left]
