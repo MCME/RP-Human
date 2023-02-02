@@ -130,35 +130,51 @@
 	  ]},
 	{"when": { "up": "true", "north": "tall", "east": "none", "south": "none", "west": "none" },
       "apply": [
-			{ "model": "minecraft:block/oak_twig_branch"}
+			{ "model": "minecraft:block/oak_twig_branch"},
+			{ "model": "minecraft:block/oak_twig_branch_5"},
+			{ "model": "minecraft:block/oak_twig_branch_9"}
 	  ]},
 	{"when": { "up": "true", "north": "none", "east": "tall", "south": "none", "west": "none" },
       "apply": [
-			{ "model": "minecraft:block/oak_twig_branch_2"}
+			{ "model": "minecraft:block/oak_twig_branch_2"},
+			{ "model": "minecraft:block/oak_twig_branch_6"},
+			{ "model": "minecraft:block/oak_twig_branch_10"}
 	  ]},
 	{"when": { "up": "true", "north": "none", "east": "none", "south": "tall", "west": "none" },
       "apply": [
-			{ "model": "minecraft:block/oak_twig_branch_3"}
+			{ "model": "minecraft:block/oak_twig_branch_3"},
+			{ "model": "minecraft:block/oak_twig_branch_7"},
+			{ "model": "minecraft:block/oak_twig_branch_11"}
 	  ]},
 	{"when": { "up": "true", "north": "none", "east": "none", "south": "none", "west": "tall" },
       "apply": [
-			{ "model": "minecraft:block/oak_twig_branch_4"}
+			{ "model": "minecraft:block/oak_twig_branch_4"},
+			{ "model": "minecraft:block/oak_twig_branch_8"},
+			{ "model": "minecraft:block/oak_twig_branch_12"}
 	  ]},
 	{"when": { "up": "false", "north": "tall", "east": "none", "south": "low", "west": "none" },
       "apply": [
-			{ "model": "minecraft:block/oak_twig_branch_up"}
+			{ "model": "minecraft:block/oak_twig_branch_up"},
+			{ "model": "minecraft:block/oak_twig_branch_up_5"},
+			{ "model": "minecraft:block/oak_twig_branch_up_9"}
 	  ]},
 	{"when": { "up": "false", "north": "none", "east": "tall", "south": "none", "west": "low" },
       "apply": [
-			{ "model": "minecraft:block/oak_twig_branch_up_2"}
+			{ "model": "minecraft:block/oak_twig_branch_up_2"},
+			{ "model": "minecraft:block/oak_twig_branch_up_6"},
+			{ "model": "minecraft:block/oak_twig_branch_up_10"}
 	  ]},
 	{"when": { "up": "false", "north": "low", "east": "none", "south": "tall", "west": "none" },
       "apply": [
-			{ "model": "minecraft:block/oak_twig_branch_up_3"}
+			{ "model": "minecraft:block/oak_twig_branch_up_3"},
+			{ "model": "minecraft:block/oak_twig_branch_up_7"},
+			{ "model": "minecraft:block/oak_twig_branch_up_11"}
 	  ]},
 	{"when": { "up": "false", "north": "none", "east": "low", "south": "none", "west": "tall" },
       "apply": [
-			{ "model": "minecraft:block/oak_twig_branch_up_4"}
+			{ "model": "minecraft:block/oak_twig_branch_up_4"},
+			{ "model": "minecraft:block/oak_twig_branch_up_8"},
+			{ "model": "minecraft:block/oak_twig_branch_up_12"}
 	  ]}
   ]
 }
