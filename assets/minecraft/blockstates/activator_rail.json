@@ -14,9 +14,14 @@
       "model": "block/activator_rail_diagonal",
       "y": 90
     },
-    "powered\u003dfalse,shape\u003dascending_north": {
-      "model": "block/unused_cross_0"
-    },
+    "powered\u003dfalse,shape\u003dascending_north": [
+	{ "model": "minecraft:block/beech_leaves_slab"},
+	{ "model": "minecraft:block/beech_leaves_slab_2"},
+	{ "model": "minecraft:block/beech_leaves_slab_3"},
+	{ "model": "minecraft:block/beech_leaves_slab_4"},
+	{ "model": "minecraft:block/beech_leaves_slab_5"},
+	{ "model": "minecraft:block/beech_leaves_slab_6"}
+	],
     "powered\u003dfalse,shape\u003dascending_south": {
       "model": "block/unused_cross_0"
     },
