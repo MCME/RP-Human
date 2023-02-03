@@ -11,16 +11,6 @@
       "model": "block/powered_rail_raised_ne",
       "y": 90
     },
-    "powered\u003dfalse,shape\u003dascending_west": {
-      "model": "block/powered_rail_raised_sw",
-      "y": 90
-    },
-    "powered\u003dfalse,shape\u003dascending_north": {
-      "model": "block/powered_rail_raised_ne"
-    },
-    "powered\u003dfalse,shape\u003dascending_south": {
-      "model": "block/powered_rail_raised_sw"
-    },
     "powered\u003dtrue,shape\u003dnorth_south": {
       "model": "block/golden_rail_flat_diagonal"
     },
@@ -30,6 +20,15 @@
     },
     "powered\u003dtrue,shape\u003dascending_east": {
       "model": "block/golden_rail_raised_e"
+    },
+    "powered\u003dtrue,shape\u003dascending_west": {
+      "model": "block/beech_thin_trunk_horizontal"
+    },
+    "powered\u003dtrue,shape\u003dascending_north": {
+      "model": "block/beech_thin_trunk_horizontal_2"
+    },
+    "powered\u003dtrue,shape\u003dascending_south": {
+      "model": "block/beech_thin_trunk_horizontal_3"
     }
   }
 }
