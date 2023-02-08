@@ -518,57 +518,6 @@
       "when": {
         "facing": "east",
         "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/warped_door_top_rh_powered"
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/warped_door_top_rh_powered",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/warped_door_top_rh_powered",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/warped_door_top_rh_powered",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "upper",
         "hinge": "left",
         "open": "true",
         "powered": "true"
@@ -620,57 +569,6 @@
 	{ "model": "minecraft:block/warped_door_woven_fence_1", "y": 90 },
 	{ "model": "minecraft:block/warped_door_woven_fence_2", "y": 90 }
 	]
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "right",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/warped_door_top_powered",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "upper",
-        "hinge": "right",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/warped_door_top_powered"
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "upper",
-        "hinge": "right",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/warped_door_top_powered",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "upper",
-        "hinge": "right",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/warped_door_top_powered",
-        "y": 180
-      }
     }
   ]
 }
