@@ -3223,6 +3223,394 @@
         "x": 90,
         "y": 90
       }
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "none",
+        "east": "none",
+        "south": "none",
+        "west": "none"
+      },
+      "apply": {
+        "model": "block/tree_thin_oak_vertical"
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          { 
+		    "power": "9",
+            "north": "side|up"
+          },
+          {
+			"power": "9",
+            "north": "none",
+            "east": "none",
+            "south": "side|up",
+            "west": "none"
+          }
+        ]
+      },
+      "apply": {
+        "model": "block/tree_thin_oak_horizontal",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          { 
+		    "power": "9",
+            "east": "side|up"
+          },
+          {
+			"power": "9",
+            "north": "none",
+            "east": "none",
+            "south": "none",
+            "west": "side|up"
+          }
+        ]
+      },
+      "apply": {
+        "model": "block/tree_thin_oak_horizontal",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+			"power": "9",
+            "south": "side|up"
+          },
+          {
+			"power": "9",
+            "north": "side|up",
+            "east": "none",
+            "south": "none",
+            "west": "none"
+          }
+        ]
+      },
+      "apply": {
+        "model": "block/tree_thin_oak_horizontal",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+			"power": "9",
+            "west": "side|up"
+          },
+          {
+			"power": "9",
+            "north": "none",
+            "east": "side|up",
+            "south": "none",
+            "west": "none"
+          }
+        ]
+      },
+      "apply": {
+        "model": "block/tree_thin_oak_horizontal",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when":  {
+        "OR": [
+          { "power": "9",
+            "west": "side|up",
+            "east": "side|up"
+          },
+          { "power": "9",
+            "north": "side|up",
+            "south": "side|up"
+          },
+          { "power": "9",
+            "north": "none",
+            "east": "none",
+            "south": "none",
+            "west": "side|up"
+          },
+          { "power": "9",
+            "north": "none",
+            "east": "none",
+            "south": "side|up",
+            "west": "none"
+          },
+          { "power": "9",
+            "north": "none",
+            "east": "side|up",
+            "south": "none",
+            "west": "none"
+          },
+          { "power": "9",
+            "north": "side|up",
+            "east": "none",
+            "south": "none",
+            "west": "none"
+          }
+        ]
+	  },
+      "apply": {
+        "model": "block/tree_thin_oak_center"
+      }
+    },
+    {
+      "when": {
+		"power": "9",
+        "north": "side|up",
+        "east": "side|up",
+        "south": "none",
+        "west": "none"
+      },
+      "apply": {
+        "model": "block/tree_thin_oak_center_alt"
+      }
+    },
+    {
+      "when": {
+		"power": "9",
+        "north": "none",
+        "east": "side|up",
+        "south": "side|up",
+        "west": "none"
+      },
+      "apply": {
+        "model": "block/tree_thin_oak_center_alt",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+		"power": "9",
+        "north": "none",
+        "east": "none",
+        "south": "side|up",
+        "west": "side|up"
+      },
+      "apply": {
+        "model": "block/tree_thin_oak_center_alt",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+		"power": "9",
+        "north": "side|up",
+        "east": "none",
+        "south": "none",
+        "west": "side|up"
+      },
+      "apply": {
+        "model": "block/tree_thin_oak_center_alt",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "power": "10",
+        "north": "none",
+        "east": "none",
+        "south": "none",
+        "west": "none"
+      },
+      "apply": {
+        "model": "block/tree_thin_spruce_vertical"
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          { 
+		    "power": "10",
+            "north": "side|up"
+          },
+          {
+			"power": "10",
+            "north": "none",
+            "east": "none",
+            "south": "side|up",
+            "west": "none"
+          }
+        ]
+      },
+      "apply": {
+        "model": "block/tree_thin_spruce_horizontal",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          { 
+		    "power": "10",
+            "east": "side|up"
+          },
+          {
+			"power": "10",
+            "north": "none",
+            "east": "none",
+            "south": "none",
+            "west": "side|up"
+          }
+        ]
+      },
+      "apply": {
+        "model": "block/tree_thin_spruce_horizontal",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+			"power": "10",
+            "south": "side|up"
+          },
+          {
+			"power": "10",
+            "north": "side|up",
+            "east": "none",
+            "south": "none",
+            "west": "none"
+          }
+        ]
+      },
+      "apply": {
+        "model": "block/tree_thin_spruce_horizontal",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+			"power": "10",
+            "west": "side|up"
+          },
+          {
+			"power": "10",
+            "north": "none",
+            "east": "side|up",
+            "south": "none",
+            "west": "none"
+          }
+        ]
+      },
+      "apply": {
+        "model": "block/tree_thin_spruce_horizontal",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when":  {
+        "OR": [
+          { "power": "10",
+            "west": "side|up",
+            "east": "side|up"
+          },
+          { "power": "10",
+            "north": "side|up",
+            "south": "side|up"
+          },
+          { "power": "10",
+            "north": "none",
+            "east": "none",
+            "south": "none",
+            "west": "side|up"
+          },
+          { "power": "10",
+            "north": "none",
+            "east": "none",
+            "south": "side|up",
+            "west": "none"
+          },
+          { "power": "10",
+            "north": "none",
+            "east": "side|up",
+            "south": "none",
+            "west": "none"
+          },
+          { "power": "10",
+            "north": "side|up",
+            "east": "none",
+            "south": "none",
+            "west": "none"
+          }
+        ]
+	  },
+      "apply": {
+        "model": "block/tree_thin_spruce_center"
+      }
+    },
+    {
+      "when": {
+		"power": "10",
+        "north": "side|up",
+        "east": "side|up",
+        "south": "none",
+        "west": "none"
+      },
+      "apply": {
+        "model": "block/tree_thin_spruce_center_alt"
+      }
+    },
+    {
+      "when": {
+		"power": "10",
+        "north": "none",
+        "east": "side|up",
+        "south": "side|up",
+        "west": "none"
+      },
+      "apply": {
+        "model": "block/tree_thin_spruce_center_alt",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+		"power": "10",
+        "north": "none",
+        "east": "none",
+        "south": "side|up",
+        "west": "side|up"
+      },
+      "apply": {
+        "model": "block/tree_thin_spruce_center_alt",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+		"power": "10",
+        "north": "side|up",
+        "east": "none",
+        "south": "none",
+        "west": "side|up"
+      },
+      "apply": {
+        "model": "block/tree_thin_spruce_center_alt",
+        "y": 270,
+        "uvlock": true
+      }
     }
   ]
 }
