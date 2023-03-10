@@ -30,6 +30,6 @@ void main() {
     #define BLOCK
     #moj_import<objmc.light>
 
-    if (color.a < 0.01) discard;
+    if (color.a < 0.1) discard;
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
 }
