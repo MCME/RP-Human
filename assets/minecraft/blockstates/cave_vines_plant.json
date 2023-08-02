@@ -1,12 +1,10 @@
 {
   "variants": {
     "berries=false": [
-	{  "model": "minecraft:block/oak_leaves_slab_upper"},
-	{  "model": "minecraft:block/oak_leaves_slab_upper_2"},
-	{  "model": "minecraft:block/oak_leaves_slab_upper_3"},
-	{  "model": "minecraft:block/oak_leaves_slab_upper_4"},
-	{  "model": "minecraft:block/oak_leaves_slab_upper_5"},
-	{  "model": "minecraft:block/oak_leaves_slab_upper_6"}
+	{  "model": "mcme:block/oak_leaves_slab_upper"},
+	{  "model": "mcme:block/oak_leaves_slab_upper", "y": 90},
+	{  "model": "mcme:block/oak_leaves_slab_upper", "y": 180},
+	{  "model": "mcme:block/oak_leaves_slab_upper", "y": 270}
 	],
     "berries=true": {
       "model": "minecraft:block/cave_vines_plant_lit"

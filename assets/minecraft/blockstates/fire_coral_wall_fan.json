@@ -1,14 +1,14 @@
 {
   "variants": {
-    "facing=south": {"model": "minecraft:block/maple_trunk_horizontal"},
+    "facing=south": {"model": "mcme:block/maple_trunk_horizontal"},
     "facing=west": {
-      "model": "minecraft:block/maple_trunk_horizontal_2"
+      "model": "mcme:block/maple_trunk_horizontal", "y": 90
     },
     "facing=north": {
-      "model": "minecraft:block/maple_trunk_horizontal_3"
+      "model": "mcme:block/maple_trunk_horizontal", "y": 180
     },
     "facing=east": {
-      "model": "minecraft:block/maple_trunk_horizontal_4"
+      "model": "mcme:block/maple_trunk_horizontal", "y": 270
     }
   }
 }

@@ -5,15 +5,13 @@
       "y": 90
     },
     "shape=ascending_north": [
-	{ "model": "minecraft:block/oak_leaves_slab"},
-	{ "model": "minecraft:block/oak_leaves_slab_2"},
-	{ "model": "minecraft:block/oak_leaves_slab_3"},
-	{ "model": "minecraft:block/oak_leaves_slab_4"},
-	{ "model": "minecraft:block/oak_leaves_slab_5"},
-	{ "model": "minecraft:block/oak_leaves_slab_6"}
+	{ "model": "mcme:block/oak_leaves_slab"},
+	{ "model": "mcme:block/oak_leaves_slab", "y": 90},
+	{ "model": "mcme:block/oak_leaves_slab", "y": 180},
+	{ "model": "mcme:block/oak_leaves_slab", "y": 270}
 	],
     "shape=ascending_south": {
-      "model": "minecraft:block/beech_thin_trunk_horizontal_4"
+      "model": "mcme:block/beech_thin_trunk_horizontal", "y": 270
     },
     "shape=ascending_west": {
       "model": "minecraft:block/oak_thin_trunk_horizontal_3",
