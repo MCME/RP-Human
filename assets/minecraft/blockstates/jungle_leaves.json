@@ -5,6 +5,46 @@
 		{ "model": "mcme:block/beech_leaves", "y": 90 },
 		{ "model": "mcme:block/beech_leaves", "y": 180 },
 		{ "model": "mcme:block/beech_leaves", "y": 270 }
+		],
+	"distance=3,persistent=false":[
+		{ "model": "mcme:block/spruce_leaves" },
+		{ "model": "mcme:block/spruce_leaves_2" },
+		{ "model": "mcme:block/spruce_leaves_3" }
+		],
+	"distance=4,persistent=false":[
+		{ "model": "mcme:block/spruce_leaves", "y": 90 },
+		{ "model": "mcme:block/spruce_leaves_2", "y": 90 },
+		{ "model": "mcme:block/spruce_leaves_3", "y": 90 }
+		],
+	"distance=5,persistent=false":[
+		{ "model": "mcme:block/spruce_leaves", "y": 180 },
+		{ "model": "mcme:block/spruce_leaves_2", "y": 180 },
+		{ "model": "mcme:block/spruce_leaves_3", "y": 180 }
+		],
+	"distance=6,persistent=false":[
+		{ "model": "mcme:block/spruce_leaves", "y": 270 },
+		{ "model": "mcme:block/spruce_leaves_2", "y": 270 },
+		{ "model": "mcme:block/spruce_leaves_3", "y": 270 }
+		],
+	"distance=7,persistent=true":[
+		{ "model": "mcme:block/spruce_leaves_4" },
+		{ "model": "mcme:block/spruce_leaves_5" },
+		{ "model": "mcme:block/spruce_leaves_6" }
+		],
+	"distance=1,persistent=true":[
+		{ "model": "mcme:block/spruce_leaves_4", "y": 90 },
+		{ "model": "mcme:block/spruce_leaves_5", "y": 90 },
+		{ "model": "mcme:block/spruce_leaves_6", "y": 90 }
+		],
+	"distance=2,persistent=true":[
+		{ "model": "mcme:block/spruce_leaves_4", "y": 180 },
+		{ "model": "mcme:block/spruce_leaves_5", "y": 180 },
+		{ "model": "mcme:block/spruce_leaves_6", "y": 180 }
+		],
+	"distance=3,persistent=true":[
+		{ "model": "mcme:block/spruce_leaves_4", "y": 270 },
+		{ "model": "mcme:block/spruce_leaves_5", "y": 270 },
+		{ "model": "mcme:block/spruce_leaves_6", "y": 270 }
 		]
   }
 }

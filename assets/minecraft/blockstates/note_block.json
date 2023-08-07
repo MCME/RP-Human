@@ -163,6 +163,11 @@
 		"instrument=hat,note=0,powered=false,": { "model":"block/note_block_sticks" },
 		"instrument=hat,note=1,powered=false,": { "model":"block/note_block_sticks", "y":90 },
 		"instrument=hat,note=2,powered=false,": { "model":"block/note_block_sticks", "y":180 },
-		"instrument=hat,note=3,powered=false,": { "model":"block/note_block_sticks", "y":270 }
+		"instrument=hat,note=3,powered=false,": { "model":"block/note_block_sticks", "y":270 },
+		
+		"instrument=bass,note=0,powered=false,": { "model":"block/note_block_bass_0" },
+		"instrument=bass,note=1,powered=false,": { "model":"block/note_block_bass_0", "y":90 },
+		"instrument=bass,note=2,powered=false,": { "model":"block/note_block_bass_0", "y":180 },
+		"instrument=bass,note=3,powered=false,": { "model":"block/note_block_bass_0", "y":270 }
     }
 }

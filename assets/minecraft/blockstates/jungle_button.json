@@ -71,39 +71,40 @@
     "face=wall,facing=east,powered=false": {
       "model": "minecraft:block/jungle_button_corbel"
     },
-    "face=wall,facing=east,powered=true": {
-      "model": "minecraft:block/jungle_button_pressed",
-      "y": 90,
-      "x": 90,
-      "uvlock": true
-    },
+    "face=wall,facing=east,powered=true": [
+	{"model": "mcme:block/spruce_branch_broken", "y": 90},
+	{"model": "mcme:block/spruce_branch_broken_2", "y": 90},
+	{"model": "mcme:block/spruce_branch_broken_3", "y": 90},
+	{"model": "mcme:block/spruce_branch_broken_4", "y": 90}
+	],
     "face=wall,facing=north,powered=false": {
       "model": "minecraft:block/jungle_button_corbel", "y": 270
     },
-    "face=wall,facing=north,powered=true": {
-      "model": "minecraft:block/jungle_button_pressed",
-      "x": 90,
-      "uvlock": true
-    },
+    "face=wall,facing=north,powered=true": [
+	{ "model": "mcme:block/spruce_branch_broken" },
+	{ "model": "mcme:block/spruce_branch_broken_2" },
+	{ "model": "mcme:block/spruce_branch_broken_3" },
+	{ "model": "mcme:block/spruce_branch_broken_4" }
+	],
     "face=wall,facing=south,powered=false": {
       "model": "minecraft:block/jungle_button_corbel",
       "y": 90
     },
-    "face=wall,facing=south,powered=true": {
-      "model": "minecraft:block/jungle_button_pressed",
-      "y": 180,
-      "x": 90,
-      "uvlock": true
-    },
+    "face=wall,facing=south,powered=true": [
+	{"model": "mcme:block/spruce_branch_broken", "y": 180},
+	{"model": "mcme:block/spruce_branch_broken_2", "y": 180},
+	{"model": "mcme:block/spruce_branch_broken_3", "y": 180},
+	{"model": "mcme:block/spruce_branch_broken_4", "y": 180}
+	],
     "face=wall,facing=west,powered=false": {
       "model": "minecraft:block/jungle_button_corbel",
       "y": 180
     },
-    "face=wall,facing=west,powered=true": {
-      "model": "minecraft:block/jungle_button_pressed",
-      "y": 270,
-      "x": 90,
-      "uvlock": true
-    }
+    "face=wall,facing=west,powered=true": [
+	{"model": "mcme:block/spruce_branch_broken", "y": 270},
+	{"model": "mcme:block/spruce_branch_broken_2", "y": 270},
+	{"model": "mcme:block/spruce_branch_broken_3", "y": 270},
+	{"model": "mcme:block/spruce_branch_broken_4", "y": 270}
+	]
   }
 }

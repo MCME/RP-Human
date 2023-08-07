@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "half=lower": [
+	{ "model": "mcme:block/big_fern" },
+	{ "model": "mcme:block/big_fern", "y": 90 },
+	{ "model": "mcme:block/big_fern", "y": 180 },
+	{ "model": "mcme:block/big_fern", "y": 270 },
+	{ "model": "mcme:block/big_fern_2" },
+	{ "model": "mcme:block/big_fern_2", "y": 90 },
+	{ "model": "mcme:block/big_fern_2", "y": 180 },
+	{ "model": "mcme:block/big_fern_2", "y": 270 }
+		],
+    "half=upper": {
+      "model": "minecraft:block/large_fern_top"
+    }
+  }
+}
