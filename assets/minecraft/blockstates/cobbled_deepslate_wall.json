@@ -769,6 +769,54 @@
       "apply": {
         "model": "minecraft:block/spruce_bark_transition"
       }
+    },
+    {
+      "when": {
+        "up": "true",
+        "north": "low",
+        "east": "tall",
+        "south": "tall",
+        "west": "tall"
+      },
+      "apply": {
+        "model": "minecraft:block/spruce_bark_transition_diagonal"
+      }
+    },
+    {
+      "when": {
+        "up": "true",
+        "north": "tall",
+        "east": "tall",
+        "south": "tall",
+        "west": "low"
+      },
+      "apply": {
+        "model": "minecraft:block/spruce_bark_transition_diagonal", "y": 90
+      }
+    },
+    {
+      "when": {
+        "up": "true",
+        "north": "tall",
+        "east": "tall",
+        "south": "low",
+        "west": "tall"
+      },
+      "apply": {
+        "model": "minecraft:block/spruce_bark_transition_diagonal", "y": 180
+      }
+    },
+    {
+      "when": {
+        "up": "true",
+        "north": "tall",
+        "east": "low",
+        "south": "tall",
+        "west": "tall"
+      },
+      "apply": {
+        "model": "minecraft:block/spruce_bark_transition_diagonal", "y": 270
+      }
     }
   ]
 }
