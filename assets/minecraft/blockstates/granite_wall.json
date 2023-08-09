@@ -1,553 +1,530 @@
 {
   "multipart": [
-    {
-      "when": {
-        "up": "true",
-        "north": "low",
-        "east": "none",
-        "south": "none",
-        "west": "low"
-      },
-      "apply": {
-        "model": "minecraft:block/beech_log_diagonal"
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "low",
-        "east": "low",
-        "south": "none",
-        "west": "none"
-      },
-      "apply": {
-        "model": "minecraft:block/beech_log_diagonal",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "none",
-        "east": "low",
-        "south": "low",
-        "west": "none"
-      },
-      "apply": {
-        "model": "minecraft:block/beech_log_diagonal",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "none",
-        "east": "none",
-        "south": "low",
-        "west": "low"
-      },
-      "apply": {
-        "model": "minecraft:block/beech_log_diagonal",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "none",
-        "east": "tall",
-        "south": "none",
-        "west": "tall"
-      },
-      "apply": {
-        "model": "minecraft:block/beech_log_vertical_slab"
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "none",
-        "east": "tall",
-        "south": "none",
-        "west": "tall"
-      },
-      "apply": {
-        "model": "minecraft:block/beech_log_vertical_slab",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "tall",
-        "east": "none",
-        "south": "tall",
-        "west": "none"
-      },
-      "apply": {
-        "model": "minecraft:block/beech_log_vertical_slab",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "tall",
-        "east": "none",
-        "south": "tall",
-        "west": "none"
-      },
-      "apply": {
-        "model": "minecraft:block/beech_log_vertical_slab",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "low",
-        "east": "none",
-        "south": "none",
-        "west": "tall"
-      },
-      "apply": {
-        "model": "mcme:block/beech_branch_45_diagonal", "y": 180
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "tall",
-        "east": "low",
-        "south": "none",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_branch_45_diagonal", "y": 270
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "none",
-        "east": "tall",
-        "south": "low",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_branch_45_diagonal"
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "none",
-        "east": "none",
-        "south": "tall",
-        "west": "low"
-      },
-      "apply": {
-        "model": "mcme:block/beech_branch_45_diagonal", "y": 90
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "none",
-        "east": "low",
-        "south": "low",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_thin_branch_45_diagonal"
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "none",
-        "east": "none",
-        "south": "low",
-        "west": "low"
-      },
-      "apply": {
-        "model": "mcme:block/beech_thin_branch_45_diagonal", "y": 90
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "low",
-        "east": "none",
-        "south": "none",
-        "west": "low"
-      },
-      "apply": {
-        "model": "mcme:block/beech_thin_branch_45_diagonal", "y": 180
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "low",
-        "east": "low",
-        "south": "none",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_thin_branch_45_diagonal", "y": 270
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "low",
-        "east": "none",
-        "south": "none",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_branch_22.5_straight", "y": 180
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "none",
-        "east": "low",
-        "south": "none",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_branch_22.5_straight", "y": 270
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "none",
-        "east": "none",
-        "south": "low",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_branch_22.5_straight"
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "none",
-        "east": "none",
-        "south": "none",
-        "west": "low"
-      },
-      "apply": {
-        "model": "mcme:block/beech_branch_22.5_straight", "y": 90
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "tall",
-        "east": "none",
-        "south": "none",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_thin_branch_22.5_straight", "y": 180
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "none",
-        "east": "tall",
-        "south": "none",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_thin_branch_22.5_straight", "y": 270
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "none",
-        "east": "none",
-        "south": "tall",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_thin_branch_22.5_straight"
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "none",
-        "east": "none",
-        "south": "none",
-        "west": "tall"
-      },
-      "apply": {
-        "model": "mcme:block/beech_thin_branch_22.5_straight", "y": 90
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "tall",
-        "east": "none",
-        "south": "none",
-        "west": "tall"
-      },
-      "apply": {
-        "model": "mcme:block/beech_branch_22.5_diagonal", "y": 180
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "tall",
-        "east": "tall",
-        "south": "none",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_branch_22.5_diagonal", "y": 270
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "none",
-        "east": "tall",
-        "south": "tall",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_branch_22.5_diagonal"
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "none",
-        "east": "none",
-        "south": "tall",
-        "west": "tall"
-      },
-      "apply": {
-        "model": "mcme:block/beech_branch_22.5_diagonal", "y": 90
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "tall",
-        "east": "none",
-        "south": "none",
-        "west": "tall"
-      },
-      "apply": {
-        "model": "mcme:block/beech_thin_branch_22.5_diagonal", "y": 180
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "tall",
-        "east": "tall",
-        "south": "none",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_thin_branch_22.5_diagonal", "y": 270
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "none",
-        "east": "tall",
-        "south": "tall",
-        "west": "none"
-      },
-      "apply": {
-        "model": "mcme:block/beech_thin_branch_22.5_diagonal"
-      }
-    },
-    {
-      "when": {
-        "up": "false",
-        "north": "none",
-        "east": "none",
-        "south": "tall",
-        "west": "tall"
-      },
-      "apply": {
-        "model": "mcme:block/beech_thin_branch_22.5_diagonal", "y": 90
-      }
-    },
-    {
-      "when": {
-        "up": "true",
-        "north": "tall",
-        "east": "none",
-        "south": "none",
-        "west": "none"
-      },
+    {"when": { "up": "true", "north": "low", "east": "none", "south": "none", "west": "low" },
       "apply": [
-        {
-          "model": "mcme:block/beech_twig_branch"
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_5"
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_9"
-        }
+			{ "model": "minecraft:block/beech_log_diagonal" }
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "low", "south": "none", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/beech_log_diagonal", "y": 90 }
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "low", "south": "low", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/beech_log_diagonal", "y": 180 }
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "none", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "minecraft:block/beech_log_diagonal", "y": 270 }
+	  ]
+	},
+	{"when": { "up": "false", "north": "low", "east": "low", "south": "none", "west": "low" },
+      "apply": [
+			{ "model": "minecraft:block/beech_log_vertical_slab"}
+	  ]
+	},
+	{"when": { "up": "false", "north": "none", "east": "low", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "minecraft:block/beech_log_vertical_slab", "y": 180}
+	  ]
+	},
+	{"when": { "up": "false", "north": "low", "east": "low", "south": "low", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/beech_log_vertical_slab", "y": 90}
+	  ]
+	},
+	{"when": { "up": "false", "north": "low", "east": "none", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "minecraft:block/beech_log_vertical_slab", "y": 270}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "none", "south": "none", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/beech_branch_45_diagonal", "y":180}
+	  ]
+	},
+	{"when": { "up": "true", "north": "tall", "east": "low", "south": "none", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/beech_branch_45_diagonal", "y":270}
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "tall", "south": "low", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/beech_branch_45_diagonal"}
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "none", "south": "tall", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/beech_branch_45_diagonal", "y":90}
+	  ]
+	},
+	{"when": { "up": "false", "north": "none", "east": "low", "south": "low", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/beech_thin_branch_45_diagonal"}
+	  ]
+	},
+	{"when": { "up": "false", "north": "none", "east": "none", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/beech_thin_branch_45_diagonal", "y":90}
+	  ]
+	},
+	{"when": { "up": "false", "north": "low", "east": "none", "south": "none", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/beech_thin_branch_45_diagonal", "y":180}
+	  ]
+	},
+	{"when": { "up": "false", "north": "low", "east": "low", "south": "none", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/beech_thin_branch_45_diagonal", "y":270}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "none", "south": "none", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/beech_branch_22.5_straight", "y":180}
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "low", "south": "none", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/beech_branch_22.5_straight", "y":270}
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "none", "south": "low", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/beech_branch_22.5_straight"}
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "none", "south": "none", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/beech_branch_22.5_straight", "y":90}
+	  ]
+	},
+	{"when": { "up": "true", "north": "tall", "east": "low", "south": "low", "west": "none" },
+      "apply": [
+            { "model": "mcme:block/beech_thin_branch_22.5_straight", "y":180}
       ]
     },
-    {
-      "when": {
-        "up": "true",
-        "north": "none",
-        "east": "tall",
-        "south": "none",
-        "west": "none"
-      },
+    {"when": { "up": "true", "north": "none", "east": "tall", "south": "low", "west": "low" },
       "apply": [
-        {
-          "model": "mcme:block/beech_twig_branch", "y": 90
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_5", "y": 90
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_9", "y": 90
-        }
+            { "model": "mcme:block/beech_thin_branch_22.5_straight", "y":270}
       ]
     },
-    {
-      "when": {
-        "up": "true",
-        "north": "none",
-        "east": "none",
-        "south": "tall",
-        "west": "none"
-      },
+    {"when": { "up": "true", "north": "low", "east": "none", "south": "tall", "west": "low" },
       "apply": [
-        {
-          "model": "mcme:block/beech_twig_branch", "y": 180
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_5", "y": 180
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_9", "y": 180
-        }
+            { "model": "mcme:block/beech_thin_branch_22.5_straight"}
       ]
     },
-    {
-      "when": {
-        "up": "true",
-        "north": "none",
-        "east": "none",
-        "south": "none",
-        "west": "tall"
-      },
+    {"when": { "up": "true", "north": "low", "east": "low", "south": "none", "west": "tall" },
       "apply": [
-        {
-          "model": "mcme:block/beech_twig_branch", "y": 270
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_5", "y": 270
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_9", "y": 270
-        }
+            { "model": "mcme:block/beech_thin_branch_22.5_straight", "y":90}
       ]
     },
-    {
-      "when": {
-        "up": "false",
-        "north": "tall",
-        "east": "none",
-        "south": "low",
-        "west": "none"
-      },
+	{"when": { "up": "true", "north": "tall", "east": "none", "south": "none", "west": "low" },
       "apply": [
-        {
-          "model": "mcme:block/beech_twig_branch_up"
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_up_5"
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_up_9"
-        }
+			{ "model": "mcme:block/beech_branch_22.5_diagonal", "y":180}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "tall", "south": "none", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/beech_branch_22.5_diagonal", "y":270}
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "low", "south": "tall", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/beech_branch_22.5_diagonal"}
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "none", "south": "low", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/beech_branch_22.5_diagonal", "y":90}
+	  ]
+	},
+	{"when": { "up": "false", "north": "tall", "east": "low", "south": "low", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/beech_thin_branch_22.5_diagonal", "y":180}
+	  ]
+	},
+	{"when": { "up": "false", "north": "tall", "east": "tall", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/beech_thin_branch_22.5_diagonal", "y":270}
+	  ]
+	},
+	{"when": { "up": "false", "north": "low", "east": "tall", "south": "tall", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/beech_thin_branch_22.5_diagonal"}
+	  ]
+	},
+	{"when": { "up": "false", "north": "low", "east": "low", "south": "tall", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/beech_thin_branch_22.5_diagonal", "y":90}
+	  ]
+	},
+	{"when": { "up": "false", "north": "tall", "east": "low", "south": "none", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/beech_twig_branch"},
+			{ "model": "mcme:block/beech_twig_branch_5"},
+			{ "model": "mcme:block/beech_twig_branch_9"}
+	  ]
+	},
+	{"when": { "up": "false", "north": "low", "east": "tall", "south": "low", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/beech_twig_branch", "y":90},
+			{ "model": "mcme:block/beech_twig_branch_5", "y":90},
+			{ "model": "mcme:block/beech_twig_branch_9", "y":90}
+	  ]
+	},
+	{"when": { "up": "false", "north": "none", "east": "low", "south": "tall", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/beech_twig_branch", "y":180},
+			{ "model": "mcme:block/beech_twig_branch_5", "y":180},
+			{ "model": "mcme:block/beech_twig_branch_9", "y":180}
+	  ]
+	},
+	{"when": { "up": "false", "north": "low", "east": "none", "south": "low", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/beech_twig_branch", "y":270},
+			{ "model": "mcme:block/beech_twig_branch_5", "y":270},
+			{ "model": "mcme:block/beech_twig_branch_9", "y":270}
+	  ]
+	},
+	{"when": { "up": "false", "north": "tall", "east": "low", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/beech_twig_branch_up"},
+			{ "model": "mcme:block/beech_twig_branch_up_5"},
+			{ "model": "mcme:block/beech_twig_branch_up_9"}
+	  ]
+	},
+	{"when": { "up": "false", "north": "low", "east": "tall", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/beech_twig_branch_up", "y":90},
+			{ "model": "mcme:block/beech_twig_branch_up_5", "y":90},
+			{ "model": "mcme:block/beech_twig_branch_up_9", "y":90}
+	  ]
+	},
+	{"when": { "up": "false", "north": "low", "east": "low", "south": "tall", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/beech_twig_branch_up", "y":180},
+			{ "model": "mcme:block/beech_twig_branch_up_5", "y":180},
+			{ "model": "mcme:block/beech_twig_branch_up_9", "y":180}
+	  ]
+	},
+	{"when": { "up": "false", "north": "low", "east": "low", "south": "low", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/beech_twig_branch_up", "y":270},
+			{ "model": "mcme:block/beech_twig_branch_up_5", "y":270},
+			{ "model": "mcme:block/beech_twig_branch_up_9", "y":270}
+	  ]
+	},
+    {"when": { "up": "false", "north": "low","east": "low", "south": "low", "west": "low" },
+      "apply": { "model": "minecraft:block/beech_bark_transition"}
+    },
+	{"when": { "up": "true", "north": "none","east": "tall", "south": "low", "west": "tall" },
+      "apply": { "model": "minecraft:block/beech_bark_transition_diagonal"}
+    },
+	{"when": { "up": "true", "north": "tall","east": "none", "south": "tall", "west": "low" },
+      "apply": { "model": "minecraft:block/beech_bark_transition_diagonal", "y": 90}
+    },
+	{"when": { "up": "true", "north": "low","east": "tall", "south": "none", "west": "tall" },
+      "apply": { "model": "minecraft:block/beech_bark_transition_diagonal", "y": 180}
+    },
+	{"when": { "up": "true", "north": "tall","east": "low", "south": "tall", "west": "none" },
+      "apply": { "model": "minecraft:block/beech_bark_transition_diagonal", "y": 270}
+    },
+	{"when": { "up": "false", "north": "low", "east": "low", "south": "none", "west": "tall" },
+      "apply": [
+            { "model": "minecraft:block/beech_mossy_log_vertical_slab"}
       ]
     },
-    {
-      "when": {
-        "up": "false",
-        "north": "none",
-        "east": "tall",
-        "south": "none",
-        "west": "low"
-      },
+    {"when": { "up": "false", "north": "tall", "east": "low", "south": "low", "west": "none" },
       "apply": [
-        {
-          "model": "mcme:block/beech_twig_branch_up", "y": 90
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_up_5", "y": 90
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_up_9", "y": 90
-        }
+            { "model": "minecraft:block/beech_mossy_log_vertical_slab", "y": 90}
       ]
     },
-    {
-      "when": {
-        "up": "false",
-        "north": "low",
-        "east": "none",
-        "south": "tall",
-        "west": "none"
-      },
+    {"when": { "up": "false", "north": "none", "east": "tall", "south": "low", "west": "low" },
       "apply": [
-        {
-          "model": "mcme:block/beech_twig_branch_up", "y": 180
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_up_5", "y": 180
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_up_9", "y": 180
-        }
+            { "model": "minecraft:block/beech_mossy_log_vertical_slab", "y": 180}
       ]
     },
-    {
-      "when": {
-        "up": "false",
-        "north": "none",
-        "east": "low",
-        "south": "none",
-        "west": "tall"
-      },
+    {"when": { "up": "false", "north": "low", "east": "none", "south": "tall", "west": "low" },
       "apply": [
-        {
-          "model": "mcme:block/beech_twig_branch_up", "y": 270
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_up_5", "y": 270
-        },
-        {
-          "model": "mcme:block/beech_twig_branch_up_9", "y": 270
-        }
+            { "model": "minecraft:block/beech_mossy_log_vertical_slab", "y": 270}
+      ]
+    },
+	{"when": { "up": "true", "north": "none|tall", "east": "none|tall", "south": "none|tall", "west": "none|tall" },
+        "apply": [
+			  { "model": "mcme:block/pine_trunk_vertical"}
+	    ]
+	},
+	{"when": { "up": "true", "north": "tall", "east": "none", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "minecraft:block/pine_log_diagonal" }
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "tall", "south": "none", "west": "low" },
+      "apply": [
+			{ "model": "minecraft:block/pine_log_diagonal", "y": 90 }
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "low", "south": "tall", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/pine_log_diagonal", "y": 180 }
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "low", "south": "low", "west": "tall" },
+      "apply": [
+			{ "model": "minecraft:block/pine_log_diagonal", "y": 270 }
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "low", "south": "none", "west": "low" },
+      "apply": [
+			{ "model": "minecraft:block/pine_log_vertical_slab"}
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "low", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "minecraft:block/pine_log_vertical_slab", "y": 180}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "low", "south": "low", "west": "none" },
+      "apply": [
+			{ "model": "minecraft:block/pine_log_vertical_slab", "y": 90}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "none", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "minecraft:block/pine_log_vertical_slab", "y": 270}
+	  ]
+	},
+	{"when": { "up": "true", "north": "tall", "east": "none", "south": "low", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/pine_branch_22.5_diagonal", "y":180}
+	  ]
+	},
+	{"when": { "up": "true", "north": "tall", "east": "tall", "south": "none", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/pine_branch_22.5_diagonal", "y":270}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "tall", "south": "tall", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/pine_branch_22.5_diagonal"}
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "low", "south": "tall", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/pine_branch_22.5_diagonal", "y":90}
+	  ]
+	},
+	{"when": { "up": "true", "north": "tall", "east": "low", "south": "low", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/pine_thin_branch_22.5_diagonal", "y":180}
+	  ]
+	},
+	{"when": { "up": "true", "north": "tall", "east": "tall", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/pine_thin_branch_22.5_diagonal", "y":270}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "tall", "south": "tall", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/pine_thin_branch_22.5_diagonal"}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "low", "south": "tall", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/pine_thin_branch_22.5_diagonal", "y":90}
+	  ]
+	},
+	{"when": { "up": "true", "north": "tall", "east": "none", "south": "low", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/pine_thin_branch_22.5_straight", "y":180}
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "tall", "south": "none", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/pine_thin_branch_22.5_straight", "y":270}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "none", "south": "tall", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/pine_thin_branch_22.5_straight"}
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "low", "south": "none", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/pine_thin_branch_22.5_straight", "y":90}
+	  ]
+	},
+	{"when": { "up": "false", "north": "low", "east": "none|tall", "south": "none|tall", "west": "none|tall" },
+        "apply": [
+			  { "model": "mcme:block/pine_branch_45_straight"}
+	    ]
+	},
+	{"when": { "up": "false", "north": "none|tall", "east": "low", "south": "none|tall", "west": "none|tall" },
+        "apply": [
+			  { "model": "mcme:block/pine_branch_45_straight", "y":90}
+	    ]
+	},
+	{"when": { "up": "false", "north": "none|tall", "east": "none|tall", "south": "low", "west": "none|tall" },
+        "apply": [
+			  { "model": "mcme:block/pine_branch_45_straight", "y":180}
+	    ]
+	},
+	{"when": { "up": "false", "north": "none|tall", "east": "none|tall", "south": "none|tall", "west": "low" },
+        "apply": [
+			  { "model": "mcme:block/pine_branch_45_straight", "y":270}
+	    ]
+	},
+	{"when": { "OR": [
+	      { "up": "true|false", "north": "tall", "east": "none|tall", "south": "none|tall", "west": "none|tall" },
+	      { "up": "false", "north": "tall", "east": "low", "south": "none|tall", "west": "none|tall" },
+	      { "up": "false", "north": "tall", "east": "none|tall", "south": "low", "west": "none|tall" },
+	      { "up": "false", "north": "tall", "east": "none|tall", "south": "none|tall", "west": "low" }
+	    ]},  
+		"apply": [
+			  { "model": "mcme:block/pine_thin_branch_45_straight"}
+	    ]
+	},
+	{"when": { "OR": [
+	      { "up": "true|false", "north": "none|tall", "east": "tall", "south": "none|tall", "west": "none|tall" },
+	      { "up": "false", "north": "low", "east": "tall", "south": "none|tall", "west": "none|tall" },
+	      { "up": "false", "north": "none|tall", "east": "tall", "south": "low", "west": "none|tall" },
+	      { "up": "false", "north": "none|tall", "east": "tall", "south": "none|tall", "west": "low" }
+	    ]},  
+		"apply": [
+			  { "model": "mcme:block/pine_thin_branch_45_straight", "y":90}
+	    ]
+	},
+	{"when": { "OR": [
+	      { "up": "true|false", "north": "none|tall", "east": "none|tall", "south": "tall", "west": "none|tall" },
+	      { "up": "false", "north": "none|tall", "east": "low", "south": "tall", "west": "none|tall" },
+	      { "up": "false", "north": "low", "east": "none|tall", "south": "tall", "west": "none|tall" },
+	      { "up": "false", "north": "none|tall", "east": "none|tall", "south": "tall", "west": "low" }
+	    ]},  
+		"apply": [
+			  { "model": "mcme:block/pine_thin_branch_45_straight", "y":180}
+	    ]
+	},
+	{"when": { "OR": [
+	      { "up": "true|false", "north": "none|tall", "east": "none|tall", "south": "none|tall", "west": "tall" },
+	      { "up": "false", "north": "none|tall", "east": "low", "south": "none|tall", "west": "tall" },
+	      { "up": "false", "north": "none|tall", "east": "none|tall", "south": "low", "west": "tall" },
+	      { "up": "false", "north": "low", "east": "none|tall", "south": "none|tall", "west": "tall" }
+	    ]},  
+        "apply": [
+			  { "model": "mcme:block/pine_thin_branch_45_straight", "y":270}
+	    ]
+	},
+	{"when": { "up": "true", "north": "tall", "east": "low", "south": "none", "west": "tall" },
+      "apply": [
+            { "model": "mcme:block/pine_branch_45_diagonal", "y":180}
+      ]
+    },
+    {"when": { "up": "true", "north": "tall", "east": "tall", "south": "low", "west": "none" },
+      "apply": [
+            { "model": "mcme:block/pine_branch_45_diagonal", "y":270}
+      ]
+    },
+    {"when": { "up": "true", "north": "none", "east": "tall", "south": "tall", "west": "low" },
+      "apply": [
+            { "model": "mcme:block/pine_branch_45_diagonal"}
+      ]
+    },
+    {"when": { "up": "true", "north": "low", "east": "none", "south": "tall", "west": "tall" },
+      "apply": [
+            { "model": "mcme:block/pine_branch_45_diagonal", "y":90}
+      ]
+    },
+	{"when": { "up": "true", "north": "tall", "east": "low", "south": "none", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/pine_twig_branch_down"},
+			{ "model": "mcme:block/pine_twig_branch_down_5"},
+			{ "model": "mcme:block/pine_twig_branch_down_9"}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "tall", "south": "low", "west": "none" },
+      "apply": [
+			{ "model": "mcme:block/pine_twig_branch_down", "y":90},
+			{ "model": "mcme:block/pine_twig_branch_down_5", "y":90},
+			{ "model": "mcme:block/pine_twig_branch_down_9", "y":90}
+	  ]
+	},
+	{"when": { "up": "true", "north": "none", "east": "low", "south": "tall", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/pine_twig_branch_down", "y":180},
+			{ "model": "mcme:block/pine_twig_branch_down_5", "y":180},
+			{ "model": "mcme:block/pine_twig_branch_down_9", "y":180}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "none", "south": "low", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/pine_twig_branch_down", "y":270},
+			{ "model": "mcme:block/pine_twig_branch_down_5", "y":270},
+			{ "model": "mcme:block/pine_twig_branch_down_9", "y":270}
+	  ]
+	},
+	{"when": { "up": "true", "north": "tall", "east": "low", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/pine_twig_branch_up"},
+			{ "model": "mcme:block/pine_twig_branch_up_5"},
+			{ "model": "mcme:block/pine_twig_branch_up_9"}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "tall", "south": "low", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/pine_twig_branch_up", "y":90},
+			{ "model": "mcme:block/pine_twig_branch_up_5", "y":90},
+			{ "model": "mcme:block/pine_twig_branch_up_9", "y":90}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "low", "south": "tall", "west": "low" },
+      "apply": [
+			{ "model": "mcme:block/pine_twig_branch_up", "y":180},
+			{ "model": "mcme:block/pine_twig_branch_up_5", "y":180},
+			{ "model": "mcme:block/pine_twig_branch_up_9", "y":180}
+	  ]
+	},
+	{"when": { "up": "true", "north": "low", "east": "low", "south": "low", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/pine_twig_branch_up", "y":270},
+			{ "model": "mcme:block/pine_twig_branch_up_5", "y":270},
+			{ "model": "mcme:block/pine_twig_branch_up_9", "y":270}
+	  ]
+	},
+    {"when": { "up": "true", "north": "low","east": "low", "south": "low", "west": "low" },
+      "apply": { "model": "minecraft:block/pine_bark_transition"}
+    },
+	{"when": { "up": "true", "north": "low","east": "tall", "south": "tall", "west": "tall" },
+      "apply": { "model": "minecraft:block/pine_bark_transition_diagonal"}
+    },
+	{"when": { "up": "true", "north": "tall","east": "tall", "south": "tall", "west": "low" },
+      "apply": { "model": "minecraft:block/pine_bark_transition_diagonal", "y": 90}
+    },
+	{"when": { "up": "true", "north": "tall","east": "tall", "south": "low", "west": "tall" },
+      "apply": { "model": "minecraft:block/pine_bark_transition_diagonal", "y": 180}
+    },
+	{"when": { "up": "true", "north": "tall","east": "low", "south": "tall", "west": "tall" },
+      "apply": { "model": "minecraft:block/pine_bark_transition_diagonal", "y": 270}
+    },
+	{"when": { "up": "false", "north": "low", "east": "tall", "south": "none", "west": "low" },
+      "apply": [
+            { "model": "minecraft:block/pine_mossy_log_vertical_slab"}
+      ]
+    },
+    {"when": { "up": "false", "north": "low", "east": "low", "south": "tall", "west": "none" },
+      "apply": [
+            { "model": "minecraft:block/pine_mossy_log_vertical_slab", "y": 90}
+      ]
+    },
+    {"when": { "up": "false", "north": "none", "east": "low", "south": "low", "west": "tall" },
+      "apply": [
+            { "model": "minecraft:block/pine_mossy_log_vertical_slab", "y": 180}
+      ]
+    },
+    {"when": { "up": "false", "north": "tall", "east": "none", "south": "low", "west": "low" },
+      "apply": [
+            { "model": "minecraft:block/pine_mossy_log_vertical_slab", "y": 270}
       ]
     }
   ]

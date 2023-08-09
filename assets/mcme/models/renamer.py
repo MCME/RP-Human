@@ -2,17 +2,17 @@ import os
 
 def duplicate_and_replace(folder_path):
     for filename in os.listdir(folder_path):
-        if filename.startswith('oak'):
-            oak_file_path = os.path.join(folder_path, filename)
-            maple_file_path = os.path.join(folder_path, filename.replace('oak', 'spruce'))
+        if filename.startswith('spruce'):
+            spruce_file_path = os.path.join(folder_path, filename)
+            maple_file_path = os.path.join(folder_path, filename.replace('spruce', 'pine'))
 
             # Duplicate the file
-            with open(oak_file_path, 'r') as oak_file:
-                oak_content = oak_file.read()
+            with open(spruce_file_path, 'r') as spruce_file:
+                spruce_content = spruce_file.read()
             with open(maple_file_path, 'w') as maple_file:
-                maple_file.write(oak_content.replace('oak', 'spruce'))
+                maple_file.write(spruce_content.replace('spruce', 'pine'))
 
-            print(f'Duplicated and replaced: {filename} -> {filename.replace("oak", "spruce")}')
+            print(f'Duplicated and replaced: {filename} -> {filename.replace("spruce", "pine")}')
 
 if __name__ == "__main__":
     script_directory = os.path.dirname(__file__)
