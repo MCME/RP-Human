@@ -59,10 +59,10 @@
       "y": 270
     },
     "facing=west,half=top,open=false": [
-	{ "model": "mcme:block/pine_leaves_slab"},
-	{ "model": "mcme:block/pine_leaves_slab", "y": 90, "x": 180},
-	{ "model": "mcme:block/pine_leaves_slab", "y": 180, "x": 180},
-	{ "model": "mcme:block/pine_leaves_slab", "y": 270, "x": 180}
+	{ "model": "mcme:block/pine_leaves_slab_upper"},
+	{ "model": "mcme:block/pine_leaves_slab_upper", "y": 90},
+	{ "model": "mcme:block/pine_leaves_slab_upper", "y": 180},
+	{ "model": "mcme:block/pine_leaves_slab_upper", "y": 270}
 	  ],
     "facing=west,half=top,open=true": {
       "model": "minecraft:block/crimson_trapdoor_open",
