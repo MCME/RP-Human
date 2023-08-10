@@ -55,6 +55,18 @@
 		{ "model": "mcme:block/pine_leaves_2", "y": 90 },
 		{ "model": "mcme:block/pine_leaves_2", "y": 180 },
 		{ "model": "mcme:block/pine_leaves_2", "y": 270 }
+		],
+	"distance=5,persistent=true":[
+		{ "model": "mcme:block/spruce_leaves_omnidirectional"},
+		{ "model": "mcme:block/spruce_leaves_omnidirectional", "y": 90},
+		{ "model": "mcme:block/spruce_leaves_omnidirectional", "y": 180},
+		{ "model": "mcme:block/spruce_leaves_omnidirectional", "y": 270}
+		],
+	"distance=6,persistent=true":[
+		{ "model": "mcme:block/chestnut_leaves"},
+		{ "model": "mcme:block/chestnut_leaves", "y": 90},
+		{ "model": "mcme:block/chestnut_leaves", "y": 180},
+		{ "model": "mcme:block/chestnut_leaves", "y": 270}
 		]
   }
 }

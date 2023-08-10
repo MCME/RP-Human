@@ -68,6 +68,18 @@
       "model": "minecraft:block/crimson_trapdoor_open",
       "x": 180,
       "y": 90
-    }
+    },
+    "facing=north,half=bottom,open=false,powered=true": [
+	{ "model": "mcme:block/chestnut_leaves_slab" },
+	{ "model": "mcme:block/chestnut_leaves_slab", "y": 90 },
+	{ "model": "mcme:block/chestnut_leaves_slab", "y": 180 },
+	{ "model": "mcme:block/chestnut_leaves_slab", "y": 270 }
+	],
+    "facing=north,half=top,open=false,powered=true": [
+	{ "model": "mcme:block/chestnut_leaves_slab_upper" },
+	{ "model": "mcme:block/chestnut_leaves_slab_upper", "y": 90 },
+	{ "model": "mcme:block/chestnut_leaves_slab_upper", "y": 180 },
+	{ "model": "mcme:block/chestnut_leaves_slab_upper", "y": 270 }
+	]
   }
 }
