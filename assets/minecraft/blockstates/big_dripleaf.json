@@ -1,0 +1,21 @@
+{
+	"multipart": [
+
+	{ "when":{
+		"waterlogged": "false", "facing": "north", "tilt": "none"},
+		"apply": [
+	{ "model": "block/big_dripleaf_nn" },
+	{ "model": "block/big_dripleaf_nn", "y": 90 },
+	{ "model": "block/big_dripleaf_nn", "y": 180 },
+	{ "model": "block/big_dripleaf_nn", "y": 270 },
+	{ "model": "block/big_dripleaf_nn_2" },
+	{ "model": "block/big_dripleaf_nn_2", "y": 90 },
+	{ "model": "block/big_dripleaf_nn_2", "y": 180 },
+	{ "model": "block/big_dripleaf_nn_2", "y": 270 },
+	{ "model": "block/big_dripleaf_nn_3" },
+	{ "model": "block/big_dripleaf_nn_3", "y": 90 },
+	{ "model": "block/big_dripleaf_nn_3", "y": 180 },
+	{ "model": "block/big_dripleaf_nn_3", "y": 270 }
+	] }
+]
+}

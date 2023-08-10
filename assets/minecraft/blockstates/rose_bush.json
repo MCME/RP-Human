@@ -1,26 +1,29 @@
 {
   "variants": {
-      "half=lower": [
+    "half=lower": [
       { "model": "block/rose_bush_bottom" },
-      { "model": "block/rose_bush_bottom", "y": 90 },
-      { "model": "block/rose_bush_bottom", "y": 180 },
-      { "model": "block/rose_bush_bottom", "y": 270 }
-
-  ],
-      "half=upper": [
-      { "model": "block/rose_busht" },
-      { "model": "block/rose_busht", "y": 90 },
-      { "model": "block/rose_busht", "y": 180 },
-      { "model": "block/rose_busht", "y": 270 },
-	  { "model": "block/rose_busht_2" },
-      { "model": "block/rose_busht_2", "y": 90 },
-      { "model": "block/rose_busht_2", "y": 180 },
-      { "model": "block/rose_busht_2", "y": 270 },
-	  { "model": "block/rose_busht_3" },
-      { "model": "block/rose_busht_3", "y": 90 },
-      { "model": "block/rose_busht_3", "y": 180 },
-      { "model": "block/rose_busht_3", "y": 270 }
+	{ "model": "block/rose_bush_bottom", "y": 90 },
+	{ "model": "block/rose_bush_bottom", "y": 180 },
+	{ "model": "block/rose_bush_bottom", "y": 270 },
+      { "model": "block/rose_bush_bottom_2" },
+	{ "model": "block/rose_bush_bottom_2", "y": 90 },
+	{ "model": "block/rose_bush_bottom_2", "y": 180 },
+	{ "model": "block/rose_bush_bottom_2", "y": 270 }
+    ],
+    "half=upper": [
+     { "model": "block/rose_busht" },
+     	{ "model": "block/rose_busht", "y": 90 },
+     	{ "model": "block/rose_busht", "y": 180 },
+     	{ "model": "block/rose_busht", "y": 270 },
+     { "model": "block/rose_busht_2" },
+      	{ "model": "block/rose_busht_2", "y": 90 },
+      	{ "model": "block/rose_busht_2", "y": 180 },
+      	{ "model": "block/rose_busht_2", "y": 270 },
+     { "model": "block/rose_busht_3" },
+      	{ "model": "block/rose_busht_3", "y": 90 },
+      	{ "model": "block/rose_busht_3", "y": 180 },
+      	{ "model": "block/rose_busht_3", "y": 270 }
 	
   ]
-    }
   }
+}
