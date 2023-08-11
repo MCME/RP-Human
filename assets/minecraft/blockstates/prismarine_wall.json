@@ -193,15 +193,15 @@
 	{ "when": { "up": "false", "north": "none", "east": "low", "south": "tall", "west": "low" },
       "apply": [
 			{ "model": "mcme:block/oak_twig_branch", "y": 180 },
-			{ "model": "mcme:block/oak_twig_branch_7", "y": 180  },
-			{ "model": "mcme:block/oak_twig_branch_11", "y": 180  }
+			{ "model": "mcme:block/oak_twig_branch_5", "y": 180  },
+			{ "model": "mcme:block/oak_twig_branch_9", "y": 180  }
 	  ]
 	},
 	{ "when": { "up": "false", "north": "low", "east": "none", "south": "low", "west": "tall" },
       "apply": [
 			{ "model": "mcme:block/oak_twig_branch", "y": 270 },
-			{ "model": "mcme:block/oak_twig_branch_8", "y": 270 },
-			{ "model": "mcme:block/oak_twig_branch_12", "y": 270 }
+			{ "model": "mcme:block/oak_twig_branch_5", "y": 270 },
+			{ "model": "mcme:block/oak_twig_branch_9", "y": 270 }
 	  ]
 	},
 	{ "when": { "up": "false", "north": "tall", "east": "low", "south": "low", "west": "low" },
@@ -371,7 +371,7 @@
 	{ "when": { "up": "true", "north": "low", "east": "none", "south": "low", "west": "low" },
       "apply": [
 			{ "model": "minecraft:block/birch_log_vertical_slab", "y": 270 },
-			{ "model": "mcminecraftme:block/birch_log_vertical_slab_2", "y": 270 },
+			{ "model": "minecraft:block/birch_log_vertical_slab_2", "y": 270 },
 			{ "model": "minecraft:block/birch_log_vertical_slab_3", "y": 270 },
 			{ "model": "minecraft:block/birch_log_vertical_slab_4", "y": 270 }
 	  ]
@@ -494,30 +494,30 @@
 	},
 	{ "when": { "up": "true", "north": "tall", "east": "low", "south": "none", "west": "low" },
       "apply": [
-			{ "model": "mcme:block/birch_twig_branch" },
-			{ "model": "mcme:block/birch_twig_branch_5" },
-			{ "model": "mcme:block/birch_twig_branch_9" }
+			{ "model": "mcme:block/birch_twig_branch_down" },
+			{ "model": "mcme:block/birch_twig_branch_down_5" },
+			{ "model": "mcme:block/birch_twig_branch_down_9" }
 	  ]
 	},
 	{ "when": { "up": "true", "north": "low", "east": "tall", "south": "low", "west": "none" },
       "apply": [
-			{ "model": "mcme:block/birch_twig_branch", "y": 90  },
-			{ "model": "mcme:block/birch_twig_branch_5", "y": 90  },
-			{ "model": "mcme:block/birch_twig_branch_9" , "y": 90 }
+			{ "model": "mcme:block/birch_twig_branch_down", "y": 90  },
+			{ "model": "mcme:block/birch_twig_branch_down_5", "y": 90  },
+			{ "model": "mcme:block/birch_twig_branch_down_9" , "y": 90 }
 	  ]
 	},
 	{ "when": { "up": "true", "north": "none", "east": "low", "south": "tall", "west": "low" },
       "apply": [
-			{ "model": "mcme:block/birch_twig_branch", "y": 180  },
-			{ "model": "mcme:block/birch_twig_branch_5", "y": 180  },
-			{ "model": "mcme:block/birch_twig_branch_9" , "y": 180 }
+			{ "model": "mcme:block/birch_twig_branch_down", "y": 180  },
+			{ "model": "mcme:block/birch_twig_branch_down_5", "y": 180  },
+			{ "model": "mcme:block/birch_twig_branch_down_9" , "y": 180 }
 	  ]
 	},
 	{ "when": { "up": "true", "north": "low", "east": "none", "south": "low", "west": "tall" },
       "apply": [
-			{ "model": "mcme:block/birch_twig_branch", "y": 270  },
-			{ "model": "mcme:block/birch_twig_branch_5", "y": 270  },
-			{ "model": "mcme:block/birch_twig_branch_9" , "y": 270 }
+			{ "model": "mcme:block/birch_twig_branch_down", "y": 270  },
+			{ "model": "mcme:block/birch_twig_branch_down_5", "y": 270  },
+			{ "model": "mcme:block/birch_twig_branch_down_9" , "y": 270 }
 	  ]
 	},
 	{ "when": { "up": "true", "north": "tall", "east": "low", "south": "low", "west": "low" },
