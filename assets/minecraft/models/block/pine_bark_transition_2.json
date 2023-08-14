@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 96],
+	"textures": {
+		"1": "mcme:block/pine_log_composite"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 16, 14],
+			"faces": {
+				"north": {"uv": [5.29167, 10.33333, 6.79167, 13], "texture": "#1"},
+				"east": {"uv": [5.25834, 0.5, 6.75834, 3.16667], "texture": "#1"},
+				"south": {"uv": [5.29167, 6.5, 6.79167, 9.16667], "texture": "#1"},
+				"west": {"uv": [5.25, 9.66667, 6.75, 12.33334], "texture": "#1"},
+				"up": {"uv": [5.20834, 13.5, 6.70834, 15.5], "texture": "#1"},
+				"down": {"uv": [5.25, 3.50001, 6.75, 5.50001], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "bone",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0]
+		}
+	]
+}
