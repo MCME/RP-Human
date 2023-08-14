@@ -2,9 +2,17 @@
   "variants": {
     "distance=7,persistent=false":[
 		{ "model": "mcme:block/beech_leaves" },
-		{ "model": "mcme:block/beech_leaves", "y": 90 },
-		{ "model": "mcme:block/beech_leaves", "y": 180 },
-		{ "model": "mcme:block/beech_leaves", "y": 270 }
+		{ "model": "mcme:block/beech_leaves_2" },
+		{ "model": "mcme:block/beech_leaves_3" },
+		{ "model": "mcme:block/beech_leaves_4" },
+		{ "model": "mcme:block/beech_leaves_5" }
+		],
+	"distance=1,persistent=false": [
+		{ "model": "mcme:block/maple_leaves" },
+		{ "model": "mcme:block/maple_leaves_2" },
+		{ "model": "mcme:block/maple_leaves_3" },
+		{ "model": "mcme:block/maple_leaves_4" },
+		{ "model": "mcme:block/maple_leaves_5" }
 		],
 	"distance=3,persistent=false":[
 		{ "model": "mcme:block/spruce_leaves" },
