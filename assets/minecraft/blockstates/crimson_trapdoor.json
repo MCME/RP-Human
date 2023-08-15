@@ -106,6 +106,18 @@
 	{ "model": "mcme:block/ash_leaves_slab_upper", "y": 90 },
 	{ "model": "mcme:block/ash_leaves_slab_upper", "y": 180 },
 	{ "model": "mcme:block/ash_leaves_slab_upper", "y": 270 }
+	],
+    "facing=south,half=bottom,open=false,powered=true": [
+	{ "model": "mcme:block/hornbeam_leaves_slab" },
+	{ "model": "mcme:block/hornbeam_leaves_slab", "y": 90 },
+	{ "model": "mcme:block/hornbeam_leaves_slab", "y": 180 },
+	{ "model": "mcme:block/hornbeam_leaves_slab", "y": 270 }
+	],
+    "facing=south,half=top,open=false,powered=true": [
+	{ "model": "mcme:block/hornbeam_leaves_slab_upper" },
+	{ "model": "mcme:block/hornbeam_leaves_slab_upper", "y": 90 },
+	{ "model": "mcme:block/hornbeam_leaves_slab_upper", "y": 180 },
+	{ "model": "mcme:block/hornbeam_leaves_slab_upper", "y": 270 }
 	]
   }
 }
