@@ -2,7 +2,7 @@ Items:
   # gray collection
   white_wool:
     itemMaterial: WHITE_WOOL
-    damage: 0
+    cmd: 0
     display: White wool block
     category: Misc
     type: VANILLA
@@ -26,7 +26,7 @@ Items:
       J4: green_wool
   silver_wool: 
     itemMaterial: LIGHT_GRAY_WOOL
-    damage: 8
+    cmd: 8
     display: light gray wool block
     category: Misc
     type: VANILLA
@@ -34,7 +34,7 @@ Items:
       indirect: white_wool
   gray_wool:
     itemMaterial: GRAY_WOOL
-    damage: 7
+    cmd: 7
     display: Dark gray wool block
     category: Misc
     type: VANILLA
@@ -42,7 +42,7 @@ Items:
       indirect: white_wool
   black_wool:
     itemMaterial: BLACK_WOOL
-    damage: 15
+    cmd: 15
     display: Black wool block
     category: Misc
     type: VANILLA
@@ -53,7 +53,7 @@ Items:
   # orange collection
   yellow_wool:
     itemMaterial: YELLOW_WOOL
-    damage: 4
+    cmd: 4
     display: Yellow wool block
     category: Misc
     type: VANILLA
@@ -74,7 +74,7 @@ Items:
       J4: green_wool
   orange_wool:
     itemMaterial: ORANGE_WOOL
-    damage: 1
+    cmd: 1
     display: Orange wool block
     category: Misc
     type: VANILLA
@@ -82,7 +82,7 @@ Items:
       indirect: yellow_wool
   red_wool:
     itemMaterial: RED_WOOL
-    damage: 14
+    cmd: 14
     display: Red wool block
     category: Misc
     type: VANILLA
@@ -93,7 +93,7 @@ Items:
   # magenta collection
   pink_wool:
     itemMaterial: PINK_WOOL
-    damage: 6
+    cmd: 6
     display: Pink wool block
     category: Misc
     type: VANILLA
@@ -114,7 +114,7 @@ Items:
       J4: green_wool
   magenta_wool:
     itemMaterial: MAGENTA_WOOL
-    damage: 2
+    cmd: 2
     display: Magenta wool block
     category: Misc
     type: VANILLA
@@ -122,7 +122,7 @@ Items:
       indirect: pink_wool
   purple_wool:
     itemMaterial: PURPLE_WOOL
-    damage: 10
+    cmd: 10
     display: Purple wool block
     category: Misc
     type: VANILLA
@@ -133,7 +133,7 @@ Items:
   # blue collection
   light_blue_wool:
     itemMaterial: LIGHT_BLUE_WOOL
-    damage: 3
+    cmd: 3
     display: Light wool block
     category: Misc
     type: VANILLA
@@ -154,7 +154,7 @@ Items:
       J4: green_wool
   cyan_wool:
     itemMaterial: CYAN_WOOL
-    damage: 9
+    cmd: 9
     display: Cyan wool block
     category: Misc
     type: VANILLA
@@ -162,7 +162,7 @@ Items:
       indirect: light_blue_wool
   blue_wool:
     itemMaterial: BLUE_WOOL
-    damage: 11
+    cmd: 11
     display: Blue wool block
     category: Misc
     type: VANILLA
@@ -173,7 +173,7 @@ Items:
   # green/brown collection
   lime_wool:
     itemMaterial: LIME_WOOL
-    damage: 5
+    cmd: 5
     display: Lime wool block
     category: Misc
     type: VANILLA
@@ -194,7 +194,7 @@ Items:
       J4: blue_wool
   green_wool:
     itemMaterial: GREEN_WOOL
-    damage: 13
+    cmd: 13
     display: Green wool block
     category: Misc
     type: VANILLA
@@ -202,7 +202,7 @@ Items:
       indirect: lime_wool
   brown_wool:
     itemMaterial: BROWN_WOOL
-    damage: 12
+    cmd: 12
     display: Brown wool block
     category: Misc
     type: VANILLA
@@ -213,7 +213,7 @@ Items:
   # marker collection
   sign:
     itemMaterial: OAK_SIGN
-    damage: 0
+    cmd: 0
     display: Sign [63:0]
     category: Misc
     type: VANILLA
@@ -231,8 +231,8 @@ Items:
       I4: blue_wool
       J4: green_wool
   note_block_piano_0:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 100
+    itemMaterial: CLAY_BALL
+    cmd: 100
     display: Marker Accepted
     category: Misc
     blockData: minecraft:note_block[instrument=harp,note=0,powered=false]
@@ -241,8 +241,8 @@ Items:
       indirect: sign
   note_block_piano_1:
     blockDataValue: 0
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 101
+    itemMaterial: CLAY_BALL
+    cmd: 101
     display: Marker Declined
     category: Misc
     blockData: minecraft:note_block[instrument=harp,note=1,powered=false]
@@ -251,8 +251,8 @@ Items:
       indirect: sign
   note_block_piano_2:
     blockDataValue: 0
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 102
+    itemMaterial: CLAY_BALL
+    cmd: 102
     display: Marker Finished
     category: Misc
     blockData: minecraft:note_block[instrument=harp,note=2,powered=false]
@@ -261,8 +261,8 @@ Items:
       indirect: sign
   note_block_piano_3:
     blockDataValue: 0
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 103
+    itemMaterial: CLAY_BALL
+    cmd: 103
     display: Marker WIP
     category: Misc
     blockData: minecraft:note_block[instrument=harp,note=3,powered=false]
@@ -271,8 +271,8 @@ Items:
       indirect: sign
   note_block_piano_4:
     blockDataValue: 0
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 104
+    itemMaterial: CLAY_BALL
+    cmd: 104
     display: Marker Comment
     category: Misc
     blockData: minecraft:note_block[instrument=harp,note=4,powered=false]
@@ -281,8 +281,8 @@ Items:
       indirect: sign
   note_block_piano_5:
     blockDataValue: 1
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 105
+    itemMaterial: CLAY_BALL
+    cmd: 105
     display: Marker Info
     category: Misc
     blockData: minecraft:note_block[instrument=harp,note=5,powered=false]
@@ -293,44 +293,44 @@ Items:
   # misc blocks/items
   glowstone:
     itemMaterial: GLOWSTONE
-    damage: 0
+    cmd: 0
     display: Glowing stone
     category: Misc
     type: VANILLA
   fancy_block:
     itemMaterial: HONEYCOMB_BLOCK
-    damage: 0
+    cmd: 0
     display: Star Block
     category: Misc
     type: VANILLA
   elven_block:
     itemMaterial: LAPIS_BLOCK
-    damage: 0
+    cmd: 0
     display: Elven Deco Block
     category: Misc
     type: VANILLA
   elven_block_thin:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 460
+    itemMaterial: CLAY_BALL
+    cmd: 460
     display: Elven Deco Block thin
     category: Misc
     type: BLOCK
     blockData: minecraft:repeater[delay=1,facing=east,locked=true,powered=true]
   dragon_egg:
     itemMaterial: DRAGON_EGG
-    damage: 0
+    cmd: 0
     display: Palantir
     category: Misc
     type: VANILLA
   tnt:
     itemMaterial: TNT
-    damage: 0
+    cmd: 0
     display: Fireworks
     category: Misc
     type: VANILLA
   portal:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 145
+    itemMaterial: CLAY_BALL
+    cmd: 145
     display: Eye of Sauron
     category: Misc
     type: FOUR_DIRECTIONS
@@ -339,21 +339,21 @@ Items:
     blockDataNorth: minecraft:nether_portal[axis=x]
     blockDataEast: minecraft:nether_portal[axis=z]
   fire:
-    itemMaterial: DIAMOND_LEGGINGS
-    damage: 286
+    itemMaterial: CLAY_BALL
+    cmd: 286
     display: Fire
     category: Misc
     type: BLOCK
     blockData: minecraft:fire[age=0,east=false,north=false,south=false,up=false,west=false]
   gondor_inv_opener:
     itemMaterial: GOLDEN_HELMET
-    damage: 33
+    cmd: 33
     display: Gondor (hold in hand and press 'f')
     category: Misc
     type: VANILLA
   heads_inv_opener:
     itemMaterial: GOLDEN_HELMET
-    damage: 34
+    cmd: 34
     display: Head Inventory (hold in hand and press 'f')
     category: Misc
     type: VANILLA
@@ -362,231 +362,231 @@ Items:
   # inside collections
   banner_white:
     itemMaterial: WHITE_BANNER
-    damage: 15
+    cmd: 15
     display: White Banner
     type: VANILLA
     collection:
       indirect: white_wool
   banner_yellow:
     itemMaterial: YELLOW_BANNER
-    damage: 11
+    cmd: 11
     display: Yellow Banner
     type: VANILLA
     collection:
       indirect: yellow_wool
   banner_orange:
     itemMaterial: ORANGE_BANNER
-    damage: 14
+    cmd: 14
     display: Orange Banner
     type: VANILLA
     collection:
       indirect: yellow_wool
   banner_pink:
     itemMaterial: PINK_BANNER
-    damage: 9
+    cmd: 9
     display: Pink Banner
     type: VANILLA
     collection:
       indirect: pink_wool
   banner_red:
     itemMaterial: RED_BANNER
-    damage: 1
+    cmd: 1
     display: Red Banner
     type: VANILLA
     collection:
       indirect: yellow_wool
   banner_magenta:
     itemMaterial: MAGENTA_BANNER
-    damage: 13
+    cmd: 13
     display: Magenta Banner
     type: VANILLA
     collection:
       indirect: pink_wool
   banner_purple:
     itemMaterial: PURPLE_BANNER
-    damage: 5
+    cmd: 5
     display: Purple Banner
     type: VANILLA
     collection:
       indirect: pink_wool
   banner_blue:
     itemMaterial: BLUE_BANNER
-    damage: 4
+    cmd: 4
     display: Blue Banner
     type: VANILLA
     collection:
       indirect: light_blue_wool
   banner_light_blue:
     itemMaterial: LIGHT_BLUE_BANNER
-    damage: 12
+    cmd: 12
     display: Light Blue Banner
     type: VANILLA
     collection:
       indirect: light_blue_wool
   banner_cyan:
     itemMaterial: CYAN_BANNER
-    damage: 6
+    cmd: 6
     display: Cyan Banner
     type: VANILLA
     collection:
       indirect: light_blue_wool
   banner_green:
     itemMaterial: GREEN_BANNER
-    damage: 2
+    cmd: 2
     display: Green Banner
     type: VANILLA
     collection:
       indirect: lime_wool
   banner_lime:
     itemMaterial: LIME_BANNER
-    damage: 10
+    cmd: 10
     display: Lime Banner
     type: VANILLA
     collection:
       indirect: lime_wool
   banner_brown:
     itemMaterial: BROWN_BANNER
-    damage: 3
+    cmd: 3
     display: Brown Banner
     type: VANILLA
     collection:
       indirect: lime_wool
   banner_silver:
     itemMaterial: LIGHT_GRAY_BANNER
-    damage: 7
+    cmd: 7
     display: Silver Banner
     type: VANILLA
     collection:
       indirect: white_wool
   banner_gray:
     itemMaterial: GRAY_BANNER
-    damage: 8
+    cmd: 8
     display: Gray Banner
     type: VANILLA
     collection:
       indirect: white_wool
   banner_black:
     itemMaterial: BLACK_BANNER
-    damage: 0
+    cmd: 0
     display: Black Banner
     type: VANILLA
     collection:
       indirect: white_wool
   carpet_white:
     itemMaterial: WHITE_CARPET
-    damage: 0
+    cmd: 0
     display: White Carpet
     type: VANILLA
     collection:
       indirect: white_wool
   carpet_yellow:
     itemMaterial: YELLOW_CARPET
-    damage: 4
+    cmd: 4
     display: Yellow Carpet
     type: VANILLA
     collection:
       indirect: yellow_wool
   carpet_orange:
     itemMaterial: ORANGE_CARPET
-    damage: 1
+    cmd: 1
     display: Orange Carpet
     type: VANILLA
     collection:
       indirect: yellow_wool
   carpet_pink:
     itemMaterial: PINK_CARPET
-    damage: 6
+    cmd: 6
     display: Pink Carpet
     type: VANILLA
     collection:
       indirect: pink_wool
   carpet_red:
     itemMaterial: RED_CARPET
-    damage: 14
+    cmd: 14
     display: Red Carpet
     type: VANILLA
     collection:
       indirect: yellow_wool
   carpet_magenta:
     itemMaterial: MAGENTA_CARPET
-    damage: 2
+    cmd: 2
     display: Magenta Carpet
     type: VANILLA
     collection:
       indirect: pink_wool
   carpet_purple:
     itemMaterial: PURPLE_CARPET
-    damage: 10
+    cmd: 10
     display: Purple Carpet
     type: VANILLA
     collection:
       indirect: pink_wool
   carpet_blue:
     itemMaterial: BLUE_CARPET
-    damage: 11
+    cmd: 11
     display: Blue Carpet
     type: VANILLA
     collection:
       indirect: light_blue_wool
   carpet_light_blue:
     itemMaterial: LIGHT_BLUE_CARPET
-    damage: 3
+    cmd: 3
     display: Light Blue Carpet
     type: VANILLA
     collection:
       indirect: light_blue_wool
   carpet_cyan:
     itemMaterial: CYAN_CARPET
-    damage: 9
+    cmd: 9
     display: Cyan Carpet
     type: VANILLA
     collection:
       indirect: light_blue_wool
   carpet_green:
     itemMaterial: GREEN_CARPET
-    damage: 13
+    cmd: 13
     display: Green Carpet
     type: VANILLA
     collection:
       indirect: lime_wool
   carpet_lime:
     itemMaterial: LIME_CARPET
-    damage: 5
+    cmd: 5
     display: Lime Carpet
     type: VANILLA
     collection:
       indirect: lime_wool
   carpet_brown:
     itemMaterial: BROWN_CARPET
-    damage: 12
+    cmd: 12
     display: Brown Carpet
     type: VANILLA
     collection:
       indirect: lime_wool
   carpet_silver:
     itemMaterial: LIGHT_GRAY_CARPET
-    damage: 8
+    cmd: 8
     display: Silver Carpet
     type: VANILLA
     collection:
       indirect: white_wool
   carpet_gray:
     itemMaterial: GRAY_CARPET
-    damage: 7
+    cmd: 7
     display: Gray Carpet
     type: VANILLA
     collection:
       indirect: white_wool
   carpet_black:
     itemMaterial: BLACK_CARPET
-    damage: 15
+    cmd: 15
     display: Black Carpet
     type: VANILLA
     collection:
       indirect: white_wool
   flint:
     itemMaterial: FLINT
-    damage: 0
+    cmd: 0
     display: Get Block Tool
     category: Misc
     collection:
@@ -600,48 +600,48 @@ Items:
       B2: arrow
   prismarine_crystal:
     itemMaterial: PRISMARINE_CRYSTALS
-    damage: 0
+    cmd: 0
     display: Fix Lighting Tool
     category: Misc
     collection:
       indirect: flint
   axe:
     itemMaterial: WOODEN_AXE
-    damage: 0
+    cmd: 0
     display: World Edit Wand
     category: Misc
     collection:
       indirect: flint
   arrow:
     itemMaterial: ARROW
-    damage: 0
+    cmd: 0
     display: Voxel Place
     category: Misc
     collection:
       indirect: flint
   gunpowder:
     itemMaterial: GUNPOWDER
-    damage: 0
+    cmd: 0
     display: Voxel Remove
     category: Misc
     collection:
       indirect: flint
   torch_hand:
     itemMaterial: TORCH
-    damage: 0
+    cmd: 0
     display: Torch
     category: Misc
     collection:
       indirect: flint
   ghast_tear:
     itemMaterial: GHAST_TEAR
-    damage: 0
+    cmd: 0
     display: Sitting Tool (Requires perk)
     collection:
       indirect: flint
   blaze_rod:
     itemMaterial: BLAZE_ROD
-    damage: 0
+    cmd: 0
     display: Animation Tool
     collection:
       indirect: flint
