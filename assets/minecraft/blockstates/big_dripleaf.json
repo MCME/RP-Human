@@ -16,6 +16,19 @@
 	{ "model": "block/big_dripleaf_nn_3", "y": 90 },
 	{ "model": "block/big_dripleaf_nn_3", "y": 180 },
 	{ "model": "block/big_dripleaf_nn_3", "y": 270 }
+	] },
+	{ "when":{
+		"waterlogged": "false", "facing": "north", "tilt": "full"},
+		"apply": [
+	{ "model": "block/big_dripleaf_nf" },
+	{ "model": "block/big_dripleaf_nf", "y": 90 },
+	{ "model": "block/big_dripleaf_nf", "y": 180 },
+	{ "model": "block/big_dripleaf_nf", "y": 270 },
+	{ "model": "block/big_dripleaf_nf_2" },
+	{ "model": "block/big_dripleaf_nf_2", "y": 90 },
+	{ "model": "block/big_dripleaf_nf_2", "y": 180 },
+	{ "model": "block/big_dripleaf_nf_2", "y": 270 }
 	] }
+	
 ]
 }
