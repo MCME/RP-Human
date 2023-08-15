@@ -550,34 +550,34 @@
 	},
 	{ "when": { "up": "false", "north": "low", "east": "low", "south": "none", "west": "tall" },
       "apply": [
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab" },
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab_2" },
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab_3" },
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab_4" }
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab" },
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab_2" },
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab_3" },
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab_4" }
 	  ]
 	},
 	{ "when": { "up": "false", "north": "tall", "east": "low", "south": "low", "west": "none" },
       "apply": [
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab", "y": 90 },
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab_2", "y": 90 },
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab_3", "y": 90 },
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab_4", "y": 90 }
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab", "y": 90 },
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab_2", "y": 90 },
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab_3", "y": 90 },
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab_4", "y": 90 }
 	  ]
 	},
 	{ "when": { "up": "false", "north": "none", "east": "tall", "south": "low", "west": "low" },
       "apply": [
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab", "y": 180 },
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab_2", "y": 180 },
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab_3", "y": 180 },
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab_4", "y": 180 }
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab", "y": 180 },
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab_2", "y": 180 },
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab_3", "y": 180 },
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab_4", "y": 180 }
 	  ]
 	},
 	{ "when": { "up": "false", "north": "low", "east": "none", "south": "tall", "west": "low" },
       "apply": [
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab", "y": 270 },
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab_2", "y": 270 },
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab_3", "y": 270 },
-			{ "model": "minecraft:block/whitebeam_mossy_log_vertical_slab_4", "y": 270 }
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab", "y": 270 },
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab_2", "y": 270 },
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab_3", "y": 270 },
+			{ "model": "minecraft:block/gray_pine_log_vertical_slab_4", "y": 270 }
 	  ]
 	}
   ]

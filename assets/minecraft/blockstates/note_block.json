@@ -193,6 +193,11 @@
 		"instrument=bass,note=20,powered=false,": { "model":"block/note_block_bass_5" },
 		"instrument=bass,note=21,powered=false,": { "model":"block/note_block_bass_5", "y":90 },
 		"instrument=bass,note=22,powered=false,": { "model":"block/note_block_bass_5", "y":180 },
-		"instrument=bass,note=23,powered=false,": { "model":"block/note_block_bass_5", "y":270 }
+		"instrument=bass,note=23,powered=false,": { "model":"block/note_block_bass_5", "y":270 },
+		
+		"instrument=flute,note=0,powered=false,": { "model":"block/note_block_flute" },
+		"instrument=flute,note=1,powered=false,": { "model":"block/note_block_flute", "y":90 },
+		"instrument=flute,note=2,powered=false,": { "model":"block/note_block_flute", "y":180 },
+		"instrument=flute,note=3,powered=false,": { "model":"block/note_block_flute", "y":270 }
     }
 }
