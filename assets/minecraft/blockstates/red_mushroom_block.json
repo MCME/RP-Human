@@ -242,6 +242,14 @@
 		{ "model": "block/red_mushroom_block_weu_4" },
 		{ "model": "block/red_mushroom_block_weu_5" },
 		{ "model": "block/red_mushroom_block_weu_6" }
+		]},
+	{ "when": {"north": false, "west": true, "south":false, "east": true, "up": false, "down": true	 },
+		"apply": [
+		{ "model": "block/mossy_larch" },
+		{ "model": "block/mossy_larch_2" },
+		{ "model": "block/mossy_larch_3" },
+		{ "model": "block/mossy_larch_4" },
+		{ "model": "block/mossy_larch_5" }
 		]}
   ]
 }
