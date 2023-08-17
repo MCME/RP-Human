@@ -1,17 +1,19 @@
 {
   "variants": {
-    "facing=east,half=bottom,open=false": {
-      "model": "minecraft:block/warped_trapdoor_bottom",
-      "y": 90
-    },
+    "facing=east,half=bottom,open=false": [
+	  {"model": "mcme:block/willow_leaves_slab"},
+	  {"model": "mcme:block/willow_leaves_slab_2"},
+	  {"model": "mcme:block/willow_leaves_slab_3"}
+	  ],
     "facing=east,half=bottom,open=true": {
       "model": "minecraft:block/warped_trapdoor_open",
       "y": 90
     },
-    "facing=east,half=top,open=false": {
-      "model": "minecraft:block/warped_trapdoor_top",
-      "y": 90
-    },
+    "facing=east,half=top,open=false": [
+	  {"model": "mcme:block/willow_leaves_slab_upper"},
+	  {"model": "mcme:block/willow_leaves_slab_upper_2"},
+	  {"model": "mcme:block/willow_leaves_slab_upper_3"}
+	  ],
     "facing=east,half=top,open=true": {
       "model": "minecraft:block/warped_trapdoor_open",
       "x": 180,
