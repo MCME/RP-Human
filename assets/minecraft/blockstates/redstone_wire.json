@@ -3223,6 +3223,230 @@
         "x": 90,
         "y": 90
       }
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "none",
+        "east": "none",
+        "south": "none",
+        "west": "none"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal_down" },
+		{ "model": "minecraft:block/beam_horizontal_down_2" },
+		{ "model": "minecraft:block/beam_horizontal_down_3" }
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "side|up",
+        "east": "none",
+        "south": "none",
+        "west": "none"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal_down", "y": 90},
+		{ "model": "minecraft:block/beam_horizontal_down_2", "y": 90},
+		{ "model": "minecraft:block/beam_horizontal_down_3", "y": 90}
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "none",
+        "east": "side|up",
+        "south": "none",
+        "west": "none"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal_down", "y": 180},
+		{ "model": "minecraft:block/beam_horizontal_down_2", "y": 180},
+		{ "model": "minecraft:block/beam_horizontal_down_3", "y": 180}
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "none",
+        "east": "none",
+        "south": "side|up",
+        "west": "none"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal_down", "y": 270},
+		{ "model": "minecraft:block/beam_horizontal_down_2", "y": 270},
+		{ "model": "minecraft:block/beam_horizontal_down_3", "y": 270}
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "none",
+        "east": "none",
+        "south": "none",
+        "west": "side|up"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal" },
+		{ "model": "minecraft:block/beam_horizontal_2" },
+		{ "model": "minecraft:block/beam_horizontal_3" }
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "side|up",
+        "east": "side|up",
+        "south": "none",
+        "west": "none"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal", "y": 90},
+		{ "model": "minecraft:block/beam_horizontal_2", "y": 90},
+		{ "model": "minecraft:block/beam_horizontal_3", "y": 90}
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "none",
+        "east": "side|up",
+        "south": "side|up",
+        "west": "none"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal", "y": 180},
+		{ "model": "minecraft:block/beam_horizontal_2", "y": 180},
+		{ "model": "minecraft:block/beam_horizontal_3", "y": 180}
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "none",
+        "east": "none",
+        "south": "side|up",
+        "west": "side|up"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal", "y": 270},
+		{ "model": "minecraft:block/beam_horizontal_2", "y": 270},
+		{ "model": "minecraft:block/beam_horizontal_3", "y": 270}
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "side|up",
+        "east": "none",
+        "south": "none",
+        "west": "side|up"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal_light" },
+		{ "model": "minecraft:block/beam_horizontal_light_2" },
+		{ "model": "minecraft:block/beam_horizontal_light_3" }
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "side|up",
+        "east": "none",
+        "south": "side|up",
+        "west": "none"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal_light", "y": 90},
+		{ "model": "minecraft:block/beam_horizontal_light_2", "y": 90},
+		{ "model": "minecraft:block/beam_horizontal_light_3", "y": 90}
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "none",
+        "east": "side|up",
+        "south": "none",
+        "west": "side|up"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal_light", "y": 180},
+		{ "model": "minecraft:block/beam_horizontal_light_2", "y": 180},
+		{ "model": "minecraft:block/beam_horizontal_light_3", "y": 180}
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "side|up",
+        "east": "side|up",
+        "south": "side|up",
+        "west": "none"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal_light", "y": 270},
+		{ "model": "minecraft:block/beam_horizontal_light_2", "y": 270},
+		{ "model": "minecraft:block/beam_horizontal_light_3", "y": 270}
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "none",
+        "east": "side|up",
+        "south": "side|up",
+        "west": "side|up"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal_light_down" },
+		{ "model": "minecraft:block/beam_horizontal_light_down_2" },
+		{ "model": "minecraft:block/beam_horizontal_light_down_3" }
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "side|up",
+        "east": "none",
+        "south": "side|up",
+        "west": "side|up"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal_light_down", "y": 90},
+		{ "model": "minecraft:block/beam_horizontal_light_down_2", "y": 90},
+		{ "model": "minecraft:block/beam_horizontal_light_down_3", "y": 90}
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "side|up",
+        "east": "side|up",
+        "south": "none",
+        "west": "side|up"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal_light_down", "y": 180},
+		{ "model": "minecraft:block/beam_horizontal_light_down_2", "y": 180},
+		{ "model": "minecraft:block/beam_horizontal_light_down_3", "y": 180}
+      ]
+    },
+    {
+      "when": {
+        "power": "9",
+        "north": "side|up",
+        "east": "side|up",
+        "south": "side|up",
+        "west": "side|up"
+      },
+      "apply": [
+        { "model": "minecraft:block/beam_horizontal_light_down", "y": 270},
+		{ "model": "minecraft:block/beam_horizontal_light_down_2", "y": 270},
+		{ "model": "minecraft:block/beam_horizontal_light_down_3", "y": 270}
+      ]
     }
   ]
 }
