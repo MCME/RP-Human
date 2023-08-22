@@ -24,12 +24,12 @@ flat in int noshadow;
 out vec4 fragColor;
 
 void main() {
-    vec4 color = texture(Sampler0, texCoord);
+    vec4 color = mix(texture(Sampler0, texCoord), texture(Sampler0, texCoord2), transition);
 
     //custom lighting
     #define BLOCK
-    #moj_import<objmc.light>
+    #moj_import<objmc_light.glsl>
 
-    if (color.a < 0.01) discard;
+    if (color.a < 0.1) discard;
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
 }
