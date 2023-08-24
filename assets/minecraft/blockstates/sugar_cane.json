@@ -39,25 +39,13 @@
     },
     {
       "when": {
-        "age": "3"
-      },
-      "apply": {
-        "model": "block/sugar_pillar_thick",
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "age": "4"
-      },
-      "apply": {
-        "model": "block/sugar_pillar_thick_bottom",
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
         "OR": [
+		  {
+            "age": "3"
+          },
+          {
+            "age": "4"
+          },
           {
             "age": "5"
           },
