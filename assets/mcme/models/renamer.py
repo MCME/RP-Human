@@ -1,21 +1,23 @@
 import os
 
-def duplicate_and_replace(folder_path):
-    for filename in os.listdir(folder_path):
-        if filename.startswith('linden_leaves'):
-            pine_file_path = os.path.join(folder_path, filename)
-            maple_file_path = os.path.join(folder_path, filename.replace('linden_leaves', 'linden_leaves_yellowish'))
+def rename_files_in_work_folder():
+    script_directory = os.path.dirname(os.path.abspath(__file__))
+    work_folder = os.path.join(script_directory, "work")
 
-            # Duplicate the file
-            with open(pine_file_path, 'r') as pine_file:
-                pine_content = pine_file.read()
-            with open(maple_file_path, 'w') as maple_file:
-                maple_file.write(pine_content.replace('linden_leaves', 'linden_leaves_yellowish'))
+    if not os.path.exists(work_folder) or not os.path.isdir(work_folder):
+        print("The 'work' folder does not exist.")
+        return
 
-            print(f'Duplicated and replaced: {filename} -> {filename.replace("linden_leaves", "linden_leaves_yellowish")}')
+    replace_this = "birch_thin_trunk_horizontal_trunk"  # Specify the text to be replaced
+    replace_with = "birch_thin_trunk_horizontal"  # Specify the replacement text
+
+    for filename in os.listdir(work_folder):
+        old_path = os.path.join(work_folder, filename)
+        new_filename = filename.replace(replace_this, replace_with)
+        new_path = os.path.join(work_folder, new_filename)
+        
+        os.rename(old_path, new_path)
+        print(f"Renamed: {filename} -> {new_filename}")
 
 if __name__ == "__main__":
-    script_directory = os.path.dirname(__file__)
-    folder_name = "work"  # Replace with the name of your folder
-    folder_path = os.path.join(script_directory, folder_name)
-    duplicate_and_replace(folder_path)
+    rename_files_in_work_folder()
