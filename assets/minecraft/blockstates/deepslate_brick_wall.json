@@ -1,0 +1,31 @@
+{
+  "multipart": [
+    { "when": { "up": "true" },
+      "apply": { "model": "mcme:block/chestnut_trunk_vertical" }
+    },
+    { "when": { "north": "low" },
+      "apply": { "model": "mcme:block/chestnut_branch_45_straight" }
+    },
+    { "when": { "east": "low" },
+      "apply": { "model": "mcme:block/chestnut_branch_45_straight_2" }
+    },
+    { "when": { "south": "low" },
+      "apply": { "model": "mcme:block/chestnut_branch_45_straight_3" }
+    },
+    { "when": { "west": "low" },
+      "apply": { "model": "mcme:block/chestnut_branch_45_straight_4" }
+    },
+    { "when": { "north": "tall" },
+      "apply": { "model": "mcme:block/chestnut_thin_branch_45_straight" }
+    },
+    { "when": { "east": "tall" },
+      "apply": { "model": "mcme:block/chestnut_thin_branch_45_straight_2" }
+    },
+    { "when": { "south": "tall" },
+      "apply": { "model": "mcme:block/chestnut_thin_branch_45_straight_3" }
+	},
+    { "when": { "west": "tall" },
+      "apply": { "model": "mcme:block/chestnut_thin_branch_45_straight_4" }
+	}
+  ]
+}
