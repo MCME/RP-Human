@@ -8,8 +8,8 @@ def rename_files_in_work_folder():
         print("The 'work' folder does not exist.")
         return
 
-    replace_this = "birch_thin_trunk_horizontal_trunk"  # Specify the text to be replaced
-    replace_with = "birch_thin_trunk_horizontal"  # Specify the replacement text
+    replace_this = "brain_coral_fan"  # Specify the text to be replaced
+    replace_with = "locked_powered_repeater_delay1_s"  # Specify the replacement text
 
     for filename in os.listdir(work_folder):
         old_path = os.path.join(work_folder, filename)
