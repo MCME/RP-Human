@@ -1,6 +1,7 @@
 {
-  "parent": "block/3x3x3vegetation_tintless_1",
-  "textures": {
+	"credit": "Made with Blockbench",
+	"parent": "block/3x3x3vegetation_tintless_1",
+	"textures": {
 		"1": "block/jungle_sapling_top",
 		"2": "block/jungle_sapling_top_1",
 		"3": "block/jungle_sapling_top_2",
@@ -9,5 +10,14 @@
 		"6": "block/jungle_sapling_1",
 		"7": "block/jungle_sapling_2",
 		"8": "block/jungle_sapling_3"
-  }
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, 3, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"flip_v": true,
+	"model": "mcme:models/block/big_fern_3.obj"
 }

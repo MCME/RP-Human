@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"parent": "block/3x3x3vegetation_tintless_2",
 	"textures": {
 		"1": "block/nether_wart_stage3_top",
@@ -9,5 +10,14 @@
 		"6": "block/nether_wart_stage3_1",
 		"7": "block/nether_wart_stage3_2",
 		"8": "block/nether_wart_stage3_3"
-  }
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, 2.75, 0],
+			"scale": [0.45, 0.45, 0.45]
+		}
+	},
+	"flip_v": true,
+	"model": "mcme:models/block/big_fern_3.obj"
 }

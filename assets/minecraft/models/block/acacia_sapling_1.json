@@ -1,6 +1,7 @@
 {
-  "parent": "block/3x3x3vegetation_tintless_1",
-  "textures": {
+	"credit": "Made with Blockbench",
+	"parent": "block/3x3x3vegetation_tintless_1",
+	"textures": {
 		"1": "block/acacia_sapling_3",
 		"2": "block/acacia_sapling_3",
 		"3": "block/acacia_sapling",
@@ -9,5 +10,12 @@
 		"6": "block/acacia_sapling_3",
 		"7": "block/acacia_sapling",
 		"8": "block/acacia_sapling"
-  }
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
 }

@@ -1,10 +1,16 @@
 {
-  "parent": "block/3x3vegetation_tintless",
-  "textures": {
-    	"0": "block/red_tulip",
-	"1": "block/red_tulip_1",
-	"2": "block/red_tulip",
-	"3": "block/red_tulip_1"
-	
-  }
+	"credit": "Made with Blockbench",
+	"parent": "block/3x3vegetation_tintless",
+	"textures": {
+		"0": "block/red_tulip",
+		"1": "block/red_tulip_1",
+		"2": "block/red_tulip",
+		"3": "block/red_tulip_1"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"scale": [0.8, 0.8, 0.8]
+		}
+	}
 }

@@ -1,9 +1,17 @@
 {
+	"credit": "Made with Blockbench",
 	"parent": "block/3x3vegetation_tintless",
 	"textures": {
 		"0": "block/big_dripleaf_nn",
 		"1": "block/big_dripleaf_nn_2",
 		"2": "block/big_dripleaf_nn",
 		"3": "block/big_dripleaf_nn_2"
-  }
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, -2.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
 }
