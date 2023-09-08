@@ -290,13 +290,13 @@
 	},
 	"powered=true,disarmed=true,attached=false,north=false,east=false,south=false,west=false": [
       { "model": "block/autumn_dandelion" },
-      { "model": "block/autumn_dandelion_2" },
-      { "model": "block/autumn_dandelion_3" },
-      { "model": "block/autumn_dandelion_4" },
+      { "model": "block/autumn_dandelion", "y": 90 },
+      { "model": "block/autumn_dandelion", "y": 180 },
+      { "model": "block/autumn_dandelion", "y": 270 },
 	  { "model": "block/autumn_dandelion_2" },
-      { "model": "block/autumn_dandelion_2_2" },
-      { "model": "block/autumn_dandelion_2_3" },
-      { "model": "block/autumn_dandelion_2_4" }
+      { "model": "block/autumn_dandelion_2", "y": 90 },
+      { "model": "block/autumn_dandelion_2", "y": 180 },
+      { "model": "block/autumn_dandelion_2", "y": 270 }
     ],
     "powered=true,disarmed=true,attached=false,north=false,east=false,south=false,west=true": {
 	  "model": "mcme:block/poplar_trunk_horizontal_4"
