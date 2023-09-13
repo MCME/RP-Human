@@ -491,30 +491,30 @@
 	},
 	{ "when": { "up": "true", "north": "tall", "east": "low", "south": "none", "west": "low" },
       "apply": [
-			{ "model": "mcme:block/poplar_twig_branch_down" },
-			{ "model": "mcme:block/poplar_twig_branch_down_5" },
-			{ "model": "mcme:block/poplar_twig_branch_down_9" }
+			{ "model": "mcme:block/poplar_twig_branch" },
+			{ "model": "mcme:block/poplar_twig_branch_5" },
+			{ "model": "mcme:block/poplar_twig_branch_9" }
 	  ]
 	},
 	{ "when": { "up": "true", "north": "low", "east": "tall", "south": "low", "west": "none" },
       "apply": [
-			{ "model": "mcme:block/poplar_twig_branch_down_2"  },
-			{ "model": "mcme:block/poplar_twig_branch_down_5_2"  },
-			{ "model": "mcme:block/poplar_twig_branch_down_9_2" }
+			{ "model": "mcme:block/poplar_twig_branch_2"  },
+			{ "model": "mcme:block/poplar_twig_branch_5_2"  },
+			{ "model": "mcme:block/poplar_twig_branch_9_2" }
 	  ]
 	},
 	{ "when": { "up": "true", "north": "none", "east": "low", "south": "tall", "west": "low" },
       "apply": [
-			{ "model": "mcme:block/poplar_twig_branch_down_3"  },
-			{ "model": "mcme:block/poplar_twig_branch_down_5_3"  },
-			{ "model": "mcme:block/poplar_twig_branch_down_9_3" }
+			{ "model": "mcme:block/poplar_twig_branch_3"  },
+			{ "model": "mcme:block/poplar_twig_branch_5_3"  },
+			{ "model": "mcme:block/poplar_twig_branch_9_3" }
 	  ]
 	},
 	{ "when": { "up": "true", "north": "low", "east": "none", "south": "low", "west": "tall" },
       "apply": [
-			{ "model": "mcme:block/poplar_twig_branch_down_4"  },
-			{ "model": "mcme:block/poplar_twig_branch_down_5_4"  },
-			{ "model": "mcme:block/poplar_twig_branch_down_9_4" }
+			{ "model": "mcme:block/poplar_twig_branch_4"  },
+			{ "model": "mcme:block/poplar_twig_branch_5_4"  },
+			{ "model": "mcme:block/poplar_twig_branch_9_4" }
 	  ]
 	},
 	{ "when": { "up": "true", "north": "tall", "east": "low", "south": "low", "west": "low" },
