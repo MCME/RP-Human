@@ -212,9 +212,9 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/dark_oak_door_top"
-      }
+      "apply": [
+	  { "model": "mcme:block/hornbeam_leaves_vertical_slab_4"}
+		]
     },
     {
       "when": {
@@ -224,10 +224,9 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/dark_oak_door_top",
-        "y": 90
-      }
+      "apply": [
+	  { "model": "mcme:block/hornbeam_leaves_vertical_slab"}
+		]
     },
     {
       "when": {
@@ -237,10 +236,9 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/dark_oak_door_top",
-        "y": 180
-      }
+      "apply": [
+	  { "model": "mcme:block/hornbeam_leaves_vertical_slab_2"}
+		]
     },
     {
       "when": {
@@ -250,10 +248,9 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/dark_oak_door_top",
-        "y": 270
-      }
+      "apply": [
+	  { "model": "mcme:block/hornbeam_leaves_vertical_slab_3"}
+		]
     },
     {
       "when": {
@@ -263,9 +260,10 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/dark_oak_door_top_hinge"
-      }
+      "apply": [
+	  {"model": "mcme:block/willow_leaves_vertical_slab", "y": 270},
+	  {"model": "mcme:block/willow_leaves_vertical_slab_2", "y": 270}
+	  ]
     },
     {
       "when": {
@@ -275,10 +273,10 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/dark_oak_door_top_hinge",
-        "y": 90
-      }
+      "apply": [
+	  {"model": "mcme:block/willow_leaves_vertical_slab" },
+	  {"model": "mcme:block/willow_leaves_vertical_slab_2" }
+	  ]
     },
     {
       "when": {
@@ -288,10 +286,10 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/dark_oak_door_top_hinge",
-        "y": 180
-      }
+      "apply": [
+	  {"model": "mcme:block/willow_leaves_vertical_slab", "y": 90},
+	  {"model": "mcme:block/willow_leaves_vertical_slab_2", "y": 90}
+	  ]
     },
     {
       "when": {
@@ -301,10 +299,10 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/dark_oak_door_top_hinge",
-        "y": 270
-      }
+      "apply": [
+	  {"model": "mcme:block/willow_leaves_vertical_slab", "y": 180},
+	  {"model": "mcme:block/willow_leaves_vertical_slab_2", "y": 180}
+	  ]
     },
     {
       "when": {
@@ -314,10 +312,10 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/dark_oak_door_top_rh_open",
-        "y": 90
-      }
+      "apply": [
+	  {"model": "mcme:block/birch_leaves_vertical_slab"},
+	  {"model": "mcme:block/birch_leaves_vertical_slab_2"}
+	  ]
     },
     {
       "when": {
@@ -327,10 +325,10 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/dark_oak_door_top_rh_open",
-        "y": 180
-      }
+      "apply": [
+	  {"model": "mcme:block/birch_leaves_vertical_slab", "y": 90},
+	  {"model": "mcme:block/birch_leaves_vertical_slab_2", "y": 90}
+	  ]
     },
     {
       "when": {
@@ -340,10 +338,10 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/dark_oak_door_top_rh_open",
-        "y": 270
-      }
+      "apply": [
+	  {"model": "mcme:block/birch_leaves_vertical_slab", "y": 180},
+	  {"model": "mcme:block/birch_leaves_vertical_slab_2", "y": 180}
+	  ]
     },
     {
       "when": {
@@ -353,9 +351,10 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/dark_oak_door_top_rh_open"
-      }
+      "apply": [
+	  {"model": "mcme:block/birch_leaves_vertical_slab", "y": 270},
+	  {"model": "mcme:block/birch_leaves_vertical_slab_2", "y": 270}
+	  ]
     },
     {
       "when": {
