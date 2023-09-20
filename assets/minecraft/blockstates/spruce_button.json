@@ -68,52 +68,53 @@
       "model": "minecraft:block/spruce_button_pressed",
       "y": 270
     },
-    "face=wall,facing=east,powered=false": {
-      "model": "minecraft:block/spruce_button",
-      "uvlock": true,
-      "x": 90,
-      "y": 90
-    },
+    "face=wall,facing=east,powered=false": [
+	{"model": "mcme:block/spruce_branch_broken", "y": 90},
+	{"model": "mcme:block/spruce_branch_broken_2", "y": 90},
+	{"model": "mcme:block/spruce_branch_broken_3", "y": 90},
+	{"model": "mcme:block/spruce_branch_broken_4", "y": 90}
+	],
     "face=wall,facing=east,powered=true": [
-				{"model": "mcme:block/larch_branch_broken", "y": 90},
-				{"model": "mcme:block/larch_branch_broken_2", "y": 90},
-				{"model": "mcme:block/larch_branch_broken_3", "y": 90},
-				{"model": "mcme:block/larch_branch_broken_4", "y": 90}
-				],
-    "face=wall,facing=north,powered=false": {
-      "model": "minecraft:block/spruce_button",
-      "uvlock": true,
-      "x": 90
-    },
+	{"model": "mcme:block/larch_branch_broken", "y": 90},
+	{"model": "mcme:block/larch_branch_broken_2", "y": 90},
+	{"model": "mcme:block/larch_branch_broken_3", "y": 90},
+	{"model": "mcme:block/larch_branch_broken_4", "y": 90}
+	],
+    "face=wall,facing=north,powered=false": [
+	{ "model": "mcme:block/spruce_branch_broken" },
+	{ "model": "mcme:block/spruce_branch_broken_2" },
+	{ "model": "mcme:block/spruce_branch_broken_3" },
+	{ "model": "mcme:block/spruce_branch_broken_4" }
+	],
     "face=wall,facing=north,powered=true": [
-				{"model": "mcme:block/larch_branch_broken"},
-				{"model": "mcme:block/larch_branch_broken_2"},
-				{"model": "mcme:block/larch_branch_broken_3"},
-				{"model": "mcme:block/larch_branch_broken_4"}
-				],
-    "face=wall,facing=south,powered=false": {
-      "model": "minecraft:block/spruce_button",
-      "uvlock": true,
-      "x": 90,
-      "y": 180
-    },
+	{"model": "mcme:block/larch_branch_broken"},
+	{"model": "mcme:block/larch_branch_broken_2"},
+	{"model": "mcme:block/larch_branch_broken_3"},
+	{"model": "mcme:block/larch_branch_broken_4"}
+	],
+    "face=wall,facing=south,powered=false": [
+	{"model": "mcme:block/spruce_branch_broken", "y": 180},
+	{"model": "mcme:block/spruce_branch_broken_2", "y": 180},
+	{"model": "mcme:block/spruce_branch_broken_3", "y": 180},
+	{"model": "mcme:block/spruce_branch_broken_4", "y": 180}
+	],
     "face=wall,facing=south,powered=true": [
-				{"model": "mcme:block/larch_branch_broken", "y": 180},
-				{"model": "mcme:block/larch_branch_broken_2", "y": 180},
-				{"model": "mcme:block/larch_branch_broken_3", "y": 180},
-				{"model": "mcme:block/larch_branch_broken_4", "y": 180}
-				],
-    "face=wall,facing=west,powered=false": {
-      "model": "minecraft:block/spruce_button",
-      "uvlock": true,
-      "x": 90,
-      "y": 270
-    },
+	{"model": "mcme:block/larch_branch_broken", "y": 180},
+	{"model": "mcme:block/larch_branch_broken_2", "y": 180},
+	{"model": "mcme:block/larch_branch_broken_3", "y": 180},
+	{"model": "mcme:block/larch_branch_broken_4", "y": 180}
+	],
+    "face=wall,facing=west,powered=false": [
+	{"model": "mcme:block/spruce_branch_broken", "y": 270},
+	{"model": "mcme:block/spruce_branch_broken_2", "y": 270},
+	{"model": "mcme:block/spruce_branch_broken_3", "y": 270},
+	{"model": "mcme:block/spruce_branch_broken_4", "y": 270}
+	],
     "face=wall,facing=west,powered=true": [
-				{"model": "mcme:block/larch_branch_broken", "y": 270},
-				{"model": "mcme:block/larch_branch_broken_2", "y": 270},
-				{"model": "mcme:block/larch_branch_broken_3", "y": 270},
-				{"model": "mcme:block/larch_branch_broken_4", "y": 270}
-				]
+	{"model": "mcme:block/larch_branch_broken", "y": 270},
+	{"model": "mcme:block/larch_branch_broken_2", "y": 270},
+	{"model": "mcme:block/larch_branch_broken_3", "y": 270},
+	{"model": "mcme:block/larch_branch_broken_4", "y": 270}
+	]
   }
 }
