@@ -1,45 +1,5 @@
 {
   "variants": {
-	"berries=false,age=2": [
-	{ "model": "mcme:block/spruce_leaves_slab" },
-	{ "model": "mcme:block/spruce_leaves_slab_2" },
-	{ "model": "mcme:block/spruce_leaves_slab_3" }
-	],
-	"berries=false,age=3": [
-	{  "model": "mcme:block/spruce_leaves_slab_1_2" },
-	{  "model": "mcme:block/spruce_leaves_slab_2_2" },
-	{  "model": "mcme:block/spruce_leaves_slab_3_2" }
-	],
-	"berries=false,age=4": [
-	{  "model": "mcme:block/spruce_leaves_slab_1_3" },
-	{  "model": "mcme:block/spruce_leaves_slab_2_3" },
-	{  "model": "mcme:block/spruce_leaves_slab_3_3" }
-	],
-	"berries=false,age=5": [
-	{  "model": "mcme:block/spruce_leaves_slab_1_4" },
-	{  "model": "mcme:block/spruce_leaves_slab_2_4" },
-	{  "model": "mcme:block/spruce_leaves_slab_3_4" }
-	],
-	"berries=false,age=6": [
-	{  "model": "mcme:block/spruce_leaves_slab_diagonal"},
-	{  "model": "mcme:block/spruce_leaves_slab_diagonal_2"},
-	{  "model": "mcme:block/spruce_leaves_slab_diagonal_3"}
-	],
-	"berries=false,age=7": [
-	{  "model": "mcme:block/spruce_leaves_slab_diagonal_1_2"},
-	{  "model": "mcme:block/spruce_leaves_slab_diagonal_2_2"},
-	{  "model": "mcme:block/spruce_leaves_slab_diagonal_3_2"}
-	],
-	"berries=false,age=8": [
-	{  "model": "mcme:block/spruce_leaves_slab_diagonal_1_3"},
-	{  "model": "mcme:block/spruce_leaves_slab_diagonal_2_3"},
-	{  "model": "mcme:block/spruce_leaves_slab_diagonal_3_3"}
-	],
-	"berries=false,age=9": [
-	{  "model": "mcme:block/spruce_leaves_slab_diagonal_1_4"},
-	{  "model": "mcme:block/spruce_leaves_slab_diagonal_2_4"},
-	{  "model": "mcme:block/spruce_leaves_slab_diagonal_3_4"}
-	],
 	"berries=false,age=10": [
 	{  "model": "mcme:block/spruce_branch_dead"},
 	{  "model": "mcme:block/spruce_branch_dead_2"},
@@ -80,46 +40,6 @@
 	{  "model": "mcme:block/spruce_large_sapling_tilted_2_4"},
 	{  "model": "mcme:block/spruce_large_sapling_tilted_3_4"}
 	],
-	"berries=false,age=18": [
-	{  "model": "mcme:block/larch_leaves_slab"},
-	{  "model": "mcme:block/larch_leaves_slab_2"},
-	{  "model": "mcme:block/larch_leaves_slab_3"}
-	],
-	"berries=false,age=19": [
-	{  "model": "mcme:block/larch_leaves_slab_1_2" },
-	{  "model": "mcme:block/larch_leaves_slab_2_2" },
-	{  "model": "mcme:block/larch_leaves_slab_3_2" }
-	],
-	"berries=false,age=20": [
-	{  "model": "mcme:block/larch_leaves_slab_1_3" },
-	{  "model": "mcme:block/larch_leaves_slab_2_3" },
-	{  "model": "mcme:block/larch_leaves_slab_3_3" }
-	],
-	"berries=false,age=21": [
-	{  "model": "mcme:block/larch_leaves_slab_1_4" },
-	{  "model": "mcme:block/larch_leaves_slab_2_4" },
-	{  "model": "mcme:block/larch_leaves_slab_3_4" }
-	],
-	"berries=false,age=22": [
-	{  "model": "mcme:block/larch_leaves_slab_diagonal"},
-	{  "model": "mcme:block/larch_leaves_slab_diagonal_2"},
-	{  "model": "mcme:block/larch_leaves_slab_diagonal_3"}
-	],
-	"berries=false,age=23": [
-	{  "model": "mcme:block/larch_leaves_slab_diagonal_1_2"},
-	{  "model": "mcme:block/larch_leaves_slab_diagonal_2_2"},
-	{  "model": "mcme:block/larch_leaves_slab_diagonal_3_2"}
-	],
-	"berries=false,age=24": [
-	{  "model": "mcme:block/larch_leaves_slab_diagonal_1_3"},
-	{  "model": "mcme:block/larch_leaves_slab_diagonal_2_3"},
-	{  "model": "mcme:block/larch_leaves_slab_diagonal_3_3"}
-	],
-	"berries=false,age=25": [
-	{  "model": "mcme:block/larch_leaves_slab_diagonal_1_4"},
-	{  "model": "mcme:block/larch_leaves_slab_diagonal_2_4"},
-	{  "model": "mcme:block/larch_leaves_slab_diagonal_3_4"}
-	],
 	"berries=false,age=0": [
 	{  "model": "mcme:block/larch_large_sapling_tilted"},
 	{  "model": "mcme:block/larch_large_sapling_tilted_2"},
@@ -130,7 +50,6 @@
 	{  "model": "mcme:block/spruce_branch_dead_2_2"},
 	{  "model": "mcme:block/spruce_branch_dead_3_2"}
 	],
-	
     "berries=true": {
       "model": "minecraft:block/cave_vines_lit"
     }

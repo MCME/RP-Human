@@ -12,7 +12,7 @@ else if (noshadow == 0) {
     #ifdef BLOCK
     float vertical = sign(normal.y) * 0.3 + 0.7;
     float horizontal = abs(normal.z) * 0.25 + 0.5;
-    float brightness =  0.06 + mix(horizontal, vertical, abs((normal.y) * 0.49));
+    float brightness =  0.06 + mix(horizontal, vertical, abs((normal.y) * 0.45));
     color *= vec4(vec3(brightness), 1.0);
     #endif
 	
