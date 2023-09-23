@@ -3,6 +3,46 @@
 	"distance=1,persistent=false":
 		{ "model": "block/sugar_pillar_thick" },
 	"distance=2,persistent=false":
-		{ "model": "block/sugar_pillar_thick_bottom" }
+		{ "model": "block/sugar_pillar_thick_bottom" },
+	"distance=3,persistent=false": [
+	{ "model": "mcme:block/spruce_leaves_slab" },
+	{ "model": "mcme:block/spruce_leaves_slab_2" },
+	{ "model": "mcme:block/spruce_leaves_slab_3" }
+	],
+	"distance=4,persistent=false": [
+	{  "model": "mcme:block/spruce_leaves_slab", "y": 90},
+	{  "model": "mcme:block/spruce_leaves_slab_2", "y": 90},
+	{  "model": "mcme:block/spruce_leaves_slab_3", "y": 90}
+	],
+	"distance=5,persistent=false": [
+	{  "model": "mcme:block/spruce_leaves_slab", "y": 180},
+	{  "model": "mcme:block/spruce_leaves_slab_2", "y": 180},
+	{  "model": "mcme:block/spruce_leaves_slab_3", "y": 180}
+	],
+	"distance=6,persistent=false": [
+	{  "model": "mcme:block/spruce_leaves_slab", "y": 270},
+	{  "model": "mcme:block/spruce_leaves_slab_2", "y": 270},
+	{  "model": "mcme:block/spruce_leaves_slab_3", "y": 270}
+	],
+	"distance=7,persistent=false": [
+	{  "model": "mcme:block/spruce_leaves_slab_diagonal"},
+	{  "model": "mcme:block/spruce_leaves_slab_diagonal_2"},
+	{  "model": "mcme:block/spruce_leaves_slab_diagonal_3"}
+	],
+	"distance=1,persistent=true": [
+	{  "model": "mcme:block/spruce_leaves_slab_diagonal", "y": 90},
+	{  "model": "mcme:block/spruce_leaves_slab_diagonal_2", "y": 90},
+	{  "model": "mcme:block/spruce_leaves_slab_diagonal_3", "y": 90}
+	],
+	"distance=2,persistent=true": [
+	{  "model": "mcme:block/spruce_leaves_slab_diagonal", "y": 180},
+	{  "model": "mcme:block/spruce_leaves_slab_diagonal_2", "y": 180},
+	{  "model": "mcme:block/spruce_leaves_slab_diagonal_3", "y": 180}
+	],
+	"distance=3,persistent=true": [
+	{  "model": "mcme:block/spruce_leaves_slab_diagonal", "y": 270},
+	{  "model": "mcme:block/spruce_leaves_slab_diagonal_2", "y": 270},
+	{  "model": "mcme:block/spruce_leaves_slab_diagonal_3", "y": 270}
+	]
   }
 }
