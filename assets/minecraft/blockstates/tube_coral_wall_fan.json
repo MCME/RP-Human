@@ -1,14 +1,14 @@
 {
   "variants": {
-    "facing=south": { "model": "minecraft:block/oak_trunk_horizontal" },
+    "facing=south": { "model": "minecraft:block/wall_mushrooms" },
     "facing=west": {
-      "model": "minecraft:block/oak_trunk_horizontal_2"
+      "model": "minecraft:block/wall_mushrooms", "y": 90
     },
     "facing=north": {
-      "model": "minecraft:block/oak_trunk_horizontal_3"
+      "model": "minecraft:block/wall_mushrooms", "y": 180
     },
     "facing=east": {
-      "model": "minecraft:block/oak_trunk_horizontal_4"
+      "model": "minecraft:block/wall_mushrooms", "y": 270
     }
   }
 }
