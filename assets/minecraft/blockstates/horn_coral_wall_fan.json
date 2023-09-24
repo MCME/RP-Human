@@ -1,14 +1,24 @@
 {
   "variants": {
-    "facing=south": {"model": "minecraft:block/beech_trunk_horizontal"},
-    "facing=west": {
-      "model": "minecraft:block/beech_trunk_horizontal_2"
-    },
-    "facing=north": {
-      "model": "minecraft:block/beech_trunk_horizontal_3"
-    },
-    "facing=east": {
-      "model": "minecraft:block/beech_trunk_horizontal_4"
-    }
-  }
+	"facing=north,waterlogged=false": [
+	{ "model": "minecraft:block/beam_horizontal_light_down", "y": 270},
+	{ "model": "minecraft:block/beam_horizontal_light_down_2", "y": 270},
+	{ "model": "minecraft:block/beam_horizontal_light_down_3", "y": 270}
+	],
+	"facing=east,waterlogged=false": [
+	{ "model": "minecraft:block/beam_horizontal_light_down" },
+	{ "model": "minecraft:block/beam_horizontal_light_down_2" },
+	{ "model": "minecraft:block/beam_horizontal_light_down_3" }
+	],
+	"facing=west,waterlogged=false": [
+	{ "model": "minecraft:block/beam_horizontal_light_down", "y": 180},
+	{ "model": "minecraft:block/beam_horizontal_light_down_2", "y": 180},
+	{ "model": "minecraft:block/beam_horizontal_light_down_3", "y": 180}
+	],
+	"facing=south,waterlogged=false": [
+	{ "model": "minecraft:block/beam_horizontal_light_down", "y": 90},
+	{ "model": "minecraft:block/beam_horizontal_light_down_2", "y": 90},
+	{ "model": "minecraft:block/beam_horizontal_light_down_3", "y": 90}
+	]
+	}
 }
