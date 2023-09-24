@@ -197,19 +197,19 @@
       "y": 180
     },
     "facing=north,half=upper,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/crimson_door_1x3arch_sandstone"
+      "model": "minecraft:block/crimson_door_1x3arch_sandstone",
+      "y": 270
     },
     "facing=east,half=upper,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/crimson_door_1x3arch_sandstone",
-      "y": 90
+      "model": "minecraft:block/crimson_door_1x3arch_sandstone"
     },
     "facing=south,half=upper,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/crimson_door_1x3arch_sandstone",
-      "y": 180
+      "y": 90
     },
     "facing=west,half=upper,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/crimson_door_1x3arch_sandstone",
-      "y": 270
+      "y": 180
     },
 	"facing=north,half=upper,hinge=right,open=false,powered=true": [
 		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab", "y": 90},
