@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north,half=bottom,open=false,powered=false": [
+	  {"model": "mcme:block/ash_leaves_yellowish_slab"},
+	  {"model": "mcme:block/ash_leaves_yellowish_slab", "y": 90},
+	  {"model": "mcme:block/ash_leaves_yellowish_slab", "y": 180},
+	  {"model": "mcme:block/ash_leaves_yellowish_slab", "y": 270}
+	],
+    "facing=north,half=top,open=false,powered=false": [
+	  {"model": "mcme:block/ash_leaves_yellowish_slab_upper"},
+	  {"model": "mcme:block/ash_leaves_yellowish_slab_upper", "y": 90},
+	  {"model": "mcme:block/ash_leaves_yellowish_slab_upper", "y": 180},
+	  {"model": "mcme:block/ash_leaves_yellowish_slab_upper", "y": 270}
+	]
+  }
+}
