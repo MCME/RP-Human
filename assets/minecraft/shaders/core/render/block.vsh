@@ -36,9 +36,10 @@ void main() {
     Pos = Position + ChunkOffset;
     texCoord = UV0;
     vertexColor = Color;
-    lightColor = minecraft_sample_lightmap(Sampler2, UV2);
-    vec3 normal = (ProjMat * ModelViewMat * vec4(Normal, 0.0)).rgb;
-
+	ivec2 test = ivec2(UV2.x, UV2.y);
+    lightColor = minecraft_sample_lightmap(Sampler2, test);
+    vec3 normal = (ProjMat * ModelViewMat * vec4(Normal, 5.0)).rgb;
+	
     //objmc
     #define BLOCK
     #moj_import <objmc_main.glsl>

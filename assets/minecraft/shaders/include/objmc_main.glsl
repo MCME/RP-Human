@@ -52,6 +52,8 @@ if (ivec4(texelFetch(Sampler0, topleft, 0)*255) == ivec4(12,34,56,78)) {
     int tcolor = 0;
 
 #ifdef BLOCK
+	// Floor positions to snap them back to 0,0,0 within the block
+    Pos = floor(Position) + vec3(0.5,0.0,0.5) + ChunkOffset;
     if (!visibility.x) { //world
         Pos = vec3(0); posoffset = vec3(0);
     } else {
