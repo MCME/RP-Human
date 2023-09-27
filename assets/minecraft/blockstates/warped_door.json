@@ -522,9 +522,10 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top"
-      }
+      "apply": [
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab", "y": 270},
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_2", "y": 270}
+	  ]
     },
     {
       "when": {
@@ -534,10 +535,10 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top",
-        "y": 90
-      }
+      "apply": [
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab"},
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_2"}
+	  ]
     },
     {
       "when": {
@@ -547,10 +548,10 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top",
-        "y": 180
-      }
+      "apply": [
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab", "y": 90},
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_2", "y": 90}
+	  ]
     },
     {
       "when": {
@@ -560,10 +561,10 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top",
-        "y": 270
-      }
+      "apply": [
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab", "y": 180},
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_2", "y": 180}
+	  ]
     },
     {
       "when": {
@@ -629,10 +630,10 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top",
-        "y": 270
-      }
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab", "y": 180},
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_2", "y": 180}
+	  ]
     },
     {
       "when": {
@@ -642,9 +643,10 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top_open"
-      }
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab", "y": 270},
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_2", "y": 270}
+	  ]
     },
     {
       "when": {
@@ -654,10 +656,10 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top_open",
-        "y": 90
-      }
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab"},
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_2"}
+	  ]
     },
     {
       "when": {
@@ -667,10 +669,10 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top_open",
-        "y": 180
-      }
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab", "y": 90},
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_2", "y": 90}
+	  ]
     },
 	   {
       "when": {
