@@ -522,9 +522,9 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top"
-      }
+      "apply": [
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_4"}
+	  ]
     },
     {
       "when": {
@@ -534,10 +534,9 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top",
-        "y": 90
-      }
+      "apply": [
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab"}
+	  ]
     },
     {
       "when": {
@@ -547,10 +546,9 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top",
-        "y": 180
-      }
+      "apply": [
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_2"}
+	  ]
     },
     {
       "when": {
@@ -560,10 +558,9 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top",
-        "y": 270
-      }
+      "apply": [
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_3"}
+	  ]
     },
     {
       "when": {
@@ -629,10 +626,9 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top",
-        "y": 270
-      }
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_3"}
+	  ]
     },
     {
       "when": {
@@ -642,9 +638,9 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top_open"
-      }
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_4"}
+	  ]
     },
     {
       "when": {
@@ -654,10 +650,9 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top_open",
-        "y": 90
-      }
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab"}
+	  ]
     },
     {
       "when": {
@@ -667,10 +662,9 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/warped_door_top_open",
-        "y": 180
-      }
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_2"}
+	  ]
     },
 	   {
       "when": {
