@@ -1,7 +1,8 @@
 {
-  "parent": "block/3x3x3vegetation_tintless_2",
-  "textures": {
-    	"1": "block/lilac_top",
+	"credit": "Made with Blockbench",
+	"parent": "block/3x3x3vegetation_tintless_2",
+	"textures": {
+		"1": "block/lilac_top",
 		"2": "block/lilac_1_top",
 		"3": "block/lilac_2_top",
 		"4": "block/lilac_3_top",
@@ -9,5 +10,14 @@
 		"6": "block/lilac_1",
 		"7": "block/lilac_2",
 		"8": "block/lilac_3"
-  }
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, 1.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"flip_v": true,
+	"model": "mcme:models/block/big_fern_3.obj"
 }

@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "mcme:block/beam_round_e"
+      },
+      "when": {
+		"north": "false",
+		"east": "false",
+		"south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "mcme:block/beam_round_e_2"
+      },
+      "when": {
+		"north": "false",
+		"east": "true",
+		"south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "mcme:block/beam_round_e_down"
+      },
+      "when": {
+		"north": "false",
+		"east": "false",
+		"south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "mcme:block/beam_round_e_down_2"
+      },
+      "when": {
+		"north": "false",
+		"east": "true",
+		"south": "false",
+        "west": "false"
+      }
+    }
+  ]
+}

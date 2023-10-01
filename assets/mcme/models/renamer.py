@@ -1,21 +1,23 @@
 import os
 
-def duplicate_and_replace(folder_path):
-    for filename in os.listdir(folder_path):
-        if filename.startswith('beech'):
-            spruce_file_path = os.path.join(folder_path, filename)
-            maple_file_path = os.path.join(folder_path, filename.replace('beech', 'birch'))
+def rename_files_in_work_folder():
+    script_directory = os.path.dirname(os.path.abspath(__file__))
+    work_folder = os.path.join(script_directory, "work")
 
-            # Duplicate the file
-            with open(spruce_file_path, 'r') as spruce_file:
-                spruce_content = spruce_file.read()
-            with open(maple_file_path, 'w') as maple_file:
-                maple_file.write(spruce_content.replace('beech', 'birch'))
+    if not os.path.exists(work_folder) or not os.path.isdir(work_folder):
+        print("The 'work' folder does not exist.")
+        return
 
-            print(f'Duplicated and replaced: {filename} -> {filename.replace("beech", "birch")}')
+    replace_this = "brain_coral_fan"  # Specify the text to be replaced
+    replace_with = "locked_powered_repeater_delay1_s"  # Specify the replacement text
+
+    for filename in os.listdir(work_folder):
+        old_path = os.path.join(work_folder, filename)
+        new_filename = filename.replace(replace_this, replace_with)
+        new_path = os.path.join(work_folder, new_filename)
+        
+        os.rename(old_path, new_path)
+        print(f"Renamed: {filename} -> {new_filename}")
 
 if __name__ == "__main__":
-    script_directory = os.path.dirname(__file__)
-    folder_name = "work"  # Replace with the name of your folder
-    folder_path = os.path.join(script_directory, folder_name)
-    duplicate_and_replace(folder_path)
+    rename_files_in_work_folder()

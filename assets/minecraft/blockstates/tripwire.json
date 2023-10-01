@@ -214,7 +214,7 @@
 	  "model": "mcme:block/pine_trunk_horizontal", "y":180
 	},
 	"powered=false,disarmed=true,attached=false,north=false,east=true,south=true,west=true": {
-	  "model": "mcme:block/dead_trunk_horizontal", "y":180
+	  "model": "mcme:block/larch_trunk_horizontal", "y":180
 	},
 	"powered=false,disarmed=true,attached=false,north=true,east=false,south=false,west=false": {
 	  "model": "mcme:block/birch_trunk_horizontal" 
@@ -226,16 +226,16 @@
 	  "model": "mcme:block/slab" 
 	},
     "powered=false,disarmed=true,attached=false,north=true,east=false,south=true,west=true": {
-	  "model": "mcme:block/dead_trunk_horizontal", "y":270
+	  "model": "mcme:block/larch_trunk_horizontal", "y":270
 	},
     "powered=false,disarmed=true,attached=false,north=true,east=true,south=false,west=false": {
 	  "model": "mcme:block/pine_trunk_horizontal", "y":90
 	},
     "powered=false,disarmed=true,attached=false,north=true,east=true,south=false,west=true": {
-	  "model": "mcme:block/dead_trunk_horizontal" 
+	  "model": "mcme:block/larch_trunk_horizontal" 
 	},
     "powered=false,disarmed=true,attached=false,north=true,east=true,south=true,west=false": {
-	  "model": "mcme:block/dead_trunk_horizontal", "y":90
+	  "model": "mcme:block/larch_trunk_horizontal", "y":90
 	},
     "powered=false,disarmed=true,attached=false,north=true,east=true,south=true,west=true": {
 	  "model": "mcme:block/slab" 
@@ -262,7 +262,7 @@
 	  "model": "mcme:block/pine_thin_trunk_horizontal", "y":180
 	},
 	"powered=false,disarmed=true,attached=true,north=false,east=true,south=true,west=true": {
-	  "model": "mcme:block/dead_thin_trunk_horizontal", "y":180
+	  "model": "mcme:block/larch_thin_trunk_horizontal", "y":180
 	},
 	"powered=false,disarmed=true,attached=true,north=true,east=false,south=false,west=false": {
 	  "model": "mcme:block/birch_thin_trunk_horizontal" 
@@ -274,23 +274,30 @@
 	  "model": "mcme:block/slab" 
 	},
     "powered=false,disarmed=true,attached=true,north=true,east=false,south=true,west=true": {
-	  "model": "mcme:block/dead_thin_trunk_horizontal", "y":270
+	  "model": "mcme:block/larch_thin_trunk_horizontal", "y":270
 	},
     "powered=false,disarmed=true,attached=true,north=true,east=true,south=false,west=false": {
 	  "model": "mcme:block/pine_thin_trunk_horizontal", "y":90
 	},
     "powered=false,disarmed=true,attached=true,north=true,east=true,south=false,west=true": {
-	  "model": "mcme:block/dead_thin_trunk_horizontal" 
+	  "model": "mcme:block/larch_thin_trunk_horizontal" 
 	},
     "powered=false,disarmed=true,attached=true,north=true,east=true,south=true,west=false": {
-	  "model": "mcme:block/dead_thin_trunk_horizontal", "y":90
+	  "model": "mcme:block/larch_thin_trunk_horizontal", "y":90
 	},
     "powered=false,disarmed=true,attached=true,north=true,east=true,south=true,west=true": {
 	  "model": "mcme:block/slab" 
 	},
-	"powered=true,disarmed=true,attached=false,north=false,east=false,south=false,west=false": {
-	  "model": "mcme:block/slab" 
-	},
+	"powered=true,disarmed=true,attached=false,north=false,east=false,south=false,west=false": [
+      { "model": "block/autumn_dandelion" },
+      { "model": "block/autumn_dandelion", "y": 90 },
+      { "model": "block/autumn_dandelion", "y": 180 },
+      { "model": "block/autumn_dandelion", "y": 270 },
+	{ "model": "block/autumn_dandelion_2" },
+      { "model": "block/autumn_dandelion_2", "y": 90 },
+      { "model": "block/autumn_dandelion_2", "y": 180 },
+      { "model": "block/autumn_dandelion_2", "y": 270 }
+    ],
     "powered=true,disarmed=true,attached=false,north=false,east=false,south=false,west=true": {
 	  "model": "mcme:block/poplar_trunk_horizontal", "y":270
 	},

@@ -14,18 +14,6 @@
       "model": "block/activator_rail_diagonal",
       "y": 90
     },
-    "powered\u003dfalse,shape\u003dascending_north": [
-	{ "model": "mcme:block/beech_leaves_slab"},
-	{ "model": "mcme:block/beech_leaves_slab", "y": 90},
-	{ "model": "mcme:block/beech_leaves_slab", "y": 180},
-	{ "model": "mcme:block/beech_leaves_slab", "y": 270}
-	],
-    "powered\u003dfalse,shape\u003dascending_south": [
-	{ "model": "mcme:block/maple_leaves_slab"},
-	{ "model": "mcme:block/maple_leaves_slab", "y": 90},
-	{ "model": "mcme:block/maple_leaves_slab", "y": 180},
-	{ "model": "mcme:block/maple_leaves_slab", "y": 270}
-	],
     "powered\u003dtrue,shape\u003dnorth_south": {
       "model": "block/activator_rail",
       "y": 180
@@ -41,12 +29,6 @@
     "powered\u003dtrue,shape\u003dascending_west": {
       "model": "block/activator_rail_diagonal",
       "y": 270
-    },
-    "powered\u003dtrue,shape\u003dascending_north": {
-      "model": "mcme:block/maple_thin_trunk_horizontal"
-    },
-    "powered\u003dtrue,shape\u003dascending_south": {
-      "model": "mcme:block/maple_thin_trunk_horizontal", "y": 90
     }
   }
 }
