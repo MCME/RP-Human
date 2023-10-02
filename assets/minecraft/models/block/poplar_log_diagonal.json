@@ -19,5 +19,17 @@
 				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
 			}
 		}
-	]
+	],
+	"gui_light": "front",
+	"display": {
+		"firstperson_righthand": {
+			"translation": [9.5, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [5, 74, 0],
+			"translation": [7.75, 0.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	}
 }

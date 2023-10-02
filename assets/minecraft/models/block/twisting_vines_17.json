@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"parent": "block/3x3x3vegetation_tintless",
 	"textures": {
 		"1": "block/twisting_vines_17_1",
@@ -9,5 +10,11 @@
 		"6": "block/twisting_vines_17_1",
 		"7": "block/twisting_vines_17",
 		"8": "block/twisting_vines_17"
-  }
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
 }

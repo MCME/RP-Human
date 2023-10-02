@@ -1,7 +1,7 @@
 {
-  "parent": "block/3x3x3vegetation_tintless_1",
-  "textures": {
-
+	"credit": "Made with Blockbench",
+	"parent": "block/3x3x3vegetation_tintless_1",
+	"textures": {
 		"1": "block/dandelion",
 		"2": "block/dandelion",
 		"3": "block/dandelion_2",
@@ -10,5 +10,12 @@
 		"6": "block/dandelion",
 		"7": "block/dandelion_2",
 		"8": "block/dandelion_2"
-  }
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, -0.25, 0],
+			"scale": [1, 1, 1]
+		}
+	}
 }
