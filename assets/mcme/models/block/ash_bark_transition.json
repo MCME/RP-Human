@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 96],
 	"textures": {
-		"1": "mcme:block/ash_log_composite"
+		"1": "mcme:block/ash_log_composite",
+		"particle": "block/ash_log_composite"
 	},
 	"elements": [
 		{
@@ -18,12 +19,23 @@
 			}
 		}
 	],
+	"gui_light": "front",
+	"display": {
+		"firstperson_righthand": {
+			"translation": [3.5, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [5, 74, 0],
+			"translation": [0, 0.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	},
 	"groups": [
 		{
 			"name": "bone",
 			"origin": [0, 0, 0],
 			"color": 0,
-			"nbt": "{}",
 			"children": [0]
 		}
 	]
