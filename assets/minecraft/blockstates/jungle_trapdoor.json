@@ -32,6 +32,12 @@
         "facing=north,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open" },
         "facing=south,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open", "y": 180 },
         "facing=east,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open", "y": 90 },
-        "facing=west,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open",  "y": 270 }
+        "facing=west,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open",  "y": 270 },
+		"facing=south,half=bottom,open=false,powered=true": [
+		  {"model": "mcme:block/linden_leaves_yellowish_slab"}
+		],
+		"facing=south,half=top,open=false,powered=true": [
+		  {"model": "mcme:block/linden_leaves_yellowish_slab_upper"}
+		]
     }
 }
