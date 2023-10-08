@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "minecraft:block/ash_wood",
-		"particle": "minecraft:block/ash_wood"
+		"0": "block/oak_wood",
+		"particle": "block/oak_wood"
 	},
 	"elements": [
 		{
@@ -19,5 +19,16 @@
 				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"firstperson_righthand": {
+			"translation": [8.75, 0, 0],
+			"scale": [0.51, 0.6, 0.29]
+		},
+		"gui": {
+			"rotation": [11, -26, 0],
+			"translation": [1.75, -1, 0],
+			"scale": [0.35, 0.6, 0.35]
+		}
+	}
 }
