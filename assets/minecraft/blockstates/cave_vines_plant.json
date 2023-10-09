@@ -1,12 +1,9 @@
 {
   "variants": {
     "berries=false": [
-	{  "model": "minecraft:block/oak_leaves_slab_upper"},
-	{  "model": "minecraft:block/oak_leaves_slab_upper_2"},
-	{  "model": "minecraft:block/oak_leaves_slab_upper_3"},
-	{  "model": "minecraft:block/oak_leaves_slab_upper_4"},
-	{  "model": "minecraft:block/oak_leaves_slab_upper_5"},
-	{  "model": "minecraft:block/oak_leaves_slab_upper_6"}
+	{  "model": "mcme:block/larch_large_sapling_tilted_1_3"},
+	{  "model": "mcme:block/larch_large_sapling_tilted_2_3"},
+	{  "model": "mcme:block/larch_large_sapling_tilted_3_3"}
 	],
     "berries=true": {
       "model": "minecraft:block/cave_vines_plant_lit"

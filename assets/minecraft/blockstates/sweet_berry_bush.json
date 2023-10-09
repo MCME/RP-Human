@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "minecraft:block/sweet_berry_bush_stage0"
+    },
+    "age=1": {
+      "model": "minecraft:block/sweet_berry_bush_stage1"
+    },
+    "age=2": [
+	{  "model": "mcme:block/larch_large_sapling_tilted_1_4"},
+	{  "model": "mcme:block/larch_large_sapling_tilted_2_4"},
+	{  "model": "mcme:block/larch_large_sapling_tilted_3_4"}
+	],
+    "age=3": {
+      "model": "minecraft:block/sweet_berry_bush_stage3"
+    }
+  }
+}
