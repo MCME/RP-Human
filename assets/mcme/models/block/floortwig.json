@@ -1,5 +1,18 @@
 {
   "parent": "special-model-loader:builtin/obj",
   "flip_v": true,
-  "model": "mcme:models/block/floortwig.obj"
+  "model": "mcme:models/block/floortwig.obj",
+	"gui_light": "front",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [40, 0, 0],
+			"translation": [4, 0, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [40, 0, 0],
+			"translation": [0.5, 0.25, 0],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	}
 }
