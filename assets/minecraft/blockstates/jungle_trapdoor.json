@@ -34,10 +34,16 @@
         "facing=east,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open", "y": 90 },
         "facing=west,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open",  "y": 270 },
 		"facing=south,half=bottom,open=false,powered=true": [
-		  {"model": "mcme:block/linden_leaves_yellowish_slab"}
+		  {"model": "mcme:block/linden_leaves_yellowish_slab"},
+		  {"model": "mcme:block/linden_leaves_yellowish_slab_1_2"},
+		  {"model": "mcme:block/linden_leaves_yellowish_slab_1_3"},
+		  {"model": "mcme:block/linden_leaves_yellowish_slab_1_4"}
 		],
 		"facing=south,half=top,open=false,powered=true": [
-		  {"model": "mcme:block/linden_leaves_yellowish_slab_upper"}
+		  {"model": "mcme:block/linden_leaves_yellowish_slab_upper"},
+		  {"model": "mcme:block/linden_leaves_yellowish_slab_upper_1_2"},
+		  {"model": "mcme:block/linden_leaves_yellowish_slab_upper_1_3"},
+		  {"model": "mcme:block/linden_leaves_yellowish_slab_upper_1_4"}
 		]
     }
 }

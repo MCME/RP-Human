@@ -60,7 +60,9 @@
         "powered": "false"
       },
       "apply": [
-	  { "model": "mcme:block/oak_leaves_vertical_slab_4" }
+	  { "model": "mcme:block/oak_leaves_vertical_slab_1_4" },
+	  { "model": "mcme:block/oak_leaves_vertical_slab_2_4" },
+	  { "model": "mcme:block/oak_leaves_vertical_slab_3_4" }
 		]
     },
     {
@@ -72,7 +74,9 @@
         "powered": "false"
       },
       "apply": [
-	  { "model": "mcme:block/oak_leaves_vertical_slab" }
+	  { "model": "mcme:block/oak_leaves_vertical_slab" },
+	  { "model": "mcme:block/oak_leaves_vertical_slab_2" },
+	  { "model": "mcme:block/oak_leaves_vertical_slab_3" }
 		]
 	},
     {
@@ -84,7 +88,9 @@
         "powered": "false"
       },
       "apply": [
-	  { "model": "mcme:block/oak_leaves_vertical_slab_2" }
+	  { "model": "mcme:block/oak_leaves_vertical_slab_1_2" },
+	  { "model": "mcme:block/oak_leaves_vertical_slab_2_2" },
+	  { "model": "mcme:block/oak_leaves_vertical_slab_3_2" }
 		]
     },
     {
@@ -96,7 +102,9 @@
         "powered": "false"
       },
       "apply": [
-	  { "model": "mcme:block/oak_leaves_vertical_slab_3" }
+	  { "model": "mcme:block/oak_leaves_vertical_slab_1_3" },
+	  { "model": "mcme:block/oak_leaves_vertical_slab_2_3" },
+	  { "model": "mcme:block/oak_leaves_vertical_slab_3_3" }
 		]
     },
     {
@@ -159,35 +167,41 @@
         "powered": "false"
       },
       "apply": [
+	  { "model": "mcme:block/beech_leaves_vertical_slab_1_3" },
+	  { "model": "mcme:block/beech_leaves_vertical_slab_2_3" },
+	  { "model": "mcme:block/beech_leaves_vertical_slab_3_3" }
+	  ]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_vertical_slab_1_4" },
+	  { "model": "mcme:block/beech_leaves_vertical_slab_2_4" },
+	  { "model": "mcme:block/beech_leaves_vertical_slab_3_4" }
+	  ]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_vertical_slab" },
+	  { "model": "mcme:block/beech_leaves_vertical_slab_2" },
 	  { "model": "mcme:block/beech_leaves_vertical_slab_3" }
 	  ]
     },
     {
       "when": {
-        "facing": "south",
-        "half": "lower",
-        "hinge": "right",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": [
-	  { "model": "mcme:block/beech_leaves_vertical_slab_4" }
-	  ]
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "lower",
-        "hinge": "right",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": [
-	  { "model": "mcme:block/beech_leaves_vertical_slab" }
-	  ]
-    },
-    {
-      "when": {
         "facing": "north",
         "half": "lower",
         "hinge": "right",
@@ -195,7 +209,9 @@
         "powered": "false"
       },
       "apply": [
-	  { "model": "mcme:block/beech_leaves_vertical_slab_2" }
+	  { "model": "mcme:block/beech_leaves_vertical_slab_1_2" },
+	  { "model": "mcme:block/beech_leaves_vertical_slab_2_2" },
+	  { "model": "mcme:block/beech_leaves_vertical_slab_3_2" }
 	  ]
     },
     {
@@ -207,7 +223,9 @@
         "powered": "false"
       },
       "apply": [
-			{ "model": "mcme:block/maple_leaves_vertical_slab_4" }
+			{ "model": "mcme:block/maple_leaves_vertical_slab_1_4" },
+			{ "model": "mcme:block/maple_leaves_vertical_slab_2_4" },
+			{ "model": "mcme:block/maple_leaves_vertical_slab_3_4" }
 			]			
     },
     {
@@ -219,31 +237,37 @@
         "powered": "false"
       },
       "apply": [
-			{ "model": "mcme:block/maple_leaves_vertical_slab" }
-			]			
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "upper",
-        "hinge": "left",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": [
-			{ "model": "mcme:block/maple_leaves_vertical_slab_2" }
-			]			
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "upper",
-        "hinge": "left",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": [
+			{ "model": "mcme:block/maple_leaves_vertical_slab" },
+			{ "model": "mcme:block/maple_leaves_vertical_slab_2" },
 			{ "model": "mcme:block/maple_leaves_vertical_slab_3" }
+			]			
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+			{ "model": "mcme:block/maple_leaves_vertical_slab_1_2" },
+			{ "model": "mcme:block/maple_leaves_vertical_slab_2_2" },
+			{ "model": "mcme:block/maple_leaves_vertical_slab_3_2" }
+			]			
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+			{ "model": "mcme:block/maple_leaves_vertical_slab_1_3" },
+			{ "model": "mcme:block/maple_leaves_vertical_slab_2_3" },
+			{ "model": "mcme:block/maple_leaves_vertical_slab_3_3" }
 			]	
     },
     {
@@ -255,7 +279,9 @@
         "powered": "false"
       },
       "apply": [
-			{ "model": "mcme:block/chestnut_leaves_vertical_slab_4" }
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_1_4" },
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_2_4" },
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_3_4" }
 			]	
     },
     {
@@ -267,7 +293,9 @@
         "powered": "false"
       },
       "apply": [
-			{ "model": "mcme:block/chestnut_leaves_vertical_slab" }
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab" },
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_2" },
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_3" }
 			]
     },
     {
@@ -279,7 +307,9 @@
         "powered": "false"
       },
       "apply": [
-			{ "model": "mcme:block/chestnut_leaves_vertical_slab_2" }
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_1_2" },
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_2_2" },
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_3_2" }
 			]
     },
     {
@@ -291,7 +321,9 @@
         "powered": "false"
       },
       "apply": [
-			{ "model": "mcme:block/chestnut_leaves_vertical_slab_3" }
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_1_3" },
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_2_3" },
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_3_3" }
 			]
     },
     {
@@ -351,7 +383,9 @@
         "powered": "false"
       },
       "apply": [
-	  { "model": "mcme:block/ash_leaves_vertical_slab_3" }
+	  { "model": "mcme:block/ash_leaves_vertical_slab_1_3" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_2_3" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_3_3" }
 	  ]
     },
     {
@@ -363,7 +397,9 @@
         "powered": "false"
       },
       "apply": [
-	  { "model": "mcme:block/ash_leaves_vertical_slab_4" }
+	  { "model": "mcme:block/ash_leaves_vertical_slab_1_4" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_2_4" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_3_4" }
 	  ]
     },
     {
@@ -375,7 +411,9 @@
         "powered": "false"
       },
       "apply": [
-	  { "model": "mcme:block/ash_leaves_vertical_slab" }
+	  { "model": "mcme:block/ash_leaves_vertical_slab" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_2" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_3" }
 	  ]
     },
     {
@@ -387,7 +425,9 @@
         "powered": "false"
       },
       "apply": [
-	  { "model": "mcme:block/ash_leaves_vertical_slab_2" }
+	  { "model": "mcme:block/ash_leaves_vertical_slab_1_2" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_2_2" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_3_2" }
 	  ]
     },
     {
