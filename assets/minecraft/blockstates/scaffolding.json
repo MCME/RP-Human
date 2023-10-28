@@ -8,6 +8,9 @@
 	"bottom=false,distance=4": { "model": "minecraft:block/scaffolding_stone_window", "x":180 },
 	"bottom=false,distance=5": { "model": "minecraft:block/scaffolding_1x1arch_sandstone" },
 	"bottom=false,distance=6": { "model": "minecraft:block/scaffolding_1x1arch_sandstone", "y":90 },
-    "bottom=true": { "model": "minecraft:block/scaffolding_unstable" }
+	"bottom=true,distance=7": { "model": "block/stone_brick_window_bottom" },
+	"bottom=true,distance=0": { "model": "block/stone_brick_window_bottom", "y":90},
+	"bottom=true,distance=1": { "model": "block/stone_brick_window" },
+	"bottom=true,distance=2": { "model": "block/stone_brick_window", "y":90}
   }
 }
