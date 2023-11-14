@@ -1,5 +1,11 @@
 {
   "parent": "special-model-loader:builtin/obj",
   "flip_v": true,
-  "model": "mcme:models/block/hangingbush.obj"
+  "model": "mcme:models/block/hangingbush.obj",
+	"display": {
+		"firstperson_righthand": {
+			"translation": [0, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
 }

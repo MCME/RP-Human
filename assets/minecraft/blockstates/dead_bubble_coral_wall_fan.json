@@ -1,16 +1,16 @@
 {
   "variants": {
     "facing=south": [
-	{ "model": "mcme:block/hanging_bush_1_3" }
+	{ "model": "mcme:block/hangingbush", "y": 180  }
 	],
     "facing=west": [
-	{ "model": "mcme:block/hanging_bush_1_4"}
+	{ "model": "mcme:block/hangingbush", "y": 270 }
 	],
     "facing=north": [
-	{ "model": "mcme:block/hanging_bush"}
+	{ "model": "mcme:block/hangingbush" }
 	],
     "facing=east": [
-	{ "model": "mcme:block/hanging_bush_1_2"}
+	{ "model": "mcme:block/hangingbush", "y": 90 }
 	]
   }
 }
