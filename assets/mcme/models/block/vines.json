@@ -2,5 +2,20 @@
   "parent": "special-model-loader:builtin/obj",
   "flip_v": true,
   "model": "mcme:models/block/vines.obj",
-  "ambientocclusion": false
+  "ambientocclusion": false,
+	"gui_light": "front",
+	"display": {
+        "thirdperson_righthand": {
+            "translation": [ 0, 0, 7],
+			"scale": [0.5, 0.5, 0.5]
+        },
+		"firstperson_righthand": {
+			"translation": [0, -2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"translation": [0, 0, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
 }
