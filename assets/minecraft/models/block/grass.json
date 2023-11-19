@@ -1,6 +1,7 @@
 {
-  "parent": "block/3x3x3vegetation_full_tint_2",
-  "textures": {
+	"credit": "Made with Blockbench",
+	"parent": "block/3x3x3vegetation_full_tint_2",
+	"textures": {
 		"1": "block/grass_top_4",
 		"2": "block/grass_top_5",
 		"3": "block/grass_top_6",
@@ -9,5 +10,11 @@
 		"6": "block/grass_5",
 		"7": "block/grass_6",
 		"8": "block/grass_7"
-  }
+	},
+	"display": {
+		"gui": {
+			"translation": [0, 6.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
 }

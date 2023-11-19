@@ -34,10 +34,7 @@
     "facing=east,half=top,shape=outer_left": { "model": "minecraft:block/smooth_quartz_stairs_1x2arch", "y":90 },
 	
     "facing=east,half=top,shape=outer_right": {
-      "model": "minecraft:block/smooth_quartz_stairs_outer",
-      "x": 180,
-      "y": 90,
-      "uvlock": true
+      "model": "minecraft:block/smooth_quartz_stairs_1x2arch_sandstone", "y":90
     },
     "facing=east,half=top,shape=straight": {
       "model": "minecraft:block/door_upper_right",
@@ -123,10 +120,7 @@
       "model": "minecraft:block/smooth_quartz_stairs_1x2arch", "y":180
     },
     "facing=south,half=top,shape=outer_right": {
-      "model": "minecraft:block/smooth_quartz_stairs_outer",
-      "x": 180,
-      "y": 180,
-      "uvlock": true
+      "model": "minecraft:block/smooth_quartz_stairs_1x2arch_sandstone", "y":180
     },
     "facing=south,half=top,shape=straight": {
       "model": "minecraft:block/door_upper_left",
@@ -168,16 +162,10 @@
       "uvlock": true
     },
     "facing=west,half=top,shape=outer_left": {
-      "model": "minecraft:block/smooth_quartz_stairs_outer",
-      "x": 180,
-      "y": 180,
-      "uvlock": true
+      "model": "minecraft:block/smooth_quartz_stairs_1x2arch_sandstone", "y":270
     },
     "facing=west,half=top,shape=outer_right": {
-      "model": "minecraft:block/smooth_quartz_stairs_outer",
-      "x": 180,
-      "y": 270,
-      "uvlock": true
+      "model": "minecraft:block/smooth_quartz_stairs_1x2arch_sandstone"
     },
     "facing=west,half=top,shape=straight": {
       "model": "minecraft:block/door_upper_left"

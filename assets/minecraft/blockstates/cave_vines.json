@@ -1,16 +1,54 @@
 {
   "variants": {
-    "berries=false,age=0": [
-	{  "model": "mcme:block/beech_leaves_slab_upper"},
-	{  "model": "mcme:block/beech_leaves_slab_upper", "y": 90},
-	{  "model": "mcme:block/beech_leaves_slab_upper", "y": 180},
-	{  "model": "mcme:block/beech_leaves_slab_upper", "y": 270}
+	"berries=false,age=10": [
+	{  "model": "mcme:block/spruce_branch_dead"},
+	{  "model": "mcme:block/spruce_branch_dead_2"},
+	{  "model": "mcme:block/spruce_branch_dead_3"}
+	],
+	"berries=false,age=11": [
+	{  "model": "mcme:block/spruce_branch_dead", "y": 90},
+	{  "model": "mcme:block/spruce_branch_dead_2", "y": 90},
+	{  "model": "mcme:block/spruce_branch_dead_3", "y": 90}
+	],
+	"berries=false,age=12": [
+	{  "model": "mcme:block/spruce_branch_dead", "y": 180},
+	{  "model": "mcme:block/spruce_branch_dead_2", "y": 180},
+	{  "model": "mcme:block/spruce_branch_dead_3", "y": 180}
+	],
+	"berries=false,age=13": [
+	{  "model": "mcme:block/spruce_branch_dead", "y": 270},
+	{  "model": "mcme:block/spruce_branch_dead_2", "y": 270},
+	{  "model": "mcme:block/spruce_branch_dead_3", "y": 270}
+	],
+	"berries=false,age=14": [
+	{  "model": "mcme:block/spruce_large_sapling_tilted"},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_2"},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_3"}
+	],
+	"berries=false,age=15": [
+	{  "model": "mcme:block/spruce_large_sapling_tilted", "y": 90},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_2", "y": 90},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_3", "y": 90}
+	],
+	"berries=false,age=16": [
+	{  "model": "mcme:block/spruce_large_sapling_tilted", "y": 180},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_2", "y": 180},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_3", "y": 180}
+	],
+	"berries=false,age=17": [
+	{  "model": "mcme:block/spruce_large_sapling_tilted", "y": 270},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_2", "y": 270},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_3", "y": 270}
+	],
+	"berries=false,age=0": [
+	{  "model": "mcme:block/larch_large_sapling_tilted"},
+	{  "model": "mcme:block/larch_large_sapling_tilted_2"},
+	{  "model": "mcme:block/larch_large_sapling_tilted_3"}
 	],
 	"berries=false,age=1": [
-	{  "model": "mcme:block/maple_leaves_slab_upper"},
-	{  "model": "mcme:block/maple_leaves_slab_upper", "y": 90},
-	{  "model": "mcme:block/maple_leaves_slab_upper", "y": 180},
-	{  "model": "mcme:block/maple_leaves_slab_upper", "y": 270}
+	{  "model": "mcme:block/larch_large_sapling_tilted", "y": 90},
+	{  "model": "mcme:block/larch_large_sapling_tilted_2", "y": 90},
+	{  "model": "mcme:block/larch_large_sapling_tilted_3", "y": 90}
 	],
     "berries=true": {
       "model": "minecraft:block/cave_vines_lit"

@@ -12,18 +12,30 @@
     "power\u003d3": {
       "model": "block/plate_2"
     },
-    "power\u003d4": {
-      "model": "block/cutlery"
-    },
-    "power\u003d5": {
-      "model": "block/cutlery", "y": 90
-    },
-    "power\u003d6": {
-      "model": "block/cutlery", "y": 180
-    },
-    "power\u003d7": {
-      "model": "block/cutlery", "y": 270
-    },
+    "power\u003d6": [
+	{ "model": "mcme:block/cutlery"},
+	{ "model": "mcme:block/cutleryr_2"},
+	{ "model": "mcme:block/cutleryr_3"},
+	{ "model": "mcme:block/cutleryr_4"}
+    ],
+    "power\u003d7": [
+	{ "model": "mcme:block/cutlery", "y" : 90 },
+	{ "model": "mcme:block/cutleryr_2", "y" : 90 },
+	{ "model": "mcme:block/cutleryr_3", "y" : 90 },
+	{ "model": "mcme:block/cutleryr_4", "y" : 90 }
+    ],
+    "power\u003d4": [
+	{ "model": "mcme:block/cutlery", "y" : 180 },
+	{ "model": "mcme:block/cutleryr_2", "y" : 180 },
+	{ "model": "mcme:block/cutleryr_3", "y" : 180 },
+	{ "model": "mcme:block/cutleryr_4", "y" : 180 }
+    ],
+    "power\u003d5": [
+	{ "model": "mcme:block/cutlery", "y" : 270},
+	{ "model": "mcme:block/cutleryr_2", "y" : 270},
+	{ "model": "mcme:block/cutleryr_3", "y" : 270},
+	{ "model": "mcme:block/cutleryr_4", "y" : 270}
+    ],
     "power\u003d8": {
       "model": "block/replace"
     },

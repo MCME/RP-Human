@@ -1,0 +1,96 @@
+{
+  "variants": {
+    "facing=east,half=bottom,open=false,powered=false": [
+	  {"model": "mcme:block/willow_leaves_slab"},
+	  {"model": "mcme:block/willow_leaves_slab_2"},
+	  {"model": "mcme:block/willow_leaves_slab_3"}
+	  ],
+    "facing=east,half=top,open=false,powered=false": [
+	  {"model": "mcme:block/willow_leaves_slab_upper"},
+	  {"model": "mcme:block/willow_leaves_slab_upper_2"},
+	  {"model": "mcme:block/willow_leaves_slab_upper_3"}
+	  ],
+    "facing=north,half=bottom,open=false,powered=false": [
+	  {"model": "mcme:block/birch_leaves_slab"},
+	  {"model": "mcme:block/birch_leaves_slab_2"},
+	  {"model": "mcme:block/birch_leaves_slab_3"}
+	  ],
+    "facing=north,half=top,open=false,powered=false": [
+	  {"model": "mcme:block/birch_leaves_slab_upper"},
+	  {"model": "mcme:block/birch_leaves_slab_upper_2"},
+	  {"model": "mcme:block/birch_leaves_slab_upper_3"}
+	  ],
+    "facing=south,half=bottom,open=false,powered=false": [
+	  {"model": "mcme:block/maple_leaves_yellowish_slab"},
+	  {"model": "mcme:block/maple_leaves_yellowish_slab", "y": 90},
+	  {"model": "mcme:block/maple_leaves_yellowish_slab", "y": 180},
+	  {"model": "mcme:block/maple_leaves_yellowish_slab", "y": 270}
+	  ],
+    "facing=south,half=top,open=false,powered=false": [
+	  {"model": "mcme:block/maple_leaves_yellowish_slab_upper"},
+	  {"model": "mcme:block/maple_leaves_yellowish_slab_upper", "y": 90},
+	  {"model": "mcme:block/maple_leaves_yellowish_slab_upper", "y": 180},
+	  {"model": "mcme:block/maple_leaves_yellowish_slab_upper", "y": 270}
+	  ],
+    "facing=west,half=bottom,open=false,powered=false": [
+	  {"model": "mcme:block/maple_leaves_redish_slab"},
+	  {"model": "mcme:block/maple_leaves_redish_slab", "y": 90},
+	  {"model": "mcme:block/maple_leaves_redish_slab", "y": 180},
+	  {"model": "mcme:block/maple_leaves_redish_slab", "y": 270}
+	  ],
+    "facing=west,half=top,open=false,powered=false": [
+	  {"model": "mcme:block/maple_leaves_redish_slab_upper"},
+	  {"model": "mcme:block/maple_leaves_redish_slab_upper", "y": 90},
+	  {"model": "mcme:block/maple_leaves_redish_slab_upper", "y": 180},
+	  {"model": "mcme:block/maple_leaves_redish_slab_upper", "y": 270}
+	  ],
+    "facing=north,half=bottom,open=false,powered=true": [
+	  {"model": "mcme:block/beech_leaves_yellowish_slab"},
+	  {"model": "mcme:block/beech_leaves_yellowish_slab", "y": 90},
+	  {"model": "mcme:block/beech_leaves_yellowish_slab", "y": 180},
+	  {"model": "mcme:block/beech_leaves_yellowish_slab", "y": 270}
+	  ],
+    "facing=north,half=top,open=false,powered=true": [
+	  {"model": "mcme:block/beech_leaves_yellowish_slab_upper"},
+	  {"model": "mcme:block/beech_leaves_yellowish_slab_upper", "y": 90},
+	  {"model": "mcme:block/beech_leaves_yellowish_slab_upper", "y": 180},
+	  {"model": "mcme:block/beech_leaves_yellowish_slab_upper", "y": 270}
+	  ],
+    "facing=east,half=bottom,open=false,powered=true": [
+	  {"model": "mcme:block/beech_leaves_orangeish_slab"},
+	  {"model": "mcme:block/beech_leaves_orangeish_slab", "y": 90},
+	  {"model": "mcme:block/beech_leaves_orangeish_slab", "y": 180},
+	  {"model": "mcme:block/beech_leaves_orangeish_slab", "y": 270}
+	  ],
+    "facing=east,half=top,open=false,powered=true": [
+	  {"model": "mcme:block/beech_leaves_orangeish_slab_upper"},
+	  {"model": "mcme:block/beech_leaves_orangeish_slab_upper", "y": 90},
+	  {"model": "mcme:block/beech_leaves_orangeish_slab_upper", "y": 180},
+	  {"model": "mcme:block/beech_leaves_orangeish_slab_upper", "y": 270}
+	  ],
+    "facing=south,half=bottom,open=false,powered=true": [
+	  {"model": "mcme:block/oak_leaves_yellowish_slab"},
+	  {"model": "mcme:block/oak_leaves_yellowish_slab", "y": 90},
+	  {"model": "mcme:block/oak_leaves_yellowish_slab", "y": 180},
+	  {"model": "mcme:block/oak_leaves_yellowish_slab", "y": 270}
+	  ],
+    "facing=south,half=top,open=false,powered=true": [
+	  {"model": "mcme:block/oak_leaves_yellowish_slab_upper"},
+	  {"model": "mcme:block/oak_leaves_yellowish_slab_upper", "y": 90},
+	  {"model": "mcme:block/oak_leaves_yellowish_slab_upper", "y": 180},
+	  {"model": "mcme:block/oak_leaves_yellowish_slab_upper", "y": 270}
+	  ],
+    "facing=west,half=bottom,open=false,powered=true": [
+	  {"model": "mcme:block/birch_leaves_yellowish_slab"},
+	  {"model": "mcme:block/birch_leaves_yellowish_slab", "y": 90},
+	  {"model": "mcme:block/birch_leaves_yellowish_slab", "y": 180},
+	  {"model": "mcme:block/birch_leaves_yellowish_slab", "y": 270}
+	  ],
+    "facing=west,half=top,open=false,powered=true": [
+	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper"},
+	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper", "y": 90},
+	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper", "y": 180},
+	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper", "y": 270}
+	  ]
+  }
+}

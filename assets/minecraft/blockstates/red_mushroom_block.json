@@ -225,6 +225,51 @@
 		{ "model": "block/red_mushroom_block_swd_6", "weight": 1 },
 		{ "model": "block/red_mushroom_block_swd_7", "weight": 1 },
 		{ "model": "block/red_mushroom_block_swd_8", "weight": 1 }
+		]},
+	{ "when": {"north": false, "west": true, "south":false, "east": true, "up": true, "down": true	 },
+		"apply": [
+		{ "model": "block/red_mushroom_block_ud" },
+		{ "model": "block/red_mushroom_block_ud_2" },
+		{ "model": "block/red_mushroom_block_ud_3" },
+		{ "model": "block/red_mushroom_block_ud_4" },
+		{ "model": "block/red_mushroom_block_ud_5" }
+		]},
+	{ "when": {"north": false, "west": true, "south":false, "east": true, "up": true, "down": false	 },
+		"apply": [
+		{ "model": "block/red_mushroom_block_weu" },
+		{ "model": "block/red_mushroom_block_weu_2" },
+		{ "model": "block/red_mushroom_block_weu_3" },
+		{ "model": "block/red_mushroom_block_weu_4" },
+		{ "model": "block/red_mushroom_block_weu_5" },
+		{ "model": "block/red_mushroom_block_weu_6" }
+		]},
+	{ "when": {"north": false, "west": true, "south":false, "east": true, "up": false, "down": true	 },
+		"apply": [
+		{ "model": "block/mossy_larch" },
+		{ "model": "block/mossy_larch_2" },
+		{ "model": "block/mossy_larch_3" },
+		{ "model": "block/mossy_larch_4" },
+		{ "model": "block/mossy_larch_5" }
+		]},
+	{ "when": {"north": false, "west": true, "south":false, "east": true, "up": false, "down": false	 },
+		"apply": [
+		{ "model": "block/mossy_oak" },
+		{ "model": "block/mossy_oak_2" },
+		{ "model": "block/mossy_oak_3" },
+		{ "model": "block/mossy_oak_4" },
+		{ "model": "block/mossy_oak_5" },
+		{ "model": "block/mossy_oak_6" },
+		{ "model": "block/mossy_oak_7" },
+		{ "model": "block/mossy_oak_8" },
+		{ "model": "block/mossy_oak_9" }
+		]},
+	{ "when": {"north": false, "west": false, "south":false, "east": true, "up": true, "down": true	 },
+		"apply": [
+		{ "model": "block/mossy_maple" },
+		{ "model": "block/mossy_maple_2" },
+		{ "model": "block/mossy_maple_3" },
+		{ "model": "block/mossy_maple_4" },
+		{ "model": "block/mossy_maple_5" }
 		]}
   ]
 }

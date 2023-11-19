@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"3": "block/stripped_oak_log_composite_extended"
+	},
+	"elements": [
+		{
+			"from": [-8, 0, 1],
+			"to": [24, 1.5, 6],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [7.58667, 0, 7.99333, 8], "rotation": 90, "texture": "#3"},
+				"east": {"uv": [7.21334, 5.58667, 8.02, 5.99334], "texture": "#3"},
+				"south": {"uv": [8.80667, 0.4, 8.4, 8.4], "rotation": 90, "texture": "#3"},
+				"west": {"uv": [6.60666, 7.66666, 7.39333, 8.33333], "texture": "#3"},
+				"up": {"uv": [7.4, 4.2, 8.20666, 12.2], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [7, 4.2, 7.8, 12.2], "rotation": 90, "texture": "#3"}
+			}
+		},
+		{
+			"from": [-16, 0, 13],
+			"to": [16, 1.5, 18],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [7.57333, 0, 7.99999, 8], "rotation": 90, "texture": "#3"},
+				"east": {"uv": [7, 3.99334, 7.80666, 4.8], "texture": "#3"},
+				"south": {"uv": [6.59333, 0, 7, 8], "rotation": 90, "texture": "#3"},
+				"west": {"uv": [8.79333, 13.20667, 9.2, 13.99333], "rotation": 90, "texture": "#3"},
+				"up": {"uv": [8, 0, 8.80666, 8], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [7.8, 0, 8.60667, 8], "rotation": 90, "texture": "#3"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [22, 87, 0],
+			"translation": [0.25, 2.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

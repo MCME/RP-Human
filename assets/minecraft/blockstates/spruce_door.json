@@ -8,23 +8,14 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": [{
-        "model": "block/spruce_door_bottom"
-      },
-	  {
-        "model": "block/spruce_door_bottom_2"
-      },
-	  {
-        "model": "block/spruce_door_bottom_3"
-      },
-	  {
-        "model": "block/spruce_door_bottom_4"
-      },
-	  {
-        "model": "block/spruce_door_bottom_5"
-      }
-    ]
-	},
+      "apply": [
+	  {"model": "block/spruce_door_bottom"},
+	  {"model": "block/spruce_door_bottom_2"},
+	  {"model": "block/spruce_door_bottom_3"},
+	  {"model": "block/spruce_door_bottom_4"},
+	  {"model": "block/spruce_door_bottom_5"}
+	  ]
+    },
     {
       "when": {
         "facing": "south",
@@ -33,27 +24,13 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": [{
-        "model": "block/spruce_door_bottom",
-		"y": 90
-      },
-	  {
-        "model": "block/spruce_door_bottom_2",
-		"y": 90
-      },
-      {
-        "model": "block/spruce_door_bottom_3",
-		"y": 90
-      },
-	  {
-        "model": "block/spruce_door_bottom_4",
-		"y": 90
-      },
-	  {
-        "model": "block/spruce_door_bottom_5",
-		"y": 90
-      }
-    ]
+      "apply": [
+	  {"model": "block/spruce_door_bottom", "y": 90},
+	  {"model": "block/spruce_door_bottom_2", "y": 90},
+	  {"model": "block/spruce_door_bottom_3", "y": 90},
+	  {"model": "block/spruce_door_bottom_4", "y": 90},
+	  {"model": "block/spruce_door_bottom_5", "y": 90}
+	  ]
     },
     {
       "when": {
@@ -63,27 +40,13 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": [{
-        "model": "block/spruce_door_bottom",
-		"y": 180
-      },
-	  {
-        "model": "block/spruce_door_bottom_2",
-		"y": 180
-      },
-      {
-        "model": "block/spruce_door_bottom_3",
-		"y": 180
-      },
-	  {
-        "model": "block/spruce_door_bottom_4",
-		"y": 180
-      },
-	  {
-        "model": "block/spruce_door_bottom_5",
-		"y": 180
-      }
-    ]
+      "apply": [
+	  {"model": "block/spruce_door_bottom", "y": 180},
+	  {"model": "block/spruce_door_bottom_2", "y": 180},
+	  {"model": "block/spruce_door_bottom_3", "y": 180},
+	  {"model": "block/spruce_door_bottom_4", "y": 180},
+	  {"model": "block/spruce_door_bottom_5", "y": 180}
+	  ]
     },
     {
       "when": {
@@ -93,27 +56,13 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": [{
-        "model": "block/spruce_door_bottom",
-		"y": 270
-      },
-	  {
-        "model": "block/spruce_door_bottom_2",
-		"y": 270
-      },
-      {
-        "model": "block/spruce_door_bottom_3",
-		"y": 270
-      },
-	  {
-        "model": "block/spruce_door_bottom_4",
-		"y": 270
-      },
-	  {
-        "model": "block/spruce_door_bottom_5",
-		"y": 270
-      }
-    ]
+      "apply": [
+	  {"model": "block/spruce_door_bottom", "y": 270},
+	  {"model": "block/spruce_door_bottom_2", "y": 270},
+	  {"model": "block/spruce_door_bottom_3", "y": 270},
+	  {"model": "block/spruce_door_bottom_4", "y": 270},
+	  {"model": "block/spruce_door_bottom_5", "y": 270}
+	  ]
     },
     {
       "when": {
@@ -123,9 +72,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_bottom_hinge"
-      }
+      "apply": [
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab", "y": 270},
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab_2", "y": 270},
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab_3", "y": 270},
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab_4", "y": 270}
+		]
     },
     {
       "when": {
@@ -135,11 +87,13 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_bottom_hinge",
-        "y": 90
-      }
-    },
+      "apply": [
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab"},
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab_2"},
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab_3"},
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab_4"}
+		]
+	},
     {
       "when": {
         "facing": "west",
@@ -148,10 +102,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_bottom_hinge",
-        "y": 180
-      }
+      "apply": [
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab", "y": 90},
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab_2", "y": 90},
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab_3", "y": 90},
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab_4", "y": 90}
+		]
     },
     {
       "when": {
@@ -161,10 +117,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_bottom_hinge",
-        "y": 270
-      }
+      "apply": [
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab", "y": 180},
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab_2", "y": 180},
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab_3", "y": 180},
+	  { "model": "mcme:block/oak_leaves_yellowish_vertical_slab_4", "y": 180}
+		]
     },
     {
       "when": {
@@ -225,10 +183,12 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_bottom_open",
-        "y": 270
-      }
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab", "y": 180},
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab_2", "y": 180},
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab_3", "y": 180},
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab_4", "y": 180}
+	  ]
     },
     {
       "when": {
@@ -238,9 +198,12 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_bottom_open"
-      }
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab", "y": 270},
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab_2", "y": 270},
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab_3", "y": 270},
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab_4", "y": 270}
+	  ]
     },
     {
       "when": {
@@ -250,10 +213,12 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_bottom_open",
-        "y": 90
-      }
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab"},
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab_2"},
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab_3"},
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab_4"}
+	  ]
     },
     {
       "when": {
@@ -263,10 +228,12 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_bottom_open",
-        "y": 180
-      }
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab", "y": 90},
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab_2", "y": 90},
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab_3", "y": 90},
+	  { "model": "mcme:block/beech_leaves_yellowish_vertical_slab_4", "y": 90}
+	  ]
     },
     {
       "when": {
@@ -276,9 +243,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top"
-      }
+      "apply": [
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab", "y": 270},
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab_2", "y": 270},
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab_3", "y": 270},
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab_4", "y": 270}
+			]			
     },
     {
       "when": {
@@ -288,10 +258,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top",
-        "y": 90
-      }
+      "apply": [
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab"},
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab_2"},
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab_3"},
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab_4"}
+			]			
     },
     {
       "when": {
@@ -301,10 +273,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top",
-        "y": 180
-      }
+      "apply": [
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab", "y": 90},
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab_2", "y": 90},
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab_3", "y": 90},
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab_4", "y": 90}
+			]			
     },
     {
       "when": {
@@ -314,10 +288,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top",
-        "y": 270
-      }
+      "apply": [
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab", "y": 180},
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab_2", "y": 180},
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab_3", "y": 180},
+			{ "model": "mcme:block/maple_leaves_yellowish_vertical_slab_4", "y": 180}
+			]	
     },
     {
       "when": {
@@ -327,9 +303,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top_hinge"
-      }
+      "apply": [
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab", "y": 270},
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab_2", "y": 270},
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab_3", "y": 270},
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab_4", "y": 270}
+			]	
     },
     {
       "when": {
@@ -339,10 +318,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top_hinge",
-        "y": 90
-      }
+      "apply": [
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab"	},
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab_2"},
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab_3"},
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab_4"}
+			]
     },
     {
       "when": {
@@ -352,10 +333,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top_hinge",
-        "y": 180
-      }
+      "apply": [
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab", "y": 90},
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab_2", "y": 90},
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab_3", "y": 90},
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab_4", "y": 90}
+			]
     },
     {
       "when": {
@@ -365,10 +348,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top_hinge",
-        "y": 270
-      }
+      "apply": [
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab", "y": 180},
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab_2", "y": 180},
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab_3", "y": 180},
+			{ "model": "mcme:block/chestnut_leaves_yellowish_vertical_slab_4", "y": 180}
+			]
     },
     {
       "when": {
@@ -378,10 +363,10 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top_rh_open",
-        "y": 90
-      }
+      "apply": [
+	  { "model": "mcme:block/birch_leaves_yellowish_vertical_slab"},
+	  { "model": "mcme:block/birch_leaves_yellowish_vertical_slab_2"}
+	  ]
     },
     {
       "when": {
@@ -391,10 +376,10 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top_rh_open",
-        "y": 180
-      }
+      "apply": [
+	  { "model": "mcme:block/birch_leaves_yellowish_vertical_slab", "y": 90},
+	  { "model": "mcme:block/birch_leaves_yellowish_vertical_slab_2", "y": 90}
+	  ]
     },
     {
       "when": {
@@ -404,10 +389,10 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top_rh_open",
-        "y": 270
-      }
+      "apply": [
+	  { "model": "mcme:block/birch_leaves_yellowish_vertical_slab", "y": 180},
+	  { "model": "mcme:block/birch_leaves_yellowish_vertical_slab_2", "y": 180}
+	  ]
     },
     {
       "when": {
@@ -417,9 +402,10 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top_rh_open"
-      }
+      "apply": [
+	  { "model": "mcme:block/birch_leaves_yellowish_vertical_slab", "y": 270},
+	  { "model": "mcme:block/birch_leaves_yellowish_vertical_slab_2", "y": 270}
+	  ]
     },
     {
       "when": {
@@ -429,10 +415,11 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top_open",
-        "y": 270
-      }
+      "apply": [
+	  { "model": "mcme:block/ash_leaves_yellowish_vertical_slab", "y": 180 },
+	  { "model": "mcme:block/ash_leaves_yellowish_vertical_slab_2", "y": 180 },
+	  { "model": "mcme:block/ash_leaves_yellowish_vertical_slab_3", "y": 180 }
+	  ]
     },
     {
       "when": {
@@ -442,9 +429,11 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top_open"
-      }
+      "apply": [
+	  { "model": "mcme:block/ash_leaves_yellowish_vertical_slab", "y": 270 },
+	  { "model": "mcme:block/ash_leaves_yellowish_vertical_slab_2", "y": 270 },
+	  { "model": "mcme:block/ash_leaves_yellowish_vertical_slab_3", "y": 270 }
+	  ]
     },
     {
       "when": {
@@ -454,10 +443,11 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top_open",
-        "y": 90
-      }
+      "apply": [
+	  { "model": "mcme:block/ash_leaves_yellowish_vertical_slab" },
+	  { "model": "mcme:block/ash_leaves_yellowish_vertical_slab_2" },
+	  { "model": "mcme:block/ash_leaves_yellowish_vertical_slab_3" }
+	  ]
     },
     {
       "when": {
@@ -467,10 +457,11 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/spruce_door_top_open",
-        "y": 180
-      }
+      "apply": [
+	  { "model": "mcme:block/ash_leaves_yellowish_vertical_slab", "y": 90},
+	  { "model": "mcme:block/ash_leaves_yellowish_vertical_slab_2", "y": 90},
+	  { "model": "mcme:block/ash_leaves_yellowish_vertical_slab_3", "y": 90}
+	  ]
     },
     {
       "when": {
