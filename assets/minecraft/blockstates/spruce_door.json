@@ -57,7 +57,11 @@
         "powered": "false"
       },
       "apply": [
-	  {"model": "block/spruce_door_bottom_4"}
+	  {"model": "block/spruce_door_bottom", "y": 270},
+	  {"model": "block/spruce_door_bottom_2", "y": 270},
+	  {"model": "block/spruce_door_bottom_3", "y": 270},
+	  {"model": "block/spruce_door_bottom_4", "y": 270},
+	  {"model": "block/spruce_door_bottom_5", "y": 270}
 	  ]
     },
     {
