@@ -2,9 +2,7 @@
   "multipart": [
     {
       "apply": [
-	  {"model": "mcme:block/vines"},
-	  {"model": "mcme:block/vines_2"},
-	  {"model": "mcme:block/vines_3"}
+	  {"model": "mcme:block/vines"}
 	  ],
       "when": {
         "north": "true"
@@ -12,9 +10,7 @@
     },
     {
       "apply": [
-	  {"model": "mcme:block/vines"},
-	  {"model": "mcme:block/vines_2"},
-	  {"model": "mcme:block/vines_3"}
+	  {"model": "mcme:block/vines"}
 	  ],
       "when": {
         "east": "false",
@@ -26,9 +22,7 @@
     },
     {
       "apply": [
-	  {"model": "mcme:block/vines_1_2"},
-	  {"model": "mcme:block/vines_2_2"},
-	  {"model": "mcme:block/vines_3_2"}
+	  {"model": "mcme:block/vines_1_2"}
 	  ],
       "when": {
         "east": "true"
@@ -36,9 +30,7 @@
     },
     {
       "apply": [
-	  {"model": "mcme:block/vines_1_2"},
-	  {"model": "mcme:block/vines_2_2"},
-	  {"model": "mcme:block/vines_3_2"}
+	  {"model": "mcme:block/vines_1_2"}
 	  ],
       "when": {
         "east": "false",
@@ -50,9 +42,7 @@
     },
     {
       "apply": [
-	  {"model": "mcme:block/vines_1_3"},
-	  {"model": "mcme:block/vines_2_3"},
-	  {"model": "mcme:block/vines_3_3"}
+	  {"model": "mcme:block/vines_1_3"}
 	  ],
       "when": {
         "south": "true"
@@ -60,9 +50,7 @@
     },
     {
       "apply": [
-	  {"model": "mcme:block/vines_1_3"},
-	  {"model": "mcme:block/vines_2_3"},
-	  {"model": "mcme:block/vines_3_3"}
+	  {"model": "mcme:block/vines_1_3"}
 	  ],
       "when": {
         "east": "false",
@@ -74,9 +62,7 @@
     },
     {
       "apply": [
-	  {"model": "mcme:block/vines_1_4"},
-	  {"model": "mcme:block/vines_2_4"},
-	  {"model": "mcme:block/vines_3_4"}
+	  {"model": "mcme:block/vines_1_4"}
 	  ],
       "when": {
         "west": "true"
@@ -84,9 +70,7 @@
     },
     {
       "apply": [
-	  {"model": "mcme:block/vines_1_4"},
-	  {"model": "mcme:block/vines_2_4"},
-	  {"model": "mcme:block/vines_3_4"}
+	  {"model": "mcme:block/vines_1_4"}
 	  ],
       "when": {
         "east": "false",
@@ -98,10 +82,7 @@
     },
     {
       "apply": [
-	  {"model": "mcme:block/vines_top"},
-	  {"model": "mcme:block/vines_top_2"},
-	  {"model": "mcme:block/vines_top_3"},
-	  {"model": "mcme:block/vines_top_4"}
+	  {"model": "mcme:block/vines_top"}
 	  ],
       "when": {
         "up": "true"
@@ -109,10 +90,7 @@
     },
     {
       "apply": [
-	  {"model": "mcme:block/vines_top"},
-	  {"model": "mcme:block/vines_top_2"},
-	  {"model": "mcme:block/vines_top_3"},
-	  {"model": "mcme:block/vines_top_4"}
+	  {"model": "mcme:block/vines_top"}
 	  ],
       "when": {
         "east": "false",

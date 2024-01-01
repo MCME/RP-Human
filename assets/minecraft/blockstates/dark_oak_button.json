@@ -25,28 +25,16 @@
         "face=ceiling,facing=south,powered=true": { "model": "block/dark_oak_button_pressed", "x": 180 },
         "face=ceiling,facing=north,powered=true": { "model": "block/dark_oak_button_pressed", "x": 180, "y": 180 },
 		"face=wall,facing=north,powered=true": [
-				{ "model": "mcme:block/pine_branch_broken" },
-				{ "model": "mcme:block/pine_branch_broken_2" },
-				{ "model": "mcme:block/pine_branch_broken_3" },
-				{ "model": "mcme:block/pine_branch_broken_4" }
+				{ "model": "mcme:block/pine_branch_broken" }
 				],
 		"face=wall,facing=east,powered=true": [
-				{"model": "mcme:block/pine_branch_broken", "y": 90},
-				{"model": "mcme:block/pine_branch_broken_2", "y": 90},
-				{"model": "mcme:block/pine_branch_broken_3", "y": 90},
-				{"model": "mcme:block/pine_branch_broken_4", "y": 90}
+				{"model": "mcme:block/pine_branch_broken", "y": 90}
 				],
 		"face=wall,facing=south,powered=true": [
-				{"model": "mcme:block/pine_branch_broken", "y": 180},
-				{"model": "mcme:block/pine_branch_broken_2", "y": 180},
-				{"model": "mcme:block/pine_branch_broken_3", "y": 180},
-				{"model": "mcme:block/pine_branch_broken_4", "y": 180}
+				{"model": "mcme:block/pine_branch_broken", "y": 180}
 				],
 		"face=wall,facing=west,powered=true": [
-				{"model": "mcme:block/pine_branch_broken", "y": 270},
-				{"model": "mcme:block/pine_branch_broken_2", "y": 270},
-				{"model": "mcme:block/pine_branch_broken_3", "y": 270},
-				{"model": "mcme:block/pine_branch_broken_4", "y": 270}
+				{"model": "mcme:block/pine_branch_broken", "y": 270}
 				]
     }
 }
