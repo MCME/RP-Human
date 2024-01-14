@@ -780,6 +780,54 @@
       "apply": {
         "model": "block/door_railing_light", "y": 90
       }
+    },
+	   {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_1x3arch_sandstone", "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_1x3arch_sandstone", "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_1x3arch_sandstone", "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_1x3arch_sandstone"
+      }
     }
 
   ]
