@@ -26,11 +26,78 @@
             { "model": "block/dark_oak_leaves_grass_soil_6", "y": 180 },
             { "model": "block/dark_oak_leaves_grass_soil_6", "y": 270 }
 			],
-	 "distance=7,persistent=false": [
-			{ "model": "mcme:block/maple_leaves" },
-			{ "model": "mcme:block/maple_leaves", "y": 90 },
-			{ "model": "mcme:block/maple_leaves", "y": 180 },
-			{ "model": "mcme:block/maple_leaves", "y": 270 }
-			]
+	"distance=7,persistent=false": [
+			{ "model": "mcme:block/apple_leaves" },
+			{ "model": "mcme:block/apple_leaves_2" },
+			{ "model": "mcme:block/apple_leaves_3" },
+			{ "model": "mcme:block/apple_leaves_4" }
+			],
+	"distance=1,persistent=false": [
+			{ "model": "mcme:block/birch_leaves" },
+			{ "model": "mcme:block/birch_leaves_2" },
+			{ "model": "mcme:block/birch_leaves_3" },
+			{ "model": "mcme:block/birch_leaves_4" },
+			{ "model": "mcme:block/birch_leaves_5" }
+			],
+	"distance=2,persistent=false": [
+			{ "model": "mcme:block/larch_leaves_alt" },
+			{ "model": "mcme:block/larch_leaves_alt_2" },
+			{ "model": "mcme:block/larch_leaves_alt_3" },
+			{ "model": "mcme:block/larch_leaves_alt_4" },
+			{ "model": "mcme:block/larch_leaves_alt_5" }
+			],
+	"distance=3,persistent=false":[
+		{ "model": "mcme:block/larch_leaves" },
+		{ "model": "mcme:block/larch_leaves_2" },
+		{ "model": "mcme:block/larch_leaves_3" }
+		],
+	"distance=4,persistent=false":[
+		{ "model": "mcme:block/larch_leaves_1_2" },
+		{ "model": "mcme:block/larch_leaves_2_2" },
+		{ "model": "mcme:block/larch_leaves_3_2" }
+		],
+	"distance=5,persistent=false":[
+		{ "model": "mcme:block/larch_leaves_1_3" },
+		{ "model": "mcme:block/larch_leaves_2_3" },
+		{ "model": "mcme:block/larch_leaves_3_3" }
+		],
+	"distance=6,persistent=false":[
+		{ "model": "mcme:block/larch_leaves_1_4" },
+		{ "model": "mcme:block/larch_leaves_2_4" },
+		{ "model": "mcme:block/larch_leaves_3_4" }
+		],
+	"distance=7,persistent=true":[
+		{ "model": "mcme:block/larch_leaves_4" },
+		{ "model": "mcme:block/larch_leaves_5" },
+		{ "model": "mcme:block/larch_leaves_6" }
+		],
+	"distance=1,persistent=true":[
+		{ "model": "mcme:block/larch_leaves_4_2" },
+		{ "model": "mcme:block/larch_leaves_5_2" },
+		{ "model": "mcme:block/larch_leaves_6_2" }
+		],
+	"distance=2,persistent=true":[
+		{ "model": "mcme:block/larch_leaves_4_3" },
+		{ "model": "mcme:block/larch_leaves_5_3" },
+		{ "model": "mcme:block/larch_leaves_6_3" }
+		],
+	"distance=3,persistent=true":[
+		{ "model": "mcme:block/larch_leaves_4_4" },
+		{ "model": "mcme:block/larch_leaves_5_4" },
+		{ "model": "mcme:block/larch_leaves_6_4" }
+		],
+	"distance=4,persistent=true":[
+		{ "model": "mcme:block/larch_leaves_omnidirectional"},
+		{ "model": "mcme:block/larch_leaves_omnidirectional_2"},
+		{ "model": "mcme:block/larch_leaves_omnidirectional_3"},
+		{ "model": "mcme:block/larch_leaves_omnidirectional_4"}
+		],
+	"distance=6,persistent=true":[
+		{ "model": "mcme:block/ash_leaves_yellowish" },
+		{ "model": "mcme:block/ash_leaves_yellowish_2" },
+		{ "model": "mcme:block/ash_leaves_yellowish_3" },
+		{ "model": "mcme:block/ash_leaves_yellowish_4" },
+		{ "model": "mcme:block/ash_leaves_yellowish_5" }
+		]
   }
 }

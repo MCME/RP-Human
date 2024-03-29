@@ -1,10 +1,14 @@
 {
   "variants": {
       "half=lower": [
-      { "model": "block/rose_bush_bottom" },
-      { "model": "block/rose_bush_bottom", "y": 90 },
-      { "model": "block/rose_bush_bottom", "y": 180 },
-      { "model": "block/rose_bush_bottom", "y": 270 }
+      { "model": "mcme:block/rose_bush_bottom" },
+      { "model": "mcme:block/rose_bush_bottom_1_2"},
+      { "model": "mcme:block/rose_bush_bottom_1_3"},
+      { "model": "mcme:block/rose_bush_bottom_1_4"},
+	  { "model": "mcme:block/rose_bush_bottom_2" },
+      { "model": "mcme:block/rose_bush_bottom_2_2"},
+      { "model": "mcme:block/rose_bush_bottom_2_3"},
+      { "model": "mcme:block/rose_bush_bottom_2_4"}
 
   ],
       "half=upper": [

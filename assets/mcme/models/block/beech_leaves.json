@@ -1,5 +1,7 @@
 {
-  "parent": "special-model-loader:builtin/obj",
-  "flip_v": true,
-  "model": "mcme:models/block/beech_leaves_2.obj"
+  "parent": "mcme:block/leaves_parent",
+  "textures": {
+    "0": "mcme:block/beech_leaves",
+	"particle": "mcme:block/beech_leaves"
+  }
 }

@@ -1,5 +1,7 @@
 {
-  "parent": "special-model-loader:builtin/obj",
-  "flip_v": true,
-  "model": "mcme:models/block/beech_branch_45_straight.obj"
+  "parent": "mcme:block/branch_45_straight_parent",
+  "textures": {
+    "0": "mcme:block/beech_branch_45_straight",
+	"particle": "mcme:block/beech_wood"
+  }
 }

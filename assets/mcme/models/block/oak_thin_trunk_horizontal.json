@@ -1,5 +1,7 @@
 {
-  "parent": "special-model-loader:builtin/obj",
-  "flip_v": true,
-  "model": "mcme:models/block/oak_thin_trunk_horizontal.obj"
+  "parent": "mcme:block/thin_trunk_horizontal_parent",
+  "textures": {
+    "0": "mcme:block/oak_thin_trunk_horizontal",
+	"particle": "mcme:block/oak_log"
+  }
 }

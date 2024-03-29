@@ -1,5 +1,7 @@
 {
-  "parent": "special-model-loader:builtin/obj",
-  "flip_v": true,
-  "model": "mcme:models/block/beech_trunk_vertical.obj"
+  "parent": "mcme:block/trunk_vertical_parent",
+  "textures": {
+    "0": "mcme:block/beech_trunk_vertical",
+	"particle": "mcme:block/beech_wood"
+  }
 }

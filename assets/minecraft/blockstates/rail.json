@@ -1,32 +1,8 @@
 {
   "variants": {
-    "shape=ascending_east": {
-      "model": "minecraft:block/oak_thin_trunk_horizontal_4",
-      "y": 90
-    },
-    "shape=ascending_north": [
-	{ "model": "mcme:block/oak_leaves_slab"},
-	{ "model": "mcme:block/oak_leaves_slab", "y": 90},
-	{ "model": "mcme:block/oak_leaves_slab", "y": 180},
-	{ "model": "mcme:block/oak_leaves_slab", "y": 270}
-	],
-    "shape=ascending_south": {
-      "model": "mcme:block/beech_thin_trunk_horizontal", "y": 270
-    },
-    "shape=ascending_west": {
-      "model": "minecraft:block/oak_thin_trunk_horizontal_3",
-      "y": 90
-    },
-    "shape=east_west": {
-      "model": "minecraft:block/oak_thin_trunk_horizontal_2",
-      "y": 90
-    },
     "shape=north_east": {
       "model": "minecraft:block/rail_corner",
       "y": 270
-    },
-    "shape=north_south": {
-      "model": "minecraft:block/oak_thin_trunk_horizontal"
     },
     "shape=north_west": {
       "model": "minecraft:block/rail_corner",
@@ -38,6 +14,30 @@
     "shape=south_west": {
       "model": "minecraft:block/rail_corner",
       "y": 90
-    }
+    },
+    "shape=ascending_east": [
+		{ "model": "minecraft:block/rail_thin_shrub" },
+		{ "model": "minecraft:block/rail_thin_shrub", "y": 90},
+		{ "model": "minecraft:block/rail_thin_shrub", "y": 180},
+		{ "model": "minecraft:block/rail_thin_shrub", "y": 270},
+		{ "model": "minecraft:block/rail_thin_shrub_2" },
+		{ "model": "minecraft:block/rail_thin_shrub_2", "y": 90},
+		{ "model": "minecraft:block/rail_thin_shrub_2", "y": 180},
+		{ "model": "minecraft:block/rail_thin_shrub_2", "y": 270},
+		{ "model": "minecraft:block/rail_thin_shrub_3" },
+		{ "model": "minecraft:block/rail_thin_shrub_3", "y": 90},
+		{ "model": "minecraft:block/rail_thin_shrub_3", "y": 180},
+		{ "model": "minecraft:block/rail_thin_shrub_3", "y": 270}
+	],
+    "shape=ascending_west": [
+		{ "model": "mcme:block/hazelnut_bush" },
+		{ "model": "mcme:block/hazelnut_bush_1_2" },
+		{ "model": "mcme:block/hazelnut_bush_1_3" },
+		{ "model": "mcme:block/hazelnut_bush_1_4" },
+		{ "model": "mcme:block/hazelnut_bush_2" },
+		{ "model": "mcme:block/hazelnut_bush_2_2" },
+		{ "model": "mcme:block/hazelnut_bush_2_3" },
+		{ "model": "mcme:block/hazelnut_bush_2_4" }
+	]
   }
 }

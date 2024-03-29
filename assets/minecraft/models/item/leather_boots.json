@@ -1,0 +1,948 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+	{
+       "predicate": {
+        "custom_model_data": 1
+          },
+        "name": 1,
+        "model": "mcme:block/inv_ash_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 2
+          },
+        "name": 2,
+        "model": "mcme:block/inv_ash_leaves_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 3
+          },
+        "name": 3,
+        "model": "mcme:block/inv_ash_branch_45_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 4
+          },
+        "name": 4,
+        "model": "mcme:block/inv_ash_branch_22.5_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 5
+          },
+        "name": 5,
+        "model": "mcme:block/inv_oak_branch_main"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 6
+          },
+        "name": 6,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 7
+          },
+        "name": 7,
+        "model": "mcme:block/inv_ash_trunk_horizontal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 8
+          },
+        "name": 8,
+        "model": "mcme:block/inv_ash_twig_branch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 9
+          },
+        "name": 9,
+        "model": "mcme:block/inv_birch_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 10
+          },
+        "name": 10,
+        "model": "mcme:block/inv_birch_leaves_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 11
+          },
+        "name": 11,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 12
+          },
+        "name": 12,
+        "model": "mcme:block/inv_birch_branch_22.5_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 13
+          },
+        "name": 13,
+        "model": "mcme:block/inv_birch_branch_45_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 14
+          },
+        "name": 14,
+        "model": "mcme:block/inv_birch_twig_branch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 15
+          },
+        "name": 15,
+        "model": "mcme:block/inv_birch_trunk_horizontal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 16
+          },
+        "name": 16,
+        "model": "mcme:block/inv_beech_twig_branch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 17
+          },
+        "name": 17,
+        "model": "mcme:block/inv_chestnut_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 18
+          },
+        "name": 18,
+        "model": "mcme:block/inv_chestnut_leaves_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 19
+          },
+        "name": 19,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 20
+          },
+        "name": 20,
+        "model": "mcme:block/inv_chestnut_branch_22.5_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 21
+          },
+        "name": 21,
+        "model": "mcme:block/inv_chestnut_branch_45_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 22
+          },
+        "name": 22,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 23
+          },
+        "name": 23,
+        "model": "mcme:block/inv_chestnut_trunk_horizontal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 24
+          },
+        "name": 24,
+        "model": "mcme:block/inv_chestnut_twig_branch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 25
+          },
+        "name": 25,
+        "model": "mcme:block/inv_hornbeam_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 26
+          },
+        "name": 26,
+        "model": "mcme:block/inv_hornbeam_leaves_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 27
+          },
+        "name": 27,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 28
+          },
+        "name": 28,
+        "model": "mcme:block/inv_elm_branch_22.5_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 29
+          },
+        "name": 29,
+        "model": "mcme:block/inv_elm_branch_45_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 30
+          },
+        "name": 30,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 31
+          },
+        "name": 31,
+        "model": "mcme:block/inv_elm_trunk_horizontal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 32
+          },
+        "name": 32,
+        "model": "mcme:block/inv_elm_twig_branch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 33
+          },
+        "name": 33,
+        "model": "mcme:block/inv_larch_leaves_alt"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 34
+          },
+        "name": 34,
+        "model": "mcme:block/inv_larch_leaves_omnidirectional"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 35
+          },
+        "name": 35,
+        "model": "mcme:block/inv_larch_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 36
+          },
+        "name": 36,
+        "model": "mcme:block/inv_larch_leaves_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 37
+          },
+        "name": 37,
+        "model": "mcme:block/inv_larch_large_sapling_tilted"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 38
+          },
+        "name": 38,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 39
+          },
+        "name": 39,
+        "model": "mcme:block/inv_larch_branch_22.5_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 40
+          },
+        "name": 40,
+        "model": "mcme:block/inv_larch_branch_45_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 41
+          },
+        "name": 41,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 42
+          },
+        "name": 42,
+        "model": "mcme:block/inv_larch_trunk_horizontal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 43
+          },
+        "name": 43,
+        "model": "mcme:block/inv_larch_twig_branch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 44
+          },
+        "name": 44,
+        "model": "mcme:block/inv_larch_branch_broken"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 45
+          },
+        "name": 45,
+        "model": "mcme:block/inv_maple_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 46
+          },
+        "name": 46,
+        "model": "mcme:block/inv_maple_leaves_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 47
+          },
+        "name": 47,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 48
+          },
+        "name": 48,
+        "model": "mcme:block/inv_maple_branch_22.5_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 49
+          },
+        "name": 49,
+        "model": "mcme:block/inv_maple_branch_45_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 50
+          },
+        "name": 50,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 51
+          },
+        "name": 51,
+        "model": "mcme:block/inv_maple_trunk_horizontal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 52
+          },
+        "name": 52,
+        "model": "mcme:block/inv_maple_twig_branch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 53
+          },
+        "name": 53,
+        "model": "mcme:block/inv_oak_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 54
+          },
+        "name": 54,
+        "model": "mcme:block/inv_oak_leaves_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 55
+          },
+        "name": 55,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 56
+          },
+        "name": 56,
+        "model": "mcme:block/inv_oak_branch_22.5_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 57
+          },
+        "name": 57,
+        "model": "mcme:block/inv_oak_branch_45_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 58
+          },
+        "name": 58,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 59
+          },
+        "name": 59,
+        "model": "mcme:block/inv_oak_trunk_horizontal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 60
+          },
+        "name": 60,
+        "model": "mcme:block/inv_oak_twig_branch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 61
+          },
+        "name": 61,
+        "model": "mcme:block/inv_pine_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 62
+          },
+        "name": 62,
+        "model": "mcme:block/inv_pine_leaves_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 63
+          },
+        "name": 63,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 64
+          },
+        "name": 64,
+        "model": "mcme:block/inv_pine_branch_45_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 65
+          },
+        "name": 65,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 66
+          },
+        "name": 66,
+        "model": "mcme:block/inv_pine_trunk_horizontal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 67
+          },
+        "name": 67,
+        "model": "mcme:block/inv_pine_twig_branch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 68
+          },
+        "name": 68,
+        "model": "mcme:block/inv_pine_branch_broken"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 69
+          },
+        "name": 69,
+        "model": "mcme:block/inv_spruce_branch_22.5_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 70
+          },
+        "name": 70,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 71
+          },
+        "name": 71,
+        "model": "mcme:block/inv_poplar_branch_22.5_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 72
+          },
+        "name": 72,
+        "model": "mcme:block/inv_poplar_branch_45_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 73
+          },
+        "name": 73,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 74
+          },
+        "name": 74,
+        "model": "mcme:block/inv_poplar_trunk_horizontal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 75
+          },
+        "name": 75,
+        "model": "mcme:block/inv_poplar_twig_branch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 76
+          },
+        "name": 76,
+        "model": "mcme:block/inv_spruce_leaves_alt"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 77
+          },
+        "name": 77,
+        "model": "mcme:block/inv_spruce_leaves_omnidirectional"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 78
+          },
+        "name": 78,
+        "model": "mcme:block/inv_spruce_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 79
+          },
+        "name": 79,
+        "model": "mcme:block/inv_spruce_leaves_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 80
+          },
+        "name": 80,
+        "model": "mcme:block/inv_spruce_branch_dead"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 81
+          },
+        "name": 81,
+        "model": "mcme:block/inv_spruce_large_sapling_tilted"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 82
+          },
+        "name": 82,
+        "model": "mcme:block/inv_leaves_green"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 83
+          },
+        "name": 83,
+        "model": "mcme:block/inv_spruce_branch_45_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 84
+          },
+        "name": 84,
+        "model": "mcme:block/inv_forestfloor"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 85
+          },
+        "name": 85,
+        "model": "mcme:block/inv_spruce_trunk_horizontal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 86
+          },
+        "name": 86,
+        "model": "mcme:block/inv_spruce_twig_branch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 87
+          },
+        "name": 87,
+        "model": "mcme:block/inv_spruce_branch_broken"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 88
+          },
+        "name": 88,
+        "model": "mcme:block/inv_leaves_brown"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 89
+          },
+        "name": 89,
+        "model": "mcme:block/inv_whitebeam_branch_22.5_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 90
+          },
+        "name": 90,
+        "model": "mcme:block/inv_whitebeam_branch_45_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 91
+          },
+        "name": 91,
+        "model": "mcme:block/inv_floor_branches"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 92
+          },
+        "name": 92,
+        "model": "mcme:block/inv_whitebeam_trunk_horizontal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 93
+          },
+        "name": 93,
+        "model": "mcme:block/inv_whitebeam_twig_branch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 94
+          },
+        "name": 94,
+        "model": "mcme:block/inv_ash_leaves_yellowish"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 95
+          },
+        "name": 95,
+        "model": "mcme:block/inv_ash_leaves_yellowish_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 96
+          },
+        "name": 96,
+        "model": "mcme:block/inv_birch_leaves_yellowish"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 97
+          },
+        "name": 97,
+        "model": "mcme:block/inv_birch_leaves_yellowish_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 98
+          },
+        "name": 98,
+        "model": "mcme:block/inv_beech_leaves_yellowish"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 99
+          },
+        "name": 99,
+        "model": "mcme:block/inv_beech_leaves_yellowish_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 100
+          },
+        "name": 100,
+        "model": "mcme:block/inv_beech_leaves_orangeish"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 101
+          },
+        "name": 101,
+        "model": "mcme:block/inv_beech_leaves_orangeish_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 102
+          },
+        "name": 102,
+        "model": "mcme:block/inv_chestnut_leaves_yellowish"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 103
+          },
+        "name": 103,
+        "model": "mcme:block/inv_chestnut_leaves_yellowish_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 104
+          },
+        "name": 104,
+        "model": "mcme:block/inv_maple_leaves_yellowish"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 105
+          },
+        "name": 105,
+        "model": "mcme:block/inv_maple_leaves_yellowish_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 106
+          },
+        "name": 106,
+        "model": "mcme:block/inv_maple_leaves_redish"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 107
+          },
+        "name": 107,
+        "model": "mcme:block/inv_maple_leaves_redish_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 108
+          },
+        "name": 108,
+        "model": "mcme:block/inv_oak_leaves_yellowish"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 109
+          },
+        "name": 109,
+        "model": "mcme:block/inv_oak_leaves_yellowish_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 110
+          },
+        "name": 110,
+        "model": "mcme:block/inv_linden_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 111
+          },
+        "name": 111,
+        "model": "mcme:block/inv_linden_leaves_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 112
+          },
+        "name": 112,
+        "model": "mcme:block/inv_linden_leaves_yellowish"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 113
+          },
+        "name": 113,
+        "model": "mcme:block/inv_linden_leaves_yellowish_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 114
+          },
+        "name": 114,
+        "model": "mcme:block/inv_willow_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 115
+          },
+        "name": 115,
+        "model": "mcme:block/inv_willow_leaves_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 116
+          },
+        "name": 116,
+        "model": "block/unused_block_0",
+        "model_missing": "mcme:block/inv_hazelnut_bush"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 117
+          },
+        "name": 117,
+        "model": "mcme:block/inv_apple_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 118
+          },
+        "name": 118,
+        "model": "block/unused_block_0",
+        "model_missing": "mcme:block/inv_big_fern_3"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 119
+          },
+        "name": 119,
+        "model": "mcme:block/inv_big_fern"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 120
+          },
+        "name": 120,
+        "model": "mcme:block/inv_beech_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 121
+          },
+        "name": 121,
+        "model": "mcme:block/inv_beech_leaves_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 122
+          },
+        "name": 122,
+		"model": "block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 123
+          },
+        "name": 123,
+        "model": "mcme:block/inv_beech_branch_22.5_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 124
+          },
+        "name": 124,
+        "model": "mcme:block/inv_beech_branch_45_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 125
+          },
+        "name": 125,
+        "model": "mcme:block/inv_hazel"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 126
+          },
+        "name": 126,
+        "model": "mcme:block/inv_beech_trunk_horizontal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 127
+          },
+        "name": 127,
+        "model": "mcme:block/inv_pine_branch_22.5_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 128
+          },
+        "name": 128,
+        "model": "mcme:block/inv_big_fern"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 129
+          },
+        "name": 129,
+        "model": "mcme:block/inv_fern"
+      },
+	  {
+       "predicate": {
+        "custom_model_data": 130
+          },
+        "name": 130,
+        "model": "mcme:block/inv_rose_bush_bottom"
+      },
+	  {
+       "predicate": {
+        "custom_model_data": 131
+          },
+        "name": 131,
+        "model": "mcme:block/inv_hanging_bush"
+      },
+	  {
+       "predicate": {
+        "custom_model_data": 132
+          },
+        "name": 132,
+        "model": "mcme:block/inv_vines"
+      }
+  ]
+}

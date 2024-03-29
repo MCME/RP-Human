@@ -1,0 +1,5742 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/clay_ball"
+  },
+    "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "name": 1,
+      "model": "block/farmland_moisture0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "name": 2,
+      "model": "block/farmland_moisture1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "name": 3,
+      "model": "block/farmland_moisture2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "name": 4,
+      "model": "block/farmland_moisture3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "name": 5,
+      "model": "block/oak_sapling_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "name": 6,
+      "model": "block/spruce_sapling_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "name": 7,
+      "model": "block/birch_sapling_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "name": 8,
+      "model": "block/unused_block_0",
+      "model_missing": "block/jungle_sapling_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "name": 9,
+      "model": "block/acacia_sapling_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "name": 10,
+      "model": "block/dark_oak_sapling_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "name": 11,
+      "model": "block/nether_wart_stage2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "name": 12,
+      "model": "block/nether_wart_stage3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "name": 13,
+      "model": "block/reeds_stage0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "name": 14,
+      "model": "block/oak_wood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "name": 15,
+      "model": "block/spruce_wood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "name": 16,
+      "model": "block/birch_wood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "name": 17,
+      "model": "block/jungle_wood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "name": 18,
+      "model": "block/acacia_wood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "name": 19,
+      "model": "item/chorus_plant_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "name": 20,
+      "model": "item/tree_spruce_inventory_y"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "name": 21,
+      "model": "item/tree_spruce_inventory_x"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "name": 22,
+      "model": "item/tree_spruce_inventory_z"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "name": 23,
+      "model": "item/tree_spruce_inventory_cross"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "name": 24,
+      "model": "item/tree_spruce_inventory_cross_flat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "name": 25,
+      "model": "block/grass_block_patches_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "name": 26,
+      "model": "block/grass_block_stones_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "name": 27,
+      "model": "block/wheat_stage0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "name": 28,
+      "model": "block/wheat_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "name": 29,
+      "model": "block/wheat_stage2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "name": 30,
+      "model": "block/wheat_stage3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31
+      },
+      "name": 31,
+      "model": "block/wheat_stage4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "name": 32,
+      "model": "block/wheat_stage5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 33
+      },
+      "name": 33,
+      "model": "block/wheat_stage6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 34
+      },
+      "name": 34,
+      "model": "block/wheat_stage7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 35
+      },
+      "name": 35,
+      "model": "block/carrots_stage0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 36
+      },
+      "name": 36,
+      "model": "block/carrots_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 37
+      },
+      "name": 37,
+      "model": "block/carrots_stage2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 38
+      },
+      "name": 38,
+      "model": "block/carrots_stage3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 39
+      },
+      "name": 39,
+      "model": "block/potatoes_stage0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 40
+      },
+      "name": 40,
+      "model": "block/potatoes_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 41
+      },
+      "name": 41,
+      "model": "block/potatoes_stage2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 42
+      },
+      "name": 42,
+      "model": "block/potatoes_stage3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 43
+      },
+      "name": 43,
+      "model": "block/onions_red_stage0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 44
+      },
+      "name": 44,
+      "model": "block/onions_red_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 45
+      },
+      "name": 45,
+      "model": "block/onions_red_stage2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 46
+      },
+      "name": 46,
+      "model": "block/onions_red_stage3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47
+      },
+      "name": 47,
+      "model": "block/onions_white_stage0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 48
+      },
+      "name": 48,
+      "model": "block/onions_white_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 49
+      },
+      "name": 49,
+      "model": "block/onions_white_stage2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "name": 50,
+      "model": "block/onions_white_stage3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 51
+      },
+      "name": 51,
+      "model": "block/beetroots_stage0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 52
+      },
+      "name": 52,
+      "model": "block/beetroots_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 53
+      },
+      "name": 53,
+      "model": "block/beetroots_stage2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 54
+      },
+      "name": 54,
+      "model": "block/beetroots_stage3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 55
+      },
+      "name": 55,
+      "model": "block/cabbage"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 56
+      },
+      "name": 56,
+      "model": "block/nether_wart_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 57
+      },
+      "name": 57,
+      "model": "block/end_portal_frame_empty_north"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 58
+      },
+      "name": 58,
+      "model": "block/end_portal_frame_filled_north"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 59
+      },
+      "name": 59,
+      "model": "block/piston_sticky_extended"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 60
+      },
+      "name": 60,
+      "model": "block/smooth_sandstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 61
+      },
+      "name": 61,
+      "model": "block/smooth_red_sandstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 62
+      },
+      "name": 62,
+      "model": "block/double_slab_sandstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 63
+      },
+      "name": 63,
+      "model": "block/double_slab_red_sandstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 64
+      },
+      "name": 64,
+      "model": "block/red_mushroom_block_inside_all"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 65
+      },
+      "name": 65,
+      "model": "block/brown_mushroom_block_c"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 66
+      },
+      "name": 66,
+      "model": "block/brown_mushroom_block_sw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 67
+      },
+      "name": 67,
+      "model": "block/brown_mushroom_block_se"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 68
+      },
+      "name": 68,
+      "model": "block/red_mushroom_block_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 69
+      },
+      "name": 69,
+      "model": "block/red_mushroom_block_sw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 70
+      },
+      "name": 70,
+      "model": "block/red_mushroom_block_s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 71
+      },
+      "name": 71,
+      "model": "block/red_mushroom_block_normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 72
+      },
+      "name": 72,
+      "model": "block/red_mushroom_block_seu"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 73
+      },
+      "name": 73,
+      "model": "block/red_mushroom_block_nwd"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 74
+      },
+      "name": 74,
+      "model": "block/cactus_stage3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 75
+      },
+      "name": 75,
+      "model": "block/cactus_stage4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 76
+      },
+      "name": 76,
+      "model": "block/cactus_stage5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 77
+      },
+      "name": 77,
+      "model": "block/double_slab_nether_brick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 78
+      },
+      "name": 78,
+      "model": "block/double_slab_nether_brick_seamless"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 79
+      },
+      "name": 79,
+      "model": "block/end_portal_frame_empty_south"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 80
+      },
+      "name": 80,
+      "model": "block/end_portal_frame_filled_south"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 81
+      },
+      "name": 81,
+      "model": "block/smooth_quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 82
+      },
+      "name": 82,
+      "model": "block/double_slab_quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 83
+      },
+      "name": 83,
+      "model": "block/piston_normal_extended"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 84
+      },
+      "name": 84,
+      "model": "block/double_slab_stonebrick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 85
+      },
+      "name": 85,
+      "model": "block/double_slab_stonebrick_seamless"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 86
+      },
+      "name": 86,
+      "model": "block/double_slab_brick_seamless"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 87
+      },
+      "name": 87,
+      "model": "block/infested_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 88
+      },
+      "name": 88,
+      "model": "block/infested_mossy_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 89
+      },
+      "name": 89,
+      "model": "block/infested_cracked_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 90
+      },
+      "name": 90,
+      "model": "block/infested_chiseled_stone_bricks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 91
+      },
+      "name": 91,
+      "model": "block/double_slab_brick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 92
+      },
+      "name": 92,
+      "model": "block/smooth_stone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 93
+      },
+      "name": 93,
+      "model": "block/monster_egg_stone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 94
+      },
+      "name": 94,
+      "model": "block/smooth_stone_slab_double"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 95
+      },
+      "name": 95,
+      "model": "block/double_slab_cobblestone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 96
+      },
+      "name": 96,
+      "model": "block/double_slab_purpur"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 97
+      },
+      "name": 97,
+      "model": "block/infested_cobblestone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 98
+      },
+      "name": 98,
+      "model": "block/double_slab_planks_acacia"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99
+      },
+      "name": 99,
+      "model": "block/double_slab_planks_dark_oak"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100
+      },
+      "name": 100,
+      "model": "block/marker_accepted"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 101
+      },
+      "name": 101,
+      "model": "block/marker_declined"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 102
+      },
+      "name": 102,
+      "model": "block/marker_finished"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 103
+      },
+      "name": 103,
+      "model": "block/marker_wip"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 104
+      },
+      "name": 104,
+      "model": "block/marker_comment"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 105
+      },
+      "name": 105,
+      "model": "block/marker_info"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 106
+      },
+      "name": 106,
+      "model": "block/hardened_clay_purple"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 107
+      },
+      "name": 107,
+      "model": "block/stucco_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 108
+      },
+      "name": 108,
+      "model": "block/stucco_magenta"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 109
+      },
+      "name": 109,
+      "model": "block/big_barrel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 110
+      },
+      "name": 110,
+      "model": "block/stucco_light_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 111
+      },
+      "name": 111,
+      "model": "block/piston_sticky_extended_up"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 112
+      },
+      "name": 112,
+      "model": "block/piston_normal_extended_up"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 113
+      },
+      "name": 113,
+      "model": "block/brown_mushroom_block_s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 114
+      },
+      "name": 114,
+      "model": "block/stucco_white"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 115
+      },
+      "name": 115,
+      "model": "block/stucco_lime"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 116
+      },
+      "name": 116,
+      "model": "block/stucco_gray"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 117
+      },
+      "name": 117,
+      "model": "block/stucco_light_gray"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 118
+      },
+      "name": 118,
+      "model": "block/stucco_yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 119
+      },
+      "name": 119,
+      "model": "block/stucco_orange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 120
+      },
+      "name": 120,
+      "model": "block/stucco_pink"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 121
+      },
+      "name": 121,
+      "model": "block/stucco_red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 122
+      },
+      "name": 122,
+      "model": "block/melon_stem_stage6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 123
+      },
+      "name": 123,
+      "model": "block/melon_stem_stage7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 124
+      },
+      "name": 124,
+      "model": "block/melon_stem_stage0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 125
+      },
+      "name": 125,
+      "model": "block/grass_block_white_concrete_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 126
+      },
+      "name": 126,
+      "model": "item/palace_door"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 127
+      },
+      "name": 127,
+      "model": "item/barn_door"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 128
+      },
+      "name": 128,
+      "model": "item/oak_half_door"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 129
+      },
+      "name": 129,
+      "model": "item/spruce_half_door"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 130
+      },
+      "name": 130,
+      "model": "item/birch_half_door"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 131
+      },
+      "name": 131,
+      "model": "item/jungle_half_door"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 132
+      },
+      "name": 132,
+      "model": "item/acacia_half_door"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 133
+      },
+      "name": 133,
+      "model": "item/dark_oak_half_door"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 134
+      },
+      "name": 134,
+      "model": "item/iron_half_door"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 135
+      },
+      "name": 135,
+      "model": "item/spruce_door_powered"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 136
+      },
+      "name": 136,
+      "model": "item/spruce_door_powered_rh"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 137
+      },
+      "name": 137,
+      "model": "item/oak_door_powered"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 138
+      },
+      "name": 138,
+      "model": "item/oak_door_powered_rh"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 139
+      },
+      "name": 139,
+      "model": "item/jungle_door_powered"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 140
+      },
+      "name": 140,
+      "model": "item/jungle_door_powered_rh"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 141
+      },
+      "name": 141,
+      "model": "item/acacia_door_powered"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 142
+      },
+      "name": 142,
+      "model": "item/acacia_door_powered_rh"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 143
+      },
+      "name": 143,
+      "model": "item/dark_oak_door_powered"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 144
+      },
+      "name": 144,
+      "model": "item/dark_oak_door_powered_rh"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 145
+      },
+      "name": 145,
+      "model": "block/portal_ns"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 146
+      },
+      "name": 146,
+      "model": "block/dropper_nwd"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 147
+      },
+      "name": 147,
+      "model": "block/dropper_seu"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 148
+      },
+      "name": 148,
+      "model": "block/dropper_powered_nwd"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 149
+      },
+      "name": 149,
+      "model": "block/cactus_stage2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 150
+      },
+      "name": 150,
+      "model": "block/piston_head_sticky"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 151
+      },
+      "name": 151,
+      "model": "item/golden_rail_flat_diagonal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 152
+      },
+      "name": 152,
+      "model": "block/golden_rail_raised_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 153
+      },
+      "name": 153,
+      "model": "item/detector_rail_flat_diagonal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 154
+      },
+      "name": 154,
+      "model": "block/detector_rail_raised_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 155
+      },
+      "name": 155,
+      "model": "item/rail_curved"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 156
+      },
+      "name": 156,
+      "model": "item/activator_rail"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 157
+      },
+      "name": 157,
+      "model": "item/redstone_dust_power3_center"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 158
+      },
+      "name": 158,
+      "model": "item/redstone_dust_power4_center"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 159
+      },
+      "name": 159,
+      "model": "item/redstone_dust_power5_center"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 160
+      },
+      "name": 160,
+      "model": "block/grass_block_dirt_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 161
+      },
+      "name": 161,
+      "model": "block/grass_block_bubble_coral_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 162
+      },
+      "name": 162,
+      "model": "block/grass_block_gray_terracotta_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 163
+      },
+      "name": 163,
+      "model": "block/double_slab_planks_oak"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 164
+      },
+      "name": 164,
+      "model": "block/double_slab_planks_birch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 165
+      },
+      "name": 165,
+      "model": "block/double_slab_planks_spruce"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 166
+      },
+      "name": 166,
+      "model": "block/double_slab_wood_old"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 167
+      },
+      "name": 167,
+      "model": "block/piston_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 168
+      },
+      "name": 168,
+      "model": "block/furnace_on"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 169
+      },
+      "name": 169,
+      "model": "block/cauldron_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 170
+      },
+      "name": 170,
+      "model": "block/cauldron_level1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 171
+      },
+      "name": 171,
+      "model": "block/cauldron_level2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 172
+      },
+      "name": 172,
+      "model": "block/cauldron_level3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 173
+      },
+      "name": 173,
+      "model": "block/brewing_stand"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 174
+      },
+      "name": 174,
+      "model": "block/cactus_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 175
+      },
+      "name": 175,
+      "model": "block/ladder"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 176
+      },
+      "name": 176,
+      "model": "block/cactus_stage6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 177
+      },
+      "name": 177,
+      "model": "block/chain_down_north"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 178
+      },
+      "name": 178,
+      "model": "block/chain_down_center"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 179
+      },
+      "name": 179,
+      "model": "block/podzol_snowy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 180
+      },
+      "name": 180,
+      "model": "block/grass_block_red_concrete_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 181
+      },
+      "name": 181,
+      "model": "block/grass_block_orange_concrete_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 182
+      },
+      "name": 182,
+      "model": "block/repeater_delay1_s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 183
+      },
+      "name": 183,
+      "model": "block/repeater_delay1_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 184
+      },
+      "name": 184,
+      "model": "block/repeater_delay1_n"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 185
+      },
+      "name": 185,
+      "model": "block/repeater_delay1_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 186
+      },
+      "name": 186,
+      "model": "block/repeater_delay2_s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 187
+      },
+      "name": 187,
+      "model": "block/repeater_delay2_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 188
+      },
+      "name": 188,
+      "model": "block/grass_block_green_concrete_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 189
+      },
+      "name": 189,
+      "model": "block/grass_block_stone_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 190
+      },
+      "name": 190,
+      "model": "block/repeater_delay3_s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 191
+      },
+      "name": 191,
+      "model": "block/repeater_delay3_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 192
+      },
+      "name": 192,
+      "model": "block/repeater_delay3_n"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 193
+      },
+      "name": 193,
+      "model": "block/repeater_delay3_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 194
+      },
+      "name": 194,
+      "model": "block/repeater_delay4_s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 195
+      },
+      "name": 195,
+      "model": "block/repeater_delay4_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 196
+      },
+      "name": 196,
+      "model": "block/repeater_delay4_n"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 197
+      },
+      "name": 197,
+      "model": "block/repeater_delay4_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 198
+      },
+      "name": 198,
+      "model": "block/unused_cross_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 199
+      },
+      "name": 199,
+      "model": "block/powered_repeater_delay1_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200
+      },
+      "name": 200,
+      "model": "block/powered_repeater_delay1_n"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 201
+      },
+      "name": 201,
+      "model": "block/powered_repeater_delay1_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 202
+      },
+      "name": 202,
+      "model": "block/unused_cross_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 203
+      },
+      "name": 203,
+      "model": "block/powered_repeater_delay2_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 204
+      },
+      "name": 204,
+      "model": "block/powered_repeater_delay2_n"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 205
+      },
+      "name": 205,
+      "model": "block/powered_repeater_delay2_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 206
+      },
+      "name": 206,
+      "model": "block/powered_repeater_delay3_s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 207
+      },
+      "name": 207,
+      "model": "block/powered_repeater_delay3_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 208
+      },
+      "name": 208,
+      "model": "block/powered_repeater_delay3_n"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 209
+      },
+      "name": 209,
+      "model": "block/powered_repeater_delay3_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 210
+      },
+      "name": 210,
+      "model": "block/powered_repeater_delay4_s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 211
+      },
+      "name": 211,
+      "model": "block/powered_repeater_delay4_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 212
+      },
+      "name": 212,
+      "model": "block/powered_repeater_delay4_n"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 213
+      },
+      "name": 213,
+      "model": "block/powered_repeater_delay4_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 214
+      },
+      "name": 214,
+      "model": "block/comparator_compare_s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 215
+      },
+      "name": 215,
+      "model": "block/comparator_compare_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 216
+      },
+      "name": 216,
+      "model": "block/comparator_compare_n"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 217
+      },
+      "name": 217,
+      "model": "block/comparator_compare_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 218
+      },
+      "name": 218,
+      "model": "block/comparator_subtract_s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 219
+      },
+      "name": 219,
+      "model": "block/comparator_subtract_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 220
+      },
+      "name": 220,
+      "model": "block/comparator_subtract_n"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 221
+      },
+      "name": 221,
+      "model": "block/comparator_subtract_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 222
+      },
+      "name": 222,
+      "model": "block/comparator_powered_compare_s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 223
+      },
+      "name": 223,
+      "model": "block/comparator_powered_compare_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 224
+      },
+      "name": 224,
+      "model": "block/comparator_powered_compare_n"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 225
+      },
+      "name": 225,
+      "model": "block/comparator_powered_compare_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 226
+      },
+      "name": 226,
+      "model": "block/comparator_powered_subtract_s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 227
+      },
+      "name": 227,
+      "model": "block/comparator_powered_subtract_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 228
+      },
+      "name": 228,
+      "model": "block/oak_fence_gate_powered_closed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 229
+      },
+      "name": 229,
+      "model": "block/birch_fence_gate_powered_closed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 230
+      },
+      "name": 230,
+      "model": "block/jungle_fence_gate_closed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 231
+      },
+      "name": 231,
+      "model": "block/jungle_fence_gate_open"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 232
+      },
+      "name": 232,
+      "model": "block/jungle_fence_gate_powered_closed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 233
+      },
+      "name": 233,
+      "model": "block/spruce_fence_gate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 234
+      },
+      "name": 234,
+      "model": "block/spruce_fence_gate_powered_closed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 235
+      },
+      "name": 235,
+      "model": "block/dark_oak_fence_gate_closed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 236
+      },
+      "name": 236,
+      "model": "block/stucco_blue_inside"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 237
+      },
+      "name": 237,
+      "model": "block/dark_oak_fence_gate_powered_closed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 238
+      },
+      "name": 238,
+      "model": "block/nether_brick_slab"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 239
+      },
+      "name": 239,
+      "model": "block/cyan_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 240
+      },
+      "name": 240,
+      "model": "block/light_gray_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 241
+      },
+      "name": 241,
+      "model": "block/blue_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 242
+      },
+      "name": 242,
+      "model": "block/purple_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 243
+      },
+      "name": 243,
+      "model": "block/green_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 244
+      },
+      "name": 244,
+      "model": "block/brown_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 245
+      },
+      "name": 245,
+      "model": "block/red_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 246
+      },
+      "name": 246,
+      "model": "block/redstone_torch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 247
+      },
+      "name": 247,
+      "model": "block/light_pressure_plate_power2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 248
+      },
+      "name": 248,
+      "model": "block/light_pressure_plate_power3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 249
+      },
+      "name": 249,
+      "model": "block/light_pressure_plate_power4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 250
+      },
+      "name": 250,
+      "model": "block/light_pressure_plate_power5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 251
+      },
+      "name": 251,
+      "model": "block/light_pressure_plate_power6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 252
+      },
+      "name": 252,
+      "model": "block/light_pressure_plate_power7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 253
+      },
+      "name": 253,
+      "model": "block/light_pressure_plate_power8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 254
+      },
+      "name": 254,
+      "model": "block/light_pressure_plate_power9"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 255
+      },
+      "name": 255,
+      "model": "block/light_pressure_plate_power10"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 256
+      },
+      "name": 256,
+      "model": "block/light_pressure_plate_power11"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 257
+      },
+      "name": 257,
+      "model": "block/light_pressure_plate_power12"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 258
+      },
+      "name": 258,
+      "model": "block/light_pressure_plate_power13"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 259
+      },
+      "name": 259,
+      "model": "block/light_pressure_plate_power14"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 260
+      },
+      "name": 260,
+      "model": "block/light_pressure_plate_power15"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 261
+      },
+      "name": 261,
+      "model": "block/heavy_pressure_plate_power2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 262
+      },
+      "name": 262,
+      "model": "block/heavy_pressure_plate_power3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 263
+      },
+      "name": 263,
+      "model": "block/heavy_pressure_plate_power4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 264
+      },
+      "name": 264,
+      "model": "block/heavy_pressure_plate_power5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 265
+      },
+      "name": 265,
+      "model": "block/heavy_pressure_plate_power6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 266
+      },
+      "name": 266,
+      "model": "block/heavy_pressure_plate_power7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 267
+      },
+      "name": 267,
+      "model": "block/heavy_pressure_plate_power8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 268
+      },
+      "name": 268,
+      "model": "block/heavy_pressure_plate_power9"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 269
+      },
+      "name": 269,
+      "model": "block/heavy_pressure_plate_power10"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 270
+      },
+      "name": 270,
+      "model": "block/heavy_pressure_plate_power11"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 271
+      },
+      "name": 271,
+      "model": "block/heavy_pressure_plate_power12"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 272
+      },
+      "name": 272,
+      "model": "block/heavy_pressure_plate_power13"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 273
+      },
+      "name": 273,
+      "model": "block/heavy_pressure_plate_power14"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 274
+      },
+      "name": 274,
+      "model": "block/heavy_pressure_plate_power15"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 275
+      },
+      "name": 275,
+      "model": "block/iron_trapdoor_bottom_s"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 276
+      },
+      "name": 276,
+      "model": "block/iron_trapdoor_bottom_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 277
+      },
+      "name": 277,
+      "model": "block/iron_trapdoor_bottom_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 278
+      },
+      "name": 278,
+      "model": "block/polished_andesite_slab_double"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 279
+      },
+      "name": 279,
+      "model": "block/polished_diorite_slab_double"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 280
+      },
+      "name": 280,
+      "model": "block/andesite_slab_double"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 281
+      },
+      "name": 281,
+      "model": "block/iron_trapdoor_top_open"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 282
+      },
+      "name": 282,
+      "model": "block/unused_cross_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 283
+      },
+      "name": 283,
+      "model": "block/unused_cross_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 284
+      },
+      "name": 284,
+      "model": "block/redstone_torch_off"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 285
+      },
+      "name": 285,
+      "model": "block/tripwire_hook"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 286
+      },
+      "name": 286,
+      "model": "block/fire_floor0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 287
+      },
+      "name": 287,
+      "model": "block/anvil_damage0_sw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 288
+      },
+      "name": 288,
+      "model": "block/anvil_damage0_ne"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 289
+      },
+      "name": 289,
+      "model": "block/anvil_damage1_sw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 290
+      },
+      "name": 290,
+      "model": "block/anvil_damage1_ne"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 291
+      },
+      "name": 291,
+      "model": "block/anvil_damage2_sw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 292
+      },
+      "name": 292,
+      "model": "block/anvil_damage2_ne"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 293
+      },
+      "name": 293,
+      "model": "block/chorus_flower_stage0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 294
+      },
+      "name": 294,
+      "model": "block/chorus_flower_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 295
+      },
+      "name": 295,
+      "model": "block/chorus_flower_stage2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 296
+      },
+      "name": 296,
+      "model": "block/chorus_flower_stage3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 297
+      },
+      "name": 297,
+      "model": "block/chorus_flower_stage4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 298
+      },
+      "name": 298,
+      "model": "block/chorus_flower_stage5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 299
+      },
+      "name": 299,
+      "model": "block/white_glazed_terracotta_sw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300
+      },
+      "name": 300,
+      "model": "block/white_glazed_terracotta_ne"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 301
+      },
+      "name": 301,
+      "model": "block/yellow_glazed_terracotta_sw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 302
+      },
+      "name": 302,
+      "model": "block/yellow_glazed_terracotta_ne"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 303
+      },
+      "name": 303,
+      "model": "block/light_gray_glazed_terracotta_sw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 304
+      },
+      "name": 304,
+      "model": "block/light_gray_glazed_terracotta_ne"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 305
+      },
+      "name": 305,
+      "model": "block/brown_glazed_terracotta_sw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 306
+      },
+      "name": 306,
+      "model": "block/brown_glazed_terracotta_ne"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 307
+      },
+      "name": 307,
+      "model": "block/pink_concrete_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 308
+      },
+      "name": 308,
+      "model": "block/large_small_sandstone_combo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 309
+      },
+      "name": 309,
+      "model": "block/yellow_concrete_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 310
+      },
+      "name": 310,
+      "model": "block/red_mushroom_block_neswud"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 311
+      },
+      "name": 311,
+      "model": "block/red_mushroom_block_nesud"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 312
+      },
+      "name": 312,
+      "model": "block/light_gray_concrete_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 313
+      },
+      "name": 313,
+      "model": "block/brown_concrete_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 314
+      },
+      "name": 314,
+      "model": "block/boulders_light"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 315
+      },
+      "name": 315,
+      "model": "block/boulders_dark"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 316
+      },
+      "name": 316,
+      "model": "block/boulders_mixed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 317
+      },
+      "name": 317,
+      "model": "block/boulders_mossy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 318
+      },
+      "name": 318,
+      "model": "item/dark_oak_half_door_open"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 319
+      },
+      "name": 319,
+      "model": "block/grass_block_polished_andesite_inventory"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 320
+      },
+      "name": 320,
+      "model": "block/replace"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 321
+      },
+      "name": 321,
+      "model": "block/acacia_fence_gate_powered_closed_ne"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 322
+      },
+      "name": 322,
+      "model": "block/birch_fence_gate_powered_open"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 323
+      },
+      "name": 323,
+      "model": "block/dark_oak_fence_gate_powered_open"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 324
+      },
+      "name": 324,
+      "model": "block/jungle_fence_gate_powered_open"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 325
+      },
+      "name": 325,
+      "model": "block/spruce_fence_gate_open"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 326
+      },
+      "name": 326,
+      "model": "block/acacia_fence_gate_open"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 327
+      },
+      "name": 327,
+      "model": "item/shutter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 328
+      },
+      "name": 328,
+      "model": "block/cocoa_stage2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 329
+      },
+      "name": 329,
+      "model": "block/cocoa_stage1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330
+      },
+      "name": 330,
+      "model": "block/end_portal_frame_filled_east"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 331
+      },
+      "name": 331,
+      "model": "block/end_portal_frame_filled_west"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 332
+      },
+      "name": 332,
+      "model": "block/comparator_powered_subtract_n"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 333
+      },
+      "name": 333,
+      "model": "block/comparator_powered_subtract_e"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 334
+      },
+      "name": 334,
+      "model": "block/cocoa_stage0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 335
+      },
+      "name": 335,
+      "model": "block/cocoa_stage0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 336
+      },
+      "name": 336,
+      "model": "block/cocoa_stage0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 337
+      },
+      "name": 337,
+      "model": "item/beacon_default"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338
+      },
+      "name": 338,
+      "model": "block/unused_cross_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339
+      },
+      "name": 339,
+      "model": "item/stationary_lava"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 340
+      },
+      "name": 340,
+      "model": "item/stationary_lava_height2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 341
+      },
+      "name": 341,
+      "model": "item/stationary_water"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 342
+      },
+      "name": 342,
+      "model": "item/stationary_water_height2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 343
+      },
+      "name": 343,
+      "model": "item/stationary_water_height4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 344
+      },
+      "name": 344,
+      "model": "item/stationary_water_height6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 345
+      },
+      "name": 345,
+      "model": "item/stationary_water_height8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 346
+      },
+      "name": 346,
+      "model": "item/stationary_water_height10"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 347
+      },
+      "name": 347,
+      "model": "item/stationary_water_height12"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 348
+      },
+      "name": 348,
+      "model": "item/stationary_water_height14"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 349
+      },
+      "name": 349,
+      "model": "block/double_slab_planks_jungle_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 350
+      },
+      "name": 350,
+      "model": "block/brown_mushroom_block_inside_all"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 351
+      },
+      "name": 351,
+      "model": "block/brown_mushroom_block_nw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 352
+      },
+      "name": 352,
+      "model": "block/brown_mushroom_block_n"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 353
+      },
+      "name": 353,
+      "model": "block/brown_mushroom_block_ne"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 354
+      },
+      "name": 354,
+      "model": "block/brown_mushroom_block_w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 355
+      },
+      "name": 355,
+      "model": "item/stationary_lava_height4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 356
+      },
+      "name": 356,
+      "model": "item/stationary_lava_height6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 357
+      },
+      "name": 357,
+      "model": "item/stationary_lava_height8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 358
+      },
+      "name": 358,
+      "model": "item/stationary_lava_height10"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 359
+      },
+      "name": 359,
+      "model": "item/stationary_lava_height12"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 360
+      },
+      "name": 360,
+      "model": "item/stationary_lava_height14"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 361
+      },
+      "name": 361,
+      "model": "item/redstone_dust_power6_center"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 362
+      },
+      "name": 362,
+      "model": "item/redstone_dust_power7_center"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 363
+      },
+      "name": 363,
+      "model": "block/repeater_delay2_n"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 364
+      },
+      "name": 364,
+      "model": "block/repeater_delay2_e"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 365
+      },
+      "name": 365,
+      "model": "block/vertical_slab_mossy_dark_gray_brick"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 366
+      },
+      "name": 366,
+      "model": "block/note_block_1"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 367
+      },
+      "name": 367,
+      "model": "block/note_block_7"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 368
+      },
+      "name": 368,
+      "model": "block/note_block_13"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 369
+      },
+      "name": 369,
+      "model": "block/note_block_19"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 370
+      },
+      "name": 370,
+      "model": "block/red_mushroom_block_nwu"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 371
+      },
+      "name": 371,
+      "model": "block/red_mushroom_block_nw"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 372
+      },
+      "name": 372,
+      "model": "block/red_mushroom_block_n"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 373
+      },
+      "name": 373,
+      "model": "block/red_mushroom_block_nu"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 374
+      },
+      "name": 374,
+      "model": "block/red_mushroom_block_eswu"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 375
+      },
+      "name": 375,
+      "model": "block/grass_slab_inventory"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 376
+      },
+      "name": 376,
+      "model": "block/vertical_slab_red_mushroom_block_newud"
+	},
+	{
+      "predicate": {
+        "custom_model_data": 377
+      },
+      "name": 377,
+      "model": "block/vertical_slab_red_mushroom_block_new"
+	  },
+	{
+      "predicate": {
+        "custom_model_data": 378
+      },
+      "name": 378,
+      "model": "block/vertical_slab_red_mushroom_block_neud"
+	  },
+	{
+      "predicate": {
+        "custom_model_data": 379
+      },
+      "name": 379,
+      "model": "block/vertical_slab_red_mushroom_block_newd"
+	  },
+	{
+      "predicate": {
+        "custom_model_data": 380
+      },
+      "name": 380,
+      "model": "block/vertical_slab_red_mushroom_block_nwud"
+	  },
+	{
+      "predicate": {
+        "custom_model_data": 381
+      },
+      "name": 381,
+      "model": "block/vertical_slab_double_slab_mossy_stone_brick"
+	  },
+	{
+      "predicate": {
+        "custom_model_data": 382
+      },
+      "name": 382,
+      "model": "block/red_mushroom_block_esw"
+	  },
+	{
+      "predicate": {
+        "custom_model_data": 383
+      },
+      "name": 383,
+      "model": "block/crimson_hyphae"
+	  },
+	{
+      "predicate": {
+        "custom_model_data": 384
+      },
+      "name": 384,
+      "model": "block/stripped_crimson_hyphae"
+	  },
+  {
+      "predicate": {
+        "custom_model_data": 385
+      },
+      "name": 385,
+      "model": "block/red_mushroom_block_esd"
+    },
+  {
+      "predicate": {
+         "custom_model_data": 386
+      },
+      "name": 386,
+      "model": "block/red_mushroom_block_es"
+      },
+  {
+      "predicate": {
+         "custom_model_data": 387
+      },
+      "name": 387,
+      "model": "block/note_block_snare_0"
+      },
+  {
+      "predicate": {
+         "custom_model_data": 388
+      },
+      "name": 388,
+      "model": "block/note_block_snare_1"
+      },
+  {
+      "predicate": {
+         "custom_model_data": 389
+      },
+      "name": 389,
+      "model": "block/note_block_snare_2"
+      },
+  {
+      "predicate": {
+         "custom_model_data": 390
+      },
+      "name": 390,
+      "model": "block/note_block_snare_3"
+      },
+  {
+      "predicate": {
+         "custom_model_data": 391
+      },
+      "name": 391,
+      "model": "block/trunk_diagonal"
+      },
+  {
+      "predicate": {
+         "custom_model_data": 392
+      },
+      "name": 392,
+      "model": "block/acacia_door_railing"
+      },
+  {
+      "predicate": {
+         "custom_model_data": 393
+      },
+      "name": 393,
+      "model": "block/acacia_door_railing_diagonal"
+      },
+  {
+      "predicate": {
+         "custom_model_data": 394
+      },
+      "name": 394,
+      "model": "block/acacia_door_railing_corner"
+      },
+  {
+      "predicate": {
+         "custom_model_data": 395
+      },
+      "name": 395,
+      "model": "block/acacia_door_fence"
+      },
+  {
+      "predicate": {
+         "custom_model_data": 396
+      },
+      "name": 396,
+      "model": "item/waterlogged_sand_slab"
+      },
+  {
+      "predicate": {
+         "custom_model_data": 397
+      },
+      "name": 397,
+      "model": "block/double_slab_dark_prismarine"
+      },
+  {
+      "predicate": {
+         "custom_model_data": 398
+      },
+      "name": 398,
+      "model": "block/redstone_dust_power8_center"
+      },
+  {
+      "predicate": {
+         "custom_model_data": 399
+      },
+      "name": 399,
+      "model": "block/note_block_snare_4"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 400
+      },
+      "name": 400,
+      "model": "block/beam_diagonal_s_down"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 401
+      },
+      "name": 401,
+      "model": "block/stripped_crimson_hyphae_y"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 402
+      },
+      "name": 402,
+      "model": "item/display_grass_block_stones_only"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 403
+      },
+      "name": 403,
+      "model": "block/beam_diagonal_s"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 404
+      },
+      "name": 404,
+      "model": "item/display_trunk_diagonal_ns"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 405
+      },
+      "name": 405,
+      "model": "block/hopper_light_gray_large_doric"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 406
+      },
+      "name": 406,
+      "model": "block/birch_leaves_pillar_thick"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 407
+      },
+      "name": 407,
+      "model": "block/birch_leaves_pillar_thick_bottom"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 408
+      },
+      "name": 408,
+      "model": "block/scaffolding_1x1arch"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 409
+      },
+      "name": 409,
+      "model": "block/smooth_quartz_stairs_1x2arch"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 410
+      },
+      "name": 410,
+      "model": "block/dark_oak_button_1x3arch_top"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 411
+      },
+      "name": 411,
+      "model": "block/acacia_door_1x3arch"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 412
+      },
+      "name": 412,
+      "model": "block/acacia_door_corbel"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 413
+      },
+      "name": 413,
+      "model": "block/jungle_button_corbel"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 414
+      },
+      "name": 414,
+      "model": "block/dark_prismarine_slab_inv"
+      },
+  {
+      "predicate": {
+          "custom_model_data": 415
+      },
+      "name": 415,
+      "model": "block/scaffolding_spinning_wheel"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 416
+          },
+        "name": 416,
+        "model": "block/unused_cross_0"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 417
+          },
+        "name": 417,
+        "model": "block/beam_diagonal_s_support"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 418
+          },
+        "name": 418,
+        "model": "block/warped_door_cross_railing"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 419
+          },
+        "name": 419,
+        "model": "block/warped_door_railing"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 420
+          },
+        "name": 420,
+        "model": "block/twisting_vines_stair"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 421
+          },
+        "name": 421,
+        "model": "block/twisting_vines_stair_2"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 422
+          },
+        "name": 422,
+        "model": "block/twisting_vines_stair_3"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 423
+          },
+        "name": 423,
+        "model": "block/warped_door_woven_fence"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 424
+          },
+        "name": 424,
+        "model": "block/beam_horizontal_down"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 425
+          },
+        "name": 425,
+        "model": "block/beam_horizontal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 426
+          },
+        "name": 426,
+        "model": "block/crimson_roots"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 427
+          },
+        "name": 427,
+        "model": "block/warped_roots"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 428
+          },
+        "name": 428,
+        "model": "block/twisting_vines_plant"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 429
+          },
+        "name": 429,
+        "model": "block/repeater_delay1_nl"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 430
+          },
+        "name": 430,
+        "model": "block/crimson_fence_gate_powered_open"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 431
+          },
+        "name": 431,
+        "model": "item/scaffolding_stone_window_down"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 432
+          },
+        "name": 432,
+        "model": "block/scaffolding_stone_window"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 433
+          },
+        "name": 433,
+        "model": "block/hopper_light_gray_ionic"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 434
+          },
+        "name": 434,
+        "model": "block/crimson_fence_gate_wall_powered"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 435
+          },
+        "name": 435,
+        "model": "block/crimson_planks_double_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 436
+          },
+        "name": 436,
+        "model": "block/prismarine_brick_double_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 437
+          },
+        "name": 437,
+        "model": "block/target_block_power4"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 438
+          },
+        "name": 438,
+        "model": "block/target_block_power2"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 439
+          },
+        "name": 439,
+        "model": "block/target_block_power0"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 440
+          },
+        "name": 440,
+        "model": "block/note_block_sticks"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 441
+          },
+        "name": 441,
+        "model": "block/target_block_power5"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 442
+          },
+        "name": 442,
+        "model": "block/mycelium_snow"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 443
+          },
+        "name": 443,
+        "model": "block/piston_head_short"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 444
+          },
+        "name": 444,
+        "model": "block/locked_repeater_delay1_e"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 445
+          },
+        "name": 445,
+        "model": "block/locked_repeater_delay1_s"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 446
+          },
+        "name": 446,
+        "model": "block/locked_repeater_delay1_w"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 447
+          },
+        "name": 447,
+        "model": "block/end_portal_frame_empty_east"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 448
+          },
+        "name": 448,
+        "model": "block/end_portal_frame_empty_west"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 449
+          },
+        "name": 449,
+        "model": "block/table_low_2"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 450
+          },
+        "name": 450,
+        "model": "block/table_low_1"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 451
+          },
+        "name": 451,
+        "model": "block/target_block_power1"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 452
+          },
+        "name": 452,
+        "model": "block/twisting_vines_diagonal_beam"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 453
+          },
+        "name": 453,
+        "model": "block/twisting_vines_diagonal_beam_2"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 454
+          },
+        "name": 454,
+        "model": "block/twisting_vines_diagonal_beam_1"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 455
+          },
+        "name": 455,
+        "model": "block/target_block_power6"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 456
+          },
+        "name": 456,
+        "model": "block/target_block_power7"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 457
+          },
+        "name": 457,
+        "model": "block/target_block_power9"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 458
+          },
+        "name": 458,
+        "model": "item/dark_oak_leaves_grass_soil_inventory"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 459
+          },
+        "name": 459,
+        "model": "block/locked_powered_repeater_delay1_n"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 460
+          },
+        "name": 460,
+        "model": "block/locked_powered_repeater_delay1_e"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 461
+          },
+        "name": 461,
+        "model": "block/twisting_vines_grapes"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 462
+          },
+        "name": 462,
+        "model": "block/graham"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 463
+          },
+        "name": 463,
+        "model": "block/inn_banner"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 464
+          },
+        "name": 464,
+        "model": "block/elf_banner"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 465
+          },
+        "name": 465,
+        "model": "block/sea_banner"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 466
+          },
+        "name": 466,
+        "model": "block/tools"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 467
+          },
+        "name": 467,
+        "model": "block/crimson_button_wall"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 468
+          },
+        "name": 468,
+        "model": "block/twisting_vines_diagonal_beam_3"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 469
+          },
+        "name": 469,
+        "model": "block/twisting_vines_diagonal_beam_4"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 470
+          },
+        "name": 470,
+        "model": "block/twisting_vines_diagonal_beam_5"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 471
+          },
+        "name": 471,
+        "model": "block/unused_cross_0"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 472
+          },
+        "name": 472,
+        "model": "block/beam_horizontal_light_down"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 473
+          },
+        "name": 473,
+        "model": "block/beam_horizontal_light"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 474
+          },
+        "name": 474,
+        "model": "block/scaffolding_1x1arch_sandstone"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 475
+          },
+        "name": 475,
+        "model": "block/dark_oak_button_1x3arch_top_sandstone"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 476
+          },
+        "name": 476,
+        "model": "block/jungle_button_corbel_sandstone"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 477
+          },
+        "name": 477,
+        "model": "block/beam_core_light"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 478
+          },
+        "name": 478,
+        "model": "block/beam_diagonal_light_e"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 479
+          },
+        "name": 479,
+        "model": "block/beam_diagonal_light_e_support"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 480
+          },
+        "name": 480,
+        "model": "block/hopper_light_gray_architrave"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 481
+          },
+        "name": 481,
+        "model": "block/hopper_sandstone_ionic"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 482
+          },
+        "name": 482,
+        "model": "block/hopper_sandstone_large_doric"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 483
+          },
+        "name": 483,
+        "model": "block/azalea_leaves_pillar_thick"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 484
+          },
+        "name": 484,
+        "model": "block/azalea_leaves_pillar_thick_bottom"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 485
+          },
+        "name": 485,
+        "model": "block/hopper_sandstone_architrave"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 486
+          },
+        "name": 486,
+        "model": "block/scaffolding_1x1arch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 487
+          },
+        "name": 487,
+        "model": "block/smooth_quartz_stairs_1x2arch_sandstone"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 488
+          },
+        "name": 488,
+        "model": "block/crimson_door_1x3arch_sandstone"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 489
+          },
+        "name": 489,
+        "model": "block/warped_door_cross_railing_light"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 490
+          },
+        "name": 490,
+        "model": "block/door_railing_light"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 491
+          },
+        "name": 491,
+        "model": "block/brown_mushroom_block_sd"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 492
+          },
+        "name": 492,
+        "model": "block/sandstone_pillar"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 493
+          },
+        "name": 493,
+        "model": "block/unused_block_0",
+        "model_missing": "block/oak_branch_45_straight"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 494
+          },
+        "name": 494,
+        "model": "block/unused_block_0",
+        "model_missing": "block/oak_twig_branch_up"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 495
+          },
+        "name": 495,
+        "model_missing": "block/oak_twig_branch",
+        "model": "block/unused_block_0"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 496
+          },
+        "name": 496,
+        "model": "block/oak_leaves_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 497
+          },
+        "name": 497,
+        "model": "block/inventory_dry_grass"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 498
+          },
+        "name": 498,
+        "model": "block/grass"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 499
+          },
+        "name": 499,
+        "model": "block/tall_grass"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 500
+          },
+        "name": 500,
+        "model": "block/dead_bush"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 501
+          },
+        "name": 501,
+        "model": "block/dead_tube_coral"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 502
+          },
+        "name": 502,
+        "model": "block/peonyt"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 503
+          },
+        "name": 503,
+        "model": "block/big_dripleaf_nn"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 504
+          },
+        "name": 504,
+        "model": "block/dead_horn_coral"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 505
+          },
+        "name": 505,
+        "model": "block/rose_busht"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 506
+          },
+        "name": 506,
+        "model": "block/twisting_vines_17"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 507
+          },
+        "name": 507,
+        "model": "mcme:block/inv_ash_branch_main"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 508
+          },
+        "name": 508,
+        "model": "mcme:block/ash_bark_transition"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 509
+          },
+        "name": 509,
+        "model": "block/tube_coral"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 510
+          },
+        "name": 510,
+        "model": "block/bubble_coral"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 511
+          },
+        "name": 511,
+        "model": "block/brain_coral"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 512
+          },
+        "name": 512,
+        "model": "block/dead_bubble_coral"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 513
+          },
+        "name": 513,
+        "model": "block/lilac"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 514
+          },
+        "name": 514,
+        "model": "block/dead_brain_coral"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 515
+          },
+        "name": 515,
+        "model": "block/dandelion"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 516
+          },
+        "name": 516,
+        "model": "block/acacia_sapling_1"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 517
+          },
+        "name": 517,
+        "model": "block/small_dripleaf_bs"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 518
+          },
+        "name": 518,
+        "model": "block/dead_fire_coral"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 519
+          },
+        "name": 519,
+        "model": "block/unused_block_0",
+        "model_missing": "block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 520
+          },
+        "name": 520,
+        "model": "block/orange_tulip"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 521
+          },
+        "name": 521,
+        "model": "block/allium"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 522
+          },
+        "name": 522,
+        "model": "block/oxeye_daisy"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 523
+          },
+        "name": 523,
+        "model": "block/azure_bluet"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 524
+          },
+        "name": 524,
+        "model": "block/white_tulip"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 525
+          },
+        "name": 525,
+        "model": "block/autumn_dandelion"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 526
+          },
+        "name": 526,
+        "model": "block/lily_of_the_valley"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 527
+          },
+        "name": 527,
+        "model": "block/small_dripleaf_tn"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 528
+          },
+        "name": 528,
+        "model": "block/small_dripleaf_bn"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 529
+          },
+        "name": 529,
+        "model": "block/red_tulip"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 530
+          },
+        "name": 530,
+        "model": "block/peony_bottom"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 531
+          },
+        "name": 531,
+        "model": "block/fire_coral"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 532
+          },
+        "name": 532,
+        "model": "block/cornflower"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 533
+          },
+        "name": 533,
+        "model": "block/poppy"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 534
+          },
+        "name": 534,
+        "model": "block/birch_sapling"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 535
+          },
+        "name": 535,
+        "model": "block/jungle_sapling_1"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 536
+          },
+        "name": 536,
+        "model": "block/pink_tulip_1"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 537
+          },
+        "name": 537,
+        "model": "block/blue_orchid"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 538
+          },
+        "name": 538,
+        "model": "block/dark_oak_sapling_stage0"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 539
+          },
+        "name": 539,
+        "model": "block/small_dripleaf_bw"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 540
+          },
+        "name": 540,
+        "model": "block/blue_throatwort"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 541
+          },
+        "name": 541,
+        "model": "block/small_dripleaf_ts"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 542
+          },
+        "name": 542,
+        "model": "block/small_dripleaf_tw"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 543
+          },
+        "name": 543,
+        "model": "block/small_dripleaf_be"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 544
+          },
+        "name": 544,
+        "model": "block/acacia_log"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 545
+          },
+        "name": 545,
+        "model": "block/mossy_ash"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 546
+          },
+        "name": 546,
+        "model": "block/note_block_bass_5"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 547
+          },
+        "name": 547,
+        "model": "block/ash_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 548
+          },
+        "name": 548,
+        "model": "block/ash_log_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 549
+          },
+        "name": 549,
+        "model": "block/ash_bark_transition"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 550
+          },
+        "name": 550,
+        "model": "block/ash_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 551
+          },
+        "name": 551,
+        "model": "block/ash_mossy_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 552
+          },
+        "name": 552,
+        "model": "block/ash_bark_vertical_thin_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 553
+          },
+        "name": 553,
+        "model": "block/ash_bark_transition"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 554
+          },
+        "name": 554,
+        "model": "mcme:block/ash_thin_trunk_vertical"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 555
+          },
+        "name": 555,
+        "model": "mcme:block/inv_ash_trunk_thin"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 556
+          },
+        "name": 556,
+        "model": "mcme:block/inv_ash_trunk"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 557
+          },
+        "name": 557,
+        "model": "mcme:block/inv_birch_trunk_thin"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 558
+          },
+        "name": 558,
+        "model": "mcme:block/inv_beech_trunk_thin"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 559
+          },
+        "name": 559,
+        "model": "mcme:block/inv_chestnut_trunk_thin"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 560
+          },
+        "name": 560,
+        "model": "mcme:block/inv_elm_trunk_thin"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 561
+          },
+        "name": 561,
+        "model": "mcme:block/inv_larch_trunk_thin"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 562
+          },
+        "name": 562,
+        "model": "block/birch_log"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 563
+          },
+        "name": 563,
+        "model": "block/red_mushroom_block_ud"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 564
+          },
+        "name": 564,
+        "model": "block/note_block_bass_3"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 565
+          },
+        "name": 565,
+        "model": "mcme:block/birch_bark_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 566
+          },
+        "name": 566,
+        "model": "mcme:block/birch_log_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 567
+          },
+        "name": 567,
+        "model": "mcme:block/birch_bark_transition_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 568
+          },
+        "name": 568,
+        "model": "mcme:block/birch_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 569
+          },
+        "name": 569,
+        "model": "mcme:block/birch_mossy_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 570
+          },
+        "name": 570,
+        "model": "block/birch_bark_vertical_thin_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 571
+          },
+        "name": 571,
+        "model": "mcme:block/inv_birch_trunk"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 572
+          },
+        "name": 572,
+        "model": "mcme:block/inv_maple_trunk_thin"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 573
+          },
+        "name": 573,
+        "model": "mcme:block/inv_oak_trunk_thin"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 574
+          },
+        "name": 574,
+        "model": "mcme:block/inv_pine_trunk_thin"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 575
+          },
+        "name": 575,
+        "model": "mcme:block/inv_poplar_trunk_thin"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 576
+          },
+        "name": 576,
+        "model": "mcme:block/inv_spruce_trunk_thin"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 577
+          },
+        "name": 577,
+        "model": "mcme:block/inv_whitebeam_trunk_thin"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 578
+          },
+        "name": 578,
+        "model": "mcme:block/inv_birch_branch_main"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 579
+          },
+        "name": 579,
+        "model": "block/unused_block_0",
+        "model_missing": "block/birch_twig_branch_down"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 580
+          },
+        "name": 580,
+        "model": "block/stripped_oak_wood"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 581
+          },
+        "name": 581,
+        "model": "block/stripped_jungle_log_y"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 582
+          },
+        "name": 582,
+        "model": "block/note_block_snare_5"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 583
+          },
+        "name": 583,
+        "model": "block/weathered_cut_copper_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 584
+          },
+        "name": 584,
+        "model": "block/beech_log_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 585
+          },
+        "name": 585,
+        "model": "block/beech_bark_transition_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 586
+          },
+        "name": 586,
+        "model": "block/beech_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 587
+          },
+        "name": 587,
+        "model": "block/beech_mossy_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 588
+          },
+        "name": 588,
+        "model": "block/beech_bark_vertical_thin_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 589
+          },
+        "name": 589,
+        "model": "mcme:block/inv_beech_trunk"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 590
+          },
+        "name": 590,
+        "model": "mcme:block/inv_beech_branch_main"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 591
+          },
+        "name": 591,
+        "model": "mcme:block/inv_chestnut_branch_main"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 592
+          },
+        "name": 592,
+        "model": "mcme:block/inv_elm_branch_main"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 593
+          },
+        "name": 593,
+        "model": "mcme:block/inv_larch_branch_main"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 594
+          },
+        "name": 594,
+        "model": "mcme:block/inv_maple_branch_main"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 595
+          },
+        "name": 595,
+        "model": "mcme:block/inv_oak_branch_main"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 596
+          },
+        "name": 596,
+        "model": "mcme:block/inv_pine_branch_main"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 597
+          },
+        "name": 597,
+        "model": "mcme:block/inv_poplar_branch_main"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 598
+          },
+        "name": 598,
+        "model": "block/stripped_spruce_wood"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 599
+          },
+        "name": 599,
+        "model": "block/crimson_stem"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 600
+          },
+        "name": 600,
+        "model": "block/note_block_bass_2"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 601
+          },
+        "name": 601,
+        "model": "block/chestnut_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 602
+          },
+        "name": 602,
+        "model": "block/chestnut_log_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 603
+          },
+        "name": 603,
+        "model": "block/chestnut_bark_transition_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 604
+          },
+        "name": 604,
+        "model": "block/chestnut_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 605
+          },
+        "name": 605,
+        "model": "block/chestnut_mossy_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 606
+          },
+        "name": 606,
+        "model": "block/chestnut_bark_vertical_thin_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 607
+          },
+        "name": 607,
+        "model": "mcme:block/inv_chestnut_trunk"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 608
+          },
+        "name": 608,
+        "model": "mcme:block/inv_spruce_branch_main"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 609
+          },
+        "name": 609,
+        "model": "mcme:block/inv_whitebeam_branch_main"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 610
+          },
+        "name": 610,
+        "model": "block/bamboo1_age0"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 611
+          },
+        "name": 611,
+        "model": "block/bamboo1_age1"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 612
+          },
+        "name": 612,
+        "model": "block/bamboo_small_leaves"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 613
+          },
+        "name": 613,
+        "model": "block/target15"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 614
+          },
+        "name": 614,
+        "model": "block/target14"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 615
+          },
+        "name": 615,
+        "model": "block/target13"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 616
+          },
+        "name": 616,
+        "model": "block/jungle_wood"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 617
+          },
+        "name": 617,
+        "model": "block/stripped_spruce_log"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 618
+          },
+        "name": 618,
+        "model": "block/note_block_flute_2"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 619
+          },
+        "name": 619,
+        "model": "block/elm_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 620
+          },
+        "name": 620,
+        "model": "block/elm_log_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 621
+          },
+        "name": 621,
+        "model": "block/elm_bark_transition_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 622
+          },
+        "name": 622,
+        "model": "block/elm_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 623
+          },
+        "name": 623,
+        "model": "block/elm_mossy_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 624
+          },
+        "name": 624,
+        "model": "block/elm_bark_vertical_thin_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 625
+          },
+        "name": 625,
+        "model": "mcme:block/inv_elm_trunk"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 626
+          },
+        "name": 626,
+        "model": "block/double_slab_weathered_cut_copper"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 627
+          },
+        "name": 627,
+        "model": "block/double_slab_cut_copper_2"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 628
+          },
+        "name": 628,
+        "model": "block/target12"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 629
+          },
+        "name": 629,
+        "model": "block/target10"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 630
+          },
+        "name": 630,
+        "model": "block/target11"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 631
+          },
+        "name": 631,
+        "model": "block/beam_round_e_down_2"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 632
+          },
+        "name": 632,
+        "model": "block/beam_round_e_2"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 633
+          },
+        "name": 633,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/waxed_exposed_cut_copper"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 634
+          },
+        "name": 634,
+        "model": "block/stripped_acacia_log"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 635
+          },
+        "name": 635,
+        "model": "block/mossy_larch"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 636
+          },
+        "name": 636,
+        "model": "block/note_block_flute_3"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 637
+          },
+        "name": 637,
+        "model": "block/larch_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 638
+          },
+        "name": 638,
+        "model": "block/larch_log_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 639
+          },
+        "name": 639,
+        "model": "block/larch_bark_transition_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 640
+          },
+        "name": 640,
+        "model": "block/larch_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 641
+          },
+        "name": 641,
+        "model": "block/larch_mossy_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 642
+          },
+        "name": 642,
+        "model": "block/larch_bark_vertical_thin_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 643
+          },
+        "name": 643,
+        "model": "mcme:block/inv_larch_trunk"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 644
+          },
+        "name": 644,
+        "model": "block/vertical_slab_stone"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 645
+          },
+        "name": 645,
+        "model": "block/gray_pine_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 646
+          },
+        "name": 646,
+        "model": "block/stone_brick_window"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 647
+          },
+        "name": 647,
+        "model": "block/stone_brick_window_bottom"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 648
+          },
+        "name": 648,
+        "model": "mcme:block/hanging_bush"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 649
+          },
+        "name": 649,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 650
+          },
+        "name": 650,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 651
+          },
+        "name": 651,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 652
+          },
+        "name": 652,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 653
+          },
+        "name": 653,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 654
+          },
+        "name": 654,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 655
+          },
+        "name": 655,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 656
+          },
+        "name": 656,
+        "model": "block/dark_oak_log_4"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 657
+          },
+        "name": 657,
+        "model": "block/mossy_maple"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 658
+          },
+        "name": 658,
+        "model": "block/note_block_snare_6"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 659
+          },
+        "name": 659,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 660
+          },
+        "name": 660,
+        "model": "block/maple_log_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 661
+          },
+        "name": 661,
+        "model": "block/maple_bark_transition_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 662
+          },
+        "name": 662,
+        "model": "block/maple_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 663
+          },
+        "name": 663,
+        "model": "block/maple_mossy_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 664
+          },
+        "name": 664,
+        "model": "block/maple_bark_vertical_thin_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 665
+          },
+        "name": 665,
+        "model": "mcme:block/inv_maple_trunk"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 666
+          },
+        "name": 666,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 667
+          },
+        "name": 667,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 668
+          },
+        "name": 668,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 669
+          },
+        "name": 669,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 670
+          },
+        "name": 670,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 671
+          },
+        "name": 671,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 672
+          },
+        "name": 672,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 673
+          },
+        "name": 673,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 674
+          },
+        "name": 674,
+        "model": "mcme:block/oak_wood"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 675
+          },
+        "name": 675,
+        "model": "block/mossy_oak"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 676
+          },
+        "name": 676,
+        "model": "block/note_block_snare_0"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 677
+          },
+        "name": 677,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 678
+          },
+        "name": 678,
+        "model": "block/cut_copper_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 679
+          },
+        "name": 679,
+        "model": "mcme:block/oak_log_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 680
+          },
+        "name": 680,
+        "model": "mcme:block/oak_bark_transition_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 681
+          },
+        "name": 681,
+        "model": "mcme:block/oak_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 682
+          },
+        "name": 682,
+        "model": "mcme:block/oak_mossy_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 683
+          },
+        "name": 683,
+        "model": "block/oak_bark_vertical_thin_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 684
+          },
+        "name": 684,
+        "model": "mcme:block/inv_oak_trunk"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 685
+          },
+        "name": 685,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 686
+          },
+        "name": 686,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 687
+          },
+        "name": 687,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 688
+          },
+        "name": 688,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 689
+          },
+        "name": 689,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 690
+          },
+        "name": 690,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 691
+          },
+        "name": 691,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 692
+          },
+        "name": 692,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 693
+          },
+        "name": 693,
+        "model": "block/stripped_birch_wood"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 694
+          },
+        "name": 694,
+        "model": "block/mossy_pine"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 695
+          },
+        "name": 695,
+        "model": "block/waxed_weathered_cut_copper"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 696
+          },
+        "name": 696,
+        "model": "block/red_mushroom_block_weu"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 697
+          },
+        "name": 697,
+        "model": "block/note_block_bass_1"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 698
+          },
+        "name": 698,
+        "model": "block/pine_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 699
+          },
+        "name": 699,
+        "model": "block/pine_log_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 700
+          },
+        "name": 700,
+        "model": "block/pine_bark_transition_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 701
+          },
+        "name": 701,
+        "model": "block/pine_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 702
+          },
+        "name": 702,
+        "model": "block/pine_mossy_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 703
+          },
+        "name": 703,
+        "model": "block/pine_bark_vertical_thin_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 704
+          },
+        "name": 704,
+        "model": "mcme:block/inv_pine_trunk"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 705
+          },
+        "name": 705,
+        "model": "block/pine_bark_transition_alt"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 706
+          },
+        "name": 706,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 707
+          },
+        "name": 707,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 708
+          },
+        "name": 708,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 709
+          },
+        "name": 709,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 710
+          },
+        "name": 710,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 711
+          },
+        "name": 711,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 712
+          },
+        "name": 712,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 713
+          },
+        "name": 713,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 714
+          },
+        "name": 714,
+        "model": "block/stripped_jungle_wood"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 715
+          },
+        "name": 715,
+        "model": "block/red_mushroom_block_swd"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 716
+          },
+        "name": 716,
+        "model": "block/note_block_bass_4"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 717
+          },
+        "name": 717,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 718
+          },
+        "name": 718,
+        "model": "block/poplar_log_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 719
+          },
+        "name": 719,
+        "model": "block/poplar_bark_transition_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 720
+          },
+        "name": 720,
+        "model": "block/poplar_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 721
+          },
+        "name": 721,
+        "model": "block/poplar_mossy_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 722
+          },
+        "name": 722,
+        "model": "block/poplar_bark_vertical_thin_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 723
+          },
+        "name": 723,
+        "model": "mcme:block/inv_poplar_trunk"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 724
+          },
+        "name": 724,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 725
+          },
+        "name": 725,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 726
+          },
+        "name": 726,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 727
+          },
+        "name": 727,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 728
+          },
+        "name": 728,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 729
+          },
+        "name": 729,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 730
+          },
+        "name": 730,
+        "model": "block/spruce_wood"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 731
+          },
+        "name": 731,
+        "model": "block/spruce_log"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 732
+          },
+        "name": 732,
+        "model": "block/note_block_bass_0"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 733
+          },
+        "name": 733,
+        "model": "block/waxed_oxidized_cut_copper_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 734
+          },
+        "name": 734,
+        "model": "block/spruce_log_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 735
+          },
+        "name": 735,
+        "model": "block/spruce_bark_transition_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 736
+          },
+        "name": 736,
+        "model": "block/spruce_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 737
+          },
+        "name": 737,
+        "model": "block/spruce_mossy_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 738
+          },
+        "name": 738,
+        "model": "block/spruce_bark_vertical_thin_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 739
+          },
+        "name": 739,
+        "model": "mcme:block/inv_spruce_trunk"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 740
+          },
+        "name": 740,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 741
+          },
+        "name": 741,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 742
+          },
+        "name": 742,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 743
+          },
+        "name": 743,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 744
+          },
+        "name": 744,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 745
+          },
+        "name": 745,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 746
+          },
+        "name": 746,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 747
+          },
+        "name": 747,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 748
+          },
+        "name": 748,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 749
+          },
+        "name": 749,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 750
+          },
+        "name": 750,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 751
+          },
+        "name": 751,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 752
+          },
+        "name": 752,
+        "model": "block/stripped_dark_oak_wood"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 753
+          },
+        "name": 753,
+        "model": "block/note_block_flute"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 754
+          },
+        "name": 754,
+        "model": "block/whitebeam_log_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 755
+          },
+        "name": 755,
+        "model": "block/whitebeam_bark_transition_diagonal"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 756
+          },
+        "name": 756,
+        "model": "block/whitebeam_log_vertical_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 757
+          },
+        "name": 757,
+        "model": "block/whitebeam_bark_vertical_thin_slab"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 758
+          },
+        "name": 758,
+        "model": "mcme:block/inv_whitebeam_trunk"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 759
+          },
+        "name": 759,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 760
+          },
+        "name": 760,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 761
+          },
+        "name": 761,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 762
+          },
+        "name": 762,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 763
+          },
+        "name": 763,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 764
+          },
+        "name": 764,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 765
+          },
+        "name": 765,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 766
+          },
+        "name": 766,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 767
+          },
+        "name": 767,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 768
+          },
+        "name": 768,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 769
+          },
+        "name": 769,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 770
+          },
+        "name": 770,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 771
+          },
+        "name": 771,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 772
+          },
+        "name": 772,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 773
+          },
+        "name": 773,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 774
+          },
+        "name": 774,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 775
+          },
+        "name": 775,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 776
+          },
+        "name": 776,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 777
+          },
+        "name": 777,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 778
+          },
+        "name": 778,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 779
+          },
+        "name": 779,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 780
+          },
+        "name": 780,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 781
+          },
+        "name": 781,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 782
+          },
+        "name": 782,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 783
+          },
+        "name": 783,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 784
+          },
+        "name": 784,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 785
+          },
+        "name": 785,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 786
+          },
+        "name": 786,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 787
+          },
+        "name": 787,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 788
+          },
+        "name": 788,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 789
+          },
+        "name": 789,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 790
+          },
+        "name": 790,
+        "model": "block/wall_mushrooms"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 791
+          },
+        "name": 791,
+        "model": "block/brown_mushroom"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 792
+          },
+        "name": 792,
+        "model": "block/red_mushroom"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 793
+          },
+        "name": 793,
+        "model": "block/crimson_fungus"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 794
+          },
+        "name": 794,
+        "model": "block/fern"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 795
+          },
+        "name": 795,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 796
+          },
+        "name": 796,
+        "model": "block/rail_thin_shrub"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 797
+          },
+        "name": 797,
+        "model": "minecraft:block/unused_block_0",
+        "model_missing": "mcme:block/"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 798
+          },
+        "name": 798,
+        "model": "block/elm_stairs"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 799
+          },
+        "name": 799,
+        "model": "block/ash_stairs"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 800
+          },
+        "name": 800,
+        "model": "block/waxed_exposed_cut_copper_stairs"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 801
+          },
+        "name": 801,
+        "model": "block/larch_stairs"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 802
+          },
+        "name": 802,
+        "model": "block/weathered_cut_copper_stairs"
+      },
+      {
+       "predicate": {
+        "custom_model_data": 803
+          },
+        "name": 803,
+        "model": "block/waxed_oxidized_cut_copper_stairs"
+      },
+	  {
+       "predicate": {
+        "custom_model_data": 804
+          },
+        "name": 804,
+        "model": "block/small_dripleaf_ue"
+      },
+	  {
+       "predicate": {
+        "custom_model_data": 805
+          },
+        "name": 805,
+        "model": "block/bamboo_sapling"
+      },
+	  {
+       "predicate": {
+        "custom_model_data": 806
+          },
+        "name": 806,
+        "model": "block/dead_tube_coral_fan"
+      }
+  ]
+}

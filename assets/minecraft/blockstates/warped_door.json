@@ -518,6 +518,62 @@
       "when": {
         "facing": "east",
         "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_1_4"},
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_2_4"},
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_3_4"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab"},
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_2"},
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_3"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_1_2"},
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_2_2"},
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_3_2"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_1_3"},
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_2_3"},
+	  { "model": "mcme:block/maple_leaves_redish_vertical_slab_3_3"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
         "hinge": "left",
         "open": "true",
         "powered": "true"
@@ -569,6 +625,210 @@
 	{ "model": "minecraft:block/warped_door_woven_fence_1", "y": 90 },
 	{ "model": "minecraft:block/warped_door_woven_fence_2", "y": 90 }
 	]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_1_3"},
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_2_3"},
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_3_3"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_1_4"},
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_2_4"},
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_3_4"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab"},
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_2"},
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_3"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_1_2"},
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_2_2"},
+	  { "model": "mcme:block/beech_leaves_orangeish_vertical_slab_3_2"}
+	  ]
+    },
+	   {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_cross_railing_light",
+		"y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_cross_railing_light"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_cross_railing_light",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_cross_railing_light",
+        "y": 180
+      }
+    },
+	   {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/door_railing_light", "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/door_railing_light", "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/door_railing_light"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/door_railing_light", "y": 90
+      }
+    },
+	   {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_1x3arch_sandstone", "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_1x3arch_sandstone", "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_1x3arch_sandstone", "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/warped_door_1x3arch_sandstone"
+      }
     }
+
   ]
 }

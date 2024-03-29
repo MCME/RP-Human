@@ -1,5 +1,7 @@
 {
-  "parent": "special-model-loader:builtin/obj",
-  "flip_v": true,
-  "model": "mcme:models/block/oak_thin_branch_22.5_straight.obj"
+  "parent": "mcme:block/thin_branch_22.5_straight_parent",
+  "textures": {
+    "0": "mcme:block/oak_thin_branch_22.5_straight",
+	"particle": "mcme:block/oak_log"
+  }
 }
