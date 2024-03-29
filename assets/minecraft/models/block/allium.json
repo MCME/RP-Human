@@ -1,6 +1,16 @@
 {
-  "parent": "block/fancy_leaf_flower_parent",
-  "textures": {
-    "0": "block/allium"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "block/fancy_leaf_flower_parent",
+	"textures": {
+		"0": "block/allium",
+		"particle": "block/allium"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"scale": [1, 1, 1]
+		}
+	},
+	"flip_v": true,
+	"model": "mcme:models/block/big_fern_3.obj"
 }
