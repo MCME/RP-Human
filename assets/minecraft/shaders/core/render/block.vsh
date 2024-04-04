@@ -29,6 +29,14 @@ out float transition;
 flat out int isCustom;
 flat out int noshadow;
 
+
+flat out float customMipFade;
+flat out float baseBrightness;
+flat out float aoIntensity;
+flat out float customModelNormalShading;
+flat out float underShadowStrength;
+flat out float distanceDensity;
+
 #moj_import <objmc_tools.glsl>
 
 void main() {
