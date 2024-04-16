@@ -29,9 +29,7 @@
     { "when": {"north": false, "west": false, "south": false, "east": false, "up": false, "down": false },
       "apply": [
       {
-        "model": "block/replace",
-        "weight": 1
-      }
+        "model": "block/cabinet"  }
     ]},
     { "when": {"north": false, "west": true, "south": false, "east": false, "up": true, "down": false },
       "apply": [ 
