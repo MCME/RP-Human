@@ -1,0 +1,11 @@
+{
+  "variants": {
+
+	   "up=false,north=tall,east=tall,south=none,west=none":   { "model": "block/sandstone_wall_ne" },
+	   "up=false,north=none,east=tall,south=tall,west=none": { "model": "block/sandstone_wall_ne", "y":90 },
+	   "up=false,north=none,east=none,south=tall,west=tall": { "model": "block/sandstone_wall_ne", "y":180 },
+	   "up=false,north=tall,east=none,south=none,west=tall": { "model": "block/sandstone_wall_ne", "y":270 }
+	  }
+
+	}
+}

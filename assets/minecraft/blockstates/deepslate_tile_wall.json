@@ -1,5 +1,12 @@
 {
   "multipart": [
+  {"when": { "up": "true", "north": "tall", "east": "tall", "south": "tall", "west": "tall" },
+      "apply": [
+	  { "model": "block/medium_jungle_log_pillar" },
+      { "model": "block/medium_jungle_log_pillar", "y": 90 },
+      { "model": "block/medium_jungle_log_pillar", "y": 180 },
+      { "model": "block/medium_jungle_log_pillar", "y": 270 }
+	  ]},
     {"when": { "up": "false", "north": "low", "east": "none", "south": "none", "west": "low" },
       "apply": [
 			{ "model": "minecraft:block/beam_core_light" },

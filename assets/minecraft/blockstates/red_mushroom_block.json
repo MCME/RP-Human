@@ -270,6 +270,87 @@
 		{ "model": "block/mossy_maple_3" },
 		{ "model": "block/mossy_maple_4" },
 		{ "model": "block/mossy_maple_5" }
+		]},
+		{ "when": {"north": false, "west": false, "south":false, "east": true, "up": true, "down": false	 },
+		"apply": [
+		{ "model": "block/cut_oak_log" },
+		{ "model": "block/cut_oak_log", "y":90 },
+		{ "model": "block/cut_oak_log", "y":180 },
+		{ "model": "block/cut_oak_log", "y":270 },
+		{ "model": "block/cut_oak_log_2" },
+		{ "model": "block/cut_oak_log_2", "y":90 },
+		{ "model": "block/cut_oak_log_2", "y":180 },
+		{ "model": "block/cut_oak_log_2", "y":270 },
+		{ "model": "block/cut_oak_log_3" },
+		{ "model": "block/cut_oak_log_3", "y":90 },
+		{ "model": "block/cut_oak_log_3", "y":180 },
+		{ "model": "block/cut_oak_log_3", "y":270 }
+		]},
+		{ "when": {"north": false, "west": false, "south":false, "east": true, "up": false, "down": true	 },
+		"apply": [
+		{ "model": "block/cut_oak_log", "x":90 },
+		{ "model": "block/cut_oak_log_2", "x":90 },
+		{ "model": "block/cut_oak_log_3", "x":90 }
+		]},
+		{ "when": {"north": false, "west": false, "south":false, "east": true, "up": false, "down": false	 },
+		"apply": [
+		{ "model": "block/cut_oak_log", "x":90, "y":90 },
+		{ "model": "block/cut_oak_log_2", "x":90, "y":90 },
+		{ "model": "block/cut_oak_log_3", "x":90, "y":90 }
+		]},
+		{ "when": {"north": false, "west": true, "south":true, "east": false, "up": true, "down": true	 },
+		"apply": [
+		{ "model": "block/cut_elm_log" },
+		{ "model": "block/cut_elm_log", "y":90 },
+		{ "model": "block/cut_elm_log", "y":180 },
+		{ "model": "block/cut_elm_log", "y":270 },
+		{ "model": "block/cut_elm_log_2" },
+		{ "model": "block/cut_elm_log_2", "y":90 },
+		{ "model": "block/cut_elm_log_2", "y":180 },
+		{ "model": "block/cut_elm_log_2", "y":270 },
+		{ "model": "block/cut_elm_log_3" },
+		{ "model": "block/cut_elm_log_3", "y":90 },
+		{ "model": "block/cut_elm_log_3", "y":180 },
+		{ "model": "block/cut_elm_log_3", "y":270 }
+		]},
+		{ "when": {"north": false, "west": true, "south":true, "east": false, "up": true, "down": false	 },
+		"apply": [
+		{ "model": "block/cut_elm_log", "x":90 },
+		{ "model": "block/cut_elm_log_2", "x":90 },
+		{ "model": "block/cut_elm_log_3", "x":90 }
+		]},
+		{ "when": {"north": false, "west": true, "south":true, "east": false, "up": false, "down": false	 },
+		"apply": [
+		{ "model": "block/cut_elm_log", "x":90, "y":90 },
+		{ "model": "block/cut_elm_log_2", "x":90, "y":90 },
+		{ "model": "block/cut_elm_log_3", "x":90, "y":90 }
+		]},
+		{ "when": {"north": false, "west": false, "south":true, "east": false, "up": true, "down": true	 },
+		"apply": [
+		{ "model": "block/cut_pine_log" },
+		{ "model": "block/cut_pine_log", "y":90 },
+		{ "model": "block/cut_pine_log", "y":180 },
+		{ "model": "block/cut_pine_log", "y":270 },
+		{ "model": "block/cut_pine_log_2" },
+		{ "model": "block/cut_pine_log_2", "y":90 },
+		{ "model": "block/cut_pine_log_2", "y":180 },
+		{ "model": "block/cut_pine_log_2", "y":270 },
+		{ "model": "block/cut_pine_log_3" },
+		{ "model": "block/cut_pine_log_3", "y":90 },
+		{ "model": "block/cut_pine_log_3", "y":180 },
+		{ "model": "block/cut_pine_log_3", "y":270 }
+		]},
+		{ "when": {"north": false, "west": false, "south":true, "east": false, "up": true, "down": false	 },
+		"apply": [
+		{ "model": "block/cut_pine_log", "x":90 },
+		{ "model": "block/cut_pine_log_2", "x":90 },
+		{ "model": "block/cut_pine_log_3", "x":90 }
+		]},
+		{ "when": {"north": false, "west": false, "south":true, "east": false, "up": false, "down": true	 },
+		"apply": [
+		{ "model": "block/cut_pine_log", "x":90, "y":90 },
+		{ "model": "block/cut_pine_log_2", "x":90, "y":90 },
+		{ "model": "block/cut_pine_log_3", "x":90, "y":90 }
 		]}
   ]
 }

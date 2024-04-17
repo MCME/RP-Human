@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/red_nether_brick_3",
+		"particle": "block/red_nether_brick_3"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [5, 0, 13, 16], "texture": "#0"},
+				"east": {"uv": [5, 0, 13, 16], "texture": "#0"},
+				"south": {"uv": [5, 0, 13, 16], "texture": "#0"},
+				"west": {"uv": [5, 0, 13, 16], "texture": "#0"},
+				"up": {"uv": [5, 0, 13, 8], "texture": "#0"},
+				"down": {"uv": [5, 0, 13, 8], "texture": "#0"}
+			}
+		}
+	]
+}

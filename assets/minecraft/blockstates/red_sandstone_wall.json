@@ -528,6 +528,9 @@
 	  },
 	{"when": { "up": "true", "north": "tall", "east": "low", "south": "tall", "west": "low" },
       "apply": [{ "model": "minecraft:block/beam_diagonal_nse_down", "y": 270 }]
+	  },
+	  {"when": { "up": "true", "north": "none", "east": "none", "south": "none", "west": "none" },
+      "apply": [{ "model": "minecraft:block/red_brick_wall" }]
 	  }
   ]
 }
