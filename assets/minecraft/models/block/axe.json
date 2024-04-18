@@ -1,0 +1,85 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/stripped_oak_log_composite",
+		"1": "block/cauldron_side",
+		"particle": "block/stripped_oak_log_composite"
+	},
+	"elements": [
+		{
+			"from": [9.81, 0.5225, -1.59],
+			"to": [11.195, 1.6575, 14.76],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.085, 1.09, 9.81]},
+			"faces": {
+				"north": {"uv": [7.33333, 15.66667, 7, 15.33333], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [8.66667, 6.33333, 8.33333, 11], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [7.33333, 15.66667, 7, 15.33333], "texture": "#0"},
+				"west": {"uv": [9, 7, 9.33333, 11.66667], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [7.33333, 9.33333, 7.66667, 14], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [7, 8, 7.33333, 12.66667], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.9025, 0, 10.945],
+			"to": [11.7175, 2.18, 14.215],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.085, 1.09, 9.81]},
+			"faces": {
+				"north": {"uv": [7, 12, 4, 10], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [6, 8, 4, 11], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [6, 12, 3, 10], "texture": "#1"},
+				"west": {"uv": [11, 9, 9, 12], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [11, 10, 8, 13], "texture": "#1"},
+				"down": {"uv": [7, 9, 4, 12], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4.0875, 0.545, 9.355],
+			"to": [8.9925, 1.635, 14.6605],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.085, 1.09, 9.81]},
+			"faces": {
+				"north": {"uv": [7, 12.5, 6, 8], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [3, 8, 4, 11.95], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [7, 12.5, 6, 8], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [5, 6, 9.95, 7], "texture": "#1"},
+				"up": {"uv": [6, 9, 10.95, 13], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [6, 8, 11.5, 11.95], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-59, 0, -87],
+			"translation": [6, 3.5, -1.5],
+			"scale": [0.94, 0.93, 0.94]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-56, 0, 94],
+			"translation": [-6.75, 0, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [79, -180, 82],
+			"translation": [8.75, 0, 0],
+			"scale": [0.71, 0.73, 0.73]
+		},
+		"ground": {
+			"translation": [0, 5.25, 0]
+		},
+		"gui": {
+			"rotation": [45, -112, 0],
+			"translation": [0, 4.5, 0]
+		},
+		"head": {
+			"rotation": [-74, -7, 0],
+			"translation": [8.25, 5.5, -8.25],
+			"scale": [1.36, 1.4, 1.31]
+		}
+	},
+	"groups": [
+		{
+			"name": "hammer",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

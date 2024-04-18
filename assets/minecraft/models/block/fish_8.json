@@ -1,0 +1,85 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"4": "block/fish"
+	},
+	"elements": [
+		{
+			"from": [0, 15, 7],
+			"to": [16, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 0, 0, 0.5], "texture": "#4"},
+				"east": {"uv": [8, 0.5, 8.5, 1], "texture": "#4"},
+				"south": {"uv": [0, 1.5, 8, 1], "texture": "#4"},
+				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#4"},
+				"up": {"uv": [0, 0.5, 8, 1], "texture": "#4"},
+				"down": {"uv": [0, 0.75, 8, 1.25], "texture": "#4"}
+			}
+		},
+		{
+			"from": [2.34343, 3.5, 6],
+			"to": [2.34343, 15, 9.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [2.34343, 9.25, 7.99179]},
+			"faces": {
+				"east": {"uv": [1.75, 1.5, 3.5, 7.25], "texture": "#4"},
+				"west": {"uv": [0, 1.5, 1.75, 7.25], "texture": "#4"}
+			}
+		},
+		{
+			"from": [14, 2, 6.5],
+			"to": [14, 15, 11],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [14, 8.5, 7.10355]},
+			"faces": {
+				"east": {"uv": [10.25, 1.5, 12.5, 8], "texture": "#4"},
+				"west": {"uv": [8, 1.5, 10.25, 8], "texture": "#4"}
+			}
+		},
+		{
+			"from": [6.25669, 2.5, 4.29569],
+			"to": [6.25669, 15, 8.79569],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [6.25669, 9.25, 8.04569]},
+			"faces": {
+				"east": {"uv": [12.5, 8.5, 14.75, 14.75], "texture": "#4"},
+				"west": {"uv": [10, 8.5, 12, 14.75], "texture": "#4"}
+			}
+		},
+		{
+			"from": [8.97578, 3, 7.13914],
+			"to": [11.97578, 15, 7.13914],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [10.47578, 9, 7.13914]},
+			"faces": {
+				"north": {"uv": [14.25, 1.5, 15.75, 7.5], "texture": "#4"},
+				"south": {"uv": [12.75, 1.5, 14.25, 7.5], "texture": "#4"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"gui": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"head": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 1]
+		}
+	}
+}
