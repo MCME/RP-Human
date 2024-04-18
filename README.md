@@ -2,7 +2,8 @@
 The official repository for MCME's Human resource pack.
 Created by members of the Minecraft Middle-Earth community.
 
-Latest release is available at https://www.mcmiddleearth.com/community/resources/categories/official-resourcepacks.9/
+Latest release is available at 
+https://www.mcmiddleearth.com/community/resources/categories/official-resourcepacks.9/
 
 >Website: https://www.mcmiddleearth.com
 
