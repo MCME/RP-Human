@@ -12,7 +12,7 @@ vec3 posoffset = vec3(0);
 float scale = 1;
 vec3 rotation = vec3(0);
 int headerheight = 0;
-ivec4 t[8];
+ivec4 t[14];
 //read uv offset
 t[0] = ivec4(texelFetch(Sampler0, uv, 0) * 255);
 ivec2 uvoffset = ivec2(t[0].r*256 + t[0].g, t[0].b*256 + t[0].a);
@@ -24,7 +24,7 @@ if (ivec4(texelFetch(Sampler0, topleft, 0)*255) == ivec4(12,34,56,78)) {
     // header
     //| 2^32   | 2^16x2   | 2^32      | 2^24 + 2^8   | 2^24    + \1 2^1  + 2^2   + 2^2 \2| 2^16x2       | 2^1     + 2^2       + 2^3      \1 2^9        \16|
     //| marker | tex size | nvertices | nobjs, ntexs | duration, autoplay, easing, interp| data heights | noshadow, autorotate, visibility, colorbehavior |
-    for (int i = 1; i < 8; i++) {
+    for (int i = 1; i < 14; i++) {
         t[i] = getmeta(topleft, i);
     }
     //1: texsize
@@ -54,6 +54,14 @@ if (ivec4(texelFetch(Sampler0, topleft, 0)*255) == ivec4(12,34,56,78)) {
 #ifdef BLOCK
 	// Floor positions to snap them back to 0,0,0 within the block
     Pos = floor(Position) + vec3(0.5,0.0,0.5) + ChunkOffset;
+
+    customMipFade = t[8].r < 1.0 ? 1.0 : 0.0 + t[8].r / 255.0 * 4.0;
+    baseBrightness = t[9].r < 1.0 ? 1.0 : 0.0 + t[9].r / 255.0 * 2.0;
+    aoIntensity = t[10].r < 1.0 ? 1.0 : 0.0 + t[10].r / 255.0 * 2.0;
+    customModelNormalShading = t[11].r < 1.0 ? 1.0 : 0.0 + t[11].r / 255.0 * 6.0;
+    underShadowStrength = t[12].r < 1.0 ? 1.0 : 0.0 + t[12].r / 255.0 * 3.0;
+    distanceDensity = t[13].r < 1.0 ? 1.0 : 0.0 + t[13].r / 255.0 * 3.0;
+
     if (!visibility.x) { //world
         Pos = vec3(0); posoffset = vec3(0);
     } else {
