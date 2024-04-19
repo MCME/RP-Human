@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "lit=false": [
+      {"model": "block/stacked_logs_top", "y":90},
+      {"model": "block/stacked_logs_top", "y": 270}
+  ],
+    "lit=true": {
+      "model": "minecraft:block/cyan_candle_cake_lit"
+    }
+  }
+}
