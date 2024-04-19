@@ -2,34 +2,35 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"0": "block/barrel",
-		"1": "block/barrel_bottom"
+		"1": "block/barrel_bottom",
+		"3": "block/barrel_2",
+		"particle": "block/barrel_2"
 	},
 	"elements": [
 		{
 			"name": "south",
 			"from": [2, 0, 13],
-			"to": [14, 12.0007, 15],
+			"to": [14, 11.9757, 15],
 			"faces": {
-				"north": {"uv": [1, 3, 13, 15], "texture": "#1"},
-				"east": {"uv": [0, 0, 1, 12], "texture": "#0"},
-				"south": {"uv": [2, 0, 14, 12], "texture": "#0"},
-				"west": {"uv": [15, 0, 16, 12], "texture": "#0"},
-				"up": {"uv": [0, 14, 12, 16], "texture": "#1"},
+				"north": {"uv": [14, 12, 2, 4], "texture": "#3"},
+				"east": {"uv": [1, 0, 2, 12], "texture": "#3"},
+				"south": {"uv": [2, 0, 14, 12], "texture": "#3"},
+				"west": {"uv": [15, 0, 16, 12], "texture": "#3"},
+				"up": {"uv": [2, 10, 14, 12], "texture": "#3"},
 				"down": {"uv": [0, 0, 16, 2], "texture": "#1"}
 			}
 		},
 		{
 			"name": "bottom",
-			"from": [2, 0, 2],
-			"to": [14, 1, 14],
+			"from": [3, 0, 3],
+			"to": [13, 1, 13],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 1], "texture": "#1"},
-				"east": {"uv": [0, 0, 16, 1], "texture": "#1"},
-				"south": {"uv": [0, 0, 16, 1], "texture": "#1"},
-				"west": {"uv": [0, 0, 16, 1], "texture": "#1"},
-				"up": {"uv": [2, 2, 14, 14], "texture": "#1"},
-				"down": {"uv": [2, 1, 14, 13], "texture": "#1"}
+				"north": {"uv": [0, 0, 16, 1], "texture": "#3"},
+				"east": {"uv": [0, 0, 16, 1], "texture": "#3"},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#3"},
+				"west": {"uv": [0, 0, 16, 1], "texture": "#3"},
+				"up": {"uv": [2, 3, 12, 13], "texture": "#1"},
+				"down": {"uv": [2, 3, 12, 13], "texture": "#1"}
 			}
 		},
 		{
@@ -37,12 +38,12 @@
 			"from": [13, 0, 2],
 			"to": [15, 12, 14],
 			"faces": {
-				"north": {"uv": [0, 0, 1, 12], "texture": "#0"},
-				"east": {"uv": [2, 0, 14, 12], "texture": "#0"},
-				"south": {"uv": [0, 0, 1, 12], "texture": "#0"},
-				"west": {"uv": [1, 0, 13, 12], "texture": "#1"},
-				"up": {"uv": [0, 0, 12, 2], "rotation": 90, "texture": "#1"},
-				"down": {"uv": [0, 0, 12, 2], "rotation": 90, "texture": "#1"}
+				"north": {"uv": [0, 0, 1, 12], "texture": "#3"},
+				"east": {"uv": [2, 16, 14, 4], "texture": "#3"},
+				"south": {"uv": [0, 0, 1, 12], "texture": "#3"},
+				"west": {"uv": [2, 4, 14, 12], "texture": "#3"},
+				"up": {"uv": [2, 0, 14, 2], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [0, 0, 12, 2], "rotation": 90, "texture": "#3"}
 			}
 		},
 		{
@@ -50,26 +51,40 @@
 			"from": [1, 0, 2],
 			"to": [3, 12, 14],
 			"faces": {
-				"north": {"uv": [0, 0, 1, 12], "texture": "#0"},
-				"east": {"uv": [2, 3, 14, 15], "texture": "#1"},
-				"south": {"uv": [0, 0, 1, 12], "texture": "#0"},
-				"west": {"uv": [2, 0, 14, 12], "texture": "#0"},
-				"up": {"uv": [4, 14, 16, 16], "rotation": 90, "texture": "#1"},
-				"down": {"uv": [0, 14, 12, 16], "rotation": 90, "texture": "#1"}
+				"north": {"uv": [0, 0, 1, 12], "texture": "#3"},
+				"east": {"uv": [14, 12, 2, 4], "texture": "#3"},
+				"south": {"uv": [0, 0, 1, 12], "texture": "#3"},
+				"west": {"uv": [2, 16, 14, 4], "texture": "#3"},
+				"up": {"uv": [2, 14, 14, 16], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [0, 14, 12, 16], "rotation": 90, "texture": "#3"}
 			}
 		},
 		{
 			"name": "north",
 			"from": [2, 0, 1],
-			"to": [14, 12.0007, 3],
+			"to": [14, 11.9757, 3],
 			"faces": {
-				"north": {"uv": [2, 0, 14, 12], "texture": "#0"},
-				"east": {"uv": [0, 0, 1, 12], "texture": "#0"},
-				"south": {"uv": [2, 0, 14, 12], "texture": "#1"},
-				"west": {"uv": [0, 0, 1, 12], "texture": "#0"},
-				"up": {"uv": [4, 0, 16, 2], "texture": "#1"},
-				"down": {"uv": [0, 14, 12, 16], "texture": "#1"}
+				"north": {"uv": [0, 0, 12, 12], "texture": "#3"},
+				"east": {"uv": [0, 0, 1, 12], "texture": "#3"},
+				"south": {"uv": [1, 4, 13, 12], "texture": "#3"},
+				"west": {"uv": [0, 0, 1, 12], "texture": "#3"},
+				"up": {"uv": [1, 0, 13, 2], "texture": "#3"},
+				"down": {"uv": [0, 14, 12, 16], "texture": "#3"}
 			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 12.8, 0],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "barrel",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
 		}
 	]
 }
