@@ -1,9 +1,18 @@
 {
     "variants": {
-        "age=0": { "model": "block/melon_stem_stage0" },
-        "age=1": { "model": "block/melon_stem_stage0", "y": 90  },
-        "age=2": { "model": "block/melon_stem_stage0", "y": 180  },
-        "age=3": { "model": "block/melon_stem_stage0", "y": 270  },
+        "age=3": [
+		{ "model": "block/melon_stem_stage0" },
+		{ "model": "block/melon_stem_stage0", "y": 90 },
+		{ "model": "block/melon_stem_stage0", "y": 180 },
+		{ "model": "block/melon_stem_stage0", "y": 270 },
+		{ "model": "block/melon_stem_stage0_2" },
+		{ "model": "block/melon_stem_stage0_2", "y": 90 },
+		{ "model": "block/melon_stem_stage0_2", "y": 180 },
+		{ "model": "block/melon_stem_stage0_2", "y": 270 }
+		],
+        "age=1": { "model": "block/replace", "y": 90  },
+        "age=2": { "model": "block/replace", "y": 180  },
+        "age=0": { "model": "block/replace", "y": 270  },
         "age=4": { "model": "block/melon_stem_stage4" },
         "age=5": { "model": "block/melon_stem_stage5" },
         "age=6": { "model": "block/melon_stem_stage6" },
