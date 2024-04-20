@@ -14,6 +14,10 @@
 			{ "model": "block/oak_slab_top_4" },
 			{ "model": "block/oak_slab_top_5" }
 		],
-        "type=double": { "model": "block/double_slab_planks_oak" }
+        "type=double": [
+		{ "model": "block/double_slab_planks_oak" },
+		{ "model": "block/double_slab_planks_oak_2" },
+		{ "model": "block/double_slab_planks_oak_3" }
+		]
     }
 }
