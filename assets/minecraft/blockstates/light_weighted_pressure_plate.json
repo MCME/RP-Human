@@ -6,12 +6,26 @@
     "power\u003d1": {
       "model": "block/light_weighted_pressure_plate_down"
     },
-    "power\u003d2": {
-      "model": "block/plate_1"
-    },
-    "power\u003d3": {
-      "model": "block/plate_2"
-    },
+    "power\u003d2": [
+	{ "model": "block/plate_1" },
+	{ "model": "block/plate_1", "y":90 },
+	{ "model": "block/plate_1", "y":180 },
+	{ "model": "block/plate_1", "y":270 },
+	{ "model": "block/plate_1_2" },
+	{ "model": "block/plate_1_2", "y":90 },
+	{ "model": "block/plate_1_2", "y":180 },
+	{ "model": "block/plate_1_2", "y":270 }
+	],
+    "power\u003d3": [
+	{ "model": "block/plate_2" },
+	{ "model": "block/plate_2", "y":90 },
+	{ "model": "block/plate_2", "y":180 },
+	{ "model": "block/plate_2", "y":270 },
+	{ "model": "block/plate_2_2" },
+	{ "model": "block/plate_2_2", "y":90 },
+	{ "model": "block/plate_2_2", "y":180 },
+	{ "model": "block/plate_2_2", "y":270 }
+	],
     "power\u003d6": [
 	{ "model": "mcme:block/cutlery"},
 	{ "model": "mcme:block/cutleryr_2"},
@@ -36,29 +50,59 @@
 	{ "model": "mcme:block/cutleryr_3", "y" : 270},
 	{ "model": "mcme:block/cutleryr_4", "y" : 270}
     ],
-    "power\u003d8": {
-      "model": "block/replace"
-    },
-    "power\u003d9": {
-      "model": "block/replace"
-    },
-    "power\u003d10": {
-      "model": "block/replace"
-    },
-    "power\u003d11": {
-      "model": "block/replace"
-    },
-    "power\u003d12": {
-      "model": "block/replace"
-    },
-    "power\u003d13": {
-      "model": "block/replace"
-    },
-    "power\u003d14": {
-      "model": "block/replace"
-    },
-    "power\u003d15": {
-      "model": "block/replace"
-    }
+    "power\u003d8": [
+      {"model": "minecraft:block/book_stack"},
+      {"model": "minecraft:block/book_stack", "y": 90},
+      {"model": "minecraft:block/book_stack", "y": 180},
+      {"model": "minecraft:block/book_stack", "y": 270},
+	  {"model": "minecraft:block/book_stack_2"},
+      {"model": "minecraft:block/book_stack_2", "y": 90},
+      {"model": "minecraft:block/book_stack_2", "y": 180},
+      {"model": "minecraft:block/book_stack_2", "y": 270},
+	  {"model": "minecraft:block/book_stack_3"},
+      {"model": "minecraft:block/book_stack_3", "y": 90},
+      {"model": "minecraft:block/book_stack_3", "y": 180},
+      {"model": "minecraft:block/book_stack_3", "y": 270}
+  ],
+    "power\u003d9": [
+      { "model": "block/pot" },
+      { "model": "block/pot_10" },
+      { "model": "block/pot_2" },
+      { "model": "block/pot_3" },
+      { "model": "block/pot_4" },
+      { "model": "block/pot_5" },
+      { "model": "block/pot_6" },
+      { "model": "block/pot_7" },
+      { "model": "block/pot_8" },
+      { "model": "block/pot_9" }
+    ],
+    "power\u003d10": [
+	{ "model": "block/pan" },
+	{ "model": "block/pan", "y":90 },
+	{ "model": "block/pan", "y":180 },
+	{ "model": "block/pan", "y":270 },
+	{ "model": "block/pan_2" },
+	{ "model": "block/pan_2", "y":90 },
+	{ "model": "block/pan_2", "y":180 },
+	{ "model": "block/pan_2", "y":270 }
+	],
+    "power\u003d11": [{  "model": "block/plate_cutlery" }, {  "model": "block/plate_cutlery_2" }],
+    "power\u003d12": [{ "model": "block/plate_cutlery", "y":90 }, { "model": "block/plate_cutlery_2", "y":90 }],
+    "power\u003d13": [{  "model": "block/plate_cutlery", "y":180 }, {  "model": "block/plate_cutlery_2", "y":180 }],
+    "power\u003d14": [{  "model": "block/plate_cutlery", "y":270 }, {  "model": "block/plate_cutlery_2", "y":270 }],
+    "power\u003d15": [
+	{ "model": "block/mug_cluster" },
+	{ "model": "block/mug_cluster", "y":90 },
+	{ "model": "block/mug_cluster", "y":180 },
+	{ "model": "block/mug_cluster", "y":270 },
+	{ "model": "block/mug_cluster_2" },
+	{ "model": "block/mug_cluster_2", "y":90 },
+	{ "model": "block/mug_cluster_2", "y":180 },
+	{ "model": "block/mug_cluster_2", "y":270 },
+	{ "model": "block/mug_cluster_3" },
+	{ "model": "block/mug_cluster_3", "y":90 },
+	{ "model": "block/mug_cluster_3", "y":180 },
+	{ "model": "block/mug_cluster_3", "y":270 }
+	]
   }
 }

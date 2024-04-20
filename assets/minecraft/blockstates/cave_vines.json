@@ -1,5 +1,39 @@
 {
   "variants": {
+	"berries=false,age=9": [
+	{ "model": "block/fish_1" },
+	{ "model": "block/fish_2" },
+	{ "model": "block/fish_3" },
+	{ "model": "block/fish_4" },
+	{ "model": "block/fish_5" },
+	{ "model": "block/fish_6" },
+	{ "model": "block/fish_7" },
+	{ "model": "block/fish_8" }
+	],
+	"berries=false,age=8": [
+	{ "model": "block/fish_1", "y": 90 },
+	{ "model": "block/fish_2", "y": 90 },
+	{ "model": "block/fish_3", "y": 90 },
+	{ "model": "block/fish_4", "y": 90 },
+	{ "model": "block/fish_5", "y": 90 },
+	{ "model": "block/fish_6", "y": 90 },
+	{ "model": "block/fish_7", "y": 90 },
+	{ "model": "block/fish_8", "y": 90 }
+	],
+	"berries=false,age=7": [
+	{  "model": "minecraft:block/hanging_onions"},
+	{  "model": "minecraft:block/hanging_onions", "y": 90},
+	{  "model": "minecraft:block/hanging_onions", "y": 180},
+	{  "model": "minecraft:block/hanging_onions", "y": 270},
+	{  "model": "minecraft:block/hanging_vegetables"},
+	{  "model": "minecraft:block/hanging_vegetables", "y": 90},
+	{  "model": "minecraft:block/hanging_vegetables", "y": 180},
+	{  "model": "minecraft:block/hanging_vegetables", "y": 270},
+	{  "model": "minecraft:block/hanging_garlic"},
+	{  "model": "minecraft:block/hanging_garlic", "y": 90},
+	{  "model": "minecraft:block/hanging_garlic", "y": 180},
+	{  "model": "minecraft:block/hanging_garlic", "y": 270}
+	],
 	"berries=false,age=10": [
 	{  "model": "mcme:block/spruce_branch_dead"},
 	{  "model": "mcme:block/spruce_branch_dead_2"},
