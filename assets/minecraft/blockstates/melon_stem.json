@@ -10,8 +10,17 @@
 		{ "model": "block/melon_stem_stage0_2", "y": 180 },
 		{ "model": "block/melon_stem_stage0_2", "y": 270 }
 		],
-        "age=1": { "model": "block/replace", "y": 90  },
-        "age=2": { "model": "block/replace", "y": 180  },
+        "age=2": [
+		{ "model": "block/metal_mug" },
+		{ "model": "block/metal_mug", "y": 90 },
+		{ "model": "block/metal_mug", "y": 180 },
+		{ "model": "block/metal_mug", "y": 270 },
+		{ "model": "block/metal_mug_2" },
+		{ "model": "block/metal_mug_2", "y": 90 },
+		{ "model": "block/metal_mug_2", "y": 180 },
+		{ "model": "block/metal_mug_2", "y": 270 }
+		],
+        "age=1": { "model": "block/replace", "y": 180  },
         "age=0": { "model": "block/replace", "y": 270  },
         "age=4": { "model": "block/melon_stem_stage4" },
         "age=5": { "model": "block/melon_stem_stage5" },

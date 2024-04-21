@@ -102,40 +102,8 @@
         "y": 270
       }
     ],
-    "eggs=3,hatch=0": [
-      {
-        "model": "minecraft:block/three_turtle_eggs"
-      },
-      {
-        "model": "minecraft:block/three_turtle_eggs",
-        "y": 90
-      },
-      {
-        "model": "minecraft:block/three_turtle_eggs",
-        "y": 180
-      },
-      {
-        "model": "minecraft:block/three_turtle_eggs",
-        "y": 270
-      }
-    ],
-    "eggs=3,hatch=1": [
-      {
-        "model": "minecraft:block/three_slightly_cracked_turtle_eggs"
-      },
-      {
-        "model": "minecraft:block/three_slightly_cracked_turtle_eggs",
-        "y": 90
-      },
-      {
-        "model": "minecraft:block/three_slightly_cracked_turtle_eggs",
-        "y": 180
-      },
-      {
-        "model": "minecraft:block/three_slightly_cracked_turtle_eggs",
-        "y": 270
-      }
-    ],
+    "eggs=3,hatch=0": { "model": "minecraft:block/bench" },  
+    "eggs=3,hatch=1":  { "model": "minecraft:block/bench", "y": 90 },  
     "eggs=3,hatch=2": [
 	{ "model": "block/chair", "y": 270},
 	{ "model": "block/chair_2", "y": 270},
