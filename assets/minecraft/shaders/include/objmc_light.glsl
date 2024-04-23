@@ -23,19 +23,26 @@ else if (noshadow == 0) {
     float angleShading;
 	//Very top most faces
     if ((normal.y) > 0.5) {
-        angleShading =  normal.y * 0.06 + 0.01;
+			angleShading =  normal.y * 0.06 + 0.01;
     }
 	//Vert bottom most faces
     else if ((normal.y) < -0.4) {
-        angleShading =  normal.y * 0.05 - 0.01  - (1 - UNDER_SHADOW_STRENGTH * underShadowStrength);
+		if (vertexColor.r > 0.5) {
+			angleShading =  normal.y * 0.36 + 0.01;
+		}
+		else {
+			angleShading =  normal.y * 0.05 - 0.01  - (1 - UNDER_SHADOW_STRENGTH * underShadowStrength);
+		}
     }
-	//side faces
+	//lower side faces
 	else if ((normal.y) < -0.3) {
         angleShading =  abs(normal.y) * 0.06 + 0.04;
     }
+	//side and higher side faces
 	else if ((normal.y) < 0.3) {
         angleShading =  abs(normal.y) * 0.06 + 0.09;
     }
+	//idk very high side (45 degree)
     else {
         angleShading =  (1 + normal.y) * 0.06 + 0.04;
     }
