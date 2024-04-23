@@ -1,0 +1,43 @@
+{
+  "variants": {
+    "shape=north_east": {
+      "model": "minecraft:block/rail_corner",
+      "y": 270
+    },
+    "shape=north_west": {
+      "model": "minecraft:block/rail_corner",
+      "y": 180
+    },
+    "shape=south_east": {
+      "model": "minecraft:block/rail_corner"
+    },
+    "shape=south_west": {
+      "model": "minecraft:block/rail_corner",
+      "y": 90
+    },
+    "shape=ascending_east": [
+		{ "model": "minecraft:block/rail_thin_shrub" },
+		{ "model": "minecraft:block/rail_thin_shrub", "y": 90},
+		{ "model": "minecraft:block/rail_thin_shrub", "y": 180},
+		{ "model": "minecraft:block/rail_thin_shrub", "y": 270},
+		{ "model": "minecraft:block/rail_thin_shrub_2" },
+		{ "model": "minecraft:block/rail_thin_shrub_2", "y": 90},
+		{ "model": "minecraft:block/rail_thin_shrub_2", "y": 180},
+		{ "model": "minecraft:block/rail_thin_shrub_2", "y": 270},
+		{ "model": "minecraft:block/rail_thin_shrub_3" },
+		{ "model": "minecraft:block/rail_thin_shrub_3", "y": 90},
+		{ "model": "minecraft:block/rail_thin_shrub_3", "y": 180},
+		{ "model": "minecraft:block/rail_thin_shrub_3", "y": 270}
+	],
+    "shape=ascending_west": [
+		{ "model": "mcme:block/hazelnut_bush" },
+		{ "model": "mcme:block/hazelnut_bush_1_2" },
+		{ "model": "mcme:block/hazelnut_bush_1_3" },
+		{ "model": "mcme:block/hazelnut_bush_1_4" },
+		{ "model": "mcme:block/hazelnut_bush_2" },
+		{ "model": "mcme:block/hazelnut_bush_2_2" },
+		{ "model": "mcme:block/hazelnut_bush_2_3" },
+		{ "model": "mcme:block/hazelnut_bush_2_4" }
+	]
+  }
+}

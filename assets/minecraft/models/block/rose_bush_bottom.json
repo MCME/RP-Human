@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/3x3vegetation_tintless_1",
+	"textures": {
+		"0": "block/rose_bush_bottom",
+		"1": "block/rose_bush_bottom",
+		"2": "block/rose_bush_bottom",
+		"3": "block/rose_bush_bottom"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, 2.25, 0],
+			"scale": [0.45, 0.45, 0.45]
+		}
+	},
+	"flip_v": true,
+	"model": "mcme:models/block/big_fern_3.obj"
+}

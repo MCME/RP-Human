@@ -6,8 +6,20 @@
 		"distance=4,persistent=false": { "model": "block/piston_sticky", "y": 90 },
 		"distance=5,persistent=false": { "model": "block/piston_sticky" },
 		"distance=6,persistent=false": { "model": "block/piston_sticky", "y": 180 },
-		"distance=7,persistent=false": { "model": "block/spruce_leaves" },
-		"distance=1,persistent=true": { "model": "block/spruce_leaves" },
+		"distance=7,persistent=false": [
+				{ "model": "mcme:block/spruce_leaves_alt" },
+				{ "model": "mcme:block/spruce_leaves_alt_2" },
+				{ "model": "mcme:block/spruce_leaves_alt_3" },
+				{ "model": "mcme:block/spruce_leaves_alt_4" },
+				{ "model": "mcme:block/spruce_leaves_alt_5" }
+				],
+		"distance=1,persistent=true": [
+				{ "model": "mcme:block/spruce_leaves_alt" },
+				{ "model": "mcme:block/spruce_leaves_alt_2" },
+				{ "model": "mcme:block/spruce_leaves_alt_3" },
+				{ "model": "mcme:block/spruce_leaves_alt_4" },
+				{ "model": "mcme:block/spruce_leaves_alt_5" }
+				],
 		"distance=2,persistent=true": { "model": "block/piston_head_sticky", "x": 90 },
 		"distance=3,persistent=true": { "model": "block/piston_head_sticky", "x": 270 },
 		"distance=4,persistent=true": { "model": "block/piston_head_sticky", "y":270 },

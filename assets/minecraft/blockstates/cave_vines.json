@@ -1,0 +1,57 @@
+{
+  "variants": {
+	"berries=false,age=10": [
+	{  "model": "mcme:block/spruce_branch_dead"},
+	{  "model": "mcme:block/spruce_branch_dead_2"},
+	{  "model": "mcme:block/spruce_branch_dead_3"}
+	],
+	"berries=false,age=11": [
+	{  "model": "mcme:block/spruce_branch_dead_1_2"},
+	{  "model": "mcme:block/spruce_branch_dead_2_2"},
+	{  "model": "mcme:block/spruce_branch_dead_3_2"}
+	],
+	"berries=false,age=12": [
+	{  "model": "mcme:block/spruce_branch_dead_1_3"},
+	{  "model": "mcme:block/spruce_branch_dead_2_3"},
+	{  "model": "mcme:block/spruce_branch_dead_3_3"}
+	],
+	"berries=false,age=13": [
+	{  "model": "mcme:block/spruce_branch_dead_1_4"},
+	{  "model": "mcme:block/spruce_branch_dead_2_4"},
+	{  "model": "mcme:block/spruce_branch_dead_3_4"}
+	],
+	"berries=false,age=14": [
+	{  "model": "mcme:block/spruce_large_sapling_tilted"},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_2"},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_3"}
+	],
+	"berries=false,age=15": [
+	{  "model": "mcme:block/spruce_large_sapling_tilted_1_2"},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_2_2"},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_3_2"}
+	],
+	"berries=false,age=16": [
+	{  "model": "mcme:block/spruce_large_sapling_tilted_1_3"},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_2_3"},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_3_3"}
+	],
+	"berries=false,age=17": [
+	{  "model": "mcme:block/spruce_large_sapling_tilted_1_4"},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_2_4"},
+	{  "model": "mcme:block/spruce_large_sapling_tilted_3_4"}
+	],
+	"berries=false,age=0": [
+	{  "model": "mcme:block/larch_large_sapling_tilted"},
+	{  "model": "mcme:block/larch_large_sapling_tilted_2"},
+	{  "model": "mcme:block/larch_large_sapling_tilted_3"}
+	],
+	"berries=false,age=1": [
+	{  "model": "mcme:block/larch_large_sapling_tilted_1_2"},
+	{  "model": "mcme:block/larch_large_sapling_tilted_2_2"},
+	{  "model": "mcme:block/larch_large_sapling_tilted_3_2"}
+	],
+    "berries=true": {
+      "model": "minecraft:block/cave_vines_lit"
+    }
+  }
+}

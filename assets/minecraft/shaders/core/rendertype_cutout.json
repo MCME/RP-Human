@@ -5,7 +5,7 @@
         "dstrgb": "1-srcalpha"
     },
     "vertex": "render/block",
-    "fragment": "render/block",
+    "fragment": "render/block_custom_mip",
     "attributes": [
         "Position",
         "Color",

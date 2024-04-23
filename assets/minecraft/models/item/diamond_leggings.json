@@ -2,5 +2,3305 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "item/diamond_leggings"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "damage": 0.00202
+      },
+      "name": 1,
+      "model": "block/farmland_moisture0"
+    },
+    {
+      "predicate": {
+        "damage": 0.00403
+      },
+      "name": 2,
+      "model": "block/farmland_moisture1"
+    },
+    {
+      "predicate": {
+        "damage": 0.00605
+      },
+      "name": 3,
+      "model": "block/farmland_moisture2"
+    },
+    {
+      "predicate": {
+        "damage": 0.00806
+      },
+      "name": 4,
+      "model": "block/farmland_moisture3"
+    },
+    {
+      "predicate": {
+        "damage": 0.01008
+      },
+      "name": 5,
+      "model": "block/oak_sapling_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.01210
+      },
+      "name": 6,
+      "model": "block/spruce_sapling_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.01411
+      },
+      "name": 7,
+      "model": "block/birch_sapling_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.01613
+      },
+      "name": 8,
+      "model": "block/unused_cross_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.01815
+      },
+      "name": 9,
+      "model": "block/acacia_sapling_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.02016
+      },
+      "name": 10,
+      "model": "block/dark_oak_sapling_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.02218
+      },
+      "name": 11,
+      "model": "block/nether_wart_stage2"
+    },
+    {
+      "predicate": {
+        "damage": 0.02419
+      },
+      "name": 12,
+      "model": "block/nether_wart_stage3"
+    },
+    {
+      "predicate": {
+        "damage": 0.02621
+      },
+      "name": 13,
+      "model": "block/reeds_stage0"
+    },
+    {
+      "predicate": {
+        "damage": 0.02823
+      },
+      "name": 14,
+      "model": "block/oak_wood"
+    },
+    {
+      "predicate": {
+        "damage": 0.03024
+      },
+      "name": 15,
+      "model": "block/spruce_wood"
+    },
+    {
+      "predicate": {
+        "damage": 0.03226
+      },
+      "name": 16,
+      "model": "block/birch_wood"
+    },
+    {
+      "predicate": {
+        "damage": 0.03427
+      },
+      "name": 17,
+      "model": "block/jungle_wood"
+    },
+    {
+      "predicate": {
+        "damage": 0.03629
+      },
+      "name": 18,
+      "model": "block/acacia_wood"
+    },
+    {
+      "predicate": {
+        "damage": 0.03831
+      },
+      "name": 19,
+      "model": "item/chorus_plant_inventory"
+    },
+    {
+      "predicate": {
+        "damage": 0.04032
+      },
+      "name": 20,
+      "model": "item/tree_spruce_inventory_y"
+    },
+    {
+      "predicate": {
+        "damage": 0.04234
+      },
+      "name": 21,
+      "model": "item/tree_spruce_inventory_x"
+    },
+    {
+      "predicate": {
+        "damage": 0.04435
+      },
+      "name": 22,
+      "model": "item/tree_spruce_inventory_z"
+    },
+    {
+      "predicate": {
+        "damage": 0.04637
+      },
+      "name": 23,
+      "model": "item/tree_spruce_inventory_cross"
+    },
+    {
+      "predicate": {
+        "damage": 0.04839
+      },
+      "name": 24,
+      "model": "item/tree_spruce_inventory_cross_flat"
+    },
+    {
+      "predicate": {
+        "damage": 0.05040
+      },
+      "name": 25,
+      "model": "block/grass_block_patches_inventory"
+    },
+    {
+      "predicate": {
+        "damage": 0.05242
+      },
+      "name": 26,
+      "model": "block/grass_block_stones_inventory"
+    },
+    {
+      "predicate": {
+        "damage": 0.05444
+      },
+      "name": 27,
+      "model": "block/wheat_stage0"
+    },
+    {
+      "predicate": {
+        "damage": 0.05645
+      },
+      "name": 28,
+      "model": "block/wheat_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.05847
+      },
+      "name": 29,
+      "model": "block/wheat_stage2"
+    },
+    {
+      "predicate": {
+        "damage": 0.06048
+      },
+      "name": 30,
+      "model": "block/wheat_stage3"
+    },
+    {
+      "predicate": {
+        "damage": 0.06250
+      },
+      "name": 31,
+      "model": "block/wheat_stage4"
+    },
+    {
+      "predicate": {
+        "damage": 0.06452
+      },
+      "name": 32,
+      "model": "block/wheat_stage5"
+    },
+    {
+      "predicate": {
+        "damage": 0.06653
+      },
+      "name": 33,
+      "model": "block/wheat_stage6"
+    },
+    {
+      "predicate": {
+        "damage": 0.06855
+      },
+      "name": 34,
+      "model": "block/wheat_stage7"
+    },
+    {
+      "predicate": {
+        "damage": 0.07056
+      },
+      "name": 35,
+      "model": "block/carrots_stage0"
+    },
+    {
+      "predicate": {
+        "damage": 0.07258
+      },
+      "name": 36,
+      "model": "block/carrots_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.07460
+      },
+      "name": 37,
+      "model": "block/carrots_stage2"
+    },
+    {
+      "predicate": {
+        "damage": 0.07661
+      },
+      "name": 38,
+      "model": "block/carrots_stage3"
+    },
+    {
+      "predicate": {
+        "damage": 0.07863
+      },
+      "name": 39,
+      "model": "block/potatoes_stage0"
+    },
+    {
+      "predicate": {
+        "damage": 0.08065
+      },
+      "name": 40,
+      "model": "block/potatoes_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.08266
+      },
+      "name": 41,
+      "model": "block/potatoes_stage2"
+    },
+    {
+      "predicate": {
+        "damage": 0.08468
+      },
+      "name": 42,
+      "model": "block/potatoes_stage3"
+    },
+    {
+      "predicate": {
+        "damage": 0.08669
+      },
+      "name": 43,
+      "model": "block/onions_red_stage0"
+    },
+    {
+      "predicate": {
+        "damage": 0.08871
+      },
+      "name": 44,
+      "model": "block/onions_red_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.09073
+      },
+      "name": 45,
+      "model": "block/onions_red_stage2"
+    },
+    {
+      "predicate": {
+        "damage": 0.09274
+      },
+      "name": 46,
+      "model": "block/onions_red_stage3"
+    },
+    {
+      "predicate": {
+        "damage": 0.09476
+      },
+      "name": 47,
+      "model": "block/onions_white_stage0"
+    },
+    {
+      "predicate": {
+        "damage": 0.09677
+      },
+      "name": 48,
+      "model": "block/onions_white_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.09879
+      },
+      "name": 49,
+      "model": "block/onions_white_stage2"
+    },
+    {
+      "predicate": {
+        "damage": 0.10081
+      },
+      "name": 50,
+      "model": "block/onions_white_stage3"
+    },
+    {
+      "predicate": {
+        "damage": 0.10282
+      },
+      "name": 51,
+      "model": "block/beetroots_stage0"
+    },
+    {
+      "predicate": {
+        "damage": 0.10484
+      },
+      "name": 52,
+      "model": "block/beetroots_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.10685
+      },
+      "name": 53,
+      "model": "block/beetroots_stage2"
+    },
+    {
+      "predicate": {
+        "damage": 0.10887
+      },
+      "name": 54,
+      "model": "block/beetroots_stage3"
+    },
+    {
+      "predicate": {
+        "damage": 0.11089
+      },
+      "name": 55,
+      "model": "block/cabbage"
+    },
+    {
+      "predicate": {
+        "damage": 0.11290
+      },
+      "name": 56,
+      "model": "block/nether_wart_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.11492
+      },
+      "name": 57,
+      "model": "block/end_portal_frame_empty_north"
+    },
+    {
+      "predicate": {
+        "damage": 0.11694
+      },
+      "name": 58,
+      "model": "block/end_portal_frame_filled_north"
+    },
+    {
+      "predicate": {
+        "damage": 0.11895
+      },
+      "name": 59,
+      "model": "block/piston_sticky_extended"
+    },
+    {
+      "predicate": {
+        "damage": 0.12097
+      },
+      "name": 60,
+      "model": "block/smooth_sandstone"
+    },
+    {
+      "predicate": {
+        "damage": 0.12298
+      },
+      "name": 61,
+      "model": "block/smooth_red_sandstone"
+    },
+    {
+      "predicate": {
+        "damage": 0.12500
+      },
+      "name": 62,
+      "model": "block/double_slab_sandstone"
+    },
+    {
+      "predicate": {
+        "damage": 0.12702
+      },
+      "name": 63,
+      "model": "block/double_slab_red_sandstone"
+    },
+    {
+      "predicate": {
+        "damage": 0.12903
+      },
+      "name": 64,
+      "model": "block/red_mushroom_block_inside_all"
+    },
+    {
+      "predicate": {
+        "damage": 0.13105
+      },
+      "name": 65,
+      "model": "block/brown_mushroom_block_c"
+    },
+    {
+      "predicate": {
+        "damage": 0.13306
+      },
+      "name": 66,
+      "model": "block/brown_mushroom_block_sw"
+    },
+    {
+      "predicate": {
+        "damage": 0.13508
+      },
+      "name": 67,
+      "model": "block/brown_mushroom_block_se"
+    },
+    {
+      "predicate": {
+        "damage": 0.13710
+      },
+      "name": 68,
+      "model": "block/red_mushroom_block_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.13911
+      },
+      "name": 69,
+      "model": "block/red_mushroom_block_sw"
+    },
+    {
+      "predicate": {
+        "damage": 0.14113
+      },
+      "name": 70,
+      "model": "block/red_mushroom_block_s"
+    },
+    {
+      "predicate": {
+        "damage": 0.14315
+      },
+      "name": 71,
+      "model": "block/red_mushroom_block_normal"
+    },
+    {
+      "predicate": {
+        "damage": 0.14516
+      },
+      "name": 72,
+      "model": "block/red_mushroom_block_seu"
+    },
+    {
+      "predicate": {
+        "damage": 0.14718
+      },
+      "name": 73,
+      "model": "block/red_mushroom_block_nwd"
+    },
+    {
+      "predicate": {
+        "damage": 0.14919
+      },
+      "name": 74,
+      "model": "block/cactus_stage3"
+    },
+    {
+      "predicate": {
+        "damage": 0.15121
+      },
+      "name": 75,
+      "model": "block/cactus_stage4"
+    },
+    {
+      "predicate": {
+        "damage": 0.15323
+      },
+      "name": 76,
+      "model": "block/cactus_stage5"
+    },
+    {
+      "predicate": {
+        "damage": 0.15524
+      },
+      "name": 77,
+      "model": "block/double_slab_nether_brick"
+    },
+    {
+      "predicate": {
+        "damage": 0.15726
+      },
+      "name": 78,
+      "model": "block/double_slab_nether_brick_seamless"
+    },
+    {
+      "predicate": {
+        "damage": 0.15927
+      },
+      "name": 79,
+      "model": "block/end_portal_frame_empty_south"
+    },
+    {
+      "predicate": {
+        "damage": 0.16129
+      },
+      "name": 80,
+      "model": "block/end_portal_frame_filled_south"
+    },
+    {
+      "predicate": {
+        "damage": 0.16331
+      },
+      "name": 81,
+      "model": "block/smooth_quartz"
+    },
+    {
+      "predicate": {
+        "damage": 0.16532
+      },
+      "name": 82,
+      "model": "block/double_slab_quartz"
+    },
+    {
+      "predicate": {
+        "damage": 0.16734
+      },
+      "name": 83,
+      "model": "block/piston_normal_extended"
+    },
+    {
+      "predicate": {
+        "damage": 0.16935
+      },
+      "name": 84,
+      "model": "block/double_slab_stonebrick"
+    },
+    {
+      "predicate": {
+        "damage": 0.17137
+      },
+      "name": 85,
+      "model": "block/double_slab_stonebrick_seamless"
+    },
+    {
+      "predicate": {
+        "damage": 0.17339
+      },
+      "name": 86,
+      "model": "block/double_slab_brick_seamless"
+    },
+    {
+      "predicate": {
+        "damage": 0.17540
+      },
+      "name": 87,
+      "model": "block/infested_stone_bricks"
+    },
+    {
+      "predicate": {
+        "damage": 0.17742
+      },
+      "name": 88,
+      "model": "block/infested_mossy_stone_bricks"
+    },
+    {
+      "predicate": {
+        "damage": 0.17944
+      },
+      "name": 89,
+      "model": "block/infested_cracked_stone_bricks"
+    },
+    {
+      "predicate": {
+        "damage": 0.18145
+      },
+      "name": 90,
+      "model": "block/infested_chiseled_stone_bricks"
+    },
+    {
+      "predicate": {
+        "damage": 0.18347
+      },
+      "name": 91,
+      "model": "block/double_slab_brick"
+    },
+    {
+      "predicate": {
+        "damage": 0.18548
+      },
+      "name": 92,
+      "model": "block/smooth_stone"
+    },
+    {
+      "predicate": {
+        "damage": 0.18750
+      },
+      "name": 93,
+      "model": "block/monster_egg_stone"
+    },
+    {
+      "predicate": {
+        "damage": 0.18952
+      },
+      "name": 94,
+      "model": "block/smooth_stone_slab_double"
+    },
+    {
+      "predicate": {
+        "damage": 0.19153
+      },
+      "name": 95,
+      "model": "block/double_slab_cobblestone"
+    },
+    {
+      "predicate": {
+        "damage": 0.19355
+      },
+      "name": 96,
+      "model": "block/double_slab_purpur"
+    },
+    {
+      "predicate": {
+        "damage": 0.19556
+      },
+      "name": 97,
+      "model": "block/infested_cobblestone"
+    },
+    {
+      "predicate": {
+        "damage": 0.19758
+      },
+      "name": 98,
+      "model": "block/double_slab_planks_acacia"
+    },
+    {
+      "predicate": {
+        "damage": 0.19960
+      },
+      "name": 99,
+      "model": "block/double_slab_planks_dark_oak"
+    },
+    {
+      "predicate": {
+        "damage": 0.20161
+      },
+      "name": 100,
+      "model": "block/marker_accepted"
+    },
+    {
+      "predicate": {
+        "damage": 0.20363
+      },
+      "name": 101,
+      "model": "block/marker_declined"
+    },
+    {
+      "predicate": {
+        "damage": 0.20565
+      },
+      "name": 102,
+      "model": "block/marker_finished"
+    },
+    {
+      "predicate": {
+        "damage": 0.20766
+      },
+      "name": 103,
+      "model": "block/marker_wip"
+    },
+    {
+      "predicate": {
+        "damage": 0.20968
+      },
+      "name": 104,
+      "model": "block/marker_comment"
+    },
+    {
+      "predicate": {
+        "damage": 0.21169
+      },
+      "name": 105,
+      "model": "block/marker_info"
+    },
+    {
+      "predicate": {
+        "damage": 0.21371
+      },
+      "name": 106,
+      "model": "block/hardened_clay_purple"
+    },
+    {
+      "predicate": {
+        "damage": 0.21573
+      },
+      "name": 107,
+      "model": "block/stucco_blue"
+    },
+    {
+      "predicate": {
+        "damage": 0.21774
+      },
+      "name": 108,
+      "model": "block/stucco_magenta"
+    },
+    {
+      "predicate": {
+        "damage": 0.21976
+      },
+      "name": 109,
+      "model": "block/big_barrel"
+    },
+    {
+      "predicate": {
+        "damage": 0.22177
+      },
+      "name": 110,
+      "model": "block/stucco_light_blue"
+    },
+    {
+      "predicate": {
+        "damage": 0.22379
+      },
+      "name": 111,
+      "model": "block/piston_sticky_extended_up"
+    },
+    {
+      "predicate": {
+        "damage": 0.22581
+      },
+      "name": 112,
+      "model": "block/piston_normal_extended_up"
+    },
+    {
+      "predicate": {
+        "damage": 0.22782
+      },
+      "name": 113,
+      "model": "block/brown_mushroom_block_s"
+    },
+    {
+      "predicate": {
+        "damage": 0.22984
+      },
+      "name": 114,
+      "model": "block/stucco_white"
+    },
+    {
+      "predicate": {
+        "damage": 0.23185
+      },
+      "name": 115,
+      "model": "block/stucco_lime"
+    },
+    {
+      "predicate": {
+        "damage": 0.23387
+      },
+      "name": 116,
+      "model": "block/stucco_gray"
+    },
+    {
+      "predicate": {
+        "damage": 0.23589
+      },
+      "name": 117,
+      "model": "block/stucco_light_gray"
+    },
+    {
+      "predicate": {
+        "damage": 0.23790
+      },
+      "name": 118,
+      "model": "block/stucco_yellow"
+    },
+    {
+      "predicate": {
+        "damage": 0.23992
+      },
+      "name": 119,
+      "model": "block/stucco_orange"
+    },
+    {
+      "predicate": {
+        "damage": 0.24194
+      },
+      "name": 120,
+      "model": "block/stucco_pink"
+    },
+    {
+      "predicate": {
+        "damage": 0.24395
+      },
+      "name": 121,
+      "model": "block/stucco_red"
+    },
+    {
+      "predicate": {
+        "damage": 0.24597
+      },
+      "name": 122,
+      "model": "block/melon_stem_stage6"
+    },
+    {
+      "predicate": {
+        "damage": 0.24798
+      },
+      "name": 123,
+      "model": "block/melon_stem_stage7"
+    },
+    {
+      "predicate": {
+        "damage": 0.25000
+      },
+      "name": 124,
+      "model": "block/melon_stem_stage0"
+    },
+    {
+      "predicate": {
+        "damage": 0.25202
+      },
+      "name": 125,
+      "model": "block/grass_block_white_concrete_inventory"
+    },
+    {
+      "predicate": {
+        "damage": 0.25403
+      },
+      "name": 126,
+      "model": "item/palace_door"
+    },
+    {
+      "predicate": {
+        "damage": 0.25605
+      },
+      "name": 127,
+      "model": "item/barn_door"
+    },
+    {
+      "predicate": {
+        "damage": 0.25806
+      },
+      "name": 128,
+      "model": "item/oak_half_door"
+    },
+    {
+      "predicate": {
+        "damage": 0.26008
+      },
+      "name": 129,
+      "model": "item/spruce_half_door"
+    },
+    {
+      "predicate": {
+        "damage": 0.26210
+      },
+      "name": 130,
+      "model": "item/birch_half_door"
+    },
+    {
+      "predicate": {
+        "damage": 0.26411
+      },
+      "name": 131,
+      "model": "item/jungle_half_door"
+    },
+    {
+      "predicate": {
+        "damage": 0.26613
+      },
+      "name": 132,
+      "model": "item/acacia_half_door"
+    },
+    {
+      "predicate": {
+        "damage": 0.26815
+      },
+      "name": 133,
+      "model": "item/dark_oak_half_door"
+    },
+    {
+      "predicate": {
+        "damage": 0.27016
+      },
+      "name": 134,
+      "model": "item/iron_half_door"
+    },
+    {
+      "predicate": {
+        "damage": 0.27218
+      },
+      "name": 135,
+      "model": "item/spruce_door_powered"
+    },
+    {
+      "predicate": {
+        "damage": 0.27419
+      },
+      "name": 136,
+      "model": "item/spruce_door_powered_rh"
+    },
+    {
+      "predicate": {
+        "damage": 0.27621
+      },
+      "name": 137,
+      "model": "item/oak_door_powered"
+    },
+    {
+      "predicate": {
+        "damage": 0.27823
+      },
+      "name": 138,
+      "model": "item/oak_door_powered_rh"
+    },
+    {
+      "predicate": {
+        "damage": 0.28024
+      },
+      "name": 139,
+      "model": "item/jungle_door_powered"
+    },
+    {
+      "predicate": {
+        "damage": 0.28226
+      },
+      "name": 140,
+      "model": "item/jungle_door_powered_rh"
+    },
+    {
+      "predicate": {
+        "damage": 0.28427
+      },
+      "name": 141,
+      "model": "item/acacia_door_powered"
+    },
+    {
+      "predicate": {
+        "damage": 0.28629
+      },
+      "name": 142,
+      "model": "item/acacia_door_powered_rh"
+    },
+    {
+      "predicate": {
+        "damage": 0.28831
+      },
+      "name": 143,
+      "model": "item/dark_oak_door_powered"
+    },
+    {
+      "predicate": {
+        "damage": 0.29032
+      },
+      "name": 144,
+      "model": "item/dark_oak_door_powered_rh"
+    },
+    {
+      "predicate": {
+        "damage": 0.29234
+      },
+      "name": 145,
+      "model": "block/portal_ns"
+    },
+    {
+      "predicate": {
+        "damage": 0.29435
+      },
+      "name": 146,
+      "model": "block/dropper_nwd"
+    },
+    {
+      "predicate": {
+        "damage": 0.29637
+      },
+      "name": 147,
+      "model": "block/dropper_seu"
+    },
+    {
+      "predicate": {
+        "damage": 0.29839
+      },
+      "name": 148,
+      "model": "block/dropper_powered_nwd"
+    },
+    {
+      "predicate": {
+        "damage": 0.30040
+      },
+      "name": 149,
+      "model": "block/cactus_stage2"
+    },
+    {
+      "predicate": {
+        "damage": 0.30242
+      },
+      "name": 150,
+      "model": "block/piston_head_sticky"
+    },
+    {
+      "predicate": {
+        "damage": 0.30444
+      },
+      "name": 151,
+      "model": "item/golden_rail_flat_diagonal"
+    },
+    {
+      "predicate": {
+        "damage": 0.30645
+      },
+      "name": 152,
+      "model": "block/golden_rail_raised_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.30847
+      },
+      "name": 153,
+      "model": "item/detector_rail_flat_diagonal"
+    },
+    {
+      "predicate": {
+        "damage": 0.31048
+      },
+      "name": 154,
+      "model": "block/detector_rail_raised_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.31250
+      },
+      "name": 155,
+      "model": "item/rail_curved"
+    },
+    {
+      "predicate": {
+        "damage": 0.31452
+      },
+      "name": 156,
+      "model": "item/activator_rail"
+    },
+    {
+      "predicate": {
+        "damage": 0.31653
+      },
+      "name": 157,
+      "model": "item/redstone_dust_power3_center"
+    },
+    {
+      "predicate": {
+        "damage": 0.31855
+      },
+      "name": 158,
+      "model": "item/redstone_dust_power4_center"
+    },
+    {
+      "predicate": {
+        "damage": 0.32056
+      },
+      "name": 159,
+      "model": "item/redstone_dust_power5_center"
+    },
+    {
+      "predicate": {
+        "damage": 0.32258
+      },
+      "name": 160,
+      "model": "block/grass_block_dirt_inventory"
+    },
+    {
+      "predicate": {
+        "damage": 0.32460
+      },
+      "name": 161,
+      "model": "block/grass_block_bubble_coral_inventory"
+    },
+    {
+      "predicate": {
+        "damage": 0.32661
+      },
+      "name": 162,
+      "model": "block/grass_block_gray_terracotta_inventory"
+    },
+    {
+      "predicate": {
+        "damage": 0.32863
+      },
+      "name": 163,
+      "model": "block/double_slab_planks_oak"
+    },
+    {
+      "predicate": {
+        "damage": 0.33065
+      },
+      "name": 164,
+      "model": "block/double_slab_planks_birch"
+    },
+    {
+      "predicate": {
+        "damage": 0.33266
+      },
+      "name": 165,
+      "model": "block/double_slab_planks_spruce"
+    },
+    {
+      "predicate": {
+        "damage": 0.33468
+      },
+      "name": 166,
+      "model": "block/double_slab_wood_old"
+    },
+    {
+      "predicate": {
+        "damage": 0.33669
+      },
+      "name": 167,
+      "model": "block/piston_head"
+    },
+    {
+      "predicate": {
+        "damage": 0.33871
+      },
+      "name": 168,
+      "model": "block/furnace_on"
+    },
+    {
+      "predicate": {
+        "damage": 0.34073
+      },
+      "name": 169,
+      "model": "block/cauldron_empty"
+    },
+    {
+      "predicate": {
+        "damage": 0.34274
+      },
+      "name": 170,
+      "model": "block/cauldron_level1"
+    },
+    {
+      "predicate": {
+        "damage": 0.34476
+      },
+      "name": 171,
+      "model": "block/cauldron_level2"
+    },
+    {
+      "predicate": {
+        "damage": 0.34677
+      },
+      "name": 172,
+      "model": "block/cauldron_level3"
+    },
+    {
+      "predicate": {
+        "damage": 0.34879
+      },
+      "name": 173,
+      "model": "block/brewing_stand"
+    },
+    {
+      "predicate": {
+        "damage": 0.35081
+      },
+      "name": 174,
+      "model": "block/cactus_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.35282
+      },
+      "name": 175,
+      "model": "block/ladder"
+    },
+    {
+      "predicate": {
+        "damage": 0.35484
+      },
+      "name": 176,
+      "model": "block/cactus_stage6"
+    },
+    {
+      "predicate": {
+        "damage": 0.35685
+      },
+      "name": 177,
+      "model": "block/chain_down_north"
+    },
+    {
+      "predicate": {
+        "damage": 0.35887
+      },
+      "name": 178,
+      "model": "block/chain_down_center"
+    },
+    {
+      "predicate": {
+        "damage": 0.36089
+      },
+      "name": 179,
+      "model": "block/podzol_snowy"
+    },
+    {
+      "predicate": {
+        "damage": 0.36290
+      },
+      "name": 180,
+      "model": "block/grass_block_red_concrete_inventory"
+    },
+    {
+      "predicate": {
+        "damage": 0.36492
+      },
+      "name": 181,
+      "model": "block/grass_block_orange_concrete_inventory"
+    },
+    {
+      "predicate": {
+        "damage": 0.36694
+      },
+      "name": 182,
+      "model": "block/repeater_delay1_s"
+    },
+    {
+      "predicate": {
+        "damage": 0.36895
+      },
+      "name": 183,
+      "model": "block/repeater_delay1_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.37097
+      },
+      "name": 184,
+      "model": "block/repeater_delay1_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.37298
+      },
+      "name": 185,
+      "model": "block/repeater_delay1_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.37500
+      },
+      "name": 186,
+      "model": "block/repeater_delay2_s"
+    },
+    {
+      "predicate": {
+        "damage": 0.37702
+      },
+      "name": 187,
+      "model": "block/repeater_delay2_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.37903
+      },
+      "name": 188,
+      "model": "block/grass_block_green_concrete_inventory"
+    },
+    {
+      "predicate": {
+        "damage": 0.38105
+      },
+      "name": 189,
+      "model": "block/grass_block_stone_inventory"
+    },
+    {
+      "predicate": {
+        "damage": 0.38306
+      },
+      "name": 190,
+      "model": "block/repeater_delay3_s"
+    },
+    {
+      "predicate": {
+        "damage": 0.38508
+      },
+      "name": 191,
+      "model": "block/repeater_delay3_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.38710
+      },
+      "name": 192,
+      "model": "block/repeater_delay3_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.38911
+      },
+      "name": 193,
+      "model": "block/repeater_delay3_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.39113
+      },
+      "name": 194,
+      "model": "block/repeater_delay4_s"
+    },
+    {
+      "predicate": {
+        "damage": 0.39315
+      },
+      "name": 195,
+      "model": "block/repeater_delay4_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.39516
+      },
+      "name": 196,
+      "model": "block/repeater_delay4_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.39718
+      },
+      "name": 197,
+      "model": "block/repeater_delay4_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.39919
+      },
+      "name": 198,
+      "model": "block/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.40121
+      },
+      "name": 199,
+      "model": "block/powered_repeater_delay1_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.40323
+      },
+      "name": 200,
+      "model": "block/powered_repeater_delay1_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.40524
+      },
+      "name": 201,
+      "model": "block/powered_repeater_delay1_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.40726
+      },
+      "name": 202,
+      "model": "block/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.40927
+      },
+      "name": 203,
+      "model": "block/powered_repeater_delay2_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.41129
+      },
+      "name": 204,
+      "model": "block/powered_repeater_delay2_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.41331
+      },
+      "name": 205,
+      "model": "block/powered_repeater_delay2_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.41532
+      },
+      "name": 206,
+      "model": "block/powered_repeater_delay3_s"
+    },
+    {
+      "predicate": {
+        "damage": 0.41734
+      },
+      "name": 207,
+      "model": "block/powered_repeater_delay3_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.41935
+      },
+      "name": 208,
+      "model": "block/powered_repeater_delay3_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.42137
+      },
+      "name": 209,
+      "model": "block/powered_repeater_delay3_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.42339
+      },
+      "name": 210,
+      "model": "block/powered_repeater_delay4_s"
+    },
+    {
+      "predicate": {
+        "damage": 0.42540
+      },
+      "name": 211,
+      "model": "block/powered_repeater_delay4_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.42742
+      },
+      "name": 212,
+      "model": "block/powered_repeater_delay4_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.42944
+      },
+      "name": 213,
+      "model": "block/powered_repeater_delay4_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.43145
+      },
+      "name": 214,
+      "model": "block/comparator_compare_s"
+    },
+    {
+      "predicate": {
+        "damage": 0.43347
+      },
+      "name": 215,
+      "model": "block/comparator_compare_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.43548
+      },
+      "name": 216,
+      "model": "block/comparator_compare_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.43750
+      },
+      "name": 217,
+      "model": "block/comparator_compare_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.43952
+      },
+      "name": 218,
+      "model": "block/comparator_subtract_s"
+    },
+    {
+      "predicate": {
+        "damage": 0.44153
+      },
+      "name": 219,
+      "model": "block/comparator_subtract_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.44355
+      },
+      "name": 220,
+      "model": "block/comparator_subtract_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.44556
+      },
+      "name": 221,
+      "model": "block/comparator_subtract_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.44758
+      },
+      "name": 222,
+      "model": "block/comparator_powered_compare_s"
+    },
+    {
+      "predicate": {
+        "damage": 0.44960
+      },
+      "name": 223,
+      "model": "block/comparator_powered_compare_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.45161
+      },
+      "name": 224,
+      "model": "block/comparator_powered_compare_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.45363
+      },
+      "name": 225,
+      "model": "block/comparator_powered_compare_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.45565
+      },
+      "name": 226,
+      "model": "block/comparator_powered_subtract_s"
+    },
+    {
+      "predicate": {
+        "damage": 0.45766
+      },
+      "name": 227,
+      "model": "block/comparator_powered_subtract_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.45968
+      },
+      "name": 228,
+      "model": "block/oak_fence_gate_powered_closed"
+    },
+    {
+      "predicate": {
+        "damage": 0.46169
+      },
+      "name": 229,
+      "model": "block/birch_fence_gate_powered_closed"
+    },
+    {
+      "predicate": {
+        "damage": 0.46371
+      },
+      "name": 230,
+      "model": "block/jungle_fence_gate_closed"
+    },
+    {
+      "predicate": {
+        "damage": 0.46573
+      },
+      "name": 231,
+      "model": "block/jungle_fence_gate_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.46774
+      },
+      "name": 232,
+      "model": "block/jungle_fence_gate_powered_closed"
+    },
+    {
+      "predicate": {
+        "damage": 0.46976
+      },
+      "name": 233,
+      "model": "block/spruce_fence_gate"
+    },
+    {
+      "predicate": {
+        "damage": 0.47177
+      },
+      "name": 234,
+      "model": "block/spruce_fence_gate_powered_closed"
+    },
+    {
+      "predicate": {
+        "damage": 0.47379
+      },
+      "name": 235,
+      "model": "block/dark_oak_fence_gate_closed"
+    },
+    {
+      "predicate": {
+        "damage": 0.47581
+      },
+      "name": 236,
+      "model": "block/stucco_blue_inside"
+    },
+    {
+      "predicate": {
+        "damage": 0.47782
+      },
+      "name": 237,
+      "model": "block/dark_oak_fence_gate_powered_closed"
+    },
+    {
+      "predicate": {
+        "damage": 0.47984
+      },
+      "name": 238,
+      "model": "block/nether_brick_slab"
+    },
+    {
+      "predicate": {
+        "damage": 0.48185
+      },
+      "name": 239,
+      "model": "block/cyan_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.48387
+      },
+      "name": 240,
+      "model": "block/light_gray_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.48589
+      },
+      "name": 241,
+      "model": "block/blue_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.48790
+      },
+      "name": 242,
+      "model": "block/purple_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.48992
+      },
+      "name": 243,
+      "model": "block/green_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.49194
+      },
+      "name": 244,
+      "model": "block/brown_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.49395
+      },
+      "name": 245,
+      "model": "block/red_concrete_powder_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.49597
+      },
+      "name": 246,
+      "model": "block/redstone_torch"
+    },
+    {
+      "predicate": {
+        "damage": 0.49798
+      },
+      "name": 247,
+      "model": "block/light_pressure_plate_power2"
+    },
+    {
+      "predicate": {
+        "damage": 0.50000
+      },
+      "name": 248,
+      "model": "block/light_pressure_plate_power3"
+    },
+    {
+      "predicate": {
+        "damage": 0.50202
+      },
+      "name": 249,
+      "model": "block/light_pressure_plate_power4"
+    },
+    {
+      "predicate": {
+        "damage": 0.50403
+      },
+      "name": 250,
+      "model": "block/light_pressure_plate_power5"
+    },
+    {
+      "predicate": {
+        "damage": 0.50605
+      },
+      "name": 251,
+      "model": "block/light_pressure_plate_power6"
+    },
+    {
+      "predicate": {
+        "damage": 0.50806
+      },
+      "name": 252,
+      "model": "block/light_pressure_plate_power7"
+    },
+    {
+      "predicate": {
+        "damage": 0.51008
+      },
+      "name": 253,
+      "model": "block/light_pressure_plate_power8"
+    },
+    {
+      "predicate": {
+        "damage": 0.51210
+      },
+      "name": 254,
+      "model": "block/light_pressure_plate_power9"
+    },
+    {
+      "predicate": {
+        "damage": 0.51411
+      },
+      "name": 255,
+      "model": "block/light_pressure_plate_power10"
+    },
+    {
+      "predicate": {
+        "damage": 0.51613
+      },
+      "name": 256,
+      "model": "block/light_pressure_plate_power11"
+    },
+    {
+      "predicate": {
+        "damage": 0.51815
+      },
+      "name": 257,
+      "model": "block/light_pressure_plate_power12"
+    },
+    {
+      "predicate": {
+        "damage": 0.52016
+      },
+      "name": 258,
+      "model": "block/light_pressure_plate_power13"
+    },
+    {
+      "predicate": {
+        "damage": 0.52218
+      },
+      "name": 259,
+      "model": "block/light_pressure_plate_power14"
+    },
+    {
+      "predicate": {
+        "damage": 0.52419
+      },
+      "name": 260,
+      "model": "block/light_pressure_plate_power15"
+    },
+    {
+      "predicate": {
+        "damage": 0.52621
+      },
+      "name": 261,
+      "model": "block/heavy_pressure_plate_power2"
+    },
+    {
+      "predicate": {
+        "damage": 0.52823
+      },
+      "name": 262,
+      "model": "block/heavy_pressure_plate_power3"
+    },
+    {
+      "predicate": {
+        "damage": 0.53024
+      },
+      "name": 263,
+      "model": "block/heavy_pressure_plate_power4"
+    },
+    {
+      "predicate": {
+        "damage": 0.53226
+      },
+      "name": 264,
+      "model": "block/heavy_pressure_plate_power5"
+    },
+    {
+      "predicate": {
+        "damage": 0.53427
+      },
+      "name": 265,
+      "model": "block/heavy_pressure_plate_power6"
+    },
+    {
+      "predicate": {
+        "damage": 0.53629
+      },
+      "name": 266,
+      "model": "block/heavy_pressure_plate_power7"
+    },
+    {
+      "predicate": {
+        "damage": 0.53831
+      },
+      "name": 267,
+      "model": "block/heavy_pressure_plate_power8"
+    },
+    {
+      "predicate": {
+        "damage": 0.54032
+      },
+      "name": 268,
+      "model": "block/heavy_pressure_plate_power9"
+    },
+    {
+      "predicate": {
+        "damage": 0.54234
+      },
+      "name": 269,
+      "model": "block/heavy_pressure_plate_power10"
+    },
+    {
+      "predicate": {
+        "damage": 0.54435
+      },
+      "name": 270,
+      "model": "block/heavy_pressure_plate_power11"
+    },
+    {
+      "predicate": {
+        "damage": 0.54637
+      },
+      "name": 271,
+      "model": "block/heavy_pressure_plate_power12"
+    },
+    {
+      "predicate": {
+        "damage": 0.54839
+      },
+      "name": 272,
+      "model": "block/heavy_pressure_plate_power13"
+    },
+    {
+      "predicate": {
+        "damage": 0.55040
+      },
+      "name": 273,
+      "model": "block/heavy_pressure_plate_power14"
+    },
+    {
+      "predicate": {
+        "damage": 0.55242
+      },
+      "name": 274,
+      "model": "block/heavy_pressure_plate_power15"
+    },
+    {
+      "predicate": {
+        "damage": 0.55444
+      },
+      "name": 275,
+      "model": "block/iron_trapdoor_bottom_s"
+    },
+    {
+      "predicate": {
+        "damage": 0.55645
+      },
+      "name": 276,
+      "model": "block/iron_trapdoor_bottom_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.55847
+      },
+      "name": 277,
+      "model": "block/iron_trapdoor_bottom_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.56048
+      },
+      "name": 278,
+      "model": "block/polished_andesite_slab_double"
+    },
+    {
+      "predicate": {
+        "damage": 0.56250
+      },
+      "name": 279,
+      "model": "block/polished_diorite_slab_double"
+    },
+    {
+      "predicate": {
+        "damage": 0.56452
+      },
+      "name": 280,
+      "model": "block/andesite_slab_double"
+    },
+    {
+      "predicate": {
+        "damage": 0.56653
+      },
+      "name": 281,
+      "model": "block/iron_trapdoor_top_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.56855
+      },
+      "name": 282,
+      "model": "block/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.57056
+      },
+      "name": 283,
+      "model": "block/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.57258
+      },
+      "name": 284,
+      "model": "block/redstone_torch_off"
+    },
+    {
+      "predicate": {
+        "damage": 0.57460
+      },
+      "name": 285,
+      "model": "block/tripwire_hook"
+    },
+    {
+      "predicate": {
+        "damage": 0.57661
+      },
+      "name": 286,
+      "model": "block/fire_floor0"
+    },
+    {
+      "predicate": {
+        "damage": 0.57863
+      },
+      "name": 287,
+      "model": "block/anvil_damage0_sw"
+    },
+    {
+      "predicate": {
+        "damage": 0.58065
+      },
+      "name": 288,
+      "model": "block/anvil_damage0_ne"
+    },
+    {
+      "predicate": {
+        "damage": 0.58266
+      },
+      "name": 289,
+      "model": "block/anvil_damage1_sw"
+    },
+    {
+      "predicate": {
+        "damage": 0.58468
+      },
+      "name": 290,
+      "model": "block/anvil_damage1_ne"
+    },
+    {
+      "predicate": {
+        "damage": 0.58669
+      },
+      "name": 291,
+      "model": "block/anvil_damage2_sw"
+    },
+    {
+      "predicate": {
+        "damage": 0.58871
+      },
+      "name": 292,
+      "model": "block/anvil_damage2_ne"
+    },
+    {
+      "predicate": {
+        "damage": 0.59073
+      },
+      "name": 293,
+      "model": "block/chorus_flower_stage0"
+    },
+    {
+      "predicate": {
+        "damage": 0.59274
+      },
+      "name": 294,
+      "model": "block/chorus_flower_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.59476
+      },
+      "name": 295,
+      "model": "block/chorus_flower_stage2"
+    },
+    {
+      "predicate": {
+        "damage": 0.59677
+      },
+      "name": 296,
+      "model": "block/chorus_flower_stage3"
+    },
+    {
+      "predicate": {
+        "damage": 0.59879
+      },
+      "name": 297,
+      "model": "block/chorus_flower_stage4"
+    },
+    {
+      "predicate": {
+        "damage": 0.60081
+      },
+      "name": 298,
+      "model": "block/chorus_flower_stage5"
+    },
+    {
+      "predicate": {
+        "damage": 0.60282
+      },
+      "name": 299,
+      "model": "block/white_glazed_terracotta_sw"
+    },
+    {
+      "predicate": {
+        "damage": 0.60484
+      },
+      "name": 300,
+      "model": "block/white_glazed_terracotta_ne"
+    },
+    {
+      "predicate": {
+        "damage": 0.60685
+      },
+      "name": 301,
+      "model": "block/yellow_glazed_terracotta_sw"
+    },
+    {
+      "predicate": {
+        "damage": 0.60887
+      },
+      "name": 302,
+      "model": "block/yellow_glazed_terracotta_ne"
+    },
+    {
+      "predicate": {
+        "damage": 0.61089
+      },
+      "name": 303,
+      "model": "block/light_gray_glazed_terracotta_sw"
+    },
+    {
+      "predicate": {
+        "damage": 0.61290
+      },
+      "name": 304,
+      "model": "block/light_gray_glazed_terracotta_ne"
+    },
+    {
+      "predicate": {
+        "damage": 0.61492
+      },
+      "name": 305,
+      "model": "block/brown_glazed_terracotta_sw"
+    },
+    {
+      "predicate": {
+        "damage": 0.61694
+      },
+      "name": 306,
+      "model": "block/brown_glazed_terracotta_ne"
+    },
+    {
+      "predicate": {
+        "damage": 0.61895
+      },
+      "name": 307,
+      "model": "block/pink_concrete_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.62097
+      },
+      "name": 308,
+      "model": "block/large_small_sandstone_combo"
+    },
+    {
+      "predicate": {
+        "damage": 0.62298
+      },
+      "name": 309,
+      "model": "block/yellow_concrete_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.62500
+      },
+      "name": 310,
+      "model": "block/red_mushroom_block_neswud"
+    },
+    {
+      "predicate": {
+        "damage": 0.62702
+      },
+      "name": 311,
+      "model": "block/red_mushroom_block_nesud"
+    },
+    {
+      "predicate": {
+        "damage": 0.62903
+      },
+      "name": 312,
+      "model": "block/light_gray_concrete_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.63105
+      },
+      "name": 313,
+      "model": "block/brown_concrete_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.63306
+      },
+      "name": 314,
+      "model": "block/boulders_light"
+    },
+    {
+      "predicate": {
+        "damage": 0.63508
+      },
+      "name": 315,
+      "model": "block/boulders_dark"
+    },
+    {
+      "predicate": {
+        "damage": 0.63710
+      },
+      "name": 316,
+      "model": "block/boulders_mixed"
+    },
+    {
+      "predicate": {
+        "damage": 0.63911
+      },
+      "name": 317,
+      "model": "block/boulders_mossy"
+    },
+    {
+      "predicate": {
+        "damage": 0.64113
+      },
+      "name": 318,
+      "model": "item/dark_oak_half_door_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.64315
+      },
+      "name": 319,
+      "model": "block/grass_block_polished_andesite_inventory"
+    },
+    {
+      "predicate": {
+        "damage": 0.64516
+      },
+      "name": 320,
+      "model": "block/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.64718
+      },
+      "name": 321,
+      "model": "block/acacia_fence_gate_powered_closed_ne"
+    },
+    {
+      "predicate": {
+        "damage": 0.64919
+      },
+      "name": 322,
+      "model": "block/birch_fence_gate_powered_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.65121
+      },
+      "name": 323,
+      "model": "block/dark_oak_fence_gate_powered_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.65323
+      },
+      "name": 324,
+      "model": "block/jungle_fence_gate_powered_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.65524
+      },
+      "name": 325,
+      "model": "block/spruce_fence_gate_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.65726
+      },
+      "name": 326,
+      "model": "block/acacia_fence_gate_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.65927
+      },
+      "name": 327,
+      "model": "item/shutter"
+    },
+    {
+      "predicate": {
+        "damage": 0.66129
+      },
+      "name": 328,
+      "model": "block/cocoa_stage2"
+    },
+    {
+      "predicate": {
+        "damage": 0.66331
+      },
+      "name": 329,
+      "model": "block/cocoa_stage1"
+    },
+    {
+      "predicate": {
+        "damage": 0.66532
+      },
+      "name": 330,
+      "model": "block/end_portal_frame_filled_east"
+    },
+    {
+      "predicate": {
+        "damage": 0.66734
+      },
+      "name": 331,
+      "model": "block/end_portal_frame_filled_west"
+    },
+    {
+      "predicate": {
+        "damage": 0.66935
+      },
+      "name": 332,
+      "model": "block/comparator_powered_subtract_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.67137
+      },
+      "name": 333,
+      "model": "block/comparator_powered_subtract_e"
+    },
+    {
+      "predicate": {
+        "damage": 0.67339
+      },
+      "name": 334,
+      "model": "block/cocoa_stage0"
+    },
+    {
+      "predicate": {
+        "damage": 0.67540
+      },
+      "name": 335,
+      "model": "block/cocoa_stage0"
+    },
+    {
+      "predicate": {
+        "damage": 0.67742
+      },
+      "name": 336,
+      "model": "block/cocoa_stage0"
+    },
+    {
+      "predicate": {
+        "damage": 0.67944
+      },
+      "name": 337,
+      "model": "item/beacon_default"
+    },
+    {
+      "predicate": {
+        "damage": 0.68145
+      },
+      "name": 338,
+      "model": "block/unused_cross_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.68347
+      },
+      "name": 339,
+      "model": "item/stationary_lava"
+    },
+    {
+      "predicate": {
+        "damage": 0.68548
+      },
+      "name": 340,
+      "model": "item/stationary_lava_height2"
+    },
+    {
+      "predicate": {
+        "damage": 0.68750
+      },
+      "name": 341,
+      "model": "item/stationary_water"
+    },
+    {
+      "predicate": {
+        "damage": 0.68952
+      },
+      "name": 342,
+      "model": "item/stationary_water_height2"
+    },
+    {
+      "predicate": {
+        "damage": 0.69153
+      },
+      "name": 343,
+      "model": "item/stationary_water_height4"
+    },
+    {
+      "predicate": {
+        "damage": 0.69355
+      },
+      "name": 344,
+      "model": "item/stationary_water_height6"
+    },
+    {
+      "predicate": {
+        "damage": 0.69556
+      },
+      "name": 345,
+      "model": "item/stationary_water_height8"
+    },
+    {
+      "predicate": {
+        "damage": 0.69758
+      },
+      "name": 346,
+      "model": "item/stationary_water_height10"
+    },
+    {
+      "predicate": {
+        "damage": 0.69960
+      },
+      "name": 347,
+      "model": "item/stationary_water_height12"
+    },
+    {
+      "predicate": {
+        "damage": 0.70161
+      },
+      "name": 348,
+      "model": "item/stationary_water_height14"
+    },
+    {
+      "predicate": {
+        "damage": 0.70363
+      },
+      "name": 349,
+      "model": "block/double_slab_planks_jungle_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.70565
+      },
+      "name": 350,
+      "model": "block/brown_mushroom_block_inside_all"
+    },
+    {
+      "predicate": {
+        "damage": 0.70766
+      },
+      "name": 351,
+      "model": "block/brown_mushroom_block_nw"
+    },
+    {
+      "predicate": {
+        "damage": 0.70968
+      },
+      "name": 352,
+      "model": "block/brown_mushroom_block_n"
+    },
+    {
+      "predicate": {
+        "damage": 0.71169
+      },
+      "name": 353,
+      "model": "block/brown_mushroom_block_ne"
+    },
+    {
+      "predicate": {
+        "damage": 0.71371
+      },
+      "name": 354,
+      "model": "block/brown_mushroom_block_w"
+    },
+    {
+      "predicate": {
+        "damage": 0.71573
+      },
+      "name": 355,
+      "model": "item/stationary_lava_height4"
+    },
+    {
+      "predicate": {
+        "damage": 0.71774
+      },
+      "name": 356,
+      "model": "item/stationary_lava_height6"
+    },
+    {
+      "predicate": {
+        "damage": 0.71976
+      },
+      "name": 357,
+      "model": "item/stationary_lava_height8"
+    },
+    {
+      "predicate": {
+        "damage": 0.72177
+      },
+      "name": 358,
+      "model": "item/stationary_lava_height10"
+    },
+    {
+      "predicate": {
+        "damage": 0.72379
+      },
+      "name": 359,
+      "model": "item/stationary_lava_height12"
+    },
+    {
+      "predicate": {
+        "damage": 0.72581
+      },
+      "name": 360,
+      "model": "item/stationary_lava_height14"
+    },
+	{
+      "predicate": {
+        "damage": 0.72782
+      },
+      "name": 361,
+      "model": "item/redstone_dust_power6_center"
+    },
+	{
+      "predicate": {
+        "damage": 0.72984
+      },
+      "name": 362,
+      "model": "item/redstone_dust_power7_center"
+    },
+	{
+      "predicate": {
+        "damage": 0.73186
+      },
+      "name": 363,
+      "model": "block/repeater_delay2_n"
+    },
+	{
+      "predicate": {
+        "damage": 0.73387
+      },
+      "name": 364,
+      "model": "block/repeater_delay2_e"
+    },
+	{
+      "predicate": {
+        "damage": 0.73589
+      },
+      "name": 365,
+      "model": "block/vertical_slab_mossy_dark_gray_brick"
+    },
+	{
+      "predicate": {
+        "damage": 0.73790
+      },
+      "name": 366,
+      "model": "block/note_block_1"
+    },
+	{
+      "predicate": {
+        "damage": 0.73992
+      },
+      "name": 367,
+      "model": "block/note_block_7"
+    },
+	{
+      "predicate": {
+        "damage": 0.74194
+      },
+      "name": 368,
+      "model": "block/note_block_13"
+    },
+	{
+      "predicate": {
+        "damage": 0.74395
+      },
+      "name": 369,
+      "model": "block/note_block_19"
+    },
+	{
+      "predicate": {
+        "damage": 0.74597
+      },
+      "name": 370,
+      "model": "block/red_mushroom_block_nwu"
+    },
+	{
+      "predicate": {
+        "damage": 0.74798
+      },
+      "name": 371,
+      "model": "block/red_mushroom_block_nw"
+    },
+	{
+      "predicate": {
+        "damage": 0.75000
+      },
+      "name": 372,
+      "model": "block/red_mushroom_block_n"
+    },
+	{
+      "predicate": {
+        "damage": 0.75201
+      },
+      "name": 373,
+      "model": "block/red_mushroom_block_nu"
+    },
+	{
+      "predicate": {
+        "damage": 0.75403
+      },
+      "name": 374,
+      "model": "block/red_mushroom_block_eswu"
+    },
+	{
+      "predicate": {
+        "damage": 0.75605
+      },
+      "name": 375,
+      "model": "block/grass_slab_inventory"
+    },
+	{
+      "predicate": {
+        "damage": 0.75807
+      },
+      "name": 376,
+      "model": "block/vertical_slab_red_mushroom_block_newud"
+	},
+	{
+      "predicate": {
+        "damage": 0.76008
+      },
+      "name": 377,
+      "model": "block/vertical_slab_red_mushroom_block_new"
+	  },
+	{
+      "predicate": {
+        "damage": 0.76210
+      },
+      "name": 378,
+      "model": "block/vertical_slab_red_mushroom_block_neud"
+	  },
+	{
+      "predicate": {
+        "damage": 0.76411
+      },
+      "name": 379,
+      "model": "block/vertical_slab_red_mushroom_block_newd"
+	  },
+	{
+      "predicate": {
+        "damage": 0.76613
+      },
+      "name": 380,
+      "model": "block/vertical_slab_red_mushroom_block_nwud"
+	  },
+	{
+      "predicate": {
+        "damage": 0.76815
+      },
+      "name": 381,
+      "model": "block/vertical_slab_double_slab_mossy_stone_brick"
+	  },
+	{
+      "predicate": {
+        "damage": 0.77016
+      },
+      "name": 382,
+      "model": "block/red_mushroom_block_esw"
+	  },
+	{
+      "predicate": {
+        "damage": 0.77218
+      },
+      "name": 383,
+      "model": "block/crimson_hyphae"
+	  },
+	{
+      "predicate": {
+        "damage": 0.77419
+      },
+      "name": 384,
+      "model": "block/stripped_crimson_hyphae"
+	  },
+  {
+      "predicate": {
+        "damage": 0.77621
+      },
+      "name": 385,
+      "model": "block/red_mushroom_block_esd"
+    },
+  {
+      "predicate": {
+         "damage": 0.77823
+      },
+      "name": 386,
+      "model": "block/red_mushroom_block_es"
+      },
+  {
+      "predicate": {
+         "damage": 0.78024
+      },
+      "name": 387,
+      "model": "block/note_block_snare_0"
+      },
+  {
+      "predicate": {
+         "damage": 0.78226
+      },
+      "name": 388,
+      "model": "block/note_block_snare_1"
+      },
+  {
+      "predicate": {
+         "damage": 0.78427
+      },
+      "name": 389,
+      "model": "block/note_block_snare_2"
+      },
+  {
+      "predicate": {
+         "damage": 0.78629
+      },
+      "name": 390,
+      "model": "block/note_block_snare_3"
+      },
+  {
+      "predicate": {
+         "damage": 0.78831
+      },
+      "name": 391,
+      "model": "block/trunk_diagonal"
+      },
+  {
+      "predicate": {
+         "damage": 0.79032
+      },
+      "name": 392,
+      "model": "block/acacia_door_railing"
+      },
+  {
+      "predicate": {
+         "damage": 0.79234
+      },
+      "name": 393,
+      "model": "block/acacia_door_railing_diagonal"
+      },
+  {
+      "predicate": {
+         "damage": 0.79435
+      },
+      "name": 394,
+      "model": "block/acacia_door_railing_corner"
+      },
+  {
+      "predicate": {
+         "damage": 0.79637
+      },
+      "name": 395,
+      "model": "block/acacia_door_fence"
+      },
+  {
+      "predicate": {
+         "damage": 0.79839
+      },
+      "name": 396,
+      "model": "item/waterlogged_sand_slab"
+      },
+  {
+      "predicate": {
+         "damage": 0.80040
+      },
+      "name": 397,
+      "model": "block/double_slab_dark_prismarine"
+      },
+  {
+      "predicate": {
+         "damage": 0.80242
+      },
+      "name": 398,
+      "model": "block/redstone_dust_power8_center"
+      },
+  {
+      "predicate": {
+         "damage": 0.80444
+      },
+      "name": 399,
+      "model": "block/note_block_snare_4"
+      },
+  {
+      "predicate": {
+          "damage": 0.80645
+      },
+      "name": 400,
+      "model": "block/beam_diagonal_s_down"
+      },
+  {
+      "predicate": {
+          "damage": 0.80847
+      },
+      "name": 401,
+      "model": "block/stripped_crimson_hyphae_y"
+      },
+  {
+      "predicate": {
+          "damage": 0.81048
+      },
+      "name": 402,
+      "model": "item/display_grass_block_stones_only"
+      },
+  {
+      "predicate": {
+          "damage": 0.81250
+      },
+      "name": 403,
+      "model": "block/beam_diagonal_s"
+      },
+  {
+      "predicate": {
+          "damage": 0.81452
+      },
+      "name": 404,
+      "model": "item/display_trunk_diagonal_ns"
+      },
+  {
+      "predicate": {
+          "damage": 0.81653
+      },
+      "name": 405,
+      "model": "block/hopper_light_gray_large_doric"
+      },
+  {
+      "predicate": {
+          "damage": 0.81855
+      },
+      "name": 406,
+      "model": "block/birch_leaves_pillar_thick"
+      },
+  {
+      "predicate": {
+          "damage": 0.82057
+      },
+      "name": 407,
+      "model": "block/birch_leaves_pillar_thick_bottom"
+      },
+  {
+      "predicate": {
+          "damage": 0.82258
+      },
+      "name": 408,
+      "model": "block/scaffolding_1x1arch"
+      },
+  {
+      "predicate": {
+          "damage": 0.82460
+      },
+      "name": 409,
+      "model": "block/smooth_quartz_stairs_1x2arch"
+      },
+  {
+      "predicate": {
+          "damage": 0.82661
+      },
+      "name": 410,
+      "model": "block/dark_oak_button_1x3arch_top"
+      },
+  {
+      "predicate": {
+          "damage": 0.82863
+      },
+      "name": 411,
+      "model": "block/acacia_door_1x3arch"
+      },
+  {
+      "predicate": {
+          "damage": 0.83065
+      },
+      "name": 412,
+      "model": "block/acacia_door_corbel"
+      },
+  {
+      "predicate": {
+          "damage": 0.83266
+      },
+      "name": 413,
+      "model": "block/jungle_button_corbel"
+      },
+  {
+      "predicate": {
+          "damage": 0.83468
+      },
+      "name": 414,
+      "model": "block/dark_prismarine_slab_inv"
+      },
+  {
+      "predicate": {
+          "damage": 0.83669
+      },
+      "name": 415,
+      "model": "block/scaffolding_spinning_wheel"
+      },
+      {
+       "predicate": {
+        "damage": 0.83871
+          },
+        "name": 416,
+        "model": "block/unused_cross_0"
+      },
+      {
+       "predicate": {
+        "damage": 0.84073
+          },
+        "name": 417,
+        "model": "block/beam_diagonal_s_support"
+      },
+      {
+       "predicate": {
+        "damage": 0.84274
+          },
+        "name": 418,
+        "model": "block/warped_door_cross_railing"
+      },
+      {
+       "predicate": {
+        "damage": 0.84476
+          },
+        "name": 419,
+        "model": "block/warped_door_railing"
+      },
+      {
+       "predicate": {
+        "damage": 0.84677
+          },
+        "name": 420,
+        "model": "block/twisting_vines_stair"
+      },
+      {
+       "predicate": {
+        "damage": 0.84879
+          },
+        "name": 421,
+        "model": "block/twisting_vines_stair_2"
+      },
+      {
+       "predicate": {
+        "damage": 0.85081
+          },
+        "name": 422,
+        "model": "block/twisting_vines_stair_3"
+      },
+      {
+       "predicate": {
+        "damage": 0.85282
+          },
+        "name": 423,
+        "model": "block/warped_door_woven_fence"
+      },
+      {
+       "predicate": {
+        "damage": 0.85484
+          },
+        "name": 424,
+        "model": "block/beam_horizontal_down"
+      },
+      {
+       "predicate": {
+        "damage": 0.85685
+          },
+        "name": 425,
+        "model": "block/beam_horizontal"
+      },
+      {
+       "predicate": {
+        "damage": 0.85887
+          },
+        "name": 426,
+        "model": "block/crimson_roots"
+      },
+      {
+       "predicate": {
+        "damage": 0.86089
+          },
+        "name": 427,
+        "model": "block/warped_roots"
+      },
+      {
+       "predicate": {
+        "damage": 0.86290
+          },
+        "name": 428,
+        "model": "block/twisting_vines_plant"
+      },
+      {
+       "predicate": {
+        "damage": 0.86492
+          },
+        "name": 429,
+        "model": "block/repeater_delay1_nl"
+      },
+      {
+       "predicate": {
+        "damage": 0.86694
+          },
+        "name": 430,
+        "model": "block/crimson_fence_gate_powered_open"
+      },
+      {
+       "predicate": {
+        "damage": 0.86895
+          },
+        "name": 431,
+        "model": "block/scaffolding_stone_window"
+      },
+      {
+       "predicate": {
+        "damage": 0.87097
+          },
+        "name": 432,
+        "model": "item/scaffolding_stone_window_down"
+      },
+      {
+       "predicate": {
+        "damage": 0.87298
+          },
+        "name": 433,
+        "model": "block/hopper_light_gray_ionic"
+      },
+      {
+       "predicate": {
+        "damage": 0.87500
+          },
+        "name": 434,
+        "model": "block/crimson_fence_gate_wall_powered"
+      },
+      {
+       "predicate": {
+        "damage": 0.87702
+          },
+        "name": 435,
+        "model": "block/crimson_planks_double_slab"
+      },
+      {
+       "predicate": {
+        "damage": 0.87903
+          },
+        "name": 436,
+        "model": "block/prismarine_brick_double_slab"
+      },
+      {
+       "predicate": {
+        "damage": 0.88105
+          },
+        "name": 437,
+        "model": "block/target_block_power4"
+      },
+      {
+       "predicate": {
+        "damage": 0.88306
+          },
+        "name": 438,
+        "model": "block/target_block_power2"
+      },
+      {
+       "predicate": {
+        "damage": 0.88508
+          },
+        "name": 439,
+        "model": "block/target_block_power0"
+      },
+      {
+       "predicate": {
+        "damage": 0.88710
+          },
+        "name": 440,
+        "model": "block/note_block_sticks"
+      },
+      {
+       "predicate": {
+        "damage": 0.88911
+          },
+        "name": 441,
+        "model": "block/target_block_power5"
+      },
+      {
+       "predicate": {
+        "damage": 0.89113
+          },
+        "name": 442,
+        "model": "block/mycelium_snow"
+      },
+      {
+       "predicate": {
+        "damage": 0.89315
+          },
+        "name": 443,
+        "model": "block/piston_head_short"
+      },
+      {
+       "predicate": {
+        "damage": 0.89516
+          },
+        "name": 444,
+        "model": "block/locked_repeater_delay1_e"
+      },
+      {
+       "predicate": {
+        "damage": 0.89718
+          },
+        "name": 445,
+        "model": "block/locked_repeater_delay1_s"
+      },
+      {
+       "predicate": {
+        "damage": 0.89919
+          },
+        "name": 446,
+        "model": "block/locked_repeater_delay1_w"
+      },
+      {
+       "predicate": {
+        "damage": 0.90121
+          },
+        "name": 447,
+        "model": "block/end_portal_frame_empty_east"
+      },
+      {
+       "predicate": {
+        "damage": 0.90323
+          },
+        "name": 448,
+        "model": "block/end_portal_frame_empty_west"
+      },
+      {
+       "predicate": {
+        "damage": 0.90524
+          },
+        "name": 449,
+        "model": "block/table_low_2"
+      },
+      {
+       "predicate": {
+        "damage": 0.90726
+          },
+        "name": 450,
+        "model": "block/table_low_1"
+      },
+      {
+       "predicate": {
+        "damage": 0.90927
+          },
+        "name": 451,
+        "model": "block/target_block_power1"
+      },
+      {
+       "predicate": {
+        "damage": 0.91129
+          },
+        "name": 452,
+        "model": "block/twisting_vines_diagonal_beam"
+      },
+      {
+       "predicate": {
+        "damage": 0.91331
+          },
+        "name": 453,
+        "model": "block/twisting_vines_diagonal_beam_2"
+      },
+      {
+       "predicate": {
+        "damage": 0.91532
+          },
+        "name": 454,
+        "model": "block/twisting_vines_diagonal_beam_1"
+      },
+      {
+       "predicate": {
+        "damage": 0.91734
+          },
+        "name": 455,
+        "model": "block/target_block_power6"
+      },
+      {
+       "predicate": {
+        "damage": 0.91935
+          },
+        "name": 456,
+        "model": "block/target_block_power7"
+      },
+      {
+       "predicate": {
+        "damage": 0.92137
+          },
+        "name": 457,
+        "model": "block/target_block_power9"
+      },
+      {
+       "predicate": {
+        "damage": 0.92339
+          },
+        "name": 458,
+        "model": "item/dark_oak_leaves_grass_soil_inventory"
+      },
+      {
+       "predicate": {
+        "damage": 0.92540
+          },
+        "name": 459,
+        "model": "block/locked_powered_repeater_delay1_n"
+      },
+      {
+       "predicate": {
+        "damage": 0.92742
+          },
+        "name": 460,
+        "model": "block/locked_powered_repeater_delay1_e"
+      },
+      {
+       "predicate": {
+        "damage": 0.92944
+          },
+        "name": 461,
+        "model": "block/twisting_vines_grapes"
+      },
+      {
+       "predicate": {
+        "damage": 0.93145
+          },
+        "name": 462,
+        "model": "block/graham"
+      },
+      {
+       "predicate": {
+        "damage": 0.93347
+          },
+        "name": 463,
+        "model": "block/inn_banner"
+      },
+      {
+       "predicate": {
+        "damage": 0.93548
+          },
+        "name": 464,
+        "model": "block/elf_banner"
+      },
+      {
+       "predicate": {
+        "damage": 0.93750
+          },
+        "name": 465,
+        "model": "block/sea_banner"
+      },
+      {
+       "predicate": {
+        "damage": 0.93952
+          },
+        "name": 466,
+        "model": "block/tools"
+      },
+      {
+       "predicate": {
+        "damage": 0.94153
+          },
+        "name": 467,
+        "model": "block/crimson_button_wall"
+      },
+      {
+       "predicate": {
+        "damage": 0.94355
+          },
+        "name": 468,
+        "model": "block/twisting_vines_diagonal_beam_3"
+      },
+      {
+       "predicate": {
+        "damage": 0.94557
+          },
+        "name": 469,
+        "model": "block/twisting_vines_diagonal_beam_4"
+      },
+      {
+       "predicate": {
+        "damage": 0.94758
+          },
+        "name": 470,
+        "model": "block/twisting_vines_diagonal_beam_5"
+      },
+      {
+       "predicate": {
+        "damage": 0.94960
+          },
+        "name": 471,
+        "model": "block/replace"
+      }
+
+  ]
 }

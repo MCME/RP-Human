@@ -1,0 +1,52 @@
+{
+  "variants": {
+	"age=1,leaves=none,stage=0": [
+	  { "model": "block/bamboo1_age0"},
+	  { "model": "block/bamboo1_age0_2"},
+	  { "model": "block/bamboo1_age0_3"}
+	  ],
+	 "age=0,leaves=none,stage=0": [
+      { "model": "block/bamboo1_age1" },
+	  { "model": "block/bamboo1_age1_2"}
+	  ],
+	 "age=0,leaves=small,stage=0": [
+      { "model": "block/bamboo_small_leaves" },
+	  { "model": "block/bamboo_small_leaves_2" }
+	  ],
+	 "age=1,leaves=large,stage=0": [
+      { "model": "block/bamboo_large_leaves" }
+	  ],
+	 "age=0,leaves=large,stage=0": [
+      { "model": "mcme:block/spruce_large_sapling" },
+	  { "model": "mcme:block/spruce_large_sapling_1_2" },
+	  { "model": "mcme:block/spruce_large_sapling_1_3" },
+	  { "model": "mcme:block/spruce_large_sapling_1_4" },
+	  { "model": "mcme:block/spruce_large_sapling_2" },
+	  { "model": "mcme:block/spruce_large_sapling_2_2" },
+	  { "model": "mcme:block/spruce_large_sapling_2_3" },
+	  { "model": "mcme:block/spruce_large_sapling_2_4" },
+	  { "model": "mcme:block/spruce_large_sapling_3" },
+	  { "model": "mcme:block/spruce_large_sapling_3_2" },
+	  { "model": "mcme:block/spruce_large_sapling_3_3" },
+	  { "model": "mcme:block/spruce_large_sapling_3_4" },
+	  { "model": "mcme:block/spruce_large_sapling_4" },
+	  { "model": "mcme:block/spruce_large_sapling_4_2" },
+	  { "model": "mcme:block/spruce_large_sapling_4_3" },
+	  { "model": "mcme:block/spruce_large_sapling_4_4" }
+	  ],
+	 "age=1,leaves=small,stage=0": [
+      { "model": "mcme:block/larch_large_sapling" },
+	  { "model": "mcme:block/larch_large_sapling_2" },
+	  { "model": "mcme:block/larch_large_sapling_3" },
+	  { "model": "mcme:block/larch_large_sapling_4" },
+	  { "model": "mcme:block/larch_large_sapling_1_2" },
+	  { "model": "mcme:block/larch_large_sapling_1_3" },
+	  { "model": "mcme:block/larch_large_sapling_2_2" },
+	  { "model": "mcme:block/larch_large_sapling_2_3" },
+	  { "model": "mcme:block/larch_large_sapling_3_2" },
+	  { "model": "mcme:block/larch_large_sapling_3_3" },
+	  { "model": "mcme:block/larch_large_sapling_4_2" },
+	  { "model": "mcme:block/larch_large_sapling_4_3" }
+	  ]
+ }
+}

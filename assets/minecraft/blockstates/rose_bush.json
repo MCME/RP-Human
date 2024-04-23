@@ -1,0 +1,30 @@
+{
+  "variants": {
+      "half=lower": [
+      { "model": "mcme:block/rose_bush_bottom" },
+      { "model": "mcme:block/rose_bush_bottom_1_2"},
+      { "model": "mcme:block/rose_bush_bottom_1_3"},
+      { "model": "mcme:block/rose_bush_bottom_1_4"},
+	  { "model": "mcme:block/rose_bush_bottom_2" },
+      { "model": "mcme:block/rose_bush_bottom_2_2"},
+      { "model": "mcme:block/rose_bush_bottom_2_3"},
+      { "model": "mcme:block/rose_bush_bottom_2_4"}
+
+  ],
+      "half=upper": [
+      { "model": "block/rose_busht" },
+      { "model": "block/rose_busht", "y": 90 },
+      { "model": "block/rose_busht", "y": 180 },
+      { "model": "block/rose_busht", "y": 270 },
+	  { "model": "block/rose_busht_2" },
+      { "model": "block/rose_busht_2", "y": 90 },
+      { "model": "block/rose_busht_2", "y": 180 },
+      { "model": "block/rose_busht_2", "y": 270 },
+	  { "model": "block/rose_busht_3" },
+      { "model": "block/rose_busht_3", "y": 90 },
+      { "model": "block/rose_busht_3", "y": 180 },
+      { "model": "block/rose_busht_3", "y": 270 }
+	
+  ]
+    }
+  }
