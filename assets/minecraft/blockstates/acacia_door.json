@@ -1,0 +1,825 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_1x3arch_3"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+       "model": "block/acacia_door_1x3arch"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_1x3arch_4"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_1x3arch_2"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_rh_open",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_rh_open",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_rh_open",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_rh_open"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_railing", "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_railing", "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_railing"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_railing", "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_railing_diagonal", "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_railing_diagonal"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_railing_diagonal", "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_railing_diagonal", "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+		{ "model": "block/acacia_door_fence", "weight": 5, "y": 270 },
+		{ "model": "block/acacia_door_fence_2", "weight": 5, "y": 270 },
+		{ "model": "block/acacia_door_fence_3", "weight": 1, "y": 270 },
+		{ "model": "block/acacia_door_fence_4", "weight": 1, "y": 270 },
+		{ "model": "block/acacia_door_fence_5", "weight": 5, "y": 270 },
+		{ "model": "block/acacia_door_fence_6", "weight": 5, "y": 270 }
+		]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply":[
+		{ "model": "block/acacia_door_fence", "weight": 5 },
+		{ "model": "block/acacia_door_fence_2", "weight": 5 },
+		{ "model": "block/acacia_door_fence_3", "weight": 1 },
+		{ "model": "block/acacia_door_fence_4", "weight": 1 },
+		{ "model": "block/acacia_door_fence_5", "weight": 5 },
+		{ "model": "block/acacia_door_fence_6", "weight": 5 }
+		]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+		{ "model": "block/acacia_door_fence", "weight": 5, "y": 90 },
+		{ "model": "block/acacia_door_fence_2", "weight": 5, "y": 90 },
+		{ "model": "block/acacia_door_fence_3", "weight": 1, "y": 90 },
+		{ "model": "block/acacia_door_fence_4", "weight": 1, "y": 90 },
+		{ "model": "block/acacia_door_fence_5", "weight": 5, "y": 90 },
+		{ "model": "block/acacia_door_fence_6", "weight": 5, "y": 90 }
+		]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+		{ "model": "block/acacia_door_fence", "weight": 5, "y": 180 },
+		{ "model": "block/acacia_door_fence_2", "weight": 5, "y": 180 },
+		{ "model": "block/acacia_door_fence_3", "weight": 1, "y": 180 },
+		{ "model": "block/acacia_door_fence_4", "weight": 1, "y": 180 },
+		{ "model": "block/acacia_door_fence_5", "weight": 5, "y": 180 },
+		{ "model": "block/acacia_door_fence_6", "weight": 5, "y": 180 }
+		]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_railing_corner", "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_railing_corner", "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_railing_corner"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_railing_corner", "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_corbel",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_corbel",
+		"y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_corbel",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/acacia_door_corbel"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_rh_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_rh_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_rh_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_rh_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_rh_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_rh_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_rh_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_rh_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_bottom_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_rh_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_rh_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_rh_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_rh_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_rh_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_rh_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_rh_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_rh_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/acacia_door_top_powered",
+        "y": 180
+      }
+    }
+  ]
+}

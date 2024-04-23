@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "type=bottom": [
+      {"model": "block/green_concrete_slab"},
+	  {"model": "block/green_concrete_slab_2"},
+	  {"model": "block/green_concrete_slab_3"},
+	  {"model": "block/gray_terracotta_slab"},
+	  {"model": "block/gray_terracotta_slab_2"},
+	  {"model": "block/gray_terracotta_slab_3"}
+    ],
+
+	"type=top,waterlogged=true": [ {"model": "itemblock/upper_slab_double_slab_planks_dark_oak"} 
+	],
+	"type=double,waterlogged=false": [
+            { "model": "block/unused_block_0" }
+    ],
+	"type=double,waterlogged=true": [
+            { "model": "block/double_slab_dark_prismarine" }
+        ]
+  }
+}

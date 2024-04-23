@@ -1,0 +1,412 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/dark_oak_fence_gate_closed",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/dark_oak_fence_gate_closed",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/dark_oak_fence_gate_closed",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/dark_oak_fence_gate_closed",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_sandstone_seamless",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_sandstone_seamless",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_sandstone_seamless",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_sandstone_seamless",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_quartz_block",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_quartz_block",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_quartz_block",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_quartz_block",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_smooth_quartz",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_smooth_quartz",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_smooth_quartz",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_smooth_quartz",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/dark_oak_fence_gate_powered_closed",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/dark_oak_fence_gate_powered_closed",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/dark_oak_fence_gate_powered_closed",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/dark_oak_fence_gate_powered_closed",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_red_sandstone_seamless",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_red_sandstone_seamless",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_red_sandstone_seamless",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_red_sandstone_seamless",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_end_stone",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_end_stone",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_end_stone",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_end_stone",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_sandstone_smooth",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_sandstone_smooth",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_sandstone_smooth",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_sandstone_smooth",
+        "uvlock": true,
+        "y": 270
+      }
+    }
+  ]
+}

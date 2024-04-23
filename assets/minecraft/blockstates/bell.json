@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north,attachment=floor": { "model": "block/piston_sticky", "x": 90 },
+    "facing=south,attachment=floor": { "model": "block/piston_sticky", "x": 270 },
+    "facing=east,attachment=floor":  { "model": "block/piston_sticky", "y": 270 },
+    "facing=west,attachment=floor":  { "model": "block/piston_sticky", "y": 90 },
+    "facing=north,attachment=ceiling": { "model": "block/piston_head_sticky", "x": 90 },
+    "facing=south,attachment=ceiling": { "model": "block/bell_ceiling", "y": 180 },
+    "facing=east,attachment=ceiling":  { "model": "block/bell_ceiling", "y": 90 },
+    "facing=west,attachment=ceiling":  { "model": "block/bell_ceiling", "y": 270 },
+    "facing=east,attachment=single_wall": { "model": "block/piston_head_sticky", "y":270},
+    "facing=west,attachment=single_wall": { "model": "block/piston_head_sticky", "y": 90 },
+    "facing=south,attachment=single_wall":  { "model": "block/piston_head_sticky" },
+    "facing=north,attachment=single_wall":  { "model": "block/piston_head_sticky", "y": 180 },
+    "facing=east,attachment=double_wall": { "model": "block/piston_sticky", "y": 180 },
+    "facing=west,attachment=double_wall": { "model": "block/piston_sticky" },
+    "facing=north,attachment=double_wall":  { "model": "block/piston_head_sticky", "x": 270 },
+    "facing=south,attachment=double_wall":  { "model": "block/bell_between_walls", "y": 270 }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "variants": {
+      "axis=y": [
+  { "model": "block/stripped_oak_wood" },
+  { "model": "block/stripped_oak_wood_2" },
+  { "model": "block/stripped_oak_wood_3" },
+  { "model": "block/stripped_oak_wood_4" },
+  { "model": "block/stripped_oak_wood_5" }
+  ],
+      "axis=z": [
+      { "model": "block/brown_mushroom_block_ne", "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne", "y": 90, "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne", "y": 180, "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne", "y": 270, "weight": 1 },
+      { "model": "block/brown_mushroom_block_ne_1", "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_1", "y": 90, "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_1", "y": 180, "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_1", "y": 270, "weight": 1 },
+      { "model": "block/brown_mushroom_block_ne_2", "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_2", "y": 90, "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_2", "y": 180, "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_2", "y": 270, "weight": 1 },
+      { "model": "block/brown_mushroom_block_ne_3", "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_3", "y": 90, "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_3", "y": 180, "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_3", "y": 270, "weight": 1 },
+      { "model": "block/brown_mushroom_block_ne_4", "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_4", "y": 90, "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_4", "y": 180, "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_4", "y": 270, "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_5", "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_5", "y": 90, "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_5", "y": 180, "weight": 1 },
+	  { "model": "block/brown_mushroom_block_ne_5", "y": 270, "weight": 1 }
+    ],
+      "axis=x": [    
+        { "model": "block/stripped_oak_wood" },
+        { "model": "block/stripped_oak_wood_2" },
+        { "model": "block/stripped_oak_wood_3" },
+        { "model": "block/stripped_oak_wood_4" },
+        { "model": "block/stripped_oak_wood_5" }
+  ]
+  }
+}

@@ -1,0 +1,677 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/oak_fence_gate",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/oak_fence_gate",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/oak_fence_gate",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/oak_fence_gate",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/oak_fence_gate_open",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/oak_fence_gate_open",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/oak_fence_gate_open",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/oak_fence_gate_open",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_planks_dark_oak",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_planks_dark_oak",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_planks_dark_oak",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_planks_dark_oak",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/oak_fence_gate_wall_open",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/oak_fence_gate_wall_open",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/oak_fence_gate_wall_open",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/oak_fence_gate_wall_open",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [{
+        "model": "block/oak_fence_gate_powered_closed",
+        "uvlock": true
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_2",
+        "uvlock": true
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_3",
+        "uvlock": true
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_4",
+        "uvlock": true
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_5",
+        "uvlock": true
+      }
+    ]
+	},
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [{
+        "model": "block/oak_fence_gate_powered_closed",
+        "uvlock": true,
+        "y": 90
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_2",
+        "uvlock": true,
+        "y": 90
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_3",
+        "uvlock": true,
+        "y": 90
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_4",
+        "uvlock": true,
+        "y": 90
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_5",
+        "uvlock": true,
+        "y": 90
+      }
+	]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [{
+        "model": "block/oak_fence_gate_powered_closed",
+        "uvlock": true,
+        "y": 180
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_2",
+        "uvlock": true,
+        "y": 180
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_3",
+        "uvlock": true,
+        "y": 180
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_4",
+        "uvlock": true,
+        "y": 180
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_5",
+        "uvlock": true,
+        "y": 180
+      }
+	]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [{
+        "model": "block/oak_fence_gate_powered_closed",
+        "uvlock": true,
+        "y": 270
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_2",
+        "uvlock": true,
+        "y": 270
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_3",
+        "uvlock": true,
+        "y": 270
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_4",
+        "uvlock": true,
+        "y": 270
+      },
+	  {
+        "model": "block/oak_fence_gate_powered_closed_5",
+        "uvlock": true,
+        "y": 270
+      }
+	]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+        {
+          "model": "block/clothesline_dress",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_dress_1",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_dress_2",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_dress_3",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_dress_4",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+        {
+          "model": "block/clothesline_empty",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_empty_1",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_empty_2",
+          "weight": 1,
+          "y": 90
+        }
+      ]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+        {
+          "model": "block/clothesline_empty",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_empty_1",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_empty_2",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+        {
+          "model": "block/clothesline_dress",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_dress_1",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_dress_2",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_dress_3",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_dress_4",
+          "weight": 1,
+          "y": 90
+        }
+      ]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_planks_acacia",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_planks_acacia",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_planks_acacia",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "true",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_double_slab_planks_acacia",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+        {
+          "model": "block/clothesline_shirt_long",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_long_1",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_long_2",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_long_3",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_long_4",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_long_5",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+        {
+          "model": "block/clothesline_shirt",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_1",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_2",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_3",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_4",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_5",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_6",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_7",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_8",
+          "weight": 1,
+          "y": 90
+        }
+      ]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+        {
+          "model": "block/clothesline_shirt",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_1",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_2",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_3",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_4",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_5",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_6",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_7",
+          "weight": 1
+        },
+        {
+          "model": "block/clothesline_shirt_8",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "true",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+        {
+          "model": "block/clothesline_shirt_long",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_long_1",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_long_2",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_long_3",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_long_4",
+          "weight": 1,
+          "y": 90
+        },
+        {
+          "model": "block/clothesline_shirt_long_5",
+          "weight": 1,
+          "y": 90
+        }
+      ]
+    }
+  ]
+}

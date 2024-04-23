@@ -1,0 +1,24 @@
+{
+  "variants": {
+	"facing=north,waterlogged=false": [
+	{ "model": "minecraft:block/beam_horizontal_down", "y": 270},
+	{ "model": "minecraft:block/beam_horizontal_down_2", "y": 270},
+	{ "model": "minecraft:block/beam_horizontal_down_3", "y": 270}
+	],
+	"facing=east,waterlogged=false": [
+	{ "model": "minecraft:block/beam_horizontal_down" },
+	{ "model": "minecraft:block/beam_horizontal_down_2" },
+	{"model": "minecraft:block/beam_horizontal_down_3" }
+	],
+	"facing=west,waterlogged=false": [
+	{ "model": "minecraft:block/beam_horizontal_down", "y": 180},
+	{ "model": "minecraft:block/beam_horizontal_down_2", "y": 180},
+	{ "model": "minecraft:block/beam_horizontal_down_3", "y": 180}
+	],
+	"facing=south,waterlogged=false": [
+	{ "model": "minecraft:block/beam_horizontal_down", "y": 90},
+	{ "model": "minecraft:block/beam_horizontal_down_2", "y": 90},
+	{ "model": "minecraft:block/beam_horizontal_down_3", "y": 90}
+	]
+	}
+}
