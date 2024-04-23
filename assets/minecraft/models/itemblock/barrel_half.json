@@ -1,0 +1,48 @@
+{
+  "parent": "block/block",
+  "display": {
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        12.8,
+        0
+      ],
+      "scale": [
+        1.6,
+        1.6,
+        1.6
+      ]
+    }
+  },
+  "elements": [
+    {
+      "name": "top",
+      "from": [
+        2.0,
+        5.0,
+        2.0
+      ],
+      "to": [
+        14.0,
+        6.0,
+        14.0
+      ],
+      "faces": {
+        "up": {
+          "texture": "#content",
+          "uv": [
+            2.0,
+            2.0,
+            14.0,
+            14.0
+          ]
+        }
+      }
+    }
+  ]
+}

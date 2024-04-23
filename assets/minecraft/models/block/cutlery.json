@@ -1,0 +1,128 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/cutlery",
+		"particle": "block/cutlery"
+	},
+	"elements": [
+		{
+			"name": "cutlery_0",
+			"from": [4.4, 0, 4.4],
+			"to": [5, 0.6, 6.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [3, 2, 2, 3], "texture": "#0"},
+				"east": {"uv": [2, 2, 3, 6], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2, 5, 3, 6], "texture": "#0"},
+				"west": {"uv": [2, 2, 3, 6], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [2, 2, 3, 6], "texture": "#0"},
+				"down": {"uv": [2, 6, 3, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cutlery_1",
+			"from": [5.6, 0, 4.4],
+			"to": [6.2, 0.6, 6.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [5, 2, 4, 3], "texture": "#0"},
+				"east": {"uv": [4, 2, 5, 6], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [4, 5, 5, 6], "texture": "#0"},
+				"west": {"uv": [4, 2, 5, 6], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [4, 2, 5, 6], "texture": "#0"},
+				"down": {"uv": [4, 6, 5, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cutlery_2",
+			"from": [10.4, 0, 4.4],
+			"to": [11, 0.6, 11.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [13, 2, 12, 3], "texture": "#0"},
+				"east": {"uv": [12, 2, 13, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12, 13, 13, 14], "texture": "#0"},
+				"west": {"uv": [12, 2, 13, 14], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [12, 2, 13, 14], "texture": "#0"},
+				"down": {"uv": [12, 14, 13, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cutlery_3",
+			"from": [7.4, 0, 5],
+			"to": [8, 0.6, 11.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [8, 3, 7, 4], "texture": "#0"},
+				"east": {"uv": [7, 3, 8, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7, 13, 8, 14], "texture": "#0"},
+				"west": {"uv": [7, 3, 8, 14], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7, 3, 8, 14], "texture": "#0"},
+				"down": {"uv": [7, 14, 8, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cutlery_4",
+			"from": [9.8, 0, 5],
+			"to": [10.4, 0.6, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [12, 3, 11, 4], "texture": "#0"},
+				"east": {"uv": [11, 3, 12, 8], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11, 7, 12, 8], "texture": "#0"},
+				"west": {"uv": [11, 3, 12, 8], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11, 3, 12, 8], "texture": "#0"},
+				"down": {"uv": [11, 8, 12, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cutlery_5",
+			"from": [6.8, 0, 5.6],
+			"to": [7.4, 0.6, 7.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [7, 4, 6, 5], "texture": "#0"},
+				"east": {"uv": [6, 4, 7, 7], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [6, 6, 7, 7], "texture": "#0"},
+				"west": {"uv": [6, 4, 7, 7], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [6, 4, 7, 7], "texture": "#0"},
+				"down": {"uv": [6, 7, 7, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cutlery_6",
+			"from": [8, 0, 5.6],
+			"to": [8.6, 0.6, 7.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [9, 4, 8, 5], "texture": "#0"},
+				"east": {"uv": [8, 4, 9, 7], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8, 6, 9, 7], "texture": "#0"},
+				"west": {"uv": [8, 4, 9, 7], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8, 4, 9, 7], "texture": "#0"},
+				"down": {"uv": [8, 7, 9, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cutlery_7",
+			"from": [5, 0, 6.2],
+			"to": [5.6, 0.6, 11.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.8, 8]},
+			"faces": {
+				"north": {"uv": [4, 5, 3, 6], "texture": "#0"},
+				"east": {"uv": [3, 5, 4, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3, 13, 4, 14], "texture": "#0"},
+				"west": {"uv": [3, 5, 4, 14], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3, 5, 4, 14], "texture": "#0"},
+				"down": {"uv": [3, 14, 4, 5], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "cutlery",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
+		}
+	]
+}

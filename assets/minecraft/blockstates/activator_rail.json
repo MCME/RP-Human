@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "powered\u003dfalse,shape\u003dnorth_south": {
+      "model": "block/activator_rail"
+    },
+    "powered\u003dfalse,shape\u003deast_west": {
+      "model": "block/activator_rail",
+      "y": 90
+    },
+    "powered\u003dfalse,shape\u003dascending_east": {
+      "model": "block/activator_rail_diagonal"
+    },
+    "powered\u003dfalse,shape\u003dascending_west": {
+      "model": "block/activator_rail_diagonal",
+      "y": 90
+    },
+    "powered\u003dtrue,shape\u003dnorth_south": {
+      "model": "block/activator_rail",
+      "y": 180
+    },
+    "powered\u003dtrue,shape\u003deast_west": {
+      "model": "block/activator_rail",
+      "y": 270
+    },
+    "powered\u003dtrue,shape\u003dascending_east": {
+      "model": "block/activator_rail_diagonal",
+      "y": 180
+    },
+    "powered\u003dtrue,shape\u003dascending_west": {
+      "model": "block/activator_rail_diagonal",
+      "y": 270
+    }
+  }
+}

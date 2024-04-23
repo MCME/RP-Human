@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "type=double": [
+			{ "model": "block/andesite_slab_double" },
+			{ "model": "block/andesite_slab_double_2" },
+			{ "model": "block/andesite_slab_double_3" },
+			{ "model": "block/andesite_slab_double_4" },
+			{ "model": "block/andesite_slab_double_5" }
+			],
+        "type=top": { "model": "itemblock/upper_slab_andesite" },
+        "type=bottom":[
+			{ "model": "block/andesite_slab" },
+			{ "model": "block/andesite_slab_2" },
+			{ "model": "block/andesite_slab_3" },
+			{ "model": "block/andesite_slab_4" },
+			{ "model": "block/andesite_slab_5" }
+		]
+    }
+}

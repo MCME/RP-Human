@@ -1,0 +1,2959 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/diamond_chestplate"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "damage": 0.00189
+      },
+      "name": 1,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.00378
+      },
+      "name": 2,
+      "model": "itemblock/upper_slab_stone_natural"
+    },
+    {
+      "predicate": {
+        "damage": 0.00567
+      },
+      "name": 3,
+      "model": "block/mossy_stone_brick_slab_double"
+    },
+    {
+      "predicate": {
+        "damage": 0.00756
+      },
+      "name": 4,
+      "model": "block/red_mushroom_block_nsd",
+	  "state":"[down=true,east=false,north=true,south=true,up=false,west=false]"
+    },
+    {
+      "predicate": {
+        "damage": 0.00945
+      },
+      "name": 5,
+      "model": "block/red_mushroom_block_newud",
+	  "state": "[north=true,south=false,east=true,west=true,up=true,down=true]"
+    },
+    {
+      "predicate": {
+        "damage": 0.01134
+      },
+      "name": 6,
+      "model": "block/red_mushroom_block_neu",
+	  "state": "[down=false,east=true,north=true,south=false,up=true,west=false]"
+    },
+    {
+      "predicate": {
+        "damage": 0.01323
+      },
+      "name": 7,
+      "model": "block/red_mushroom_block_nsw",
+	  "state": "[down=false,east=false,north=true,south=true,up=false,west=true]"
+    },
+    {
+      "predicate": {
+        "damage": 0.01512
+      },
+      "name": 8,
+      "model": "block/red_mushroom_block_newu",
+	  "state": "[north=true,south=false,east=true,west=true,up=true,down=false]"
+    },
+    {
+      "predicate": {
+        "damage": 0.01701
+      },
+      "name": 9,
+      "model": "block/red_mushroom_block_newd",
+	  "state": "[north=true,south=false,east=true,west=true,up=false,down=true]"
+    },
+    {
+      "predicate": {
+        "damage": 0.01890
+      },
+      "name": 10,
+      "model": "block/red_mushroom_block_new",
+	  "state": "[north=true,south=false,east=true,west=true,up=false,down=false]"
+    },
+    {
+      "predicate": {
+        "damage": 0.02079
+      },
+      "name": 11,
+      "model": "block/red_mushroom_block_neud",
+	  "state": "[down=true,east=true,north=true,south=false,up=true,west=false]"
+    },
+    {
+      "predicate": {
+        "damage": 0.02268
+      },
+      "name": 12,
+      "model": "block/red_mushroom_block_ns",
+	  "state": "[down=false,east=false,north=true,south=true,up=false,west=false]"
+    },
+    {
+      "predicate": {
+        "damage": 0.02457
+      },
+      "name": 13,
+      "model": "block/red_mushroom_block_nswud",
+	  "state": "[down=true,east=false,north=true,south=true,up=true,west=true]"
+    },
+    {
+      "predicate": {
+        "damage": 0.02647
+      },
+      "name": 14,
+      "model": "block/red_mushroom_block_nwud",
+	  "state": "[down=true,east=false,north=true,south=false,up=true,west=true]"
+    },
+    {
+      "predicate": {
+        "damage": 0.02836
+      },
+      "name": 15,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.03025
+      },
+      "name": 16,
+      "model": "itemblock/upper_slab_hardened_clay"
+    },
+    {
+      "predicate": {
+        "damage": 0.03214
+      },
+      "name": 17,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.03403
+      },
+      "name": 18,
+      "model": "itemblock/upper_slab_dirt"
+    },
+    {
+      "predicate": {
+        "damage": 0.03592
+      },
+      "name": 19,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.03781
+      },
+      "name": 20,
+      "model": "itemblock/upper_slab_clay"
+    },
+    {
+      "predicate": {
+        "damage": 0.03970
+      },
+      "name": 21,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.04159
+      },
+      "name": 22,
+      "model": "itemblock/upper_slab_mycelium_snow"
+    },
+    {
+      "predicate": {
+        "damage": 0.04348
+      },
+      "name": 23,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.04537
+      },
+      "name": 24,
+      "model": "itemblock/upper_slab_coarse_dirt"
+    },
+    {
+      "predicate": {
+        "damage": 0.04726
+      },
+      "name": 25,
+      "model": "itemblock/glass_pane_light_blue_circle"
+    },
+    {
+      "predicate": {
+        "damage": 0.04915
+      },
+      "name": 26,
+      "model": "itemblock/glass_pane_light_blue_rhomb"
+    },
+    {
+      "predicate": {
+        "damage": 0.05104
+      },
+      "name": 27,
+      "model": "itemblock/glass_pane_light_blue_diamond"
+    },
+    {
+      "predicate": {
+        "damage": 0.05293
+      },
+      "name": 28,
+      "model": "itemblock/glass_pane_light_blue_wood"
+    },
+    {
+      "predicate": {
+        "damage": 0.05482
+      },
+      "name": 29,
+      "model": "itemblock/glass_pane_blue_circle"
+    },
+    {
+      "predicate": {
+        "damage": 0.05671
+      },
+      "name": 30,
+      "model": "itemblock/glass_pane_blue_rhomb"
+    },
+    {
+      "predicate": {
+        "damage": 0.05860
+      },
+      "name": 31,
+      "model": "itemblock/glass_pane_blue_diamond"
+    },
+    {
+      "predicate": {
+        "damage": 0.06049
+      },
+      "name": 32,
+      "model": "itemblock/glass_pane_green_wood"
+    },
+    {
+      "predicate": {
+        "damage": 0.06238
+      },
+      "name": 33,
+      "model": "itemblock/glass_pane_dark_red_circle"
+    },
+    {
+      "predicate": {
+        "damage": 0.06427
+      },
+      "name": 34,
+      "model": "itemblock/glass_pane_dark_red_rhomb"
+    },
+    {
+      "predicate": {
+        "damage": 0.06616
+      },
+      "name": 35,
+      "model": "itemblock/glass_pane_dark_red_diamond"
+    },
+    {
+      "predicate": {
+        "damage": 0.06805
+      },
+      "name": 36,
+      "model": "itemblock/glass_pane_dark_red_wood"
+    },
+    {
+      "predicate": {
+        "damage": 0.06994
+      },
+      "name": 37,
+      "model": "itemblock/glass_pane_red_rhomb"
+    },
+    {
+      "predicate": {
+        "damage": 0.07183
+      },
+      "name": 38,
+      "model": "itemblock/glass_pane_color_circle"
+    },
+    {
+      "predicate": {
+        "damage": 0.07372
+      },
+      "name": 39,
+      "model": "itemblock/glass_pane_color_rhomb"
+    },
+    {
+      "predicate": {
+        "damage": 0.07561
+      },
+      "name": 40,
+      "model": "itemblock/glass_pane_color_diamond"
+    },
+    {
+      "predicate": {
+        "damage": 0.07750
+      },
+      "name": 41,
+      "model": "itemblock/glass_pane_color_wood"
+    },
+    {
+      "predicate": {
+        "damage": 0.07940
+      },
+      "name": 42,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.08129
+      },
+      "name": 43,
+      "model": "itemblock/upper_slab_sand"
+    },
+    {
+      "predicate": {
+        "damage": 0.08318
+      },
+      "name": 44,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.08507
+      },
+      "name": 45,
+      "model": "itemblock/upper_slab_gravel"
+    },
+    {
+      "predicate": {
+        "damage": 0.08696
+      },
+      "name": 46,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.08885
+      },
+      "name": 47,
+      "model": "itemblock/upper_slab_sediment"
+    },
+    {
+      "predicate": {
+        "damage": 0.09074
+      },
+      "name": 48,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.09263
+      },
+      "name": 49,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.09452
+      },
+      "name": 50,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.09641
+      },
+      "name": 51,
+      "model": "itemblock/upper_slab_mycelium"
+    },
+    {
+      "predicate": {
+        "damage": 0.09830
+      },
+      "name": 52,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.10019
+      },
+      "name": 53,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.10208
+      },
+      "name": 54,
+      "model": "itemblock/replace_vertical_slab_sandstone_normal"
+    },
+    {
+      "predicate": {
+        "damage": 0.10397
+      },
+      "name": 55,
+      "model": "itemblock/replace_vertical_slab_red_sandstone_normal"
+    },
+    {
+      "predicate": {
+        "damage": 0.10586
+      },
+      "name": 56,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.10775
+      },
+      "name": 57,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.10964
+      },
+      "name": 58,
+      "model": "itemblock/vertical_slab_double_slab_sandstone_seamless"
+    },
+    {
+      "predicate": {
+        "damage": 0.11153
+      },
+      "name": 59,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.11342
+      },
+      "name": 60,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.11531
+      },
+      "name": 61,
+      "model": "itemblock/vertical_slab_double_slab_red_sandstone_seamless"
+    },
+    {
+      "predicate": {
+        "damage": 0.11720
+      },
+      "name": 62,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.11909
+      },
+      "name": 63,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.12098
+      },
+      "name": 64,
+      "model": "itemblock/vertical_slab_sandstone_smooth"
+    },
+    {
+      "predicate": {
+        "damage": 0.12287
+      },
+      "name": 65,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.12476
+      },
+      "name": 66,
+      "model": "itemblock/upper_slab_red_nether_brick"
+    },
+    {
+      "predicate": {
+        "damage": 0.12665
+      },
+      "name": 67,
+      "model": "itemblock/vertical_slab_red_nether_brick"
+    },
+    {
+      "predicate": {
+        "damage": 0.12854
+      },
+      "name": 68,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.13043
+      },
+      "name": 69,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.13233
+      },
+      "name": 70,
+      "model": "itemblock/replace_vertical_slab_double_slab_nether_brick_seamless"
+    },
+    {
+      "predicate": {
+        "damage": 0.13422
+      },
+      "name": 71,
+      "model": "itemblock/replace_vertical_slab_quartz_block"
+    },
+    {
+      "predicate": {
+        "damage": 0.13611
+      },
+      "name": 72,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.13800
+      },
+      "name": 73,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.13989
+      },
+      "name": 74,
+      "model": "itemblock/vertical_slab_double_slab_quartz_seamless"
+    },
+    {
+      "predicate": {
+        "damage": 0.14178
+      },
+      "name": 75,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.14367
+      },
+      "name": 76,
+      "model": "itemblock/upper_slab_end_stone"
+    },
+    {
+      "predicate": {
+        "damage": 0.14556
+      },
+      "name": 77,
+      "model": "itemblock/replace_vertical_slab_end_stone"
+    },
+    {
+      "predicate": {
+        "damage": 0.14745
+      },
+      "name": 78,
+      "model": "itemblock/replace_vertical_slab_stonebrick"
+    },
+    {
+      "predicate": {
+        "damage": 0.14934
+      },
+      "name": 79,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.15123
+      },
+      "name": 80,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.15312
+      },
+      "name": 81,
+      "model": "itemblock/vertical_slab_stonebrick_mossy"
+    },
+    {
+      "predicate": {
+        "damage": 0.15501
+      },
+      "name": 82,
+      "model": "itemblock/slab_double_slab_stonebrick_seamless"
+    },
+    {
+      "predicate": {
+        "damage": 0.15690
+      },
+      "name": 83,
+      "model": "itemblock/upper_slab_double_slab_stonebrick"
+    },
+    {
+      "predicate": {
+        "damage": 0.15879
+      },
+      "name": 84,
+      "model": "itemblock/replace_vertical_slab_double_slab_stonebrick"
+    },
+    {
+      "predicate": {
+        "damage": 0.16068
+      },
+      "name": 85,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.16257
+      },
+      "name": 86,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.16446
+      },
+      "name": 87,
+      "model": "itemblock/vertical_slab_double_slab_stonebrick_seamless"
+    },
+    {
+      "predicate": {
+        "damage": 0.16635
+      },
+      "name": 88,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.16824
+      },
+      "name": 89,
+      "model": "itemblock/upper_slab_double_slab_brick_seamless"
+    },
+    {
+      "predicate": {
+        "damage": 0.17013
+      },
+      "name": 90,
+      "model": "itemblock/vertical_slab_double_slab_brick_seamless"
+    },
+    {
+      "predicate": {
+        "damage": 0.17202
+      },
+      "name": 91,
+      "model": "itemblock/vertical_slab_brick"
+    },
+    {
+      "predicate": {
+        "damage": 0.17391
+      },
+      "name": 92,
+      "model": "itemblock/replace_vertical_slab_cobblestone"
+    },
+    {
+      "predicate": {
+        "damage": 0.17580
+      },
+      "name": 93,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.17769
+      },
+      "name": 94,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.17958
+      },
+      "name": 95,
+      "model": "itemblock/vertical_slab_cobblestone_mossy"
+    },
+    {
+      "predicate": {
+        "damage": 0.18147
+      },
+      "name": 96,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.18336
+      },
+      "name": 97,
+      "model": "itemblock/upper_slab_double_slab_cobblestone"
+    },
+    {
+      "predicate": {
+        "damage": 0.18526
+      },
+      "name": 98,
+      "model": "itemblock/vertical_slab_double_slab_cobblestone"
+    },
+    {
+      "predicate": {
+        "damage": 0.18715
+      },
+      "name": 99,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.18904
+      },
+      "name": 100,
+      "model": "itemblock/upper_slab_double_slab_cobblestone_seamless"
+    },
+    {
+      "predicate": {
+        "damage": 0.19093
+      },
+      "name": 101,
+      "model": "itemblock/vertical_slab_double_slab_cobblestone_seamless"
+    },
+    {
+      "predicate": {
+        "damage": 0.19282
+      },
+      "name": 102,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.19471
+      },
+      "name": 103,
+      "model": "itemblock/upper_slab_monster_egg_cobblestone"
+    },
+    {
+      "predicate": {
+        "damage": 0.19660
+      },
+      "name": 104,
+      "model": "itemblock/vertical_slab_monster_egg_cobblestone"
+    },
+    {
+      "predicate": {
+        "damage": 0.19849
+      },
+      "name": 105,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.20038
+      },
+      "name": 106,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.20227
+      },
+      "name": 107,
+      "model": "itemblock/vertical_slab_double_slab_planks_acacia"
+    },
+    {
+      "predicate": {
+        "damage": 0.20416
+      },
+      "name": 108,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.20605
+      },
+      "name": 109,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.20794
+      },
+      "name": 110,
+      "model": "itemblock/vertical_slab_double_slab_planks_dark_oak"
+    },
+    {
+      "predicate": {
+        "damage": 0.20983
+      },
+      "name": 111,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.21172
+      },
+      "name": 112,
+      "model": "itemblock/upper_slab_double_slab_nether_brick"
+    },
+    {
+      "predicate": {
+        "damage": 0.21361
+      },
+      "name": 113,
+      "model": "itemblock/vertical_slab_double_slab_nether_brick"
+    },
+    {
+      "predicate": {
+        "damage": 0.21550
+      },
+      "name": 114,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.21739
+      },
+      "name": 115,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.21928
+      },
+      "name": 116,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.22117
+      },
+      "name": 117,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.22306
+      },
+      "name": 118,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.22495
+      },
+      "name": 119,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.22684
+      },
+      "name": 120,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.22873
+      },
+      "name": 121,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.23062
+      },
+      "name": 122,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.23251
+      },
+      "name": 123,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.23440
+      },
+      "name": 124,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.23629
+      },
+      "name": 125,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.23819
+      },
+      "name": 126,
+      "model": "itemblock/upper_slab_roof_thatch_dark"
+    },
+    {
+      "predicate": {
+        "damage": 0.24008
+      },
+      "name": 127,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.24197
+      },
+      "name": 128,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.24386
+      },
+      "name": 129,
+      "model": "itemblock/inverted_stairs_double_slab_purpur_block"
+    },
+    {
+      "predicate": {
+        "damage": 0.24575
+      },
+      "name": 130,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.24764
+      },
+      "name": 131,
+      "model": "itemblock/inverted_stairs_double_slab_planks_jungle"
+    },
+    {
+      "predicate": {
+        "damage": 0.24953
+      },
+      "name": 132,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.25142
+      },
+      "name": 133,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.25331
+      },
+      "name": 134,
+      "model": "itemblock/outer_stairs_double_slab_purpur_block"
+    },
+    {
+      "predicate": {
+        "damage": 0.25520
+      },
+      "name": 135,
+      "model": "itemblock/inner_stairs_double_slab_purpur_block"
+    },
+    {
+      "predicate": {
+        "damage": 0.25709
+      },
+      "name": 136,
+      "model": "itemblock/outer_stairs_double_slab_planks_jungle"
+    },
+    {
+      "predicate": {
+        "damage": 0.25898
+      },
+      "name": 137,
+      "model": "itemblock/inner_stairs_double_slab_planks_jungle"
+    },
+    {
+      "predicate": {
+        "damage": 0.26087
+      },
+      "name": 138,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.26276
+      },
+      "name": 139,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.26465
+      },
+      "name": 140,
+      "model": "itemblock/inverted_outer_stairs_double_slab_purpur_block"
+    },
+    {
+      "predicate": {
+        "damage": 0.26654
+      },
+      "name": 141,
+      "model": "itemblock/inverted_inner_stairs_double_slab_purpur_block"
+    },
+    {
+      "predicate": {
+        "damage": 0.26843
+      },
+      "name": 142,
+      "model": "itemblock/inverted_outer_stairs_double_slab_planks_jungle"
+    },
+    {
+      "predicate": {
+        "damage": 0.27032
+      },
+      "name": 143,
+      "model": "itemblock/inverted_inner_stairs_double_slab_planks_jungle"
+    },
+    {
+      "predicate": {
+        "damage": 0.27221
+      },
+      "name": 144,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.27410
+      },
+      "name": 145,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.27599
+      },
+      "name": 146,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.27788
+      },
+      "name": 147,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.27977
+      },
+      "name": 148,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.28166
+      },
+      "name": 149,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.28355
+      },
+      "name": 150,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.28544
+      },
+      "name": 151,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.28733
+      },
+      "name": 152,
+      "model": "itemblock/inverted_stairs_inventory_double_slab_purpur_block"
+    },
+    {
+      "predicate": {
+        "damage": 0.28922
+      },
+      "name": 153,
+      "model": "itemblock/inverted_stairs_inventory_double_slab_planks_jungle"
+    },
+    {
+      "predicate": {
+        "damage": 0.29112
+      },
+      "name": 154,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.29301
+      },
+      "name": 155,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.29490
+      },
+      "name": 156,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.29679
+      },
+      "name": 157,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.29868
+      },
+      "name": 158,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.30057
+      },
+      "name": 159,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.30246
+      },
+      "name": 160,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.30435
+      },
+      "name": 161,
+      "model": "itemblock/replace_barrel_empty"
+    },
+    {
+      "predicate": {
+        "damage": 0.30624
+      },
+      "name": 162,
+      "model": "itemblock/barrel_apples_full"
+    },
+    {
+      "predicate": {
+        "damage": 0.30813
+      },
+      "name": 163,
+      "model": "itemblock/barrel_apples_half"
+    },
+    {
+      "predicate": {
+        "damage": 0.31002
+      },
+      "name": 164,
+      "model": "itemblock/barrel_grapes_full"
+    },
+    {
+      "predicate": {
+        "damage": 0.31191
+      },
+      "name": 165,
+      "model": "itemblock/barrel_grapes_half"
+    },
+    {
+      "predicate": {
+        "damage": 0.31380
+      },
+      "name": 166,
+      "model": "itemblock/barrel_tomatoes_full"
+    },
+    {
+      "predicate": {
+        "damage": 0.31569
+      },
+      "name": 167,
+      "model": "itemblock/barrel_tomatoes_half"
+    },
+    {
+      "predicate": {
+        "damage": 0.31758
+      },
+      "name": 168,
+      "model": "itemblock/barrel_potatoes_full"
+    },
+    {
+      "predicate": {
+        "damage": 0.31947
+      },
+      "name": 169,
+      "model": "itemblock/barrel_potatoes_half"
+    },
+    {
+      "predicate": {
+        "damage": 0.32136
+      },
+      "name": 170,
+      "model": "itemblock/barrel_onions_full"
+    },
+    {
+      "predicate": {
+        "damage": 0.32325
+      },
+      "name": 171,
+      "model": "itemblock/barrel_onions_half"
+    },
+    {
+      "predicate": {
+        "damage": 0.32514
+      },
+      "name": 172,
+      "model": "itemblock/barrel_wheat_full"
+    },
+    {
+      "predicate": {
+        "damage": 0.32703
+      },
+      "name": 173,
+      "model": "itemblock/barrel_wheat_half"
+    },
+    {
+      "predicate": {
+        "damage": 0.32892
+      },
+      "name": 174,
+      "model": "itemblock/barrel_meat_full"
+    },
+    {
+      "predicate": {
+        "damage": 0.33081
+      },
+      "name": 175,
+      "model": "itemblock/barrel_meat_half"
+    },
+    {
+      "predicate": {
+        "damage": 0.33270
+      },
+      "name": 176,
+      "model": "itemblock/barrel_fish_full"
+    },
+    {
+      "predicate": {
+        "damage": 0.33459
+      },
+      "name": 177,
+      "model": "itemblock/barrel_fish_half"
+    },
+    {
+      "predicate": {
+        "damage": 0.33648
+      },
+      "name": 178,
+      "model": "itemblock/barrel_coal_full"
+    },
+    {
+      "predicate": {
+        "damage": 0.33837
+      },
+      "name": 179,
+      "model": "itemblock/barrel_coal_half"
+    },
+    {
+      "predicate": {
+        "damage": 0.34026
+      },
+      "name": 180,
+      "model": "itemblock/barrel_water_full"
+    },
+    {
+      "predicate": {
+        "damage": 0.34216
+      },
+      "name": 181,
+      "model": "itemblock/barrel_water_half"
+    },
+    {
+      "predicate": {
+        "damage": 0.34405
+      },
+      "name": 182,
+      "model": "itemblock/clothesline_empty"
+    },
+    {
+      "predicate": {
+        "damage": 0.34594
+      },
+      "name": 183,
+      "model": "itemblock/clothesline_empty_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.34783
+      },
+      "name": 184,
+      "model": "itemblock/clothesline_empty_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.34972
+      },
+      "name": 185,
+      "model": "itemblock/clothesline_dress"
+    },
+    {
+      "predicate": {
+        "damage": 0.35161
+      },
+      "name": 186,
+      "model": "itemblock/clothesline_dress_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.35350
+      },
+      "name": 187,
+      "model": "itemblock/clothesline_dress_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.35539
+      },
+      "name": 188,
+      "model": "itemblock/clothesline_dress_3"
+    },
+    {
+      "predicate": {
+        "damage": 0.35728
+      },
+      "name": 189,
+      "model": "itemblock/clothesline_dress_4"
+    },
+    {
+      "predicate": {
+        "damage": 0.35917
+      },
+      "name": 190,
+      "model": "itemblock/clothesline_shirt"
+    },
+    {
+      "predicate": {
+        "damage": 0.36106
+      },
+      "name": 191,
+      "model": "itemblock/clothesline_shirt_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.36295
+      },
+      "name": 192,
+      "model": "itemblock/clothesline_shirt_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.36484
+      },
+      "name": 193,
+      "model": "itemblock/clothesline_shirt_3"
+    },
+    {
+      "predicate": {
+        "damage": 0.36673
+      },
+      "name": 194,
+      "model": "itemblock/clothesline_shirt_4"
+    },
+    {
+      "predicate": {
+        "damage": 0.36862
+      },
+      "name": 195,
+      "model": "itemblock/clothesline_shirt_5"
+    },
+    {
+      "predicate": {
+        "damage": 0.37051
+      },
+      "name": 196,
+      "model": "itemblock/clothesline_shirt_6"
+    },
+    {
+      "predicate": {
+        "damage": 0.37240
+      },
+      "name": 197,
+      "model": "itemblock/clothesline_shirt_7"
+    },
+    {
+      "predicate": {
+        "damage": 0.37429
+      },
+      "name": 198,
+      "model": "itemblock/clothesline_shirt_8"
+    },
+    {
+      "predicate": {
+        "damage": 0.37618
+      },
+      "name": 199,
+      "model": "itemblock/clothesline_shirt_long"
+    },
+    {
+      "predicate": {
+        "damage": 0.37807
+      },
+      "name": 200,
+      "model": "itemblock/clothesline_shirt_long_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.37996
+      },
+      "name": 201,
+      "model": "itemblock/clothesline_shirt_long_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.38185
+      },
+      "name": 202,
+      "model": "itemblock/clothesline_shirt_long_3"
+    },
+    {
+      "predicate": {
+        "damage": 0.38374
+      },
+      "name": 203,
+      "model": "itemblock/clothesline_shirt_long_4"
+    },
+    {
+      "predicate": {
+        "damage": 0.38563
+      },
+      "name": 204,
+      "model": "itemblock/clothesline_shirt_long_5"
+    },
+    {
+      "predicate": {
+        "damage": 0.38752
+      },
+      "name": 205,
+      "model": "itemblock/clothesline_pants"
+    },
+    {
+      "predicate": {
+        "damage": 0.38941
+      },
+      "name": 206,
+      "model": "itemblock/clothesline_pants_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.39130
+      },
+      "name": 207,
+      "model": "itemblock/clothesline_pants_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.39319
+      },
+      "name": 208,
+      "model": "itemblock/clothesline_pants_3"
+    },
+    {
+      "predicate": {
+        "damage": 0.39509
+      },
+      "name": 209,
+      "model": "itemblock/clothesline_pants_4"
+    },
+    {
+      "predicate": {
+        "damage": 0.39698
+      },
+      "name": 210,
+      "model": "itemblock/clothesline_pants_5"
+    },
+    {
+      "predicate": {
+        "damage": 0.39887
+      },
+      "name": 211,
+      "model": "itemblock/clothesline_socks"
+    },
+    {
+      "predicate": {
+        "damage": 0.40076
+      },
+      "name": 212,
+      "model": "itemblock/clothesline_socks_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.40265
+      },
+      "name": 213,
+      "model": "itemblock/clothesline_socks_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.40454
+      },
+      "name": 214,
+      "model": "itemblock/clothesline_socks_3"
+    },
+    {
+      "predicate": {
+        "damage": 0.40643
+      },
+      "name": 215,
+      "model": "itemblock/clothesline_socks_4"
+    },
+    {
+      "predicate": {
+        "damage": 0.40832
+      },
+      "name": 216,
+      "model": "itemblock/clothesline_socks_5"
+    },
+    {
+      "predicate": {
+        "damage": 0.41021
+      },
+      "name": 217,
+      "model": "itemblock/clothesline_socks_6"
+    },
+    {
+      "predicate": {
+        "damage": 0.41210
+      },
+      "name": 218,
+      "model": "itemblock/clothesline_socks_7"
+    },
+    {
+      "predicate": {
+        "damage": 0.41399
+      },
+      "name": 219,
+      "model": "itemblock/clothesline_sheet"
+    },
+    {
+      "predicate": {
+        "damage": 0.41588
+      },
+      "name": 220,
+      "model": "itemblock/clothesline_sheet_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.41777
+      },
+      "name": 221,
+      "model": "itemblock/clothesline_sheet_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.41966
+      },
+      "name": 222,
+      "model": "itemblock/clothesline_sheet_3"
+    },
+    {
+      "predicate": {
+        "damage": 0.42155
+      },
+      "name": 223,
+      "model": "itemblock/clothesline_sheet_4"
+    },
+    {
+      "predicate": {
+        "damage": 0.42344
+      },
+      "name": 224,
+      "model": "itemblock/clothesline_sheet_5"
+    },
+    {
+      "predicate": {
+        "damage": 0.42533
+      },
+      "name": 225,
+      "model": "itemblock/clothesline_rag"
+    },
+    {
+      "predicate": {
+        "damage": 0.42722
+      },
+      "name": 226,
+      "model": "itemblock/clothesline_rag_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.42911
+      },
+      "name": 227,
+      "model": "itemblock/clothesline_rag_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.43100
+      },
+      "name": 228,
+      "model": "itemblock/clothesline_rag_3"
+    },
+    {
+      "predicate": {
+        "damage": 0.43289
+      },
+      "name": 229,
+      "model": "itemblock/clothesline_rag_4"
+    },
+    {
+      "predicate": {
+        "damage": 0.43478
+      },
+      "name": 230,
+      "model": "itemblock/clothesline_rag_5"
+    },
+    {
+      "predicate": {
+        "damage": 0.43667
+      },
+      "name": 231,
+      "model": "itemblock/clothesline_rag_6"
+    },
+    {
+      "predicate": {
+        "damage": 0.43856
+      },
+      "name": 232,
+      "model": "itemblock/clothesline_rag_7"
+    },
+    {
+      "predicate": {
+        "damage": 0.44045
+      },
+      "name": 233,
+      "model": "itemblock/clothesline_rag_8"
+    },
+    {
+      "predicate": {
+        "damage": 0.44234
+      },
+      "name": 234,
+      "model": "itemblock/clothesline_rag_9"
+    },
+    {
+      "predicate": {
+        "damage": 0.44423
+      },
+      "name": 235,
+      "model": "itemblock/clothesline_rag_10"
+    },
+    {
+      "predicate": {
+        "damage": 0.44612
+      },
+      "name": 236,
+      "model": "itemblock/clothesline_rag_11"
+    },
+    {
+      "predicate": {
+        "damage": 0.44802
+      },
+      "name": 237,
+      "model": "itemblock/clothesline_rag_12"
+    },
+    {
+      "predicate": {
+        "damage": 0.44991
+      },
+      "name": 238,
+      "model": "itemblock/clothesline_rag_13"
+    },
+    {
+      "predicate": {
+        "damage": 0.45180
+      },
+      "name": 239,
+      "model": "itemblock/replace_table_low_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.45369
+      },
+      "name": 240,
+      "model": "itemblock/replace_table_low_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.45558
+      },
+      "name": 241,
+      "model": "itemblock/replace_stool_red"
+    },
+    {
+      "predicate": {
+        "damage": 0.45747
+      },
+      "name": 242,
+      "model": "itemblock/replace_stool_wood"
+    },
+    {
+      "predicate": {
+        "damage": 0.45936
+      },
+      "name": 243,
+      "model": "itemblock/bed_blue_half"
+    },
+    {
+      "predicate": {
+        "damage": 0.46125
+      },
+      "name": 244,
+      "model": "itemblock/bed_green_half"
+    },
+    {
+      "predicate": {
+        "damage": 0.46314
+      },
+      "name": 245,
+      "model": "itemblock/bed_grey_half"
+    },
+    {
+      "predicate": {
+        "damage": 0.46503
+      },
+      "name": 246,
+      "model": "itemblock/curtain_blue_top"
+    },
+    {
+      "predicate": {
+        "damage": 0.46692
+      },
+      "name": 247,
+      "model": "itemblock/curtain_blue"
+    },
+    {
+      "predicate": {
+        "damage": 0.46881
+      },
+      "name": 248,
+      "model": "itemblock/curtain_blue_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.47070
+      },
+      "name": 249,
+      "model": "itemblock/curtain_brown_top"
+    },
+    {
+      "predicate": {
+        "damage": 0.47259
+      },
+      "name": 250,
+      "model": "itemblock/curtain_brown"
+    },
+    {
+      "predicate": {
+        "damage": 0.47448
+      },
+      "name": 251,
+      "model": "itemblock/curtain_brown_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.47637
+      },
+      "name": 252,
+      "model": "itemblock/curtain_gray_top"
+    },
+    {
+      "predicate": {
+        "damage": 0.47826
+      },
+      "name": 253,
+      "model": "itemblock/curtain_gray"
+    },
+    {
+      "predicate": {
+        "damage": 0.48015
+      },
+      "name": 254,
+      "model": "itemblock/curtain_gray_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.48204
+      },
+      "name": 255,
+      "model": "itemblock/curtain_green_top"
+    },
+    {
+      "predicate": {
+        "damage": 0.48393
+      },
+      "name": 256,
+      "model": "itemblock/curtain_green"
+    },
+    {
+      "predicate": {
+        "damage": 0.48582
+      },
+      "name": 257,
+      "model": "itemblock/curtain_green_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.48771
+      },
+      "name": 258,
+      "model": "itemblock/curtain_red_top"
+    },
+    {
+      "predicate": {
+        "damage": 0.48960
+      },
+      "name": 259,
+      "model": "itemblock/curtain_red"
+    },
+    {
+      "predicate": {
+        "damage": 0.49149
+      },
+      "name": 260,
+      "model": "itemblock/curtain_red_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.49338
+      },
+      "name": 261,
+      "model": "itemblock/curtain_white_top"
+    },
+    {
+      "predicate": {
+        "damage": 0.49527
+      },
+      "name": 262,
+      "model": "itemblock/curtain_white"
+    },
+    {
+      "predicate": {
+        "damage": 0.49716
+      },
+      "name": 263,
+      "model": "itemblock/curtain_white_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.49905
+      },
+      "name": 264,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.50095
+      },
+      "name": 265,
+      "model": "itemblock/upper_slab_diamond_ore"
+    },
+    {
+      "predicate": {
+        "damage": 0.50284
+      },
+      "name": 266,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.50473
+      },
+      "name": 267,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.50662
+      },
+      "name": 268,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.50851
+      },
+      "name": 269,
+      "model": "itemblock/upper_slab_quartz_ore"
+    },
+    {
+      "predicate": {
+        "damage": 0.51040
+      },
+      "name": 270,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.51229
+      },
+      "name": 271,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.51418
+      },
+      "name": 272,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.51607
+      },
+      "name": 273,
+      "model": "itemblock/replace_trapdoor_planks_birch_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.51796
+      },
+      "name": 274,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.51985
+      },
+      "name": 275,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.52174
+      },
+      "name": 276,
+      "model": "itemblock/replace_trapdoor_sandstone_normal_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.52363
+      },
+      "name": 277,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.52552
+      },
+      "name": 278,
+      "model": "itemblock/trapdoor_sandstone_normal_top"
+    },
+    {
+      "predicate": {
+        "damage": 0.52741
+      },
+      "name": 279,
+      "model": "itemblock/replace_trapdoor_red_sandstone_normal_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.52930
+      },
+      "name": 280,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.53119
+      },
+      "name": 281,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.53308
+      },
+      "name": 282,
+      "model": "itemblock/trapdoor_double_slab_sandstone_seamless_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.53497
+      },
+      "name": 283,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.53686
+      },
+      "name": 284,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.53875
+      },
+      "name": 285,
+      "model": "itemblock/trapdoor_double_slab_red_sandstone_seamless_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.54064
+      },
+      "name": 286,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.54253
+      },
+      "name": 287,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.54442
+      },
+      "name": 288,
+      "model": "itemblock/trapdoor_sandstone_chiseled_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.54631
+      },
+      "name": 289,
+      "model": "itemblock/trapdoor_sandstone_chiseled_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.54820
+      },
+      "name": 290,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.55009
+      },
+      "name": 291,
+      "model": "itemblock/trapdoor_sandstone_smooth_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.55198
+      },
+      "name": 292,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.55388
+      },
+      "name": 293,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.55577
+      },
+      "name": 294,
+      "model": "itemblock/trapdoor_red_nether_brick_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.55766
+      },
+      "name": 295,
+      "model": "itemblock/trapdoor_red_nether_brick_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.55955
+      },
+      "name": 296,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.56144
+      },
+      "name": 297,
+      "model": "itemblock/replace_trapdoor_double_slab_nether_brick_seamless_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.56333
+      },
+      "name": 298,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.56522
+      },
+      "name": 299,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.56711
+      },
+      "name": 300,
+      "model": "itemblock/trapdoor_double_slab_nether_brick_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.56900
+      },
+      "name": 301,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.57089
+      },
+      "name": 302,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.57278
+      },
+      "name": 303,
+      "model": "itemblock/trapdoor_quartz_normal_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.57467
+      },
+      "name": 304,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.57656
+      },
+      "name": 305,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.57845
+      },
+      "name": 306,
+      "model": "itemblock/trapdoor_double_slab_quartz_seamless_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.58034
+      },
+      "name": 307,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.58223
+      },
+      "name": 308,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.58412
+      },
+      "name": 309,
+      "model": "itemblock/trapdoor_double_slab_quartz_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.58601
+      },
+      "name": 310,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.58790
+      },
+      "name": 311,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.58979
+      },
+      "name": 312,
+      "model": "itemblock/trapdoor_end_stone_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.59168
+      },
+      "name": 313,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.59357
+      },
+      "name": 314,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.59546
+      },
+      "name": 315,
+      "model": "itemblock/trapdoor_end_bricks_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.59735
+      },
+      "name": 316,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.59924
+      },
+      "name": 317,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.60113
+      },
+      "name": 318,
+      "model": "itemblock/trapdoor_quartz_chiseled_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.60302
+      },
+      "name": 319,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.60491
+      },
+      "name": 320,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.60681
+      },
+      "name": 321,
+      "model": "itemblock/replace_trapdoor_stonebrick_normal_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.60870
+      },
+      "name": 322,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.61059
+      },
+      "name": 323,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.61248
+      },
+      "name": 324,
+      "model": "itemblock/trapdoor_stonebrick_mossy_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.61437
+      },
+      "name": 325,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.61626
+      },
+      "name": 326,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.61815
+      },
+      "name": 327,
+      "model": "itemblock/trapdoor_stonebrick_cracked_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.62004
+      },
+      "name": 328,
+      "model": "itemblock/trapdoor_stonebrick_cracked_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.62193
+      },
+      "name": 329,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.62382
+      },
+      "name": 330,
+      "model": "itemblock/trapdoor_stonebrick_chiseled_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.62571
+      },
+      "name": 331,
+      "model": "itemblock/trapdoor_stonebrick_chiseled_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.62760
+      },
+      "name": 332,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.62949
+      },
+      "name": 333,
+      "model": "itemblock/trapdoor_double_slab_stonebrick_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.63138
+      },
+      "name": 334,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.63327
+      },
+      "name": 335,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.63516
+      },
+      "name": 336,
+      "model": "itemblock/trapdoor_double_slab_stonebrick_seamless_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.63705
+      },
+      "name": 337,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.63894
+      },
+      "name": 338,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.64083
+      },
+      "name": 339,
+      "model": "itemblock/trapdoor_double_slab_brick_seamless_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.64272
+      },
+      "name": 340,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.64461
+      },
+      "name": 341,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.64650
+      },
+      "name": 342,
+      "model": "itemblock/trapdoor_monster_egg_stonebrick_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.64839
+      },
+      "name": 343,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.65028
+      },
+      "name": 344,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.65217
+      },
+      "name": 345,
+      "model": "itemblock/trapdoor_monster_egg_stonebrick_mossy_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.65406
+      },
+      "name": 346,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.65595
+      },
+      "name": 347,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.65784
+      },
+      "name": 348,
+      "model": "itemblock/trapdoor_monster_egg_stonebrick_cracked_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.65974
+      },
+      "name": 349,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.66163
+      },
+      "name": 350,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.66352
+      },
+      "name": 351,
+      "model": "itemblock/trapdoor_monster_egg_stonebrick_chiseled_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.66541
+      },
+      "name": 352,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.66730
+      },
+      "name": 353,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.66919
+      },
+      "name": 354,
+      "model": "itemblock/trapdoor_brick_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.67108
+      },
+      "name": 355,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.67297
+      },
+      "name": 356,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.67486
+      },
+      "name": 357,
+      "model": "itemblock/trapdoor_double_slab_brick_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.67675
+      },
+      "name": 358,
+      "model": "itemblock/trapdoor_double_slab_brick_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.67864
+      },
+      "name": 359,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.68053
+      },
+      "name": 360,
+      "model": "itemblock/trapdoor_double_slab_stone_seamless_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.68242
+      },
+      "name": 361,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.68431
+      },
+      "name": 362,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.68620
+      },
+      "name": 363,
+      "model": "itemblock/trapdoor_monster_egg_stone_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.68809
+      },
+      "name": 364,
+      "model": "itemblock/trapdoor_monster_egg_stone_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.68998
+      },
+      "name": 365,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.69187
+      },
+      "name": 366,
+      "model": "itemblock/trapdoor_double_slab_stone_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.69376
+      },
+      "name": 367,
+      "model": "itemblock/trapdoor_double_slab_stone_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.69565
+      },
+      "name": 368,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.69754
+      },
+      "name": 369,
+      "model": "itemblock/trapdoor_cobblestone_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.69943
+      },
+      "name": 370,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.70132
+      },
+      "name": 371,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.70321
+      },
+      "name": 372,
+      "model": "itemblock/trapdoor_mossy_cobblestone_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.70510
+      },
+      "name": 373,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.70699
+      },
+      "name": 374,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.70888
+      },
+      "name": 375,
+      "model": "itemblock/trapdoor_double_slab_cobblestone_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.71078
+      },
+      "name": 376,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.71267
+      },
+      "name": 377,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.71456
+      },
+      "name": 378,
+      "model": "itemblock/trapdoor_double_slab_cobblestone_seamless_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.71645
+      },
+      "name": 379,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.71834
+      },
+      "name": 380,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.72023
+      },
+      "name": 381,
+      "model": "itemblock/trapdoor_monster_egg_cobblestone_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.72212
+      },
+      "name": 382,
+      "model": "itemblock/trapdoor_monster_egg_cobblestone_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.72401
+      },
+      "name": 383,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.72590
+      },
+      "name": 384,
+      "model": "itemblock/trapdoor_double_slab_planks_acacia_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.72779
+      },
+      "name": 385,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.72968
+      },
+      "name": 386,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.73157
+      },
+      "name": 387,
+      "model": "itemblock/trapdoor_double_slab_planks_dark_oak_open"
+    },
+    {
+      "predicate": {
+        "damage": 0.73346
+      },
+      "name": 388,
+      "model": "itemblock/trapdoor_double_slab_planks_dark_oak_bottom"
+    },
+    {
+      "predicate": {
+        "damage": 0.73535
+      },
+      "name": 389,
+      "model": "itemblock/replace"
+    },
+    {
+      "predicate": {
+        "damage": 0.73724
+      },
+      "name": 390,
+      "model": "itemblock/cutlery"
+    },
+    {
+      "predicate": {
+        "damage": 0.73913
+      },
+      "name": 391,
+      "model": "itemblock/plate_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.74102
+      },
+      "name": 392,
+      "model": "itemblock/plate_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.74291
+      },
+      "name": 393,
+      "model": "itemblock/replace_small_barrel"
+    },
+    {
+      "predicate": {
+        "damage": 0.74480
+      },
+      "name": 394,
+      "model": "itemblock/replace_shelf_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.74669
+      },
+      "name": 395,
+      "model": "itemblock/replace_shelf_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.74858
+      },
+      "name": 396,
+      "model": "itemblock/replace_beer_mug"
+    },
+    {
+      "predicate": {
+        "damage": 0.75047
+      },
+      "name": 397,
+      "model": "itemblock/replace_bottle_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.75236
+      },
+      "name": 398,
+      "model": "itemblock/replace_bottle_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.75425
+      },
+      "name": 399,
+      "model": "itemblock/replace_shutter"
+    },
+    {
+      "predicate": {
+        "damage": 0.75614
+      },
+      "name": 400,
+      "model": "itemblock/barrel_water_half_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.75803
+      },
+      "name": 401,
+      "model": "itemblock/barrel_empty"
+    },
+    {
+      "predicate": {
+        "damage": 0.75992
+      },
+      "name": 402,
+      "model": "itemblock/barrel_apples_full_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.76181
+      },
+      "name": 403,
+      "model": "itemblock/barrel_apples_half_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.76371
+      },
+      "name": 404,
+      "model": "itemblock/barrel_grapes_full_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.76560
+      },
+      "name": 405,
+      "model": "itemblock/barrel_grapes_half_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.76749
+      },
+      "name": 406,
+      "model": "itemblock/barrel_tomatoes_full_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.76938
+      },
+      "name": 407,
+      "model": "itemblock/barrel_tomatoes_half_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.77127
+      },
+      "name": 408,
+      "model": "itemblock/barrel_potatoes_full_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.77316
+      },
+      "name": 409,
+      "model": "itemblock/barrel_potatoes_half_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.77505
+      },
+      "name": 410,
+      "model": "itemblock/barrel_onions_full_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.77694
+      },
+      "name": 411,
+      "model": "itemblock/barrel_onions_half_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.77883
+      },
+      "name": 412,
+      "model": "itemblock/barrel_wheat_full_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.78072
+      },
+      "name": 413,
+      "model": "itemblock/barrel_wheat_half_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.78261
+      },
+      "name": 414,
+      "model": "itemblock/barrel_meat_full_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.78450
+      },
+      "name": 415,
+      "model": "itemblock/barrel_meat_half_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.78639
+      },
+      "name": 416,
+      "model": "itemblock/barrel_fish_full_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.78828
+      },
+      "name": 417,
+      "model": "itemblock/barrel_fish_half_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.79017
+      },
+      "name": 418,
+      "model": "itemblock/barrel_coal_full_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.79206
+      },
+      "name": 419,
+      "model": "itemblock/barrel_coal_half_item"
+    },
+    {
+      "predicate": {
+        "damage": 0.79395
+      },
+      "name": 420,
+      "model": "itemblock/barrel_water_full_item"
+    }
+  ]
+}

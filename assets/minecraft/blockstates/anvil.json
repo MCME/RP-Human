@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "block/anvil_damage0_sw" },
+        "facing=west": { "model": "block/anvil_damage0_sw", "y": 90 },
+        "facing=north": { "model": "block/anvil_damage0_ne" },
+        "facing=east": { "model": "block/anvil_damage0_ne", "y": 90 }
+    }
+}

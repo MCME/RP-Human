@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/3x3x3vegetation_tintless_1",
+	"textures": {
+		"1": "block/fire_coral_top",
+		"2": "block/fire_coral_top_1",
+		"3": "block/fire_coral_top_2",
+		"4": "block/fire_coral_top_3",
+		"5": "block/fire_coral",
+		"6": "block/fire_coral_1",
+		"7": "block/fire_coral_2",
+		"8": "block/fire_coral_3"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"flip_v": true,
+	"model": "mcme:models/block/big_fern_3.obj"
+}
