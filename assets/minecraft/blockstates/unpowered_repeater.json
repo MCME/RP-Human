@@ -1,0 +1,68 @@
+{
+  "variants": {
+    "delay\u003d1,facing\u003dsouth,locked\u003dfalse": [
+      {
+        "model": "block/repeater_delay1_s"
+      },
+      {
+        "model": "block/repeater_delay1_s",
+        "y": 90
+      },
+      {
+        "model": "block/repeater_delay1_s",
+        "y": 180
+      },
+      {
+        "model": "block/repeater_delay1_s",
+        "y": 270
+      }
+    ],
+    "delay\u003d1,facing\u003dwest,locked\u003dfalse": {
+      "model": "block/repeater_delay1_w"
+    },
+    "delay\u003d1,facing\u003dnorth,locked\u003dfalse": {
+      "model": "block/repeater_delay1_n"
+    },
+    "delay\u003d1,facing\u003deast,locked\u003dfalse": {
+      "model": "block/repeater_delay1_e"
+    },
+    "delay\u003d2,facing\u003dsouth,locked\u003dfalse": {
+      "model": "block/repeater_delay2_s"
+    },
+    "delay\u003d2,facing\u003dwest,locked\u003dfalse": {
+      "model": "block/repeater_delay2_w"
+    },
+    "delay\u003d2,facing\u003dnorth,locked\u003dfalse": {
+      "model": "block/cocoa_stage0",
+      "x": 270
+    },
+    "delay\u003d2,facing\u003deast,locked\u003dfalse": {
+      "model": "block/cocoa_stage0",
+      "x": 90
+    },
+    "delay\u003d3,facing\u003dsouth,locked\u003dfalse": {
+      "model": "block/repeater_delay3_s"
+    },
+    "delay\u003d3,facing\u003dwest,locked\u003dfalse": {
+      "model": "block/repeater_delay3_w"
+    },
+    "delay\u003d3,facing\u003dnorth,locked\u003dfalse": {
+      "model": "block/repeater_delay3_n"
+    },
+    "delay\u003d3,facing\u003deast,locked\u003dfalse": {
+      "model": "block/repeater_delay3_e"
+    },
+    "delay\u003d4,facing\u003dsouth,locked\u003dfalse": {
+      "model": "block/repeater_delay4_s"
+    },
+    "delay\u003d4,facing\u003dwest,locked\u003dfalse": {
+      "model": "block/repeater_delay4_w"
+    },
+    "delay\u003d4,facing\u003dnorth,locked\u003dfalse": {
+      "model": "block/repeater_delay4_n"
+    },
+    "delay\u003d4,facing\u003deast,locked\u003dfalse": {
+      "model": "block/repeater_delay4_e"
+    }
+  }
+}

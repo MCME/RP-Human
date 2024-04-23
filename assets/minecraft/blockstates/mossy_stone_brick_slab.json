@@ -1,0 +1,17 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/mossy_stone_brick_slab" },
+        "type=top": { "model": "block/mossy_stone_brick_slab_top" },
+        "type=double":[
+			{ "model": "block/mossy_stone_brick_slab_double" },
+			{ "model": "block/mossy_stone_brick_slab_double", "y": 90 },
+			{ "model": "block/mossy_stone_brick_slab_double", "y": 180 },
+			{ "model": "block/mossy_stone_brick_slab_double_2" },
+			{ "model": "block/mossy_stone_brick_slab_double_2", "y": 90 },
+			{ "model": "block/mossy_stone_brick_slab_double_2", "y": 180 },
+			{ "model": "block/mossy_stone_brick_slab_double_3" },
+			{ "model": "block/mossy_stone_brick_slab_double_3", "y": 90 },
+			{ "model": "block/mossy_stone_brick_slab_double_3", "y": 180 }
+			]
+    }
+}

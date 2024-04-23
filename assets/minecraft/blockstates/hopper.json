@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "enabled=true,facing=down": {
+      "model": "minecraft:block/hopper_light_gray_large_doric"
+    },
+	"enabled=true,facing=north": {
+      "model": "minecraft:block/hopper_light_gray_ionic"
+    },
+	"enabled=true,facing=east": {
+      "model": "minecraft:block/hopper_light_gray_ionic", "y": 90
+    },
+  "enabled=true,facing=south": {
+      "model": "minecraft:block/hopper_sandstone_ionic"
+  },
+  "enabled=true,facing=west": {
+    "model": "minecraft:block/hopper_sandstone_ionic", "y": 90
+  },
+  "enabled=false,facing=down": {
+    "model": "minecraft:block/hopper_sandstone_large_doric"
+    },
+  "enabled=false,facing=north": {
+      "model": "minecraft:block/hopper_light_gray_block_doric"
+      },
+  "enabled=false,facing=east": {
+        "model": "minecraft:block/hopper_sandstone_block_doric"
+        }
+  }
+}

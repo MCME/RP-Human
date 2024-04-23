@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/3x3x3vegetation_tintless_1",
+	"textures": {
+		"1": "block/dead_brain_coral_top_4",
+		"2": "block/dead_brain_coral_top_5",
+		"3": "block/dead_brain_coral_top_6",
+		"4": "block/dead_brain_coral_top_7",
+		"5": "block/dead_brain_coral_4",
+		"6": "block/dead_brain_coral_5",
+		"7": "block/dead_brain_coral_6",
+		"8": "block/dead_brain_coral_7"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, 2.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"flip_v": true,
+	"model": "mcme:models/block/big_fern_3.obj"
+}

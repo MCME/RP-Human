@@ -1,0 +1,24 @@
+{
+    "variants": {
+        "distance=2,persistent=false": { "model": "block/big_barrel", "x":90, "y":90 },
+		"distance=3,persistent=false": { "model": "block/big_barrel", "x":90 },
+		"distance=4,persistent=false": { "model": "block/big_barrel" },
+		"distance=5,persistent=false": { "model": "itemblock/barrel_apples_full_item" },
+		"distance=6,persistent=false": { "model": "itemblock/barrel_apples_half_item" },
+		"distance=7,persistent=false": { "model": "itemblock/barrel_coal_full_item" },
+		"distance=1,persistent=false": { "model": "itemblock/barrel_coal_half_item" },
+		"distance=1,persistent=true": [
+					{ "model": "mcme:block/hornbeam_leaves" },
+					{ "model": "mcme:block/hornbeam_leaves_2" },
+					{ "model": "mcme:block/hornbeam_leaves_3" },
+					{ "model": "mcme:block/hornbeam_leaves_4" },
+					{ "model": "mcme:block/hornbeam_leaves_5" }
+					],
+		"distance=2,persistent=true": { "model": "itemblock/barrel_fish_full_item" },
+		"distance=3,persistent=true": { "model": "itemblock/barrel_fish_half_item" },
+		"distance=4,persistent=true": { "model": "itemblock/barrel_grapes_full_item" },
+		"distance=5,persistent=true": { "model": "itemblock/barrel_grapes_half_item" },
+		"distance=6,persistent=true": { "model": "itemblock/barrel_meat_full_item" },
+		"distance=7,persistent=true": { "model": "itemblock/barrel_meat_half_item" }
+    }
+}

@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [48, 48],
+	"textures": {
+		"1": "block/stone_bricks_comp",
+		"particle": "block/stone_bricks_comp"
+	},
+	"elements": [
+		{
+			"from": [3.2375, 15.5, -2.0125],
+			"to": [12.7625, 24.5, 17.9875],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 20, 7.9875]},
+			"faces": {
+				"north": {"uv": [14, 3, 11, 6.33333], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [9.33333, 3, 16, 0], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [11, 2.66667, 14, 6], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [9.33333, 0, 16, 3], "texture": "#1"},
+				"up": {"uv": [0, 0, 3.33333, 6.66667], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [3.175, 0, 0, 6.66667], "texture": "#1"}
+			}
+		}
+	]
+}
