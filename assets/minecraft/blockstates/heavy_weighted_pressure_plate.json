@@ -48,9 +48,26 @@
 		{ "model": "block/bread_3", "y": 180 },
 		{ "model": "block/bread_3", "y": 270 }
 		],
-    "power\u003d5": {
-      "model": "block/replace"
-    },
+    "power\u003d5": [
+		{ "model": "block/basket" },
+		{ "model": "block/basket", "y": 90 },
+		{ "model": "block/basket_2"},
+		{ "model": "block/basket_2", "y": 90 },
+		{ "model": "block/basket_3"},
+		{ "model": "block/basket_3", "y": 90 },
+		{ "model": "block/basket_4"},
+		{ "model": "block/basket_4", "y": 90 },
+		{ "model": "block/basket_5"},
+		{ "model": "block/basket_5", "y": 90 },
+		{ "model": "block/basket_6"},
+		{ "model": "block/basket_6", "y": 90 },
+		{ "model": "block/basket_7"},
+		{ "model": "block/basket_7", "y": 90 },
+		{ "model": "block/basket_8"},
+		{ "model": "block/basket_8", "y": 90 },
+		{ "model": "block/basket_9"},
+		{ "model": "block/basket_9", "y": 90 }
+		],
     "power\u003d6": {
       "model": "block/replace"
     },

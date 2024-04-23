@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "stage\u003d0": [
+      { "model": "block/autumn_dandelion" },
+      { "model": "block/autumn_dandelion", "y": 90 },
+      { "model": "block/autumn_dandelion", "y": 180 },
+      { "model": "block/autumn_dandelion", "y": 270 },
+	{ "model": "block/autumn_dandelion_2" },
+      { "model": "block/autumn_dandelion_2", "y": 90 },
+      { "model": "block/autumn_dandelion_2", "y": 180 },
+      { "model": "block/autumn_dandelion_2", "y": 270 }
+    ],
+    "stage\u003d1": {
+      "model": "block/replace"
+    }
+  }
+}

@@ -33,9 +33,7 @@
 		{ "model": "itemblock/barrel_coal_half_item", "y":180 },
 		{ "model": "itemblock/barrel_coal_half_item", "y":270 }
 		],
-		"distance=1,persistent=false": {
-      "model": "block/replace"
-    },
+		"distance=1,persistent=false": { "model": "block/birch_leaves_white_ionic" },
 		"distance=1,persistent=true": [
 					{ "model": "mcme:block/hornbeam_leaves" },
 					{ "model": "mcme:block/hornbeam_leaves_2" },
@@ -53,9 +51,7 @@
 		{ "model": "itemblock/barrel_fish_half_item", "y":180 },
 		{ "model": "itemblock/barrel_fish_half_item", "y":270 }
 		],
-		"distance=3,persistent=true": {
-      "model": "block/replace"
-    },
+		"distance=3,persistent=true": { "model": "block/birch_leaves_white_ionic", "y":90 },
 		"distance=4,persistent=true": [
 		{ "model": "itemblock/barrel_grapes_full_item" },
 		{ "model": "itemblock/barrel_grapes_full_item", "y":90 },
