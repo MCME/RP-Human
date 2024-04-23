@@ -11,9 +11,7 @@
 		{ "model": "itemblock/barrel_onions_half_item", "y":180 },
 		{ "model": "itemblock/barrel_onions_half_item", "y":270 }
 		],
-		"distance=3,persistent=false": {
-      "model": "block/replace"
-    },
+		"distance=3,persistent=false": { "model": "block/birch_leaves_pillar_thick_white" },
 		"distance=4,persistent=false": [
 		{ "model": "itemblock/barrel_potatoes_full_item" },
 		{ "model": "itemblock/barrel_potatoes_full_item", "y":90 },
@@ -45,9 +43,7 @@
 		{ "model": "mcme:block/ash_leaves_5" }
 		],
 		"distance=6,persistent=true": {"model": "block/birch_leaves_pillar_thick_bottom" },
-		"distance=7,persistent=true": {
-      "model": "block/replace"
-    },
+		"distance=7,persistent=true": {"model": "block/birch_leaves_pillar_thick_bottom_white" },
 		"distance=2,persistent=true": { "model": "itemblock/barrel_water_full_item" },
 		"distance=3,persistent=true": { "model": "itemblock/barrel_water_half_item" },
 		"distance=4,persistent=true": [
@@ -60,8 +56,6 @@
 		{ "model": "itemblock/barrel_wheat_half_item", "y":180 },
 		{ "model": "itemblock/barrel_wheat_half_item", "y":270 }
 		],
-		"distance=5,persistent=true": {
-      "model": "block/replace"
-    }
+		"distance=5,persistent=true": {"model": "block/birch_white_large_doric" }
     }
 }
