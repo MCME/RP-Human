@@ -1,0 +1,94 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "down",
+        "triggered": "false"
+      },
+      "apply": {
+        "model": "block/dropper_nwd"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "triggered": "false"
+      },
+      "apply": {
+        "model": "block/dropper_seu"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "triggered": "false"
+      },
+      "apply": {
+        "model": "block/dropper_nwd",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "triggered": "false"
+      },
+      "apply": {
+        "model": "block/dropper_seu",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "triggered": "false"
+      },
+      "apply": {
+        "model": "block/dropper_nwd",
+        "y": 90,
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "triggered": "false"
+      },
+      "apply": {
+        "model": "block/dropper_seu",
+        "y": 90,
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "down",
+        "triggered": "true"
+      },
+      "apply": {
+        "model": "block/dropper_powered_nwd"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "triggered": "true"
+      },
+      "apply": {
+        "model": "block/dropper_powered_nwd",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "triggered": "true"
+      },
+      "apply": {
+        "model": "block/dropper_powered_nwd",
+        "y": 90,
+        "x": 90
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/petrified_oak_slab" },
+        "type=top": { "model": "block/petrified_oak_slab_top" },
+        "type=double,waterlogged=false": { "model": "block/double_slab_wood_old" },
+        "type=double,waterlogged=true": { "model": "block/double_slab_wood_old", "y": 90 }
+    }
+}

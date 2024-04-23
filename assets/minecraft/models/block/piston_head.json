@@ -1,0 +1,27 @@
+{
+  "parent": "block/template_piston_head",
+  "display": {
+    "gui": {
+      "rotation": [
+        120,
+        0,
+        45
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    }
+  },
+  "textures": {
+    "unsticky": "block/double_slab_cut_copper",
+    "side": "block/piston_normal_extended_side",
+    "platform": "block/double_slab_cut_copper"
+  }
+}

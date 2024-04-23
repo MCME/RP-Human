@@ -1,0 +1,55 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"texture_size": [24, 24],
+	"textures": {
+		"particle": "block/scaffolding_stone_window"
+	},
+	"elements": [
+		{
+			"from": [-4, 14, -3],
+			"to": [20, 18, 19],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 1.33333, 12, 4], "rotation": 180, "texture": "#particle"},
+				"east": {"uv": [0.66667, 1.33333, 11.83333, 4], "rotation": 180, "texture": "#particle"},
+				"south": {"uv": [0, 1.33333, 12, 4], "rotation": 180, "texture": "#particle"},
+				"west": {"uv": [0.66667, 1.33333, 11.83333, 4], "rotation": 180, "texture": "#particle"},
+				"up": {"uv": [0, 0.16667, 12, 11.83333], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [0, 0.16667, 12, 11.83333], "rotation": 180, "texture": "#particle"}
+			}
+		},
+		{
+			"from": [12, 0, -2],
+			"to": [16, 14, 18],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [8.83333, 0, 11.5, 9.33333], "rotation": 180, "texture": "#particle"},
+				"east": {"uv": [0, 0, 11.83334, 8.83334], "rotation": 180, "texture": "#particle"},
+				"south": {"uv": [0, 0, 2.66667, 9.33333], "rotation": 180, "texture": "#particle"},
+				"west": {"uv": [0, 0, 11.83334, 8.83333], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [6.66667, 0, 9.33333, 11.83334], "rotation": 180, "texture": "#particle"}
+			}
+		},
+		{
+			"from": [0, 0, -2],
+			"to": [4, 14, 18],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [11.5, 0, 8.83333, 9.33333], "rotation": 180, "texture": "#particle"},
+				"east": {"uv": [11.83334, 0, 0, 9.33333], "rotation": 180, "texture": "#particle"},
+				"south": {"uv": [2.66667, 0, 0, 9.33333], "rotation": 180, "texture": "#particle"},
+				"west": {"uv": [11.83334, 0, 0, 9.33333], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [8.33333, 0, 6.16667, 11.83334], "rotation": 180, "texture": "#particle"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [14, 25, 0],
+			"translation": [0, -0.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}
