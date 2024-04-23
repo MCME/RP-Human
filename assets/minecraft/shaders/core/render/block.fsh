@@ -27,7 +27,7 @@ flat in float customModelNormalShading;
 flat in float underShadowStrength;
 flat in float distanceDensity;
 
-#define USE_CUSTOM_MIP (false)
+#define USE_CUSTOM_MIP (true)
 #define MIP_DISTANCE_NEAR (25.0)
 #define MIP_DISTANCE_FAR (50.0)
 
@@ -58,15 +58,13 @@ void main() {
         float doubleMippedCoordY = isMippedEvenY ? mippedCoordY : mippedCoordY - (2 / atlasSize.y);
         
         //--------------------------------------------------------------------------------
-
-
-        color = vertexDistance < MIP_DISTANCE_NEAR ? texture(Sampler0, texCoord) : 
-                    vertexDistance < MIP_DISTANCE_FAR  ? texture(Sampler0, vec2(mippedCoordX,mippedCoordY)) : 
-                                                        texture(Sampler0, vec2(doubleMippedCoordX,doubleMippedCoordY));
+        color = vertexDistance > MIP_DISTANCE_FAR ? texture(Sampler0, vec2(doubleMippedCoordX,doubleMippedCoordY)) : 
+                    vertexDistance > MIP_DISTANCE_NEAR  ? texture(Sampler0, vec2(mippedCoordX,mippedCoordY)) : 
+                                                        texture(Sampler0, texCoord);
     } else {
         color = texture(Sampler0, texCoord);
     }
-
+	if (color.a > 0.8) color = texture(Sampler0, texCoord);
 
     //color = vec4(mippedCoordX,mippedCoordX,mippedCoordX,1.0);
     //fragColor = color;

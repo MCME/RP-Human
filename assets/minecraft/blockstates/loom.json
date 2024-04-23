@@ -1,0 +1,32 @@
+{
+  "variants": {
+    "facing=east": [
+	{ "model": "minecraft:block/loom" },
+	{ "model": "minecraft:block/loom_2" },
+	{ "model": "minecraft:block/loom_4" },
+	{ "model": "minecraft:block/loom_6" },
+	{ "model": "minecraft:block/loom_8" }
+	],
+    "facing=north": [
+	{ "model": "minecraft:block/loom_1" },
+	{ "model": "minecraft:block/loom_3" },
+	{ "model": "minecraft:block/loom_5" },
+	{ "model": "minecraft:block/loom_7" },
+	{ "model": "minecraft:block/loom_9" }
+	],
+    "facing=south": [
+	{ "model": "minecraft:block/loom", "y":90 },
+	{ "model": "minecraft:block/loom_2", "y":90  },
+	{ "model": "minecraft:block/loom_4", "y":90  },
+	{ "model": "minecraft:block/loom_6", "y":90  },
+	{ "model": "minecraft:block/loom_8", "y":90  }
+	],
+    "facing=west": [
+	{ "model": "minecraft:block/loom_1", "y":90 },
+	{ "model": "minecraft:block/loom_3", "y":90  },
+	{ "model": "minecraft:block/loom_5", "y":90  },
+	{ "model": "minecraft:block/loom_7", "y":90  },
+	{ "model": "minecraft:block/loom_9", "y":90  }
+	]
+  }
+}

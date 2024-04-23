@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 96],
+	"textures": {
+		"1": "mcme:block/poplar_log_composite"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 16, 14],
+			"faces": {
+				"north": {"uv": [5.04167, 0.16667, 6.54167, 2.83334], "texture": "#1"},
+				"east": {"uv": [5.38334, 8.66667, 6.88334, 11.33334], "texture": "#1"},
+				"south": {"uv": [5.41667, 3.16667, 6.91667, 5.83334], "texture": "#1"},
+				"west": {"uv": [5.25, 11.16667, 6.75, 13.83334], "texture": "#1"},
+				"up": {"uv": [5.08334, 13.5, 6.58334, 15.5], "texture": "#1"},
+				"down": {"uv": [5.25, 0.83334, 6.75, 2.83334], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "bone",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0]
+		}
+	]
+}

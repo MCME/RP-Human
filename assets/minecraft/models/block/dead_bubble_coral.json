@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/3x3vegetation_tintless_1",
+	"textures": {
+		"0": "block/dead_bubble_coral",
+		"1": "block/dead_bubble_coral_1",
+		"2": "block/dead_bubble_coral_top",
+		"3": "block/dead_bubble_coral_1_top"
+	},
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, 1.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"flip_v": true,
+	"model": "mcme:models/block/big_fern_3.obj"
+}

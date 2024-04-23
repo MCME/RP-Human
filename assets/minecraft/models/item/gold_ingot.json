@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/gold_ingot"
+  },
+  "overrides": [
+	{
+	  "predicate": {
+	    "custom_model_data": 1
+	  },
+	  "model": "minecraft:item/trophies/gold_medal_2021"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 2
+	  },
+	  "model": "minecraft:item/trophies/silver_medal_2021"
+	},
+	{
+	  "predicate": {
+	    "custom_model_data": 3
+	  },
+	  "model": "minecraft:item/trophies/bronze_medal_2021"
+	}
+  ]
+    
+}

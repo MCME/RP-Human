@@ -59,11 +59,9 @@ void main() {
         float doubleMippedCoordY = isMippedEvenY ? mippedCoordY : mippedCoordY - (2 / atlasSize.y);
         
         //--------------------------------------------------------------------------------
-
-
-        color = vertexDistance < MIP_DISTANCE_NEAR ? texture(Sampler0, texCoord) : 
-                    vertexDistance < MIP_DISTANCE_FAR  ? texture(Sampler0, vec2(mippedCoordX,mippedCoordY)) : 
-                                                        texture(Sampler0, vec2(doubleMippedCoordX,doubleMippedCoordY));
+        color = vertexDistance > MIP_DISTANCE_FAR ? texture(Sampler0, vec2(doubleMippedCoordX,doubleMippedCoordY)) : 
+                    vertexDistance > MIP_DISTANCE_NEAR  ? texture(Sampler0, vec2(mippedCoordX,mippedCoordY)) : 
+                                                        texture(Sampler0, texCoord);
     } else {
         color = texture(Sampler0, texCoord);
     }

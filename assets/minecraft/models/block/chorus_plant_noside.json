@@ -1,0 +1,27 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "texture": "block/stripped_oak_log",
+    "inside": "block/stripped_oak_log",
+    "particle": "block/stripped_oak_log"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        4,
+        4
+      ],
+      "to": [
+        12,
+        12,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#inside"
+        }
+      }
+    }
+  ]
+}

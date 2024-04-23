@@ -1,0 +1,213 @@
+{
+    "variants": {
+		"instrument=harp,note=0,powered=false,": { "model":"block/marker_accepted" },
+		"instrument=harp,note=1,powered=false,": { "model":"block/marker_declined" },
+		"instrument=harp,note=2,powered=false,": { "model":"block/marker_finished" },
+		"instrument=harp,note=3,powered=false,": { "model":"block/marker_wip" },
+		"instrument=harp,note=4,powered=false,": { "model":"block/marker_comment" },
+		"instrument=harp,note=5,powered=false,": { "model":"block/marker_info" },
+		"instrument=basedrum,note=0,powered=false,": [
+			{ "model":"block/note_block_1" },
+			{ "model":"block/note_block_2", "y":-90 },
+			{ "model":"block/note_block_3", "y":-180 },
+			{ "model":"block/note_block_4", "y":180 },
+			{ "model":"block/note_block_5" },
+			{ "model":"block/note_block_6" }
+			],
+		"instrument=basedrum,note=1,powered=false,": [
+			{ "model":"block/note_block_1", "y":90 },
+			{ "model":"block/note_block_2" },
+			{ "model":"block/note_block_3", "y":-90 },
+			{ "model":"block/note_block_4", "y":270 },
+			{ "model":"block/note_block_5", "y":90  },
+			{ "model":"block/note_block_6", "y":90  }
+			],
+		"instrument=basedrum,note=2,powered=false,": [
+			{ "model":"block/note_block_1", "y":180 },
+			{ "model":"block/note_block_2", "y":90 },
+			{ "model":"block/note_block_3" },
+			{ "model":"block/note_block_4" },
+			{ "model":"block/note_block_5", "y":180  },
+			{ "model":"block/note_block_6", "y":180  }
+			],
+		"instrument=basedrum,note=3,powered=false,": [
+			{ "model":"block/note_block_1", "y":270 },
+			{ "model":"block/note_block_2", "y":180 },
+			{ "model":"block/note_block_3", "y":90 },
+			{ "model":"block/note_block_4", "y":90 },
+			{ "model":"block/note_block_5", "y":270 },
+			{ "model":"block/note_block_6", "y":270 }
+			],
+		"instrument=basedrum,note=4,powered=false,": [
+			{ "model":"block/note_block_7" },
+			{ "model":"block/note_block_8", "y":-90 },
+			{ "model":"block/note_block_9", "y":-180 },
+			{ "model":"block/note_block_10", "y":180 },
+			{ "model":"block/note_block_11" },
+			{ "model":"block/note_block_12" }
+			],
+		"instrument=basedrum,note=5,powered=false,": [
+			{ "model":"block/note_block_7", "y":90 },
+			{ "model":"block/note_block_8" },
+			{ "model":"block/note_block_9", "y":-90 },
+			{ "model":"block/note_block_10", "y":270 },
+			{ "model":"block/note_block_11", "y":90  },
+			{ "model":"block/note_block_12", "y":90  }
+			],
+		"instrument=basedrum,note=6,powered=false,": [
+			{ "model":"block/note_block_7", "y":180 },
+			{ "model":"block/note_block_8", "y":90 },
+			{ "model":"block/note_block_9" },
+			{ "model":"block/note_block_10" },
+			{ "model":"block/note_block_11", "y":180  },
+			{ "model":"block/note_block_12", "y":180  }
+			],
+		"instrument=basedrum,note=7,powered=false,": [
+			{ "model":"block/note_block_7", "y":270 },
+			{ "model":"block/note_block_8", "y":180 },
+			{ "model":"block/note_block_9", "y":90 },
+			{ "model":"block/note_block_10", "y":90 },
+			{ "model":"block/note_block_11", "y":270 },
+			{ "model":"block/note_block_12", "y":270 }
+			],
+		"instrument=basedrum,note=8,powered=false,": [
+			{ "model":"block/note_block_13" },
+			{ "model":"block/note_block_14", "y":-90 },
+			{ "model":"block/note_block_15", "y":-180 },
+			{ "model":"block/note_block_16", "y":180 },
+			{ "model":"block/note_block_17" },
+			{ "model":"block/note_block_18" }
+			],
+		"instrument=basedrum,note=9,powered=false,": [
+			{ "model":"block/note_block_13", "y":90 },
+			{ "model":"block/note_block_14" },
+			{ "model":"block/note_block_15", "y":-90 },
+			{ "model":"block/note_block_16", "y":270 },
+			{ "model":"block/note_block_17", "y":90  },
+			{ "model":"block/note_block_18", "y":90  }
+			],
+		"instrument=basedrum,note=10,powered=false,": [
+			{ "model":"block/note_block_13", "y":180 },
+			{ "model":"block/note_block_14", "y":90 },
+			{ "model":"block/note_block_15" },
+			{ "model":"block/note_block_16" },
+			{ "model":"block/note_block_17", "y":180  },
+			{ "model":"block/note_block_18", "y":180  }
+			],
+		"instrument=basedrum,note=11,powered=false,": [
+			{ "model":"block/note_block_13", "y":270 },
+			{ "model":"block/note_block_14", "y":180 },
+			{ "model":"block/note_block_15", "y":90 },
+			{ "model":"block/note_block_16", "y":90 },
+			{ "model":"block/note_block_17", "y":270 },
+			{ "model":"block/note_block_18", "y":270 }
+			],
+		"instrument=basedrum,note=12,powered=false,": [
+			{ "model":"block/note_block_19" },
+			{ "model":"block/note_block_20", "y":-90 },
+			{ "model":"block/note_block_21", "y":-180 },
+			{ "model":"block/note_block_22", "y":180 },
+			{ "model":"block/note_block_23" },
+			{ "model":"block/note_block_24" }
+			],
+		"instrument=basedrum,note=13,powered=false,": [
+			{ "model":"block/note_block_19", "y":90 },
+			{ "model":"block/note_block_20" },
+			{ "model":"block/note_block_21", "y":-90 },
+			{ "model":"block/note_block_22", "y":270 },
+			{ "model":"block/note_block_23", "y":90  },
+			{ "model":"block/note_block_24", "y":90  }
+			],
+		"instrument=basedrum,note=14,powered=false,": [
+			{ "model":"block/note_block_19", "y":180 },
+			{ "model":"block/note_block_20", "y":90 },
+			{ "model":"block/note_block_21" },
+			{ "model":"block/note_block_22" },
+			{ "model":"block/note_block_23", "y":180  },
+			{ "model":"block/note_block_24", "y":180  }
+			],
+		"instrument=basedrum,note=15,powered=false,": [
+			{ "model":"block/note_block_19", "y":270 },
+			{ "model":"block/note_block_20", "y":180 },
+			{ "model":"block/note_block_21", "y":90 },
+			{ "model":"block/note_block_22", "y":90 },
+			{ "model":"block/note_block_23", "y":270 },
+			{ "model":"block/note_block_24", "y":270 }
+			],
+		"instrument=snare,note=0,powered=false,": { "model":"block/note_block_snare_0" },
+		"instrument=snare,note=1,powered=false,": { "model":"block/note_block_snare_0", "y":90 },
+		"instrument=snare,note=2,powered=false,": { "model":"block/note_block_snare_0", "y":180 },
+		"instrument=snare,note=3,powered=false,": { "model":"block/note_block_snare_0", "y":270 },
+		"instrument=snare,note=4,powered=false,": { "model":"block/note_block_snare_1" },
+		"instrument=snare,note=5,powered=false,": { "model":"block/note_block_snare_1", "y":90 },
+		"instrument=snare,note=6,powered=false,": { "model":"block/note_block_snare_1", "y":180 },
+		"instrument=snare,note=7,powered=false,": { "model":"block/note_block_snare_1", "y":270 },
+		"instrument=snare,note=8,powered=false,": { "model":"block/note_block_snare_2" },
+		"instrument=snare,note=9,powered=false,": { "model":"block/note_block_snare_2", "y":90 },
+		"instrument=snare,note=10,powered=false,": { "model":"block/note_block_snare_2", "y":180 },
+		"instrument=snare,note=11,powered=false,": { "model":"block/note_block_snare_2", "y":270 },
+		"instrument=snare,note=12,powered=false,": { "model":"block/note_block_snare_3" },
+		"instrument=snare,note=13,powered=false,": { "model":"block/note_block_snare_4" },
+		"instrument=snare,note=14,powered=false,": { "model":"block/note_block_snare_4", "y":90 },
+		"instrument=snare,note=15,powered=false,": { "model":"block/note_block_snare_4", "y":180 },
+		"instrument=snare,note=16,powered=false,": { "model":"block/note_block_snare_4", "y":270 },
+		"instrument=snare,note=17,powered=false,": { "model":"block/note_block_snare_5" },
+		"instrument=snare,note=18,powered=false,": { "model":"block/note_block_snare_5", "y":90 },
+		"instrument=snare,note=19,powered=false,": { "model":"block/note_block_snare_5", "y":180 },
+		"instrument=snare,note=20,powered=false,": { "model":"block/note_block_snare_5", "y":270 },
+		"instrument=snare,note=21,powered=false,": { "model":"block/note_block_snare_6" },
+		"instrument=snare,note=22,powered=false,": { "model":"block/note_block_snare_6", "y":90 },
+		"instrument=snare,note=23,powered=false,": { "model":"block/note_block_snare_6", "y":180 },
+		"instrument=snare,note=24,powered=false,": { "model":"block/note_block_snare_6", "y":270 },
+		
+		"instrument=hat,note=0,powered=false,": { "model":"block/note_block_sticks" },
+		"instrument=hat,note=1,powered=false,": { "model":"block/note_block_sticks", "y":90 },
+		"instrument=hat,note=2,powered=false,": { "model":"block/note_block_sticks", "y":180 },
+		"instrument=hat,note=3,powered=false,": { "model":"block/note_block_sticks", "y":270 },
+		
+		"instrument=bass,note=0,powered=false,": { "model":"block/note_block_bass_0" },
+		"instrument=bass,note=1,powered=false,": { "model":"block/note_block_bass_0", "y":90 },
+		"instrument=bass,note=2,powered=false,": { "model":"block/note_block_bass_0", "y":180 },
+		"instrument=bass,note=3,powered=false,": { "model":"block/note_block_bass_0", "y":270 },
+		
+		"instrument=bass,note=4,powered=false,": { "model":"block/note_block_bass_1" },
+		"instrument=bass,note=5,powered=false,": { "model":"block/note_block_bass_1", "y":90 },
+		"instrument=bass,note=6,powered=false,": { "model":"block/note_block_bass_1", "y":180 },
+		"instrument=bass,note=7,powered=false,": { "model":"block/note_block_bass_1", "y":270 },
+		
+		"instrument=bass,note=8,powered=false,": { "model":"block/note_block_bass_2" },
+		"instrument=bass,note=9,powered=false,": { "model":"block/note_block_bass_2", "y":90 },
+		"instrument=bass,note=10,powered=false,": { "model":"block/note_block_bass_2", "y":180 },
+		"instrument=bass,note=11,powered=false,": { "model":"block/note_block_bass_2", "y":270 },
+		
+		"instrument=bass,note=12,powered=false,": { "model":"block/note_block_bass_3" },
+		"instrument=bass,note=13,powered=false,": { "model":"block/note_block_bass_3", "y":90 },
+		"instrument=bass,note=14,powered=false,": { "model":"block/note_block_bass_3", "y":180 },
+		"instrument=bass,note=15,powered=false,": { "model":"block/note_block_bass_3", "y":270 },
+		
+		"instrument=bass,note=16,powered=false,": { "model":"block/note_block_bass_4" },
+		"instrument=bass,note=17,powered=false,": { "model":"block/note_block_bass_4", "y":90 },
+		"instrument=bass,note=18,powered=false,": { "model":"block/note_block_bass_4", "y":180 },
+		"instrument=bass,note=19,powered=false,": { "model":"block/note_block_bass_4", "y":270 },
+		
+		"instrument=bass,note=20,powered=false,": { "model":"block/note_block_bass_5" },
+		"instrument=bass,note=21,powered=false,": { "model":"block/note_block_bass_5", "y":90 },
+		"instrument=bass,note=22,powered=false,": { "model":"block/note_block_bass_5", "y":180 },
+		"instrument=bass,note=23,powered=false,": { "model":"block/note_block_bass_5", "y":270 },
+		
+		"instrument=flute,note=0,powered=false,": { "model":"block/note_block_flute" },
+		"instrument=flute,note=1,powered=false,": { "model":"block/note_block_flute", "y":90 },
+		"instrument=flute,note=2,powered=false,": { "model":"block/note_block_flute", "y":180 },
+		"instrument=flute,note=3,powered=false,": { "model":"block/note_block_flute", "y":270 },
+		
+		"instrument=flute,note=4,powered=false,": { "model":"block/note_block_flute_2" },
+		"instrument=flute,note=5,powered=false,": { "model":"block/note_block_flute_2", "y":90 },
+		"instrument=flute,note=6,powered=false,": { "model":"block/note_block_flute_2", "y":180 },
+		"instrument=flute,note=7,powered=false,": { "model":"block/note_block_flute_2", "y":270 },
+		
+		"instrument=flute,note=8,powered=false,": { "model":"block/note_block_flute_3" },
+		"instrument=flute,note=9,powered=false,": { "model":"block/note_block_flute_3", "y":90 },
+		"instrument=flute,note=10,powered=false,": { "model":"block/note_block_flute_3", "y":180 },
+		"instrument=flute,note=11,powered=false,": { "model":"block/note_block_flute_3", "y":270 }
+    }
+}

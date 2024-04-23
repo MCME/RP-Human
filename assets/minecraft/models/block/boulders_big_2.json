@@ -1,0 +1,53 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [48, 48],
+	"textures": {
+		"particle": "#1"
+	},
+	"elements": [
+		{
+			"from": [-10, 14, -8],
+			"to": [32, 24, 22],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [-2, 22, 0]},
+			"faces": {
+				"north": {"uv": [2.66667, 0, 15.99933, 3.333], "texture": "#0", "cullface": "up"},
+				"east": {"uv": [6, 0, 16, 3.333], "texture": "#0", "cullface": "up"},
+				"south": {"uv": [0, 0, 13.33333, 3.33333], "texture": "#0", "cullface": "up"},
+				"west": {"uv": [0, 0, 10, 3.333], "texture": "#0", "cullface": "up"},
+				"up": {"uv": [0, 0, 13.99933, 10], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [1, 0, 14.333, 10], "texture": "#0", "cullface": "up"}
+			}
+		},
+		{
+			"from": [-13, 0, 7],
+			"to": [6, 17, 32],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [-4, 8, 15]},
+			"faces": {
+				"north": {"uv": [9.66667, 0, 15.99933, 5.66633], "texture": "#1", "cullface": "up"},
+				"east": {"uv": [0, 0, 8.33333, 5.66667], "texture": "#1", "cullface": "up"},
+				"south": {"uv": [0, 0, 6.33333, 5.66667], "texture": "#1", "cullface": "up"},
+				"west": {"uv": [7.66667, 0, 15.99933, 5.66633], "texture": "#1", "cullface": "up"},
+				"up": {"uv": [0, 0, 6.33333, 8.33333], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [4, 0, 10.333, 8.333], "texture": "#1", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, 0, -12],
+			"to": [21, 13, 19],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 4.33333], "texture": "#2", "cullface": "up"},
+				"east": {"uv": [5.66667, 0, 15.99933, 4.333], "texture": "#2", "cullface": "up"},
+				"south": {"uv": [0, 0, 7, 4.333], "texture": "#2", "cullface": "up"},
+				"west": {"uv": [0, 0, 10.33333, 4.33333], "texture": "#2", "cullface": "up"},
+				"up": {"uv": [9, 0, 16, 10.333], "texture": "#2", "cullface": "up"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.21, 0.21, 0.21]
+		}
+	}
+}
