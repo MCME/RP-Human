@@ -16,11 +16,18 @@
         "OR": [
           {
             "north": "true"
+          },
+          {
+            "north": "false",
+            "east": "false",
+            "south": "true",
+            "west": "false"
           }
         ]
       },
       "apply": {
-        "model": "block/oak_thin_trunk_horizontal"
+        "model": "block/tree_thin_oak_horizontal",
+        "uvlock": true
       }
     },
     {
@@ -28,11 +35,19 @@
         "OR": [
           {
             "east": "true"
+          },
+          {
+            "north": "false",
+            "east": "false",
+            "south": "false",
+            "west": "true"
           }
         ]
       },
       "apply": {
-        "model": "block/oak_thin_trunk_horizontal_2"
+        "model": "block/tree_thin_oak_horizontal",
+        "y": 90,
+        "uvlock": true
       }
     },
     {
@@ -40,11 +55,19 @@
         "OR": [
           {
             "south": "true"
+          },
+          {
+            "north": "true",
+            "east": "false",
+            "south": "false",
+            "west": "false"
           }
         ]
       },
       "apply": {
-        "model": "block/oak_thin_trunk_horizontal_3"
+        "model": "block/tree_thin_oak_horizontal",
+        "y": 180,
+        "uvlock": true
       }
     },
     {
@@ -52,11 +75,60 @@
         "OR": [
           {
             "west": "true"
+          },
+          {
+            "north": "false",
+            "east": "true",
+            "south": "false",
+            "west": "false"
           }
         ]
       },
       "apply": {
-        "model": "block/oak_thin_trunk_horizontal_4"
+        "model": "block/tree_thin_oak_horizontal",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "OR": [
+          {
+            "west": "true",
+            "east": "true"
+          },
+          {
+            "north": "true",
+            "south": "true"
+          },
+          {
+            "north": "false",
+            "east": "false",
+            "south": "false",
+            "west": "true"
+          },
+          {
+            "north": "false",
+            "east": "false",
+            "south": "true",
+            "west": "false"
+          },
+          {
+            "north": "false",
+            "east": "true",
+            "south": "false",
+            "west": "false"
+          },
+          {
+            "north": "true",
+            "east": "false",
+            "south": "false",
+            "west": "false"
+          }
+        ]
+      },
+      "apply": {
+        "model": "block/tree_thin_oak_center"
       }
     },
     {
@@ -78,7 +150,9 @@
         "west": "false"
       },
       "apply": {
-        "model": "block/tree_thin_oak_center_alt"
+        "model": "block/tree_thin_oak_center_alt",
+        "y": 90,
+        "uvlock": true
       }
     },
     {
@@ -89,7 +163,9 @@
         "west": "true"
       },
       "apply": {
-        "model": "block/tree_thin_oak_center_alt"
+        "model": "block/tree_thin_oak_center_alt",
+        "y": 180,
+        "uvlock": true
       }
     },
     {
@@ -100,7 +176,9 @@
         "west": "true"
       },
       "apply": {
-        "model": "block/tree_thin_oak_center_alt"
+        "model": "block/tree_thin_oak_center_alt",
+        "y": 270,
+        "uvlock": true
       }
     }
   ]
