@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "facing=south": [
+	{ "model": "minecraft:block/wall_mushrooms" },
+	{ "model": "minecraft:block/wall_mushrooms_2" },
+	{ "model": "minecraft:block/wall_mushrooms_3" }
+	],
+    "facing=west": [
+	{ "model": "minecraft:block/wall_mushrooms", "y": 90 },
+	{ "model": "minecraft:block/wall_mushrooms_2", "y": 90 },
+	{ "model": "minecraft:block/wall_mushrooms_3", "y": 90 }
+	],
+    "facing=north": [
+	{ "model": "minecraft:block/wall_mushrooms", "y": 180 },
+	{ "model": "minecraft:block/wall_mushrooms_2", "y": 180 },
+	{ "model": "minecraft:block/wall_mushrooms_3", "y": 180 }
+	],
+    "facing=east": [
+	{ "model": "minecraft:block/wall_mushrooms", "y": 270 },
+	{ "model": "minecraft:block/wall_mushrooms_2", "y": 270 },
+	{ "model": "minecraft:block/wall_mushrooms_3", "y": 270 }
+	]
+  }
+}

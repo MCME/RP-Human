@@ -1,0 +1,123 @@
+{
+  "variants": {
+    "facing=east,half=bottom,open=false,powered=false": [
+		{ "model": "mcme:block/beech_leaves_slab"},
+		{ "model": "mcme:block/beech_leaves_slab_1_2"},
+		{ "model": "mcme:block/beech_leaves_slab_1_3"},
+		{ "model": "mcme:block/beech_leaves_slab_1_4"}
+	],
+    "facing=east,half=bottom,open=true": {
+      "model": "minecraft:block/crimson_trapdoor_open",
+      "y": 90
+    },
+    "facing=east,half=top,open=false,powered=false": [
+		{ "model": "mcme:block/beech_leaves_slab_upper"},
+		{ "model": "mcme:block/beech_leaves_slab_upper_1_2"},
+		{ "model": "mcme:block/beech_leaves_slab_upper_1_3"},
+		{ "model": "mcme:block/beech_leaves_slab_upper_1_4"}
+	],
+    "facing=east,half=top,open=true": {
+      "model": "minecraft:block/crimson_trapdoor_open",
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=bottom,open=false,powered=false": [
+		{ "model": "mcme:block/oak_leaves_slab"},
+		{ "model": "mcme:block/oak_leaves_slab_1_2"},
+		{ "model": "mcme:block/oak_leaves_slab_1_3"},
+		{ "model": "mcme:block/oak_leaves_slab_1_4"}
+	],
+    "facing=north,half=bottom,open=true": {
+      "model": "minecraft:block/crimson_trapdoor_open"
+    },
+    "facing=north,half=top,open=false,powered=false": [
+		{ "model": "mcme:block/oak_leaves_slab_upper"},
+		{ "model": "mcme:block/oak_leaves_slab_upper_1_2"},
+		{ "model": "mcme:block/oak_leaves_slab_upper_1_3"},
+		{ "model": "mcme:block/oak_leaves_slab_upper_1_4"}
+	],
+    "facing=north,half=top,open=true": {
+      "model": "minecraft:block/crimson_trapdoor_open",
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=bottom,open=false,powered=false": [
+		{ "model": "mcme:block/maple_leaves_slab"},
+		{ "model": "mcme:block/maple_leaves_slab_1_2"},
+		{ "model": "mcme:block/maple_leaves_slab_1_3"},
+		{ "model": "mcme:block/maple_leaves_slab_1_4"}
+	],
+    "facing=south,half=bottom,open=true": {
+      "model": "minecraft:block/crimson_trapdoor_open",
+      "y": 180
+    },
+    "facing=south,half=top,open=false,powered=false": [
+		{ "model": "mcme:block/maple_leaves_slab_upper"},
+		{ "model": "mcme:block/maple_leaves_slab_upper_1_2"},
+		{ "model": "mcme:block/maple_leaves_slab_upper_1_3"},
+		{ "model": "mcme:block/maple_leaves_slab_upper_1_4"}
+	],
+    "facing=south,half=top,open=true": {
+      "model": "minecraft:block/crimson_trapdoor_open",
+      "x": 180,
+      "y": 0
+    },
+    "facing=west,half=bottom,open=false": [
+	{ "model": "mcme:block/pine_leaves_slab"},
+	{ "model": "mcme:block/pine_leaves_slab_1_2"},
+	{ "model": "mcme:block/pine_leaves_slab_1_3"},
+	{ "model": "mcme:block/pine_leaves_slab_1_4"}
+	  ],
+    "facing=west,half=bottom,open=true": {
+      "model": "minecraft:block/crimson_trapdoor_open",
+      "y": 270
+    },
+    "facing=west,half=top,open=false": [
+	{ "model": "mcme:block/pine_leaves_slab_upper"},
+	{ "model": "mcme:block/pine_leaves_slab_upper_1_2"},
+	{ "model": "mcme:block/pine_leaves_slab_upper_1_3"},
+	{ "model": "mcme:block/pine_leaves_slab_upper_1_4"}
+	  ],
+    "facing=west,half=top,open=true": {
+      "model": "minecraft:block/crimson_trapdoor_open",
+      "x": 180,
+      "y": 90
+    },
+    "facing=north,half=bottom,open=false,powered=true": [
+	{ "model": "mcme:block/chestnut_leaves_slab" },
+	{ "model": "mcme:block/chestnut_leaves_slab_1_2" },
+	{ "model": "mcme:block/chestnut_leaves_slab_1_3" },
+	{ "model": "mcme:block/chestnut_leaves_slab_1_4" }
+	],
+    "facing=north,half=top,open=false,powered=true": [
+	{ "model": "mcme:block/chestnut_leaves_slab_upper" },
+	{ "model": "mcme:block/chestnut_leaves_slab_upper_1_2" },
+	{ "model": "mcme:block/chestnut_leaves_slab_upper_1_3" },
+	{ "model": "mcme:block/chestnut_leaves_slab_upper_1_4" }
+	],
+    "facing=east,half=bottom,open=false,powered=true": [
+	{ "model": "mcme:block/ash_leaves_slab" },
+	{ "model": "mcme:block/ash_leaves_slab_1_2" },
+	{ "model": "mcme:block/ash_leaves_slab_1_3" },
+	{ "model": "mcme:block/ash_leaves_slab_1_4" }
+	],
+    "facing=east,half=top,open=false,powered=true": [
+	{ "model": "mcme:block/ash_leaves_slab_upper" },
+	{ "model": "mcme:block/ash_leaves_slab_upper_1_2" },
+	{ "model": "mcme:block/ash_leaves_slab_upper_1_3" },
+	{ "model": "mcme:block/ash_leaves_slab_upper_1_4" }
+	],
+    "facing=south,half=bottom,open=false,powered=true": [
+	{ "model": "mcme:block/hornbeam_leaves_slab" },
+	{ "model": "mcme:block/hornbeam_leaves_slab_1_2" },
+	{ "model": "mcme:block/hornbeam_leaves_slab_1_3" },
+	{ "model": "mcme:block/hornbeam_leaves_slab_1_4" }
+	],
+    "facing=south,half=top,open=false,powered=true": [
+	{ "model": "mcme:block/hornbeam_leaves_slab_upper" },
+	{ "model": "mcme:block/hornbeam_leaves_slab_upper_1_2" },
+	{ "model": "mcme:block/hornbeam_leaves_slab_upper_1_3" },
+	{ "model": "mcme:block/hornbeam_leaves_slab_upper_1_4" }
+	]
+  }
+}

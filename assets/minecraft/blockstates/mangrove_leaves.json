@@ -1,0 +1,44 @@
+{
+  "variants": {
+	"distance=1,persistent=false": [
+	{ "model": "mcme:block/larch_leaves_slab" },
+	{ "model": "mcme:block/larch_leaves_slab_2" },
+	{ "model": "mcme:block/larch_leaves_slab_3" }
+	],
+	"distance=2,persistent=false": [
+	{  "model": "mcme:block/larch_leaves_slab_1_2" },
+	{  "model": "mcme:block/larch_leaves_slab_2_2" },
+	{  "model": "mcme:block/larch_leaves_slab_3_2" }
+	],
+	"distance=3,persistent=false": [
+	{  "model": "mcme:block/larch_leaves_slab_1_3" },
+	{  "model": "mcme:block/larch_leaves_slab_2_3" },
+	{  "model": "mcme:block/larch_leaves_slab_3_3" }
+	],
+	"distance=4,persistent=false": [
+	{  "model": "mcme:block/larch_leaves_slab_1_4" },
+	{  "model": "mcme:block/larch_leaves_slab_2_4" },
+	{  "model": "mcme:block/larch_leaves_slab_3_4" }
+	],
+	"distance=5,persistent=false": [
+	{  "model": "mcme:block/larch_leaves_slab_diagonal"},
+	{  "model": "mcme:block/larch_leaves_slab_diagonal_2"},
+	{  "model": "mcme:block/larch_leaves_slab_diagonal_3"}
+	],
+	"distance=6,persistent=false": [
+	{  "model": "mcme:block/larch_leaves_slab_diagonal_1_2"},
+	{  "model": "mcme:block/larch_leaves_slab_diagonal_2_2"},
+	{  "model": "mcme:block/larch_leaves_slab_diagonal_3_2"}
+	],
+	"distance=7,persistent=false": [
+	{  "model": "mcme:block/larch_leaves_slab_diagonal_1_3"},
+	{  "model": "mcme:block/larch_leaves_slab_diagonal_2_3"},
+	{  "model": "mcme:block/larch_leaves_slab_diagonal_3_3"}
+	],
+	"distance=1,persistent=true": [
+	{  "model": "mcme:block/larch_leaves_slab_diagonal_1_4"},
+	{  "model": "mcme:block/larch_leaves_slab_diagonal_2_4"},
+	{  "model": "mcme:block/larch_leaves_slab_diagonal_3_4"}
+	]
+  }
+}
