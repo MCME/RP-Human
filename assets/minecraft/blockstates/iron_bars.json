@@ -1,0 +1,62 @@
+{
+  "variants": {
+    "east\u003dfalse,north\u003dfalse,south\u003dfalse,west\u003dfalse": {
+      "model": "block/iron_bars_nsew"
+    },
+    "east\u003dfalse,north\u003dtrue,south\u003dfalse,west\u003dfalse": {
+      "model": "block/iron_bars_n"
+    },
+    "east\u003dtrue,north\u003dfalse,south\u003dfalse,west\u003dfalse": {
+      "model": "block/iron_bars_n",
+      "y": 90
+    },
+    "east\u003dfalse,north\u003dfalse,south\u003dtrue,west\u003dfalse": {
+      "model": "block/iron_bars_n",
+      "y": 180
+    },
+    "east\u003dfalse,north\u003dfalse,south\u003dfalse,west\u003dtrue": {
+      "model": "block/iron_bars_n",
+      "y": 270
+    },
+    "east\u003dtrue,north\u003dtrue,south\u003dfalse,west\u003dfalse": {
+      "model": "block/iron_bars_ne"
+    },
+    "east\u003dtrue,north\u003dfalse,south\u003dtrue,west\u003dfalse": {
+      "model": "block/iron_bars_ne",
+      "y": 90
+    },
+    "east\u003dfalse,north\u003dfalse,south\u003dtrue,west\u003dtrue": {
+      "model": "block/iron_bars_ne",
+      "y": 180
+    },
+    "east\u003dfalse,north\u003dtrue,south\u003dfalse,west\u003dtrue": {
+      "model": "block/iron_bars_ne",
+      "y": 270
+    },
+    "east\u003dfalse,north\u003dtrue,south\u003dtrue,west\u003dfalse": {
+      "model": "block/iron_bars_ns"
+    },
+    "east\u003dtrue,north\u003dfalse,south\u003dfalse,west\u003dtrue": {
+      "model": "block/iron_bars_ns",
+      "y": 90
+    },
+    "east\u003dtrue,north\u003dtrue,south\u003dtrue,west\u003dfalse": {
+      "model": "block/iron_bars_nse"
+    },
+    "east\u003dtrue,north\u003dfalse,south\u003dtrue,west\u003dtrue": {
+      "model": "block/iron_bars_nse",
+      "y": 90
+    },
+    "east\u003dfalse,north\u003dtrue,south\u003dtrue,west\u003dtrue": {
+      "model": "block/iron_bars_nse",
+      "y": 180
+    },
+    "east\u003dtrue,north\u003dtrue,south\u003dfalse,west\u003dtrue": {
+      "model": "block/iron_bars_nse",
+      "y": 270
+    },
+    "east\u003dtrue,north\u003dtrue,south\u003dtrue,west\u003dtrue": {
+      "model": "block/iron_bars_nsew"
+    }
+  }
+}

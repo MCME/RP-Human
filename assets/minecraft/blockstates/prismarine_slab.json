@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "type=bottom": [
+            { "model": "block/prismarine_slab", "weight": 1 },
+            { "model": "block/prismarine_slab", "weight": 1, "y": 90 },
+            { "model": "block/prismarine_slab", "weight": 1, "y": 180 },
+            { "model": "block/prismarine_slab", "weight": 1, "y": 270 },
+			{ "model": "block/prismarine_slab_2", "weight": 1 },
+            { "model": "block/prismarine_slab_2", "weight": 1, "y": 90 },
+            { "model": "block/prismarine_slab_2", "weight": 1, "y": 180 },
+            { "model": "block/prismarine_slab_2", "weight": 1, "y": 270 },
+			{ "model": "block/prismarine_slab_3", "weight": 1 },
+            { "model": "block/prismarine_slab_3", "weight": 1, "y": 90 },
+            { "model": "block/prismarine_slab_3", "weight": 1, "y": 180 },
+            { "model": "block/prismarine_slab_3", "weight": 1, "y": 270 },
+			{ "model": "block/prismarine_slab_4", "weight": 2 },
+            { "model": "block/prismarine_slab_4", "weight": 2, "y": 90 },
+            { "model": "block/prismarine_slab_4", "weight": 2, "y": 180 },
+            { "model": "block/prismarine_slab_4", "weight": 2, "y": 270 }			
+    ],
+	"type=top": {"model": "itemblock/upper_slab_emerald_ore"}
+  }
+}

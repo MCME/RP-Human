@@ -1,0 +1,34 @@
+{
+	"multipart": [
+
+	{ "when":{
+		"waterlogged": "false", "facing": "north", "tilt": "none"},
+		"apply": [
+	{ "model": "block/big_dripleaf_nn" },
+	{ "model": "block/big_dripleaf_nn", "y": 90 },
+	{ "model": "block/big_dripleaf_nn", "y": 180 },
+	{ "model": "block/big_dripleaf_nn", "y": 270 },
+	{ "model": "block/big_dripleaf_nn_2" },
+	{ "model": "block/big_dripleaf_nn_2", "y": 90 },
+	{ "model": "block/big_dripleaf_nn_2", "y": 180 },
+	{ "model": "block/big_dripleaf_nn_2", "y": 270 },
+	{ "model": "block/big_dripleaf_nn_3" },
+	{ "model": "block/big_dripleaf_nn_3", "y": 90 },
+	{ "model": "block/big_dripleaf_nn_3", "y": 180 },
+	{ "model": "block/big_dripleaf_nn_3", "y": 270 }
+	] },
+	{ "when":{
+		"waterlogged": "false", "facing": "north", "tilt": "full"},
+		"apply": [
+	{ "model": "block/blue_throatwort" },
+	{ "model": "block/blue_throatwort", "y": 90 },
+	{ "model": "block/blue_throatwort", "y": 180 },
+	{ "model": "block/blue_throatwort", "y": 270 },
+	{ "model": "block/blue_throatwort_2" },
+	{ "model": "block/blue_throatwort_2", "y": 90 },
+	{ "model": "block/blue_throatwort_2", "y": 180 },
+	{ "model": "block/blue_throatwort_2", "y": 270 }
+	] }
+	
+]
+}

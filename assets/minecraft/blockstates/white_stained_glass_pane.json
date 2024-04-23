@@ -1,0 +1,49 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "north": true
+      },
+      "apply": {
+        "model": "block/placeholder"
+      }
+    },
+    {
+      "when": {
+        "east": true
+      },
+      "apply": {
+        "model": "block/placeholder",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": true
+      },
+      "apply": {
+        "model": "block/placeholder"
+      }
+    },
+    {
+      "when": {
+        "west": true
+      },
+      "apply": {
+        "model": "block/placeholder",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "north": false,
+        "east": false,
+        "south": false,
+        "west": false
+      },
+      "apply": {
+        "model": "block/placeholder"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/birch_bark_slab"
+    },
+    "type=double": [
+	{ "model": "minecraft:block/waxed_exposed_cut_copper" },
+	{ "model": "minecraft:block/waxed_exposed_cut_copper_2" },
+	{ "model": "minecraft:block/waxed_exposed_cut_copper_3" },
+	{ "model": "minecraft:block/waxed_exposed_cut_copper_4" }
+	],
+    "type=top": {
+      "model": "minecraft:block/birch_bark_slab", "x": 180
+    }
+  }
+}

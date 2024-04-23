@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing\u003dsouth,mode\u003dcompare,powered\u003dfalse": {
+      "model": "block/comparator_compare_s"
+    },
+    "facing\u003dwest,mode\u003dcompare,powered\u003dfalse": {
+      "model": "block/comparator_compare_w"
+    },
+    "facing\u003dnorth,mode\u003dcompare,powered\u003dfalse": {
+      "model": "block/comparator_compare_n"
+    },
+    "facing\u003deast,mode\u003dcompare,powered\u003dfalse": {
+      "model": "block/comparator_compare_e"
+    },
+    "facing\u003dsouth,mode\u003dsubtract,powered\u003dfalse": {
+      "model": "block/comparator_subtract_s"
+    },
+    "facing\u003dwest,mode\u003dsubtract,powered\u003dfalse": {
+      "model": "block/comparator_subtract_w"
+    },
+    "facing\u003dnorth,mode\u003dsubtract,powered\u003dfalse": {
+      "model": "block/comparator_subtract_n"
+    },
+    "facing\u003deast,mode\u003dsubtract,powered\u003dfalse": {
+      "model": "block/comparator_subtract_e"
+    },
+    "facing\u003dsouth,mode\u003dcompare,powered\u003dtrue": {
+      "model": "block/comparator_powered_compare_s"
+    },
+    "facing\u003dwest,mode\u003dcompare,powered\u003dtrue": {
+      "model": "block/comparator_powered_compare_w"
+    },
+    "facing\u003dnorth,mode\u003dcompare,powered\u003dtrue": {
+      "model": "block/comparator_powered_compare_n"
+    },
+    "facing\u003deast,mode\u003dcompare,powered\u003dtrue": {
+      "model": "block/comparator_powered_compare_e"
+    },
+    "facing\u003dsouth,mode\u003dsubtract,powered\u003dtrue": {
+      "model": "block/comparator_powered_subtract_s"
+    },
+    "facing\u003dwest,mode\u003dsubtract,powered\u003dtrue": {
+      "model": "block/comparator_powered_subtract_w"
+    },
+    "facing\u003dnorth,mode\u003dsubtract,powered\u003dtrue": {
+      "model": "block/comparator_powered_subtract_n"
+    },
+    "facing\u003deast,mode\u003dsubtract,powered\u003dtrue": {
+      "model": "block/comparator_powered_subtract_e"
+    }
+  }
+}

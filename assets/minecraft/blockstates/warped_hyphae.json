@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "minecraft:block/warped_hyphae",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": [
+		{ "model": "minecraft:block/mossy_pine" },
+		{ "model": "minecraft:block/mossy_pine_2" },
+		{ "model": "minecraft:block/mossy_pine_3" },
+		{ "model": "minecraft:block/mossy_pine_4" },
+		{ "model": "minecraft:block/mossy_pine_5" },
+		{ "model": "minecraft:block/mossy_pine_6" },
+		{ "model": "minecraft:block/mossy_pine_7" }
+	  ],
+    "axis=z": {
+      "model": "minecraft:block/warped_hyphae",
+      "x": 90
+    }
+  }
+}

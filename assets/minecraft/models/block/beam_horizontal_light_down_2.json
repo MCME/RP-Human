@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/beam_light_2",
+		"1": "block/beam_light_top_2",
+		"particle": "block/beam_light_2"
+	},
+	"elements": [
+		{
+			"from": [-3.015, -3.01, -0.005],
+			"to": [2.985, 2.99, 16.005],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [9, 0, 15, 6], "texture": "#1"},
+				"east": {"uv": [2, 0, 8, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9, 8, 15, 14], "texture": "#1"},
+				"west": {"uv": [2, 0, 8, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 0, 6, 15.98], "texture": "#0"},
+				"down": {"uv": [0, 0, 6, 15.98], "texture": "#0"}
+			}
+		}
+	]
+}

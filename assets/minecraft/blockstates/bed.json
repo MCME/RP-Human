@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing\u003dnorth,part\u003dfoot": {
+      "model": "block/bed_green_foot",
+      "y": 180
+    },
+    "facing\u003deast,part\u003dfoot": {
+      "model": "block/bed_green_foot",
+      "y": 270
+    },
+    "facing\u003dsouth,part\u003dfoot": {
+      "model": "block/bed_green_foot"
+    },
+    "facing\u003dwest,part\u003dfoot": {
+      "model": "block/bed_green_foot",
+      "y": 90
+    },
+    "facing\u003dnorth,part\u003dhead": {
+      "model": "block/bed_green_head",
+      "y": 180
+    },
+    "facing\u003deast,part\u003dhead": {
+      "model": "block/bed_green_head",
+      "y": 270
+    },
+    "facing\u003dsouth,part\u003dhead": {
+      "model": "block/bed_green_head"
+    },
+    "facing\u003dwest,part\u003dhead": {
+      "model": "block/bed_green_head",
+      "y": 90
+    }
+  }
+}
