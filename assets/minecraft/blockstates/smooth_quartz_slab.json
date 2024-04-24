@@ -1,0 +1,33 @@
+{
+    "variants": {
+        "type=top": { "model": "itemblock/upper_slab_double_slab_quartz_seamless" },
+        "type=double": [
+			{ "model": "block/smooth_quartz" },
+			{ "model": "block/smooth_quartz_2" },
+			{ "model": "block/smooth_quartz_3" },
+			{ "model": "block/smooth_quartz_4" }
+			],
+		"type=bottom": [
+			{ "model": "block/smooth_quartz_slab", "weight": 4 },
+			{ "model": "block/smooth_quartz_slab", "y": 90, "weight": 4 },
+			{ "model": "block/smooth_quartz_slab", "y": 180, "weight": 4 },
+			{ "model": "block/smooth_quartz_slab", "y": 270, "weight": 4 },
+			{ "model": "block/smooth_quartz_slab_2", "weight": 4 },
+			{ "model": "block/smooth_quartz_slab_2", "y": 90, "weight": 4 },
+			{ "model": "block/smooth_quartz_slab_2", "y": 180, "weight": 4 },
+			{ "model": "block/smooth_quartz_slab_2", "y": 270, "weight": 4 },
+			{ "model": "block/smooth_quartz_slab_3" },
+			{ "model": "block/smooth_quartz_slab_3", "y": 90 },
+			{ "model": "block/smooth_quartz_slab_3", "y": 180 },
+			{ "model": "block/smooth_quartz_slab_3", "y": 270 },
+			{ "model": "block/smooth_quartz_slab_4" },
+			{ "model": "block/smooth_quartz_slab_4", "y": 90 },
+			{ "model": "block/smooth_quartz_slab_4", "y": 180 },
+			{ "model": "block/smooth_quartz_slab_4", "y": 270},
+			{ "model": "block/smooth_quartz_slab_5" },
+			{ "model": "block/smooth_quartz_slab_5", "y": 90 },
+			{ "model": "block/smooth_quartz_slab_5", "y": 180 },
+			{ "model": "block/smooth_quartz_slab_5", "y": 270 }
+		]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "type=bottom": [
+						{ "model": "block/prismarine_brick_slab" },
+						{ "model": "block/prismarine_brick_slab_2" },
+						{ "model": "block/prismarine_brick_slab_3" },
+						{ "model": "block/prismarine_brick_slab_4" },
+						{ "model": "block/prismarine_brick_slab_5" },
+						{ "model": "block/prismarine_brick_slab_6" }
+						],
+        "type=top": { "model": "itemblock/upper_slab_double_slab_planks_acacia" },
+        "type=double": [
+						{ "model": "block/prismarine_brick_double_slab" },
+						{ "model": "block/prismarine_brick_double_slab_2" },
+						{ "model": "block/prismarine_brick_double_slab_3" },
+						{ "model": "block/prismarine_brick_double_slab_4" }
+						]
+    }
+}

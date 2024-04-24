@@ -1,0 +1,28 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "block/invisible",
+    "bottom": "block/invisible",
+    "top": "block/invisible",
+    "side": "block/invisible"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        0.1,
+        7
+      ],
+      "to": [
+        9,
+        0.2,
+        9
+      ],
+      "faces": {
+        "up": {
+          "texture": "#top"
+        }
+      }
+    }
+  ]
+}

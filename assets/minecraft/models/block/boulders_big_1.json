@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [48, 48],
+	"textures": {
+		"particle": "#1"
+	},
+	"elements": [
+		{
+			"from": [-3, 0, -2],
+			"to": [17, 32, 18],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [5, 8, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 6.66633, 10.66633], "texture": "#0", "cullface": "up"},
+				"east": {"uv": [3.333, 0, 9.99933, 10.66633], "texture": "#0", "cullface": "up"},
+				"south": {"uv": [9.333, 0, 15.99933, 10.66633], "texture": "#0", "cullface": "up"},
+				"west": {"uv": [4, 0, 10.66633, 10.66633], "texture": "#0", "cullface": "up"},
+				"up": {"uv": [4.333, 0, 10.99933, 6.66633], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [9.333, 0, 15.99933, 6.66633], "texture": "#0", "cullface": "up"}
+			}
+		},
+		{
+			"from": [2, -3, -12],
+			"to": [20, 17, 13],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [11, 7, 0.5]},
+			"faces": {
+				"north": {"uv": [4.66667, 0, 10.66667, 6.66633], "texture": "#1", "cullface": "up"},
+				"east": {"uv": [7.66667, 0, 15.99933, 6.66633], "texture": "#1", "cullface": "up"},
+				"south": {"uv": [10, 0, 16, 6.66633], "texture": "#1", "cullface": "up"},
+				"west": {"uv": [0, 0, 8.33333, 6.66667], "texture": "#1", "cullface": "up"},
+				"up": {"uv": [5, 7.66667, 11, 15.99933], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [4.333, 7.66667, 10.333, 15.99933], "texture": "#1", "cullface": "up"}
+			}
+		},
+		{
+			"from": [-1, 0, 7],
+			"to": [19, 29, 22],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7, 8, 15]},
+			"faces": {
+				"north": {"uv": [0, 0, 6.66667, 9.66667], "texture": "#2", "cullface": "up"},
+				"east": {"uv": [0, 0, 5, 9.66667], "texture": "#2", "cullface": "up"},
+				"south": {"uv": [9.333, 0, 15.99933, 9.66633], "texture": "#2", "cullface": "up"},
+				"west": {"uv": [11, 0, 16, 9.66633], "texture": "#2", "cullface": "up"},
+				"up": {"uv": [9.333, 0, 15.99933, 5], "texture": "#2", "cullface": "up"},
+				"down": {"uv": [9.333, 0, 15.99933, 5], "texture": "#2", "cullface": "up"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.21, 0.21, 0.21]
+		}
+	}
+}

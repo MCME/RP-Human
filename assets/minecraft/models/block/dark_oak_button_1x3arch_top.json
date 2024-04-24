@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [48, 48],
+	"textures": {
+		"1": "block/stone_bricks_comp",
+		"particle": "block/stone_bricks_comp"
+	},
+	"elements": [
+		{
+			"from": [-2, 15.5, 3.225],
+			"to": [18, 24.5, 12.75],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 20, 7.9875]},
+			"faces": {
+				"north": {"uv": [9.33333, 3, 16, 0], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [11, 2.66667, 14, 6], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [9.33333, 0, 16, 3], "texture": "#1"},
+				"west": {"uv": [14, 3, 11, 6.33333], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [0, 0, 3.33333, 6.66667], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [3.175, 0, 0, 6.66667], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [34, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [34, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, -6, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+}

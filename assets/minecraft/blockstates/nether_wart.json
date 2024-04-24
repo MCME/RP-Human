@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "age\u003d0": [
+	{ "model": "block/cabbage" },
+	{ "model": "block/cabbage", "y": 90 },
+	{ "model": "block/cabbage", "y": 180 },
+	{ "model": "block/cabbage", "y": 270 },
+	{ "model": "block/cabbage2" },
+	{ "model": "block/cabbage2", "y": 90 },
+	{ "model": "block/cabbage2", "y": 180 },
+	{ "model": "block/cabbage2", "y": 270 },
+	{ "model": "block/cabbage3" },
+	{ "model": "block/cabbage3", "y": 90 },
+	{ "model": "block/cabbage3", "y": 180 },
+	{ "model": "block/cabbage3", "y": 270 }
+	],
+    "age\u003d1": [ 
+	{ "model": "block/nether_wart_stage1"},
+	{ "model": "block/nether_wart_stage1_2"},
+	{ "model": "block/nether_wart_stage1_3"},
+	{ "model": "block/nether_wart_stage1_4"},
+	{ "model": "block/nether_wart_stage1_5"},
+	{ "model": "block/nether_wart_stage1_6"},
+	{ "model": "block/nether_wart_stage1_7"},
+	{ "model": "block/nether_wart_stage1_8"},
+	{ "model": "block/nether_wart_stage1_9"}
+	],
+    "age\u003d2": {
+      "model": "block/nether_wart_stage2"
+    },
+    "age\u003d3": [
+		{"model": "block/nether_wart_stage3" },
+		{"model": "block/nether_wart_stage3", "y": 90 },
+		{"model": "block/nether_wart_stage3", "y": 180 },
+		{"model": "block/nether_wart_stage3", "y": 270 },
+		{"model": "block/nether_wart_stage3_1" },
+		{"model": "block/nether_wart_stage3_1", "y": 90 },
+		{"model": "block/nether_wart_stage3_1", "y": 180 },
+		{"model": "block/nether_wart_stage3_1", "y": 270 },
+		{"model": "block/nether_wart_stage3_1" },
+		{"model": "block/nether_wart_stage3_2", "y": 90 },
+		{"model": "block/nether_wart_stage3_2", "y": 180 },
+		{"model": "block/nether_wart_stage3_2", "y": 270 },
+		{"model": "block/nether_wart_stage3_3" },
+		{"model": "block/nether_wart_stage3_3", "y": 90 },
+		{"model": "block/nether_wart_stage3_3", "y": 180 },
+		{"model": "block/nether_wart_stage3_3", "y": 270 }
+	]
+  }
+}

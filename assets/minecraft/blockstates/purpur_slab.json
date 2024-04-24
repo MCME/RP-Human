@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "type=bottom,waterlogged=false": [
+						{ "model": "block/purpur_slab" },
+						{ "model": "block/purpur_slab_2" },
+						{ "model": "block/purpur_slab_3" },
+						{ "model": "block/purpur_slab_4" },
+						{ "model": "block/purpur_slab_5" }
+						],
+		"type=bottom,waterlogged=true": { "model": "block/comparator_powered_compare_w" },
+        "type=top": [
+						{ "model": "block/purpur_slab_top" },
+						{ "model": "block/purpur_slab_top_2" },
+						{ "model": "block/purpur_slab_top_3" },
+						{ "model": "block/purpur_slab_top_4" },
+						{ "model": "block/purpur_slab_top_5" }
+						],
+        "type=double": { "model": "block/double_slab_purpur" }
+    }
+}
