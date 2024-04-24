@@ -2,7 +2,8 @@
 	"credit": "model_generated_using_mrcrayfish's_model_creator_(http://mrcrayfish.com/modelcreator/)",
 	"textures": {
 		"2": "block/stripped_oak_log",
-		"3": "block/target15_3"
+		"3": "block/target15_3",
+		"particle": "block/target15_3"
 	},
 	"elements": [
 		{
@@ -55,5 +56,27 @@
 				"down": {"uv": [1, 5, 15, 6], "texture": "#3"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, -3.75],
+			"scale": [0.58, 0.51, 0.54]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, -3.75],
+			"scale": [0.49, 0.49, 0.51]
+		},
+		"firstperson_righthand": {
+			"scale": [0.55, 0.56, 0.55]
+		},
+		"firstperson_lefthand": {
+			"translation": [2.75, 0, 0],
+			"scale": [0.55, 0.53, 0.53]
+		},
+		"gui": {
+			"rotation": [-23, 150, 9],
+			"translation": [-2.5, 1.5, 0],
+			"scale": [0.75, 0.78, 0.8]
+		}
+	}
 }

@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "block/thatch_basket_2",
-		"2": "#0",
+		"2": "",
 		"particle": "block/thatch_basket_2"
 	},
 	"elements": [
@@ -77,6 +77,30 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.61, 0.61, 0.62]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.54, 0.54, 0.54]
+		},
+		"firstperson_righthand": {
+			"translation": [6, 0, 0],
+			"scale": [0.54, 0.54, 0.54]
+		},
+		"firstperson_lefthand": {
+			"translation": [4.75, 0, 0],
+			"scale": [0.6, 0.63, 0.63]
+		},
+		"gui": {
+			"rotation": [31, 0, 0],
+			"translation": [0, 1.75, 0],
+			"scale": [0.68, 0.67, 0.66]
+		},
+		"head": {
+			"translation": [0, 10.5, 0]
+		}
+	},
 	"groups": [
 		{
 			"name": "group",

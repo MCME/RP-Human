@@ -17,5 +17,25 @@
 				"down": {"uv": [5, 0, 13, 8], "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.63, 0.6, 0.63]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.63, 0.6, 0.62]
+		},
+		"firstperson_righthand": {
+			"translation": [4.75, 0, 0],
+			"scale": [0.52, 0.52, 0.52]
+		},
+		"firstperson_lefthand": {
+			"translation": [2.75, 0, 0],
+			"scale": [0.56, 0.57, 0.56]
+		},
+		"gui": {
+			"rotation": [13, 21, 0],
+			"scale": [0.8, 0.78, 0.78]
+		}
+	}
 }
