@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"5": "block/pot_lids"
+		"5": "block/pot_lids",
+		"particle": "block/pot_lids"
 	},
 	"elements": [
 		{
@@ -49,7 +50,25 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 10.75, 0]
+			"translation": [1.5, 2.25, 1.25],
+			"scale": [0.6, 0.58, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-2, 1.5, 1.5],
+			"scale": [0.68, 0.66, 0.68]
+		},
+		"firstperson_righthand": {
+			"translation": [6.5, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [3.75, 0, 0]
+		},
+		"gui": {
+			"rotation": [23, 0, 0],
+			"translation": [2.75, 0, 0]
+		},
+		"head": {
+			"translation": [3.75, 4.5, 5]
 		}
 	},
 	"groups": [
