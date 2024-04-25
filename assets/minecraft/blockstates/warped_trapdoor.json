@@ -20,6 +20,22 @@
 	  {"model": "mcme:block/birch_leaves_slab_upper_2"},
 	  {"model": "mcme:block/birch_leaves_slab_upper_3"}
 	  ],
+	  "facing=south,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/hanging_spears"},
+	  {"model": "minecraft:block/hanging_spears_2"}
+	  ],
+    "facing=east,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/hanging_spears", "y":270},
+	  {"model": "minecraft:block/hanging_spears_2", "y":270}
+	  ],
+    "facing=north,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/hanging_spears", "y":180},
+	  {"model": "minecraft:block/hanging_spears_2", "y":180}
+	  ],
+    "facing=west,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/hanging_spears", "y":90},
+	  {"model": "minecraft:block/hanging_spears_2", "y":90}
+	  ],
 	  "facing=south,half=bottom,open=true,powered=false": [
 	  {"model": "minecraft:block/empty_rack"}
 	  ],
