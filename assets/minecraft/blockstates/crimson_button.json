@@ -84,8 +84,8 @@
         "face=wall,facing=west,powered=true":  { "model": "block/tools", "y": 270 },
         "face=wall,facing=south,powered=true": { "model": "block/tools", "y": 180 },
         "face=wall,facing=north,powered=true": { "model": "block/tools"},
-        "face=ceiling,facing=east,powered=true":  { "model": "block/dark_oak_button_pressed", "x": 180, "y": 270 },
-        "face=ceiling,facing=west,powered=true":  { "model": "block/dark_oak_button_pressed", "x": 180, "y": 90 },
+        "face=ceiling,facing=east,powered=true":  { "model": "block/dark_oak_button_1x3arch_top_white" },
+        "face=ceiling,facing=west,powered=true":  { "model": "block/dark_oak_button_1x3arch_top_white", "y": 90 },
         "face=ceiling,facing=south,powered=true": { "model": "block/dark_oak_button_pressed", "x": 180 },
         "face=ceiling,facing=north,powered=true": { "model": "block/dark_oak_button_pressed", "x": 180, "y": 180 }
     }

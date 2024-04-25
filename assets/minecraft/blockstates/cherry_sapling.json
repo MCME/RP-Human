@@ -10,8 +10,11 @@
       { "model": "block/autumn_dandelion_2", "y": 180 },
       { "model": "block/autumn_dandelion_2", "y": 270 }
     ],
-    "stage\u003d1": {
-      "model": "block/replace"
-    }
+    "stage\u003d1": [
+      { "model": "block/kettle" },
+      { "model": "block/kettle", "y": 90 },
+      { "model": "block/kettle", "y": 180 },
+      { "model": "block/kettle", "y": 270 }
+	  ]
   }
 }

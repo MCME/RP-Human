@@ -23,7 +23,16 @@
         "age=1": { "model": "block/replace", "y": 180  },
         "age=0": { "model": "block/replace", "y": 270  },
         "age=4": { "model": "block/melon_stem_stage4" },
-        "age=5": { "model": "block/melon_stem_stage5" },
+        "age=5": [
+		{ "model": "block/chalice" },
+		{ "model": "block/chalice", "y": 90 },
+		{ "model": "block/chalice", "y": 180 },
+		{ "model": "block/chalice", "y": 270 },
+		{ "model": "block/chalice_2" },
+		{ "model": "block/chalice_2", "y": 90 },
+		{ "model": "block/chalice_2", "y": 180 },
+		{ "model": "block/chalice_2", "y": 270 }
+		],
         "age=6": { "model": "block/melon_stem_stage6" },
         "age=7": { "model": "block/melon_stem_stage7" }
     }
