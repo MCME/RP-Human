@@ -28,17 +28,25 @@
       "when": {
         "age": 3
       },
-      "apply": {
-        "model": "block/cactus_stage3"
-      }
+      "apply": [
+	  { "model": "block/cactus_stage3" },
+	  { "model": "block/cactus_stage3_2" },
+	  { "model": "block/cactus_stage3_3" },
+	  { "model": "block/cactus_stage3_4" }
+	  ]
     },
     {
       "when": {
         "age": 4
       },
-      "apply": {
-        "model": "block/cactus_stage4"
-      }
+      "apply": [
+	  { "model": "block/cactus_stage4" },
+	  { "model": "block/cactus_stage4_2" },
+	  { "model": "block/cactus_stage4_3" },
+	  { "model": "block/cactus_stage4_4" },
+	  { "model": "block/cactus_stage4_5" },
+	  { "model": "block/cactus_stage4_6" }
+	  ]
     },
     {
       "when": {
