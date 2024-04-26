@@ -15,35 +15,45 @@
       "model": "block/wheel",
       "y": 270
     },
-    "age\u003d1,facing\u003dnorth": {
-      "model": "block/cocoa_stage1"
-    },
-    "age\u003d1,facing\u003deast": {
-      "model": "block/cocoa_stage1",
-      "y": 90
-    },
-    "age\u003d1,facing\u003dsouth": {
-      "model": "block/cocoa_stage1",
-      "y": 180
-    },
-    "age\u003d1,facing\u003dwest": {
-      "model": "block/cocoa_stage1",
-      "y": 270
-    },
-    "age\u003d2,facing\u003dnorth": {
-      "model": "block/cocoa_stage2"
-    },
-    "age\u003d2,facing\u003deast": {
-      "model": "block/cocoa_stage2",
-      "y": 90
-    },
-    "age\u003d2,facing\u003dsouth": {
-      "model": "block/cocoa_stage2",
-      "y": 180
-    },
-    "age\u003d2,facing\u003dwest": {
-      "model": "block/cocoa_stage2",
-      "y": 270
-    }
+    "age\u003d1,facing\u003dnorth": [
+	{ "model": "block/cocoa_stage1" },
+	{ "model": "block/cocoa_stage1_2" },
+	{ "model": "block/cocoa_stage1_3" }
+	],
+    "age\u003d1,facing\u003deast": [
+	{ "model": "block/cocoa_stage1", "y": 90 },
+	{ "model": "block/cocoa_stage1_2", "y": 90 },
+	{ "model": "block/cocoa_stage1_3", "y": 90 }
+	],
+    "age\u003d1,facing\u003dsouth": [
+	{ "model": "block/cocoa_stage1", "y": 180 },
+	{ "model": "block/cocoa_stage1_2", "y": 180 },
+	{ "model": "block/cocoa_stage1_3", "y": 180 }
+	],
+    "age\u003d1,facing\u003dwest": [
+	{ "model": "block/cocoa_stage1", "y": 270 },
+	{ "model": "block/cocoa_stage1_2", "y": 270 },
+	{ "model": "block/cocoa_stage1_3", "y": 270 }
+	],
+    "age\u003d2,facing\u003dnorth": [
+	{ "model": "block/cocoa_stage2" },
+	{ "model": "block/cocoa_stage2_2" },
+	{ "model": "block/cocoa_stage2_3" }
+	],
+    "age\u003d2,facing\u003deast": [
+	{"model": "block/cocoa_stage2", "y": 90 },
+	{"model": "block/cocoa_stage2_2", "y": 90 },
+	{"model": "block/cocoa_stage2_3", "y": 90 }
+	],
+    "age\u003d2,facing\u003dsouth": [
+	{ "model": "block/cocoa_stage2", "y": 180 },
+	{ "model": "block/cocoa_stage2_2", "y": 180 },
+	{ "model": "block/cocoa_stage2_3", "y": 180 }
+	],
+    "age\u003d2,facing\u003dwest": [
+	{ "model": "block/cocoa_stage2", "y": 270 },
+	{ "model": "block/cocoa_stage2_2", "y": 270 },
+	{ "model": "block/cocoa_stage2_3", "y": 270 }
+	]
   }
 }
