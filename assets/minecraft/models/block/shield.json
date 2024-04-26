@@ -146,6 +146,25 @@
 		}
 	],
 	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 4.75],
+			"scale": [0.69, 0.63, 0.67]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.59, 0.55, 0.53]
+		},
+		"firstperson_righthand": {
+			"rotation": [-51, 4, 0],
+			"translation": [8, -2.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [8.75, 0, 0]
+		},
+		"gui": {
+			"rotation": [-23, -11, 0],
+			"translation": [-0.5, 2, 0],
+			"scale": [0.78, 0.77, 0.78]
+		},
 		"head": {
 			"translation": [0, -29, 0],
 			"scale": [1.6, 1.6, 1.6]
