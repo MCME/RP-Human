@@ -52,21 +52,26 @@
       }
     ],
     "eggs=2,hatch=0": [
-      {
-        "model": "minecraft:block/two_turtle_eggs"
-      },
-      {
-        "model": "minecraft:block/two_turtle_eggs",
-        "y": 90
-      },
-      {
-        "model": "minecraft:block/two_turtle_eggs",
-        "y": 180
-      },
-      {
-        "model": "minecraft:block/two_turtle_eggs",
-        "y": 270
-      }
+      { "model": "minecraft:block/wooden_bowl" },
+	  { "model": "minecraft:block/wooden_bowl_2" },
+	  { "model": "minecraft:block/wooden_bowl_3" },
+	  { "model": "minecraft:block/wooden_bowl_4" },
+	  { "model": "minecraft:block/wooden_bowl_5" },
+	  { "model": "minecraft:block/wooden_bowl", "y": 90 },
+	  { "model": "minecraft:block/wooden_bowl_2", "y": 90 },
+	  { "model": "minecraft:block/wooden_bowl_3", "y": 90 },
+	  { "model": "minecraft:block/wooden_bowl_4", "y": 90 },
+	  { "model": "minecraft:block/wooden_bowl_5", "y": 90 },
+	  { "model": "minecraft:block/wooden_bowl", "y": 180 },
+	  { "model": "minecraft:block/wooden_bowl_2", "y": 180 },
+	  { "model": "minecraft:block/wooden_bowl_3", "y": 180 },
+	  { "model": "minecraft:block/wooden_bowl_4", "y": 180 },
+	  { "model": "minecraft:block/wooden_bowl_5", "y": 180 },
+	  { "model": "minecraft:block/wooden_bowl", "y": 270 },
+	  { "model": "minecraft:block/wooden_bowl_2", "y": 270 },
+	  { "model": "minecraft:block/wooden_bowl_3", "y": 270 },
+	  { "model": "minecraft:block/wooden_bowl_4", "y": 270 },
+	  { "model": "minecraft:block/wooden_bowl_5", "y": 270 }
     ],
     "eggs=2,hatch=1": { "model": "minecraft:block/sawhorse", "y": 90 },
     "eggs=2,hatch=2": { "model": "minecraft:block/sawhorse" },
