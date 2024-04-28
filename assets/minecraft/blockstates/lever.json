@@ -1,0 +1,129 @@
+{
+  "variants": {
+    "face=ceiling,facing=east,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=east,powered=true": {
+      "model": "minecraft:block/lever",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=north,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=north,powered=true": {
+      "model": "minecraft:block/lever",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=south,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 180
+    },
+    "face=ceiling,facing=south,powered=true": {
+      "model": "minecraft:block/lever",
+      "x": 180
+    },
+    "face=ceiling,facing=west,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 180,
+      "y": 90
+    },
+    "face=ceiling,facing=west,powered=true": {
+      "model": "minecraft:block/lever",
+      "x": 180,
+      "y": 90
+    },
+    "face=floor,facing=east,powered=false": [
+	{ "model": "minecraft:block/wooden_cutlery_floor"},
+	{ "model": "minecraft:block/wooden_cutlery_floor_2"},
+	{ "model": "minecraft:block/wooden_cutlery_floor_3"},
+	{ "model": "minecraft:block/wooden_cutlery_floor_4"},
+	{ "model": "minecraft:block/wooden_cutlery_floor", "y": 90},
+	{ "model": "minecraft:block/wooden_cutlery_floor_2", "y": 90},
+	{ "model": "minecraft:block/wooden_cutlery_floor_3", "y": 90},
+	{ "model": "minecraft:block/wooden_cutlery_floor_4", "y": 90},
+	{ "model": "minecraft:block/wooden_cutlery_floor", "y": 180},
+	{ "model": "minecraft:block/wooden_cutlery_floor_2", "y": 180},
+	{ "model": "minecraft:block/wooden_cutlery_floor_3", "y": 180},
+	{ "model": "minecraft:block/wooden_cutlery_floor_4", "y": 180},
+	{ "model": "minecraft:block/wooden_cutlery_floor", "y": 270},
+	{ "model": "minecraft:block/wooden_cutlery_floor_2", "y": 270},
+	{ "model": "minecraft:block/wooden_cutlery_floor_3", "y": 270},
+	{ "model": "minecraft:block/wooden_cutlery_floor_4", "y": 270}
+	],
+    "face=floor,facing=east,powered=true": {
+      "model": "minecraft:block/lever",
+      "y": 90
+    },
+    "face=floor,facing=north,powered=false": {
+      "model": "minecraft:block/lever_on"
+    },
+    "face=floor,facing=north,powered=true": {
+      "model": "minecraft:block/lever"
+    },
+    "face=floor,facing=south,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "y": 180
+    },
+    "face=floor,facing=south,powered=true": {
+      "model": "minecraft:block/lever",
+      "y": 180
+    },
+    "face=floor,facing=west,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "y": 270
+    },
+    "face=floor,facing=west,powered=true": {
+      "model": "minecraft:block/lever",
+      "y": 270
+    },
+    "face=wall,facing=east,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=east,powered=true": [
+	{ "model": "minecraft:block/wooden_cutlery_wall", "y": 270 },
+	{ "model": "minecraft:block/wooden_cutlery_wall_2", "y": 270 },
+	{ "model": "minecraft:block/wooden_cutlery_wall_3", "y": 270 },
+	{ "model": "minecraft:block/wooden_cutlery_wall_4", "y": 270 }
+	],
+    "face=wall,facing=north,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 90
+    },
+    "face=wall,facing=north,powered=true": [
+	{ "model": "minecraft:block/wooden_cutlery_wall", "y": 180 },
+	{ "model": "minecraft:block/wooden_cutlery_wall_2", "y": 180 },
+	{ "model": "minecraft:block/wooden_cutlery_wall_3", "y": 180 },
+	{ "model": "minecraft:block/wooden_cutlery_wall_4", "y": 180 }
+	],
+    "face=wall,facing=south,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=south,powered=true": [
+	{ "model": "minecraft:block/wooden_cutlery_wall" },
+	{ "model": "minecraft:block/wooden_cutlery_wall_2" },
+	{ "model": "minecraft:block/wooden_cutlery_wall_3" },
+	{ "model": "minecraft:block/wooden_cutlery_wall_4" }
+	],
+    "face=wall,facing=west,powered=false": {
+      "model": "minecraft:block/lever_on",
+      "x": 90,
+      "y": 270
+    },
+    "face=wall,facing=west,powered=true": [
+	{ "model": "minecraft:block/wooden_cutlery_wall", "y": 90 },
+	{ "model": "minecraft:block/wooden_cutlery_wall_2", "y": 90 },
+	{ "model": "minecraft:block/wooden_cutlery_wall_3", "y": 90 },
+	{ "model": "minecraft:block/wooden_cutlery_wall_4", "y": 90 }
+	]
+  }
+}
