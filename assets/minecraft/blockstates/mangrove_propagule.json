@@ -1,0 +1,41 @@
+{
+  "variants": {
+    "age=0,hanging=false": [
+	{ "model": "minecraft:block/candle_holder" },
+	{ "model": "minecraft:block/candle_holder_2" },
+	{ "model": "minecraft:block/candle_holder", "y": 90 },
+	{ "model": "minecraft:block/candle_holder_2", "y": 90 },
+	{ "model": "minecraft:block/candle_holder", "y": 180 },
+	{ "model": "minecraft:block/candle_holder_2", "y": 180 },
+	{ "model": "minecraft:block/candle_holder", "y": 270 },
+	{ "model": "minecraft:block/candle_holder_2", "y": 270 }
+	],
+    "age=0,hanging=true": {
+      "model": "minecraft:block/mangrove_propagule_hanging_0"
+    },
+    "age=1,hanging=false": {
+      "model": "minecraft:block/mangrove_propagule"
+    },
+    "age=1,hanging=true": {
+      "model": "minecraft:block/mangrove_propagule_hanging_1"
+    },
+    "age=2,hanging=false": {
+      "model": "minecraft:block/mangrove_propagule"
+    },
+    "age=2,hanging=true": {
+      "model": "minecraft:block/mangrove_propagule_hanging_2"
+    },
+    "age=3,hanging=false": {
+      "model": "minecraft:block/mangrove_propagule"
+    },
+    "age=3,hanging=true": {
+      "model": "minecraft:block/mangrove_propagule_hanging_3"
+    },
+    "age=4,hanging=false": {
+      "model": "minecraft:block/mangrove_propagule"
+    },
+    "age=4,hanging=true": {
+      "model": "minecraft:block/mangrove_propagule_hanging_4"
+    }
+  }
+}
