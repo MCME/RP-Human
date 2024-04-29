@@ -16,8 +16,12 @@
 		{ "model": "block/crimson_hyphae_4", "weight": 5, "y": 90 },
 		{ "model": "block/crimson_hyphae_5", "weight": 4, "y": 90 }
 		],
-    "axis=y": 
-		{ "model": "block/stone_bricks_large" }
+    "axis=y": [
+		{ "model": "block/stone_bricks_large" },
+		{ "model": "block/stone_bricks_large_2" },
+		{ "model": "block/stone_bricks_large_3" },
+		{ "model": "block/stone_bricks_large_4" }
+		]
 		
   }
 }
