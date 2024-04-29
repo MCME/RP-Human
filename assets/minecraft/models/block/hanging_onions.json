@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"2": "block/hanging_onions"
+		"2": "block/hanging_onions",
+		"particle": "block/hanging_onions"
 	},
 	"elements": [
 		{
@@ -108,7 +109,6 @@
 			"name": "bone",
 			"origin": [8.5, 3.2388, 7.7834],
 			"color": 0,
-			"nbt": "{}",
 			"children": [0, 1, 2, 3, 4, 5, 6]
 		}
 	]

@@ -2893,7 +2893,7 @@
             "predicate": {
                 "custom_model_data": 480
             },
-            "model": "block/composter"
+            "model": "block/crate"
         },
 		{
             "predicate": {
@@ -2977,7 +2977,7 @@
             "predicate": {
                 "custom_model_data": 494
             },
-            "model": "block/wooden_cutlery"
+            "model": "block/wooden_cutlery_wall"
         },
 		{
             "predicate": {
@@ -2996,6 +2996,48 @@
                 "custom_model_data": 497
             },
             "model": "block/birch_planks_side_stairs"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 498
+            },
+            "model": "block/wooden_cutlery_floor"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 499
+            },
+            "model": "block/swords_onrack"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 500
+            },
+            "model": "block/hanging_onions"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 501
+            },
+            "model": "block/candle_holder"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 502
+            },
+            "model": "block/crate_filled"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 503
+            },
+            "model": "block/crate_filled_3"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 504
+            },
+            "model": "block/broom"
         }
     ]
 }
