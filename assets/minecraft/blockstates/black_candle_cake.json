@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "lit=false": [
+	{ "model": "minecraft:block/wooden_crate_broken" },
+	{ "model": "minecraft:block/wooden_crate_broken", "y": 90 },
+	{ "model": "minecraft:block/wooden_crate_broken", "y": 180 },
+	{ "model": "minecraft:block/wooden_crate_broken", "y": 270 },
+	{ "model": "minecraft:block/wooden_crate_broken_2" },
+	{ "model": "minecraft:block/wooden_crate_broken_2", "y": 90 },
+	{ "model": "minecraft:block/wooden_crate_broken_2", "y": 180 },
+	{ "model": "minecraft:block/wooden_crate_broken_2", "y": 270 }
+	],
+    "lit=true": {
+      "model": "minecraft:block/black_candle_cake_lit"
+    }
+  }
+}

@@ -1,73 +1,25 @@
 {
-  "multipart": [
-    {
-      "apply": {
-        "model": "minecraft:block/composter"
-      }
-    },
-    {
-      "apply": {
-        "model": "minecraft:block/replace"
-      },
-      "when": {
-        "level": "1"
-      }
-    },
-    {
-      "apply": {
-        "model": "minecraft:block/replace"
-      },
-      "when": {
-        "level": "2"
-      }
-    },
-    {
-      "apply": {
-        "model": "minecraft:block/replace"
-      },
-      "when": {
-        "level": "3"
-      }
-    },
-    {
-      "apply": {
-        "model": "minecraft:block/replace"
-      },
-      "when": {
-        "level": "4"
-      }
-    },
-    {
-      "apply": {
-        "model": "minecraft:block/replace"
-      },
-      "when": {
-        "level": "5"
-      }
-    },
-    {
-      "apply": {
-        "model": "minecraft:block/replace"
-      },
-      "when": {
-        "level": "6"
-      }
-    },
-    {
-      "apply": {
-        "model": "minecraft:block/replace"
-      },
-      "when": {
-        "level": "7"
-      }
-    },
-    {
-      "apply": {
-        "model": "minecraft:block/replace"
-      },
-      "when": {
-        "level": "8"
-      }
-    }
-  ]
+  "variants": {
+    "level=0": [
+	{ "model": "block/crate" },
+	{ "model": "block/crate_2" },
+	{ "model": "block/crate_2", "y": 90 },
+	{ "model": "block/crate_2", "y": 180 },
+	{ "model": "block/crate_2", "y": 270 }
+	],
+	"level=1": [
+	{ "model": "block/crate_filled" },
+	{ "model": "block/crate_filled_2" },
+	{ "model": "block/crate_filled_2", "y": 90 },
+	{ "model": "block/crate_filled_2", "y": 180 },
+	{ "model": "block/crate_filled_2", "y": 270 }
+	],
+	"level=2": [
+	{ "model": "block/crate_filled_3" },
+	{ "model": "block/crate_filled_4" },
+	{ "model": "block/crate_filled_4", "y": 90 },
+	{ "model": "block/crate_filled_4", "y": 180 },
+	{ "model": "block/crate_filled_4", "y": 270 }
+	]
+  }
 }
