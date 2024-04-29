@@ -135,6 +135,22 @@
 	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper", "y": 90},
 	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper", "y": 180},
 	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper", "y": 270}
+	  ],
+	  "facing=south,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/swords_onrack"},
+	  {"model": "minecraft:block/swords_onrack_2"}
+	  ],
+    "facing=east,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/swords_onrack", "y":270},
+	  {"model": "minecraft:block/swords_onrack_2", "y":270}
+	  ],
+    "facing=north,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/swords_onrack", "y":180},
+	  {"model": "minecraft:block/swords_onrack_2", "y":180}
+	  ],
+    "facing=west,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/swords_onrack", "y":90},
+	  {"model": "minecraft:block/swords_onrack_2", "y":90}
 	  ]
   }
 }
