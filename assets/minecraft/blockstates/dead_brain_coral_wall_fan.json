@@ -2,19 +2,27 @@
   "variants": {
 	"facing=east,waterlogged=false": [
 	{ "model": "minecraft:block/shield", "y": 270},
-	{ "model": "minecraft:block/shield_2", "y": 270}
+	{ "model": "minecraft:block/shield_2", "y": 270},
+	{ "model": "minecraft:block/shield_3", "y": 270},
+	{ "model": "minecraft:block/shield_4", "y": 270}
 	],
 	"facing=south,waterlogged=false": [
 	{ "model": "minecraft:block/shield" },
-	{ "model": "minecraft:block/shield_2" }
+	{ "model": "minecraft:block/shield_2" },
+	{ "model": "minecraft:block/shield_3" },
+	{ "model": "minecraft:block/shield_4" }
 	],
 	"facing=north,waterlogged=false": [
 	{ "model": "minecraft:block/shield", "y": 180},
-	{ "model": "minecraft:block/shield_2", "y": 180}
+	{ "model": "minecraft:block/shield_2", "y": 180},
+	{ "model": "minecraft:block/shield_3", "y": 180},
+	{ "model": "minecraft:block/shield_4", "y": 180}
 	],
 	"facing=west,waterlogged=false": [
 	{ "model": "minecraft:block/shield", "y": 90},
-	{ "model": "minecraft:block/shield_2", "y": 90}
+	{ "model": "minecraft:block/shield_2", "y": 90},
+	{ "model": "minecraft:block/shield_3", "y": 90},
+	{ "model": "minecraft:block/shield_4", "y": 90}
 	]
 	}
 }

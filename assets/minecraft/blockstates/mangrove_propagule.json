@@ -13,9 +13,16 @@
     "age=0,hanging=true": {
       "model": "minecraft:block/mangrove_propagule_hanging_0"
     },
-    "age=1,hanging=false": {
-      "model": "minecraft:block/mangrove_propagule"
-    },
+    "age=1,hanging=false": [
+	{ "model": "minecraft:block/hanging_onions" },
+	{ "model": "minecraft:block/hanging_onions", "y": 90 },
+	{ "model": "minecraft:block/hanging_onions", "y": 180 },
+	{ "model": "minecraft:block/hanging_onions", "y": 270 },
+	{ "model": "minecraft:block/hanging_onions_2" },
+	{ "model": "minecraft:block/hanging_onions_2", "y": 90 },
+	{ "model": "minecraft:block/hanging_onions_2", "y": 180 },
+	{ "model": "minecraft:block/hanging_onions_2", "y": 270 }
+	],
     "age=1,hanging=true": {
       "model": "minecraft:block/mangrove_propagule_hanging_1"
     },
