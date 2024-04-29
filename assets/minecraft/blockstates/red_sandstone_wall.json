@@ -9,27 +9,31 @@
 	  ]},
     {"when": { "up": "false", "north": "low", "east": "none", "south": "none", "west": "low" },
       "apply": [
-			{ "model": "minecraft:block/beam_core" },
-			{ "model": "minecraft:block/beam_core_2" },
-			{ "model": "minecraft:block/beam_core_3" }
+			{ "model": "minecraft:block/oak_planks_side_stairs", "y": 90 },
+			{ "model": "minecraft:block/oak_planks_side_stairs_2", "y": 90 },
+			{ "model": "minecraft:block/oak_planks_side_stairs_3", "y": 90 },
+			{ "model": "minecraft:block/oak_planks_side_stairs_4", "y": 90 }
 	  ]},
 	{"when": { "up": "false", "north": "low", "east": "low", "south": "none", "west": "none" },
       "apply": [
-			{ "model": "minecraft:block/beam_core", "y": 90 },
-			{ "model": "minecraft:block/beam_core_2", "y": 90 },
-			{ "model": "minecraft:block/beam_core_3", "y": 90 }
+			{ "model": "minecraft:block/oak_planks_side_stairs", "y": 180 },
+			{ "model": "minecraft:block/oak_planks_side_stairs_2", "y": 180 },
+			{ "model": "minecraft:block/oak_planks_side_stairs_3", "y": 180 },
+			{ "model": "minecraft:block/oak_planks_side_stairs_4", "y": 180 }
 	  ]},
 	{"when": { "up": "false", "north": "none", "east": "low", "south": "low", "west": "none" },
       "apply": [
-			{ "model": "minecraft:block/beam_core", "y": 180 },
-			{ "model": "minecraft:block/beam_core_2", "y": 180 },
-			{ "model": "minecraft:block/beam_core_3", "y": 180 }
+			{ "model": "minecraft:block/oak_planks_side_stairs", "y": 270 },
+			{ "model": "minecraft:block/oak_planks_side_stairs_2", "y": 270 },
+			{ "model": "minecraft:block/oak_planks_side_stairs_3", "y": 270 },
+			{ "model": "minecraft:block/oak_planks_side_stairs_4", "y": 270 }
 	  ]},
 	{"when": { "up": "false", "north": "none", "east": "none", "south": "low", "west": "low" },
       "apply": [
-			{ "model": "minecraft:block/beam_core", "y": 270 },
-			{ "model": "minecraft:block/beam_core_2", "y": 270 },
-			{ "model": "minecraft:block/beam_core_3", "y": 270 }
+			{ "model": "minecraft:block/oak_planks_side_stairs" },
+			{ "model": "minecraft:block/oak_planks_side_stairs_2" },
+			{ "model": "minecraft:block/oak_planks_side_stairs_3" },
+			{ "model": "minecraft:block/oak_planks_side_stairs_4" }
 	  ]},
 	
 	
