@@ -4,7 +4,8 @@
 		"1": "block/oak_planks",
 		"2": "block/crimson_planks_double_slab",
 		"3": "block/stripped_oak_log_2",
-		"4": "block/double_slab_weathered_cut_copper_3"
+		"4": "block/double_slab_weathered_cut_copper_3",
+		"particle": "block/stripped_oak_log_2"
 	},
 	"elements": [
 		{
@@ -151,6 +152,26 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.59, 0.59, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.6, 0.58, 0.63]
+		},
+		"firstperson_righthand": {
+			"translation": [6.5, 0, 0],
+			"scale": [0.45, 0.46, 0.44]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.44, 0.49, 0.46]
+		},
+		"gui": {
+			"rotation": [17, 48, 0],
+			"translation": [0.5, -2.5, 0],
+			"scale": [0.66, 0.67, 0.67]
+		}
+	},
 	"groups": [
 		{
 			"name": "group",
