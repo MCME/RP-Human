@@ -95,6 +95,66 @@
 	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper_1_2"},
 	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper_1_3"},
 	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper_1_4"}
+	  ],
+	  "facing=south,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/hanging_spears"},
+	  {"model": "minecraft:block/hanging_spears_2"}
+	  ],
+    "facing=east,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/hanging_spears", "y":270},
+	  {"model": "minecraft:block/hanging_spears_2", "y":270}
+	  ],
+    "facing=north,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/hanging_spears", "y":180},
+	  {"model": "minecraft:block/hanging_spears_2", "y":180}
+	  ],
+    "facing=west,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/hanging_spears", "y":90},
+	  {"model": "minecraft:block/hanging_spears_2", "y":90}
+	  ],
+	  "facing=south,half=bottom,open=true,powered=false": [
+	  {"model": "minecraft:block/empty_rack"}
+	  ],
+    "facing=east,half=bottom,open=true,powered=false": [
+	  {"model": "minecraft:block/empty_rack", "y":270}
+	  ],
+    "facing=north,half=bottom,open=true,powered=false": [
+	  {"model": "minecraft:block/empty_rack", "y":180}
+	  ],
+    "facing=west,half=bottom,open=true,powered=false": [
+	  {"model": "minecraft:block/empty_rack", "y":90}
+	  ],
+	  "facing=south,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans"},
+	  {"model": "minecraft:block/hanging_pans_2"}
+	  ],
+    "facing=east,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans", "y":270},
+	  {"model": "minecraft:block/hanging_pans_2", "y":270}
+	  ],
+    "facing=north,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans", "y":180},
+	  {"model": "minecraft:block/hanging_pans_2", "y":180}
+	  ],
+    "facing=west,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans", "y":90},
+	  {"model": "minecraft:block/hanging_pans_2", "y":90}
+	  ],
+	  "facing=south,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/swords_onrack"},
+	  {"model": "minecraft:block/swords_onrack_2"}
+	  ],
+    "facing=east,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/swords_onrack", "y":270},
+	  {"model": "minecraft:block/swords_onrack_2", "y":270}
+	  ],
+    "facing=north,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/swords_onrack", "y":180},
+	  {"model": "minecraft:block/swords_onrack_2", "y":180}
+	  ],
+    "facing=west,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/swords_onrack", "y":90},
+	  {"model": "minecraft:block/swords_onrack_2", "y":90}
 	  ]
   }
 }
