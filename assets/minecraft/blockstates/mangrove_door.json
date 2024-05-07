@@ -104,19 +104,19 @@
       "y": 180
     },
 	"facing=north,half=upper,hinge=right,open=true,powered=false": {
-      "model": "minecraft:block/wooden_shelving_simple", "uvlock": true,
-      "y": 180
+      "model": "minecraft:block/wooden_shelving_simple", "uvlock": true
     },
 	"facing=east,half=upper,hinge=right,open=true,powered=false": {
       "model": "minecraft:block/wooden_shelving_simple", "uvlock": true,
-      "y": 270
+      "y": 90
     },
 	"facing=south,half=upper,hinge=right,open=true,powered=false": {
-      "model": "minecraft:block/wooden_shelving_simple", "uvlock": true
+      "model": "minecraft:block/wooden_shelving_simple", "uvlock": true,
+      "y": 180
     },
 	"facing=west,half=upper,hinge=right,open=true,powered=false": {
       "model": "minecraft:block/wooden_shelving_simple", "uvlock": true,
-      "y": 90
+      "y": 270
     },
     "facing=north,half=lower,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/replace",
