@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [48, 48],
 	"textures": {
-		"2": "block/crimson_planks_double_slab",
+		"2": "block/crimson_planks_double_slab_extended",
 		"5": "block/oak_planks_composite",
 		"particle": "block/oak_planks_composite"
 	},
@@ -72,6 +72,7 @@
 			"name": "group",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"nbt": "{}",
 			"children": [0, 1, 2]
 		}
 	]
