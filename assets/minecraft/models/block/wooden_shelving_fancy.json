@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"texture_size": [48, 48],
+	"texture_size": [32, 32],
 	"textures": {
 		"1": "block/oak_planks",
 		"2": "block/crimson_planks_double_slab_extended",
@@ -28,12 +28,12 @@
 			"to": [3, 16.00781, 16.98438],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14.02621, 7.98438]},
 			"faces": {
-				"north": {"uv": [7.5, 0, 9.5, 10.66667], "texture": "#2"},
-				"east": {"uv": [0, 0, 12, 10.66667], "texture": "#2"},
-				"south": {"uv": [0, 0, 2, 10.66667], "texture": "#2"},
-				"west": {"uv": [0, 0, 12, 10.66667], "texture": "#2"},
-				"up": {"uv": [6, 7.5, 0, 6.5], "rotation": 270, "texture": "#5"},
-				"down": {"uv": [12, 7.25, 0, 9.25], "rotation": 90, "texture": "#2"}
+				"north": {"uv": [7.5, 0, 9, 8.00391], "texture": "#2"},
+				"east": {"uv": [0, 0, 9, 8.00391], "texture": "#2"},
+				"south": {"uv": [0, 0, 1.5, 8.00391], "texture": "#2"},
+				"west": {"uv": [0, 0, 9, 8.00391], "texture": "#2"},
+				"up": {"uv": [9, 8, 0, 6.5], "rotation": 270, "texture": "#5"},
+				"down": {"uv": [9, 7.25, 0, 8.75], "rotation": 90, "texture": "#2"}
 			}
 		},
 		{
