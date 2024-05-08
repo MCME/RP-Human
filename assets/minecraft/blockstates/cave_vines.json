@@ -1,5 +1,25 @@
 {
   "variants": {
+	"berries=false,age=9": [
+	{ "model": "block/fish_1" },
+	{ "model": "block/fish_2" },
+	{ "model": "block/fish_3" },
+	{ "model": "block/fish_4" },
+	{ "model": "block/fish_5" },
+	{ "model": "block/fish_6" },
+	{ "model": "block/fish_7" },
+	{ "model": "block/fish_8" }
+	],
+	"berries=false,age=8": [
+	{ "model": "block/fish_1", "y": 90 },
+	{ "model": "block/fish_2", "y": 90 },
+	{ "model": "block/fish_3", "y": 90 },
+	{ "model": "block/fish_4", "y": 90 },
+	{ "model": "block/fish_5", "y": 90 },
+	{ "model": "block/fish_6", "y": 90 },
+	{ "model": "block/fish_7", "y": 90 },
+	{ "model": "block/fish_8", "y": 90 }
+	],
 	"berries=false,age=10": [
 	{  "model": "mcme:block/spruce_branch_dead"},
 	{  "model": "mcme:block/spruce_branch_dead_2"},
@@ -50,8 +70,24 @@
 	{  "model": "mcme:block/larch_large_sapling_tilted_2", "y": 90},
 	{  "model": "mcme:block/larch_large_sapling_tilted_3", "y": 90}
 	],
-    "berries=true": {
-      "model": "minecraft:block/cave_vines_lit"
-    }
+		"berries=true,age=1": [
+	{  "model": "minecraft:block/chandelier"},
+	{  "model": "minecraft:block/chandelier", "y": 90},
+	{  "model": "minecraft:block/chandelier", "y": 180},
+	{  "model": "minecraft:block/chandelier", "y": 270}
+	],
+	"berries=true,age=2": [
+	{  "model": "minecraft:block/chandelier_big"},
+	{  "model": "minecraft:block/chandelier_big", "y": 90},
+	{  "model": "minecraft:block/chandelier_big", "y": 180},
+	{  "model": "minecraft:block/chandelier_big", "y": 270}
+	],
+	"berries=true,age=3": [
+	{  "model": "minecraft:block/brazier"},
+	{  "model": "minecraft:block/brazier", "y": 90},
+	{  "model": "minecraft:block/brazier", "y": 180},
+	{  "model": "minecraft:block/brazier", "y": 270}
+	]
+ 
   }
 }
