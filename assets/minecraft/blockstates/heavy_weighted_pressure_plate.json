@@ -6,18 +6,80 @@
     "power\u003d1": {
       "model": "block/heavy_weighted_pressure_plate_down"
     },
-    "power\u003d2": {
-      "model": "block/replace"
-    },
-    "power\u003d3": {
-      "model": "block/replace"
-    },
-    "power\u003d4": {
-      "model": "block/replace"
-    },
-    "power\u003d5": {
-      "model": "block/replace"
-    },
+    "power\u003d2": [
+		{ "model": "block/plate_stack" },
+		{ "model": "block/plate_stack", "y": 90 },
+		{ "model": "block/plate_stack", "y": 180 },
+		{ "model": "block/plate_stack", "y": 270 },
+		{ "model": "block/plate_stack_2"},
+		{ "model": "block/plate_stack_2", "y": 90 },
+		{ "model": "block/plate_stack_2", "y": 180 },
+		{ "model": "block/plate_stack_2", "y": 270 },
+		{ "model": "block/plate_stack_3"},
+		{ "model": "block/plate_stack_3", "y": 90 },
+		{ "model": "block/plate_stack_3", "y": 180 },
+		{ "model": "block/plate_stack_3", "y": 270 },
+		{ "model": "block/plate_stack_4"},
+		{ "model": "block/plate_stack_4", "y": 90 },
+		{ "model": "block/plate_stack_4", "y": 180 },
+		{ "model": "block/plate_stack_4", "y": 270 }
+		],
+    "power\u003d3": [
+		{ "model": "block/clay_cup" },
+		{ "model": "block/clay_cup", "y": 90 },
+		{ "model": "block/clay_cup", "y": 180 },
+		{ "model": "block/clay_cup", "y": 270 },
+		{ "model": "block/clay_cup_2"},
+		{ "model": "block/clay_cup_2", "y": 90 },
+		{ "model": "block/clay_cup_2", "y": 180 },
+		{ "model": "block/clay_cup_2", "y": 270 },
+		{ "model": "block/clay_cup_3"},
+		{ "model": "block/clay_cup_3", "y": 90 },
+		{ "model": "block/clay_cup_3", "y": 180 },
+		{ "model": "block/clay_cup_3", "y": 270 },
+		{ "model": "block/clay_cup_4"},
+		{ "model": "block/clay_cup_4", "y": 90 },
+		{ "model": "block/clay_cup_4", "y": 180 },
+		{ "model": "block/clay_cup_4", "y": 270 }
+		],
+    "power\u003d4": [
+		{ "model": "block/bread" },
+		{ "model": "block/bread", "y": 90 },
+		{ "model": "block/bread", "y": 180 },
+		{ "model": "block/bread", "y": 270 },
+		{ "model": "block/bread_2"},
+		{ "model": "block/bread_2", "y": 90 },
+		{ "model": "block/bread_2", "y": 180 },
+		{ "model": "block/bread_2", "y": 270 },
+		{ "model": "block/bread_3"},
+		{ "model": "block/bread_3", "y": 90 },
+		{ "model": "block/bread_3", "y": 180 },
+		{ "model": "block/bread_3", "y": 270 },
+		{ "model": "block/bread_4"},
+		{ "model": "block/bread_4", "y": 90 },
+		{ "model": "block/bread_4", "y": 180 },
+		{ "model": "block/bread_4", "y": 270 }
+		],
+    "power\u003d5": [
+		{ "model": "block/basket" },
+		{ "model": "block/basket", "y": 90 },
+		{ "model": "block/basket_2"},
+		{ "model": "block/basket_2", "y": 90 },
+		{ "model": "block/basket_3"},
+		{ "model": "block/basket_3", "y": 90 },
+		{ "model": "block/basket_4"},
+		{ "model": "block/basket_4", "y": 90 },
+		{ "model": "block/basket_5"},
+		{ "model": "block/basket_5", "y": 90 },
+		{ "model": "block/basket_6"},
+		{ "model": "block/basket_6", "y": 90 },
+		{ "model": "block/basket_7"},
+		{ "model": "block/basket_7", "y": 90 },
+		{ "model": "block/basket_8"},
+		{ "model": "block/basket_8", "y": 90 },
+		{ "model": "block/basket_9"},
+		{ "model": "block/basket_9", "y": 90 }
+		],
     "power\u003d6": {
       "model": "block/replace"
     },

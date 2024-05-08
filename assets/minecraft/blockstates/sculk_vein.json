@@ -1,0 +1,48 @@
+{
+  "variants": {
+	   "up=false,north=true,east=false,south=false,west=false,down=false":[
+	   { "model": "block/shelf_deco_container" },
+	   { "model": "block/shelf_deco_container_2" },
+	   { "model": "block/shelf_deco_container_3" },
+	   { "model": "block/shelf_deco_container_4" },
+	   { "model": "block/shelf_deco_food" },
+	   { "model": "block/shelf_deco_books" },
+	   { "model": "block/shelf_deco_books_2" },
+	   { "model": "block/shelf_deco_scrolls" },
+	   { "model": "block/shelf_deco_scrolls_2" }
+	   ],
+	   "up=false,north=false,east=true,south=false,west=false,down=false": [
+	   { "model": "block/shelf_deco_container", "y":90 },
+	   { "model": "block/shelf_deco_container_2", "y":90 },
+	   { "model": "block/shelf_deco_container_3", "y":90 },
+	   { "model": "block/shelf_deco_container_4", "y":90 },
+	   { "model": "block/shelf_deco_food", "y":90 },
+	   { "model": "block/shelf_deco_books", "y":90 },
+	   { "model": "block/shelf_deco_books_2", "y":90 },
+	   { "model": "block/shelf_deco_scrolls", "y":90 },
+	   { "model": "block/shelf_deco_scrolls_2", "y":90 }
+	   ],
+	   "up=false,north=false,east=false,south=true,west=false,down=false": [
+	   { "model": "block/shelf_deco_container", "y":180 },
+	   { "model": "block/shelf_deco_container_2", "y":180 },
+	   { "model": "block/shelf_deco_container_3", "y":180 },
+	   { "model": "block/shelf_deco_container_4", "y":180 },
+	   { "model": "block/shelf_deco_food", "y":180 },
+	   { "model": "block/shelf_deco_books", "y":180 },
+	   { "model": "block/shelf_deco_books_2", "y":180 },
+	   { "model": "block/shelf_deco_scrolls", "y":180 },
+	   { "model": "block/shelf_deco_scrolls_2", "y":180 }
+	   ],
+	   "up=false,north=false,east=false,south=false,west=true,down=false": [
+	   { "model": "block/shelf_deco_container", "y":270 },
+	   { "model": "block/shelf_deco_container_2", "y":270 },
+	   { "model": "block/shelf_deco_container_3", "y":270 },
+	   { "model": "block/shelf_deco_container_4", "y":270 },
+	   { "model": "block/shelf_deco_food", "y":270 },
+	   { "model": "block/shelf_deco_books", "y":270 },
+	   { "model": "block/shelf_deco_books_2", "y":270 },
+	   { "model": "block/shelf_deco_scrolls", "y":270 },
+	   { "model": "block/shelf_deco_scrolls_2", "y":270 }
+	   ]
+	}
+}

@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "candles=1,lit=false": [
+      {"model": "minecraft:block/hammer"},
+      {"model": "minecraft:block/hammer", "y": 90},
+      {"model": "minecraft:block/hammer", "y": 180},
+      {"model": "minecraft:block/hammer", "y": 270}
+     ],
+    "candles=1,lit=true": [
+      {"model": "minecraft:block/black_candle_one_candle_lit"}
+    ],
+    "candles=2,lit=false": [
+        {"model": "minecraft:block/axe"},
+        {"model": "minecraft:block/axe", "y": 90},
+        {"model": "minecraft:block/axe", "y": 180},
+        {"model": "minecraft:block/axe", "y": 270}
+    ],
+    "candles=2,lit=true": {
+      "model": "minecraft:block/black_candle_two_candles_lit"
+    },
+    "candles=3,lit=false": [
+        {"model": "minecraft:block/bow"},
+        {"model": "minecraft:block/bow", "y": 90},
+        {"model": "minecraft:block/bow", "y": 180},
+        {"model": "minecraft:block/bow", "y": 270}
+    ],
+    "candles=3,lit=true": {
+      "model": "minecraft:block/black_candle_three_candles_lit"
+    },
+    "candles=4,lit=false": [
+        {"model": "minecraft:block/saw"},
+        {"model": "minecraft:block/saw", "y": 90},
+        {"model": "minecraft:block/saw", "y": 180},
+        {"model": "minecraft:block/saw", "y": 270}
+    ],
+    "candles=4,lit=true": {
+      "model": "minecraft:block/black_candle_four_candles_lit"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "lit=false": [
+      {"model": "block/big_basket"},
+      {"model": "block/big_basket", "y": 90},
+	  {"model": "block/big_basket", "y": 180},
+	  {"model": "block/big_basket", "y": 270},
+	  {"model": "block/big_basket_2"},
+      {"model": "block/big_basket_2", "y": 90},
+	  {"model": "block/big_basket_2", "y": 180},
+	  {"model": "block/big_basket_2", "y": 270},
+	  {"model": "block/big_basket_3"},
+      {"model": "block/big_basket_3", "y": 90},
+	  {"model": "block/big_basket_3", "y": 180},
+	  {"model": "block/big_basket_3", "y": 270}
+  ],
+    "lit=true": {
+      "model": "minecraft:block/blue_candle_cake_lit"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "lit=false": [
+      {"model": "block/stacked_wood", "y":90},
+      {"model": "block/stacked_wood", "y": 270}
+  ],
+    "lit=true": {
+      "model": "minecraft:block/lime_candle_cake_lit"
+    }
+  }
+}

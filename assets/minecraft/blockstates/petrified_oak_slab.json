@@ -2,7 +2,17 @@
     "variants": {
         "type=bottom": { "model": "block/petrified_oak_slab" },
         "type=top": { "model": "block/petrified_oak_slab_top" },
-        "type=double,waterlogged=false": { "model": "block/double_slab_wood_old" },
-        "type=double,waterlogged=true": { "model": "block/double_slab_wood_old", "y": 90 }
+        "type=double,waterlogged=false": [
+		{ "model": "block/double_slab_wood_old" },
+		{ "model": "block/double_slab_wood_old_2" },
+		{ "model": "block/double_slab_wood_old_3" },
+		{ "model": "block/double_slab_wood_old_4" }
+		],
+        "type=double,waterlogged=true": [
+		{ "model": "block/double_slab_wood_old", "y": 90 },
+		{ "model": "block/double_slab_wood_old_2", "y": 90 },
+		{ "model": "block/double_slab_wood_old_3", "y": 90 },
+		{ "model": "block/double_slab_wood_old_4", "y": 90 }
+		]
     }
 }

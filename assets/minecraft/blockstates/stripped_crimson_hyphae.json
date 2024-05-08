@@ -1,28 +1,22 @@
 {
   "variants": {
     "axis=x": [
-		{"model": "block/stripped_crimson_hyphae", "weight": 4 },
-		{"model": "block/stripped_crimson_hyphae_1", "weight": 2 },
-		{"model": "block/stripped_crimson_hyphae_2", "weight": 5 },
-		{"model": "block/stripped_crimson_hyphae_3", "weight": 2 },
-		{"model": "block/stripped_crimson_hyphae_4", "weight": 5 },
-		{"model": "block/stripped_crimson_hyphae_5", "weight": 4 }
+		{ "model": "block/dark_stone_bricks_large" },
+		{ "model": "block/dark_stone_bricks_large_2" },
+		{ "model": "block/dark_stone_bricks_large_3" },
+		{ "model": "block/dark_stone_bricks_large_4" }
 		],
     "axis=z": [
-		{ "model": "block/stripped_crimson_hyphae", "weight": 4, "y": 90 },
-		{ "model": "block/stripped_crimson_hyphae_1", "weight": 2, "y": 90 },
-		{ "model": "block/stripped_crimson_hyphae_2", "weight": 5, "y": 90 },
-		{ "model": "block/stripped_crimson_hyphae_3", "weight": 2, "y": 90 },
-		{ "model": "block/stripped_crimson_hyphae_4", "weight": 5, "y": 90 },
-		{ "model": "block/stripped_crimson_hyphae_5", "weight": 4, "y": 90 }
-		],
+	{ "model": "block/dark_stone_bricks_large", "y":90 },
+	{ "model": "block/dark_stone_bricks_large_2", "y":90 },
+	{ "model": "block/dark_stone_bricks_large_3", "y":90 },
+	{ "model": "block/dark_stone_bricks_large_4", "y":90 }
+	],
     "axis=y": [
-		{ "model": "block/stripped_crimson_hyphae_y", "weight": 4 },
-		{ "model": "block/stripped_crimson_hyphae_y_1", "weight": 2 },
-		{ "model": "block/stripped_crimson_hyphae_y_2", "weight": 5 },
-		{ "model": "block/stripped_crimson_hyphae_y_3", "weight": 2 },
-		{ "model": "block/stripped_crimson_hyphae_y_4", "weight": 5 },
-		{ "model": "block/stripped_crimson_hyphae_y_5", "weight": 4 }
-		]
+	{ "model": "block/stone_bricks_large", "y":90 },
+	{ "model": "block/stone_bricks_large_2", "y":90 },
+	{ "model": "block/stone_bricks_large_3", "y":90 },
+	{ "model": "block/stone_bricks_large_4", "y":90 }
+	]
   }
 }

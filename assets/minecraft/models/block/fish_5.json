@@ -1,0 +1,85 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"4": "block/fish"
+	},
+	"elements": [
+		{
+			"from": [0, 15, 7],
+			"to": [16, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.5, 7.5]},
+			"faces": {
+				"north": {"uv": [8, 0.5, 0, 1], "texture": "#4"},
+				"east": {"uv": [8, 0, 8.5, 0.5], "texture": "#4"},
+				"south": {"uv": [0, 0.5, 8, 0], "texture": "#4"},
+				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#4"},
+				"up": {"uv": [0, 0.5, 8, 1], "texture": "#4"},
+				"down": {"uv": [0, 1, 8, 1.5], "texture": "#4"}
+			}
+		},
+		{
+			"from": [6, 2, 4.5],
+			"to": [6, 15, 9],
+			"rotation": {"angle": 45, "axis": "y", "origin": [6.5, 9, 7]},
+			"faces": {
+				"east": {"uv": [3.5, 1.5, 5.75, 8], "texture": "#4"},
+				"west": {"uv": [5.75, 1.5, 8, 8], "texture": "#4"}
+			}
+		},
+		{
+			"from": [14, 4.5, 5],
+			"to": [14, 15, 8.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [14, 9.75, 6.75]},
+			"faces": {
+				"east": {"uv": [2, 8.5, 3.75, 13.75], "texture": "#4"},
+				"west": {"uv": [0, 8.5, 1.75, 13.75], "texture": "#4"}
+			}
+		},
+		{
+			"from": [9.94097, 2.5, 5.68771],
+			"to": [9.94097, 15, 10.18771],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [9.94097, 8.75, 7.93771]},
+			"faces": {
+				"east": {"uv": [10, 8.5, 12.25, 14.75], "texture": "#4"},
+				"west": {"uv": [12.5, 8.5, 14.75, 14.75], "texture": "#4"}
+			}
+		},
+		{
+			"from": [0, 3, 7.75],
+			"to": [3, 15, 7.75],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [2, 8.75, 7.75]},
+			"faces": {
+				"north": {"uv": [12.75, 1.5, 14.25, 7.5], "texture": "#4"},
+				"south": {"uv": [14.25, 1.5, 15.75, 7.5], "texture": "#4"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"gui": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"head": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 1]
+		}
+	}
+}

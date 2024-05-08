@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "facing=east": [
+	{ "model": "block/stool" },
+	  { "model": "block/stool", "y": 90 },
+	  { "model": "block/stool", "y": 180 },
+	  { "model": "block/stool", "y": 270 },
+	   { "model": "block/stool_2" },
+	  { "model": "block/stool_2", "y": 90 },
+	  { "model": "block/stool_2", "y": 180 },
+	  { "model": "block/stool_2", "y": 270 },
+	  { "model": "block/stool_3" },
+	  { "model": "block/stool_3", "y": 90 },
+	  { "model": "block/stool_3", "y": 180 },
+	  { "model": "block/stool_3", "y": 270 },
+	  { "model": "block/stool_4" },
+	  { "model": "block/stool_4", "y": 90 },
+	  { "model": "block/stool_4", "y": 180 },
+	  { "model": "block/stool_4", "y": 270 },
+	  { "model": "block/stool_5" },
+	  { "model": "block/stool_5", "y": 90 },
+	  { "model": "block/stool_5", "y": 180 },
+	  { "model": "block/stool_5", "y": 270 }
+    ],
+    "facing=north": {
+      "model": "minecraft:block/big_dripleaf_stem"
+    },
+    "facing=south": {
+      "model": "minecraft:block/big_dripleaf_stem",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minecraft:block/big_dripleaf_stem",
+      "y": 270
+    }
+  }
+}

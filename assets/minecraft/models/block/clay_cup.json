@@ -1,0 +1,84 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"5": "block/pot_lids",
+		"particle": "block/pot_lids"
+	},
+	"elements": [
+		{
+			"name": "vase_body_main",
+			"from": [3, 0, 3],
+			"to": [7, 2, 7],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [4.5, 8, 4.5]},
+			"faces": {
+				"north": {"uv": [0, 4, 4, 11], "texture": "#5"},
+				"east": {"uv": [0.00267, 2.00267, 4.00267, 9.00267], "texture": "#5"},
+				"south": {"uv": [2.00267, 7.00267, 9.00267, 11.00267], "rotation": 90, "texture": "#5"},
+				"west": {"uv": [1.00267, 5.00267, 5.00267, 12.00267], "texture": "#5"},
+				"up": {"uv": [6, 12, 10, 16], "rotation": 90, "texture": "#5"},
+				"down": {"uv": [3.00267, 7.00267, 7.00267, 11.00267], "rotation": 270, "texture": "#5"}
+			}
+		},
+		{
+			"name": "vase_body",
+			"from": [2.5, 0.5, 2.5],
+			"to": [7.5, 5.5, 7.5],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [4.5, 8, 4.5]},
+			"faces": {
+				"north": {"uv": [4, 7.00267, 9, 12.00267], "texture": "#5"},
+				"east": {"uv": [0, 7, 5, 12], "texture": "#5"},
+				"south": {"uv": [2, 7.00267, 7, 12.00267], "texture": "#5"},
+				"west": {"uv": [1, 6.00267, 6, 11.00267], "texture": "#5"},
+				"up": {"uv": [3.00267, 5.00267, 8.00267, 10.00267], "rotation": 90, "texture": "#5"},
+				"down": {"uv": [3.00267, 5.00267, 8.00267, 10.00267], "rotation": 270, "texture": "#5"}
+			}
+		},
+		{
+			"name": "vase_body_main",
+			"from": [2, 5, 2],
+			"to": [8, 7, 8],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [4.5, 8, 4.5]},
+			"faces": {
+				"north": {"uv": [2, 7, 8, 9], "texture": "#5"},
+				"east": {"uv": [1.00267, 6.00267, 7.00267, 8.00267], "texture": "#5"},
+				"south": {"uv": [1.00267, 4.00267, 3.00267, 10.00267], "rotation": 90, "texture": "#5"},
+				"west": {"uv": [1.00267, 6.00267, 7.00267, 8.00267], "texture": "#5"},
+				"up": {"uv": [3, 0, 9, 6], "rotation": 90, "texture": "#5"},
+				"down": {"uv": [0.00267, 6.00267, 6.00267, 12.00267], "rotation": 270, "texture": "#5"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [1.5, 2.25, 1.25],
+			"scale": [0.6, 0.58, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-2, 1.5, 1.5],
+			"scale": [0.68, 0.66, 0.68]
+		},
+		"firstperson_righthand": {
+			"translation": [6.5, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [3.75, 0, 0]
+		},
+		"gui": {
+			"rotation": [23, 0, 0],
+			"translation": [2.75, 0, 0]
+		},
+		"head": {
+			"translation": [3.75, 4.5, 5]
+		}
+	},
+	"groups": [
+		{
+			"name": "vase4",
+			"origin": [7.5, 9, 7.5],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1]
+		},
+		2
+	]
+}

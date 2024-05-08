@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "lit=false": [
+      {"model": "block/wood_basket"},
+      {"model": "block/wood_basket_2", "y": 180},
+	  {"model": "block/wood_basket_3", "y": 180},
+	  {"model": "block/wood_basket_4", "y": 180}
+  ],
+    "lit=true": {
+      "model": "minecraft:block/light_blue_candle_cake_lit"
+    }
+  }
+}
