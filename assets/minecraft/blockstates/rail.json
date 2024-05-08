@@ -38,6 +38,10 @@
 		{ "model": "mcme:block/hazelnut_bush_2", "y": 90},
 		{ "model": "mcme:block/hazelnut_bush_2", "y": 180},
 		{ "model": "mcme:block/hazelnut_bush_2", "y": 270}
-	]
+	],
+	"shape=ascending_north": 
+	{ "model": "minecraft:block/rail_1x1arch" },
+	"shape=ascending_south": 
+	{ "model": "minecraft:block/rail_1x1arch", "y":90 }
   }
 }

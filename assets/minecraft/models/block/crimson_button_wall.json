@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "block/sword",
+		"1": "block/sword_2",
 		"2": "block/stripped_oak_log",
 		"particle": "block/stripped_oak_log"
 	},
@@ -36,7 +36,7 @@
 			"from": [9, 9, 0.4],
 			"to": [30, 13, 0.4],
 			"faces": {
-				"north": {"uv": [16, 4, 4.5, 12], "texture": "#1"},
+				"north": {"uv": [15, 6, 4.5, 10], "texture": "#1"},
 				"east": {"uv": [0, 0, 0, 6], "texture": "#missing"},
 				"south": {"uv": [4.5, 6, 15, 10], "texture": "#1"},
 				"west": {"uv": [0, 0, 0, 6], "texture": "#missing"},
