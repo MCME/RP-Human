@@ -155,9 +155,30 @@
 		}
 	],
 	"display": {
+		"thirdperson_righthand": {
+			"rotation": [67, 45, 0],
+			"translation": [0, 4, -1.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [67, 45, 0],
+			"translation": [0, 4, -1.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -45, 0],
+			"translation": [2, -1.25, 0.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -45, 0],
+			"translation": [2, -1.25, 0.25],
+			"scale": [0.4, 0.4, 0.4]
+		},
 		"gui": {
 			"rotation": [30, 45, 0],
-			"scale": [0.625, 0.625, 0.625]
+			"translation": [0, -2.75, 0],
+			"scale": [0.4, 0.4, 0.4]
 		}
 	}
 }
