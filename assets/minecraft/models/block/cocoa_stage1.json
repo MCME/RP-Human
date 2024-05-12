@@ -36,8 +36,9 @@
 	],
 	"display": {
 		"gui": {
-			"rotation": [30, 45, 0],
-			"scale": [0.625, 0.625, 0.625]
+			"rotation": [23, 45, 0],
+			"translation": [1.5, 0, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"head": {
 			"rotation": [0, 180, 0],
@@ -49,13 +50,11 @@
 			"name": "group",
 			"origin": [0, 0, 0],
 			"color": 0,
-			"nbt": "{}",
 			"children": [
 				{
 					"name": "group",
 					"origin": [0, 0, 0],
 					"color": 0,
-					"nbt": "{}",
 					"children": [
 						0,
 						1,
@@ -63,7 +62,6 @@
 							"name": "group",
 							"origin": [0, 0, 0],
 							"color": 0,
-							"nbt": "{}",
 							"children": []
 						}
 					]
