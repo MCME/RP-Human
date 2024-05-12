@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
 	"textures": {
 		"0": "block/firewood_model",
 		"1": "block/firewood_model_end",
@@ -135,7 +136,6 @@
 			"name": "group",
 			"origin": [-4, -0.5, -4],
 			"color": 0,
-			"nbt": "{}",
 			"children": [0, 1, 2, 3, 4, 5, 6, 7]
 		}
 	]
