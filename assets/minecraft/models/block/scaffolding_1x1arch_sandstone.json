@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [64, 64],
 	"textures": {
-		"2": "block/stone_1x1_arch",
-		"3": "block/stone_1x1_arch_sandstone"
+		"3": "block/stone_1x1_arch_sandstone",
+		"particle": "block/sandstone"
 	},
 	"elements": [
 		{
@@ -143,7 +143,7 @@
 				"south": {"uv": [4.75, 1, 0, 2.25], "texture": "#3"},
 				"west": {"uv": [3.5, 2, 4.75, 1.25], "rotation": 270, "texture": "#3"},
 				"up": {"uv": [11.5, 0, 12.5, 4.75], "rotation": 90, "texture": "#3"},
-				"down": {"uv": [12.5, 0, 11.5, 4.75], "rotation": 90, "texture": "#2"}
+				"down": {"uv": [12.5, 0, 11.5, 4.75], "rotation": 90, "texture": "#3"}
 			}
 		}
 	],
@@ -166,8 +166,8 @@
 			"scale": [0.25, 0.25, 0.25]
 		},
 		"gui": {
-			"rotation": [30, 225, 0],
-			"scale": [0.625, 0.625, 0.625]
+			"rotation": [23, -45, 0],
+			"scale": [0.53, 0.53, 0.53]
 		},
 		"fixed": {
 			"scale": [0.5, 0.5, 0.5]

@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
 	"textures": {
 		"0": "block/firewood_model",
 		"1": "block/firewood_model_end",
@@ -98,9 +99,9 @@
 			}
 		},
 		{
-			"from": [-3.625, 0, -5.375],
-			"to": [0.875, 4.5, 18.625],
-			"rotation": {"angle": 0, "axis": "y", "origin": [20, 0.75, -4]},
+			"from": [-3.625, 0, -5.475],
+			"to": [0.875, 4.5, 18.525],
+			"rotation": {"angle": 0, "axis": "y", "origin": [20, 0.75, -4.1]},
 			"faces": {
 				"north": {"uv": [4.5, 0, 0, 4.5], "rotation": 180, "texture": "#1"},
 				"east": {"uv": [2, 12, 4.25, 0], "rotation": 90, "texture": "#0"},
