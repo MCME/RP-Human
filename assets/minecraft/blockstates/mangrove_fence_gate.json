@@ -71,11 +71,11 @@
           "open": "true",
           "powered": "false"
         },
-        "apply": [
-			{ "model": "minecraft:block/beam_core", "y": 270 },
-			{ "model": "minecraft:block/beam_core_2", "y": 270 },
-			{ "model": "minecraft:block/beam_core_3", "y": 270 }
-	    ]
+        "apply": { 
+            "model": "block/replace",
+             "uvlock": true 
+        }
+    
       },
       {
         "when": {
@@ -84,11 +84,11 @@
           "open": "true",
           "powered": "false"
         },
-        "apply": [
-			{ "model": "minecraft:block/beam_core" },
-			{ "model": "minecraft:block/beam_core_2" },
-			{ "model": "minecraft:block/beam_core_3" }
-	    ]
+        "apply": { 
+            "model": "block/replace",
+             "uvlock": true,
+              "y":90 
+        }
       },
       {
         "when": {
@@ -97,11 +97,11 @@
           "open": "true",
           "powered": "false"
         },
-        "apply": [
-			{ "model": "minecraft:block/beam_core", "y": 90 },
-			{ "model": "minecraft:block/beam_core_2", "y": 90 },
-			{ "model": "minecraft:block/beam_core_3", "y": 90 }
-	    ]
+        "apply": { 
+            "model": "block/replace",
+             "uvlock": true,
+              "y":180 
+        }
       },
       {
         "when": {
@@ -110,11 +110,11 @@
           "open": "true",
           "powered": "false"
         },
-        "apply": [
-			{ "model": "minecraft:block/beam_core", "y": 180 },
-			{ "model": "minecraft:block/beam_core_2", "y": 180 },
-			{ "model": "minecraft:block/beam_core_3", "y": 180 }
-	    ]
+        "apply": { 
+            "model": "block/replace",
+             "uvlock": true,
+              "y":270
+        }
       },
       {
         "when": {

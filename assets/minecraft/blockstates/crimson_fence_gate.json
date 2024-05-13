@@ -396,11 +396,10 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": [
-	    { "model": "minecraft:block/beam_core_light", "y": 270 },
-	    { "model": "minecraft:block/beam_core_light_2", "y": 270 },
-	    { "model": "minecraft:block/beam_core_light_3", "y": 270 }
-	    ]
+        "apply": {
+          "model": "block/replace",
+          "uvlock": true
+        }
       },
       {
         "when": {
@@ -409,11 +408,11 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": [
-	    { "model": "minecraft:block/beam_core_light" },
-	    { "model": "minecraft:block/beam_core_light_2" },
-	    { "model": "minecraft:block/beam_core_light_3" }
-	    ]
+        "apply": {
+          "model": "block/replace",
+          "uvlock": true,
+          "y": 90
+        }
       },
       {
         "when": {
@@ -422,11 +421,10 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": [
-	    { "model": "minecraft:block/beam_core_light", "y": 90 },
-	    { "model": "minecraft:block/beam_core_light_2", "y": 90 },
-	    { "model": "minecraft:block/beam_core_light_3", "y": 90 }
-	    ]
+        "apply": {
+          "model": "block/replace",
+          "uvlock": true
+        }
       },
       {
         "when": {
@@ -435,11 +433,11 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": [
-	    { "model": "minecraft:block/beam_core_light", "y": 180 },
-	    { "model": "minecraft:block/beam_core_light_2", "y": 180 },
-	    { "model": "minecraft:block/beam_core_light_3", "y": 180 }
-	    ]
+        "apply": {
+          "model": "block/replace",
+          "uvlock": true,
+          "y": 90
+        }
       }
     ]
   }
