@@ -3,9 +3,14 @@
     "type=bottom": {
       "model": "minecraft:block/elm_slab"
     },
-    "type=double": {
-      "model": "minecraft:block/deepslate_tiles"
-    },
+    "type=double": [
+            { "model": "block/double_slab_deepslate_tile" },
+			{ "model": "block/double_slab_deepslate_tile_2" },
+			{ "model": "block/double_slab_deepslate_tile_3" },
+			{ "model": "block/double_slab_deepslate_tile_4" },
+			{ "model": "block/double_slab_deepslate_tile_5" },
+			{ "model": "block/double_slab_deepslate_tile_6" }
+        ],
     "type=top": {
       "model": "minecraft:block/elm_slab_top"
     }
