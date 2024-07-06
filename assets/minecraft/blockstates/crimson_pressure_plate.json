@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "powered=false": [
+		{  "model": "minecraft:block/dead_wood_top_cover" },
+		{  "model": "minecraft:block/dead_wood_top_cover", "y":90 },
+		{  "model": "minecraft:block/dead_wood_top_cover", "y":180 },
+		{  "model": "minecraft:block/dead_wood_top_cover", "y":270 },
+		{  "model": "minecraft:block/dead_wood_top_cover_2" },
+		{  "model": "minecraft:block/dead_wood_top_cover_2", "y":90 },
+		{  "model": "minecraft:block/dead_wood_top_cover_2", "y":180 },
+		{  "model": "minecraft:block/dead_wood_top_cover_2", "y":270 }
+		],
+    "powered=true": { "model" : "block/replace", "y":90 }
+  }
+}

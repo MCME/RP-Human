@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "lit=false": [
+      {"model": "block/dead_log_horizontal"},
+	  {"model": "block/dead_log_horizontal", "y": 180},
+	  {"model": "block/dead_log_horizontal_2"},
+	  {"model": "block/dead_log_horizontal_2", "y": 180}
+  ],
+    "lit=true": {
+      "model": "minecraft:block/pink_candle_cake_lit"
+    }
+  }
+}
