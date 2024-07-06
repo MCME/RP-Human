@@ -289,10 +289,13 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true
-        }
+        "apply": [
+		{ "model": "block/vertical_slab_putrid_log", "y": 180},
+		{ "model": "block/vertical_slab_putrid_log_2", "y": 180},
+		{ "model": "block/vertical_slab_putrid_log_3", "y": 180},
+		{ "model": "block/vertical_slab_putrid_log_4", "y": 180},
+		{ "model": "block/vertical_slab_putrid_log_5", "y": 180}
+		]
       },
       {
         "when": {
@@ -301,11 +304,13 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 90
-        }
+        "apply": [
+		{ "model": "block/vertical_slab_putrid_log", "y": 270},
+		{ "model": "block/vertical_slab_putrid_log_2", "y": 270},
+		{ "model": "block/vertical_slab_putrid_log_3", "y": 270},
+		{ "model": "block/vertical_slab_putrid_log_4", "y": 270},
+		{ "model": "block/vertical_slab_putrid_log_5", "y": 270}
+		]
       },
       {
         "when": {
@@ -314,10 +319,13 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true
-        }
+        "apply": [
+		{ "model": "block/vertical_slab_putrid_log"},
+		{ "model": "block/vertical_slab_putrid_log_2"},
+		{ "model": "block/vertical_slab_putrid_log_3"},
+		{ "model": "block/vertical_slab_putrid_log_4"},
+		{ "model": "block/vertical_slab_putrid_log_5"}
+		]
       },
       {
         "when": {
@@ -326,11 +334,13 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 90
-        }
+        "apply": [
+		{ "model": "block/vertical_slab_putrid_log", "y": 90},
+		{ "model": "block/vertical_slab_putrid_log_2", "y": 90},
+		{ "model": "block/vertical_slab_putrid_log_3", "y": 90},
+		{ "model": "block/vertical_slab_putrid_log_4", "y": 90},
+		{ "model": "block/vertical_slab_putrid_log_5", "y": 90}
+		]
       },
       {
         "when": {

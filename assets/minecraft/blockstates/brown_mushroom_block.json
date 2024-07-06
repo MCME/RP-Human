@@ -595,6 +595,16 @@
       {
         "model": "block/brown_mushroom_block_sd"
       }
+    ]},
+	{ "when": {"north": false, "west": false, "south": true, "east": false, "up": false, "down": false },
+      "apply": [
+      
+		{ "model": "minecraft:block/putrid_log" },
+		{ "model": "minecraft:block/putrid_log_2" },
+		{ "model": "minecraft:block/putrid_log_3" },
+		{ "model": "minecraft:block/putrid_log_4" },
+		{ "model": "minecraft:block/putrid_log_5" }
+		
     ]}
 	
   ]

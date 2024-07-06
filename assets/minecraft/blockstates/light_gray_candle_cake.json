@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "lit=false": [
+      {"model": "block/putrid_log_horizontal"},
+	  {"model": "block/putrid_log_horizontal", "y": 180},
+	  {"model": "block/putrid_log_horizontal_2"},
+	  {"model": "block/putrid_log_horizontal_2", "y": 180}
+  ],
+    "lit=true": {
+      "model": "minecraft:block/light_gray_candle_cake_lit"
+    }
+  }
+}
