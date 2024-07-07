@@ -7,6 +7,17 @@
       { "model": "block/medium_jungle_log_pillar", "y": 180 },
       { "model": "block/medium_jungle_log_pillar", "y": 270 }
 	  ]},
+  {"when": { "up": "true", "north": "none", "east": "none", "south": "none", "west": "none" },
+      "apply": [
+	  { "model": "block/burnt_tree_trunk" },
+      { "model": "block/burnt_tree_trunk", "y": 90 },
+      { "model": "block/burnt_tree_trunk", "y": 180 },
+      { "model": "block/burnt_tree_trunk", "y": 270 },
+	  { "model": "block/burnt_tree_trunk_2" },
+      { "model": "block/burnt_tree_trunk_2", "y": 90 },
+      { "model": "block/burnt_tree_trunk_2", "y": 180 },
+      { "model": "block/burnt_tree_trunk_2", "y": 270 }
+	  ]},
     {"when": { "up": "false", "north": "low", "east": "none", "south": "none", "west": "low" },
       "apply": [
 			{ "model": "minecraft:block/birch_planks_side_stairs", "y": 90 },

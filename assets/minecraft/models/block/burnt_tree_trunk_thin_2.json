@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/burnt_trunk_model_2",
+		"particle": "block/burnt_trunk_model_2"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 16, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 12, 16, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 1, 16, 5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [16, 12, 0, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [16, 1, 0, 5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [10, 8, 14, 12], "texture": "#0"},
+				"down": {"uv": [3.5, 9, 7.5, 13], "texture": "#0"}
+			}
+		}
+	]
+}
