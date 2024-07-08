@@ -1,8 +1,10 @@
 {
     "variants": {
-        "sculk_sensor_phase=active,power=1": {
-            "model": "minecraft:block/replace_slab"
-        },
+        "sculk_sensor_phase=active,power=1": [
+		{  "model": "minecraft:block/dry_mud_slab" },
+		{  "model": "minecraft:block/dry_mud_slab_2" },
+		{  "model": "minecraft:block/dry_mud_slab_3" }
+		],
 		"sculk_sensor_phase=active,power=0": [
 		{  "model": "minecraft:block/dark_mud_slab" },
 		{  "model": "minecraft:block/dark_mud_slab_2" },
