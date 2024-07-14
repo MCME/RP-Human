@@ -12,8 +12,13 @@
 	"type=top,waterlogged=true": [ {"model": "itemblock/upper_slab_double_slab_planks_dark_oak"} 
 	],
 	"type=double,waterlogged=false": [
-            { "model": "block/unused_block_0" }
-    ],
+            { "model": "block/double_slab_dark_prismarine_1" },
+			{ "model": "block/double_slab_dark_prismarine_2" },
+			{ "model": "block/double_slab_dark_prismarine_3" },
+			{ "model": "block/double_slab_dark_prismarine_4" },
+			{ "model": "block/double_slab_dark_prismarine_5" },
+			{ "model": "block/double_slab_dark_prismarine_6" }
+        ],
 	"type=double,waterlogged=true": [
             { "model": "block/double_slab_dark_prismarine" }
         ]
