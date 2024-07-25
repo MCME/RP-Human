@@ -160,10 +160,13 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/birch_fence_gate_wall_open",
-        "uvlock": true
-      }
+      "apply": [
+        { "model": "block/vertical_slab_loam", "uvlock": true },
+        { "model": "block/vertical_slab_loam_2", "uvlock": true },
+        { "model": "block/vertical_slab_loam_3", "uvlock": true },
+        { "model": "block/vertical_slab_loam_4", "uvlock": true },
+        { "model": "block/vertical_slab_loam_5", "uvlock": true }
+      ]
     },
     {
       "when": {
@@ -172,11 +175,13 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/birch_fence_gate_wall_open",
-        "uvlock": true,
-        "y": 90
-      }
+      "apply": [
+        { "model": "block/vertical_slab_loam", "uvlock": true, "y": 90 },
+        { "model": "block/vertical_slab_loam_2", "uvlock": true, "y": 90 },
+        { "model": "block/vertical_slab_loam_3", "uvlock": true, "y": 90 },
+        { "model": "block/vertical_slab_loam_4", "uvlock": true, "y": 90 },
+        { "model": "block/vertical_slab_loam_5", "uvlock": true, "y": 90 }
+      ]
     },
     {
       "when": {
@@ -185,11 +190,13 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/birch_fence_gate_wall_open",
-        "uvlock": true,
-        "y": 180
-      }
+      "apply": [
+        { "model": "block/vertical_slab_loam", "uvlock": true, "y": 180 },
+        { "model": "block/vertical_slab_loam_2", "uvlock": true, "y": 180 },
+        { "model": "block/vertical_slab_loam_3", "uvlock": true, "y": 180 },
+        { "model": "block/vertical_slab_loam_4", "uvlock": true, "y": 180 },
+        { "model": "block/vertical_slab_loam_5", "uvlock": true, "y": 180 }
+      ]
     },
     {
       "when": {
@@ -198,11 +205,13 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/birch_fence_gate_wall_open",
-        "uvlock": true,
-        "y": 270
-      }
+      "apply": [
+        { "model": "block/vertical_slab_loam", "uvlock": true, "y": 270 },
+        { "model": "block/vertical_slab_loam_2", "uvlock": true, "y": 270 },
+        { "model": "block/vertical_slab_loam_3", "uvlock": true, "y": 270 },
+        { "model": "block/vertical_slab_loam_4", "uvlock": true, "y": 270 },
+        { "model": "block/vertical_slab_loam_5", "uvlock": true, "y": 270 }
+      ]
     },
     {
       "when": {
