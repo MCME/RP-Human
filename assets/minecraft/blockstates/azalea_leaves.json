@@ -61,7 +61,26 @@
 		{ "model": "mcme:block/linden_leaves_yellowish_3" },
 		{ "model": "mcme:block/linden_leaves_yellowish_4" },
 		{ "model": "mcme:block/linden_leaves_yellowish_5" }
+		],
+	"distance=2,persistent=true":[
+		{ "model": "mcme:block/pine_leaves_dark" },
+		{ "model": "mcme:block/pine_leaves_dark", "y": 90 },
+		{ "model": "mcme:block/pine_leaves_dark", "y": 180 },
+		{ "model": "mcme:block/pine_leaves_dark", "y": 270 },
+		{ "model": "mcme:block/pine_leaves_dark_2" },
+		{ "model": "mcme:block/pine_leaves_dark_2", "y": 90 },
+		{ "model": "mcme:block/pine_leaves_dark_2", "y": 180 },
+		{ "model": "mcme:block/pine_leaves_dark_2", "y": 270 }
+		],
+	"distance=3,persistent=true":[
+		{ "model": "mcme:block/pine_leaves_brown" },
+		{ "model": "mcme:block/pine_leaves_brown", "y": 90 },
+		{ "model": "mcme:block/pine_leaves_brown", "y": 180 },
+		{ "model": "mcme:block/pine_leaves_brown", "y": 270 },
+		{ "model": "mcme:block/pine_leaves_brown_2" },
+		{ "model": "mcme:block/pine_leaves_brown_2", "y": 90 },
+		{ "model": "mcme:block/pine_leaves_brown_2", "y": 180 },
+		{ "model": "mcme:block/pine_leaves_brown_2", "y": 270 }
 		]
-		
   }
 }

@@ -196,21 +196,26 @@
       "model": "minecraft:block/spruce_bark_vertical_thin_slab",
       "y": 180
     },
-    "facing=north,half=upper,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/crimson_door_1x3arch_sandstone",
-      "y": 270
-    },
-    "facing=east,half=upper,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/crimson_door_1x3arch_sandstone"
-    },
-    "facing=south,half=upper,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/crimson_door_1x3arch_sandstone",
-      "y": 90
-    },
-    "facing=west,half=upper,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/crimson_door_1x3arch_sandstone",
-      "y": 180
-    },
+    "facing=north,half=upper,hinge=left,open=true,powered=true": [
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab", "y": 270},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_2", "y": 270},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_3", "y": 270}
+	],
+    "facing=east,half=upper,hinge=left,open=true,powered=true": [
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab" },
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_2" },
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_3" }
+	],
+    "facing=south,half=upper,hinge=left,open=true,powered=true": [
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab", "y": 90},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_2", "y": 90},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_3", "y": 90}
+	],
+    "facing=west,half=upper,hinge=left,open=true,powered=true": [
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab", "y": 180},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_2", "y": 180},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_3", "y": 180}
+	],
 	"facing=north,half=upper,hinge=right,open=false,powered=true": [
 		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab", "y": 180},
 		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_2", "y": 180},
