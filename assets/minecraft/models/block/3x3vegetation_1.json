@@ -1,5 +1,7 @@
 {
+	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
+	"texture_size": [32, 32],
 	"textures": {
 		"particle": "#0"
 	},
@@ -48,11 +50,9 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 0, 0],
 			"scale": [0.41, 0.41, 0.41]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 0, 0],
 			"scale": [0.41, 0.41, 0.41]
 		},
 		"firstperson_righthand": {
