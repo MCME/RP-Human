@@ -62,17 +62,13 @@
       "x": 180,
       "y": 0
     },
-    "facing=west,half=bottom,open=false": [
+    "facing=west,half=bottom,open=false,powered=false": [
 	{ "model": "mcme:block/pine_leaves_slab"},
 	{ "model": "mcme:block/pine_leaves_slab", "y": 90},
 	{ "model": "mcme:block/pine_leaves_slab", "y": 180},
 	{ "model": "mcme:block/pine_leaves_slab", "y": 270}
-	  ],
-    "facing=west,half=bottom,open=true": {
-      "model": "minecraft:block/crimson_trapdoor_open",
-      "y": 270
-    },
-    "facing=west,half=top,open=false": [
+	],
+    "facing=west,half=top,open=false,powered=false": [
 	{ "model": "mcme:block/pine_leaves_slab_upper"},
 	{ "model": "mcme:block/pine_leaves_slab_upper", "y": 90},
 	{ "model": "mcme:block/pine_leaves_slab_upper", "y": 180},
@@ -89,28 +85,28 @@
 		{ "model": "block/trapdoor_putrid_log_open_3", "y":270},
 		{ "model": "block/trapdoor_putrid_log_open_4", "y":270},
 		{ "model": "block/trapdoor_putrid_log_open_5", "y":270}
-		],
+	],
 	"facing=south,half=bottom,open=true": [
 		{ "model": "block/trapdoor_putrid_log_open", "y": 180},
 		{ "model": "block/trapdoor_putrid_log_open_2", "y": 180},
 		{ "model": "block/trapdoor_putrid_log_open_3", "y": 180},
 		{ "model": "block/trapdoor_putrid_log_open_4", "y": 180},
 		{ "model": "block/trapdoor_putrid_log_open_5", "y": 180}
-		],
+	],
 	"facing=north,half=bottom,open=true": [
 		{ "model": "block/trapdoor_putrid_log_open"},
 		{ "model": "block/trapdoor_putrid_log_open_2"},
 		{ "model": "block/trapdoor_putrid_log_open_3"},
 		{ "model": "block/trapdoor_putrid_log_open_4"},
 		{ "model": "block/trapdoor_putrid_log_open_5"}
-		],
+	],
 	"facing=east,half=bottom,open=true": [
 		{ "model": "block/trapdoor_putrid_log_open", "y":90 },
 		{ "model": "block/trapdoor_putrid_log_open_2", "y":90},
 		{ "model": "block/trapdoor_putrid_log_open_3", "y":90},
 		{ "model": "block/trapdoor_putrid_log_open_4", "y":90},
 		{ "model": "block/trapdoor_putrid_log_open_5", "y":90}
-		],
+  ],
     "facing=north,half=bottom,open=false,powered=true": [
 	{ "model": "mcme:block/chestnut_leaves_slab" },
 	{ "model": "mcme:block/chestnut_leaves_slab", "y": 90 },
