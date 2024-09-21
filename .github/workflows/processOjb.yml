@@ -12,8 +12,8 @@ jobs:
         run: |
           python3 -m venv venv
           source venv/bin/activate
-          pip install pyyaml
-          pip install Pillow
+          pip3 install pyyaml
+          pip3 install Pillow
 
       - name: Checkout repository main branch
         uses: actions/checkout@v4
