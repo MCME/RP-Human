@@ -1,0 +1,68 @@
+name: Process .obj files and push .png output to 'Ausgabe' branch
+on:
+  push:
+    branch: none
+jobs:
+  process_obj_files:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Set up Python environment
+        run: |
+          python3 -m venv venv
+          source venv/bin/activate
+          pip install pyyaml
+
+      - name: Checkout repository main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main # Versuche den 'Ausgabe' Branch zu laden, falls vorhanden
+          path: sodium
+          fetch-depth: 0 # Holt die gesamte Historie
+      - name: Checkout repository ausgabe branch
+        uses: actions/checkout@v4
+        with:
+          ref: Ausgabe # Versuche den 'Ausgabe' Branch zu laden, falls vorhanden
+          path: vanilla
+          fetch-depth: 0 # Holt die gesamte Historie
+      - name: Clone additional repository 'objmc'
+        run: |
+          git clone https://github.com/EriolEandur/objmc.git objmc
+          cd objmc
+          git checkout master
+          ls *
+      - name: Get list of changed files
+        id: changed_files
+        run: |
+          # Vergleicht den letzten Commit mit dem vorherigen und listet die geänderten Dateien auf
+          #git diff --name-only ${{ github.event.before }} ${{ github.sha }} > changed_files.txt
+          #git diff-tree --no-commit-id --name-only -r ${{ github.sha }} > changed_files.txt
+          #git diff --name-status ${{ github.event.before }} ${{ github.sha }} > changed_files.txt
+          cd sodium
+          git diff-tree --no-commit-id --name-status -r ${{ github.sha }} > ../changed_files.txt
+
+      - name: Display changed files
+        run: |
+          ls *
+          echo "The following files have changed:"
+          cat changed_files.txt
+      - name: Run Python script to generate vanilla RP files
+        run: python3 objmc/generate_vanilla.py
+      - name: set user
+        run: |
+          git config --global user.name "EriolEandur"
+          git config --global user.email "erioleandur@users.noreply.github.com"
+      - name: Add .png files to 'Ausgabe' branch and push
+        run: |
+          # Fügt die generierten .png-Dateien hinzu
+          cd vanilla
+          if ls **/*.png 1> /dev/null 2>&1; then
+            git add **/*.png
+            git commit -m "Added generated .png files from all directories"
+            git add changed_files.txt
+            git commit -m "Added generated .png files for changed .obj files"
+            git push origin Ausgabe
+          else
+            echo "No .png files to add."
+          fi
