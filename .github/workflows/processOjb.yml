@@ -69,6 +69,7 @@ jobs:
           else
             echo "No .json files to add."
           fi
+          echo "Commit after .json check: $commit"
           if [ "$commit" -eq 1 ]; then
             git commit -m "Added generated .png and .json files for changed .obj files"
             git push origin dev/generate-vanilla
