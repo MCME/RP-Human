@@ -55,21 +55,17 @@ jobs:
         run: |
           # Adds generated .png- und .json files
           cd vanilla
-          #commit=0
           shopt -s globstar
           if ls **/*.png 1> /dev/null 2>&1; then
             git add **/*.png
-            #commit=1
           else
             echo "No .png files to add."
           fi
           if ls **/*.json 1> /dev/null 2>&1; then
             git add **/*.json
-            #commit=1
           else
             echo "No .json files to add."
           fi
-          #echo "Commit after .json check: $commit"
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit."
           else
@@ -77,9 +73,3 @@ jobs:
             git commit -m "Added generated .png and .json files for changed .obj files"
             git push origin dev/generate-vanilla
           fi
-          #if [ "$commit" -eq 1 ]; then
-          #  git commit -m "Added generated .png and .json files for changed .obj files"
-          #  git push origin dev/generate-vanilla
-          #else
-          #  echo "Nothing to commit."
-          #fi
