@@ -1,7 +1,7 @@
 name: Process .obj files and push .png output to 'Ausgabe' branch
 on:
   push:
-    branches: dev/generate-vanilla
+    branches: development-sodium
 jobs:
   process_obj_files:
     runs-on: ubuntu-latest
