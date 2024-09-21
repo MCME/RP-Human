@@ -51,20 +51,33 @@ jobs:
           python -c "from PIL import Image"
           python3 -c "from PIL import Image"
           python3 objmc/generate_vanilla.py
+          ls vanilla/assets/minecraft/textures/block/apple_leaves*.png
+          ls vanilla/assets/minecraft/models/block/apple_leaves*.json
       - name: set user
         run: |
           git config --global user.name "EriolEandur"
           git config --global user.email "erioleandur@users.noreply.github.com"
       - name: Add .png files to 'dev/generate-vanilla' branch and push
         run: |
-          # Fügt die generierten .png-Dateien hinzu
+          # Fügt die generierten .png- und .json-Dateien hinzu
           cd vanilla
+          commit=0
           if ls **/*.png 1> /dev/null 2>&1; then
             git add **/*.png
-            git commit -m "Added generated .png files from all directories"
-            git add changed_files.txt
-            git commit -m "Added generated .png files for changed .obj files"
-            git push origin dev/generate-vanilla
+            commit=1
           else
             echo "No .png files to add."
           fi
+          if ls **/*.json 1> /dev/null 2>&1; then
+            git add **/*.json
+            commit=1
+          else
+            echo "No .png files to add."
+          fi
+          if [ "$commit" -eq 1 ]; then
+            git commit -m "Added generated .png and .json files for changed .obj files"
+            git push origin dev/generate-vanilla
+          else
+            echo "Nothing to commit."
+          fi
+
