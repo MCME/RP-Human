@@ -8,13 +8,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Set up Python environment
-        run: |
-          python3 -m venv venv
-          source venv/bin/activate
-          pip3 install pyyaml
-          pip3 install Pillow
-
       - name: Checkout repository main branch
         uses: actions/checkout@v4
         with:
@@ -50,6 +43,10 @@ jobs:
           cat changed_files.txt
       - name: Run Python script to generate vanilla RP files
         run: |
+          python3 -m venv venv
+          source venv/bin/activate
+          pip3 install pyyaml
+          pip3 install Pillow
           python -c "from PIL import Image"
           python3 -c "from PIL import Image"
           python3 objmc/generate_vanilla.py
