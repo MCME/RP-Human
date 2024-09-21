@@ -1,4 +1,4 @@
-name: Process .obj files and push .png output to 'Ausgabe' branch
+name: Process .obj files and push .png output to 'dev/generate-vanilla' branch
 on:
   push:
     branches: development-sodium
@@ -8,37 +8,31 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout repository main branch
+      - name: Checkout repository development-sodium branch
         uses: actions/checkout@v4
         with:
-          ref: development-sodium # Versuche den 'development-sodium' Branch zu laden, falls vorhanden
+          ref: development-sodium 
           path: sodium
-          fetch-depth: 0 # Holt die gesamte Historie
-      - name: Checkout repository ausgabe branch
+          fetch-depth: 0 # Fetch full history
+      - name: Checkout repository dev/generate-vanilla branch
         uses: actions/checkout@v4
         with:
-          ref: dev/generate-vanilla # Versuche den 'dev/generate-vanilla' Branch zu laden, falls vorhanden
+          ref: dev/generate-vanilla 
           path: vanilla
-          fetch-depth: 0 # Holt die gesamte Historie
+          fetch-depth: 0 
       - name: Clone additional repository 'objmc'
         run: |
           git clone https://github.com/EriolEandur/objmc.git objmc
           cd objmc
           git checkout master
-          ls *
       - name: Get list of changed files
         id: changed_files
         run: |
-          # Vergleicht den letzten Commit mit dem vorherigen und listet die geänderten Dateien auf
-          #git diff --name-only ${{ github.event.before }} ${{ github.sha }} > changed_files.txt
-          #git diff-tree --no-commit-id --name-only -r ${{ github.sha }} > changed_files.txt
-          #git diff --name-status ${{ github.event.before }} ${{ github.sha }} > changed_files.txt
           cd sodium
           git diff-tree --no-commit-id --name-status -r ${{ github.sha }} > ../changed_files.txt
 
       - name: Display changed files
         run: |
-          ls *
           echo "The following files have changed:"
           cat changed_files.txt
       - name: Run Python script to generate vanilla RP files
@@ -59,12 +53,10 @@ jobs:
           git config --global user.email "erioleandur@users.noreply.github.com"
       - name: Add .png files to 'dev/generate-vanilla' branch and push
         run: |
-          # Fügt die generierten .png- und .json-Dateien hinzu
+          # Adds generated .png- und .json files
           cd vanilla
           commit=0
           shopt -s globstar
-          echo "png Files with globstar: "
-          ls **/*.png
           if ls **/*.png 1> /dev/null 2>&1; then
             git add **/*.png
             commit=1
@@ -83,4 +75,3 @@ jobs:
           else
             echo "Nothing to commit."
           fi
-
