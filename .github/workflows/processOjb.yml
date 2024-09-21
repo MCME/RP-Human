@@ -62,10 +62,6 @@ jobs:
           # Fügt die generierten .png- und .json-Dateien hinzu
           cd vanilla
           commit=0
-          echo "All files:"
-          ls
-          echo "png Files without globstar: "
-          ls **/*.png
           shopt -s globstar
           echo "png Files with globstar: "
           ls **/*.png
