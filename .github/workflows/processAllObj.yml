@@ -1,0 +1,74 @@
+name: Process all (not just changed) .obj files and push .png output to 'dev/generate-vanilla' branch
+on:
+  workflow_dispatch:
+jobs:
+  process_obj_files:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository development-sodium branch
+        uses: actions/checkout@v4
+        with:
+          ref: development-sodium 
+          path: sodium
+          fetch-depth: 0 # Fetch full history
+      - name: Checkout repository dev/generate-vanilla branch
+        uses: actions/checkout@v4
+        with:
+          ref: dev/generate-vanilla 
+          path: vanilla
+          fetch-depth: 0 
+      - name: Clone additional repository 'objmc'
+        run: |
+          git clone https://github.com/EriolEandur/objmc.git objmc
+          cd objmc
+          git checkout master
+      - name: Get list of changed files
+        id: changed_files
+        run: |
+          cd sodium
+          git diff-tree --no-commit-id --name-status -r ${{ github.sha }} > ../changed_files.txt
+
+      - name: Display changed files
+        run: |
+          echo "The following files have changed:"
+          cat changed_files.txt
+      - name: Run Python script to generate vanilla RP files
+        run: |
+          sudo apt-get install python3-tk
+          python3 -m venv venv
+          source venv/bin/activate
+          pip3 install pyyaml
+          pip3 install Pillow
+          python -c "from PIL import Image"
+          python3 -c "from PIL import Image"
+          python3 objmc/generate_vanilla.py sodium vanilla --debug
+          ls vanilla/assets/minecraft/textures/block/apple_leaves*.png
+          ls vanilla/assets/minecraft/models/block/apple_leaves*.json
+      - name: set user
+        run: |
+          git config --global user.name "EriolEandur"
+          git config --global user.email "erioleandur@users.noreply.github.com"
+      - name: Add .png files to 'dev/generate-vanilla' branch and push
+        run: |
+          # Adds generated .png- und .json files
+          cd vanilla
+          shopt -s globstar
+          if ls **/*.png 1> /dev/null 2>&1; then
+            git add **/*.png
+          else
+            echo "No .png files to add."
+          fi
+          if ls **/*.json 1> /dev/null 2>&1; then
+            git add **/*.json
+          else
+            echo "No .json files to add."
+          fi
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit."
+          else
+            echo "There are changes to commit."
+            git commit -m "Added generated .png and .json files for changed .obj files"
+            git push origin dev/generate-vanilla
+          fi
