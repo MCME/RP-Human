@@ -44,7 +44,7 @@ jobs:
           pip3 install Pillow
           python -c "from PIL import Image"
           python3 -c "from PIL import Image"
-          python3 objmc/generate_vanilla.py
+          python3 objmc/generate_vanilla.py sodium vanilla --changes changed_files.txt --debug
           ls vanilla/assets/minecraft/textures/block/apple_leaves*.png
           ls vanilla/assets/minecraft/models/block/apple_leaves*.json
       - name: set user
