@@ -1,6 +1,7 @@
 name: Process all (not just changed) .obj files and push .png output to 'dev/generate-vanilla' branch
 on:
   workflow_dispatch:
+  
 jobs:
   process_obj_files:
     runs-on: ubuntu-latest
