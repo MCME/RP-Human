@@ -18,13 +18,21 @@
         "facing=west,half=top,open=true,powered=false": { "model": "block/trapdoor_cracked_large_white_brick_open", "y": 270 },
 		
         "facing=north,half=bottom,open=false,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_bottom" },
-        "facing=south,half=bottom,open=false,powered=true": { "model": "block/unused_cross_0" },
         "facing=east,half=bottom,open=false,powered=true": { "model": "block/trapdoor_smooth_white_stone_bottom" },
-        "facing=west,half=bottom,open=false,powered=true": { "model": "block/unused_cross_0" },
+        "facing=west,half=bottom,open=false,powered=true": [
+		  { "model": "mcme:block/pine_leaves_dark_slab"},
+		  { "model": "mcme:block/pine_leaves_dark_slab_1_2"},
+		  { "model": "mcme:block/pine_leaves_dark_slab_1_3"},
+		  { "model": "mcme:block/pine_leaves_dark_slab_1_4"}
+		],
         "facing=north,half=top,open=false,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_top" },
-        "facing=south,half=top,open=false,powered=true": { "model": "block/unused_cross_0" },
         "facing=east,half=top,open=false,powered=true": { "model": "block/trapdoor_smooth_white_stone_top" },
-        "facing=west,half=top,open=false,powered=true": { "model": "block/unused_cross_0" },
+        "facing=west,half=top,open=false,powered=true": [
+		  { "model": "mcme:block/pine_leaves_dark_slab_upper"},
+		  { "model": "mcme:block/pine_leaves_dark_slab_upper_1_2"},
+		  { "model": "mcme:block/pine_leaves_dark_slab_upper_1_3"},
+		  { "model": "mcme:block/pine_leaves_dark_slab_upper_1_4"}
+		],
         "facing=north,half=bottom,open=true,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_open" },
         "facing=south,half=bottom,open=true,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_open", "y": 180 },
         "facing=east,half=bottom,open=true,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_open", "y": 90 },
