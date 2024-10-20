@@ -1,18 +1,21 @@
 {
-  "parent": "block/3x3vegetation_tintless",
+  "parent": "block/3x3x3vegetation_tintless",
   "textures": {
-    "0": "block/sapling_dark_oak_stage0_2",
-	"1": "block/sapling_dark_oak_stage0",
-	"2": "block/sapling_dark_oak_stage0_2",
-	"3": "block/sapling_dark_oak_stage0"
-	
+    "1": "block/sapling_dark_oak_stage0_2",
+	"2": "block/sapling_dark_oak_stage0",
+	"3": "block/sapling_dark_oak_stage0_2",
+	"4": "block/sapling_dark_oak_stage0",
+    "5": "block/sapling_dark_oak_stage0_2",
+	"6": "block/sapling_dark_oak_stage0",
+	"7": "block/sapling_dark_oak_stage0_2",
+	"8": "block/sapling_dark_oak_stage0"
   },
 	"gui_light": "front",
 	"display": {
 		"gui": {
 			"rotation": [0, -115, 0],
-			"translation": [0, 2.25, 0],
-			"scale": [1, 1, 1]
+			"translation": [0, 1.25, 0],
+			"scale": [0.5, 0.5, 0.5]
 		}
 	}
 }
