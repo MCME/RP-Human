@@ -1,9 +1,16 @@
 {
-    "parent": "block/3x3vegetation_tintless",
-    "textures": {
+	"credit": "Made with Blockbench",
+	"parent": "block/3x3vegetation_tintless",
+	"textures": {
         "0": "block/invisible",
 		"1": "block/invisible",
 		"2": "block/rail_thin_shrub",
 		"3": "block/rail_thin_shrub_2"
-    }
+	},
+	"display": {
+		"gui": {
+			"translation": [0, 2, 0],
+			"scale": [0.35, 0.35, 0.35]
+		}
+	}
 }
