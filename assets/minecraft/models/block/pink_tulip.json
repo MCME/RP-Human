@@ -1,5 +1,5 @@
 {
-  "parent": "block/3x3x3vegetation_tintless_1",
+  "parent": "block/3x3x3vegetation_tintless",
   "textures": {
 		"1": "block/pink_tulip_4",
 		"2": "block/pink_tulip_4",
@@ -9,5 +9,12 @@
 		"6": "block/pink_tulip_4",
 		"7": "block/pink_tulip_5",
 		"8": "block/pink_tulip_5"
-  }
+  },
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"translation": [0, 1, 0],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	}
 }
