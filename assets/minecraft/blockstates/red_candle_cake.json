@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "lit=false": [
+      {"model": "mcme:block/putrid_log_diagonal"},
+	  {"model": "mcme:block/putrid_log_diagonal_1_3"},
+	  {"model": "mcme:block/putrid_log_diagonal_2"},
+	  {"model": "mcme:block/putrid_log_diagonal_2_3"}
+  ],
+    "lit=true": {
+      "model": "minecraft:block/red_candle_cake_lit"
+    }
+  }
+}
