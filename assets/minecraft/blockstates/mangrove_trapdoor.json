@@ -11,6 +11,42 @@
 	  {"model": "mcme:block/ash_leaves_yellowish_slab_upper", "y": 90},
 	  {"model": "mcme:block/ash_leaves_yellowish_slab_upper", "y": 180},
 	  {"model": "mcme:block/ash_leaves_yellowish_slab_upper", "y": 270}
+	],
+    "facing=east,half=bottom,open=false,powered=false": [
+	  {"model": "mcme:block/pine_leaves_green_slab"},
+	  {"model": "mcme:block/pine_leaves_green_slab", "y": 90},
+	  {"model": "mcme:block/pine_leaves_green_slab", "y": 180},
+	  {"model": "mcme:block/pine_leaves_green_slab", "y": 270}
+	],
+    "facing=east,half=top,open=false,powered=false": [
+	  {"model": "mcme:block/pine_leaves_green_slab_upper"},
+	  {"model": "mcme:block/pine_leaves_green_slab_upper", "y": 90},
+	  {"model": "mcme:block/pine_leaves_green_slab_upper", "y": 180},
+	  {"model": "mcme:block/pine_leaves_green_slab_upper", "y": 270}
+	],
+    "facing=south,half=bottom,open=false,powered=false": [
+	  {"model": "mcme:block/pine_leaves_yellow_slab"},
+	  {"model": "mcme:block/pine_leaves_yellow_slab", "y": 90},
+	  {"model": "mcme:block/pine_leaves_yellow_slab", "y": 180},
+	  {"model": "mcme:block/pine_leaves_yellow_slab", "y": 270}
+	],
+    "facing=south,half=top,open=false,powered=false": [
+	  {"model": "mcme:block/pine_leaves_yellow_slab_upper"},
+	  {"model": "mcme:block/pine_leaves_yellow_slab_upper", "y": 90},
+	  {"model": "mcme:block/pine_leaves_yellow_slab_upper", "y": 180},
+	  {"model": "mcme:block/pine_leaves_yellow_slab_upper", "y": 270}
+	],
+	"facing=west,half=bottom,open=false,powered=false": [
+	{ "model": "mcme:block/pine_leaves_brown_slab"},
+	{ "model": "mcme:block/pine_leaves_brown_slab", "y": 90},
+	{ "model": "mcme:block/pine_leaves_brown_slab", "y": 180},
+	{ "model": "mcme:block/pine_leaves_brown_slab", "y": 270}
+	],
+	"facing=west,half=top,open=false,powered=false": [
+	{ "model": "mcme:block/pine_leaves_brown_slab_upper"},
+	{ "model": "mcme:block/pine_leaves_brown_slab_upper", "y": 90},
+	{ "model": "mcme:block/pine_leaves_brown_slab_upper", "y": 180},
+	{ "model": "mcme:block/pine_leaves_brown_slab_upper", "y": 270}
 	]
   }
 }

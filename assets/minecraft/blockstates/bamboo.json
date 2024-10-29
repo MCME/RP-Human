@@ -1,7 +1,7 @@
 {
   "variants": {
 	"age=1,leaves=none,stage=0": [
-    { "model": "block/bamboo1_age0"},
+      { "model": "block/bamboo1_age0"},
 	  { "model": "block/bamboo1_age0_2"},
 	  { "model": "block/bamboo1_age0_3"}
 	  ],
@@ -51,6 +51,16 @@
 	  { "model": "mcme:block/larch_large_sapling_4", "y": 90 },
 	  { "model": "mcme:block/larch_large_sapling_4", "y": 180 },
 	  { "model": "mcme:block/larch_large_sapling_4", "y": 270 }
+	  ],
+	  "age=1,leaves=large,stage=0": [
+      { "model": "mcme:block/putrid_stump" },
+      { "model": "mcme:block/putrid_stump", "y": 90 },
+      { "model": "mcme:block/putrid_stump", "y": 180 },
+      { "model": "mcme:block/putrid_stump", "y": 270 },
+      { "model": "mcme:block/putrid_stump" },
+      { "model": "mcme:block/putrid_stump_2", "y": 90 },
+      { "model": "mcme:block/putrid_stump_2", "y": 180 },
+      { "model": "mcme:block/putrid_stump_2", "y": 270 }
 	  ]
  }
 }

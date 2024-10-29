@@ -1,5 +1,21 @@
 {
   "variants": {
+	"berries=false,age=22": [
+	{ "model": "mcme:block/burnt_branches" },
+	{ "model": "mcme:block/burnt_branches_2" }
+	],
+	"berries=false,age=23": [
+	{ "model": "mcme:block/burnt_branches", "y":90 },
+	{ "model": "mcme:block/burnt_branches_2", "y":90 }
+	],
+	"berries=false,age=24": [
+	{ "model": "mcme:block/burnt_branches", "y":180 },
+	{ "model": "mcme:block/burnt_branches_2", "y":180 }
+	],
+	"berries=false,age=25": [
+	{ "model": "mcme:block/burnt_branches", "y":270 },
+	{ "model": "mcme:block/burnt_branches_2", "y":270 }
+	],
 	"berries=false,age=9": [
 	{ "model": "block/fish_1" },
 	{ "model": "block/fish_2" },

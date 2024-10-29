@@ -1,0 +1,18 @@
+{
+  "parent": "special-model-loader:builtin/obj",
+  "flip_v": true,
+  "model": "mcme:models/block/pine_leaves_brown_vertical_slab.obj",
+  "ambientocclusion": "false",
+	"gui_light": "front",
+	"display": {
+		"firstperson_righthand": {
+			"translation": [3.5, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	}
+}
