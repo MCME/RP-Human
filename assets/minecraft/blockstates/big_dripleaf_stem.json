@@ -22,9 +22,28 @@
 	  { "model": "block/stool_5", "y": 180 },
 	  { "model": "block/stool_5", "y": 270 }
     ],
-    "facing=north": {
-      "model": "minecraft:block/big_dripleaf_stem"
-    },
+    "facing=north": [
+	{"model": "minecraft:block/dead_heather" },
+	{"model": "minecraft:block/dead_heather", "y":90 },
+	{"model": "minecraft:block/dead_heather", "y":180 },
+	{"model": "minecraft:block/dead_heather", "y":270 },
+	{"model": "minecraft:block/dead_heather_2" },
+	{"model": "minecraft:block/dead_heather_2", "y":90 },
+	{"model": "minecraft:block/dead_heather_2", "y":180 },
+	{"model": "minecraft:block/dead_heather_2", "y":270 },
+	{"model": "minecraft:block/dead_heather_3" },
+	{"model": "minecraft:block/dead_heather_3", "y":90 },
+	{"model": "minecraft:block/dead_heather_3", "y":180 },
+	{"model": "minecraft:block/dead_heather_3", "y":270 },
+	{"model": "minecraft:block/dead_heather_4" },
+	{"model": "minecraft:block/dead_heather_4", "y":90 },
+	{"model": "minecraft:block/dead_heather_4", "y":180 },
+	{"model": "minecraft:block/dead_heather_4", "y":270 },
+	{"model": "minecraft:block/dead_heather_5" },
+	{"model": "minecraft:block/dead_heather_5", "y":90 },
+	{"model": "minecraft:block/dead_heather_5", "y":180 },
+	{"model": "minecraft:block/dead_heather_5", "y":270 }
+	],
     "facing=south": {
       "model": "minecraft:block/big_dripleaf_stem",
       "y": 180

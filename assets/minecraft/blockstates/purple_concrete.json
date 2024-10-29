@@ -1,10 +1,9 @@
 {
-  "variants": {
-    "": [
-      {
-        "model": "block/replace",
-        "y": 180
-      }
-    ]
-  }
+    "variants": {
+        "": [
+            { "model": "block/purple_concrete", "weight": 1 },
+			{ "model": "block/purple_concrete_2", "weight": 2 },
+			{ "model": "block/purple_concrete_3", "weight": 2 }	
+        ]
+    }
 }

@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "block/rivendell_rock",
+		"particle": "block/rivendell_rock"
+	},
+	"elements": [
+		{
+			"from": [3.12, 0, 1.9],
+			"to": [10.684, 3.172, 8],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.78, 0, 3.12]},
+			"faces": {
+				"north": {"uv": [5.5, 7.25, 7.391, 8.043], "texture": "#0"},
+				"east": {"uv": [6.5, 7.25, 8.025, 8.043], "texture": "#0"},
+				"south": {"uv": [9, 7, 10.891, 7.793], "texture": "#0"},
+				"west": {"uv": [5, 6.75, 6.525, 7.543], "texture": "#0"},
+				"up": {"uv": [5.25, 6, 6.775, 7.891], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6.75, 6.25, 8.275, 8.141], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [0.68, 0, 3.12],
+			"to": [9.464, 4.636, 10.44],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 6.78]},
+			"faces": {
+				"north": {"uv": [5.5, 6.75, 7.696, 7.909], "texture": "#0"},
+				"east": {"uv": [9.5, 6.25, 11.33, 7.409], "texture": "#0"},
+				"south": {"uv": [7.75, 6.75, 9.946, 7.909], "texture": "#0"},
+				"west": {"uv": [9.5, 6.25, 11.33, 7.409], "texture": "#0"},
+				"up": {"uv": [5, 2.75, 6.83, 4.946], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6.5, 5, 8.33, 7.196], "rotation": 270, "texture": "#0"}
+			}
+		}
+	]
+}

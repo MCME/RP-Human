@@ -1,5 +1,5 @@
 {
-  "parent": "block/3x3x3vegetation_tintless_2",
+  "parent": "block/3x3x3vegetation_tintless",
   "textures": {
 		"1": "block/horn_coral_top_3",
 		"2": "block/horn_coral_top_1",
@@ -9,5 +9,11 @@
 		"6": "block/horn_coral_1",
 		"7": "block/horn_coral_2",
 		"8": "block/horn_coral"
-  }
+  },
+	"display": {
+		"gui": {
+			"translation": [0, 1, 0],
+			"scale": [0.35, 0.35, 0.35]
+		}
+	}
 }

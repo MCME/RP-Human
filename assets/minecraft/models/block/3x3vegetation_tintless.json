@@ -10,54 +10,52 @@
 			"from": [-16, -16, 8],
 			"to": [32, 32, 8],
 			"shade": false,
-			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8], "rescale": true },
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [16, 0, 0, 16], "texture": "#0", "cullface": "down" },
-				"south": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "down" }
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "down"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "down"}
 			}
 		},
 		{
 			"name": "Big2",
-			"from": [-16, -16, 8],
-			"to": [32, 32, 8],
+			"from": [8, -16, -16],
+			"to": [8, 32, 32],
 			"shade": false,
-			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true },
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "down" },
-				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "cullface": "down" }
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "down"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "down"}
 			}
 		},
 		{
 			"name": "Small",
-			"from": [-16, -16, 8.1],
-			"to": [32, 32, 8.1],
+			"from": [-16, -16, 8],
+			"to": [32, 32, 8],
 			"shade": false,
-			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8.1], "rescale": true},
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [16, 0, 0, 16], "texture": "#2"},
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
 				"south": {"uv": [0, 0, 16, 16], "texture": "#2"}
 			}
 		},
 		{
 			"name": "Small2",
-			"from": [-16, -16, 8.1],
-			"to": [32, 32, 8.1],
+			"from": [8, -16, -16],
+			"to": [8, 32, 32],
 			"shade": false,
-			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8.1], "rescale": true},
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
-				"south": {"uv": [16, 0, 0, 16], "texture": "#3"}
+				"east": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"}
 			}
 		}
 	],
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 0, 0],
 			"scale": [0.41, 0.41, 0.41]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 0, 0],
 			"scale": [0.41, 0.41, 0.41]
 		},
 		"firstperson_righthand": {

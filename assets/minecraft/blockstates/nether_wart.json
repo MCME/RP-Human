@@ -25,9 +25,28 @@
 	{ "model": "block/nether_wart_stage1_8"},
 	{ "model": "block/nether_wart_stage1_9"}
 	],
-    "age\u003d2": {
-      "model": "block/nether_wart_stage2"
-    },
+    "age\u003d2": [
+	{"model": "minecraft:block/dry_heather" },
+	{"model": "minecraft:block/dry_heather", "y":90 },
+	{"model": "minecraft:block/dry_heather", "y":180 },
+	{"model": "minecraft:block/dry_heather", "y":270 },
+	{"model": "minecraft:block/dry_heather_2" },
+	{"model": "minecraft:block/dry_heather_2", "y":90 },
+	{"model": "minecraft:block/dry_heather_2", "y":180 },
+	{"model": "minecraft:block/dry_heather_2", "y":270 },
+	{"model": "minecraft:block/dry_heather_3" },
+	{"model": "minecraft:block/dry_heather_3", "y":90 },
+	{"model": "minecraft:block/dry_heather_3", "y":180 },
+	{"model": "minecraft:block/dry_heather_3", "y":270 },
+	{"model": "minecraft:block/dry_heather_4" },
+	{"model": "minecraft:block/dry_heather_4", "y":90 },
+	{"model": "minecraft:block/dry_heather_4", "y":180 },
+	{"model": "minecraft:block/dry_heather_4", "y":270 },
+	{"model": "minecraft:block/dry_heather_5" },
+	{"model": "minecraft:block/dry_heather_5", "y":90 },
+	{"model": "minecraft:block/dry_heather_5", "y":180 },
+	{"model": "minecraft:block/dry_heather_5", "y":270 }
+	],
     "age\u003d3": [
 		{"model": "block/nether_wart_stage3" },
 		{"model": "block/nether_wart_stage3", "y": 90 },
