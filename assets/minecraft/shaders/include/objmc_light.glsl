@@ -11,15 +11,19 @@
 #define DISTANCE_DENSITY (1.8)
 
 //default lighting
-if (isCustom == 0) {color *= vertexColor * lightColor * ColorModulator;}
+if (isCustom == 0) {
+    color *= vertexColor * lightColor * ColorModulator;
+#ifdef ENTITY
+    color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
+#endif
+}
 //custom lighting
 else if (noshadow == 0) {
     //normal from position derivatives
     vec3 normal = normalize(cross(dFdx(Pos), dFdy(Pos)));
 
-
     //block lighting
-    #ifdef BLOCK
+#ifdef BLOCK
     float angleShading;
 	//Very top most faces
     if ((normal.y) > 0.5) {
@@ -56,14 +60,14 @@ else if (noshadow == 0) {
     }
     color *= vec4(1.0,1.0,1.0,DISTANCE_DENSITY * distanceDensity);
     if (color.a < MIP_FADE * customMipFade) discard; //keep high to prevent weird black pixels on non leaf block leaf textures
-    #endif
+#endif
 
     //entity lighting
-    #ifdef ENTITY
+#ifdef ENTITY
     //flip normal for gui
-    if (isGUI == 1) normal.y *= -1;
+    if (isGUI == 1) normal.zx *= -1;
     color *= minecraft_mix_light(Light0_Direction, Light1_Direction, normal, overlayColor);
-    #endif
+#endif
 
     color *= lightColor * ColorModulator;
 }

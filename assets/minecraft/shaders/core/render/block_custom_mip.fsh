@@ -28,7 +28,7 @@ flat in float customModelNormalShading;
 flat in float underShadowStrength;
 flat in float distanceDensity;
 
-#define USE_CUSTOM_MIP (false)
+#define USE_CUSTOM_MIP (true)
 #define MIP_DISTANCE_NEAR (25.0)
 #define MIP_DISTANCE_FAR (50.0)
 

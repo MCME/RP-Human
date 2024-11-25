@@ -29,7 +29,6 @@ out float transition;
 flat out int isCustom;
 flat out int noshadow;
 
-
 flat out float customMipFade;
 flat out float baseBrightness;
 flat out float aoIntensity;
@@ -44,14 +43,14 @@ void main() {
     Pos = Position + ChunkOffset;
     texCoord = UV0;
     vertexColor = Color;
-	ivec2 test = ivec2(UV2.x, UV2.y);
+        ivec2 test = ivec2(UV2.x, UV2.y);
     lightColor = minecraft_sample_lightmap(Sampler2, test);
     vec3 normal = (ProjMat * ModelViewMat * vec4(Normal, 5.0)).rgb;
-	
+
     //objmc
     #define BLOCK
     #moj_import <objmc_main.glsl>
 
     gl_Position = ProjMat * ModelViewMat * vec4(Pos, 1.0);
-    vertexDistance = fog_distance(ModelViewMat, Pos, FogShape);
+    vertexDistance = fog_distance(Pos, FogShape);
 }
