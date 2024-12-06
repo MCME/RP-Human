@@ -128,8 +128,8 @@
       "y": 270
     },
     "facing=east,half=lower,hinge=left,open=true,powered=false": {
-      "model": "minecraft:block/bamboo_door_bottom_left_open",
-      "y": 90
+      "model": "mcme:block/hobbit_door_3x3_green",
+      "y": 180
     },
     "facing=east,half=lower,hinge=right,open=false,powered=false": {
       "model": "minecraft:block/bamboo_door_bottom_right"
@@ -157,7 +157,8 @@
       "y": 180
     },
     "facing=north,half=lower,hinge=left,open=true,powered=false": {
-      "model": "minecraft:block/bamboo_door_bottom_left_open"
+      "model": "mcme:block/hobbit_door_3x3_green",
+      "y": 90
     },
     "facing=north,half=lower,hinge=right,open=false,powered=false": {
       "model": "minecraft:block/bamboo_door_bottom_right",
@@ -186,8 +187,8 @@
       "model": "minecraft:block/large_wooden_wheel"
     },
     "facing=south,half=lower,hinge=left,open=true,powered=false": {
-      "model": "minecraft:block/bamboo_door_bottom_left_open",
-      "y": 180
+      "model": "mcme:block/hobbit_door_3x3_green",
+      "y": 270
     },
     "facing=south,half=lower,hinge=right,open=false,powered=false": {
       "model": "minecraft:block/bamboo_door_bottom_right",
@@ -216,8 +217,7 @@
       "y": 90
     },
     "facing=west,half=lower,hinge=left,open=true,powered=false": {
-      "model": "minecraft:block/bamboo_door_bottom_left_open",
-      "y": 270
+      "model": "mcme:block/hobbit_door_3x3_green"
     },
     "facing=west,half=lower,hinge=right,open=false,powered=false": {
       "model": "minecraft:block/bamboo_door_bottom_right",
