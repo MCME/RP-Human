@@ -18,7 +18,6 @@ uniform float FogStart;
 uniform int FogShape;
 uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
-uniform mat3 IViewRotMat;
 uniform float GameTime;
 
 uniform vec3 Light0_Direction;
@@ -42,7 +41,6 @@ flat out int noshadow;
 
 void main() {
     Pos = Position;
-    vec3 normal = (ProjMat * ModelViewMat * vec4(Normal, 0.0)).rgb;
     texCoord = UV0;
     overlayColor = texelFetch(Sampler1, UV1, 0);
     vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);
@@ -52,6 +50,6 @@ void main() {
     #define ENTITY
     #moj_import <objmc_main.glsl>
 
-    gl_Position = ProjMat * ModelViewMat * (vec4(Pos, 1.0));
-    vertexDistance = fog_distance(ModelViewMat, IViewRotMat * Pos, FogShape);
+    gl_Position = ProjMat * ModelViewMat * vec4(Pos, 1.0);
+    vertexDistance = fog_distance(Pos, FogShape);
 }

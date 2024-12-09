@@ -26,14 +26,23 @@ vec2 getuv(ivec2 topleft, int w, int h, int index) {
         ((y.g*65280)+(y.b*255))/65535
     );
 }
-ivec2 getvert(ivec2 topleft, int w, int h, int index) {
-    int i = index*2;
-    ivec4 a = ivec4(texelFetch(Sampler0, topleft + ivec2((i  )%w,h+((i  )/w)), 0)*255);
-    ivec4 b = ivec4(texelFetch(Sampler0, topleft + ivec2((i+1)%w,h+((i+1)/w)), 0)*255);
-    return ivec2(
-        ((a.r*65536)+(a.g*256)+a.b),
-        ((b.r*65536)+(b.g*256)+b.b)
-    );
+ivec2 getvert(ivec2 topleft, int w, int h, int index, bool compressionEnabled) {
+
+    if(!compressionEnabled) {
+        int i = index*2;
+        ivec4 a = ivec4(texelFetch(Sampler0, topleft + ivec2((i  )%w,h+((i  )/w)), 0)*255);
+        ivec4 b = ivec4(texelFetch(Sampler0, topleft + ivec2((i+1)%w,h+((i+1)/w)), 0)*255);
+        return ivec2(
+            ((a.r*65536)+(a.g*256)+a.b),
+            ((b.r*65536)+(b.g*256)+b.b)
+        );
+    } else {
+        ivec4 a = ivec4(texelFetch(Sampler0, topleft + ivec2((index  )%w,h+((index  )/w)), 0)*255);
+        return ivec2(
+            ((a.r*65536)+(a.g*256)+a.b),
+            a.a - 1
+        );
+    }
 }
 
 ivec2 huv(int id) {
@@ -102,4 +111,18 @@ vec4 sample_lightmap(sampler2D lightMap, ivec2 uv) {
     float sun = 1.0 - uv.y / 256.0 * getSun(lightMap);
 
     return texture(lightMap, clamp(uv / 256.0, vec2(0.8 / 16.0), vec2(15.5 / 16.0))) * mix(vec4(1.0), vec4(1.2, 0.80, 0.60, 1.0), uv.x / 256.0 * sun); // x is torch, y is sun
+}
+
+
+float over_color(float c_a, float a_a, float c_b, float a_b, float a_0) {
+    return (c_a * a_a + c_b * a_b * (1.0 - a_a)) / a_0;
+}
+vec4 over(vec4 overC, vec4 under) {
+    float a_0 = overC.a + (under.a * (1.0 - overC.a));
+    return vec4(
+        over_color(overC.r, overC.a, under.r, under.a, a_0),
+        over_color(overC.g, overC.a, under.g, under.a, a_0),
+        over_color(overC.b, overC.a, under.b, under.a, a_0),
+        a_0
+    );
 }

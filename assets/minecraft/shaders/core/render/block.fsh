@@ -27,7 +27,7 @@ flat in float customModelNormalShading;
 flat in float underShadowStrength;
 flat in float distanceDensity;
 
-#define USE_CUSTOM_MIP (true)
+#define USE_CUSTOM_MIP (false)
 #define MIP_DISTANCE_NEAR (30.0)
 #define MIP_DISTANCE_FAR (80.0)
 #define MIP_DISTANCE_VERY_FAR (100.0)
@@ -62,14 +62,11 @@ vec4 applyEdgeFilterAndMipmapping(sampler2D Sampler0, vec2 mipCoord, vec2 atlasS
 	return blendedColor;
 }
 
-
 void main() {
     //vec4 color = mix(texture(Sampler0, texCoord), texture(Sampler0, texCoord2), transition);
     vec2 atlasSize = textureSize(Sampler0, 0);
-
     vec4 color;
     color = texture(Sampler0, texCoord);
-    if (color.a > 0.8) color;
 
     //color = vec4(mippedCoordX,mippedCoordX,mippedCoordX,1.0);
     //fragColor = color;
