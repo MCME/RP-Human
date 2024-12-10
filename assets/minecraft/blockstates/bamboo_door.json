@@ -16,9 +16,10 @@
       "model": "mcme:block/hobbit_door_3x3_wood_open",
       "y": 90
     },
-    "facing=east,half=upper,hinge=left,open=false,powered=true": {
-      "model": "minecraft:block/bamboo_door_top_left"
-    },
+    "facing=east,half=upper,hinge=left,open=false,powered=true": [
+      { "model": "minecraft:block/white_stone_rim", "y": 90 },
+      { "model": "minecraft:block/white_stone_rim_2", "y": 90 }
+    ],
     "facing=east,half=upper,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/bamboo_door_top_left_open",
       "y": 90
@@ -44,10 +45,10 @@
     "facing=north,half=lower,hinge=right,open=true,powered=true": {
       "model": "mcme:block/hobbit_door_3x3_wood_open"
     },
-    "facing=north,half=upper,hinge=left,open=false,powered=true": {
-      "model": "minecraft:block/bamboo_door_top_left",
-      "y": 270
-    },
+    "facing=north,half=upper,hinge=left,open=false,powered=true": [
+      { "model": "minecraft:block/white_stone_rim" },
+      { "model": "minecraft:block/white_stone_rim_2" }
+    ],
     "facing=north,half=upper,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/bamboo_door_top_left_open"
     },
@@ -75,10 +76,10 @@
       "model": "mcme:block/hobbit_door_3x3_wood_open",
       "y": 180
     },
-    "facing=south,half=upper,hinge=left,open=false,powered=true": {
-      "model": "minecraft:block/bamboo_door_top_left",
-      "y": 90
-    },
+    "facing=south,half=upper,hinge=left,open=false,powered=true": [
+    { "model": "minecraft:block/white_stone_rim", "y": 180 },
+    { "model": "minecraft:block/white_stone_rim_2", "y": 180 }
+    ],
     "facing=south,half=upper,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/bamboo_door_top_left_open",
       "y": 180
@@ -104,10 +105,10 @@
       "model": "mcme:block/hobbit_door_3x3_wood_open",
       "y": 270
     },
-    "facing=west,half=upper,hinge=left,open=false,powered=true": {
-      "model": "minecraft:block/bamboo_door_top_left",
-      "y": 180
-    },
+    "facing=west,half=upper,hinge=left,open=false,powered=true": [
+    { "model": "minecraft:block/white_stone_rim", "y": 270 },
+    { "model": "minecraft:block/white_stone_rim_2", "y": 270 }
+    ],
     "facing=west,half=upper,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/bamboo_door_top_left_open",
       "y": 270

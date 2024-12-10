@@ -418,6 +418,22 @@
     "facing\u003dwest,half\u003dupper,hinge\u003dright,open\u003dfalse,powered\u003dtrue": {
       "model": "mcme:block/hobbit_door_2x2_green",
       "y": 270
-    }
+    },
+    "facing\u003dnorth,half\u003dupper,hinge\u003dright,open\u003dtrue,powered\u003dtrue": [
+      { "model": "minecraft:block/stone_rim", "y": 270 },
+      { "model": "minecraft:block/stone_rim_2", "y": 270 }
+  ],
+    "facing\u003deast,half\u003dupper,hinge\u003dright,open\u003dtrue,powered\u003dtrue": [
+      { "model": "minecraft:block/stone_rim" },
+      { "model": "minecraft:block/stone_rim_2" }
+  ],
+    "facing\u003dsouth,half\u003dupper,hinge\u003dright,open\u003dtrue,powered\u003dtrue": [
+      { "model": "minecraft:block/stone_rim", "y": 90 },
+      { "model": "minecraft:block/stone_rim_2", "y": 90 }
+  ],
+    "facing\u003dwest,half\u003dupper,hinge\u003dright,open\u003dtrue,powered\u003dtrue": [
+      { "model": "minecraft:block/stone_rim", "y": 180 },
+      { "model": "minecraft:block/stone_rim_2", "y": 180 }
+  ]
   }
 }
