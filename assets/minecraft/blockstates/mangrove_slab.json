@@ -1,0 +1,32 @@
+{
+  "variants": {
+    "type=bottom": [
+      { "model": "minecraft:block/mangrove_slab" },
+      { "model": "minecraft:block/mangrove_slab", "y":90 },
+      { "model": "minecraft:block/mangrove_slab", "y":180 },
+      { "model": "minecraft:block/mangrove_slab", "y":270 },
+      { "model": "minecraft:block/mangrove_slab_2" },
+      { "model": "minecraft:block/mangrove_slab_2", "y":90 },
+      { "model": "minecraft:block/mangrove_slab_2", "y":180 },
+      { "model": "minecraft:block/mangrove_slab_2", "y":270 },
+      { "model": "minecraft:block/mangrove_slab_3" },
+      { "model": "minecraft:block/mangrove_slab_3", "y":90 },
+      { "model": "minecraft:block/mangrove_slab_3", "y":180 },
+      { "model": "minecraft:block/mangrove_slab_3", "y":270 },
+      { "model": "minecraft:block/mangrove_slab_4" },
+      { "model": "minecraft:block/mangrove_slab_4", "y":90 },
+      { "model": "minecraft:block/mangrove_slab_4", "y":180 },
+      { "model": "minecraft:block/mangrove_slab_4", "y":270 },
+      { "model": "minecraft:block/mangrove_slab_5" },
+      { "model": "minecraft:block/mangrove_slab_5", "y":90 },
+      { "model": "minecraft:block/mangrove_slab_5", "y":180 },
+      { "model": "minecraft:block/mangrove_slab_5", "y":270 }
+  ],
+    "type=double": {
+      "model": "minecraft:block/replace"
+    },
+    "type=top": {
+      "model": "minecraft:block/replace"
+    }
+  }
+}
