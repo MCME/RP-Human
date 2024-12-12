@@ -249,9 +249,12 @@
           "powered": "true"
         },
         "apply": [
-          { "model": "block/vertical_slab_tan_plaster", "uvlock": true },
-          { "model": "block/vertical_slab_tan_plaster_2", "uvlock": true },
-          { "model": "block/vertical_slab_tan_plaster_3", "uvlock": true }
+          { "model": "block/vertical_slab_tan_plaster", "uvlock": true, "weight": 2 },
+          { "model": "block/vertical_slab_tan_plaster_2", "uvlock": true, "weight": 5 },
+          { "model": "block/vertical_slab_tan_plaster_3", "uvlock": true, "weight": 5 },
+          { "model": "block/vertical_slab_tan_plaster_4", "uvlock": true, "weight": 5 },
+          { "model": "block/vertical_slab_tan_plaster_5", "uvlock": true, "weight": 10 },
+          { "model": "block/vertical_slab_tan_plaster_6", "uvlock": true, "weight": 6 }
         ]
       },
       {
@@ -262,9 +265,12 @@
           "powered": "true"
         },
         "apply": [
-          { "model": "block/vertical_slab_tan_plaster", "uvlock": true, "y": 90 },
-          { "model": "block/vertical_slab_tan_plaster_2", "uvlock": true, "y": 90 },
-          { "model": "block/vertical_slab_tan_plaster_3", "uvlock": true, "y": 90 }
+          { "model": "block/vertical_slab_tan_plaster", "uvlock": true, "y": 90, "weight": 2 },
+          { "model": "block/vertical_slab_tan_plaster_2", "uvlock": true, "y": 90, "weight": 5 },
+          { "model": "block/vertical_slab_tan_plaster_3", "uvlock": true, "y": 90, "weight": 5 },
+          { "model": "block/vertical_slab_tan_plaster_4", "uvlock": true, "y": 90, "weight": 5 },
+          { "model": "block/vertical_slab_tan_plaster_5", "uvlock": true, "y": 90, "weight": 10 },
+          { "model": "block/vertical_slab_tan_plaster_6", "uvlock": true, "y": 90, "weight": 6 }
         ]
       },
       {
@@ -275,9 +281,12 @@
           "powered": "true"
         },
         "apply": [
-          { "model": "block/vertical_slab_tan_plaster", "uvlock": true, "y": 180 },
-          { "model": "block/vertical_slab_tan_plaster_2", "uvlock": true, "y": 180 },
-          { "model": "block/vertical_slab_tan_plaster_3", "uvlock": true, "y": 180 }
+          { "model": "block/vertical_slab_tan_plaster", "uvlock": true, "y": 180, "weight": 2 },
+          { "model": "block/vertical_slab_tan_plaster_2", "uvlock": true, "y": 180, "weight": 5 },
+          { "model": "block/vertical_slab_tan_plaster_3", "uvlock": true, "y": 180, "weight": 5 },
+          { "model": "block/vertical_slab_tan_plaster_4", "uvlock": true, "y": 180, "weight": 5 },
+          { "model": "block/vertical_slab_tan_plaster_5", "uvlock": true, "y": 180, "weight": 10 },
+          { "model": "block/vertical_slab_tan_plaster_6", "uvlock": true, "y": 180, "weight": 6 }
         ]
       },
       {
@@ -288,9 +297,12 @@
           "powered": "true"
         },
         "apply": [
-          { "model": "block/vertical_slab_tan_plaster", "uvlock": true, "y": 270 },
-          { "model": "block/vertical_slab_tan_plaster_2", "uvlock": true, "y": 270 },
-          { "model": "block/vertical_slab_tan_plaster_3", "uvlock": true, "y": 270 }
+          { "model": "block/vertical_slab_tan_plaster", "uvlock": true, "y": 270, "weight": 2 },
+          { "model": "block/vertical_slab_tan_plaster_2", "uvlock": true, "y": 270, "weight": 5 },
+          { "model": "block/vertical_slab_tan_plaster_3", "uvlock": true, "y": 270, "weight": 5 },
+          { "model": "block/vertical_slab_tan_plaster_4", "uvlock": true, "y": 270, "weight": 5 },
+          { "model": "block/vertical_slab_tan_plaster_5", "uvlock": true, "y": 270, "weight": 10 },
+          { "model": "block/vertical_slab_tan_plaster_6", "uvlock": true, "y": 270, "weight": 6 }
         ]
       },
       {

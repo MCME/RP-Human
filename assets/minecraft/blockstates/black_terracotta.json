@@ -1,18 +1,30 @@
 {
   "variants": {
     "": [
-      { "model": "block/tan_plaster" },
-      { "model": "block/tan_plaster", "y": 90 },
-      { "model": "block/tan_plaster", "y": 180 },
-      { "model": "block/tan_plaster", "y": 270 },
-      { "model": "block/tan_plaster_2" },
-      { "model": "block/tan_plaster_2", "y": 90 },
-      { "model": "block/tan_plaster_2", "y": 180 },
-      { "model": "block/tan_plaster_2", "y": 270 },
-      { "model": "block/tan_plaster_3" },
-      { "model": "block/tan_plaster_3", "y": 90 },
-      { "model": "block/tan_plaster_3", "y": 180 },
-      { "model": "block/tan_plaster_3", "y": 270 }
+      { "model": "block/tan_plaster", "weight": 2 },
+      { "model": "block/tan_plaster", "y": 90, "weight": 2  },
+      { "model": "block/tan_plaster", "y": 180, "weight": 2 },
+      { "model": "block/tan_plaster", "y": 270, "weight": 2 },
+      { "model": "block/tan_plaster_2", "weight": 5 },
+      { "model": "block/tan_plaster_2", "y": 90, "weight": 5 },
+      { "model": "block/tan_plaster_2", "y": 180, "weight": 5 },
+      { "model": "block/tan_plaster_2", "y": 270, "weight": 5 },
+      { "model": "block/tan_plaster_3", "weight": 5 },
+      { "model": "block/tan_plaster_3", "y": 90, "weight": 5 },
+      { "model": "block/tan_plaster_3", "y": 180, "weight": 5 },
+      { "model": "block/tan_plaster_3", "y": 270, "weight": 5 },
+      { "model": "block/tan_plaster_4", "weight": 5 },
+      { "model": "block/tan_plaster_4", "y": 90, "weight": 5 },
+      { "model": "block/tan_plaster_4", "y": 180, "weight": 5 },
+      { "model": "block/tan_plaster_4", "y": 270, "weight": 5 },
+      { "model": "block/tan_plaster_5", "weight": 10 },
+      { "model": "block/tan_plaster_5", "y": 90, "weight": 10  },
+      { "model": "block/tan_plaster_5", "y": 180, "weight": 10  },
+      { "model": "block/tan_plaster_5", "y": 270, "weight": 10  },
+      { "model": "block/tan_plaster_6", "weight": 10 },
+      { "model": "block/tan_plaster_6", "y": 90, "weight": 6  },
+      { "model": "block/tan_plaster_6", "y": 180, "weight": 6  },
+      { "model": "block/tan_plaster_6", "y": 270, "weight": 6  }
     ]
   }
 }
