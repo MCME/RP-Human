@@ -1,19 +1,51 @@
 {
-    "textures": {
-        "particle": "#wall"
-    },
-    "elements": [
-        {   "from": [ 4, 0, 4 ],
-            "to": [ 12, 16, 12 ],
-            "faces": {
-                "down":  { "texture": "#wall" },
-                "up":    { "texture": "#wall" },
-                "north": { "texture": "#wall" },
-                "south": { "texture": "#wall" },
-                "west":  { "texture": "#wall" },
-                "east":  { "texture": "#wall" }
-            },
-            "__comment": "Center post"
-        }
-    ]
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "#wall"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#wall"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#wall"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.21, 0.21, 0.21]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.21, 0.21, 0.21]
+		},
+		"firstperson_righthand": {
+			"translation": [2.25, 0, 0],
+			"scale": [0.37, 0.37, 0.37]
+		},
+		"firstperson_lefthand": {
+			"translation": [2.25, 0, 0],
+			"scale": [0.37, 0.37, 0.37]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.24, 0.24, 0.24]
+		},
+		"gui": {
+			"rotation": [29, -23, 0],
+			"scale": [0.58, 0.58, 0.58]
+		},
+		"head": {
+			"scale": [0, 0, 0]
+		},
+		"fixed": {
+			"scale": [0.87, 0.87, 0.87]
+		}
+	}
 }
