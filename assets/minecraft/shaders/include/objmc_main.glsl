@@ -188,14 +188,20 @@ if (marker == ivec4(12,34,56,78) || marker == ivec4(12,34,56,79)) {
         }
 //custom entity rotation
 #ifdef ENTITY
+        //posoffset += vec3(0.5,0.5,0.5);
         posoffset *= scale;
+        posoffset *= 0.5;
         if (isGUI == 1) {
-            posoffset *= 256;
-            posoffset.z *= -1;
+            //posoffset *= 16.0;
+            //posoffset.zx *= -1;
             //posoffset = rotate(rotation + vec3(0,1,0)) * posoffset;
+            posoffset *= 20;
+            posoffset.z *= -1;
+            posoffset = rotate(rotation + vec3(0,0,0)) * posoffset;
         }
         if (isHand == 1) {
             posoffset.zx *= -1;
+            //posoffset *= 0.5;
             posoffset = (vec4(posoffset,0) * ModelViewMat).xyz;
         }
         if (isHand + isGUI == 0) {
