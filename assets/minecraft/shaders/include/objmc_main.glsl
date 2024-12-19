@@ -56,7 +56,7 @@ if (marker == ivec4(12,34,56,78) || marker == ivec4(12,34,56,79)) {
 
 #ifdef BLOCK
 	    // Floor positions to snap them back to 0,0,0 within the block
-    Pos = floor(Position) + vec3(0.5,0.0,0.5) + ChunkOffset;
+    Pos = floor(Position) + vec3(0.5,0.0,0.5) + ModelOffset;
 
     customMipFade = t[8].r < 1.0 ? 1.0 : 0.0 + t[8].r / 255.0 * 4.0;
     baseBrightness = t[9].r < 1.0 ? 1.0 : 0.0 + t[9].r / 255.0 * 2.0;
