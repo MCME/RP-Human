@@ -215,51 +215,57 @@
 	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_3_2" }
 	],
     "facing=north,half=upper,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/replace",
-      "y": 270
+        "model": "minecraft:block/round_wooden_window",
+        "y": 90,
+        "uvlock": false
     },
     "facing=east,half=upper,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/replace"
+        "model": "minecraft:block/round_wooden_window",
+        "y": 180,
+        "uvlock": false
     },
     "facing=south,half=upper,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/replace",
-      "y": 90
+        "model": "minecraft:block/round_wooden_window",
+        "y": 270,
+        "uvlock": false
     },
     "facing=west,half=upper,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/replace",
-      "y": 180
+        "model": "minecraft:block/round_wooden_window"
     },
-	"facing=north,half=upper,hinge=right,open=false,powered=true": {
-      "model": "minecraft:block/replace",
-      "y": 180
+    "facing=north,half=upper,hinge=right,open=false,powered=true": {
+        "model": "mcme:block/hobbit_door_2x2_green"
     },
-	"facing=east,half=upper,hinge=right,open=false,powered=true": {
-      "model": "minecraft:block/replace",
-      "y": 180
+    "facing=east,half=upper,hinge=right,open=false,powered=true": {
+        "model": "mcme:block/hobbit_door_2x2_green_y_270"
     },
-	"facing=south,half=upper,hinge=right,open=false,powered=true": {
-      "model": "minecraft:block/replace",
-      "y": 180
+    "facing=south,half=upper,hinge=right,open=false,powered=true": {
+        "model": "mcme:block/hobbit_door_2x2_green_y_180"
     },
-	"facing=west,half=upper,hinge=right,open=false,powered=true": {
-      "model": "minecraft:block/replace",
-      "y": 180
+    "facing=west,half=upper,hinge=right,open=false,powered=true": {
+        "model": "mcme:block/hobbit_door_2x2_green_y_90"
     },
-	"facing=north,half=upper,hinge=right,open=true,powered=true": {
-      "model": "minecraft:block/replace",
-      "y": 180
-    },
-	"facing=east,half=upper,hinge=right,open=true,powered=true": {
-      "model": "minecraft:block/replace",
-      "y": 180
-    },
-	"facing=south,half=upper,hinge=right,open=true,powered=true": {
-      "model": "minecraft:block/replace",
-      "y": 180
-    },
-	"facing=west,half=upper,hinge=right,open=true,powered=true": {
-      "model": "minecraft:block/replace",
-      "y": 180
-    }
+    "facing=north,half=upper,hinge=right,open=true,powered=true": [
+        {
+            "model": "minecraft:block/stone_rim",
+            "y": 270
+        }
+    ],
+    "facing=east,half=upper,hinge=right,open=true,powered=true": [
+        {
+            "model": "minecraft:block/stone_rim"
+        }
+    ],
+    "facing=south,half=upper,hinge=right,open=true,powered=true": [
+        {
+            "model": "minecraft:block/stone_rim",
+            "y": 90
+        }
+    ],
+    "facing=west,half=upper,hinge=right,open=true,powered=true": [
+        {
+            "model": "minecraft:block/stone_rim",
+            "y": 180
+        }
+    ]
   }
 }
