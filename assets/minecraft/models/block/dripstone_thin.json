@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "minecraft:block/dripstone_vert"
+  },
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.21, 0.21, 0.21]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.21, 0.21, 0.21]
+		},
+		"firstperson_righthand": {
+			"translation": [2.75, 0, 0],
+			"scale": [0.39, 0.39, 0.39]
+		},
+		"firstperson_lefthand": {
+			"translation": [2.75, 0, 0],
+			"scale": [0.39, 0.39, 0.39]
+		},
+		"ground": {
+			"translation": [0, 2.5, 0],
+			"scale": [0.27, 0.27, 0.27]
+		},
+		"gui": {
+			"rotation": [28, 46, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"head": {
+			"scale": [0, 0, 0]
+		},
+		"fixed": {
+			"scale": [0.67, 0.67, 0.67]
+		}
+  }
+}
