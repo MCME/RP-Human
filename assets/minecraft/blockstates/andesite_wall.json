@@ -1,0 +1,36 @@
+{
+  "multipart": [
+    { "when": { "up": "true" },
+      "apply": [
+			{ "model": "mcme:block/oak_trunk_vertical" },
+			{ "model": "mcme:block/oak_trunk_vertical", "y": 90 },
+			{ "model": "mcme:block/oak_trunk_vertical", "y": 180 },
+			{ "model": "mcme:block/oak_trunk_vertical", "y": 270 }
+	  ]
+    },
+    { "when": { "north": "low" },
+      "apply": { "model": "mcme:block/oak_branch_45_straight" }
+    },
+    { "when": { "east": "low" },
+      "apply": { "model": "mcme:block/oak_branch_45_straight", "y": 90 }
+    },
+    { "when": { "south": "low" },
+      "apply": { "model": "mcme:block/oak_branch_45_straight", "y": 180 }
+    },
+    { "when": { "west": "low" },
+      "apply": { "model": "mcme:block/oak_branch_45_straight", "y": 270 }
+    },
+    { "when": { "north": "tall" },
+      "apply": { "model": "mcme:block/oak_thin_branch_45_straight" }
+    },
+    { "when": { "east": "tall" },
+      "apply": { "model": "mcme:block/oak_thin_branch_45_straight", "y": 90 }
+    },
+    { "when": { "south": "tall" },
+      "apply": { "model": "mcme:block/oak_thin_branch_45_straight", "y": 180 }
+    },
+    { "when": { "west": "tall" },
+      "apply": { "model": "mcme:block/oak_thin_branch_45_straight", "y": 270 }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+    "variants": {
+        "facing=north,half=bottom,open=false,powered=false": { "model": "block/trapdoor_small_white_brick_bottom" },
+        "facing=south,half=bottom,open=false,powered=false": { "model": "block/trapdoor_large_white_brick_bottom" },
+        "facing=east,half=bottom,open=false,powered=false": { "model": "block/trapdoor_cracked_small_white_brick_bottom" },
+        "facing=west,half=bottom,open=false,powered=false": { "model": "block/trapdoor_cracked_large_white_brick_bottom" },
+        "facing=north,half=top,open=false,powered=false": { "model": "block/trapdoor_small_white_brick_top" },
+        "facing=south,half=top,open=false,powered=false": { "model": "block/trapdoor_large_white_brick_top"},
+        "facing=east,half=top,open=false,powered=false": { "model": "block/trapdoor_cracked_small_white_brick_top" },
+        "facing=west,half=top,open=false,powered=false": { "model": "block/trapdoor_cracked_large_white_brick_top" },
+        "facing=north,half=bottom,open=true,powered=false": { "model": "block/trapdoor_cracked_small_white_brick_open", "y": 0 },
+        "facing=south,half=bottom,open=true,powered=false": { "model": "block/trapdoor_cracked_small_white_brick_open",  "y": 180 },
+        "facing=east,half=bottom,open=true,powered=false": { "model": "block/trapdoor_cracked_small_white_brick_open",  "y": 90 },
+        "facing=west,half=bottom,open=true,powered=false": { "model": "block/trapdoor_cracked_small_white_brick_open",  "y": 270 },
+        "facing=north,half=top,open=true,powered=false": { "model": "block/trapdoor_cracked_large_white_brick_open" },
+        "facing=south,half=top,open=true,powered=false": { "model": "block/trapdoor_cracked_large_white_brick_open", "y": 180 },
+        "facing=east,half=top,open=true,powered=false": { "model": "block/trapdoor_cracked_large_white_brick_open", "y": 90 },
+        "facing=west,half=top,open=true,powered=false": { "model": "block/trapdoor_cracked_large_white_brick_open", "y": 270 },
+		
+        "facing=north,half=bottom,open=false,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_bottom" },
+        "facing=east,half=bottom,open=false,powered=true": { "model": "block/trapdoor_smooth_white_stone_bottom" },
+        "facing=west,half=bottom,open=false,powered=true": [
+		  { "model": "mcme:block/pine_leaves_dark_slab"},
+		  { "model": "mcme:block/pine_leaves_dark_slab", "y": 90},
+		  { "model": "mcme:block/pine_leaves_dark_slab", "y": 180},
+		  { "model": "mcme:block/pine_leaves_dark_slab", "y": 270}
+		],
+        "facing=north,half=top,open=false,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_top" },
+        "facing=east,half=top,open=false,powered=true": { "model": "block/trapdoor_smooth_white_stone_top" },
+        "facing=west,half=top,open=false,powered=true": [
+		  { "model": "mcme:block/pine_leaves_dark_slab_upper"},
+		  { "model": "mcme:block/pine_leaves_dark_slab_upper", "y": 90},
+		  { "model": "mcme:block/pine_leaves_dark_slab_upper", "y": 180},
+		  { "model": "mcme:block/pine_leaves_dark_slab_upper", "y": 270}
+		],
+        "facing=north,half=bottom,open=true,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_open" },
+        "facing=south,half=bottom,open=true,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_open", "y": 180 },
+        "facing=east,half=bottom,open=true,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_open", "y": 90 },
+        "facing=west,half=bottom,open=true,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_open", "y": 270 },
+        "facing=north,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open" },
+        "facing=south,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open", "y": 180 },
+        "facing=east,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open", "y": 90 },
+        "facing=west,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open",  "y": 270 },
+	  
+		"facing=south,half=bottom,open=false,powered=true": [
+		  { "model": "mcme:block/linden_leaves_yellowish_slab" },
+		  { "model": "mcme:block/linden_leaves_yellowish_slab", "y": 90 },
+		  { "model": "mcme:block/linden_leaves_yellowish_slab", "y": 180 },
+		  { "model": "mcme:block/linden_leaves_yellowish_slab", "y": 270 }
+		],
+		"facing=south,half=top,open=false,powered=true": [
+		  { "model": "mcme:block/linden_leaves_yellowish_slab_upper" },
+		  { "model": "mcme:block/linden_leaves_yellowish_slab_upper", "y": 90 },
+		  { "model": "mcme:block/linden_leaves_yellowish_slab_upper", "y": 180 },
+		  { "model": "mcme:block/linden_leaves_yellowish_slab_upper", "y": 270 }
+		]
+		
+		
+    }
+}
