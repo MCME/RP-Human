@@ -1,0 +1,17 @@
+{
+  "parent": "special-model-loader:builtin/obj",
+  "flip_v": true,
+  "model": "mcme:models/block/oak_branch_45_straight.obj",
+	"gui_light": "front",
+	"display": {
+		"firstperson_righthand": {
+			"translation": [3.5, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [5, 74, 0],
+			"translation": [5, 0.25, 0],
+			"scale": [0.75, 0.75, 0.75]
+		}
+	}
+}

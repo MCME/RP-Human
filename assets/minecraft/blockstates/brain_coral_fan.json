@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "waterlogged=false": [
+	{ "model": "mcme:block/brain_coral_fan"},
+	{ "model": "mcme:block/brain_coral_fan", "y": 90},
+	{ "model": "mcme:block/brain_coral_fan", "y": 180},
+	{ "model": "mcme:block/brain_coral_fan", "y": 270},
+	{ "model": "mcme:block/brain_coral_fan_2"},
+	{ "model": "mcme:block/brain_coral_fan_2", "y": 90},
+	{ "model": "mcme:block/brain_coral_fan_2", "y": 180},
+	{ "model": "mcme:block/brain_coral_fan_2", "y": 270}
+	],
+	"waterlogged=true": [
+	{ "model": "mcme:block/brain_coral_fan"},
+	{ "model": "mcme:block/brain_coral_fan", "y": 90},
+	{ "model": "mcme:block/brain_coral_fan", "y": 180},
+	{ "model": "mcme:block/brain_coral_fan", "y": 270},
+	{ "model": "mcme:block/brain_coral_fan_2"},
+	{ "model": "mcme:block/brain_coral_fan_2", "y": 90},
+	{ "model": "mcme:block/brain_coral_fan_2", "y": 180},
+	{ "model": "mcme:block/brain_coral_fan_2", "y": 270}
+	]
+  }
+}

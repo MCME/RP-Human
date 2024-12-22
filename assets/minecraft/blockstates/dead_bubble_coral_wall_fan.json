@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=south": [
+	{ "model": "mcme:block/hangingbush", "y": 180  }
+	],
+    "facing=west": [
+	{ "model": "mcme:block/hangingbush", "y": 270 }
+	],
+    "facing=north": [
+	{ "model": "mcme:block/hangingbush" }
+	],
+    "facing=east": [
+	{ "model": "mcme:block/hangingbush", "y": 90 }
+	]
+  }
+}
