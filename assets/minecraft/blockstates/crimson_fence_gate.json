@@ -397,7 +397,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/pillar_top_sandstone_half",
           "uvlock": true
         }
       },
@@ -409,7 +409,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/pillar_top_sandstone_half",
           "uvlock": true,
           "y": 90
         }
@@ -422,8 +422,8 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true
+          "model": "block/pillar_top_sandstone_half",
+          "uvlock": true, "y": 180
         }
       },
       {
@@ -434,9 +434,9 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/pillar_top_sandstone_half",
           "uvlock": true,
-          "y": 90
+          "y": 270
         }
       }
     ]

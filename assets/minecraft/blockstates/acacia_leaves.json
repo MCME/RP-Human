@@ -75,8 +75,27 @@
 		{ "model": "itemblock/barrel_meat_half_item", "y":180 },
 		{ "model": "itemblock/barrel_meat_half_item", "y":270 }
 		],
-		"distance=7,persistent=true": {
-      "model": "block/replace"
-    }
+		"distance=7,persistent=true": [
+		{ "model": "block/grass_block_stepping_stones"},
+		{ "model": "block/grass_block_stepping_stones", "y":90},
+		{ "model": "block/grass_block_stepping_stones", "y":180},
+		{ "model": "block/grass_block_stepping_stones", "y":270},
+		{ "model": "block/grass_block_stepping_stones_2"},
+		{ "model": "block/grass_block_stepping_stones_2", "y":90},
+		{ "model": "block/grass_block_stepping_stones_2", "y":180},
+		{ "model": "block/grass_block_stepping_stones_2", "y":270},
+		{ "model": "block/grass_block_stepping_stones_3"},
+		{ "model": "block/grass_block_stepping_stones_3", "y":90},
+		{ "model": "block/grass_block_stepping_stones_3", "y":180},
+		{ "model": "block/grass_block_stepping_stones_3", "y":270},
+		{ "model": "block/grass_block_stepping_stones_4"},
+		{ "model": "block/grass_block_stepping_stones_4", "y":90},
+		{ "model": "block/grass_block_stepping_stones_4", "y":180},
+		{ "model": "block/grass_block_stepping_stones_4", "y":270},
+		{ "model": "block/grass_block_stepping_stones_5"},
+		{ "model": "block/grass_block_stepping_stones_5", "y":90},
+		{ "model": "block/grass_block_stepping_stones_5", "y":180},
+		{ "model": "block/grass_block_stepping_stones_5", "y":270}
+		]
     }
 }
