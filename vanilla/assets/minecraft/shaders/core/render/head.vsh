@@ -6,10 +6,12 @@
 in vec3 Position;
 in vec4 Color;
 in vec2 UV0;
+in ivec2 UV1;
 in ivec2 UV2;
 in vec3 Normal;
 
 uniform sampler2D Sampler0;
+uniform sampler2D Sampler1;
 uniform sampler2D Sampler2;
 
 uniform float FogStart;
@@ -26,7 +28,6 @@ out vec4 vertexColor;
 out vec4 lightColor;
 out vec4 overlayColor;
 out vec2 texCoord;
-out vec2 texCoord2;
 out vec3 Pos;
 out float transition;
 
@@ -40,13 +41,14 @@ flat out int noshadow;
 void main() {
     Pos = Position;
     texCoord = UV0;
-    overlayColor = vec4(1);
+    overlayColor = texelFetch(Sampler1, UV1, 0);
     lightColor = minecraft_sample_lightmap(Sampler2, UV2);
     vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);
 
     //objmc
     #define ENTITY
-    #moj_import <objmc_main.glsl>
+    #define HEAD
+    #moj_import<objmc_head.glsl>
 
     gl_Position = ProjMat * ModelViewMat * vec4(Pos, 1.0);
     vertexDistance = fog_distance(Pos, FogShape);
