@@ -6019,9 +6019,9 @@
         },
       {
          "predicate": {
-          "custom_model_data": 860
+          "custom_model_data": 865
             },
-          "name": 860,
+          "name": 865,
           "model": "item/barrel_icon"
         },
       {
@@ -6051,6 +6051,13 @@
             },
           "name": 864,
           "model": "item/inv_vines_vertical_slab_small"
-        }
+        },
+        {
+	        "predicate": {
+            "custom_model_data": 860
+              },
+           "name": 860,
+           "model": "block/dry_grass"
+       }
   ]
 }
