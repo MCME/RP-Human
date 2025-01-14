@@ -6018,12 +6018,12 @@
           "model": "block/tudor_diagonal"
         },
       {
-         "predicate": {
-          "custom_model_data": 865
-            },
-          "name": 865,
-          "model": "item/barrel_icon"
-        },
+	        "predicate": {
+            "custom_model_data": 860
+              },
+           "name": 860,
+           "model": "block/dry_grass"
+       },
       {
          "predicate": {
           "custom_model_data": 861
@@ -6051,13 +6051,55 @@
             },
           "name": 864,
           "model": "item/inv_vines_vertical_slab_small"
+        },  
+      {
+         "predicate": {
+          "custom_model_data": 865
+            },
+          "name": 865,
+          "model": "item/barrel_icon"
         },
-        {
-	        "predicate": {
-            "custom_model_data": 860
-              },
-           "name": 860,
-           "model": "block/dry_grass"
-       }
+       {
+         "predicate": {
+           "custom_model_data": 866
+             },
+          "name": 866,
+          "model": "block/hanging_metal_sign_small"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 867
+            },
+         "name": 867,
+         "model": "block/hanging_metal_sign"
+     },
+      {
+        "predicate": {
+          "custom_model_data": 868
+            },
+         "name": 868,
+         "model": "block/hanging_wood_sign"
+     },
+     {
+       "predicate": {
+         "custom_model_data": 869
+           },
+        "name": 869,
+        "model": "block/hanging_wood_sign_small"
+    },
+     {
+       "predicate": {
+         "custom_model_data": 870
+           },
+        "name": 870,
+        "model": "block/wall_sign"
+    },
+     {
+       "predicate": {
+         "custom_model_data": 871
+           },
+        "name": 871,
+        "model": "block/small_chain"
+    }
   ]
 }
