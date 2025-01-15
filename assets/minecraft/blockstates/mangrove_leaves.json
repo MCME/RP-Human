@@ -42,6 +42,21 @@
 	],
 	"distance=2,persistent=true": [
 	{  "model": "block/invisible"}
+	],
+	"distance=7,persistent=true": [
+		{
+			"model": "mcme:block/vines_block"
+		},
+		{
+			"model": "mcme:block/vines_block_y_90",
+			"uvlock": false
+		},
+		{
+			"model": "mcme:block/vines_block_y_180"
+		},
+		{
+			"model": "mcme:block/vines_block_y_270"
+		}
 	]
   }
 }
