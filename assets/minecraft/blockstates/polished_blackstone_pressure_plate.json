@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "powered=false": [
+		{  "model": "minecraft:block/carpet_2x3_b" },
+		{  "model": "minecraft:block/carpet_2x3_y" },
+		{  "model": "minecraft:block/carpet_2x3_r" }
+		],
+    "powered=true": [
+	{ "model" : "block/carpet_2x3_b", "y":90 },
+	{ "model" : "block/carpet_2x3_y", "y":90 },
+	{ "model" : "block/carpet_2x3_r", "y":90 }
+	]
+  }
+}
