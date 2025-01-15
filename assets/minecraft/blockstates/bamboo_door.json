@@ -17,18 +17,24 @@
       "y": 90
     },
     "facing=east,half=upper,hinge=left,open=false,powered=true": [
-      { "model": "minecraft:block/white_stone_rim", "y": 90 },
-      { "model": "minecraft:block/white_stone_rim_2", "y": 90 }
+      {
+        "model": "minecraft:block/white_stone_rim",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/white_stone_rim_2",
+        "y": 90
+      }
     ],
     "facing=east,half=upper,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/dripstone_vertical_thin_slab",
       "y": 90
     },
     "facing=east,half=upper,hinge=right,open=false,powered=true": {
-      "model": "minecraft:block/bamboo_door_top_right"
+      "model": "minecraft:block/hanging_metal_sign"
     },
     "facing=east,half=upper,hinge=right,open=true,powered=true": {
-      "model": "minecraft:block/bamboo_door_top_right_open",
+      "model": "minecraft:block/hanging_wood_sign",
       "y": 270
     },
     "facing=north,half=lower,hinge=left,open=false,powered=true": {
@@ -46,18 +52,22 @@
       "model": "mcme:block/hobbit_door_3x3_wood_open"
     },
     "facing=north,half=upper,hinge=left,open=false,powered=true": [
-      { "model": "minecraft:block/white_stone_rim" },
-      { "model": "minecraft:block/white_stone_rim_2" }
+      {
+        "model": "minecraft:block/white_stone_rim"
+      },
+      {
+        "model": "minecraft:block/white_stone_rim_2"
+      }
     ],
     "facing=north,half=upper,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/dripstone_vertical_thin_slab"
     },
     "facing=north,half=upper,hinge=right,open=false,powered=true": {
-      "model": "minecraft:block/bamboo_door_top_right",
+      "model": "minecraft:block/hanging_metal_sign",
       "y": 270
     },
     "facing=north,half=upper,hinge=right,open=true,powered=true": {
-      "model": "minecraft:block/bamboo_door_top_right_open",
+      "model": "minecraft:block/hanging_wood_sign",
       "y": 180
     },
     "facing=south,half=lower,hinge=left,open=false,powered=true": {
@@ -77,19 +87,25 @@
       "y": 180
     },
     "facing=south,half=upper,hinge=left,open=false,powered=true": [
-    { "model": "minecraft:block/white_stone_rim", "y": 180 },
-    { "model": "minecraft:block/white_stone_rim_2", "y": 180 }
+      {
+        "model": "minecraft:block/white_stone_rim",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/white_stone_rim_2",
+        "y": 180
+      }
     ],
     "facing=south,half=upper,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/dripstone_vertical_thin_slab",
       "y": 180
     },
     "facing=south,half=upper,hinge=right,open=false,powered=true": {
-      "model": "minecraft:block/bamboo_door_top_right",
+      "model": "minecraft:block/hanging_metal_sign",
       "y": 90
     },
     "facing=south,half=upper,hinge=right,open=true,powered=true": {
-      "model": "minecraft:block/bamboo_door_top_right_open"
+      "model": "minecraft:block/hanging_wood_sign"
     },
     "facing=west,half=lower,hinge=left,open=false,powered=true": {
       "model": "mcme:block/hobbit_door_3x3_red_open"
@@ -106,24 +122,27 @@
       "y": 270
     },
     "facing=west,half=upper,hinge=left,open=false,powered=true": [
-    { "model": "minecraft:block/white_stone_rim", "y": 270 },
-    { "model": "minecraft:block/white_stone_rim_2", "y": 270 }
+      {
+        "model": "minecraft:block/white_stone_rim",
+        "y": 270
+      },
+      {
+        "model": "minecraft:block/white_stone_rim_2",
+        "y": 270
+      }
     ],
     "facing=west,half=upper,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/dripstone_vertical_thin_slab",
       "y": 270
     },
     "facing=west,half=upper,hinge=right,open=false,powered=true": {
-      "model": "minecraft:block/bamboo_door_top_right",
+      "model": "minecraft:block/hanging_metal_sign",
       "y": 180
     },
     "facing=west,half=upper,hinge=right,open=true,powered=true": {
-      "model": "minecraft:block/bamboo_door_top_right_open",
+      "model": "minecraft:block/hanging_wood_sign",
       "y": 90
     },
-
-
-
     "facing=east,half=lower,hinge=left,open=false,powered=false": {
       "model": "minecraft:block/large_wooden_wheel",
       "y": 270
