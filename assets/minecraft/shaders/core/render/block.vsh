@@ -14,7 +14,7 @@ uniform sampler2D Sampler2;
 
 uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
-uniform vec3 ChunkOffset;
+uniform vec3 ModelOffset;
 uniform int FogShape;
 uniform float GameTime;
 
@@ -39,12 +39,13 @@ flat out float distanceDensity;
 #moj_import <objmc_tools.glsl>
 
 void main() {
+    
     //default
-    Pos = Position + ChunkOffset;
+    Pos = Position + ModelOffset;
     texCoord = UV0;
     vertexColor = Color;
-        ivec2 test = ivec2(UV2.x, UV2.y);
-    lightColor = minecraft_sample_lightmap(Sampler2, test);
+    ivec2 test = ivec2(UV2.x, UV2.y);
+    lightColor = minecraft_sample_lightmap(Sampler2, UV2);
     vec3 normal = (ProjMat * ModelViewMat * vec4(Normal, 5.0)).rgb;
 
     //objmc
