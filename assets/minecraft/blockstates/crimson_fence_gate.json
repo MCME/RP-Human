@@ -217,10 +217,14 @@
           "open": "false",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/crimson_fence_gate_powered_closed",
-          "uvlock": true
-        }
+        "apply": [
+		{ "model": "block/crimson_fence_gate_powered_closed",  "uvlock": true  },
+		{ "model": "block/crimson_fence_gate_powered_closed_2",  "uvlock": true  },
+		{ "model": "block/crimson_fence_gate_powered_closed_3",  "uvlock": true  },
+		{ "model": "block/crimson_fence_gate_powered_closed_4",  "uvlock": true  },
+		{ "model": "block/crimson_fence_gate_powered_closed_5",  "uvlock": true  },
+		{ "model": "block/crimson_fence_gate_powered_closed_6",  "uvlock": true  }
+		]
       },
       {
         "when": {
@@ -229,11 +233,14 @@
           "open": "false",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/crimson_fence_gate_powered_closed",
-          "uvlock": true,
-          "y": 90
-        }
+        "apply": [
+		{ "model": "block/crimson_fence_gate_powered_closed",  "uvlock": true, "y": 90  },
+		{ "model": "block/crimson_fence_gate_powered_closed_2",  "uvlock": true, "y": 90  },
+		{ "model": "block/crimson_fence_gate_powered_closed_3",  "uvlock": true, "y": 90  },
+		{ "model": "block/crimson_fence_gate_powered_closed_4",  "uvlock": true, "y": 90  },
+		{ "model": "block/crimson_fence_gate_powered_closed_5",  "uvlock": true, "y": 90  },
+		{ "model": "block/crimson_fence_gate_powered_closed_6",  "uvlock": true, "y": 90  }
+		]
       },
       {
         "when": {
@@ -242,11 +249,14 @@
           "open": "false",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/crimson_fence_gate_powered_closed",
-          "uvlock": true,
-          "y": 180
-        }
+        "apply": [
+		{ "model": "block/crimson_fence_gate_powered_closed",  "uvlock": true, "y": 180  },
+		{ "model": "block/crimson_fence_gate_powered_closed_2",  "uvlock": true, "y": 180  },
+		{ "model": "block/crimson_fence_gate_powered_closed_3",  "uvlock": true, "y": 180  },
+		{ "model": "block/crimson_fence_gate_powered_closed_4",  "uvlock": true, "y": 180  },
+		{ "model": "block/crimson_fence_gate_powered_closed_5",  "uvlock": true, "y": 180  },
+		{ "model": "block/crimson_fence_gate_powered_closed_6",  "uvlock": true, "y": 180  }
+		]
       },
       {
         "when": {
@@ -255,11 +265,14 @@
           "open": "false",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/crimson_fence_gate_powered_closed",
-          "uvlock": true,
-          "y": 270
-        }
+        "apply": [
+		{ "model": "block/crimson_fence_gate_powered_closed",  "uvlock": true, "y": 270  },
+		{ "model": "block/crimson_fence_gate_powered_closed_2",  "uvlock": true, "y": 270  },
+		{ "model": "block/crimson_fence_gate_powered_closed_3",  "uvlock": true, "y": 270  },
+		{ "model": "block/crimson_fence_gate_powered_closed_4",  "uvlock": true, "y": 270  },
+		{ "model": "block/crimson_fence_gate_powered_closed_5",  "uvlock": true, "y": 270  },
+		{ "model": "block/crimson_fence_gate_powered_closed_6",  "uvlock": true, "y": 270  }
+		]
       },
       {
         "when": {
@@ -397,8 +410,8 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true
+          "model": "block/pillar_top_sandstone_half",
+          "uvlock": false
         }
       },
       {
@@ -409,8 +422,8 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true,
+          "model": "block/pillar_top_sandstone_half",
+          "uvlock": false,
           "y": 90
         }
       },
@@ -422,8 +435,8 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true
+          "model": "block/pillar_top_sandstone_half",
+          "uvlock": false, "y": 180
         }
       },
       {
@@ -434,9 +447,9 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 90
+          "model": "block/pillar_top_sandstone_half",
+          "uvlock": false,
+          "y": 270
         }
       }
     ]

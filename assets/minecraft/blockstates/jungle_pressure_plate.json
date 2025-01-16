@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": [
+		{  "model": "minecraft:block/carpet_6x3" }
+		],
+    "powered=true": [
+	{ "model" : "block/carpet_6x3", "y":180 }
+	]
+  }
+}
