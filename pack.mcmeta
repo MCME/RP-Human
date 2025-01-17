@@ -1,9 +1,24 @@
 {
   "pack": {
     "pack_format": 46,
-    "description": "MCME Human 3.4.19 Sodium" 
+    "supported_formats": [34,46],
+    "description": "MCME Human 3.4.19 Vanilla"
   },
-  "meta": {
-    "game_version": "1.21.4"
+  "overlays":{
+    "entries":{
+      "directory":"1_21_1","formats": 34
+      }
+    },
+	"overlays": {
+		"entries": [
+			{
+				"directory": "1_21_1",
+				"formats": [32,34]
+            },
+			{
+				"directory": "1_21_4",
+				"formats": [42,46]
+            }
+		]
   }
 }
