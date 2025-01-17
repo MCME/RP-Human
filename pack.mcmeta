@@ -1,7 +1,13 @@
 {
   "pack": {
     "pack_format": 46,
+    "supported_formats": [34,46],
     "description": "MCME Human 3.4.19 Vanilla"
+  },
+  "overlays":{
+    "entries":[
+      {"directory":"1_21_1","formats":[34]}
+    ]
   },
   "meta": {
     "game_version": "1.21.4"
