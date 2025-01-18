@@ -15,8 +15,13 @@
       {"model": "block/gray_terracotta_slab_3", "y": 270 }
     ],
 
-	"type=top,waterlogged=true": [ {"model": "itemblock/upper_slab_double_slab_planks_dark_oak"} 
-	],
+	"type=top,waterlogged=false": [
+		{ "model": "block/powered_repeater_delay1_n", "x":180 },
+		{ "model": "block/powered_repeater_delay1_n_2", "x":180 },
+		{ "model": "block/powered_repeater_delay1_n_3", "x":180 },
+		{ "model": "block/powered_repeater_delay1_n_4", "x":180 },
+		{ "model": "block/powered_repeater_delay1_n_5", "x":180 },
+		{ "model": "block/powered_repeater_delay1_n_6", "x":180 }],
 	"type=double,waterlogged=false": [
             { "model": "block/double_slab_dark_prismarine_1" },
 			{ "model": "block/double_slab_dark_prismarine_2" },
