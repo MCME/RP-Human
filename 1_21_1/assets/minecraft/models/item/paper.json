@@ -1,0 +1,255 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "gui/page_up"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "gui/page_down"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "gui/page_left"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "gui/page_right"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "gui/terra"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "gui/terra_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "gui/plant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "gui/plant_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "gui/crop"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "gui/crop_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "gui/block"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "gui/block_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "gui/roof"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "gui/roof_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "gui/fence"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "gui/fence_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "gui/thin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "gui/thin_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "gui/glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "gui/glass_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "gui/exter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "gui/exter_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "gui/inter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "gui/inter_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "gui/deco"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "gui/deco_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "gui/curtain"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "model": "gui/curtain_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "model": "gui/barrel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "gui/barrel_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31
+      },
+      "model": "gui/misc"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "model": "gui/misc_alt",
+	  "name": 32
+    },
+    {
+      "predicate": {
+        "custom_model_data": 33
+      },
+      "model": "gui/2gondor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 34
+      },
+      "model": "gui/heads"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 35
+      },
+      "model": "gui/block_collection_mask"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 36
+      },
+      "model": "block/replace"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 37
+      },
+      "model": "block/replace"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 38
+      },
+      "model": "block/replace"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 39
+      },
+      "model": "block/replace"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 40
+      },
+      "model": "gui/trees"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 41
+      },
+      "model": "gui/trees_alt"
+    }
+  ]
+}
