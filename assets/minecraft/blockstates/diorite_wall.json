@@ -2,10 +2,10 @@
   "multipart": [
     { "when": { "up": "false", "north": "low","east": "low", "south": "low", "west": "low" },
       "apply": [
-			{ "model": "mcme:block/maple_bark_transition" },
-			{ "model": "mcme:block/maple_bark_transition_2" },
-			{ "model": "mcme:block/maple_bark_transition_3" },
-			{ "model": "mcme:block/maple_bark_transition_4" }
+			{ "model": "minecraft:block/maple_bark_transition" },
+			{ "model": "minecraft:block/maple_bark_transition_2" },
+			{ "model": "minecraft:block/maple_bark_transition_3" },
+			{ "model": "minecraft:block/maple_bark_transition_4" }
 	  ]
     },
     { "when": { "up": "true", "north": "low", "east": "none", "south": "none", "west": "low" },
@@ -42,34 +42,34 @@
 	},
 	{ "when": { "up": "true", "north": "none","east": "tall", "south": "low", "west": "tall" },
       "apply": [
-			{ "model": "mcme:block/maple_bark_transition_diagonal" },
-			{ "model": "mcme:block/maple_bark_transition_diagonal_2" },
-			{ "model": "mcme:block/maple_bark_transition_diagonal_3" },
-			{ "model": "mcme:block/maple_bark_transition_diagonal_4" }
+			{ "model": "minecraft:block/maple_bark_transition_diagonal" },
+			{ "model": "minecraft:block/maple_bark_transition_diagonal_2" },
+			{ "model": "minecraft:block/maple_bark_transition_diagonal_3" },
+			{ "model": "minecraft:block/maple_bark_transition_diagonal_4" }
 	  ]
     },
 	{ "when": { "up": "true", "north": "tall","east": "none", "south": "tall", "west": "low" },
       "apply": [
-			{ "model": "mcme:block/maple_bark_transition_diagonal", "y": 90 },
-			{ "model": "mcme:block/maple_bark_transition_diagonal_2", "y": 90 },
-			{ "model": "mcme:block/maple_bark_transition_diagonal_3", "y": 90 },
-			{ "model": "mcme:block/maple_bark_transition_diagonal_4", "y": 90 }
+			{ "model": "minecraft:block/maple_bark_transition_diagonal", "y": 90 },
+			{ "model": "minecraft:block/maple_bark_transition_diagonal_2", "y": 90 },
+			{ "model": "minecraft:block/maple_bark_transition_diagonal_3", "y": 90 },
+			{ "model": "minecraft:block/maple_bark_transition_diagonal_4", "y": 90 }
 	  ]
     },
 	{ "when": { "up": "true", "north": "low","east": "tall", "south": "none", "west": "tall" },
       "apply": [
-			{ "model": "mcme:block/maple_bark_transition_diagonal", "y": 180 },
-			{ "model": "mcme:block/maple_bark_transition_diagonal_2", "y": 180 },
-			{ "model": "mcme:block/maple_bark_transition_diagonal_3", "y": 180 },
-			{ "model": "mcme:block/maple_bark_transition_diagonal_4", "y": 180 }
+			{ "model": "minecraft:block/maple_bark_transition_diagonal", "y": 180 },
+			{ "model": "minecraft:block/maple_bark_transition_diagonal_2", "y": 180 },
+			{ "model": "minecraft:block/maple_bark_transition_diagonal_3", "y": 180 },
+			{ "model": "minecraft:block/maple_bark_transition_diagonal_4", "y": 180 }
 	  ]
     },
 	{ "when": { "up": "true", "north": "tall","east": "low", "south": "tall", "west": "none" },
       "apply": [
-			{ "model": "mcme:block/maple_bark_transition_diagonal", "y": 270 },
-			{ "model": "mcme:block/maple_bark_transition_diagonal_2", "y": 270 },
-			{ "model": "mcme:block/maple_bark_transition_diagonal_3", "y": 270 },
-			{ "model": "mcme:block/maple_bark_transition_diagonal_4", "y": 270 }
+			{ "model": "minecraft:block/maple_bark_transition_diagonal", "y": 270 },
+			{ "model": "minecraft:block/maple_bark_transition_diagonal_2", "y": 270 },
+			{ "model": "minecraft:block/maple_bark_transition_diagonal_3", "y": 270 },
+			{ "model": "minecraft:block/maple_bark_transition_diagonal_4", "y": 270 }
 	  ]
     },
 	{ "when": { "up": "false", "north": "low", "east": "low", "south": "none", "west": "low" },
@@ -271,10 +271,10 @@
 	},
     { "when": { "up": "true", "north": "low","east": "low", "south": "low", "west": "low" },
       "apply": [
-			{ "model": "mcme:block/poplar_bark_transition" },
-			{ "model": "mcme:block/poplar_bark_transition_2" },
-			{ "model": "mcme:block/poplar_bark_transition_3" },
-			{ "model": "mcme:block/poplar_bark_transition_4" }
+			{ "model": "minecraft:block/poplar_bark_transition" },
+			{ "model": "minecraft:block/poplar_bark_transition_2" },
+			{ "model": "minecraft:block/poplar_bark_transition_3" },
+			{ "model": "minecraft:block/poplar_bark_transition_4" }
 	  ]
     },
 	{ "when": { "up": "true", "north": "tall", "east": "none", "south": "low", "west": "low" },
@@ -311,34 +311,34 @@
 	},
 	{ "when": { "up": "true", "north": "low","east": "tall", "south": "tall", "west": "tall" },
       "apply": [
-			{ "model": "mcme:block/poplar_bark_transition_diagonal" },
-			{ "model": "mcme:block/poplar_bark_transition_diagonal_2" },
-			{ "model": "mcme:block/poplar_bark_transition_diagonal_3" },
-			{ "model": "mcme:block/poplar_bark_transition_diagonal_4" }
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal" },
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal_2" },
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal_3" },
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal_4" }
 	  ]
     },
 	{ "when": { "up": "true", "north": "tall","east": "tall", "south": "tall", "west": "low" },
       "apply": [
-			{ "model": "mcme:block/poplar_bark_transition_diagonal", "y": 90 },
-			{ "model": "mcme:block/poplar_bark_transition_diagonal_2", "y": 90 },
-			{ "model": "mcme:block/poplar_bark_transition_diagonal_3", "y": 90 },
-			{ "model": "mcme:block/poplar_bark_transition_diagonal_4", "y": 90 }
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal", "y": 90 },
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal_2", "y": 90 },
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal_3", "y": 90 },
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal_4", "y": 90 }
 	  ]
     },
 	{ "when": { "up": "true", "north": "tall","east": "tall", "south": "low", "west": "tall" },
       "apply": [
-			{ "model": "mcme:block/poplar_bark_transition_diagonal", "y": 180 },
-			{ "model": "mcme:block/poplar_bark_transition_diagonal_2", "y": 180 },
-			{ "model": "mcme:block/poplar_bark_transition_diagonal_3", "y": 180 },
-			{ "model": "mcme:block/poplar_bark_transition_diagonal_4", "y": 180 }
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal", "y": 180 },
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal_2", "y": 180 },
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal_3", "y": 180 },
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal_4", "y": 180 }
 	  ]
     },
 	{ "when": { "up": "true", "north": "tall","east": "low", "south": "tall", "west": "tall" },
       "apply": [
-			{ "model": "mcme:block/poplar_bark_transition_diagonal", "y": 270 },
-			{ "model": "mcme:block/poplar_bark_transition_diagonal_2", "y": 270 },
-			{ "model": "mcme:block/poplar_bark_transition_diagonal_3", "y": 270 },
-			{ "model": "mcme:block/poplar_bark_transition_diagonal_4", "y": 270 }
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal", "y": 270 },
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal_2", "y": 270 },
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal_3", "y": 270 },
+			{ "model": "minecraft:block/poplar_bark_transition_diagonal_4", "y": 270 }
 	  ]
     },
 	{ "when": { "up": "true", "north": "low", "east": "low", "south": "none", "west": "low" },
