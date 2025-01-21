@@ -50,13 +50,6 @@
                 }
             },
             {
-                "threshold": 7,
-                "model": {
-                    "type": "model",
-                    "model": "block/birch_sapling_stage1"
-                }
-            },
-            {
                 "threshold": 8,
                 "model": {
                     "type": "model",
@@ -6110,7 +6103,15 @@
                     "type": "model",
                     "model": "block/pillar_top_sandstone_half"
                 }
+            },
+            {
+                "threshold": 873,
+                "model": {
+                    "type": "model",
+                    "model": "block/roman_bricks"
+                }
             }
+
         ]
     }
 }
