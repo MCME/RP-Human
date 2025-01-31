@@ -1,403 +1,531 @@
 {
   "variants": {
     "powered=false,disarmed=false,attached=false,north=false,east=false,south=false,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=false,disarmed=false,attached=false,north=false,east=false,south=false,west=true": {
-	  "model": "mcme:block/oak_trunk_horizontal", "y": 270 
-	},
+      "model": "mcme:block/oak_trunk_horizontal",
+      "y": 270
+    },
     "powered=false,disarmed=false,attached=false,north=false,east=false,south=true,west=false": {
-	  "model": "mcme:block/oak_trunk_horizontal", "y": 180
-	},
+      "model": "mcme:block/oak_trunk_horizontal",
+      "y": 180
+    },
     "powered=false,disarmed=false,attached=false,north=false,east=false,south=true,west=true": {
-	  "model": "mcme:block/maple_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/maple_trunk_horizontal",
+      "y": 270
+    },
     ",powered=false,disarmed=false,attached=false,north=false,east=true,south=false,west=false": {
-	  "model": "mcme:block/oak_trunk_horizontal", "y": 90
-	},
+      "model": "mcme:block/oak_trunk_horizontal",
+      "y": 90
+    },
     "powered=false,disarmed=false,attached=false,north=false,east=true,south=false,west=true": {
-	  "model": "block/unused_block_0"
-	},
-	"powered=false,disarmed=false,attached=false,north=false,east=true,south=true,west=false": {
-	  "model": "mcme:block/maple_trunk_horizontal", "y":180
-	},
-	"powered=false,disarmed=false,attached=false,north=false,east=true,south=true,west=true": {
-	  "model": "mcme:block/beech_trunk_horizontal", "y":180
-	},
-	"powered=false,disarmed=false,attached=false,north=true,east=false,south=false,west=false": {
-	  "model": "mcme:block/oak_trunk_horizontal" 
-	},
-	"powered=false,disarmed=false,attached=false,north=true,east=false,south=false,west=true": {
-	  "model": "mcme:block/maple_trunk_horizontal" 
-	},
+      "model": "block/unused_block_0"
+    },
+    "powered=false,disarmed=false,attached=false,north=false,east=true,south=true,west=false": {
+      "model": "mcme:block/maple_trunk_horizontal",
+      "y": 180
+    },
+    "powered=false,disarmed=false,attached=false,north=false,east=true,south=true,west=true": {
+      "model": "mcme:block/beech_trunk_horizontal",
+      "y": 180
+    },
+    "powered=false,disarmed=false,attached=false,north=true,east=false,south=false,west=false": {
+      "model": "mcme:block/oak_trunk_horizontal"
+    },
+    "powered=false,disarmed=false,attached=false,north=true,east=false,south=false,west=true": {
+      "model": "mcme:block/maple_trunk_horizontal"
+    },
     "powered=false,disarmed=false,attached=false,north=true,east=false,south=true,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=false,disarmed=false,attached=false,north=true,east=false,south=true,west=true": {
-	  "model": "mcme:block/beech_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/beech_trunk_horizontal",
+      "y": 270
+    },
     "powered=false,disarmed=false,attached=false,north=true,east=true,south=false,west=false": {
-	  "model": "mcme:block/maple_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/maple_trunk_horizontal",
+      "y": 90
+    },
     "powered=false,disarmed=false,attached=false,north=true,east=true,south=false,west=true": {
-	  "model": "mcme:block/beech_trunk_horizontal" 
-	},
+      "model": "mcme:block/beech_trunk_horizontal"
+    },
     "powered=false,disarmed=false,attached=false,north=true,east=true,south=true,west=false": {
-	  "model": "mcme:block/beech_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/beech_trunk_horizontal",
+      "y": 90
+    },
     "powered=false,disarmed=false,attached=false,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=false,disarmed=false,attached=true,north=false,east=false,south=false,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=false,disarmed=false,attached=true,north=false,east=false,south=false,west=true": {
-	  "model": "mcme:block/oak_thin_trunk_horizontal", "y": 270 
-	},
+      "model": "mcme:block/oak_thin_trunk_horizontal",
+      "y": 270
+    },
     "powered=false,disarmed=false,attached=true,north=false,east=false,south=true,west=false": {
-	  "model": "mcme:block/oak_thin_trunk_horizontal", "y": 180  
-	},
+      "model": "mcme:block/oak_thin_trunk_horizontal",
+      "y": 180
+    },
     "powered=false,disarmed=false,attached=true,north=false,east=false,south=true,west=true": {
-	  "model": "mcme:block/maple_thin_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/maple_thin_trunk_horizontal",
+      "y": 270
+    },
     ",powered=false,disarmed=false,attached=true,north=false,east=true,south=false,west=false": {
-	  "model": "mcme:block/oak_thin_trunk_horizontal", "y": 90 
-	},
+      "model": "mcme:block/oak_thin_trunk_horizontal",
+      "y": 90
+    },
     "powered=false,disarmed=false,attached=true,north=false,east=true,south=false,west=true": {
-	  "model": "block/unused_block_0"
-	},
-	"powered=false,disarmed=false,attached=true,north=false,east=true,south=true,west=false": {
-	  "model": "mcme:block/maple_thin_trunk_horizontal", "y":180
-	},
-	"powered=false,disarmed=false,attached=true,north=false,east=true,south=true,west=true": {
-	  "model": "mcme:block/beech_thin_trunk_horizontal", "y":180
-	},
-	"powered=false,disarmed=false,attached=true,north=true,east=false,south=false,west=false": {
-	  "model": "mcme:block/oak_thin_trunk_horizontal" 
-	},
-	"powered=false,disarmed=false,attached=true,north=true,east=false,south=false,west=true": {
-	  "model": "mcme:block/maple_thin_trunk_horizontal" 
-	},
+      "model": "block/unused_block_0"
+    },
+    "powered=false,disarmed=false,attached=true,north=false,east=true,south=true,west=false": {
+      "model": "mcme:block/maple_thin_trunk_horizontal",
+      "y": 180
+    },
+    "powered=false,disarmed=false,attached=true,north=false,east=true,south=true,west=true": {
+      "model": "mcme:block/beech_thin_trunk_horizontal",
+      "y": 180
+    },
+    "powered=false,disarmed=false,attached=true,north=true,east=false,south=false,west=false": {
+      "model": "mcme:block/oak_thin_trunk_horizontal"
+    },
+    "powered=false,disarmed=false,attached=true,north=true,east=false,south=false,west=true": {
+      "model": "mcme:block/maple_thin_trunk_horizontal"
+    },
     "powered=false,disarmed=false,attached=true,north=true,east=false,south=true,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=false,disarmed=false,attached=true,north=true,east=false,south=true,west=true": {
-	  "model": "mcme:block/beech_thin_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/beech_thin_trunk_horizontal",
+      "y": 270
+    },
     "powered=false,disarmed=false,attached=true,north=true,east=true,south=false,west=false": {
-	  "model": "mcme:block/maple_thin_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/maple_thin_trunk_horizontal",
+      "y": 90
+    },
     "powered=false,disarmed=false,attached=true,north=true,east=true,south=false,west=true": {
-	  "model": "mcme:block/beech_thin_trunk_horizontal" 
-	},
+      "model": "mcme:block/beech_thin_trunk_horizontal"
+    },
     "powered=false,disarmed=false,attached=true,north=true,east=true,south=true,west=false": {
-	  "model": "mcme:block/beech_thin_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/beech_thin_trunk_horizontal",
+      "y": 90
+    },
     "powered=false,disarmed=false,attached=true,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
-	},
-	"powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
+    "powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=false": {
+      "model": "block/unused_block_0"
+    },
     "powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=true": {
-	  "model": "mcme:block/ash_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/ash_trunk_horizontal",
+      "y": 270
+    },
     "powered=true,disarmed=false,attached=false,north=false,east=false,south=true,west=false": {
-	  "model": "mcme:block/ash_trunk_horizontal", "y":180
-	},
+      "model": "mcme:block/ash_trunk_horizontal",
+      "y": 180
+    },
     "powered=true,disarmed=false,attached=false,north=false,east=false,south=true,west=true": {
-	  "model": "mcme:block/chestnut_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/chestnut_trunk_horizontal",
+      "y": 270
+    },
     ",powered=true,disarmed=false,attached=false,north=false,east=true,south=false,west=false": {
-	  "model": "mcme:block/ash_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/ash_trunk_horizontal",
+      "y": 90
+    },
     "powered=true,disarmed=false,attached=false,north=false,east=true,south=false,west=true": {
-	  "model": "block/unused_block_0"
-	},
-	"powered=true,disarmed=false,attached=false,north=false,east=true,south=true,west=false": {
-	  "model": "mcme:block/chestnut_trunk_horizontal", "y":180
-	},
-	"powered=true,disarmed=false,attached=false,north=false,east=true,south=true,west=true": {
-	  "model": "mcme:block/elm_trunk_horizontal", "y":180
-	},
-	"powered=true,disarmed=false,attached=false,north=true,east=false,south=false,west=false": {
-	  "model": "mcme:block/ash_trunk_horizontal" 
-	},
-	"powered=true,disarmed=false,attached=false,north=true,east=false,south=false,west=true": {
-	  "model": "mcme:block/chestnut_trunk_horizontal" 
-	},
-    "powered=true,disarmed=false,attached=false,north=true,east=false,south=true,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
+    "powered=true,disarmed=false,attached=false,north=false,east=true,south=true,west=false": {
+      "model": "mcme:block/chestnut_trunk_horizontal",
+      "y": 180
+    },
+    "powered=true,disarmed=false,attached=false,north=false,east=true,south=true,west=true": {
+      "model": "mcme:block/elm_trunk_horizontal",
+      "y": 180
+    },
+    "powered=true,disarmed=false,attached=false,north=true,east=false,south=false,west=false": {
+      "model": "mcme:block/ash_trunk_horizontal"
+    },
+    "powered=true,disarmed=false,attached=false,north=true,east=false,south=false,west=true": {
+      "model": "mcme:block/chestnut_trunk_horizontal"
+    },
+    "attached=false,east=false,north=true,south=true,west=false,powered=true,disarmed=false": 
+    [
+    { "model": "mcme:block/mist"  },
+    { "model": "mcme:block/mist", "y": 90  },
+    { "model": "mcme:block/mist", "y": 180  },
+    { "model": "mcme:block/mist", "y": 270  },
+    { "model": "mcme:block/mist_2"  },
+    { "model": "mcme:block/mist_2", "y": 90  },
+    { "model": "mcme:block/mist_2", "y": 180  },
+    { "model": "mcme:block/mist_2", "y": 270  },
+    { "model": "mcme:block/mist_3"  },
+    { "model": "mcme:block/mist_3", "y": 90  },
+    { "model": "mcme:block/mist_3", "y": 180  },
+    { "model": "mcme:block/mist_3", "y": 270  }
+    ],
     "powered=true,disarmed=false,attached=false,north=true,east=false,south=true,west=true": {
-	  "model": "mcme:block/elm_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/elm_trunk_horizontal",
+      "y": 270
+    },
     "powered=true,disarmed=false,attached=false,north=true,east=true,south=false,west=false": {
-	  "model": "mcme:block/chestnut_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/chestnut_trunk_horizontal",
+      "y": 90
+    },
     "powered=true,disarmed=false,attached=false,north=true,east=true,south=false,west=true": {
-	  "model": "mcme:block/elm_trunk_horizontal" 
-	},
+      "model": "mcme:block/elm_trunk_horizontal"
+    },
     "powered=true,disarmed=false,attached=false,north=true,east=true,south=true,west=false": {
-	  "model": "mcme:block/elm_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/elm_trunk_horizontal",
+      "y": 90
+    },
     "powered=true,disarmed=false,attached=false,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=true,disarmed=false,attached=true,north=false,east=false,south=false,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=true,disarmed=false,attached=true,north=false,east=false,south=false,west=true": {
-	  "model": "mcme:block/ash_thin_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/ash_thin_trunk_horizontal",
+      "y": 270
+    },
     "powered=true,disarmed=false,attached=true,north=false,east=false,south=true,west=false": {
-	  "model": "mcme:block/ash_thin_trunk_horizontal", "y":180
-	},
+      "model": "mcme:block/ash_thin_trunk_horizontal",
+      "y": 180
+    },
     "powered=true,disarmed=false,attached=true,north=false,east=false,south=true,west=true": {
-	  "model": "mcme:block/chestnut_thin_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/chestnut_thin_trunk_horizontal",
+      "y": 270
+    },
     ",powered=true,disarmed=false,attached=true,north=false,east=true,south=false,west=false": {
-	  "model": "mcme:block/ash_thin_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/ash_thin_trunk_horizontal",
+      "y": 90
+    },
     "powered=true,disarmed=false,attached=true,north=false,east=true,south=false,west=true": {
-	  "model": "block/unused_block_0"
-	},
-	"powered=true,disarmed=false,attached=true,north=false,east=true,south=true,west=false": {
-	  "model": "mcme:block/chestnut_thin_trunk_horizontal", "y":180
-	},
-	"powered=true,disarmed=false,attached=true,north=false,east=true,south=true,west=true": {
-	  "model": "mcme:block/elm_thin_trunk_horizontal", "y":180
-	},
-	"powered=true,disarmed=false,attached=true,north=true,east=false,south=false,west=false": {
-	  "model": "mcme:block/ash_thin_trunk_horizontal" 
-	},
-	"powered=true,disarmed=false,attached=true,north=true,east=false,south=false,west=true": {
-	  "model": "mcme:block/chestnut_thin_trunk_horizontal" 
-	},
+      "model": "block/unused_block_0"
+    },
+    "powered=true,disarmed=false,attached=true,north=false,east=true,south=true,west=false": {
+      "model": "mcme:block/chestnut_thin_trunk_horizontal",
+      "y": 180
+    },
+    "powered=true,disarmed=false,attached=true,north=false,east=true,south=true,west=true": {
+      "model": "mcme:block/elm_thin_trunk_horizontal",
+      "y": 180
+    },
+    "powered=true,disarmed=false,attached=true,north=true,east=false,south=false,west=false": {
+      "model": "mcme:block/ash_thin_trunk_horizontal"
+    },
+    "powered=true,disarmed=false,attached=true,north=true,east=false,south=false,west=true": {
+      "model": "mcme:block/chestnut_thin_trunk_horizontal"
+    },
     "powered=true,disarmed=false,attached=true,north=true,east=false,south=true,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=true,disarmed=false,attached=true,north=true,east=false,south=true,west=true": {
-	  "model": "mcme:block/elm_thin_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/elm_thin_trunk_horizontal",
+      "y": 270
+    },
     "powered=true,disarmed=false,attached=true,north=true,east=true,south=false,west=false": {
-	  "model": "mcme:block/chestnut_thin_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/chestnut_thin_trunk_horizontal",
+      "y": 90
+    },
     "powered=true,disarmed=false,attached=true,north=true,east=true,south=false,west=true": {
-	  "model": "mcme:block/elm_thin_trunk_horizontal" 
-	},
+      "model": "mcme:block/elm_thin_trunk_horizontal"
+    },
     "powered=true,disarmed=false,attached=true,north=true,east=true,south=true,west=false": {
-	  "model": "mcme:block/elm_thin_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/elm_thin_trunk_horizontal",
+      "y": 90
+    },
     "powered=true,disarmed=false,attached=true,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
-	},
-	"powered=false,disarmed=true,attached=false,north=false,east=false,south=false,west=false": [
-	{ "model": "block/bottle" },
-	{ "model": "block/bottle", "y":90 },
-	{ "model": "block/bottle", "y":180 },
-	{ "model": "block/bottle", "y":270 },
-	{ "model": "block/bottle_2" },
-	{ "model": "block/bottle_2", "y":90 },
-	{ "model": "block/bottle_2", "y":180 },
-	{ "model": "block/bottle_2", "y":270 },
-	{ "model": "block/bottle_3" },
-	{ "model": "block/bottle_3", "y":90 },
-	{ "model": "block/bottle_3", "y":180 },
-	{ "model": "block/bottle_3", "y":270 },
-	{ "model": "block/bottle_4" },
-	{ "model": "block/bottle_4", "y":90 },
-	{ "model": "block/bottle_4", "y":180 },
-	{ "model": "block/bottle_4", "y":270 }
-	],
+      "model": "block/unused_block_0"
+    },
+    "powered=false,disarmed=true,attached=false,north=false,east=false,south=false,west=false": [
+      {
+        "model": "block/bottle"
+      },
+      {
+        "model": "block/bottle",
+        "y": 90
+      },
+      {
+        "model": "block/bottle",
+        "y": 180
+      },
+      {
+        "model": "block/bottle",
+        "y": 270
+      },
+      {
+        "model": "block/bottle_2"
+      },
+      {
+        "model": "block/bottle_2",
+        "y": 90
+      },
+      {
+        "model": "block/bottle_2",
+        "y": 180
+      },
+      {
+        "model": "block/bottle_2",
+        "y": 270
+      },
+      {
+        "model": "block/bottle_3"
+      },
+      {
+        "model": "block/bottle_3",
+        "y": 90
+      },
+      {
+        "model": "block/bottle_3",
+        "y": 180
+      },
+      {
+        "model": "block/bottle_3",
+        "y": 270
+      },
+      {
+        "model": "block/bottle_4"
+      },
+      {
+        "model": "block/bottle_4",
+        "y": 90
+      },
+      {
+        "model": "block/bottle_4",
+        "y": 180
+      },
+      {
+        "model": "block/bottle_4",
+        "y": 270
+      }
+    ],
     "powered=false,disarmed=true,attached=false,north=false,east=false,south=false,west=true": {
-	  "model": "mcme:block/birch_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/birch_trunk_horizontal",
+      "y": 270
+    },
     "powered=false,disarmed=true,attached=false,north=false,east=false,south=true,west=false": {
-	  "model": "mcme:block/birch_trunk_horizontal", "y":180
-	},
+      "model": "mcme:block/birch_trunk_horizontal",
+      "y": 180
+    },
     "powered=false,disarmed=true,attached=false,north=false,east=false,south=true,west=true": {
-	  "model": "mcme:block/pine_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/pine_trunk_horizontal",
+      "y": 270
+    },
     ",powered=false,disarmed=true,attached=false,north=false,east=true,south=false,west=false": {
-	  "model": "mcme:block/birch_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/birch_trunk_horizontal",
+      "y": 90
+    },
     "powered=false,disarmed=true,attached=false,north=false,east=true,south=false,west=true": {
-	  "model": "block/unused_block_0"
-	},
-	"powered=false,disarmed=true,attached=false,north=false,east=true,south=true,west=false": {
-	  "model": "mcme:block/pine_trunk_horizontal", "y":180
-	},
-	"powered=false,disarmed=true,attached=false,north=false,east=true,south=true,west=true": {
-	  "model": "mcme:block/larch_trunk_horizontal", "y":180
-	},
-	"powered=false,disarmed=true,attached=false,north=true,east=false,south=false,west=false": {
-	  "model": "mcme:block/birch_trunk_horizontal" 
-	},
-	"powered=false,disarmed=true,attached=false,north=true,east=false,south=false,west=true": {
-	  "model": "mcme:block/pine_trunk_horizontal" 
-	},
+      "model": "block/unused_block_0"
+    },
+    "powered=false,disarmed=true,attached=false,north=false,east=true,south=true,west=false": {
+      "model": "mcme:block/pine_trunk_horizontal",
+      "y": 180
+    },
+    "powered=false,disarmed=true,attached=false,north=false,east=true,south=true,west=true": {
+      "model": "mcme:block/larch_trunk_horizontal",
+      "y": 180
+    },
+    "powered=false,disarmed=true,attached=false,north=true,east=false,south=false,west=false": {
+      "model": "mcme:block/birch_trunk_horizontal"
+    },
+    "powered=false,disarmed=true,attached=false,north=true,east=false,south=false,west=true": {
+      "model": "mcme:block/pine_trunk_horizontal"
+    },
     "powered=false,disarmed=true,attached=false,north=true,east=false,south=true,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=false,disarmed=true,attached=false,north=true,east=false,south=true,west=true": {
-	  "model": "mcme:block/larch_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/larch_trunk_horizontal",
+      "y": 270
+    },
     "powered=false,disarmed=true,attached=false,north=true,east=true,south=false,west=false": {
-	  "model": "mcme:block/pine_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/pine_trunk_horizontal",
+      "y": 90
+    },
     "powered=false,disarmed=true,attached=false,north=true,east=true,south=false,west=true": {
-	  "model": "mcme:block/larch_trunk_horizontal" 
-	},
+      "model": "mcme:block/larch_trunk_horizontal"
+    },
     "powered=false,disarmed=true,attached=false,north=true,east=true,south=true,west=false": {
-	  "model": "mcme:block/larch_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/larch_trunk_horizontal",
+      "y": 90
+    },
     "powered=false,disarmed=true,attached=false,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=false,disarmed=true,attached=true,north=false,east=false,south=false,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=false,disarmed=true,attached=true,north=false,east=false,south=false,west=true": {
-	  "model": "mcme:block/birch_thin_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/birch_thin_trunk_horizontal",
+      "y": 270
+    },
     "powered=false,disarmed=true,attached=true,north=false,east=false,south=true,west=false": {
-	  "model": "mcme:block/birch_thin_trunk_horizontal", "y":180
-	},
+      "model": "mcme:block/birch_thin_trunk_horizontal",
+      "y": 180
+    },
     "powered=false,disarmed=true,attached=true,north=false,east=false,south=true,west=true": {
-	  "model": "mcme:block/pine_thin_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/pine_thin_trunk_horizontal",
+      "y": 270
+    },
     ",powered=false,disarmed=true,attached=true,north=false,east=true,south=false,west=false": {
-	  "model": "mcme:block/birch_thin_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/birch_thin_trunk_horizontal",
+      "y": 90
+    },
     "powered=false,disarmed=true,attached=true,north=false,east=true,south=false,west=true": {
-	  "model": "block/unused_block_0"
-	},
-	"powered=false,disarmed=true,attached=true,north=false,east=true,south=true,west=false": {
-	  "model": "mcme:block/pine_thin_trunk_horizontal", "y":180
-	},
-	"powered=false,disarmed=true,attached=true,north=false,east=true,south=true,west=true": {
-	  "model": "mcme:block/larch_thin_trunk_horizontal", "y":180
-	},
-	"powered=false,disarmed=true,attached=true,north=true,east=false,south=false,west=false": {
-	  "model": "mcme:block/birch_thin_trunk_horizontal" 
-	},
-	"powered=false,disarmed=true,attached=true,north=true,east=false,south=false,west=true": {
-	  "model": "mcme:block/pine_thin_trunk_horizontal" 
-	},
+      "model": "block/unused_block_0"
+    },
+    "powered=false,disarmed=true,attached=true,north=false,east=true,south=true,west=false": {
+      "model": "mcme:block/pine_thin_trunk_horizontal",
+      "y": 180
+    },
+    "powered=false,disarmed=true,attached=true,north=false,east=true,south=true,west=true": {
+      "model": "mcme:block/larch_thin_trunk_horizontal",
+      "y": 180
+    },
+    "powered=false,disarmed=true,attached=true,north=true,east=false,south=false,west=false": {
+      "model": "mcme:block/birch_thin_trunk_horizontal"
+    },
+    "powered=false,disarmed=true,attached=true,north=true,east=false,south=false,west=true": {
+      "model": "mcme:block/pine_thin_trunk_horizontal"
+    },
     "powered=false,disarmed=true,attached=true,north=true,east=false,south=true,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=false,disarmed=true,attached=true,north=true,east=false,south=true,west=true": {
-	  "model": "mcme:block/larch_thin_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/larch_thin_trunk_horizontal",
+      "y": 270
+    },
     "powered=false,disarmed=true,attached=true,north=true,east=true,south=false,west=false": {
-	  "model": "mcme:block/pine_thin_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/pine_thin_trunk_horizontal",
+      "y": 90
+    },
     "powered=false,disarmed=true,attached=true,north=true,east=true,south=false,west=true": {
-	  "model": "mcme:block/larch_thin_trunk_horizontal" 
-	},
+      "model": "mcme:block/larch_thin_trunk_horizontal"
+    },
     "powered=false,disarmed=true,attached=true,north=true,east=true,south=true,west=false": {
-	  "model": "mcme:block/larch_thin_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/larch_thin_trunk_horizontal",
+      "y": 90
+    },
     "powered=false,disarmed=true,attached=true,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
-	},
-	"powered=true,disarmed=true,attached=false,north=false,east=false,south=false,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
+    "powered=true,disarmed=true,attached=false,north=false,east=false,south=false,west=false": {
+      "model": "block/unused_block_0"
+    },
     "powered=true,disarmed=true,attached=false,north=false,east=false,south=false,west=true": {
-	  "model": "mcme:block/poplar_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/poplar_trunk_horizontal",
+      "y": 270
+    },
     "powered=true,disarmed=true,attached=false,north=false,east=false,south=true,west=false": {
-	  "model": "mcme:block/poplar_trunk_horizontal", "y":180
-	},
+      "model": "mcme:block/poplar_trunk_horizontal",
+      "y": 180
+    },
     "powered=true,disarmed=true,attached=false,north=false,east=false,south=true,west=true": {
-	  "model": "mcme:block/whitebeam_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/whitebeam_trunk_horizontal",
+      "y": 270
+    },
     "powered=true,disarmed=true,attached=false,north=false,east=true,south=false,west=false": {
-	  "model": "mcme:block/poplar_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/poplar_trunk_horizontal",
+      "y": 90
+    },
     "powered=true,disarmed=true,attached=false,north=false,east=true,south=false,west=true": {
-	  "model": "block/unused_block_0"
-	},
-	"powered=true,disarmed=true,attached=false,north=false,east=true,south=true,west=false": {
-	  "model": "mcme:block/whitebeam_trunk_horizontal", "y":180
-	},
-	"powered=true,disarmed=true,attached=false,north=false,east=true,south=true,west=true": {
-	  "model": "mcme:block/spruce_trunk_horizontal", "y":180
-	},
-	"powered=true,disarmed=true,attached=false,north=true,east=false,south=false,west=false": {
-	  "model": "mcme:block/poplar_trunk_horizontal" 
-	},
-	"powered=true,disarmed=true,attached=false,north=true,east=false,south=false,west=true": {
-	  "model": "mcme:block/whitebeam_trunk_horizontal" 
-	},
+      "model": "block/unused_block_0"
+    },
+    "powered=true,disarmed=true,attached=false,north=false,east=true,south=true,west=false": {
+      "model": "mcme:block/whitebeam_trunk_horizontal",
+      "y": 180
+    },
+    "powered=true,disarmed=true,attached=false,north=false,east=true,south=true,west=true": {
+      "model": "mcme:block/spruce_trunk_horizontal",
+      "y": 180
+    },
+    "powered=true,disarmed=true,attached=false,north=true,east=false,south=false,west=false": {
+      "model": "mcme:block/poplar_trunk_horizontal"
+    },
+    "powered=true,disarmed=true,attached=false,north=true,east=false,south=false,west=true": {
+      "model": "mcme:block/whitebeam_trunk_horizontal"
+    },
     "powered=true,disarmed=true,attached=false,north=true,east=false,south=true,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=true,disarmed=true,attached=false,north=true,east=false,south=true,west=true": {
-	  "model": "mcme:block/spruce_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/spruce_trunk_horizontal",
+      "y": 270
+    },
     "powered=true,disarmed=true,attached=false,north=true,east=true,south=false,west=false": {
-	  "model": "mcme:block/whitebeam_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/whitebeam_trunk_horizontal",
+      "y": 90
+    },
     "powered=true,disarmed=true,attached=false,north=true,east=true,south=false,west=true": {
-	  "model": "mcme:block/spruce_trunk_horizontal" 
-	},
+      "model": "mcme:block/spruce_trunk_horizontal"
+    },
     "powered=true,disarmed=true,attached=false,north=true,east=true,south=true,west=false": {
-	  "model": "mcme:block/spruce_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/spruce_trunk_horizontal",
+      "y": 90
+    },
     "powered=true,disarmed=true,attached=false,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=true,disarmed=true,attached=true,north=false,east=false,south=false,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=true,disarmed=true,attached=true,north=false,east=false,south=false,west=true": {
-	  "model": "mcme:block/poplar_thin_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/poplar_thin_trunk_horizontal",
+      "y": 270
+    },
     "powered=true,disarmed=true,attached=true,north=false,east=false,south=true,west=false": {
-	  "model": "mcme:block/poplar_thin_trunk_horizontal", "y":180
-	},
+      "model": "mcme:block/poplar_thin_trunk_horizontal",
+      "y": 180
+    },
     "powered=true,disarmed=true,attached=true,north=false,east=false,south=true,west=true": {
-	  "model": "mcme:block/whitebeam_thin_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/whitebeam_thin_trunk_horizontal",
+      "y": 270
+    },
     ",powered=true,disarmed=true,attached=true,north=false,east=true,south=false,west=false": {
-	  "model": "mcme:block/poplar_thin_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/poplar_thin_trunk_horizontal",
+      "y": 90
+    },
     "powered=true,disarmed=true,attached=true,north=false,east=true,south=false,west=true": {
-	  "model": "block/unused_block_0"
-	},
-	"powered=true,disarmed=true,attached=true,north=false,east=true,south=true,west=false": {
-	  "model": "mcme:block/whitebeam_thin_trunk_horizontal", "y":180
-	},
-	"powered=true,disarmed=true,attached=true,north=false,east=true,south=true,west=true": {
-	  "model": "mcme:block/spruce_thin_trunk_horizontal", "y":180
-	},
-	"powered=true,disarmed=true,attached=true,north=true,east=false,south=false,west=false": {
-	  "model": "mcme:block/poplar_thin_trunk_horizontal" 
-	},
-	"powered=true,disarmed=true,attached=true,north=true,east=false,south=false,west=true": {
-	  "model": "mcme:block/whitebeam_thin_trunk_horizontal" 
-	},
+      "model": "block/unused_block_0"
+    },
+    "powered=true,disarmed=true,attached=true,north=false,east=true,south=true,west=false": {
+      "model": "mcme:block/whitebeam_thin_trunk_horizontal",
+      "y": 180
+    },
+    "powered=true,disarmed=true,attached=true,north=false,east=true,south=true,west=true": {
+      "model": "mcme:block/spruce_thin_trunk_horizontal",
+      "y": 180
+    },
+    "powered=true,disarmed=true,attached=true,north=true,east=false,south=false,west=false": {
+      "model": "mcme:block/poplar_thin_trunk_horizontal"
+    },
+    "powered=true,disarmed=true,attached=true,north=true,east=false,south=false,west=true": {
+      "model": "mcme:block/whitebeam_thin_trunk_horizontal"
+    },
     "powered=true,disarmed=true,attached=true,north=true,east=false,south=true,west=false": {
-	  "model": "block/unused_block_0"
-	},
+      "model": "block/unused_block_0"
+    },
     "powered=true,disarmed=true,attached=true,north=true,east=false,south=true,west=true": {
-	  "model": "mcme:block/spruce_thin_trunk_horizontal", "y":270
-	},
+      "model": "mcme:block/spruce_thin_trunk_horizontal",
+      "y": 270
+    },
     "powered=true,disarmed=true,attached=true,north=true,east=true,south=false,west=false": {
-	  "model": "mcme:block/whitebeam_thin_trunk_horizontal", "y":90
-	},
+      "model": "mcme:block/whitebeam_thin_trunk_horizontal",
+      "y": 90
+    },
     "powered=true,disarmed=true,attached=true,north=true,east=true,south=false,west=true": {
-	  "model": "mcme:block/spruce_thin_trunk_horizontal" 
-	},
+      "model": "mcme:block/spruce_thin_trunk_horizontal"
+    },
     "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=false": {
-	  "model": "mcme:block/spruce_thin_trunk_horizontal", "y": 90
-	},
+      "model": "mcme:block/spruce_thin_trunk_horizontal",
+      "y": 90
+    },
     "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
-	}
+      "model": "block/unused_block_0"
+    }
   }
 }
