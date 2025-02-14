@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 32],
+	"textures": {
+		"0": "block/oak",
+		"particle": "block/oak"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.08985, 9.75, 8.01172]},
+			"faces": {
+				"north": {"uv": [3.25, 8, 7.25, 9], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [3.25, 8, 7.25, 9], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3.25, 7, 7.25, 8], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [3.25, 9, 7.25, 10], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0.75, 9.5, 1.25, 10.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0.75, 9.5, 1.25, 10.5], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}

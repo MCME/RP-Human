@@ -197,72 +197,76 @@
       "y": 180
     },
     "facing=north,half=upper,hinge=left,open=true,powered=true": [
-	  { "model": "mcme:block/pine_leaves_dark_vertical_slab", "y": 270},
-	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_2", "y": 270},
-	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_3", "y": 270}
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_4"},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_4_2"},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_4_3"},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_4_4"}
 	],
     "facing=east,half=upper,hinge=left,open=true,powered=true": [
 	  { "model": "mcme:block/pine_leaves_dark_vertical_slab" },
-	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_2" },
-	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_3" }
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_1_2" },
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_1_3" },
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_1_4" }
 	],
     "facing=south,half=upper,hinge=left,open=true,powered=true": [
-	  { "model": "mcme:block/pine_leaves_dark_vertical_slab", "y": 90},
-	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_2", "y": 90},
-	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_3", "y": 90}
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_2"},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_2_2"},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_2_3"},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_2_4"}
 	],
     "facing=west,half=upper,hinge=left,open=true,powered=true": [
-	  { "model": "mcme:block/pine_leaves_dark_vertical_slab", "y": 180},
-	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_2", "y": 180},
-	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_3", "y": 180}
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_3"},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_3_2"},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_3_3"},
+	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_3_4"}
 	],
 	"facing=north,half=upper,hinge=right,open=false,powered=true": [
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab", "y": 180},
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_2", "y": 180},
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_3", "y": 180},
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_4", "y": 180}
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_3"},
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_3_2"},
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_3_3"},
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_3_4"}
 	],
 	"facing=east,half=upper,hinge=right,open=false,powered=true": [
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab", "y": 270},
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_2", "y": 270},
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_3", "y": 270},
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_4", "y": 270}
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_4"},
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_4_2"},
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_4_3"},
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_4_4"}
 	],
 	"facing=south,half=upper,hinge=right,open=false,powered=true": [
 		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab"},
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_2"},
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_3"},
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_4"}
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_1_2"},
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_1_3"},
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_1_4"}
 	],
 	"facing=west,half=upper,hinge=right,open=false,powered=true": [
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab", "y": 90},
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_2", "y": 90},
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_3", "y": 90},
-		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_4", "y": 90}
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_2"},
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_2_2"},
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_2_3"},
+		{"model": "mcme:block/linden_leaves_yellowish_vertical_slab_2_4"}
 	],
 	"facing=north,half=upper,hinge=right,open=true,powered=true": [
-		{"model": "mcme:block/linden_leaves_vertical_slab", "y": 90},
-		{"model": "mcme:block/linden_leaves_vertical_slab_2", "y": 90},
-		{"model": "mcme:block/linden_leaves_vertical_slab_3", "y": 90},
-		{"model": "mcme:block/linden_leaves_vertical_slab_4", "y": 90}
+		{"model": "mcme:block/linden_leaves_vertical_slab_2"},
+		{"model": "mcme:block/linden_leaves_vertical_slab_2_2"},
+		{"model": "mcme:block/linden_leaves_vertical_slab_2_3"},
+		{"model": "mcme:block/linden_leaves_vertical_slab_2_4"}
 	],
 	"facing=east,half=upper,hinge=right,open=true,powered=true": [
-		{"model": "mcme:block/linden_leaves_vertical_slab", "y": 180},
-		{"model": "mcme:block/linden_leaves_vertical_slab_2", "y": 180},
-		{"model": "mcme:block/linden_leaves_vertical_slab_3", "y": 180},
-		{"model": "mcme:block/linden_leaves_vertical_slab_4", "y": 180}
+		{"model": "mcme:block/linden_leaves_vertical_slab_3"},
+		{"model": "mcme:block/linden_leaves_vertical_slab_3_2"},
+		{"model": "mcme:block/linden_leaves_vertical_slab_3_3"},
+		{"model": "mcme:block/linden_leaves_vertical_slab_3_4"}
 	],
 	"facing=south,half=upper,hinge=right,open=true,powered=true": [
-		{"model": "mcme:block/linden_leaves_vertical_slab", "y": 270},
-		{"model": "mcme:block/linden_leaves_vertical_slab_2", "y": 270},
-		{"model": "mcme:block/linden_leaves_vertical_slab_3", "y": 270},
-		{"model": "mcme:block/linden_leaves_vertical_slab_4", "y": 270}
+		{"model": "mcme:block/linden_leaves_vertical_slab_4"},
+		{"model": "mcme:block/linden_leaves_vertical_slab_4_2"},
+		{"model": "mcme:block/linden_leaves_vertical_slab_4_3"},
+		{"model": "mcme:block/linden_leaves_vertical_slab_4_4"}
 	],
 	"facing=west,half=upper,hinge=right,open=true,powered=true": [
 		{"model": "mcme:block/linden_leaves_vertical_slab"},
-		{"model": "mcme:block/linden_leaves_vertical_slab_2"},
-		{"model": "mcme:block/linden_leaves_vertical_slab_3"},
-		{"model": "mcme:block/linden_leaves_vertical_slab_4"}
+		{"model": "mcme:block/linden_leaves_vertical_slab_1_2"},
+		{"model": "mcme:block/linden_leaves_vertical_slab_1_3"},
+		{"model": "mcme:block/linden_leaves_vertical_slab_1_4"}
 	]
   }
 }

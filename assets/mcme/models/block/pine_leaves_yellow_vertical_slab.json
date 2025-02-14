@@ -1,19 +1,39 @@
 {
-  "parent": "special-model-loader:builtin/obj",
-  "particle": "mcme:block/pine_leaves_yellow_slab",
-  "flip_v": true,
-  "model": "mcme:models/block/pine_leaves_yellow_vertical_slab.obj",
-  "ambientocclusion": "false",
-	"gui_light": "front",
-	"display": {
-		"firstperson_righthand": {
-			"translation": [3.5, 0, 0],
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"gui": {
-			"rotation": [-90, 0, 0],
-			"translation": [0, 0.25, 0],
-			"scale": [0.75, 0.75, 0.75]
-		}
-	}
+    "parent": "special-model-loader:builtin/obj",
+    "particle": "mcme:block/pine_leaves_brown_slab",
+    "flip_v": true,
+    "mtl_override": "mcme:models/block/pine_leaves_yellow_vertical_slab.mtl",
+    "model": "mcme:models/block/pine_leaves_vertical_slab_parent.obj",
+    "gui_light": "front",
+    "display": {
+        "firstperson_righthand": {
+            "translation": [
+                3.5,
+                0,
+                0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "gui": {
+            "rotation": [
+                -90,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                0.25,
+                0
+            ],
+            "scale": [
+                0.75,
+                0.75,
+                0.75
+            ]
+        }
+    }
 }

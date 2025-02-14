@@ -1,9 +1,7 @@
 {
   "variants": {
     "facing=east,half=bottom,shape=inner_left": {
-      "model": "minecraft:block/smooth_quartz_stairs_inner",
-      "y": 270,
-      "uvlock": true
+      "model": "mcme:block/white_tree_canopy"
     },
     "facing=east,half=bottom,shape=inner_right": {
       "model": "minecraft:block/smooth_quartz_stairs_inner"
@@ -41,9 +39,7 @@
       "y": 180
     },
     "facing=north,half=bottom,shape=inner_left": {
-      "model": "minecraft:block/smooth_quartz_stairs_inner",
-      "y": 180,
-      "uvlock": true
+      "model": "mcme:block/white_tree_base"
     },
     "facing=north,half=bottom,shape=inner_right": {
       "model": "minecraft:block/smooth_quartz_stairs_inner",
