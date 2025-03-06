@@ -2,7 +2,8 @@
   "parent": "special-model-loader:builtin/obj",
   "particle": "mcme:block/elm_log_composite",
   "flip_v": true,
-  "model": "mcme:models/block/elm_thin_trunk_vertical.obj",
+  "mtl_override": "mcme:models/block/elm_thin_trunk_vertical.mtl",
+  "model": "mcme:models/block/thin_trunk_vertical_parent.obj",
 	"gui_light": "front",
 	"display": {
 		"firstperson_righthand": {

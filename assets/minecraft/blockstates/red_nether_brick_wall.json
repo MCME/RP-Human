@@ -4,9 +4,12 @@
       "when": {
         "up": "true"
       },
-      "apply": {
-        "model": "mcme:block/elm_trunk_vertical"
-      }
+      "apply": [
+        { "model": "mcme:block/elm_trunk_vertical" },
+        { "model": "mcme:block/elm_trunk_vertical_2" },
+        { "model": "mcme:block/elm_trunk_vertical_3" },
+        { "model": "mcme:block/elm_trunk_vertical_4" }
+    ]
     },
     {
       "when": {

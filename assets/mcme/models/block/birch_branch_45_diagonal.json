@@ -2,7 +2,8 @@
   "parent": "special-model-loader:builtin/obj",
   "particle": "mcme:block/birch_log_composite",
   "flip_v": true,
-  "model": "mcme:models/block/birch_branch_45_diagonal.obj",
+  "mtl_override": "mcme:models/block/birch_branch_45_diagonal.mtl",
+  "model": "mcme:models/block/branch_45_diagonal_parent.obj",
 	"gui_light": "front",
 	"display": {
 		"firstperson_righthand": {
@@ -14,13 +15,5 @@
 			"translation": [-7, 0.25, 0],
 			"scale": [0.75, 0.75, 0.75]
 		}
-	},
-	"groups": [
-		{
-			"name": "bone",
-			"origin": [0, 0, 0],
-			"color": 0,
-			"children": [0]
-		}
-	]
+	}
 }

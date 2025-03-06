@@ -267,9 +267,9 @@
 	{ "when": { "up": "true", "north": "none|tall", "east": "none|tall", "south": "none|tall", "west": "none|tall" },
       "apply": [
 			{ "model": "mcme:block/whitebeam_trunk_vertical" },
-			{ "model": "mcme:block/whitebeam_trunk_vertical", "y": 90  },
-			{ "model": "mcme:block/whitebeam_trunk_vertical", "y": 180 },
-			{ "model": "mcme:block/whitebeam_trunk_vertical", "y": 270 }
+			{ "model": "mcme:block/whitebeam_trunk_vertical_2" },
+			{ "model": "mcme:block/whitebeam_trunk_vertical_3" },
+			{ "model": "mcme:block/whitebeam_trunk_vertical_4" }
 	  ]
 	},
     { "when": { "up": "true", "north": "low","east": "low", "south": "low", "west": "low" },

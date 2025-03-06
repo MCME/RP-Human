@@ -3,9 +3,9 @@
     { "when": { "up": "true" },
       "apply": [
 			{ "model": "mcme:block/oak_trunk_vertical" },
-			{ "model": "mcme:block/oak_trunk_vertical", "y": 90 },
-			{ "model": "mcme:block/oak_trunk_vertical", "y": 180 },
-			{ "model": "mcme:block/oak_trunk_vertical", "y": 270 }
+      { "model": "mcme:block/oak_trunk_vertical_2" },
+      { "model": "mcme:block/oak_trunk_vertical_3" },
+      { "model": "mcme:block/oak_trunk_vertical_4" }
 	  ]
     },
     { "when": { "north": "low" },

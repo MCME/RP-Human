@@ -1,0 +1,66 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [48, 48],
+	"textures": {
+		"particle": "#1"
+	},
+	"elements": [
+		{
+			"from": [3.42422, -0.34897, -12.14693],
+			"to": [12.49844, 8.18619, 11.0562],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 9.85616, 8]},
+			"faces": {
+				"north": {"uv": [11.66667, 10, 14.64323, 12.84505], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [8.26562, 1, 16, 3.84505], "texture": "#2", "cullface": "north"},
+				"south": {"uv": [5.33333, 1, 8.35807, 3.84505], "texture": "#2", "cullface": "north"},
+				"west": {"uv": [0, 13, 7.73438, 10.15495], "texture": "#2", "cullface": "north"},
+				"up": {"uv": [0, 1, 7.73438, 3.97656], "rotation": 90, "texture": "#2", "cullface": "north"},
+				"down": {"uv": [7.93229, 10, 15.66667, 13.02474], "rotation": 90, "texture": "#2", "cullface": "north"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 9.85616, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"from": [4.9438, -0.34897, 3.42422],
+			"to": [28.14693, 8.18619, 12.49844],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 9.85616, 8]},
+			"faces": {
+				"north": {"uv": [0, 13, 7.73438, 10.15495], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [11.66667, 10, 14.64323, 12.84505], "texture": "#2", "cullface": "north"},
+				"south": {"uv": [8.26562, 1, 16, 3.84505], "texture": "#2", "cullface": "north"},
+				"west": {"uv": [5.33333, 1, 8.35807, 3.84505], "texture": "#2", "cullface": "north"},
+				"up": {"uv": [0, 1, 7.73438, 3.97656], "rotation": 180, "texture": "#2", "cullface": "north"},
+				"down": {"uv": [7.93229, 10, 15.66667, 13.02474], "texture": "#2", "cullface": "north"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [25, 127, 0],
+			"translation": [1, 0, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 13.42031, 9],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
