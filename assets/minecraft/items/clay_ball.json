@@ -2909,7 +2909,7 @@
                 "threshold": 416,
                 "model": {
                     "type": "model",
-                    "model": "block/unused_cross_0"
+                    "model": "block/jungle_button_corbel"
                 }
             },
             {
@@ -6237,8 +6237,28 @@
                     "type": "model",
                     "model": "item/plant_wall_icon"
                 }
+            },
+            {
+                "threshold": 891,
+                "model": {
+                    "type": "model",
+                    "model": "block/glass_cobble_slit"
+                }
+            },
+            {
+                "threshold": 892,
+                "model": {
+                    "type": "model",
+                    "model": "block/glass_sandstone_top"
+                }
+            },
+            {
+                "threshold": 893,
+                "model": {
+                    "type": "model",
+                    "model": "block/glass_sandstone_bottom"
+                }
             }
-
         ]
     }
 }
