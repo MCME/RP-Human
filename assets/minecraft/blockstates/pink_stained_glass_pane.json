@@ -41,9 +41,12 @@
         "south": false,
         "west": false
       },
-      "apply": {
-        "model": "mcme:block/larch_thin_trunk_vertical"
-      }
+      "apply": [
+        { "model": "mcme:block/larch_thin_trunk_vertical" },
+        { "model": "mcme:block/larch_thin_trunk_vertical_2" },
+        { "model": "mcme:block/larch_thin_trunk_vertical_3" },
+        { "model": "mcme:block/larch_thin_trunk_vertical_4" }
+    ]
     }
   ]
 }

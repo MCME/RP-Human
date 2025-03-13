@@ -1,9 +1,22 @@
 {
-  "pack": {
-    "pack_format": 34,
-    "description": "This pack.mcmeta is for development usage only. This should not appear in any release!"
+    "pack": {
+        "pack_format": 46,
+        "supported_formats": [
+            34,
+            46
+        ],
+        "description": "MCME Human 3.5.0 Sodium"
   },
-  "meta": {
-    "game_version": "1.21.1"
+	"overlays": {
+		"entries": [
+			{
+				"directory": "1_21_1",
+				"formats": [32,34]
+            },
+			{
+				"directory": "1_21_4",
+				"formats": [42,46]
+            }
+		]
   }
 }

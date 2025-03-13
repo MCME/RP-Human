@@ -1,0 +1,19 @@
+{
+  "parent": "special-model-loader:builtin/obj",
+  "particle": "mcme:block/larch_large_sapling_2",
+  "flip_v": true,
+  "model": "mcme:models/block/larch_large_sapling_tilted.obj",
+  "ambientocclusion": "false",
+	"gui_light": "front",
+	"display": {
+		"firstperson_righthand": {
+			"translation": [3.5, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 0.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

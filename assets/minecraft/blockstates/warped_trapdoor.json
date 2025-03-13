@@ -1,0 +1,160 @@
+{
+  "variants": {
+    "facing=east,half=bottom,open=false,powered=false": [
+	  {"model": "mcme:block/willow_leaves_slab"},
+	  {"model": "mcme:block/willow_leaves_slab_2"},
+	  {"model": "mcme:block/willow_leaves_slab_3"},
+	  {"model": "mcme:block/willow_leaves_slab_4"}
+	  ],
+    "facing=east,half=top,open=false,powered=false": [
+	  {"model": "mcme:block/willow_leaves_slab_upper"},
+	  {"model": "mcme:block/willow_leaves_slab_upper_2"},
+	  {"model": "mcme:block/willow_leaves_slab_upper_3"},
+	  {"model": "mcme:block/willow_leaves_slab_upper_4"}
+	  ],
+    "facing=north,half=bottom,open=false,powered=false": [
+	  {"model": "mcme:block/birch_leaves_slab"},
+	  {"model": "mcme:block/birch_leaves_slab_2"},
+	  {"model": "mcme:block/birch_leaves_slab_3"},
+	  {"model": "mcme:block/birch_leaves_slab_4"}
+	  ],
+    "facing=north,half=top,open=false,powered=false": [
+	  {"model": "mcme:block/birch_leaves_slab_upper"},
+	  {"model": "mcme:block/birch_leaves_slab_upper_2"},
+	  {"model": "mcme:block/birch_leaves_slab_upper_3"},
+	  {"model": "mcme:block/birch_leaves_slab_upper_4"}
+	  ],
+	  "facing=south,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/hanging_spears"},
+	  {"model": "minecraft:block/hanging_spears_2"}
+	  ],
+    "facing=east,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/hanging_spears", "y":270},
+	  {"model": "minecraft:block/hanging_spears_2", "y":270}
+	  ],
+    "facing=north,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/hanging_spears", "y":180},
+	  {"model": "minecraft:block/hanging_spears_2", "y":180}
+	  ],
+    "facing=west,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/hanging_spears", "y":90},
+	  {"model": "minecraft:block/hanging_spears_2", "y":90}
+	  ],
+	  "facing=south,half=bottom,open=true,powered=false": [
+	  {"model": "minecraft:block/empty_rack"}
+	  ],
+    "facing=east,half=bottom,open=true,powered=false": [
+	  {"model": "minecraft:block/empty_rack", "y":270}
+	  ],
+    "facing=north,half=bottom,open=true,powered=false": [
+	  {"model": "minecraft:block/empty_rack", "y":180}
+	  ],
+    "facing=west,half=bottom,open=true,powered=false": [
+	  {"model": "minecraft:block/empty_rack", "y":90}
+	  ],
+	  "facing=south,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans"},
+	  {"model": "minecraft:block/hanging_pans_2"}
+	  ],
+    "facing=east,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans", "y":270},
+	  {"model": "minecraft:block/hanging_pans_2", "y":270}
+	  ],
+    "facing=north,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans", "y":180},
+	  {"model": "minecraft:block/hanging_pans_2", "y":180}
+	  ],
+    "facing=west,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans", "y":90},
+	  {"model": "minecraft:block/hanging_pans_2", "y":90}
+	  ],
+    "facing=south,half=bottom,open=false,powered=false": [
+	  {"model": "mcme:block/maple_leaves_yellowish_slab"},
+	  {"model": "mcme:block/maple_leaves_yellowish_slab_2"},
+	  {"model": "mcme:block/maple_leaves_yellowish_slab_3"},
+	  {"model": "mcme:block/maple_leaves_yellowish_slab_4"}
+	  ],
+    "facing=south,half=top,open=false,powered=false": [
+	  {"model": "mcme:block/maple_leaves_yellowish_slab_upper"},
+	  {"model": "mcme:block/maple_leaves_yellowish_slab_upper_2"},
+	  {"model": "mcme:block/maple_leaves_yellowish_slab_upper_3"},
+	  {"model": "mcme:block/maple_leaves_yellowish_slab_upper_4"}
+	  ],
+    "facing=west,half=bottom,open=false,powered=false": [
+	  {"model": "mcme:block/maple_leaves_redish_slab"},
+	  {"model": "mcme:block/maple_leaves_redish_slab_2"},
+	  {"model": "mcme:block/maple_leaves_redish_slab_3"},
+	  {"model": "mcme:block/maple_leaves_redish_slab_4"}
+	  ],
+    "facing=west,half=top,open=false,powered=false": [
+	  {"model": "mcme:block/maple_leaves_redish_slab_upper"},
+	  {"model": "mcme:block/maple_leaves_redish_slab_upper_2"},
+	  {"model": "mcme:block/maple_leaves_redish_slab_upper_3"},
+	  {"model": "mcme:block/maple_leaves_redish_slab_upper_4"}
+	  ],
+    "facing=north,half=bottom,open=false,powered=true": [
+	  {"model": "mcme:block/beech_leaves_yellowish_slab"},
+	  {"model": "mcme:block/beech_leaves_yellowish_slab_2"},
+	  {"model": "mcme:block/beech_leaves_yellowish_slab_3"},
+	  {"model": "mcme:block/beech_leaves_yellowish_slab_4"}
+	  ],
+    "facing=north,half=top,open=false,powered=true": [
+	  {"model": "mcme:block/beech_leaves_yellowish_slab_upper"},
+	  {"model": "mcme:block/beech_leaves_yellowish_slab_upper_2"},
+	  {"model": "mcme:block/beech_leaves_yellowish_slab_upper_3"},
+	  {"model": "mcme:block/beech_leaves_yellowish_slab_upper_4"}
+	  ],
+    "facing=east,half=bottom,open=false,powered=true": [
+	  {"model": "mcme:block/beech_leaves_orangeish_slab"},
+	  {"model": "mcme:block/beech_leaves_orangeish_slab_2"},
+	  {"model": "mcme:block/beech_leaves_orangeish_slab_3"},
+	  {"model": "mcme:block/beech_leaves_orangeish_slab_4"}
+	  ],
+    "facing=east,half=top,open=false,powered=true": [
+	  {"model": "mcme:block/beech_leaves_orangeish_slab_upper"},
+	  {"model": "mcme:block/beech_leaves_orangeish_slab_upper_2"},
+	  {"model": "mcme:block/beech_leaves_orangeish_slab_upper_3"},
+	  {"model": "mcme:block/beech_leaves_orangeish_slab_upper_4"}
+	  ],
+    "facing=south,half=bottom,open=false,powered=true": [
+	  {"model": "mcme:block/oak_leaves_yellowish_slab"},
+	  {"model": "mcme:block/oak_leaves_yellowish_slab_2"},
+	  {"model": "mcme:block/oak_leaves_yellowish_slab_3"},
+	  {"model": "mcme:block/oak_leaves_yellowish_slab_4"}
+	  ],
+    "facing=south,half=top,open=false,powered=true": [
+	  {"model": "mcme:block/oak_leaves_yellowish_slab_upper"},
+	  {"model": "mcme:block/oak_leaves_yellowish_slab_upper_2"},
+	  {"model": "mcme:block/oak_leaves_yellowish_slab_upper_3"},
+	  {"model": "mcme:block/oak_leaves_yellowish_slab_upper_4"}
+	  ],
+    "facing=west,half=bottom,open=false,powered=true": [
+	  {"model": "mcme:block/birch_leaves_yellowish_slab"},
+	  {"model": "mcme:block/birch_leaves_yellowish_slab", "y": 90},
+	  {"model": "mcme:block/birch_leaves_yellowish_slab", "y": 180},
+	  {"model": "mcme:block/birch_leaves_yellowish_slab", "y": 270}
+	  ],
+    "facing=west,half=top,open=false,powered=true": [
+	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper"},
+	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper", "y": 90},
+	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper", "y": 180},
+	  {"model": "mcme:block/birch_leaves_yellowish_slab_upper", "y": 270}
+	  ],
+	  "facing=south,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/swords_onrack"},
+	  {"model": "minecraft:block/swords_onrack_2"}
+	  ],
+    "facing=east,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/swords_onrack", "y":270},
+	  {"model": "minecraft:block/swords_onrack_2", "y":270}
+	  ],
+    "facing=north,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/swords_onrack", "y":180},
+	  {"model": "minecraft:block/swords_onrack_2", "y":180}
+	  ],
+    "facing=west,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/swords_onrack", "y":90},
+	  {"model": "minecraft:block/swords_onrack_2", "y":90}
+	  ]
+  }
+}

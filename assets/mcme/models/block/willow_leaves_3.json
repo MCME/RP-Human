@@ -1,0 +1,19 @@
+{
+  "parent": "special-model-loader:builtin/obj",
+  "particle": "mcme:block/willow_leaves",
+  "flip_v": true,
+  "mtl_override": "mcme:models/block/willow_leaves_3.mtl",
+  "model": "mcme:models/block/leaves_extended_parent_3.obj",
+	"gui_light": "front",
+	"display": {
+		"firstperson_righthand": {
+			"translation": [3.5, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 0.25, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+}

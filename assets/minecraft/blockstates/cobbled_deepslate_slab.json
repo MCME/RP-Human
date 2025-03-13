@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/cobbled_deepslate_slab" },
+        "type=top": { "model": "block/cobbled_deepslate_slab", "x":180 },
+        "type=double":[
+			{ "model": "block/double_slab_cobbled_deepslate" },
+			{ "model": "block/double_slab_cobbled_deepslate_2" }
+			]
+    }
+}

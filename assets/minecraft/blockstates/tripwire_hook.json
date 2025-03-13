@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "attached=true,facing=north,powered=true": {
+		"model": "minecraft:block/corbel_sandstone", "y": 270
+	},
+	"attached=true,facing=west,powered=true": {
+		"model": "minecraft:block/corbel_sandstone", "y": 180
+	},
+	"attached=true,facing=south,powered=true": {
+		"model": "minecraft:block/corbel_sandstone", "y": 90
+	},
+	"attached=true,facing=east,powered=true": {
+		"model": "minecraft:block/corbel_sandstone"
+	}
+  }
+}

@@ -1,0 +1,874 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/oak_leaves_vertical_slab_4"},
+	  { "model": "mcme:block/oak_leaves_vertical_slab_4_2"},
+	  { "model": "mcme:block/oak_leaves_vertical_slab_4_3"},
+	  { "model": "mcme:block/oak_leaves_vertical_slab_4_4"}
+		]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/oak_leaves_vertical_slab"},
+	  { "model": "mcme:block/oak_leaves_vertical_slab_1_2"},
+	  { "model": "mcme:block/oak_leaves_vertical_slab_1_3"},
+	  { "model": "mcme:block/oak_leaves_vertical_slab_1_4"}
+		]
+	},
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/oak_leaves_vertical_slab_2"},
+	  { "model": "mcme:block/oak_leaves_vertical_slab_2_2"},
+	  { "model": "mcme:block/oak_leaves_vertical_slab_2_3"},
+	  { "model": "mcme:block/oak_leaves_vertical_slab_2_4"}
+		]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/oak_leaves_vertical_slab_3"},
+	  { "model": "mcme:block/oak_leaves_vertical_slab_3_2"},
+	  { "model": "mcme:block/oak_leaves_vertical_slab_3_3"},
+	  { "model": "mcme:block/oak_leaves_vertical_slab_3_4"}
+		]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_rh_open",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_rh_open",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_rh_open",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_rh_open"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_vertical_slab_3"},
+	  { "model": "mcme:block/beech_leaves_vertical_slab_3_2"},
+	  { "model": "mcme:block/beech_leaves_vertical_slab_3_3"},
+	  { "model": "mcme:block/beech_leaves_vertical_slab_3_4"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_vertical_slab_4"},
+	  { "model": "mcme:block/beech_leaves_vertical_slab_4_2"},
+	  { "model": "mcme:block/beech_leaves_vertical_slab_4_3"},
+	  { "model": "mcme:block/beech_leaves_vertical_slab_4_4"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_vertical_slab"},
+	  { "model": "mcme:block/beech_leaves_vertical_slab_1_2"},
+	  { "model": "mcme:block/beech_leaves_vertical_slab_1_3"},
+	  { "model": "mcme:block/beech_leaves_vertical_slab_1_4"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/beech_leaves_vertical_slab_2"},
+	  { "model": "mcme:block/beech_leaves_vertical_slab_2_2"},
+	  { "model": "mcme:block/beech_leaves_vertical_slab_2_3"},
+	  { "model": "mcme:block/beech_leaves_vertical_slab_2_4"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+			{ "model": "mcme:block/maple_leaves_vertical_slab_4"},
+			{ "model": "mcme:block/maple_leaves_vertical_slab_4_2"},
+			{ "model": "mcme:block/maple_leaves_vertical_slab_4_3"},
+			{ "model": "mcme:block/maple_leaves_vertical_slab_4_4"}
+			]			
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+			{ "model": "mcme:block/maple_leaves_vertical_slab"},
+			{ "model": "mcme:block/maple_leaves_vertical_slab_1_2"},
+			{ "model": "mcme:block/maple_leaves_vertical_slab_1_3"},
+			{ "model": "mcme:block/maple_leaves_vertical_slab_1_4"}
+			]			
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+			{ "model": "mcme:block/maple_leaves_vertical_slab_2"},
+			{ "model": "mcme:block/maple_leaves_vertical_slab_2_2"},
+			{ "model": "mcme:block/maple_leaves_vertical_slab_2_3"},
+			{ "model": "mcme:block/maple_leaves_vertical_slab_2_4"}
+			]			
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+			{ "model": "mcme:block/maple_leaves_vertical_slab_3"},
+			{ "model": "mcme:block/maple_leaves_vertical_slab_3_2"},
+			{ "model": "mcme:block/maple_leaves_vertical_slab_3_3"},
+			{ "model": "mcme:block/maple_leaves_vertical_slab_3_4"}
+			]	
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_4"},
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_4_2"},
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_4_3"},
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_4_4"}
+			]	
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab"	},
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_1_2"},
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_1_3"},
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_1_4"}
+			]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_2"},
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_2_2"},
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_2_3"},
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_2_4"}
+			]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_3"},
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_3_2"},
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_3_3"},
+			{ "model": "mcme:block/chestnut_leaves_vertical_slab_3_4"}
+			]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/pine_leaves_vertical_slab"},
+	  { "model": "mcme:block/pine_leaves_vertical_slab_1_2"},
+	  { "model": "mcme:block/pine_leaves_vertical_slab_1_3"},
+	  { "model": "mcme:block/pine_leaves_vertical_slab_1_4"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/pine_leaves_vertical_slab_2"},
+	  { "model": "mcme:block/pine_leaves_vertical_slab_2_2"},
+	  { "model": "mcme:block/pine_leaves_vertical_slab_2_3"},
+	  { "model": "mcme:block/pine_leaves_vertical_slab_2_4"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/pine_leaves_vertical_slab_3"},
+	  { "model": "mcme:block/pine_leaves_vertical_slab_3_2"},
+	  { "model": "mcme:block/pine_leaves_vertical_slab_3_3"},
+	  { "model": "mcme:block/pine_leaves_vertical_slab_3_4"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/pine_leaves_vertical_slab_4"},
+	  { "model": "mcme:block/pine_leaves_vertical_slab_4_2"},
+	  { "model": "mcme:block/pine_leaves_vertical_slab_4_3"},
+	  { "model": "mcme:block/pine_leaves_vertical_slab_4_4"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/ash_leaves_vertical_slab_3" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_3_2" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_3_3" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_3_4" }
+	  ]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/ash_leaves_vertical_slab_4" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_4_2" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_4_3" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_4_4" }
+	  ]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/ash_leaves_vertical_slab" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_1_2" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_1_3" },
+	  { "model": "mcme:block/ash_leaves_vertical_slab_1_4" }
+	  ]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
+	  { "model": "mcme:block/ash_leaves_vertical_slab_2"},
+	  { "model": "mcme:block/ash_leaves_vertical_slab_2_2"},
+	  { "model": "mcme:block/ash_leaves_vertical_slab_2_3"},
+	  { "model": "mcme:block/ash_leaves_vertical_slab_2_4"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_rh_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_rh_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_rh_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_rh_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_rh_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_rh_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_rh_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_rh_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_bottom_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_rh_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_rh_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_rh_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_rh_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_rh_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_rh_powered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_rh_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_rh_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_powered",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_powered"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_powered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/jungle_door_top_powered",
+        "y": 180
+      }
+    }
+  ]
+}

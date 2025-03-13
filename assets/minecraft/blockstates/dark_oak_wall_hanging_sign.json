@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minecraft:block/hanging_wood_sign_small"
+    },
+    "facing=south": {
+      "model": "minecraft:block/hanging_wood_sign_small", "y": 180
+    },
+    "facing=west": {
+      "model": "minecraft:block/hanging_wood_sign_small", "y": 270
+    },
+    "facing=east": {
+      "model": "minecraft:block/hanging_wood_sign_small", "y": 90
+    }
+  }
+}

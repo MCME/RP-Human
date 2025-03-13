@@ -1,0 +1,79 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": [
+        { "model": "mcme:block/maple_trunk_vertical" },
+        { "model": "mcme:block/maple_trunk_vertical_2" },
+        { "model": "mcme:block/maple_trunk_vertical_3" },
+        { "model": "mcme:block/maple_trunk_vertical_4" }
+    ]
+    },
+    {
+      "when": {
+        "north": "low"
+      },
+      "apply": {
+        "model": "mcme:block/maple_branch_45_straight"
+      }
+    },
+    {
+      "when": {
+        "east": "low"
+      },
+      "apply": {
+        "model": "mcme:block/maple_branch_45_straight", "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "low"
+      },
+      "apply": {
+        "model": "mcme:block/maple_branch_45_straight", "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "low"
+      },
+      "apply": {
+        "model": "mcme:block/maple_branch_45_straight", "y": 270
+      }
+    },
+    {
+      "when": {
+        "north": "tall"
+      },
+      "apply": {
+        "model": "mcme:block/maple_thin_branch_45_straight"
+      }
+    },
+    {
+      "when": {
+        "east": "tall"
+      },
+      "apply": {
+        "model": "mcme:block/maple_thin_branch_45_straight", "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "tall"
+      },
+      "apply": {
+        "model": "mcme:block/maple_thin_branch_45_straight", "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "tall"
+      },
+      "apply": {
+        "model": "mcme:block/maple_thin_branch_45_straight", "y": 270
+      }
+    }
+  ]
+}
