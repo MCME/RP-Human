@@ -1,8 +1,15 @@
 {
   "variants": {
-    "age=0": {
-      "model": "minecraft:block/sweet_berry_bush_stage0"
-    },
+    "age=0": [
+      { "model": "block/arrows" },
+      { "model": "block/arrows", "y": 90 },
+      { "model": "block/arrows", "y": 180 },
+      { "model": "block/arrows", "y": 270 },
+      { "model": "block/arrows_2" },
+      { "model": "block/arrows_2", "y": 90 },
+      { "model": "block/arrows_2", "y": 180 },
+      { "model": "block/arrows_2", "y": 270 }
+    ],
     "age=1": {
       "model": "minecraft:block/sweet_berry_bush_stage1"
     },
