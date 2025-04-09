@@ -49,64 +49,100 @@
 	  {"model": "minecraft:block/packed_mud_trapdoor_open_4", "y":90}
 	  ],
 	  "facing=south,half=bottom,open=true,powered=false": [
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open", "y":180},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open_2", "y":180},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open_3", "y":180},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open_4", "y":180}
 	  ],
     "facing=east,half=bottom,open=true,powered=false": [
-	  {"model": "minecraft:block/unused_cross_0", "y":270}
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open", "y":90},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open_2", "y":90},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open_3", "y":90},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open_4", "y":90}
 	  ],
     "facing=north,half=bottom,open=true,powered=false": [
-	  {"model": "minecraft:block/unused_cross_0", "y":180}
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open"},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open_2"},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open_3"},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open_4"}
 	  ],
     "facing=west,half=bottom,open=true,powered=false": [
-	  {"model": "minecraft:block/unused_cross_0", "y":90}
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open", "y":270},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open_2", "y":270},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open_3", "y":270},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_open_4", "y":270}
 	  ],
 	  "facing=south,half=top,open=true,powered=false": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/resin_block_trapdoor_open", "y":180},
+	  {"model": "minecraft:block/resin_block_trapdoor_open_2", "y":180},
+	  {"model": "minecraft:block/resin_block_trapdoor_open_3", "y":180},
+	  {"model": "minecraft:block/resin_block_trapdoor_open_4", "y":180}
 	  ],
     "facing=east,half=top,open=true,powered=false": [
-	  {"model": "minecraft:block/unused_cross_0", "y":270},
-	  {"model": "minecraft:block/unused_cross_0", "y":270}
+	  {"model": "minecraft:block/resin_block_trapdoor_open", "y":90},
+	  {"model": "minecraft:block/resin_block_trapdoor_open_2", "y":90},
+	  {"model": "minecraft:block/resin_block_trapdoor_open_3", "y":90},
+	  {"model": "minecraft:block/resin_block_trapdoor_open_4", "y":90}
 	  ],
     "facing=north,half=top,open=true,powered=false": [
-	  {"model": "minecraft:block/unused_cross_0", "y":180},
-	  {"model": "minecraft:block/unused_cross_0", "y":180}
+	  {"model": "minecraft:block/resin_block_trapdoor_open"},
+	  {"model": "minecraft:block/resin_block_trapdoor_open_2"},
+	  {"model": "minecraft:block/resin_block_trapdoor_open_3"},
+	  {"model": "minecraft:block/resin_block_trapdoor_open_4"}
 	  ],
     "facing=west,half=top,open=true,powered=false": [
-	  {"model": "minecraft:block/unused_cross_0", "y":90},
-	  {"model": "minecraft:block/unused_cross_0", "y":90}
+	  {"model": "minecraft:block/resin_block_trapdoor_open", "y":270},
+	  {"model": "minecraft:block/resin_block_trapdoor_open_2", "y":270},
+	  {"model": "minecraft:block/resin_block_trapdoor_open_3", "y":270},
+	  {"model": "minecraft:block/resin_block_trapdoor_open_4", "y":270}
 	  ],
     "facing=south,half=bottom,open=false,powered=false": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/chiseled_resin_brick_slab"},
+	  {"model": "minecraft:block/chiseled_resin_brick_slab_2"},
+	  {"model": "minecraft:block/chiseled_resin_brick_slab_3"},
+	  {"model": "minecraft:block/chiseled_resin_brick_slab_4"}
 	  ],
     "facing=south,half=top,open=false,powered=false": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/chiseled_resin_brick_slab", "x":180},
+	  {"model": "minecraft:block/chiseled_resin_brick_slab_2", "x":180},
+	  {"model": "minecraft:block/chiseled_resin_brick_slab_3", "x":180},
+	  {"model": "minecraft:block/chiseled_resin_brick_slab_4", "x":180}
 	  ],
     "facing=west,half=bottom,open=false,powered=false": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/resin_block_slab"},
+	  {"model": "minecraft:block/resin_block_slab_2"},
+	  {"model": "minecraft:block/resin_block_slab_3"},
+	  {"model": "minecraft:block/resin_block_slab_4"}
 	  ],
     "facing=west,half=top,open=false,powered=false": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/resin_block_slab", "x":180},
+	  {"model": "minecraft:block/resin_block_slab_2", "x":180},
+	  {"model": "minecraft:block/resin_block_slab_3", "x":180},
+	  {"model": "minecraft:block/resin_block_slab_4", "x":180}
 	  ],
     "facing=north,half=bottom,open=false,powered=true": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/resin_block_trapdoor_bottom"},
+	  {"model": "minecraft:block/resin_block_trapdoor_bottom_2"},
+	  {"model": "minecraft:block/resin_block_trapdoor_bottom_3"},
+	  {"model": "minecraft:block/resin_block_trapdoor_bottom_4"}
 	  ],
     "facing=north,half=top,open=false,powered=true": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/resin_block_trapdoor_bottom", "x":180},
+	  {"model": "minecraft:block/resin_block_trapdoor_bottom_2", "x":180},
+	  {"model": "minecraft:block/resin_block_trapdoor_bottom_3", "x":180},
+	  {"model": "minecraft:block/resin_block_trapdoor_bottom_4", "x":180}
 	  ],
     "facing=east,half=bottom,open=false,powered=true": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_bottom"},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_bottom_2"},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_bottom_3"},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_bottom_4"}
 	  ],
     "facing=east,half=top,open=false,powered=true": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_bottom", "x":180},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_bottom_2", "x":180},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_bottom_3", "x":180},
+	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_bottom_4", "x":180}
 	  ],
     "facing=south,half=bottom,open=false,powered=true": [
 	  {"model": "minecraft:block/unused_cross_0"},

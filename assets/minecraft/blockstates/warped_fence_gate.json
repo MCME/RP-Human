@@ -63,10 +63,12 @@
           "open": "true",
           "powered": "false"
         },
-        "apply": { 
-            "model": "block/replace",
-             "uvlock": true 
-        }
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks"},
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks_2"},
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks_3"},
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks_4"}
+	  ]
     
       },
       {
@@ -76,11 +78,12 @@
           "open": "true",
           "powered": "false"
         },
-        "apply": { 
-            "model": "block/replace",
-             "uvlock": true,
-              "y":90 
-        }
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks", "y":90},
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks_2", "y":90},
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks_3", "y":90},
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks_4", "y":90}
+	  ]
       },
       {
         "when": {
@@ -89,11 +92,12 @@
           "open": "true",
           "powered": "false"
         },
-        "apply": { 
-            "model": "block/replace",
-             "uvlock": true,
-              "y":180 
-        }
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks", "y":180},
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks_2", "y":180},
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks_3", "y":180},
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks_4", "y":180}
+	  ]
       },
       {
         "when": {
@@ -102,11 +106,12 @@
           "open": "true",
           "powered": "false"
         },
-        "apply": { 
-            "model": "block/replace",
-             "uvlock": true,
-              "y":270
-        }
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks", "y":270},
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks_2", "y":270},
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks_3", "y":270},
+	  {"model": "minecraft:block/vertical_slab_chiseled_resin_bricks_4", "y":270}
+	  ]
       },
       {
         "when": {
@@ -115,10 +120,12 @@
           "open": "false",
           "powered": "false"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true
-        }
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_resin_block"},
+	  {"model": "minecraft:block/vertical_slab_resin_block_2"},
+	  {"model": "minecraft:block/vertical_slab_resin_block_3"},
+	  {"model": "minecraft:block/vertical_slab_resin_block_4"}
+	  ]
       },
       {
         "when": {
@@ -127,11 +134,12 @@
           "open": "false",
           "powered": "false"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 90
-        }
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_resin_block", "y":90},
+	  {"model": "minecraft:block/vertical_slab_resin_block_2", "y":90},
+	  {"model": "minecraft:block/vertical_slab_resin_block_3", "y":90},
+	  {"model": "minecraft:block/vertical_slab_resin_block_4", "y":90}
+	  ]
       },
       {
         "when": {
@@ -140,11 +148,12 @@
           "open": "false",
           "powered": "false"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 180
-        }
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_resin_block", "y":180},
+	  {"model": "minecraft:block/vertical_slab_resin_block_2", "y":180},
+	  {"model": "minecraft:block/vertical_slab_resin_block_3", "y":180},
+	  {"model": "minecraft:block/vertical_slab_resin_block_4", "y":180}
+	  ]
       },
       {
         "when": {
@@ -153,11 +162,12 @@
           "open": "false",
           "powered": "false"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 270
-        }
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_resin_block", "y":270},
+	  {"model": "minecraft:block/vertical_slab_resin_block_2", "y":270},
+	  {"model": "minecraft:block/vertical_slab_resin_block_3", "y":270},
+	  {"model": "minecraft:block/vertical_slab_resin_block_4", "y":270}
+	  ]
       },
       {
         "when": {
