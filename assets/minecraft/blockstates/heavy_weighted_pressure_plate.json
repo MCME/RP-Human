@@ -114,12 +114,22 @@
 	  { "model": "block/pot_7", "weight": 2, "y": 180 },
 	  { "model": "block/pot_7", "weight": 2, "y": 270 }
     ],
-    "power\u003d9": {
-      "model": "block/replace"
-    },
-    "power\u003d10": {
-      "model": "block/replace"
-    },
+    "power\u003d9": [
+      { "model": "block/meat_plate", "weight": 3 },
+	  { "model": "block/meat_plate", "weight": 3, "y": 90 },
+	  { "model": "block/meat_plate", "weight": 3, "y": 180 },
+	  { "model": "block/meat_plate", "weight": 3, "y": 270 },
+      { "model": "block/meat_plate_2", "weight": 3 },
+	  { "model": "block/meat_plate_2", "weight": 3, "y": 90 },
+	  { "model": "block/meat_plate_2", "weight": 3, "y": 180 },
+	  { "model": "block/meat_plate_2", "weight": 3, "y": 270 }
+    ],
+    "power\u003d10": [
+      { "model": "block/turkey", "weight": 3 },
+	  { "model": "block/turkey", "weight": 3, "y": 90 },
+	  { "model": "block/turkey", "weight": 3, "y": 180 },
+	  { "model": "block/turkey", "weight": 3, "y": 270 }
+    ],
     "power\u003d11": {
       "model": "block/replace"
     },
