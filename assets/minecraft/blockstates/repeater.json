@@ -9,7 +9,12 @@
         "delay=1,facing=west,locked=false,powered=false": { "model": "block/repeater_delay1_w" },
         "delay=1,facing=north,locked=false,powered=false": { "model": "block/repeater_delay1_n" },
         "delay=1,facing=east,locked=false,powered=false": { "model": "block/repeater_delay1_e" },
-		"delay=2,facing=south,locked=false,powered=false": { "model": "block/repeater_delay2_s" },
+		"delay=2,facing=south,locked=false,powered=false": [
+		{ "model": "block/repeater_delay2_s" },
+		{ "model": "block/repeater_delay2_s_2" },
+		{ "model": "block/repeater_delay2_s_3" },
+		{ "model": "block/repeater_delay2_s_4" }
+		],
         "delay=2,facing=west,locked=false,powered=false": { "model": "block/repeater_delay2_w" },
 		"delay=2,facing=north,locked=false,powered=false": [
 															{ "model": "block/repeater_delay2_n"},

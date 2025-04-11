@@ -80,21 +80,56 @@
 		{ "model": "block/basket_9"},
 		{ "model": "block/basket_9", "y": 90 }
 		],
-    "power\u003d6": {
-      "model": "block/replace"
-    },
-    "power\u003d7": {
-      "model": "block/replace"
-    },
-    "power\u003d8": {
-      "model": "block/replace"
-    },
-    "power\u003d9": {
-      "model": "block/replace"
-    },
-    "power\u003d10": {
-      "model": "block/replace"
-    },
+    "power\u003d6": [
+		{ "model": "block/paper_stack" },
+		{ "model": "block/paper_stack", "y": 90 },
+		{ "model": "block/paper_stack", "y": 180 },
+		{ "model": "block/paper_stack", "y": 270 }
+		],
+    "power\u003d7": [
+		{ "model": "block/meat_vertical" },
+		{ "model": "block/meat_vertical", "y": 90 },
+		{ "model": "block/meat_vertical", "y": 180 },
+		{ "model": "block/meat_vertical", "y": 270 },
+		{ "model": "block/meat_vertical_2" },
+		{ "model": "block/meat_vertical_2", "y": 90 },
+		{ "model": "block/meat_vertical_2", "y": 180 },
+		{ "model": "block/meat_vertical_2", "y": 270 }
+		],
+    "power\u003d8": [
+      { "model": "block/pot_2", "weight": 3 },
+	  { "model": "block/pot_2", "weight": 3, "y": 90 },
+	  { "model": "block/pot_2", "weight": 3, "y": 180 },
+	  { "model": "block/pot_2", "weight": 3, "y": 270 },
+      { "model": "block/pot_3", "weight": 3 },
+	  { "model": "block/pot_3", "weight": 3, "y": 90 },
+	  { "model": "block/pot_3", "weight": 3, "y": 180 },
+	  { "model": "block/pot_3", "weight": 3, "y": 270 },
+      { "model": "block/pot_4", "weight": 3 },
+	  { "model": "block/pot_4", "weight": 3, "y": 90 },
+	  { "model": "block/pot_4", "weight": 3, "y": 180 },
+	  { "model": "block/pot_4", "weight": 3, "y": 270 },
+      { "model": "block/pot_7", "weight": 2 },
+	  { "model": "block/pot_7", "weight": 2, "y": 90 },
+	  { "model": "block/pot_7", "weight": 2, "y": 180 },
+	  { "model": "block/pot_7", "weight": 2, "y": 270 }
+    ],
+    "power\u003d9": [
+      { "model": "block/meat_plate", "weight": 3 },
+	  { "model": "block/meat_plate", "weight": 3, "y": 90 },
+	  { "model": "block/meat_plate", "weight": 3, "y": 180 },
+	  { "model": "block/meat_plate", "weight": 3, "y": 270 },
+      { "model": "block/meat_plate_2", "weight": 3 },
+	  { "model": "block/meat_plate_2", "weight": 3, "y": 90 },
+	  { "model": "block/meat_plate_2", "weight": 3, "y": 180 },
+	  { "model": "block/meat_plate_2", "weight": 3, "y": 270 }
+    ],
+    "power\u003d10": [
+      { "model": "block/turkey", "weight": 3 },
+	  { "model": "block/turkey", "weight": 3, "y": 90 },
+	  { "model": "block/turkey", "weight": 3, "y": 180 },
+	  { "model": "block/turkey", "weight": 3, "y": 270 }
+    ],
     "power\u003d11": {
       "model": "block/replace"
     },
