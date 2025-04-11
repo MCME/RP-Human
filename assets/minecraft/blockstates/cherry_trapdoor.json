@@ -145,36 +145,52 @@
 	  {"model": "minecraft:block/chiseled_resin_brick_trapdoor_bottom_4", "x":180}
 	  ],
     "facing=south,half=bottom,open=false,powered=true": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/waxed_chiseled_copper_slab"},
+	  {"model": "minecraft:block/waxed_chiseled_copper_slab_2"},
+	  {"model": "minecraft:block/waxed_chiseled_copper_slab_3"},
+	  {"model": "minecraft:block/waxed_chiseled_copper_slab_4"}
 	  ],
     "facing=south,half=top,open=false,powered=true": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/waxed_chiseled_copper_slab", "x":180},
+	  {"model": "minecraft:block/waxed_chiseled_copper_slab_2", "x":180},
+	  {"model": "minecraft:block/waxed_chiseled_copper_slab_3", "x":180},
+	  {"model": "minecraft:block/waxed_chiseled_copper_slab_4", "x":180}
 	  ],
     "facing=west,half=bottom,open=false,powered=true": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_bottom"},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_bottom_2"},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_bottom_3"},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_bottom_4"}
 	  ],
     "facing=west,half=top,open=false,powered=true": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_bottom", "x":180},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_bottom_2", "x":180},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_bottom_3", "x":180},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_bottom_4", "x":180}
 	  ],
 	  "facing=south,half=top,open=true,powered=true": [
-	  {"model": "minecraft:block/unused_cross_0"},
-	  {"model": "minecraft:block/unused_cross_0"}
-	  ],
-    "facing=east,half=top,open=true,powered=true": [
-	  {"model": "minecraft:block/unused_cross_0", "y":270},
-	  {"model": "minecraft:block/unused_cross_0", "y":270}
-	  ],
-    "facing=north,half=top,open=true,powered=true": [
-	  {"model": "minecraft:block/unused_cross_0", "y":180},
-	  {"model": "minecraft:block/unused_cross_0", "y":180}
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open", "y":180},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open_2", "y":180},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open_3", "y":180},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open_4", "y":180}
 	  ],
     "facing=west,half=top,open=true,powered=true": [
-	  {"model": "minecraft:block/unused_cross_0", "y":90},
-	  {"model": "minecraft:block/unused_cross_0", "y":90}
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open", "y":270},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open_2", "y":270},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open_3", "y":270},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open_4", "y":270}
+	  ],
+    "facing=north,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open"},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open_2"},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open_3"},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open_4"}
+	  ],
+    "facing=east,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open", "y":90},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open_2", "y":90},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open_3", "y":90},
+	  {"model": "minecraft:block/waxed_chiseled_copper_trapdoor_open_4", "y":90}
 	  ]
   }
 }

@@ -3,10 +3,12 @@
     "facing=east,half=lower,hinge=left,open=false,powered=false": {
       "model": "minecraft:block/sign_shield"
     },
-    "facing=east,half=lower,hinge=left,open=true,powered=false": {
-      "model": "minecraft:block/door_unused",
-      "y": 90
-    },
+    "facing=east,half=lower,hinge=left,open=true,powered=false": [
+	{ "model": "block/retaining_wall" },
+	{ "model": "block/retaining_wall_2" },
+	{ "model": "block/retaining_wall_3" },
+	{ "model": "block/retaining_wall_4" }
+	],
     "facing=east,half=lower,hinge=right,open=false,powered=false": {
       "model": "minecraft:block/small_chain"
     },
@@ -43,9 +45,12 @@
       "model": "minecraft:block/sign_shield",
       "y": 270
     },
-    "facing=north,half=lower,hinge=left,open=true,powered=false": {
-      "model": "minecraft:block/door_unused"
-    },
+    "facing=north,half=lower,hinge=left,open=true,powered=false": [
+	{ "model": "block/retaining_wall", "y": 270 },
+	{ "model": "block/retaining_wall_2", "y": 270 },
+	{ "model": "block/retaining_wall_3", "y": 270 },
+	{ "model": "block/retaining_wall_4", "y": 270 }
+	],
     "facing=north,half=lower,hinge=right,open=false,powered=false": {
       "model": "minecraft:block/small_chain",
       "y": 270
@@ -83,10 +88,12 @@
       "model": "minecraft:block/sign_shield",
       "y": 90
     },
-    "facing=south,half=lower,hinge=left,open=true,powered=false": {
-      "model": "minecraft:block/door_unused",
-      "y": 180
-    },
+    "facing=south,half=lower,hinge=left,open=true,powered=false": [
+	{ "model": "block/retaining_wall", "y": 90 },
+	{ "model": "block/retaining_wall_2", "y": 90 },
+	{ "model": "block/retaining_wall_3", "y": 90 },
+	{ "model": "block/retaining_wall_4", "y": 90 }
+	],
     "facing=south,half=lower,hinge=right,open=false,powered=false": {
       "model": "minecraft:block/small_chain",
       "y": 90
@@ -126,10 +133,12 @@
       "model": "minecraft:block/sign_shield",
       "y": 180
     },
-    "facing=west,half=lower,hinge=left,open=true,powered=false": {
-      "model": "minecraft:block/door_unused",
-      "y": 270
-    },
+    "facing=west,half=lower,hinge=left,open=true,powered=false": [
+	{ "model": "block/retaining_wall", "y": 180 },
+	{ "model": "block/retaining_wall_2", "y": 180 },
+	{ "model": "block/retaining_wall_3", "y": 180 },
+	{ "model": "block/retaining_wall_4", "y": 180 }
+	],
     "facing=west,half=lower,hinge=right,open=false,powered=false": {
       "model": "minecraft:block/small_chain",
       "y": 180
@@ -168,11 +177,10 @@
       "y": 90
     },
     "facing=east,half=lower,hinge=left,open=false,powered=true": {
-      "model": "minecraft:block/cherry_door_bottom_left"
+      "model": "minecraft:block/waxed_chiseled_copper_offset_down"
     },
     "facing=east,half=lower,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/cherry_door_bottom_left_open",
-      "y": 90
+      "model": "minecraft:block/waxed_chiseled_copper_offset_up"
     },
     "facing=east,half=lower,hinge=right,open=false,powered=true": {
       "model": "minecraft:block/resin_block_offset_down"
@@ -195,11 +203,12 @@
       "y": 180
     },
     "facing=north,half=lower,hinge=left,open=false,powered=true": {
-      "model": "minecraft:block/cherry_door_bottom_left",
+      "model": "minecraft:block/waxed_chiseled_copper_offset_down",
       "y": 270
     },
     "facing=north,half=lower,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/cherry_door_bottom_left_open"
+      "model": "minecraft:block/waxed_chiseled_copper_offset_up",
+      "y": 270
     },
     "facing=north,half=lower,hinge=right,open=false,powered=true": {
       "model": "minecraft:block/resin_block_offset_down",
@@ -225,12 +234,12 @@
       "y": 90
     },
     "facing=south,half=lower,hinge=left,open=false,powered=true": {
-      "model": "minecraft:block/cherry_door_bottom_left",
+      "model": "minecraft:block/waxed_chiseled_copper_offset_down",
       "y": 90
     },
     "facing=south,half=lower,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/cherry_door_bottom_left_open",
-      "y": 180
+      "model": "minecraft:block/waxed_chiseled_copper_offset_up",
+      "y": 90
     },
     "facing=south,half=lower,hinge=right,open=false,powered=true": {
       "model": "minecraft:block/resin_block_offset_down",
@@ -255,12 +264,12 @@
       "model": "minecraft:block/packed_mud_offset_up", "y":270
     },
     "facing=west,half=lower,hinge=left,open=false,powered=true": {
-      "model": "minecraft:block/cherry_door_bottom_left",
+      "model": "minecraft:block/waxed_chiseled_copper_offset_down",
       "y": 180
     },
     "facing=west,half=lower,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/cherry_door_bottom_left_open",
-      "y": 270
+      "model": "minecraft:block/waxed_chiseled_copper_offset_up",
+      "y": 180
     },
     "facing=west,half=lower,hinge=right,open=false,powered=true": {
       "model": "minecraft:block/resin_block_offset_down",
