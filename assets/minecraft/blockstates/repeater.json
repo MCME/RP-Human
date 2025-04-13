@@ -41,7 +41,14 @@
         "delay=3,facing=west,locked=false,powered=false": { "model": "block/repeater_delay3_w" },
 		"delay=3,facing=north,locked=false,powered=false": { "model": "block/unused_cross_0" },
 		"delay=3,facing=east,locked=false,powered=false": { "model": "block/repeater_delay3_e" },
-		"delay=4,facing=south,locked=false,powered=false": { "model": "block/repeater_delay4_s" },
+		"delay=4,facing=south,locked=false,powered=false": [
+		{ "model": "block/double_slab_nether_brick_seamless_slab" },
+		{ "model": "block/double_slab_nether_brick_seamless_slab_2" },
+		{ "model": "block/double_slab_nether_brick_seamless_slab_3"},
+		{ "model": "block/double_slab_nether_brick_seamless_slab_4" },
+		{ "model": "block/double_slab_nether_brick_seamless_slab_5" },
+		{ "model": "block/double_slab_nether_brick_seamless_slab_6" }
+		],
         "delay=4,facing=west,locked=false,powered=false": { "model": "block/repeater_delay4_w" },
 		"delay=4,facing=north,locked=false,powered=false": { "model": "block/repeater_delay4_n" },
 		"delay=4,facing=east,locked=false,powered=false": { "model": "block/repeater_delay4_e" },

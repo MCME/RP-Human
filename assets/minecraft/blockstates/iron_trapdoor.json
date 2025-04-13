@@ -83,45 +83,88 @@
 	  {"model": "block/iron_trapdoor_top_open_4", "y": 270},
 	  {"model": "block/iron_trapdoor_top_open_5", "y": 270}
 	],
-    "facing\u003dnorth,half\u003dbottom,open\u003dfalse,powered=true": {
-      "model": "block/trapdoor_red_nether_brick_bottom"
-    },
-    "facing\u003dsouth,half\u003dbottom,open\u003dfalse,powered=true": {
-      "model": "block/trapdoor_brown_brick_bottom"
-    },
+    "facing\u003dnorth,half\u003dbottom,open\u003dfalse,powered=true": [
+	  {"model": "block/trapdoor_red_nether_brick_bottom"},
+	  {"model": "block/trapdoor_red_nether_brick_bottom_2"},
+	  {"model": "block/trapdoor_red_nether_brick_bottom_3"},
+	  {"model": "block/trapdoor_red_nether_brick_bottom_4"},
+	  {"model": "block/trapdoor_red_nether_brick_bottom_5"},
+	  {"model": "block/trapdoor_red_nether_brick_bottom_6"},
+	  {"model": "block/trapdoor_red_nether_brick_bottom_7"}
+	],
+    "facing\u003dsouth,half\u003dbottom,open\u003dfalse,powered=true": [
+	{ "model": "block/trapdoor_double_slab_nether_brick_seamless_top", "x":180 },
+	{ "model": "block/trapdoor_double_slab_nether_brick_seamless_top_2", "x":180 },
+	{ "model": "block/trapdoor_double_slab_nether_brick_seamless_top_3", "x":180 },
+	{ "model": "block/trapdoor_double_slab_nether_brick_seamless_top_4", "x":180 },
+	{ "model": "block/trapdoor_double_slab_nether_brick_seamless_top_5", "x":180 },
+	{ "model": "block/trapdoor_double_slab_nether_brick_seamless_top_6", "x":180 }
+	],
     "facing\u003deast,half\u003dbottom,open\u003dfalse,powered=true": {
       "model": "block/trapdoor_monster_egg_cobblestone_bottom"
     },
     "facing\u003dwest,half\u003dbottom,open\u003dfalse,powered=true": {
       "model": "block/trapdoor_mossy_brown_brick_bottom"
     },
-    "facing\u003dnorth,half\u003dtop,open\u003dfalse,powered=true": {
-      "model": "block/trapdoor_red_nether_brick_top"
-    },
-    "facing\u003dsouth,half\u003dtop,open\u003dfalse,powered=true": {
-      "model": "block/trapdoor_double_slab_nether_brick_seamless_top"
-    },
+    "facing\u003dnorth,half\u003dtop,open\u003dfalse,powered=true": [
+	  {"model": "block/trapdoor_red_nether_brick_bottom", "x":180},
+	  {"model": "block/trapdoor_red_nether_brick_bottom_2", "x":180},
+	  {"model": "block/trapdoor_red_nether_brick_bottom_3", "x":180},
+	  {"model": "block/trapdoor_red_nether_brick_bottom_4", "x":180},
+	  {"model": "block/trapdoor_red_nether_brick_bottom_5", "x":180},
+	  {"model": "block/trapdoor_red_nether_brick_bottom_6", "x":180},
+	  {"model": "block/trapdoor_red_nether_brick_bottom_7", "x":180}
+	],
+    "facing\u003dsouth,half\u003dtop,open\u003dfalse,powered=true": [
+	{ "model": "block/trapdoor_double_slab_nether_brick_seamless_top" },
+	{ "model": "block/trapdoor_double_slab_nether_brick_seamless_top_2" },
+	{ "model": "block/trapdoor_double_slab_nether_brick_seamless_top_3" },
+	{ "model": "block/trapdoor_double_slab_nether_brick_seamless_top_4" },
+	{ "model": "block/trapdoor_double_slab_nether_brick_seamless_top_5" },
+	{ "model": "block/trapdoor_double_slab_nether_brick_seamless_top_6" }
+	],
     "facing\u003deast,half\u003dtop,open\u003dfalse,powered=true": {
       "model": "block/trapdoor_monster_egg_cobblestone_top"
     },
     "facing\u003dwest,half\u003dtop,open\u003dfalse,powered=true": {
       "model": "block/trapdoor_double_slab_nether_brick_top"
     },
-    "facing\u003dnorth,half\u003dbottom,open\u003dtrue,powered=true": {
-      "model": "block/trapdoor_red_nether_brick_open"
-    },
-    "facing\u003dsouth,half\u003dbottom,open\u003dtrue,powered=true": {
-      "model": "block/trapdoor_red_nether_brick_open",
-      "y": 180
-    },
-    "facing\u003deast,half\u003dbottom,open\u003dtrue,powered=true": {
-      "model": "block/trapdoor_red_nether_brick_open",
-      "y": 90
-    },
-    "facing\u003dwest,half\u003dbottom,open\u003dtrue,powered=true": {
-      "model": "block/trapdoor_red_nether_brick_open",
-      "y": 270
-    },
+    "facing\u003dnorth,half\u003dbottom,open\u003dtrue,powered=true": [
+	  {"model": "block/trapdoor_red_nether_brick_open"},
+	  {"model": "block/trapdoor_red_nether_brick_open_2"},
+	  {"model": "block/trapdoor_red_nether_brick_open_3"},
+	  {"model": "block/trapdoor_red_nether_brick_open_4"},
+	  {"model": "block/trapdoor_red_nether_brick_open_5"},
+	  {"model": "block/trapdoor_red_nether_brick_open_6"},
+	  {"model": "block/trapdoor_red_nether_brick_open_7"}
+	],
+    "facing\u003dsouth,half\u003dbottom,open\u003dtrue,powered=true": [
+	  {"model": "block/trapdoor_red_nether_brick_open", "y":180},
+	  {"model": "block/trapdoor_red_nether_brick_open_2", "y":180},
+	  {"model": "block/trapdoor_red_nether_brick_open_3", "y":180},
+	  {"model": "block/trapdoor_red_nether_brick_open_4", "y":180},
+	  {"model": "block/trapdoor_red_nether_brick_open_5", "y":180},
+	  {"model": "block/trapdoor_red_nether_brick_open_6", "y":180},
+	  {"model": "block/trapdoor_red_nether_brick_open_7", "y":180}
+	],
+    "facing\u003deast,half\u003dbottom,open\u003dtrue,powered=true": [
+	  {"model": "block/trapdoor_red_nether_brick_open", "y":90},
+	  {"model": "block/trapdoor_red_nether_brick_open_2", "y":90},
+	  {"model": "block/trapdoor_red_nether_brick_open_3", "y":90},
+	  {"model": "block/trapdoor_red_nether_brick_open_4", "y":90},
+	  {"model": "block/trapdoor_red_nether_brick_open_5", "y":90},
+	  {"model": "block/trapdoor_red_nether_brick_open_6", "y":90},
+	  {"model": "block/trapdoor_red_nether_brick_open_7", "y":90}
+	],
+    "facing\u003dwest,half\u003dbottom,open\u003dtrue,powered=true": [
+	  {"model": "block/trapdoor_red_nether_brick_open", "y":270},
+	  {"model": "block/trapdoor_red_nether_brick_open_2", "y":270},
+	  {"model": "block/trapdoor_red_nether_brick_open_3", "y":270},
+	  {"model": "block/trapdoor_red_nether_brick_open_4", "y":270},
+	  {"model": "block/trapdoor_red_nether_brick_open_5", "y":270},
+	  {"model": "block/trapdoor_red_nether_brick_open_6", "y":270},
+	  {"model": "block/trapdoor_red_nether_brick_open_7", "y":270}
+	],
     "facing\u003dnorth,half\u003dtop,open\u003dtrue,powered=true": {
       "model": "block/trapdoor_double_slab_nether_brick_open"
     },
