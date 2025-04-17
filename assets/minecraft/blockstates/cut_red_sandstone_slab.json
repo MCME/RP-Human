@@ -1,7 +1,14 @@
 {
     "variants": {
         "type=bottom": { "model": "block/cut_red_sandstone_slab" },
-        "type=top": { "model": "itemblock/upper_slab_double_slab_nether_brick_seamless" },
+        "type=top": [
+		{ "model": "block/double_slab_nether_brick_seamless_slab", "x":180 },
+		{ "model": "block/double_slab_nether_brick_seamless_slab_2", "x":180 },
+		{ "model": "block/double_slab_nether_brick_seamless_slab_3", "x":180 },
+		{ "model": "block/double_slab_nether_brick_seamless_slab_4", "x":180 },
+		{ "model": "block/double_slab_nether_brick_seamless_slab_5", "x":180 },
+		{ "model": "block/double_slab_nether_brick_seamless_slab_6", "x":180 }
+		],
         "type=double": { "model": "block/cut_red_sandstone" }
     }
 }

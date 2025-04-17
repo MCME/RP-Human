@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "powered=false": [
+      {"model": "block/market_crate_apples"},
+      {"model": "block/market_crate_onions"},
+      {"model": "block/market_crate_potatoes"}
+  ],
+    "powered=true": [
+      {"model": "block/market_crate_apples", "y":90},
+      {"model": "block/market_crate_onions", "y":90},
+      {"model": "block/market_crate_potatoes", "y":90}
+  ]
+  }
+}

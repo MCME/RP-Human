@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "candles=1,lit=false": [
+      {"model": "minecraft:block/pickaxe"},
+      {"model": "minecraft:block/pickaxe", "y": 90},
+      {"model": "minecraft:block/pickaxe", "y": 180},
+      {"model": "minecraft:block/pickaxe", "y": 270},
+	  {"model": "minecraft:block/pickaxe_2"},
+      {"model": "minecraft:block/pickaxe_2", "y": 90},
+      {"model": "minecraft:block/pickaxe_2", "y": 180},
+      {"model": "minecraft:block/pickaxe_2", "y": 270},
+	   {"model": "minecraft:block/pickaxe_3"},
+      {"model": "minecraft:block/pickaxe_3", "y": 90},
+      {"model": "minecraft:block/pickaxe_3", "y": 180},
+      {"model": "minecraft:block/pickaxe_3", "y": 270},
+	   {"model": "minecraft:block/pickaxe_4"},
+      {"model": "minecraft:block/pickaxe_4", "y": 90},
+      {"model": "minecraft:block/pickaxe_4", "y": 180},
+      {"model": "minecraft:block/pickaxe_4", "y": 270}
+     ],
+    "candles=1,lit=true": [
+      {"model": "minecraft:block/light_blue_candle_one_candle_lit"}
+    ],
+    "candles=2,lit=false": [
+        {"model": "minecraft:block/tongs"},
+        {"model": "minecraft:block/tongs", "y": 90},
+        {"model": "minecraft:block/tongs", "y": 180},
+        {"model": "minecraft:block/tongs", "y": 270}
+    ],
+    "candles=2,lit=true": {
+      "model": "minecraft:block/light_blue_candle_two_candles_lit"
+    },
+    "candles=3,lit=false": [
+        {"model": "minecraft:block/light_blue_candle_three_candles"}
+    ],
+    "candles=3,lit=true": {
+      "model": "minecraft:block/light_blue_candle_three_candles_lit"
+    },
+    "candles=4,lit=false": [
+        {"model": "minecraft:block/light_blue_candle_four_candles"}
+    ],
+    "candles=4,lit=true": {
+      "model": "minecraft:block/light_blue_candle_four_candles_lit"
+    }
+  }
+}
