@@ -2,199 +2,199 @@
   "variants": 
 	{
     "facing=north,half=lower,hinge=left,open=false,powered=false": {
-      "model": "minecraft:block/oak_bark_vertical_thin_slab",
-      "y": 270
+      "model": "minecraft:block/oak_bark_vertical_thin_slab"
     },
     "facing=east,half=lower,hinge=left,open=false,powered=false": {
-      "model": "minecraft:block/oak_bark_vertical_thin_slab"
+      "model": "minecraft:block/oak_bark_vertical_thin_slab",
+      "y": 90
     },
 	"facing=south,half=lower,hinge=left,open=false,powered=false": {
       "model": "minecraft:block/oak_bark_vertical_thin_slab",
-      "y": 90
+      "y": 180
     },
     "facing=west,half=lower,hinge=left,open=false,powered=false": {
       "model": "minecraft:block/oak_bark_vertical_thin_slab",
-      "y": 180
+      "y": 270
     },
     "facing=north,half=lower,hinge=left,open=true,powered=false": {
-      "model": "minecraft:block/beech_bark_vertical_thin_slab"
+      "model": "minecraft:block/beech_bark_vertical_thin_slab",
+      "y": 90
     },
     "facing=east,half=lower,hinge=left,open=true,powered=false": {
       "model": "minecraft:block/beech_bark_vertical_thin_slab",
-      "y": 90
+      "y": 180
     },
     "facing=south,half=lower,hinge=left,open=true,powered=false": {
       "model": "minecraft:block/beech_bark_vertical_thin_slab",
-      "y": 180
+      "y": 270
     },
     "facing=west,half=lower,hinge=left,open=true,powered=false": {
-      "model": "minecraft:block/beech_bark_vertical_thin_slab",
-      "y": 270
+      "model": "minecraft:block/beech_bark_vertical_thin_slab"
     },
     "facing=north,half=lower,hinge=right,open=false,powered=false": {
-      "model": "minecraft:block/maple_bark_vertical_thin_slab",
-      "y": 270
+      "model": "minecraft:block/maple_bark_vertical_thin_slab"
     },
 	"facing=east,half=lower,hinge=right,open=false,powered=false": {
-      "model": "minecraft:block/maple_bark_vertical_thin_slab"
+      "model": "minecraft:block/maple_bark_vertical_thin_slab",
+      "y": 90
     },
     "facing=south,half=lower,hinge=right,open=false,powered=false": {
       "model": "minecraft:block/maple_bark_vertical_thin_slab",
-      "y": 90
+      "y": 180
     },
 	"facing=west,half=lower,hinge=right,open=false,powered=false": {
       "model": "minecraft:block/maple_bark_vertical_thin_slab",
-      "y": 180
+      "y": 270
     },
 	"facing=north,half=lower,hinge=right,open=true,powered=false": {
       "model": "minecraft:block/pine_bark_vertical_thin_slab",
-      "y": 180
-    },
-	"facing=east,half=lower,hinge=right,open=true,powered=false": {
-      "model": "minecraft:block/pine_bark_vertical_thin_slab",
       "y": 270
     },
-	"facing=south,half=lower,hinge=right,open=true,powered=false": {
+	"facing=east,half=lower,hinge=right,open=true,powered=false": {
       "model": "minecraft:block/pine_bark_vertical_thin_slab"
+    },
+	"facing=south,half=lower,hinge=right,open=true,powered=false": {
+      "model": "minecraft:block/pine_bark_vertical_thin_slab",
+      "y": 90
     },
 	"facing=west,half=lower,hinge=right,open=true,powered=false": {
       "model": "minecraft:block/pine_bark_vertical_thin_slab",
-      "y": 90
+      "y": 180
     },
 	"facing=north,half=upper,hinge=left,open=false,powered=false": {
-      "model": "minecraft:block/chestnut_bark_vertical_thin_slab",
-      "y": 270
+      "model": "minecraft:block/chestnut_bark_vertical_thin_slab"
     },
     "facing=east,half=upper,hinge=left,open=false,powered=false": {
-      "model": "minecraft:block/chestnut_bark_vertical_thin_slab"
+      "model": "minecraft:block/chestnut_bark_vertical_thin_slab",
+      "y": 90
     },
 	"facing=south,half=upper,hinge=left,open=false,powered=false": {
       "model": "minecraft:block/chestnut_bark_vertical_thin_slab",
-      "y": 90
+      "y": 180
     },
     "facing=west,half=upper,hinge=left,open=false,powered=false": {
       "model": "minecraft:block/chestnut_bark_vertical_thin_slab",
-      "y": 180
+      "y": 270
     },
     "facing=north,half=upper,hinge=left,open=true,powered=false": {
-      "model": "minecraft:block/birch_bark_vertical_thin_slab"
+      "model": "minecraft:block/birch_bark_vertical_thin_slab",
+      "y": 90
     },
     "facing=east,half=upper,hinge=left,open=true,powered=false": {
       "model": "minecraft:block/birch_bark_vertical_thin_slab",
-      "y": 90
+      "y": 180
     },
     "facing=south,half=upper,hinge=left,open=true,powered=false": {
       "model": "minecraft:block/birch_bark_vertical_thin_slab",
-      "y": 180
+      "y": 270
     },
     "facing=west,half=upper,hinge=left,open=true,powered=false": {
-      "model": "minecraft:block/birch_bark_vertical_thin_slab",
-      "y": 270
+      "model": "minecraft:block/birch_bark_vertical_thin_slab"
     },
     "facing=north,half=upper,hinge=right,open=false,powered=false": {
-      "model": "minecraft:block/poplar_bark_vertical_thin_slab",
-      "y": 270
+      "model": "minecraft:block/poplar_bark_vertical_thin_slab"
     },
 	"facing=east,half=upper,hinge=right,open=false,powered=false": {
-      "model": "minecraft:block/poplar_bark_vertical_thin_slab"
+      "model": "minecraft:block/poplar_bark_vertical_thin_slab",
+      "y": 90
     },
     "facing=south,half=upper,hinge=right,open=false,powered=false": {
       "model": "minecraft:block/poplar_bark_vertical_thin_slab",
-      "y": 90
+      "y": 180
     },
 	"facing=west,half=upper,hinge=right,open=false,powered=false": {
       "model": "minecraft:block/poplar_bark_vertical_thin_slab",
-      "y": 180
+      "y": 270
     },
 	"facing=north,half=upper,hinge=right,open=true,powered=false": {
       "model": "minecraft:block/ash_bark_vertical_thin_slab",
-      "y": 180
-    },
-	"facing=east,half=upper,hinge=right,open=true,powered=false": {
-      "model": "minecraft:block/ash_bark_vertical_thin_slab",
       "y": 270
     },
-	"facing=south,half=upper,hinge=right,open=true,powered=false": {
+	"facing=east,half=upper,hinge=right,open=true,powered=false": {
       "model": "minecraft:block/ash_bark_vertical_thin_slab"
+    },
+	"facing=south,half=upper,hinge=right,open=true,powered=false": {
+      "model": "minecraft:block/ash_bark_vertical_thin_slab",
+      "y": 90
     },
 	"facing=west,half=upper,hinge=right,open=true,powered=false": {
       "model": "minecraft:block/ash_bark_vertical_thin_slab",
-      "y": 90
+      "y": 180
     },
     "facing=north,half=lower,hinge=left,open=false,powered=true": {
-      "model": "minecraft:block/whitebeam_bark_vertical_thin_slab",
-      "y": 270
+      "model": "minecraft:block/whitebeam_bark_vertical_thin_slab"
     },
     "facing=east,half=lower,hinge=left,open=false,powered=true": {
-      "model": "minecraft:block/whitebeam_bark_vertical_thin_slab"
+      "model": "minecraft:block/whitebeam_bark_vertical_thin_slab",
+      "y": 90
     },
 	"facing=south,half=lower,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/whitebeam_bark_vertical_thin_slab",
-      "y": 90
+      "y": 180
     },
     "facing=west,half=lower,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/whitebeam_bark_vertical_thin_slab",
-      "y": 180
+      "y": 270
     },
     "facing=north,half=lower,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/gray_pine_bark_vertical_thin_slab"
+      "model": "minecraft:block/gray_pine_bark_vertical_thin_slab",
+      "y": 90
     },
     "facing=east,half=lower,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/gray_pine_bark_vertical_thin_slab",
-      "y": 90
+      "y": 180
     },
     "facing=south,half=lower,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/gray_pine_bark_vertical_thin_slab",
-      "y": 180
+      "y": 270
     },
     "facing=west,half=lower,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/gray_pine_bark_vertical_thin_slab",
-      "y": 270
+      "model": "minecraft:block/gray_pine_bark_vertical_thin_slab"
     },
     "facing=north,half=lower,hinge=right,open=false,powered=true": {
-      "model": "minecraft:block/elm_bark_vertical_thin_slab",
-      "y": 270
+      "model": "minecraft:block/elm_bark_vertical_thin_slab"
     },
 	"facing=east,half=lower,hinge=right,open=false,powered=true": {
-      "model": "minecraft:block/elm_bark_vertical_thin_slab"
+      "model": "minecraft:block/elm_bark_vertical_thin_slab",
+      "y": 90
     },
     "facing=south,half=lower,hinge=right,open=false,powered=true": {
       "model": "minecraft:block/elm_bark_vertical_thin_slab",
-      "y": 90
+      "y": 180
     },
 	"facing=west,half=lower,hinge=right,open=false,powered=true": {
       "model": "minecraft:block/elm_bark_vertical_thin_slab",
-      "y": 180
+      "y": 270
     },
 	"facing=north,half=lower,hinge=right,open=true,powered=true": {
       "model": "minecraft:block/larch_bark_vertical_thin_slab",
-      "y": 180
-    },
-	"facing=east,half=lower,hinge=right,open=true,powered=true": {
-      "model": "minecraft:block/larch_bark_vertical_thin_slab",
       "y": 270
     },
-	"facing=south,half=lower,hinge=right,open=true,powered=true": {
+	"facing=east,half=lower,hinge=right,open=true,powered=true": {
       "model": "minecraft:block/larch_bark_vertical_thin_slab"
+    },
+	"facing=south,half=lower,hinge=right,open=true,powered=true": {
+      "model": "minecraft:block/larch_bark_vertical_thin_slab",
+      "y": 90
     },
 	"facing=west,half=lower,hinge=right,open=true,powered=true": {
       "model": "minecraft:block/larch_bark_vertical_thin_slab",
-      "y": 90
+      "y": 180
     },
 	"facing=north,half=upper,hinge=left,open=false,powered=true": {
-      "model": "minecraft:block/spruce_bark_vertical_thin_slab",
-      "y": 270
+      "model": "minecraft:block/spruce_bark_vertical_thin_slab"
     },
     "facing=east,half=upper,hinge=left,open=false,powered=true": {
-      "model": "minecraft:block/spruce_bark_vertical_thin_slab"
+      "model": "minecraft:block/spruce_bark_vertical_thin_slab",
+      "y": 90
     },
 	"facing=south,half=upper,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/spruce_bark_vertical_thin_slab",
-      "y": 90
+      "y": 180
     },
     "facing=west,half=upper,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/spruce_bark_vertical_thin_slab",
-      "y": 180
+      "y": 270
     },
     "facing=north,half=upper,hinge=left,open=true,powered=true": [
 	  { "model": "mcme:block/pine_leaves_dark_vertical_slab_4"},
