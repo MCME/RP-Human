@@ -1,6 +1,6 @@
 {
     "variants": {
-        "distance=1,persistent=false": [
+        "distance=1,persistent=false,waterlogged=false": [
 			{ "model": "block/grass_block_dirt" },
 			{ "model": "block/grass_block_dirt", "y": 90 },
 			{ "model": "block/grass_block_dirt", "y": 180 },
@@ -14,7 +14,7 @@
 			{ "model": "block/grass_block_dirt_3", "y": 180 },
 			{ "model": "block/grass_block_dirt_3", "y": 270 }
 			],
-        "distance=2,persistent=false": [
+        "distance=2,persistent=false,waterlogged=false": [
             { "model": "block/grass_block_bubble_coral" },
             { "model": "block/grass_block_bubble_coral", "y": 90 },
             { "model": "block/grass_block_bubble_coral", "y": 180 },
@@ -28,7 +28,7 @@
             { "model": "block/grass_block_bubble_coral_3", "y": 180 },
             { "model": "block/grass_block_bubble_coral_3", "y": 270 }
 			],
-        "distance=3,persistent=false": [
+        "distance=3,persistent=false,waterlogged=false": [
             { "model": "block/grass_block_gray_terracotta" },
             { "model": "block/grass_block_gray_terracotta", "y": 90 },
             { "model": "block/grass_block_gray_terracotta", "y": 180 },
@@ -42,7 +42,7 @@
             { "model": "block/grass_block_gray_terracotta_3", "y": 180 },
             { "model": "block/grass_block_gray_terracotta_3", "y": 270 }
 			],
-		"distance=4,persistent=false": [
+		"distance=4,persistent=false,waterlogged=false": [
 			{ "model": "block/grass_block_stones" },
             { "model": "block/grass_block_stones", "y": 90 },
             { "model": "block/grass_block_stones", "y": 180 },
@@ -60,7 +60,7 @@
             { "model": "block/grass_block_stones_4", "y": 180 },
             { "model": "block/grass_block_stones_4", "y": 270 }
 			],
-		"distance=5,persistent=false": [
+		"distance=5,persistent=false,waterlogged=false": [
 			{ "model": "block/grass_block_white_concrete" },
             { "model": "block/grass_block_white_concrete", "y": 90 },
             { "model": "block/grass_block_white_concrete", "y": 180 },
@@ -74,7 +74,7 @@
             { "model": "block/grass_block_white_concrete_3", "y": 180 },
             { "model": "block/grass_block_white_concrete_3", "y": 270 }
 			],
-		"distance=6,persistent=false": [
+		"distance=6,persistent=false,waterlogged=false": [
 			{ "model": "block/grass_block_red_concrete" },
             { "model": "block/grass_block_red_concrete", "y": 90 },
             { "model": "block/grass_block_red_concrete", "y": 180 },
@@ -95,7 +95,7 @@
 			{ "model": "mcme:block/oak_leaves_4" },
 			{ "model": "mcme:block/oak_leaves_5" }
 			],
-		"distance=1,persistent=true": [
+		"distance=1,persistent=true,waterlogged=false": [
 			{ "model": "block/grass_block_green_concrete" },
             { "model": "block/grass_block_green_concrete", "y": 90 },
             { "model": "block/grass_block_green_concrete", "y": 180 },
@@ -109,7 +109,7 @@
             { "model": "block/grass_block_green_concrete_3", "y": 180 },
             { "model": "block/grass_block_green_concrete_3", "y": 270 }
 			],
-		"distance=2,persistent=true": [
+		"distance=2,persistent=true,waterlogged=false": [
 			{ "model": "block/grass_block_stone" },
             { "model": "block/grass_block_stone", "y": 90 },
             { "model": "block/grass_block_stone", "y": 180 },
@@ -123,7 +123,7 @@
             { "model": "block/grass_block_stone_3", "y": 180 },
             { "model": "block/grass_block_stone_3", "y": 270 }
 			],
-		"distance=3,persistent=true": [
+		"distance=3,persistent=true,waterlogged=false": [
 			{ "model": "block/grass_block_polished_andesite" },
             { "model": "block/grass_block_polished_andesite", "y": 90 },
             { "model": "block/grass_block_polished_andesite", "y": 180 },
@@ -137,7 +137,7 @@
             { "model": "block/grass_block_polished_andesite_3", "y": 180 },
             { "model": "block/grass_block_polished_andesite_3", "y": 270 }
 			],
-		"distance=4,persistent=true": [
+		"distance=4,persistent=true,waterlogged=false": [
 			{ "model": "block/grass_block_orange_concrete" },
             { "model": "block/grass_block_orange_concrete", "y": 90 },
             { "model": "block/grass_block_orange_concrete", "y": 180 },
@@ -151,7 +151,7 @@
             { "model": "block/grass_block_orange_concrete_3", "y": 180 },
             { "model": "block/grass_block_orange_concrete_3", "y": 270 }
 			],
-		"distance=5,persistent=true": [
+		"distance=5,persistent=true,waterlogged=false": [
 			{ "model": "block/grass_block_patches" },
             { "model": "block/grass_block_patches", "y": 90 },
             { "model": "block/grass_block_patches", "y": 180 },
@@ -177,7 +177,7 @@
             { "model": "block/grass_block_patches_6", "y": 180 },
             { "model": "block/grass_block_patches_6", "y": 270 }
 			],
-		"distance=6,persistent=true": [
+		"distance=6,persistent=true,waterlogged=false": [
 			{ "model": "block/grass_block_stones_only" },
 			{ "model": "block/grass_block_stones_only", "y": 90 },
 			{ "model": "block/grass_block_stones_only", "y": 180 },
@@ -195,7 +195,7 @@
 			{ "model": "block/grass_block_stones_only_3", "y": 180 },
 			{ "model": "block/grass_block_stones_only_3", "y": 270 }
 			],
-		"distance=7,persistent=true": [
+		"distance=7,persistent=true,waterlogged=false": [
             { "model": "block/grass_block_dark" },
             { "model": "block/grass_block_dark", "y": 90 },
             { "model": "block/grass_block_dark", "y": 180 },
@@ -208,6 +208,240 @@
             { "model": "block/grass_block_dark_3", "y": 90 },
             { "model": "block/grass_block_dark_3", "y": 180 },
             { "model": "block/grass_block_dark_3", "y": 270 }
-        ]
+			],
+		"distance=7,persistent=false,waterlogged=true": [
+			{ "model": "block/grass_block_patches_stone_grass" },
+            { "model": "block/grass_block_patches_stone_grass", "y": 90 },
+            { "model": "block/grass_block_patches_stone_grass", "y": 180 },
+            { "model": "block/grass_block_patches_stone_grass", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_grass_2" },
+            { "model": "block/grass_block_patches_stone_grass_2", "y": 90 },
+            { "model": "block/grass_block_patches_stone_grass_2", "y": 180 },
+            { "model": "block/grass_block_patches_stone_grass_2", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_grass_3" },
+            { "model": "block/grass_block_patches_stone_grass_3", "y": 90 },
+            { "model": "block/grass_block_patches_stone_grass_3", "y": 180 },
+            { "model": "block/grass_block_patches_stone_grass_3", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_grass_4" },
+            { "model": "block/grass_block_patches_stone_grass_4", "y": 90 },
+            { "model": "block/grass_block_patches_stone_grass_4", "y": 180 },
+            { "model": "block/grass_block_patches_stone_grass_4", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_grass_5" },
+            { "model": "block/grass_block_patches_stone_grass_5", "y": 90 },
+            { "model": "block/grass_block_patches_stone_grass_5", "y": 180 },
+            { "model": "block/grass_block_patches_stone_grass_5", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_grass_6" },
+            { "model": "block/grass_block_patches_stone_grass_6", "y": 90 },
+            { "model": "block/grass_block_patches_stone_grass_6", "y": 180 },
+            { "model": "block/grass_block_patches_stone_grass_6", "y": 270 }
+			],
+		"distance=1,persistent=false,waterlogged=true": [
+			{ "model": "block/grass_block_patches_stone" },
+            { "model": "block/grass_block_patches_stone", "y": 90 },
+            { "model": "block/grass_block_patches_stone", "y": 180 },
+            { "model": "block/grass_block_patches_stone", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_2" },
+            { "model": "block/grass_block_patches_stone_2", "y": 90 },
+            { "model": "block/grass_block_patches_stone_2", "y": 180 },
+            { "model": "block/grass_block_patches_stone_2", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_3" },
+            { "model": "block/grass_block_patches_stone_3", "y": 90 },
+            { "model": "block/grass_block_patches_stone_3", "y": 180 },
+            { "model": "block/grass_block_patches_stone_3", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_4" },
+            { "model": "block/grass_block_patches_stone_4", "y": 90 },
+            { "model": "block/grass_block_patches_stone_4", "y": 180 },
+            { "model": "block/grass_block_patches_stone_4", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_5" },
+            { "model": "block/grass_block_patches_stone_5", "y": 90 },
+            { "model": "block/grass_block_patches_stone_5", "y": 180 },
+            { "model": "block/grass_block_patches_stone_5", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_6" },
+            { "model": "block/grass_block_patches_stone_6", "y": 90 },
+            { "model": "block/grass_block_patches_stone_6", "y": 180 },
+            { "model": "block/grass_block_patches_stone_6", "y": 270 }
+			],
+		"distance=2,persistent=false,waterlogged=true": [
+			{ "model": "block/grass_block_patches_stone_stone" },
+            { "model": "block/grass_block_patches_stone_stone", "y": 90 },
+            { "model": "block/grass_block_patches_stone_stone", "y": 180 },
+            { "model": "block/grass_block_patches_stone_stone", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_stone_2" },
+            { "model": "block/grass_block_patches_stone_stone_2", "y": 90 },
+            { "model": "block/grass_block_patches_stone_stone_2", "y": 180 },
+            { "model": "block/grass_block_patches_stone_stone_2", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_stone_3" },
+            { "model": "block/grass_block_patches_stone_stone_3", "y": 90 },
+            { "model": "block/grass_block_patches_stone_stone_3", "y": 180 },
+            { "model": "block/grass_block_patches_stone_stone_3", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_stone_4" },
+            { "model": "block/grass_block_patches_stone_stone_4", "y": 90 },
+            { "model": "block/grass_block_patches_stone_stone_4", "y": 180 },
+            { "model": "block/grass_block_patches_stone_stone_4", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_stone_5" },
+            { "model": "block/grass_block_patches_stone_stone_5", "y": 90 },
+            { "model": "block/grass_block_patches_stone_stone_5", "y": 180 },
+            { "model": "block/grass_block_patches_stone_stone_5", "y": 270 },
+			{ "model": "block/grass_block_patches_stone_stone_6" },
+            { "model": "block/grass_block_patches_stone_stone_6", "y": 90 },
+            { "model": "block/grass_block_patches_stone_stone_6", "y": 180 },
+            { "model": "block/grass_block_patches_stone_stone_6", "y": 270 }
+			],
+		"distance=3,persistent=false,waterlogged=true": [
+			{ "model": "block/grass_block_patches_dark_stone_grass" },
+            { "model": "block/grass_block_patches_dark_stone_grass", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_grass", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_grass", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_grass_2" },
+            { "model": "block/grass_block_patches_dark_stone_grass_2", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_grass_2", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_grass_2", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_grass_3" },
+            { "model": "block/grass_block_patches_dark_stone_grass_3", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_grass_3", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_grass_3", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_grass_4" },
+            { "model": "block/grass_block_patches_dark_stone_grass_4", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_grass_4", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_grass_4", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_grass_5" },
+            { "model": "block/grass_block_patches_dark_stone_grass_5", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_grass_5", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_grass_5", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_grass_6" },
+            { "model": "block/grass_block_patches_dark_stone_grass_6", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_grass_6", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_grass_6", "y": 270 }
+			],
+		"distance=4,persistent=false,waterlogged=true": [
+			{ "model": "block/grass_block_patches_dark_stone" },
+            { "model": "block/grass_block_patches_dark_stone", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_2" },
+            { "model": "block/grass_block_patches_dark_stone_2", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_2", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_2", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_3" },
+            { "model": "block/grass_block_patches_dark_stone_3", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_3", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_3", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_4" },
+            { "model": "block/grass_block_patches_dark_stone_4", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_4", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_4", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_5" },
+            { "model": "block/grass_block_patches_dark_stone_5", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_5", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_5", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_6" },
+            { "model": "block/grass_block_patches_dark_stone_6", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_6", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_6", "y": 270 }
+			],
+		"distance=5,persistent=false,waterlogged=true": [
+			{ "model": "block/grass_block_patches_dark_stone_dark_stone" },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_dark_stone_2" },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_2", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_2", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_2", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_dark_stone_3" },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_3", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_3", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_3", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_dark_stone_4" },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_4", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_4", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_4", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_dark_stone_5" },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_5", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_5", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_5", "y": 270 },
+			{ "model": "block/grass_block_patches_dark_stone_dark_stone_6" },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_6", "y": 90 },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_6", "y": 180 },
+            { "model": "block/grass_block_patches_dark_stone_dark_stone_6", "y": 270 }
+			],
+		"distance=6,persistent=false,waterlogged=true": [
+			{ "model": "block/grass_block_patches_light_stone_grass" },
+            { "model": "block/grass_block_patches_light_stone_grass", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_grass", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_grass", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_grass_2" },
+            { "model": "block/grass_block_patches_light_stone_grass_2", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_grass_2", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_grass_2", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_grass_3" },
+            { "model": "block/grass_block_patches_light_stone_grass_3", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_grass_3", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_grass_3", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_grass_4" },
+            { "model": "block/grass_block_patches_light_stone_grass_4", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_grass_4", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_grass_4", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_grass_5" },
+            { "model": "block/grass_block_patches_light_stone_grass_5", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_grass_5", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_grass_5", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_grass_6" },
+            { "model": "block/grass_block_patches_light_stone_grass_6", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_grass_6", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_grass_6", "y": 270 }
+			],
+		"distance=7,persistent=true,waterlogged=true": [
+			{ "model": "block/grass_block_patches_light_stone" },
+            { "model": "block/grass_block_patches_light_stone", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_2" },
+            { "model": "block/grass_block_patches_light_stone_2", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_2", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_2", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_3" },
+            { "model": "block/grass_block_patches_light_stone_3", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_3", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_3", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_4" },
+            { "model": "block/grass_block_patches_light_stone_4", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_4", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_4", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_5" },
+            { "model": "block/grass_block_patches_light_stone_5", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_5", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_5", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_6" },
+            { "model": "block/grass_block_patches_light_stone_6", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_6", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_6", "y": 270 }
+			],
+		"distance=1,persistent=true,waterlogged=true": [
+			{ "model": "block/grass_block_patches_light_stone_light_stone" },
+            { "model": "block/grass_block_patches_light_stone_light_stone", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_light_stone", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_light_stone", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_light_stone_2" },
+            { "model": "block/grass_block_patches_light_stone_light_stone_2", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_light_stone_2", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_light_stone_2", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_light_stone_3" },
+            { "model": "block/grass_block_patches_light_stone_light_stone_3", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_light_stone_3", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_light_stone_3", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_light_stone_4" },
+            { "model": "block/grass_block_patches_light_stone_light_stone_4", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_light_stone_4", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_light_stone_4", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_light_stone_5" },
+            { "model": "block/grass_block_patches_light_stone_light_stone_5", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_light_stone_5", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_light_stone_5", "y": 270 },
+			{ "model": "block/grass_block_patches_light_stone_light_stone_6" },
+            { "model": "block/grass_block_patches_light_stone_light_stone_6", "y": 90 },
+            { "model": "block/grass_block_patches_light_stone_light_stone_6", "y": 180 },
+            { "model": "block/grass_block_patches_light_stone_light_stone_6", "y": 270 }
+			]
     }
 }

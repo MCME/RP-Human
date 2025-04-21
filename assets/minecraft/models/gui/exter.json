@@ -1,6 +1,10 @@
 {
     "parent": "item/generated",
-    "textures": {
+	"display": {
+		"gui": {
+			"scale": [1.25, 1.25, 1.25]
+		}
+	},    "textures": {
         "layer0": "item/gui/inventory_icons/exter"
     }
 }
