@@ -6762,6 +6762,34 @@
                     "type": "model",
                     "model": "block/grass_block_patches_dark_stone_dark_stone_inventory"
                 }
+            },
+			{
+                "threshold": 967,
+                "model": {
+                    "type": "model",
+                    "model": "block/dark_thatch_offset_up"
+                }
+            },
+			{
+                "threshold": 968,
+                "model": {
+                    "type": "model",
+                    "model": "block/dark_thatch_offset_down"
+                }
+            },
+			{
+                "threshold": 969,
+                "model": {
+                    "type": "model",
+                    "model": "block/thatch_offset_up"
+                }
+            },
+			{
+                "threshold": 970,
+                "model": {
+                    "type": "model",
+                    "model": "block/thatch_offset_down"
+                }
             }
         ]
     }
