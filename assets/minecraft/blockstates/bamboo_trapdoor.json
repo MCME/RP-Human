@@ -24,6 +24,11 @@
 		{ "model": "minecraft:block/trapdoor_wood_shingles_top_3"},
 		{ "model": "minecraft:block/trapdoor_wood_shingles_top_4"}
 	],
+	"facing=south,half=top,open=false,powered=true": [
+		{ "model": "minecraft:block/trapdoor_grey_shingles_top"},
+		{ "model": "minecraft:block/trapdoor_grey_shingles_top_2"},
+		{ "model": "minecraft:block/trapdoor_grey_shingles_top_3"}
+	],
 	"facing=north,half=top,open=false,powered=true": [
 		{ "model": "minecraft:block/trapdoor_purpur_block_top"},
 		{ "model": "minecraft:block/trapdoor_purpur_block_top_2"},
@@ -61,6 +66,11 @@
 		{ "model": "minecraft:block/trapdoor_wood_shingles_bottom_2"},
 		{ "model": "minecraft:block/trapdoor_wood_shingles_bottom_3"},
 		{ "model": "minecraft:block/trapdoor_wood_shingles_bottom_4"}
+	],
+	"facing=south,half=bottom,open=false,powered=true": [
+		{ "model": "minecraft:block/trapdoor_grey_shingles_bottom"},
+		{ "model": "minecraft:block/trapdoor_grey_shingles_bottom_2"},
+		{ "model": "minecraft:block/trapdoor_grey_shingles_bottom_3"}
 	],
 	"facing=north,half=bottom,open=false,powered=true": [
 		{ "model": "minecraft:block/trapdoor_purpur_block_bottom"},
