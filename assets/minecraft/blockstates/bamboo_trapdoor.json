@@ -1,0 +1,146 @@
+{
+  "variants": {
+    "facing=north,half=top,open=false,powered=false": [
+		{ "model": "minecraft:block/trapdoor_orange_shingles_top"},
+		{ "model": "minecraft:block/trapdoor_orange_shingles_top_2"},
+		{ "model": "minecraft:block/trapdoor_orange_shingles_top_3"},
+		{ "model": "minecraft:block/trapdoor_orange_shingles_top_4"}
+	],
+	"facing=east,half=top,open=false,powered=false": [
+		{ "model": "minecraft:block/trapdoor_green_shingles_top"},
+		{ "model": "minecraft:block/trapdoor_green_shingles_top_2"},
+		{ "model": "minecraft:block/trapdoor_green_shingles_top_3"},
+		{ "model": "minecraft:block/trapdoor_green_shingles_top_4"}
+	],
+	"facing=south,half=top,open=false,powered=false": [
+		{ "model": "minecraft:block/trapdoor_blue_shingles_top"},
+		{ "model": "minecraft:block/trapdoor_blue_shingles_top_2"},
+		{ "model": "minecraft:block/trapdoor_blue_shingles_top_3"},
+		{ "model": "minecraft:block/trapdoor_blue_shingles_top_4"}
+	],
+	"facing=west,half=top,open=false,powered=false": [
+		{ "model": "minecraft:block/trapdoor_wood_shingles_top"},
+		{ "model": "minecraft:block/trapdoor_wood_shingles_top_2"},
+		{ "model": "minecraft:block/trapdoor_wood_shingles_top_3"},
+		{ "model": "minecraft:block/trapdoor_wood_shingles_top_4"}
+	],
+	"facing=south,half=top,open=false,powered=true": [
+		{ "model": "minecraft:block/trapdoor_grey_shingles_top"},
+		{ "model": "minecraft:block/trapdoor_grey_shingles_top_2"},
+		{ "model": "minecraft:block/trapdoor_grey_shingles_top_3"}
+	],
+	"facing=north,half=top,open=false,powered=true": [
+		{ "model": "minecraft:block/trapdoor_purpur_block_top"},
+		{ "model": "minecraft:block/trapdoor_purpur_block_top_2"},
+		{ "model": "minecraft:block/trapdoor_purpur_block_top_3"},
+		{ "model": "minecraft:block/trapdoor_purpur_block_top_4"},
+		{ "model": "minecraft:block/trapdoor_purpur_block_top_5"}
+	],
+	"facing=east,half=top,open=false,powered=true": [
+		{ "model": "minecraft:block/trapdoor_prismarine_bricks_top"},
+		{ "model": "minecraft:block/trapdoor_prismarine_bricks_top_2"},
+		{ "model": "minecraft:block/trapdoor_prismarine_bricks_top_3"},
+		{ "model": "minecraft:block/trapdoor_prismarine_bricks_top_4"},
+		{ "model": "minecraft:block/trapdoor_prismarine_bricks_top_5"}
+	],
+    "facing=north,half=bottom,open=false,powered=false": [
+		{ "model": "minecraft:block/trapdoor_orange_shingles_bottom"},
+		{ "model": "minecraft:block/trapdoor_orange_shingles_bottom_2"},
+		{ "model": "minecraft:block/trapdoor_orange_shingles_bottom_3"},
+		{ "model": "minecraft:block/trapdoor_orange_shingles_bottom_4"}
+	],
+	"facing=east,half=bottom,open=false,powered=false": [
+		{ "model": "minecraft:block/trapdoor_green_shingles_bottom"},
+		{ "model": "minecraft:block/trapdoor_green_shingles_bottom_2"},
+		{ "model": "minecraft:block/trapdoor_green_shingles_bottom_3"},
+		{ "model": "minecraft:block/trapdoor_green_shingles_bottom_4"}
+	],
+	"facing=south,half=bottom,open=false,powered=false": [
+		{ "model": "minecraft:block/trapdoor_blue_shingles_bottom"},
+		{ "model": "minecraft:block/trapdoor_blue_shingles_bottom_2"},
+		{ "model": "minecraft:block/trapdoor_blue_shingles_bottom_3"},
+		{ "model": "minecraft:block/trapdoor_blue_shingles_bottom_4"}
+	],
+	"facing=west,half=bottom,open=false,powered=false": [
+		{ "model": "minecraft:block/trapdoor_wood_shingles_bottom"},
+		{ "model": "minecraft:block/trapdoor_wood_shingles_bottom_2"},
+		{ "model": "minecraft:block/trapdoor_wood_shingles_bottom_3"},
+		{ "model": "minecraft:block/trapdoor_wood_shingles_bottom_4"}
+	],
+	"facing=south,half=bottom,open=false,powered=true": [
+		{ "model": "minecraft:block/trapdoor_grey_shingles_bottom"},
+		{ "model": "minecraft:block/trapdoor_grey_shingles_bottom_2"},
+		{ "model": "minecraft:block/trapdoor_grey_shingles_bottom_3"}
+	],
+	"facing=north,half=bottom,open=false,powered=true": [
+		{ "model": "minecraft:block/trapdoor_purpur_block_bottom"},
+		{ "model": "minecraft:block/trapdoor_purpur_block_bottom_2"},
+		{ "model": "minecraft:block/trapdoor_purpur_block_bottom_3"},
+		{ "model": "minecraft:block/trapdoor_purpur_block_bottom_4"},
+		{ "model": "minecraft:block/trapdoor_purpur_block_bottom_5"}
+	],
+	"facing=east,half=bottom,open=false,powered=true": [
+		{ "model": "minecraft:block/trapdoor_prismarine_bricks_bottom"},
+		{ "model": "minecraft:block/trapdoor_prismarine_bricks_bottom_2"},
+		{ "model": "minecraft:block/trapdoor_prismarine_bricks_bottom_3"},
+		{ "model": "minecraft:block/trapdoor_prismarine_bricks_bottom_4"},
+		{ "model": "minecraft:block/trapdoor_prismarine_bricks_bottom_5"}
+	],
+	"facing=north,half=bottom,open=true,powered=false": [
+		{ "model": "minecraft:block/purpur_block_trapdoor_open"},
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_2"},
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_3"},
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_4"},
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_5"}
+	],
+	"facing=east,half=bottom,open=true,powered=false": [
+		{ "model": "minecraft:block/purpur_block_trapdoor_open", "y": 90 },
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_2", "y": 90 },
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_3", "y": 90 },
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_4", "y": 90 },
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_5", "y": 90 }
+	],
+	"facing=south,half=bottom,open=true,powered=false": [
+		{ "model": "minecraft:block/purpur_block_trapdoor_open", "y": 180 },
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_2", "y": 180 },
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_3", "y": 180 },
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_4", "y": 180 },
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_5", "y": 180 }
+	],
+	"facing=west,half=bottom,open=true,powered=false": [
+		{ "model": "minecraft:block/purpur_block_trapdoor_open", "y": 270 },
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_2", "y": 270 },
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_3", "y": 270 },
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_4", "y": 270 },
+		{ "model": "minecraft:block/purpur_block_trapdoor_open_5", "y": 270 }
+	],
+	"facing=north,half=top,open=true,powered=false": [
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open"},
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_2"},
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_3"},
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_4"},
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_5"}
+	],
+	"facing=east,half=top,open=true,powered=false": [
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open", "y": 90 },
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_2", "y": 90 },
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_3", "y": 90 },
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_4", "y": 90 },
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_5", "y": 90 }
+	],
+	"facing=south,half=top,open=true,powered=false": [
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open", "y": 180 },
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_2", "y": 180 },
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_3", "y": 180 },
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_4", "y": 180 },
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_5", "y": 180 }
+	],
+	"facing=west,half=top,open=true,powered=false": [
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open", "y": 270 },
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_2", "y": 270 },
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_3", "y": 270 },
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_4", "y": 270 },
+		{ "model": "minecraft:block/prismarine_bricks_trapdoor_open_5", "y": 270 }
+	]
+	}
+}
