@@ -207,69 +207,6 @@
     },
     {
       "when": {
-        "facing": "south",
-        "in_wall": "false",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/placeholder",
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "in_wall": "false",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/placeholder",
-        "uvlock": true,
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "in_wall": "false",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/placeholder",
-        "uvlock": true,
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "in_wall": "false",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/placeholder",
-        "uvlock": true,
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "in_wall": "false",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/placeholder",
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
         "facing": "west",
         "in_wall": "false",
         "open": "true",
@@ -424,7 +361,7 @@
         "uvlock": true,
         "y": 270
       }
-    },
+    },	
     {
       "when": {
         "facing": "north",
@@ -432,11 +369,14 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/placeholder",
-        "uvlock": true,
-        "y": 180
-      }
+      "apply": [
+	  {  "model": "block/vertical_slab_rough_red_bricks", "y":180, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_2", "y":180, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_3", "y":180, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_4", "y":180, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_5", "y":180, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_6", "y":180, "uvlock": true }
+	  ]
     },
     {
       "when": {
@@ -445,11 +385,14 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/placeholder",
-        "uvlock": true,
-        "y": 270
-      }
+      "apply": [
+	  {  "model": "block/vertical_slab_rough_red_bricks", "y":270, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_2", "y":270, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_3", "y":270, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_4", "y":270, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_5", "y":270, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_6", "y":270, "uvlock": true }
+	  ]
     },
     {
       "when": {
@@ -458,10 +401,14 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/placeholder",
-        "uvlock": true
-      }
+      "apply": [
+	  {  "model": "block/vertical_slab_rough_red_bricks", "y":0, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_2", "y":0, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_3", "y":0, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_4", "y":0, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_5", "y":0, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_6", "y":0, "uvlock": true }
+	  ]
     },
     {
       "when": {
@@ -470,11 +417,78 @@
         "open": "true",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/placeholder",
-        "uvlock": true,
-        "y": 90
-      }
+      "apply": [
+	  {  "model": "block/vertical_slab_rough_red_bricks", "y":90, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_2", "y":90, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_3", "y":90, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_4", "y":90, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_5", "y":90, "uvlock": true },
+	  {  "model": "block/vertical_slab_rough_red_bricks_6", "y":90, "uvlock": true }
+	  ]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	  {  "model": "block/vertical_slab_dark_red_bricks", "y":0, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_brickss_2", "y":0, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_3", "y":0, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_4", "y":0, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_5", "y":0, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_6", "y":0, "uvlock": true }
+	  ]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	  {  "model": "block/vertical_slab_dark_red_bricks", "y":90, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_2", "y":90, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_3", "y":90, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_4", "y":90, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_5", "y":90, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_6", "y":90, "uvlock": true }
+	  ]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	  {  "model": "block/vertical_slab_dark_red_bricks", "y":180, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_2", "y":180, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_3", "y":180, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_4", "y":180, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_5", "y":180, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_6", "y":180, "uvlock": true }
+	  ]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	  {  "model": "block/vertical_slab_dark_red_bricks", "y":270, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_2", "y":270, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_3", "y":270, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_4", "y":270, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_5", "y":270, "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_red_bricks_6", "y":270, "uvlock": true }
+	  ]
     }
   ]
 }

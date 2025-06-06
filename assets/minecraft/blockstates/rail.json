@@ -66,6 +66,10 @@
 	"shape=ascending_north": 
 	{ "model": "minecraft:block/rail_1x1arch" },
 	"shape=ascending_south": 
-	{ "model": "minecraft:block/rail_1x1arch", "y":90 }
+	{ "model": "minecraft:block/rail_1x1arch", "y":90 },
+	"shape=north_south": 
+	{ "model": "minecraft:block/red_bricks_1x1arch" },
+	"shape=east_west": 
+	{ "model": "minecraft:block/red_bricks_1x1arch", "y":90 }
   }
 }
