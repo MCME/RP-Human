@@ -37,14 +37,14 @@
 	{ "model": "block/hand_crank"}
 	],
         "face=ceiling,facing=east,powered=false":  { "model": "block/acacia_button", "y": 90},
-        "face=ceiling,facing=west,powered=false":  { "model": "block/replace", "x":180, "y": 90},
+        "face=ceiling,facing=west,powered=false":  { "model": "block/red_brick_1x3arch_top", "x":0, "y": 90},
         "face=ceiling,facing=south,powered=false": [
 	{ "model": "block/hand_crank", "x":270 },
 	{ "model": "block/hand_crank", "x":270, "y":90 },
 	{ "model": "block/hand_crank", "x":270, "y":180 },
 	{ "model": "block/hand_crank", "x":270, "y":270 }
 	],
-        "face=ceiling,facing=north,powered=false": {  "model": "block/replace", "x": 180 },
+        "face=ceiling,facing=north,powered=false": {  "model": "block/red_brick_1x3arch_top", "x": 0 },
         "face=floor,facing=east,powered=true":  { "model": "block/acacia_button_pressed", "y": 90 },
         "face=floor,facing=west,powered=true":  { "model": "block/acacia_button_pressed", "y": 270 },
         "face=floor,facing=south,powered=true": [

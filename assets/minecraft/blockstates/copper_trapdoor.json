@@ -1,0 +1,52 @@
+{
+  "variants": {
+	"facing\u003dnorth,half\u003dtop,open\u003dtrue,powered=true": [
+	  {"model": "block/thin_rough_red_brick_open"},
+	  {"model": "block/thin_rough_red_brick_open_2"},
+	  {"model": "block/thin_rough_red_brick_open_3"},
+	  {"model": "block/thin_rough_red_brick_open_4"},
+	  {"model": "block/thin_rough_red_brick_open_5"},
+	  {"model": "block/thin_rough_red_brick_open_6"}
+	],
+    "facing\u003dsouth,half\u003dtop,open\u003dtrue,powered=true": [
+	  {"model": "block/thin_rough_red_brick_open", "y":180},
+	  {"model": "block/thin_rough_red_brick_open_2", "y":180},
+	  {"model": "block/thin_rough_red_brick_open_3", "y":180},
+	  {"model": "block/thin_rough_red_brick_open_4", "y":180},
+	  {"model": "block/thin_rough_red_brick_open_5", "y":180},
+	  {"model": "block/thin_rough_red_brick_open_6", "y":180}
+	],
+    "facing\u003deast,half\u003dtop,open\u003dtrue,powered=true": [
+	  {"model": "block/thin_rough_red_brick_open", "y":90},
+	  {"model": "block/thin_rough_red_brick_open_2", "y":90},
+	  {"model": "block/thin_rough_red_brick_open_3", "y":90},
+	  {"model": "block/thin_rough_red_brick_open_4", "y":90},
+	  {"model": "block/thin_rough_red_brick_open_5", "y":90},
+	  {"model": "block/thin_rough_red_brick_open_6", "y":90}
+	],
+    "facing\u003dwest,half\u003dtop,open\u003dtrue,powered=true": [
+	  {"model": "block/thin_rough_red_brick_open", "y":270},
+	  {"model": "block/thin_rough_red_brick_open_2", "y":270},
+	  {"model": "block/thin_rough_red_brick_open_3", "y":270},
+	  {"model": "block/thin_rough_red_brick_open_4", "y":270},
+	  {"model": "block/thin_rough_red_brick_open_5", "y":270},
+	  {"model": "block/thin_rough_red_brick_open_6", "y":270}
+	],
+	"facing\u003dwest,half\u003dtop,open\u003dfalse,powered=true": [
+	  {"model": "block/thin_rough_red_brick_open", "x":90},
+	  {"model": "block/thin_rough_red_brick_open_2", "x":90},
+	  {"model": "block/thin_rough_red_brick_open_3", "x":90},
+	  {"model": "block/thin_rough_red_brick_open_4", "x":90},
+	  {"model": "block/thin_rough_red_brick_open_5", "x":90},
+	  {"model": "block/thin_rough_red_brick_open_6", "x":90}
+	],
+	"facing\u003dwest,half\u003dbottom,open\u003dfalse,powered=true": [
+	  {"model": "block/thin_rough_red_brick_open", "x":270},
+	  {"model": "block/thin_rough_red_brick_open_2", "x":270},
+	  {"model": "block/thin_rough_red_brick_open_3", "x":270},
+	  {"model": "block/thin_rough_red_brick_open_4", "x":270},
+	  {"model": "block/thin_rough_red_brick_open_5", "x":270},
+	  {"model": "block/thin_rough_red_brick_open_6", "x":270}
+	]
+	}
+}

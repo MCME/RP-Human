@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "block/double_slab_dark_prismarine_2",
+		"particle": "block/double_slab_dark_prismarine_2"
+	},
+	"elements": [
+		{
+			"from": [0, -0.0024, 8],
+			"to": [16, 16.0024, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -0.0024, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [8, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#0"},
+				"up": {"uv": [0, 8, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 8, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [24, 54, 0],
+			"translation": [-2.25, 0.5, 0],
+			"scale": [0.58, 0.58, 0.58]
+		}
+	}
+}

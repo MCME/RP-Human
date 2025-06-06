@@ -1,0 +1,35 @@
+{
+  "variants": {
+    "facing\u003dnorth,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse": {
+      "model": "minecraft:block/red_brick_1x2arch",
+      "y": 180
+    },
+    "facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse": {
+      "model": "minecraft:block/red_brick_1x2arch",
+	  "y": 270
+    },
+    "facing\u003dsouth,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse": {
+      "model": "minecraft:block/red_brick_1x2arch",
+      "y": 0
+    },
+    "facing\u003dwest,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse": {
+      "model": "minecraft:block/red_brick_1x2arch",
+      "y": 90
+    },
+    "facing\u003dnorth,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse": {
+      "model": "minecraft:block/red_brick_1x3arch",
+      "y": 270
+    },
+    "facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse": {
+      "model": "minecraft:block/red_brick_1x3arch"
+    },
+    "facing\u003dsouth,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse": {
+      "model": "minecraft:block/red_brick_1x3arch",
+      "y": 90
+    },
+    "facing\u003dwest,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse": {
+      "model": "minecraft:block/red_brick_1x3arch",
+      "y": 180
+    }
+  }
+}
