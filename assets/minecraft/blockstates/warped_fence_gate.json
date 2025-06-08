@@ -233,8 +233,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true
+          "model": "block/replace"
         }
       },
       {
@@ -246,7 +245,6 @@
         },
         "apply": {
           "model": "block/replace",
-          "uvlock": true,
           "y": 90
         }
       },
@@ -259,7 +257,6 @@
         },
         "apply": {
           "model": "block/replace",
-          "uvlock": true,
           "y": 180
         }
       },
@@ -272,7 +269,6 @@
         },
         "apply": {
           "model": "block/replace",
-          "uvlock": true,
           "y": 270
         }
       },
@@ -284,8 +280,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true
+          "model": "block/replace"
         }
       },
       {
@@ -297,7 +292,6 @@
         },
         "apply": {
           "model": "block/replace",
-          "uvlock": true,
           "y": 90
         }
       },
@@ -310,7 +304,7 @@
         },
         "apply": {
           "model": "block/replace",
-          "uvlock": true
+		  "y": 180
         }
       },
       {
@@ -322,8 +316,7 @@
         },
         "apply": {
           "model": "block/replace",
-          "uvlock": true,
-          "y": 90
+          "y": 270
         }
       },
       {

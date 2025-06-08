@@ -1,6 +1,49 @@
 {
-  "parent": "block/redstone_dust",
-  "textures": {
-    "cover": "block/redstone_dust_power9_center_3"
-  }
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/redstone_dust_power9_center_3",
+		"cover": "block/redstone_dust_power9_center_3"
+	},
+	"elements": [
+		{
+			"from": [0, 0.1, 0],
+			"to": [16, 0.08, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#cover"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [126.5, 0, 0],
+			"translation": [0, -3, 7.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [126.5, 0, 0],
+			"translation": [0, -3, 7.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [67.75, 0, 0],
+			"translation": [8, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [67.75, 0, 0],
+			"translation": [8, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 6.75, 0]
+		},
+		"gui": {
+			"rotation": [90, 0, 0],
+			"translation": [1.5, -1, 0]
+		},
+		"head": {
+			"translation": [1.75, 14.5, 0.5]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [1.25, 0, -7]
+		}
+	}
 }

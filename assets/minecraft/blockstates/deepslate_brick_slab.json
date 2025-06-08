@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/replace" }
+			],
+        "type=top": [
+			{ "model": "block/replace", "x":180 }
+			],
+        "type=double": [
+      {
+        "model": "block/replace"
+      }
+    ]
+    }
+}
