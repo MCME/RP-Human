@@ -233,8 +233,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true
+          "model": "block/vertical_slab_sandstone_brick_window"
         }
       },
       {
@@ -245,8 +244,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true,
+          "model": "block/vertical_slab_sandstone_brick_window",
           "y": 90
         }
       },
@@ -258,8 +256,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true,
+          "model": "block/vertical_slab_sandstone_brick_window",
           "y": 180
         }
       },
@@ -271,8 +268,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true,
+          "model": "block/vertical_slab_sandstone_brick_window",
           "y": 270
         }
       },
@@ -284,8 +280,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true
+          "model": "block/vertical_slab_sandstone_brick_window_bottom"
         }
       },
       {
@@ -296,8 +291,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true,
+          "model": "block/vertical_slab_sandstone_brick_window_bottom",
           "y": 90
         }
       },
@@ -309,8 +303,8 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true
+          "model": "block/vertical_slab_sandstone_brick_window_bottom",
+		  "y": 180
         }
       },
       {
@@ -321,9 +315,8 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 90
+          "model": "block/vertical_slab_sandstone_brick_window_bottom",
+          "y": 270
         }
       },
       {
