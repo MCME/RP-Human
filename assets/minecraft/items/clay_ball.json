@@ -7005,7 +7005,42 @@
                 "threshold": 1002,
                 "model": {
                     "type": "model",
-                    "model": "block/cut_sandstone_window"
+                    "model": "block/gray_shingles_offset_up_1"
+                }
+            },
+			{
+                "threshold": 1003,
+                "model": {
+                    "type": "model",
+                    "model": "block/gray_shingles_offset_down_1"
+                }
+            },
+			{
+                "threshold": 1004,
+                "model": {
+                    "type": "model",
+                    "model": "block/green_shingles_offset_up_1"
+                }
+            },
+			{
+                "threshold": 1005,
+                "model": {
+                    "type": "model",
+                    "model": "block/green_shingles_offset_down_1"
+                }
+            },
+			{
+                "threshold": 1006,
+                "model": {
+                    "type": "model",
+                    "model": "block/blue_shingles_offset_up_1"
+                }
+            },
+			{
+                "threshold": 1007,
+                "model": {
+                    "type": "model",
+                    "model": "block/blue_shingles_offset_down_1"
                 }
             }
         ]

@@ -129,28 +129,28 @@
 		{ "model": "minecraft:block/wooden_shingles_offset_up_4", "y": 180 }
 	],
 	"facing=north,half=lower,hinge=right,open=false,powered=false": [
-		{ "model": "minecraft:block/wooden_shingles_offset_down_1", "y": 270 },
-		{ "model": "minecraft:block/wooden_shingles_offset_down_2", "y": 270 },
-		{ "model": "minecraft:block/wooden_shingles_offset_down_3", "y": 270 },
-		{ "model": "minecraft:block/wooden_shingles_offset_down_4", "y": 270 }
+		{ "model": "minecraft:block/wooden_shingles_offset_down_1", "y": 0 },
+		{ "model": "minecraft:block/wooden_shingles_offset_down_2", "y": 0},
+		{ "model": "minecraft:block/wooden_shingles_offset_down_3", "y": 0 },
+		{ "model": "minecraft:block/wooden_shingles_offset_down_4", "y": 0 }
 	],
     "facing=east,half=lower,hinge=right,open=false,powered=false": [
-		{ "model": "minecraft:block/wooden_shingles_offset_down_1" },
-		{ "model": "minecraft:block/wooden_shingles_offset_down_2" },
-		{ "model": "minecraft:block/wooden_shingles_offset_down_3" },
-		{ "model": "minecraft:block/wooden_shingles_offset_down_4" }
-	],
-    "facing=south,half=lower,hinge=right,open=false,powered=false": [
 		{ "model": "minecraft:block/wooden_shingles_offset_down_1", "y": 90 },
 		{ "model": "minecraft:block/wooden_shingles_offset_down_2", "y": 90 },
 		{ "model": "minecraft:block/wooden_shingles_offset_down_3", "y": 90 },
 		{ "model": "minecraft:block/wooden_shingles_offset_down_4", "y": 90 }
 	],
-    "facing=west,half=lower,hinge=right,open=false,powered=false": [
+    "facing=south,half=lower,hinge=right,open=false,powered=false": [
 		{ "model": "minecraft:block/wooden_shingles_offset_down_1", "y": 180 },
 		{ "model": "minecraft:block/wooden_shingles_offset_down_2", "y": 180 },
 		{ "model": "minecraft:block/wooden_shingles_offset_down_3", "y": 180 },
 		{ "model": "minecraft:block/wooden_shingles_offset_down_4", "y": 180 }
+	],
+    "facing=west,half=lower,hinge=right,open=false,powered=false": [
+		{ "model": "minecraft:block/wooden_shingles_offset_down_1", "y": 270 },
+		{ "model": "minecraft:block/wooden_shingles_offset_down_2", "y": 270 },
+		{ "model": "minecraft:block/wooden_shingles_offset_down_3", "y": 270 },
+		{ "model": "minecraft:block/wooden_shingles_offset_down_4", "y": 270 }
 	],
 	"facing=north,half=lower,hinge=left,open=true,powered=false": [
 		{ "model": "minecraft:block/gray_shingles_offset_up_1", "y": 90 },
@@ -190,7 +190,104 @@
     "facing=west,half=lower,hinge=left,open=false,powered=false": [
 		{ "model": "minecraft:block/gray_shingles_offset_down_1", "y": 270 },
 		{ "model": "minecraft:block/gray_shingles_offset_down_2", "y": 270 },
+		{ "model": "minecraft:block/gray_shingles_offset_down_3", "y": 270 },
 		{ "model": "minecraft:block/gray_shingles_offset_down_3", "y": 270 }
+	],
+	"facing=north,half=lower,hinge=left,open=false,powered=true": [
+		{ "model": "minecraft:block/green_shingles_offset_down_1" },
+		{ "model": "minecraft:block/green_shingles_offset_down_2" },
+		{ "model": "minecraft:block/green_shingles_offset_down_3" },
+		{ "model": "minecraft:block/green_shingles_offset_down_4" }
+	],
+    "facing=east,half=lower,hinge=left,open=false,powered=true": [
+		{ "model": "minecraft:block/green_shingles_offset_down_1", "y": 90 },
+		{ "model": "minecraft:block/green_shingles_offset_down_2", "y": 90 },
+		{ "model": "minecraft:block/green_shingles_offset_down_3", "y": 90 },
+		{ "model": "minecraft:block/green_shingles_offset_down_4", "y": 90 }
+	],
+    "facing=south,half=lower,hinge=left,open=false,powered=true": [
+		{ "model": "minecraft:block/green_shingles_offset_down_1", "y": 180 },
+		{ "model": "minecraft:block/green_shingles_offset_down_2", "y": 180 },
+		{ "model": "minecraft:block/green_shingles_offset_down_3", "y": 180 },
+		{ "model": "minecraft:block/green_shingles_offset_down_4", "y": 180 }
+	],
+    "facing=west,half=lower,hinge=left,open=false,powered=true": [
+		{ "model": "minecraft:block/green_shingles_offset_down_1", "y": 270 },
+		{ "model": "minecraft:block/green_shingles_offset_down_2", "y": 270 },
+		{ "model": "minecraft:block/green_shingles_offset_down_3", "y": 270 },
+		{ "model": "minecraft:block/green_shingles_offset_down_4", "y": 270 }
+	],
+	"facing=north,half=lower,hinge=left,open=true,powered=true": [
+		{ "model": "minecraft:block/green_shingles_offset_up_1", "y": 90 },
+		{ "model": "minecraft:block/green_shingles_offset_up_2", "y": 90 },
+		{ "model": "minecraft:block/green_shingles_offset_up_3", "y": 90 },
+		{ "model": "minecraft:block/green_shingles_offset_up_4", "y": 90 }
+	],
+    "facing=east,half=lower,hinge=left,open=true,powered=true": [
+		{ "model": "minecraft:block/green_shingles_offset_up_1", "y": 180 },
+		{ "model": "minecraft:block/green_shingles_offset_up_2", "y": 180 },
+		{ "model": "minecraft:block/green_shingles_offset_up_3", "y": 180 },
+		{ "model": "minecraft:block/green_shingles_offset_up_4", "y": 180 }
+	],
+    "facing=south,half=lower,hinge=left,open=true,powered=true": [
+		{ "model": "minecraft:block/green_shingles_offset_up_1", "y": 270 },
+		{ "model": "minecraft:block/green_shingles_offset_up_2", "y": 270 },
+		{ "model": "minecraft:block/green_shingles_offset_up_3", "y": 270 },
+		{ "model": "minecraft:block/green_shingles_offset_up_4", "y": 270 }
+	],
+    "facing=west,half=lower,hinge=left,open=true,powered=true": [
+		{ "model": "minecraft:block/green_shingles_offset_up_1" },
+		{ "model": "minecraft:block/green_shingles_offset_up_2" },
+		{ "model": "minecraft:block/green_shingles_offset_up_3" },
+		{ "model": "minecraft:block/green_shingles_offset_up_4" }
+	],
+	"facing=north,half=lower,hinge=right,open=false,powered=true": [
+		{ "model": "minecraft:block/blue_shingles_offset_down_1" },
+		{ "model": "minecraft:block/blue_shingles_offset_down_2" },
+		{ "model": "minecraft:block/blue_shingles_offset_down_3" },
+		{ "model": "minecraft:block/blue_shingles_offset_down_4" }
+	],
+    "facing=east,half=lower,hinge=right,open=false,powered=true": [
+		{ "model": "minecraft:block/blue_shingles_offset_down_1", "y": 90 },
+		{ "model": "minecraft:block/blue_shingles_offset_down_2", "y": 90 },
+		{ "model": "minecraft:block/blue_shingles_offset_down_3", "y": 90 },
+		{ "model": "minecraft:block/blue_shingles_offset_down_4", "y": 90 }
+	],
+    "facing=south,half=lower,hinge=right,open=false,powered=true": [
+		{ "model": "minecraft:block/blue_shingles_offset_down_1", "y": 180 },
+		{ "model": "minecraft:block/blue_shingles_offset_down_2", "y": 180 },
+		{ "model": "minecraft:block/blue_shingles_offset_down_3", "y": 180 },
+		{ "model": "minecraft:block/blue_shingles_offset_down_4", "y": 180 }
+	],
+    "facing=west,half=lower,hinge=right,open=false,powered=true": [
+		{ "model": "minecraft:block/blue_shingles_offset_down_1", "y": 270 },
+		{ "model": "minecraft:block/blue_shingles_offset_down_2", "y": 270 },
+		{ "model": "minecraft:block/blue_shingles_offset_down_3", "y": 270 },
+		{ "model": "minecraft:block/blue_shingles_offset_down_4", "y": 270 }
+	],
+	"facing=north,half=lower,hinge=right,open=true,powered=true": [
+		{ "model": "minecraft:block/blue_shingles_offset_up_1", "y": 270 },
+		{ "model": "minecraft:block/blue_shingles_offset_up_2", "y": 270 },
+		{ "model": "minecraft:block/blue_shingles_offset_up_3", "y": 270 },
+		{ "model": "minecraft:block/blue_shingles_offset_up_4", "y": 270 }
+	],
+    "facing=east,half=lower,hinge=right,open=true,powered=true": [
+		{ "model": "minecraft:block/blue_shingles_offset_up_1" },
+		{ "model": "minecraft:block/blue_shingles_offset_up_2" },
+		{ "model": "minecraft:block/blue_shingles_offset_up_3" },
+		{ "model": "minecraft:block/blue_shingles_offset_up_4" }
+	],
+    "facing=south,half=lower,hinge=right,open=true,powered=true": [
+		{ "model": "minecraft:block/blue_shingles_offset_up_1", "y": 90 },
+		{ "model": "minecraft:block/blue_shingles_offset_up_2", "y": 90 },
+		{ "model": "minecraft:block/blue_shingles_offset_up_3", "y": 90 },
+		{ "model": "minecraft:block/blue_shingles_offset_up_4", "y": 90 }
+	],
+    "facing=west,half=lower,hinge=right,open=true,powered=true": [
+		{ "model": "minecraft:block/blue_shingles_offset_up_1", "y": 180 },
+		{ "model": "minecraft:block/blue_shingles_offset_up_2", "y": 180 },
+		{ "model": "minecraft:block/blue_shingles_offset_up_3", "y": 180 },
+		{ "model": "minecraft:block/blue_shingles_offset_up_4", "y": 180 }
 	]
   }
 }
