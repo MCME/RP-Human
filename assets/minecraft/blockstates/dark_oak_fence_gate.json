@@ -216,10 +216,11 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/dark_oak_fence_gate_powered_closed",
-        "uvlock": true
-      }
+      "apply": [
+		{ "model": "block/vertical_slab_small_sandstone_bricks", "uvlock": true },
+		{ "model": "block/vertical_slab_small_sandstone_bricks_2", "uvlock": true },
+		{ "model": "block/vertical_slab_small_sandstone_bricks_3", "uvlock": true }
+	  ]
     },
     {
       "when": {
@@ -228,11 +229,11 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/dark_oak_fence_gate_powered_closed",
-        "uvlock": true,
-        "y": 90
-      }
+      "apply": [
+		{ "model": "block/vertical_slab_small_sandstone_bricks", "uvlock": true, "y": 90 },
+		{ "model": "block/vertical_slab_small_sandstone_bricks_2", "uvlock": true, "y": 90 },
+		{ "model": "block/vertical_slab_small_sandstone_bricks_3", "uvlock": true, "y": 90 }
+	  ]
     },
     {
       "when": {
@@ -241,11 +242,11 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/dark_oak_fence_gate_powered_closed",
-        "uvlock": true,
-        "y": 180
-      }
+      "apply": [
+		{ "model": "block/vertical_slab_small_sandstone_bricks", "uvlock": true, "y": 180 },
+		{ "model": "block/vertical_slab_small_sandstone_bricks_2", "uvlock": true, "y": 180 },
+		{ "model": "block/vertical_slab_small_sandstone_bricks_3", "uvlock": true, "y": 180 }
+	  ]
     },
     {
       "when": {
@@ -254,11 +255,11 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/dark_oak_fence_gate_powered_closed",
-        "uvlock": true,
-        "y": 270
-      }
+      "apply": [
+		{ "model": "block/vertical_slab_small_sandstone_bricks", "uvlock": true, "y": 270 },
+		{ "model": "block/vertical_slab_small_sandstone_bricks_2", "uvlock": true, "y": 270 },
+		{ "model": "block/vertical_slab_small_sandstone_bricks_3", "uvlock": true, "y": 270 }
+	  ]
     },
     {
       "when": {

@@ -14,6 +14,46 @@
     "east=false,waterlogged=false,south=false,north=false,west=true,up=false,down=false": {
       "model": "block/offset_rope",
       "y": 90
-    }
+    },
+	"up=false,north=true,east=false,south=false,west=true,down=false": [
+	   { "model": "minecraft:block/beam_core_cut_sandstone" },
+	   { "model": "minecraft:block/beam_core_cut_sandstone_2" },
+	   { "model": "minecraft:block/beam_core_cut_sandstone_3" }
+	],
+	"up=false,north=true,east=true,south=false,west=false,down=false": [
+	   { "model": "minecraft:block/beam_core_cut_sandstone", "y": 90 },
+	   { "model": "minecraft:block/beam_core_cut_sandstone_2", "y": 90 },
+	   { "model": "minecraft:block/beam_core_cut_sandstone_3", "y": 90 }
+	],
+	"up=false,north=false,east=true,south=true,west=false,down=false": [
+	   { "model": "minecraft:block/beam_core_cut_sandstone", "y": 180 },
+	   { "model": "minecraft:block/beam_core_cut_sandstone_2", "y": 180 },
+	   { "model": "minecraft:block/beam_core_cut_sandstone_3", "y": 180 }
+	],
+	"up=false,north=false,east=false,south=true,west=true,down=false": [
+	   { "model": "minecraft:block/beam_core_cut_sandstone", "y": 270 },
+	   { "model": "minecraft:block/beam_core_cut_sandstone_2", "y": 270 },
+	   { "model": "minecraft:block/beam_core_cut_sandstone_3", "y": 270 }
+	],
+	"up=false,north=true,east=false,south=false,west=true,down=true": [
+	   { "model": "minecraft:block/beam_core_cut_stone" },
+	   { "model": "minecraft:block/beam_core_cut_stone_2" },
+	   { "model": "minecraft:block/beam_core_cut_stone_3" }
+	],
+	"up=false,north=true,east=true,south=false,west=false,down=true": [
+	   { "model": "minecraft:block/beam_core_cut_stone", "y": 90 },
+	   { "model": "minecraft:block/beam_core_cut_stone_2", "y": 90 },
+	   { "model": "minecraft:block/beam_core_cut_stone_3", "y": 90 }
+	],
+	"up=false,north=false,east=true,south=true,west=false,down=true": [
+	   { "model": "minecraft:block/beam_core_cut_stone", "y": 180 },
+	   { "model": "minecraft:block/beam_core_cut_stone_2", "y": 180 },
+	   { "model": "minecraft:block/beam_core_cut_stone_3", "y": 180 }
+	],
+	"up=false,north=false,east=false,south=true,west=true,down=true": [
+	   { "model": "minecraft:block/beam_core_cut_stone", "y": 270 },
+	   { "model": "minecraft:block/beam_core_cut_stone_2", "y": 270 },
+	   { "model": "minecraft:block/beam_core_cut_stone_3", "y": 270 }
+	]
   }
 }
