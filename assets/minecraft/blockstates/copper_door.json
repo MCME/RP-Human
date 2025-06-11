@@ -1,0 +1,35 @@
+{
+  "variants": {
+    "facing=north,half=upper,hinge=right,open=false,powered=true": { 
+		"model": "minecraft:block/vertical_slab_sandstone_brick_window_bottom" 
+	},
+    "facing=east,half=upper,hinge=right,open=false,powered=true": { 
+		"model": "minecraft:block/vertical_slab_sandstone_brick_window_bottom",
+		"y": 90
+	},
+    "facing=south,half=upper,hinge=right,open=false,powered=true": { 
+		"model": "minecraft:block/vertical_slab_sandstone_brick_window_bottom",
+		"y": 180
+	},
+    "facing=west,half=upper,hinge=right,open=false,powered=true": { 
+		"model": "minecraft:block/vertical_slab_sandstone_brick_window_bottom",
+		"y": 270
+	},
+    "facing=north,half=upper,hinge=right,open=true,powered=true": { 
+		"model": "minecraft:block/vertical_slab_sandstone_brick_window",
+		"y": 270  
+	},
+    "facing=east,half=upper,hinge=right,open=true,powered=true": { 
+		"model": "minecraft:block/vertical_slab_sandstone_brick_window",
+		"y": 0
+	},
+    "facing=south,half=upper,hinge=right,open=true,powered=true": { 
+		"model": "minecraft:block/vertical_slab_sandstone_brick_window",
+		"y": 90 
+	},
+    "facing=west,half=upper,hinge=right,open=true,powered=true": { 
+		"model": "minecraft:block/vertical_slab_sandstone_brick_window",
+		"y": 180
+	}
+  }
+}
