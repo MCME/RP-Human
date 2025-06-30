@@ -41,9 +41,20 @@
         "south": false,
         "west": false
       },
-      "apply": {
-        "model": "block/unused_cross_0"
-      }
+      "apply": [
+        { "model": "mcme:block/mist"  },
+        { "model": "mcme:block/mist", "y": 90  },
+        { "model": "mcme:block/mist", "y": 180  },
+        { "model": "mcme:block/mist", "y": 270  },
+        { "model": "mcme:block/mist_2"  },
+        { "model": "mcme:block/mist_2", "y": 90  },
+        { "model": "mcme:block/mist_2", "y": 180  },
+        { "model": "mcme:block/mist_2", "y": 270  },
+        { "model": "mcme:block/mist_3"  },
+        { "model": "mcme:block/mist_3", "y": 90  },
+        { "model": "mcme:block/mist_3", "y": 180  },
+        { "model": "mcme:block/mist_3", "y": 270  }	
+        ]
     }
   ]
 }
