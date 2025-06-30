@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"layer0": "item/gui/perk_icons/wand"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#layer0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [46, -112, 0],
+			"translation": [1.25, 3.75, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [46, 61, 0],
+			"translation": [1.25, 3.75, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -82, 0],
+			"translation": [4.25, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 79, 0],
+			"translation": [4.25, 0, 0]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 0.5, 0],
+			"scale": [1.07, 1.07, 1.07]
+		},
+		"head": {
+			"scale": [0, 0, 0]
+		}
+	}
+}

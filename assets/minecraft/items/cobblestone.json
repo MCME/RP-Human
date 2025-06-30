@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:block/cobblestone"
+        },
+        "cases": [
+            {
+                "when": "head",
+                "model": {
+                    "type": "model",
+                    "model": "gui/perk_hats/gimli_helmet"
+                }
+            },
+            {
+                "when": "gui",
+                "model": {
+                    "type": "model",
+                    "model": "item/gimli_wearable"
+                }
+            }
+        ]
+    }
+}

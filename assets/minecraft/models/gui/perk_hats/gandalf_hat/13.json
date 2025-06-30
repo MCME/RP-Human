@@ -1,0 +1,80 @@
+{
+	"textures": {
+		"0": "minecraft:item/perk_hats/gandalf_hat"
+	},
+	"elements": [
+		{
+			"from": [6.82733, 6.66781, 5.16892],
+			"to": [9.17268, 9.3322, 10.83109],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [1.375, 7.5, 1.625, 7.875],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [6, 0.5, 6.75, 0.875],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [7.5, 1.5, 7.75, 1.875],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [6, 1, 6.75, 1.375],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [1, 7.125, 0.75, 6.375],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [1.375, 6.375, 1.125, 7.125],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, 0],
+			"translation": [0.03349, -3.50985, 0.98053],
+			"scale": [1, 1, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, 0],
+			"translation": [0.03349, -3.50985, 0.98053],
+			"scale": [1, 1, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, 0],
+			"translation": [0.03349, -3.50985, 0.98053],
+			"scale": [1, 1, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, 0],
+			"translation": [0.03349, -3.50985, 0.98053],
+			"scale": [1, 1, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, 0],
+			"translation": [0.03349, -3.50985, 0.98053],
+			"scale": [1, 1, 1]
+		},
+		"gui": {
+			"rotation": [170.21187, 35.37942, -165.1157],
+			"translation": [0.85596, 4.04454, -3.94745],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"head": {
+			"rotation": [39.68539, -6.59924, -6.80103],
+			"translation": [-0.19407, 10.34207, 2.36787],
+			"scale": [1.67, 1.85, 1.67]
+		},
+		"fixed": {
+			"rotation": [39.68539, -6.59924, -6.80103],
+			"translation": [0.03349, -3.50985, 0.98053],
+			"scale": [1, 1, 1]
+		}
+	}
+}

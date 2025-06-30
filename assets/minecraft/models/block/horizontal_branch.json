@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [48, 48],
+	"textures": {
+		"0": "block/horizontal_branch",
+		"particle": "block/horizontal_branch"
+	},
+	"elements": [
+		{
+			"from": [0, -16, 8],
+			"to": [32, 29, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [0.33333, 5.33333, 15.33333, 16], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0.33333, 5.33333, 15.33333, 16], "rotation": 270, "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"textures": {
+		"0": "minecraft:item/perk_hats/earscaucasian"
+	},
+	"elements": [
+		{
+			"from": [7.5, 7.5, 7.5],
+			"to": [8.5, 8.5, 8.5],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [15, 8, 16, 9],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [11, 15, 12, 16],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [15, 12, 16, 13],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [11, 15, 12, 16],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [16, 12, 15, 11],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [14, 15, 13, 16],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, 0],
+			"translation": [4.4, -5.5, 0.5],
+			"scale": [1, 1, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, 0],
+			"translation": [4.4, -5.5, 0.5],
+			"scale": [1, 1, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, 0],
+			"translation": [4.4, -5.5, 0.5],
+			"scale": [1, 1, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, 0],
+			"translation": [4.4, -5.5, 0.5],
+			"scale": [1, 1, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, 0],
+			"translation": [4.4, -5.5, 0.5],
+			"scale": [1, 1, 1]
+		},
+		"gui": {
+			"rotation": [-162, 39, -180],
+			"translation": [-7.30756, -5.36656, -8.41771],
+			"scale": [1.79, 1.79, 1.79]
+		},
+		"head": {
+			"rotation": [0, 0, 0],
+			"translation": [7.128, -1.16, 0.56],
+			"scale": [1.62, 1.62, 1.62]
+		},
+		"fixed": {
+			"rotation": [0, 0, 0],
+			"translation": [4.4, -5.5, 0.5],
+			"scale": [1, 1, 1]
+		}
+	}
+}

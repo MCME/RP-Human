@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/perk_hats/tharanduil_wearable",
+		"particle": "item/perk_hats/tharanduil_wearable"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 2],
+			"to": [16, 16, 2],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, 180, 0],
+			"scale": [0.92, 0.92, 0.92]
+		}
+	}
+}

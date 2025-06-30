@@ -1,0 +1,1297 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:block/stone"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "gui/perks_ui"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "gui/arrow"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "gui/arrow_flip"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "gui/perk_hats/gimli_helmet"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "gui/arrow_alt"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "gui/arrow_flip_alt"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "gui/arrow_light"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "gui/arrow_light_alt"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "gui/perk_hats/aragorn_hood"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "gui/one_ring"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "gui/horse_perk"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "gui/wand"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "select",
+                    "property":"display_context",
+                    "cases": [
+                        {
+                            "when": "head",
+                            "model": {
+                                "type": "model",
+                                "model": "gui/perk_hats/gimli_helmet"
+                            }
+                        },
+                        {
+                            "when": "gui",
+                            "model": {
+                                "type": "model",
+                                "model": "item/gimli_wearable"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "select",
+                    "property":"display_context",
+                    "cases": [
+                        {
+                            "when": "head",
+                            "model": {
+                                "type": "model",
+                                "model": "gui/perk_hats/aragorn_hood"
+                            }
+                        },
+                        {
+                            "when": "gui",
+                            "model": {
+                                "type": "model",
+                                "model": "item/aragorn_wearable"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "select",
+                    "property":"display_context",
+                    "cases": [
+                        {
+                            "when": "head",
+                            "model": {
+                                "type": "composite",
+                                "models": [
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/0"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/1"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/2"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/3"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/4"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/5"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/6"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/7"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/8"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/9"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/10"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/11"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/12"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/13"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/14"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/15"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/16"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/17"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/18"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/19"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/20"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/21"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/22"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/23"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/24"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/25"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/26"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/27"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/28"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/29"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/30"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/31"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/32"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/33"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/34"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/35"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/36"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/37"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/38"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/39"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/40"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/41"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/tharanduil_crown/42"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "when": "gui",
+                            "model": {
+                                "type": "model",
+                                "model": "item/tharanduil_wearable"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "select",
+                    "property":"display_context",
+                    "cases": [
+                        {
+                            "when": "head",
+                            "model": {
+                                "type": "composite",
+                                "models": [
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/0"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/1"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/2"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/3"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/4"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/5"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/6"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/7"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/8"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/9"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/10"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/11"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/12"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/13"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/14"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/15"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/16"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/17"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/18"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/19"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/gandalf_hat/20"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "when": "gui",
+                            "model": {
+                                "type": "model",
+                                "model": "item/gandalf_wearable"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "select",
+                    "property":"display_context",
+                    "cases": [
+                        {
+                            "when": "head",
+                            "model": {
+                                "type": "composite",
+                                "models": [
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/0"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/1"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/2"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/3"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/4"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/5"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/6"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/7"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/8"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/9"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/10"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/11"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/12"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/13"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/14"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/15"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/16"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/17"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/18"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/19"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/20"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/21"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/22"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/23"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/24"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/25"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/26"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/27"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/28"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/29"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/30"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/31"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/32"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/33"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/34"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/35"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/36"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/37"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/38"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/39"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/40"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/41"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/42"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/43"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/44"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/45"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/46"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/47"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/48"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/49"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/50"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/51"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/52"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/53"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/54"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/55"
+                                    },
+                                    {
+                                        "type": "model",
+                                        "model": "gui/perk_hats/barad_dur/56"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "when": "gui",
+                            "model": {
+                                "type": "model",
+                                "model": "item/the_eye_wearable"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/0"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/1"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/2"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/3"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/4"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/5"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/6"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/7"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/8"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/9"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/10"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/11"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/12"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/13"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/14"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/15"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/16"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/17"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/18"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/19"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/20"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/21"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/22"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/23"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/24"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/25"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/26"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/27"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/28"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/29"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/30"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/31"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/32"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/33"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/34"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/35"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/36"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/37"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/38"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/39"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/40"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/41"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/tharanduil_crown/42"
+                        }
+                    ]
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/0"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/1"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/2"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/3"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/4"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/5"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/6"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/7"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/8"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/9"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/10"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/11"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/12"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/13"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/14"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/15"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/16"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/17"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/18"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/19"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/gandalf_hat/20"
+                        }
+		            ]
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/0"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/1"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/2"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/3"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/4"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/5"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/6"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/7"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/8"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/9"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/10"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/11"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/12"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/13"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/14"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/15"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/16"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/17"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/18"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/19"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/20"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/21"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/22"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/23"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/24"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/25"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/26"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/27"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/28"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/29"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/30"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/31"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/32"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/33"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/34"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/35"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/36"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/37"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/38"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/39"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/40"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/41"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/42"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/43"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/44"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/45"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/46"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/47"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/48"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/49"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/50"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/51"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/52"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/53"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/54"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/55"
+                        },
+                        {
+                            "type": "model",
+                            "model": "gui/perk_hats/barad_dur/56"
+                        }
+                    ]
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "gui/patreon_button"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "gui/support_button"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "gui/all_perks_button"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "gui/boat_perk"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "gui/compass_perk"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "gui/sit_perk"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "gui/fire_perk"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "gui/firework_perk"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "gui/parrot_perk"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "gui/dog_perk"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "gui/cat_perk"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "gui/elytra_perk"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "gui/jump_perk"
+                }
+            }
+        ]
+    }
+}

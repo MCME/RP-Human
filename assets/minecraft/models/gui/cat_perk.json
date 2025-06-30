@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"layer0": "item/gui/perk_icons/cat"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#layer0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 102, 0],
+			"scale": [0.51, 0.51, 0.51]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 102, 0],
+			"scale": [0.51, 0.51, 0.51]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 114, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 114, 0]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 0.25, 0],
+			"scale": [0.94, 0.94, 0.94]
+		},
+		"head": {
+			"scale": [0.02, 0.02, 0.02]
+		}
+	}
+}

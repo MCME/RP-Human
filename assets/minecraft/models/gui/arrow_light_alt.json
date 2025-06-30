@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/gui/arrow_light",
+		"particle": "item/gui/arrow_light"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 2],
+			"to": [16, 16, 2],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 0.5, 0],
+			"scale": [0.92, 0.92, 0.92]
+		}
+	}
+}

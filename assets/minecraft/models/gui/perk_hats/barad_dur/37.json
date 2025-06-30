@@ -1,0 +1,64 @@
+{
+	"textures": {
+		"0": "minecraft:item/perk_hats/barad_dur"
+	},
+	"elements": [
+		{
+			"from": [0.91803, 7.21311, 8],
+			"to": [15.08197, 8.78689, 8],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [14, 15.5, 9.5, 16],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [9.5, 15.5, 14, 16],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [180, 0, -90],
+			"translation": [5.91279, 2.92375, -0.82422],
+			"scale": [2.54167, 2.54167, 2.54167]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [180, 0, -90],
+			"translation": [5.91279, 2.92375, -0.82422],
+			"scale": [2.54167, 2.54167, 2.54167]
+		},
+		"firstperson_righthand": {
+			"rotation": [180, 0, -90],
+			"translation": [5.91279, 2.92375, -0.82422],
+			"scale": [2.54167, 2.54167, 2.54167]
+		},
+		"firstperson_lefthand": {
+			"rotation": [180, 0, -90],
+			"translation": [5.91279, 2.92375, -0.82422],
+			"scale": [2.54167, 2.54167, 2.54167]
+		},
+		"ground": {
+			"rotation": [180, 0, -90],
+			"translation": [5.91279, 2.92375, -0.82422],
+			"scale": [2.54167, 2.54167, 2.54167]
+		},
+		"gui": {
+			"rotation": [26, -30, 90],
+			"translation": [-2.76637, -4.94453, -0.36697],
+			"scale": [1.27083, 1.27083, 1.27083]
+		},
+		"head": {
+			"rotation": [180, 0, -90],
+			"translation": [6.16279, 15.17375, -0.82422],
+			"scale": [2.54167, 2.54167, 2.54167]
+		},
+		"fixed": {
+			"rotation": [180, 0, -90],
+			"translation": [5.91279, 2.92375, -0.82422],
+			"scale": [2.54167, 2.54167, 2.54167]
+		}
+	}
+}
