@@ -1,0 +1,39 @@
+{
+    "variants": {
+        "type=bottom": [
+            {
+                "model": "block/exposed_cut_copper_slab"
+            },
+            {
+                "model": "block/exposed_cut_copper_slab_2"
+            },
+            {
+                "model": "block/exposed_cut_copper_slab_3"
+            },
+            {
+                "model": "block/exposed_cut_copper_slab_4"
+            }
+        ],
+		 "type=double": {
+            "model": "minecraft:block/replace"
+        },
+        "type=top": [
+            {
+                "model": "block/exposed_cut_copper_slab",
+                "x": 180
+            },
+            {
+                "model": "block/exposed_cut_copper_slab_2",
+                "x": 180
+            },
+            {
+                "model": "block/exposed_cut_copper_slab_3",
+                "x": 180
+            },
+            {
+                "model": "block/exposed_cut_copper_slab_4",
+                "x": 180
+            }
+        ]
+    }
+}

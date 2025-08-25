@@ -1,0 +1,39 @@
+{
+    "variants": {
+        "type=bottom": [
+            {
+                "model": "block/dried_kelp_slab"
+            },
+            {
+                "model": "block/dried_kelp_slab_2"
+            },
+            {
+                "model": "block/dried_kelp_slab_3"
+            },
+            {
+                "model": "block/dried_kelp_slab_4"
+            }
+        ],
+		 "type=double": {
+            "model": "minecraft:block/replace"
+        },
+        "type=top": [
+            {
+                "model": "block/dried_kelp_slab",
+                "x": 180
+            },
+            {
+                "model": "block/dried_kelp_slab_2",
+                "x": 180
+            },
+            {
+                "model": "block/dried_kelp_slab_3",
+                "x": 180
+            },
+            {
+                "model": "block/dried_kelp_slab_4",
+                "x": 180
+            }
+        ]
+    }
+}
