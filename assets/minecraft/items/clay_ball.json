@@ -914,7 +914,7 @@
                 "threshold": 131,
                 "model": {
                     "type": "model",
-                    "model": "item/jungle_half_door"
+                    "model": "block/vertical_thin_small_sandstone_bricks_slab"
                 }
             },
             {
@@ -1642,7 +1642,7 @@
                 "threshold": 235,
                 "model": {
                     "type": "model",
-                    "model": "block/dark_oak_fence_gate_closed"
+                    "model": "block/vertical_slab_sandstone_bricks"
                 }
             },
             {
@@ -1656,7 +1656,7 @@
                 "threshold": 237,
                 "model": {
                     "type": "model",
-                    "model": "block/dark_oak_fence_gate_powered_closed"
+                    "model": "block/vertical_slab_small_sandstone_bricks"
                 }
             },
             {
@@ -3875,14 +3875,14 @@
                 "threshold": 554,
                 "model": {
                     "type": "model",
-                    "model": "mcme:block/ash_thin_trunk_vertical"
+                    "model": "item/ash_thin_trunk_vertical_inv"
                 }
             },
             {
                 "threshold": 555,
                 "model": {
                     "type": "model",
-                    "model": "mcme:block/ash_thin_trunk_vertical"
+                    "model": "item/ash_thin_trunk_vertical_inv"
                 }
             },
             {
@@ -3896,35 +3896,35 @@
                 "threshold": 557,
                 "model": {
                     "type": "model",
-                    "model": "mcme:block/birch_thin_trunk_vertical"
+                    "model": "item/birch_thin_trunk_vertical_inv"
                 }
             },
             {
                 "threshold": 558,
                 "model": {
                     "type": "model",
-                    "model": "mcme:block/beech_thin_trunk_vertical"
+                    "model": "item/beech_thin_trunk_vertical_inv"
                 }
             },
             {
                 "threshold": 559,
                 "model": {
                     "type": "model",
-                    "model": "mcme:block/chestnut_thin_trunk_vertical"
+                    "model": "item/chestnut_thin_trunk_vertical_inv"
                 }
             },
             {
                 "threshold": 560,
                 "model": {
                     "type": "model",
-                    "model": "mcme:block/elm_thin_trunk_vertical"
+                    "model": "item/elm_thin_trunk_vertical_inv"
                 }
             },
             {
                 "threshold": 561,
                 "model": {
                     "type": "model",
-                    "model": "mcme:block/larch_thin_trunk_vertical"
+                    "model": "item/larch_thin_trunk_vertical_inv"
                 }
             },
             {
@@ -4001,42 +4001,42 @@
                 "threshold": 572,
                 "model": {
                     "type": "model",
-                    "model": "mcme:block/maple_thin_trunk_vertical"
+                    "model": "item/maple_thin_trunk_vertical_inv"
                 }
             },
             {
                 "threshold": 573,
                 "model": {
                     "type": "model",
-                    "model": "mcme:block/oak_thin_trunk_vertical"
+                    "model": "item/oak_thin_trunk_vertical_inv"
                 }
             },
             {
                 "threshold": 574,
                 "model": {
                     "type": "model",
-                    "model": "mcme:block/pine_thin_trunk_vertical"
+                    "model": "item/pine_thin_trunk_vertical_inv"
                 }
             },
             {
                 "threshold": 575,
                 "model": {
                     "type": "model",
-                    "model": "mcme:block/poplar_thin_trunk_vertical"
+                    "model": "item/poplar_thin_trunk_vertical_inv"
                 }
             },
             {
                 "threshold": 576,
                 "model": {
                     "type": "model",
-                    "model": "mcme:block/spruce_thin_trunk_vertical"
+                    "model": "item/spruce_thin_trunk_vertical_inv"
                 }
             },
             {
                 "threshold": 577,
                 "model": {
                     "type": "model",
-                    "model": "mcme:block/whitebeam_thin_trunk_vertical"
+                    "model": "item/whitebeam_thin_trunk_vertical_inv"
                 }
             },
             {
@@ -4527,13 +4527,6 @@
                 "model": {
                     "type": "model",
                     "model": "block/stone_brick_window_bottom"
-                }
-            },
-            {
-                "threshold": 648,
-                "model": {
-                    "type": "model",
-                    "model": "mcme:block/hangingbush"
                 }
             },
             {
@@ -6854,15 +6847,275 @@
                     "model": "block/trapdoor_grey_shingles_bottom"
                 }
             },	
+            },
 			{
                 "threshold": 980,
                 "model": {
                     "type": "model",
-                    "model": "block/grass_1_inv"
+                    "model": "block/vertical_slab_rough_red_bricks"
                 }
-            },	
+            },
 			{
                 "threshold": 981,
+                "model": {
+                    "type": "model",
+                    "model": "block/thin_rough_red_brick_open"
+                }
+            },
+			{
+                "threshold": 982,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_bricks_1x1arch"
+                }
+            },
+			{
+                "threshold": 983,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_dark_red_bricks"
+                }
+            },
+			{
+                "threshold": 984,
+                "model": {
+                    "type": "model",
+                    "model": "block/thin_dark_red_brick_slab"
+                }
+            },
+			{
+                "threshold": 985,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_brick_1x2arch"
+                }
+            },
+			{
+                "threshold": 986,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_brick_1x3arch_top"
+                }
+            },
+			{
+                "threshold": 987,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_brick_1x3arch"
+                }
+            },
+			{
+                "threshold": 988,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_rough_large_sandstone"
+                }
+            },
+			{
+                "threshold": 989,
+                "model": {
+                    "type": "model",
+                    "model": "block/thin_rough_large_sandstone_bricks_slab"
+                }
+            },
+			{
+                "threshold": 990,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_rough_large_cobblestone"
+                }
+            },
+			{
+                "threshold": 991,
+                "model": {
+                    "type": "model",
+                    "model": "block/thin_rough_large_cobblestone_slab"
+                }
+            },
+			{
+                "threshold": 992,
+                "model": {
+                    "type": "model",
+                    "model": "block/redstone_dust_power9_center"
+                }
+            },
+			{
+                "threshold": 993,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_sandstone_brick_window"
+                }
+            },
+			{
+                "threshold": 994,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_sandstone_brick_window_bottom"
+                }
+            },
+			{
+                "threshold": 995,
+                "model": {
+                    "type": "model",
+                    "model": "block/orange_shingles_offset_up_1"
+                }
+            },
+			{
+                "threshold": 996,
+                "model": {
+                    "type": "model",
+                    "model": "block/orange_shingles_offset_down_1"
+                }
+            },
+			{
+                "threshold": 997,
+                "model": {
+                    "type": "model",
+                    "model": "block/wooden_shingles_offset_up_1"
+                }
+            },
+			{
+                "threshold": 998,
+                "model": {
+                    "type": "model",
+                    "model": "block/wooden_shingles_offset_down_1"
+                }
+            },
+			{
+                "threshold": 999,
+                "model": {
+                    "type": "model",
+                    "model": "block/sandstone_brick_window"
+                }
+            },
+			{
+                "threshold": 1000,
+                "model": {
+                    "type": "model",
+                    "model": "block/sandstone_brick_window_bottom"
+                }
+            },
+			{
+                "threshold": 1001,
+                "model": {
+                    "type": "model",
+                    "model": "block/cut_sandstone_window"
+                }
+            },
+			{
+                "threshold": 1002,
+                "model": {
+                    "type": "model",
+                    "model": "block/gray_shingles_offset_up_1"
+                }
+            },
+			{
+                "threshold": 1003,
+                "model": {
+                    "type": "model",
+                    "model": "block/gray_shingles_offset_down_1"
+                }
+            },
+			{
+                "threshold": 1004,
+                "model": {
+                    "type": "model",
+                    "model": "block/green_shingles_offset_up_1"
+                }
+            },
+			{
+                "threshold": 1005,
+                "model": {
+                    "type": "model",
+                    "model": "block/green_shingles_offset_down_1"
+                }
+            },
+			{
+                "threshold": 1006,
+                "model": {
+                    "type": "model",
+                    "model": "block/blue_shingles_offset_up_1"
+                }
+            },
+			{
+                "threshold": 1007,
+                "model": {
+                    "type": "model",
+                    "model": "block/blue_shingles_offset_down_1"
+                }
+            },
+			{
+                "threshold": 1008,
+                "model": {
+                    "type": "model",
+                    "model": "item/red_bricks_flat_1x1arch"
+                }
+            },
+			{
+                "threshold": 1009,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_core_cut_sandstone"
+                }
+            },
+			{
+                "threshold": 1010,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_core_cut_stone"
+                }
+            },
+			{
+                "threshold": 1011,
+                "model": {
+                    "type": "model",
+                    "model": "item/small_stone_bricks_flat_1x1arch"
+                }
+            },
+			{
+                "threshold": 1012,
+                "model": {
+                    "type": "model",
+                    "model": "item/small_sandstone_bricks_flat_1x1arch"
+                }
+            },
+			{
+                "threshold": 1013,
+                "model": {
+                    "type": "model",
+                    "model": "item/cut_sandstone_window_down"
+                }
+            },
+			{
+                "threshold": 1014,
+                "model": {
+                    "type": "model",
+                    "model": "item/red_bricks_flat_1x3arch"
+                }
+            },
+			{
+                "threshold": 1015,
+                "model": {
+                    "type": "model",
+                    "model": "item/small_sandstone_bricks_flat_1x3arch"
+                }
+            },
+			{
+                "threshold": 1016,
+                "model": {
+                    "type": "model",
+                    "model": "item/small_stone_bricks_flat_1x3arch"
+                }
+            },
+			{
+                "threshold": 1017,
+                "model": {
+                    "type": "model",
+                    "model": "block/grass_1_inv"
+                }
+            },
+			{
+                "threshold": 1018,
                 "model": {
                     "type": "model",
                     "model": "block/biome_bush"

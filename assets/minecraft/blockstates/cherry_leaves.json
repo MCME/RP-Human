@@ -1,0 +1,34 @@
+{
+    "variants": {
+        "distance=1,persistent=false,waterlogged=false": {
+			"model": "block/sandstone_brick_window_bottom"
+		},
+        "distance=2,persistent=false,waterlogged=false": {
+			"model": "block/sandstone_brick_window_bottom",
+			"y": 90
+		},
+        "distance=3,persistent=false,waterlogged=false": {
+			"model": "block/sandstone_brick_window"
+		},
+		"distance=4,persistent=false,waterlogged=false": {
+			"model": "block/sandstone_brick_window",
+			"y": 90
+		},
+		"distance=5,persistent=false,waterlogged=false": {
+			"model": "block/cut_sandstone_window"
+		},
+        "distance=6,persistent=false,waterlogged=false": {
+			"model": "block/cut_sandstone_window",
+			"y": 90
+		},
+        "distance=7,persistent=false,waterlogged=false": {
+			"model": "block/cut_sandstone_window",
+			"x": 180
+		},
+		"distance=1,persistent=true,waterlogged=false": {
+			"model": "block/cut_sandstone_window",
+			"x": 180,
+			"y": 90
+		}
+    }
+}

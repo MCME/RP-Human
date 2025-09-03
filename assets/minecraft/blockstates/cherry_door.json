@@ -34,13 +34,20 @@
       "model": "minecraft:block/cherry_door_top_left_open",
       "y": 90
     },
-    "facing=east,half=upper,hinge=right,open=false,powered=false": {
-      "model": "minecraft:block/cherry_door_top_right"
-    },
-    "facing=east,half=upper,hinge=right,open=true,powered=false": {
-      "model": "minecraft:block/cherry_door_top_right_open",
-      "y": 270
-    },
+    "facing=east,half=upper,hinge=right,open=false,powered=false": [
+		{ "model": "minecraft:block/thatch_offset_down" },
+		{ "model": "minecraft:block/thatch_offset_down_2" },
+		{ "model": "minecraft:block/thatch_offset_down_3" },
+		{ "model": "minecraft:block/thatch_offset_down_4" },
+		{ "model": "minecraft:block/thatch_offset_down_5" }
+    ],
+    "facing=east,half=upper,hinge=right,open=true,powered=false": [
+		{ "model": "minecraft:block/thatch_offset_up", "y": 180 },
+		{ "model": "minecraft:block/thatch_offset_up_2", "y": 180 },
+		{ "model": "minecraft:block/thatch_offset_up_3", "y": 180 },
+		{ "model": "minecraft:block/thatch_offset_up_4", "y": 180 },
+		{ "model": "minecraft:block/thatch_offset_up_5", "y": 180 }
+    ],
     "facing=north,half=lower,hinge=left,open=false,powered=false": {
       "model": "minecraft:block/sign_shield",
       "y": 270
@@ -76,14 +83,20 @@
     "facing=north,half=upper,hinge=left,open=true,powered=false": {
       "model": "minecraft:block/cherry_door_top_left_open"
     },
-    "facing=north,half=upper,hinge=right,open=false,powered=false": {
-      "model": "minecraft:block/cherry_door_top_right",
-      "y": 270
-    },
-    "facing=north,half=upper,hinge=right,open=true,powered=false": {
-      "model": "minecraft:block/cherry_door_top_right_open",
-      "y": 180
-    },
+    "facing=north,half=upper,hinge=right,open=false,powered=false": [
+		{ "model": "minecraft:block/thatch_offset_down", "y": 270 },
+		{ "model": "minecraft:block/thatch_offset_down_2", "y": 270 },
+		{ "model": "minecraft:block/thatch_offset_down_3", "y": 270 },
+		{ "model": "minecraft:block/thatch_offset_down_4", "y": 270 },
+		{ "model": "minecraft:block/thatch_offset_down_5", "y": 270 }
+    ],
+    "facing=north,half=upper,hinge=right,open=true,powered=false": [
+		{ "model": "minecraft:block/thatch_offset_up", "y": 90 },
+		{ "model": "minecraft:block/thatch_offset_up_2", "y": 90 },
+		{ "model": "minecraft:block/thatch_offset_up_3", "y": 90 },
+		{ "model": "minecraft:block/thatch_offset_up_4", "y": 90 },
+		{ "model": "minecraft:block/thatch_offset_up_5", "y": 90 }
+	],
     "facing=south,half=lower,hinge=left,open=false,powered=false": {
       "model": "minecraft:block/sign_shield",
       "y": 90
@@ -122,13 +135,20 @@
       "model": "minecraft:block/cherry_door_top_left_open",
       "y": 180
     },
-    "facing=south,half=upper,hinge=right,open=false,powered=false": {
-      "model": "minecraft:block/cherry_door_top_right",
-      "y": 90
-    },
-    "facing=south,half=upper,hinge=right,open=true,powered=false": {
-      "model": "minecraft:block/cherry_door_top_right_open"
-    },
+    "facing=south,half=upper,hinge=right,open=false,powered=false": [
+		{ "model": "minecraft:block/thatch_offset_down", "y": 90 },
+		{ "model": "minecraft:block/thatch_offset_down_2", "y": 90 },
+		{ "model": "minecraft:block/thatch_offset_down_3", "y": 90 },
+		{ "model": "minecraft:block/thatch_offset_down_4", "y": 90 },
+		{ "model": "minecraft:block/thatch_offset_down_5", "y": 90 }
+    ],
+    "facing=south,half=upper,hinge=right,open=true,powered=false": [
+		{ "model": "minecraft:block/thatch_offset_up", "y": 270 },
+		{ "model": "minecraft:block/thatch_offset_up_2", "y": 270 },
+		{ "model": "minecraft:block/thatch_offset_up_3", "y": 270 },
+		{ "model": "minecraft:block/thatch_offset_up_4", "y": 270 },
+		{ "model": "minecraft:block/thatch_offset_up_5", "y": 270 }
+    ],
     "facing=west,half=lower,hinge=left,open=false,powered=false": {
       "model": "minecraft:block/sign_shield",
       "y": 180
@@ -168,14 +188,20 @@
       "model": "minecraft:block/cherry_door_top_left_open",
       "y": 270
     },
-    "facing=west,half=upper,hinge=right,open=false,powered=false": {
-      "model": "minecraft:block/cherry_door_top_right",
-      "y": 180
-    },
-    "facing=west,half=upper,hinge=right,open=true,powered=false": {
-      "model": "minecraft:block/cherry_door_top_right_open",
-      "y": 90
-    },
+    "facing=west,half=upper,hinge=right,open=false,powered=false": [
+		{ "model": "minecraft:block/thatch_offset_down", "y": 180 },
+		{ "model": "minecraft:block/thatch_offset_down_2", "y": 180 },
+		{ "model": "minecraft:block/thatch_offset_down_3", "y": 180 },
+		{ "model": "minecraft:block/thatch_offset_down_4", "y": 180 },
+		{ "model": "minecraft:block/thatch_offset_down_5", "y": 180 }
+    ],
+    "facing=west,half=upper,hinge=right,open=true,powered=false": [
+		{ "model": "minecraft:block/thatch_offset_up" },
+		{ "model": "minecraft:block/thatch_offset_up_2" },
+		{ "model": "minecraft:block/thatch_offset_up_3" },
+		{ "model": "minecraft:block/thatch_offset_up_4" },
+		{ "model": "minecraft:block/thatch_offset_up_5" }
+    ],
     "facing=east,half=lower,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/waxed_chiseled_copper_offset_down"
     },
@@ -292,63 +318,6 @@
     },
     "facing=west,half=upper,hinge=right,open=true,powered=true": {
       "model": "minecraft:block/packed_mud_offset_up"
-    },
-    "facing=north,half=upper,hinge=right,open=false,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_down", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_down_2", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_down_3", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_down_4", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_down_5", "y": 270 }
-	],
-    "facing=east,half=upper,hinge=right,open=false,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_down" },
-		{ "model": "minecraft:block/thatch_offset_down_2" },
-		{ "model": "minecraft:block/thatch_offset_down_3" },
-		{ "model": "minecraft:block/thatch_offset_down_4" },
-		{ "model": "minecraft:block/thatch_offset_down_5" }
-	],
-    "facing=south,half=upper,hinge=right,open=false,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_down", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_down_2", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_down_3", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_down_4", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_down_5", "y": 90 }
-	],
-    "facing=west,half=upper,hinge=right,open=false,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_down", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_down_2", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_down_3", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_down_4", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_down_5", "y": 180 }
-	],
-    "facing=north,half=upper,hinge=right,open=true,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_up", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_up_2", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_up_3", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_up_4", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_up_5", "y": 90 }
-	],
-    "facing=east,half=upper,hinge=right,open=true,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_up", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_up_2", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_up_3", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_up_4", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_up_5", "y": 180 }
-	],
-    "facing=south,half=upper,hinge=right,open=true,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_up", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_up_2", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_up_3", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_up_4", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_up_5", "y": 270 }
-	],
-    "facing=west,half=upper,hinge=right,open=true,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_up", "y": 0},
-		{ "model": "minecraft:block/thatch_offset_up_2", "y": 0},
-		{ "model": "minecraft:block/thatch_offset_up_3", "y": 0},
-		{ "model": "minecraft:block/thatch_offset_up_4", "y": 0},
-		{ "model": "minecraft:block/thatch_offset_up_5", "y": 0}
-	]
     }
   }
 }

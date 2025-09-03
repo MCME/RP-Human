@@ -8,9 +8,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/acacia_door_bottom"
-      }
+      "apply": [
+		  { "model": "block/vertical_thin_sandstone_bricks_slab" },
+		  { "model": "block/vertical_thin_sandstone_bricks_slab_2" },
+		  { "model": "block/vertical_thin_sandstone_bricks_slab_3" },
+		  { "model": "block/vertical_thin_sandstone_bricks_slab_4" }
+      ]
     },
     {
       "when": {
@@ -20,10 +23,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/acacia_door_bottom",
-        "y": 90
-      }
+      "apply": [
+		  { "model": "block/vertical_thin_sandstone_bricks_slab", "y": 90 },
+		  { "model": "block/vertical_thin_sandstone_bricks_slab_2", "y": 90 },
+		  { "model": "block/vertical_thin_sandstone_bricks_slab_3", "y": 90 },
+		  { "model": "block/vertical_thin_sandstone_bricks_slab_4", "y": 90 }
+      ]
     },
     {
       "when": {
@@ -33,10 +38,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/acacia_door_bottom",
-        "y": 180
-      }
+      "apply": [
+		  { "model": "block/vertical_thin_sandstone_bricks_slab", "y": 180 },
+		  { "model": "block/vertical_thin_sandstone_bricks_slab_2", "y": 180 },
+		  { "model": "block/vertical_thin_sandstone_bricks_slab_3", "y": 180 },
+		  { "model": "block/vertical_thin_sandstone_bricks_slab_4", "y": 180 }
+      ]
     },
     {
       "when": {
@@ -46,10 +53,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/acacia_door_bottom",
-        "y": 270
-      }
+      "apply": [
+		  { "model": "block/vertical_thin_sandstone_bricks_slab", "y": 270 },
+		  { "model": "block/vertical_thin_sandstone_bricks_slab_2", "y": 270 },
+		  { "model": "block/vertical_thin_sandstone_bricks_slab_3", "y": 270 },
+		  { "model": "block/vertical_thin_sandstone_bricks_slab_4", "y": 270 }
+      ]
     },
     {
       "when": {

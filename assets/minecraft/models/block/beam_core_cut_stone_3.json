@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [48, 48],
+	"textures": {
+		"0": "block/large_stone_brick_3",
+		"particle": "block/large_stone_brick_3"
+	},
+	"elements": [
+		{
+			"from": [-2.01, -0.019, -2.01],
+			"to": [1.99, 15.986, 1.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 8, 0]},
+			"faces": {
+				"north": {"uv": [8, 0, 12, 15], "texture": "#0"},
+				"east": {"uv": [4, 0, 8, 15], "texture": "#0"},
+				"south": {"uv": [8, 0, 12, 15], "texture": "#0"},
+				"west": {"uv": [4, 0, 8, 15], "texture": "#0"},
+				"up": {"uv": [8, 8, 12, 12], "texture": "#0"},
+				"down": {"uv": [4, 4, 8, 8], "texture": "#0"}
+			}
+		}
+	]
+}
