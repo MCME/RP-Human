@@ -6846,7 +6846,7 @@
                     "type": "model",
                     "model": "block/trapdoor_grey_shingles_bottom"
                 }
-            },
+            },	
 			{
                 "threshold": 980,
                 "model": {
@@ -7104,6 +7104,20 @@
                 "model": {
                     "type": "model",
                     "model": "item/small_stone_bricks_flat_1x3arch"
+                }
+            },
+			{
+                "threshold": 1017,
+                "model": {
+                    "type": "model",
+                    "model": "block/grass_1_inv"
+                }
+            },
+			{
+                "threshold": 1018,
+                "model": {
+                    "type": "model",
+                    "model": "block/biome_bush"
                 }
             }
         ]

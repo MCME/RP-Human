@@ -83,12 +83,44 @@
             { "model": "block/mid_grass_4", "y": 270 }
 			]
     },
+	{
+      "when": {
+        "age": "5"
+      },
+      "apply":[
+			{ "model": "block/biome_bush"},
+			{ "model": "block/biome_bush", "y": 90 },
+            { "model": "block/biome_bush", "y": 180 },
+            { "model": "block/biome_bush", "y": 270 },
+			{ "model": "block/biome_bush_2" },
+			{ "model": "block/biome_bush_2", "y": 90 },
+            { "model": "block/biome_bush_2", "y": 180 },
+            { "model": "block/biome_bush_2", "y": 270 },
+			{ "model": "block/biome_bush_3" },
+			{ "model": "block/biome_bush_3", "y": 90 },
+            { "model": "block/biome_bush_3", "y": 180 },
+            { "model": "block/biome_bush_3", "y": 270 },
+			{ "model": "block/biome_bush_4" },
+			{ "model": "block/biome_bush_4", "y": 90 },
+            { "model": "block/biome_bush_4", "y": 180 },
+            { "model": "block/biome_bush_4", "y": 270 },
+			{ "model": "block/biome_bush_5" },
+			{ "model": "block/biome_bush_5", "y": 90 },
+            { "model": "block/biome_bush_5", "y": 180 },
+            { "model": "block/biome_bush_5", "y": 270 },
+			{ "model": "block/biome_bush_6" },
+			{ "model": "block/biome_bush_6", "y": 90 },
+            { "model": "block/biome_bush_6", "y": 180 },
+            { "model": "block/biome_bush_6", "y": 270 },
+			{ "model": "block/biome_bush_7" },
+			{ "model": "block/biome_bush_7", "y": 90 },
+            { "model": "block/biome_bush_7", "y": 180 },
+            { "model": "block/biome_bush_7", "y": 270 }
+			]
+    },
     {
       "when": {
         "OR": [
-          {
-            "age": "5"
-          },
           {
             "age": "6"
           },
