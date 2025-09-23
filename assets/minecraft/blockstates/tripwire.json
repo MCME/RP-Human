@@ -1,7 +1,7 @@
 {
   "variants": {
     "powered=false,disarmed=false,attached=false,north=false,east=false,south=false,west=false": {
-	  "model": "block/unused_block_0"
+	  "model": "block/artist_info", "y":180
 	},
     "powered=false,disarmed=false,attached=false,north=false,east=false,south=false,west=true": {
 	  "model": "mcme:block/oak_trunk_horizontal", "y": 270 
@@ -16,7 +16,7 @@
 	  "model": "mcme:block/oak_trunk_horizontal", "y": 90
 	},
     "powered=false,disarmed=false,attached=false,north=false,east=true,south=false,west=true": {
-	  "model": "block/unused_block_0"
+	  "model": "block/mod_info"
 	},
 	"powered=false,disarmed=false,attached=false,north=false,east=true,south=true,west=false": {
 	  "model": "mcme:block/maple_trunk_horizontal", "y":180
@@ -31,7 +31,7 @@
 	  "model": "mcme:block/maple_trunk_horizontal" 
 	},
     "powered=false,disarmed=false,attached=false,north=true,east=false,south=true,west=false": {
-	  "model": "block/unused_block_0"
+	  "model": "block/manager_info", "y":90
 	},
     "powered=false,disarmed=false,attached=false,north=true,east=false,south=true,west=true": {
 	  "model": "mcme:block/beech_trunk_horizontal", "y":270
@@ -46,10 +46,10 @@
 	  "model": "mcme:block/beech_trunk_horizontal", "y":90
 	},
     "powered=false,disarmed=false,attached=false,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
+	  "model": "mcme:block/designer_info"
 	},
     "powered=false,disarmed=false,attached=true,north=false,east=false,south=false,west=false": {
-	  "model": "block/unused_block_0"
+	  "model": "block/ranks_info"
 	},
     "powered=false,disarmed=false,attached=true,north=false,east=false,south=false,west=true": {
 	  "model": "mcme:block/oak_thin_trunk_horizontal", "y": 270 
