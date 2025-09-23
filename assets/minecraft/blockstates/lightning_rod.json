@@ -18,17 +18,15 @@
       "y": 90
     },
     "facing=north,powered=false": {
-      "model": "minecraft:block/lightning_rod",
-      "x": 90
+      "model": "mcme:block/well_base", "y": 90
     },
     "facing=north,powered=true": {
-      "model": "minecraft:block/lightning_rod_on",
-      "x": 90
+      "model": "mcme:block/well_sign",
+      "y": 90
     },
     "facing=south,powered=false": {
-      "model": "minecraft:block/lightning_rod",
-      "x": 90,
-      "y": 180
+      "model": "mcme:block/well_top",
+      "y": 90
     },
     "facing=south,powered=true": {
       "model": "minecraft:block/lightning_rod_on",
