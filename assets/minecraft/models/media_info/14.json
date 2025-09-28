@@ -1,0 +1,25 @@
+{
+	"textures": {
+		"1": "minecraft:block/media_info_cam"
+	},
+	"elements": [
+		{
+			"from": [7.45, 7.45, 8],
+			"to": [8.55, 8.55, 8],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 14, 1, 15],
+					"texture": "#1"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, -4.4, -3.125],
+			"scale": [2.5, 2.5, 2.5]
+		}
+	}
+}
