@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"4": "minecraft:block/banker_yellow"
+	},
+	"elements": [
+		{
+			"from": [6.25, 7.75, 6.25],
+			"to": [9.75, 8.25, 9.75],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 3.5, 0.5],
+					"texture": "#4"
+				},
+				"east": {
+					"uv": [0, 0, 3.5, 0.5],
+					"texture": "#4"
+				},
+				"south": {
+					"uv": [0, 0, 3.5, 0.5],
+					"texture": "#4"
+				},
+				"west": {
+					"uv": [0, 0, 3.5, 0.5],
+					"texture": "#4"
+				},
+				"up": {
+					"uv": [0, 0, 3.5, 3.5],
+					"texture": "#4"
+				},
+				"down": {
+					"uv": [0, 0, 3.5, 3.5],
+					"texture": "#4"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 29.5, 0],
+			"translation": [-9.76121, -8.56287, -2.5],
+			"scale": [2, 2, 2]
+		}
+	}
+}

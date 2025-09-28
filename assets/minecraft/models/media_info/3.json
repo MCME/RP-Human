@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"1": "minecraft:block/media_info_cam"
+	},
+	"elements": [
+		{
+			"from": [6.5, 6.5, 7.5],
+			"to": [9.5, 9.5, 8.5],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [5, 3, 8, 6],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [0, 14, 0.33333, 15],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0, 14, 1, 15],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [0, 14, 0.33333, 15],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [0, 14, 1, 14.33333],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [0, 14, 1, 14.33333],
+					"texture": "#1"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [-10, 0, -13.75],
+			"scale": [2.5, 2.5, 2.5]
+		}
+	}
+}

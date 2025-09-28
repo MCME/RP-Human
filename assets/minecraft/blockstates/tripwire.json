@@ -1,7 +1,7 @@
 {
   "variants": {
     "powered=false,disarmed=false,attached=false,north=false,east=false,south=false,west=false": {
-	  "model": "block/artist_info", "y":180
+	  "model": "block/artist_info"
 	},
     "powered=false,disarmed=false,attached=false,north=false,east=false,south=false,west=true": {
 	  "model": "mcme:block/oak_trunk_horizontal", "y": 270 
@@ -64,7 +64,7 @@
 	  "model": "mcme:block/oak_thin_trunk_horizontal", "y": 90 
 	},
     "powered=false,disarmed=false,attached=true,north=false,east=true,south=false,west=true": {
-	  "model": "block/unused_block_0"
+	  "model": "block/foreman_info"
 	},
 	"powered=false,disarmed=false,attached=true,north=false,east=true,south=true,west=false": {
 	  "model": "mcme:block/maple_thin_trunk_horizontal", "y":180
