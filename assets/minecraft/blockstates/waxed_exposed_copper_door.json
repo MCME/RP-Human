@@ -302,16 +302,19 @@
 		{ "model": "mcme:block/large_sign", "y": 90 }
 	],
 	"facing=north,half=upper,hinge=left,open=true,powered=true": [
-		{ "model": "mcme:block/banner", "y": 270 }
+		{ "model": "block/notice_board", "y": 270}
 	],
     "facing=east,half=upper,hinge=left,open=true,powered=true": [
 		{ "model": "mcme:block/banner" }
 	],
     "facing=south,half=upper,hinge=left,open=true,powered=true": [
-		{ "model": "mcme:block/banner", "y": 90 }
+		{ "model": "block/replace", "y": 90 }
 	],
     "facing=west,half=upper,hinge=left,open=true,powered=true": [
 		{ "model": "block/library_portal_sign", "y": 270 }
+	],
+    "facing=south,half=upper,hinge=right,open=false,powered=true": [
+		{ "model": "block/notice_board" }
 	]
   }
 }

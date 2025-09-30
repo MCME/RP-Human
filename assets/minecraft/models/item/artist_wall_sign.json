@@ -2,8 +2,8 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "#0",
-		"particle": "#0"
+		"0": "item/artist_sign",
+		"particle": "item/artist_sign"
 	},
 	"elements": [
 		{
@@ -49,8 +49,8 @@
 			"scale": [0, 0, 0]
 		},
 		"fixed": {
-			"translation": [7, 0, 28.4],
-			"scale": [0.88, 0.88, 0.88]
+			"translation": [0, 0.5, 28.9],
+			"scale": [1.32, 1.32, 1.32]
 		}
 	}
 }
