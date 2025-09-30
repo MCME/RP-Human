@@ -1,0 +1,47 @@
+{
+	"textures": {
+		"2": "minecraft:block/times_info_pen"
+	},
+	"elements": [
+		{
+			"from": [7.875, 7.975, 7.22],
+			"to": [8.125, 8.025, 8.78],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [2, 0, 2.25, 0.05],
+					"texture": "#2"
+				},
+				"east": {
+					"uv": [2.25, 0, 2.3, 1.56],
+					"rotation": 90,
+					"texture": "#2"
+				},
+				"south": {
+					"uv": [2, 0, 2.25, 0.05],
+					"texture": "#2"
+				},
+				"west": {
+					"uv": [2.25, 0, 2.3, 1.56],
+					"rotation": 90,
+					"texture": "#2"
+				},
+				"up": {
+					"uv": [2.25, 0, 2.5, 1.56],
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [2.25, 0, 2.5, 1.56],
+					"texture": "#2"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -22.5, 0],
+			"translation": [-11.90132, 1.92283, -1.025],
+			"scale": [2, 2, 2]
+		}
+	}
+}

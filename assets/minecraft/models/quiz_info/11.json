@@ -1,0 +1,47 @@
+{
+	"textures": {
+		"1": "minecraft:block/pencil"
+	},
+	"elements": [
+		{
+			"from": [7.775, 7.775, 7.8],
+			"to": [8.225, 8.225, 8.2],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [4.95, 9.95, 10.95, 15.95],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [4.95, 10, 10.95, 16],
+					"rotation": 90,
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [4.95, 9.95, 10.95, 15.95],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [4.95, 10, 10.95, 16],
+					"rotation": 90,
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [4.95, 10, 10.95, 16],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [4.95, 10, 10.95, 16],
+					"texture": "#1"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -47.5, 0],
+			"translation": [10.16988, 0.31192, -0.5],
+			"scale": [2, 2, 2]
+		}
+	}
+}

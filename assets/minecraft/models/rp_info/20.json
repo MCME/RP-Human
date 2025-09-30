@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"10": "minecraft:block/purpur_block"
+	},
+	"elements": [
+		{
+			"from": [7.625, 7.925, 7.875],
+			"to": [8.375, 8.075, 8.125],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 2, 16],
+					"texture": "#10"
+				},
+				"east": {
+					"uv": [0, 0, 2, 16],
+					"texture": "#10"
+				},
+				"south": {
+					"uv": [0, 0, 2, 16],
+					"texture": "#10"
+				},
+				"west": {
+					"uv": [0, 0, 2, 16],
+					"texture": "#10"
+				},
+				"up": {
+					"uv": [0, 0, 2, 16],
+					"texture": "#10"
+				},
+				"down": {
+					"uv": [0, 0, 2, 16],
+					"texture": "#10"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -7.5, 0],
+			"translation": [3.22433, -13.35842, -0.3],
+			"scale": [2, 2, 2]
+		}
+	}
+}
