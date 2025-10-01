@@ -1,0 +1,25 @@
+{
+	"textures": {
+		"0": "minecraft:block/geoguesser_map"
+	},
+	"elements": [
+		{
+			"from": [0.875, 8, 3.5],
+			"to": [15.125, 8, 12.5],
+			"light_emission": 0,
+			"faces": {
+				"up": {
+					"uv": [16, 16, 0, 0],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 12.5, 0],
+			"translation": [0.03949, 1.07781, -0.02],
+			"scale": [2, 2, 2]
+		}
+	}
+}
