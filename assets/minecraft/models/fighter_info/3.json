@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"2": "minecraft:item/golden_sword"
+	},
+	"elements": [
+		{
+			"from": [7.75, 6.25, 7.75],
+			"to": [8.25, 9.75, 8.25],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [14, 0.5, 13.5, 4],
+					"texture": "#2"
+				},
+				"east": {
+					"uv": [13.5, 0.5, 14, 4],
+					"texture": "#2"
+				},
+				"south": {
+					"uv": [13.5, 0.5, 14, 4],
+					"texture": "#2"
+				},
+				"west": {
+					"uv": [13.5, 0.5, 14, 4],
+					"texture": "#2"
+				},
+				"up": {
+					"uv": [13.5, 0.5, 14, 1],
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [13.5, 3.5, 14, 4],
+					"texture": "#2"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-35.70285, 63.80787, 173.58079],
+			"translation": [-12.34947, -4.22284, -4.3485],
+			"scale": [2, 2, 2]
+		}
+	}
+}

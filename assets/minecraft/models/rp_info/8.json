@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"7": "minecraft:block/stucco_white"
+	},
+	"elements": [
+		{
+			"from": [5, 7.875, 4.5],
+			"to": [11, 8.125, 11.5],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 6, 0.25],
+					"texture": "#7"
+				},
+				"east": {
+					"uv": [0, 0, 7, 0.25],
+					"texture": "#7"
+				},
+				"south": {
+					"uv": [0, 0, 6, 0.25],
+					"texture": "#7"
+				},
+				"west": {
+					"uv": [0, 0, 7, 0.25],
+					"texture": "#7"
+				},
+				"up": {
+					"uv": [0, 0, 6, 7],
+					"texture": "#7"
+				},
+				"down": {
+					"uv": [0, 0, 6, 7],
+					"texture": "#7"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -23.5, 0],
+			"translation": [-17.88877, -5.40953, -0.25],
+			"scale": [2, 2, 2]
+		}
+	}
+}
