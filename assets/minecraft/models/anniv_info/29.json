@@ -1,0 +1,29 @@
+{
+	"textures": {
+		"candle": "minecraft:block/anni_candle"
+	},
+	"elements": [
+		{
+			"from": [7.8, 7.8375, 8],
+			"to": [8.2, 8.1625, 8],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 5, 1, 6],
+					"texture": "#candle"
+				},
+				"south": {
+					"uv": [0, 5, 1, 6],
+					"texture": "#candle"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -46.5, 0],
+			"translation": [-3.56411, -1.58638, -13.825],
+			"scale": [2, 2, 2]
+		}
+	}
+}

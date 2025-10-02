@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"0": "minecraft:block/easter_egg"
+	},
+	"elements": [
+		{
+			"from": [7, 7.625, 7],
+			"to": [9, 8.375, 9],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [11, 5, 13, 5.75],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 0, 2, 0.75],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [0, 0, 2, 0.75],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0, 2, 0.75],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0, 0, 2, 2],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 0, 2, 2],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -8, 0],
+			"translation": [8, -5, -8.3],
+			"scale": [2, 2, 2]
+		}
+	}
+}
