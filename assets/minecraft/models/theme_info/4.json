@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"0": "minecraft:block/green_wool"
+	},
+	"elements": [
+		{
+			"from": [1, 7.5, 4],
+			"to": [15, 8.5, 12],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 9, 14, 10],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 9, 8, 10],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [0, 9, 14, 10],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 9, 8, 10],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0, 0, 14, 8],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 0, 14, 8],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 6, -1],
+			"scale": [2, 2, 2]
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"0": "minecraft:block/book_model"
+	},
+	"elements": [
+		{
+			"from": [5.43725, 7.04375, 5.13125],
+			"to": [10.56275, 8.95625, 10.86875],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [8.5, 0, 15.2, 2.5],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [8.5, 0, 16, 2.5],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [8.5, 0, 15.2, 2.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [8.5, 0, 16, 2.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [8.5, 0, 15.2, 7.5],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [8.5, 0, 15.2, 7.5],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 7.5, 0],
+			"translation": [0.27124, 7.05756, -6.5125],
+			"scale": [2, 2, 2]
+		}
+	}
+}
