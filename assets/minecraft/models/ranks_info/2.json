@@ -1,22 +1,16 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "minecraft:block/paper_empty_big"
+		"1": "block/paper_empty_big"
 	},
 	"elements": [
 		{
 			"from": [2, 8, 7.5],
 			"to": [14, 8, 8.5],
-			"light_emission": 0,
 			"faces": {
-				"up": {
-					"uv": [0, 9, 16, 10],
-					"texture": "#1"
-				},
-				"down": {
-					"uv": [0, 0, 16, 1],
-					"rotation": 180,
-					"texture": "#1"
-				}
+				"up": {"uv": [0, 9, 12, 10], "texture": "#1"},
+				"down": {"uv": [0, 0, 12, 1], "rotation": 180, "texture": "#1"}
 			}
 		}
 	],

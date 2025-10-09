@@ -1,17 +1,15 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "minecraft:block/rank_info"
+		"0": "block/rank_info"
 	},
 	"elements": [
 		{
 			"from": [3, 8, -0.5],
 			"to": [13, 8, 16.5],
-			"light_emission": 0,
 			"faces": {
-				"up": {
-					"uv": [0, 0, 16, 16],
-					"texture": "#0"
-				}
+				"up": {"uv": [2.73333, 0, 13.46667, 16], "texture": "#0"}
 			}
 		}
 	],
