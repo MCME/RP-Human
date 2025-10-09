@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"8": "minecraft:block/magenta_wool"
+	},
+	"elements": [
+		{
+			"from": [7.5, 7.95, 7.5],
+			"to": [8.5, 8.05, 8.5],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 1, 0.1],
+					"texture": "#8"
+				},
+				"east": {
+					"uv": [0, 0, 1, 0.1],
+					"texture": "#8"
+				},
+				"south": {
+					"uv": [0, 0, 1, 0.1],
+					"texture": "#8"
+				},
+				"west": {
+					"uv": [0, 0, 1, 0.1],
+					"texture": "#8"
+				},
+				"up": {
+					"uv": [0, 0, 1, 1],
+					"texture": "#8"
+				},
+				"down": {
+					"uv": [0, 0, 1, 1],
+					"texture": "#8"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -23.5, 0],
+			"translation": [-20.63995, -6.60578, -0.6],
+			"scale": [2, 2, 2]
+		}
+	}
+}

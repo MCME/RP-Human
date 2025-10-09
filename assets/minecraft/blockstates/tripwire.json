@@ -12,7 +12,7 @@
     "powered=false,disarmed=false,attached=false,north=false,east=false,south=true,west=true": {
 	  "model": "mcme:block/maple_trunk_horizontal", "y":270
 	},
-    ",powered=false,disarmed=false,attached=false,north=false,east=true,south=false,west=false": {
+    "powered=false,disarmed=false,attached=false,north=false,east=true,south=false,west=false": {
 	  "model": "mcme:block/oak_trunk_horizontal", "y": 90
 	},
     "powered=false,disarmed=false,attached=false,north=false,east=true,south=false,west=true": {
@@ -31,7 +31,7 @@
 	  "model": "mcme:block/maple_trunk_horizontal" 
 	},
     "powered=false,disarmed=false,attached=false,north=true,east=false,south=true,west=false": {
-	  "model": "block/unused_block_0"
+	  "model": "block/unused_block_0", "y":90
 	},
     "powered=false,disarmed=false,attached=false,north=true,east=false,south=true,west=true": {
 	  "model": "mcme:block/beech_trunk_horizontal", "y":270
@@ -46,7 +46,7 @@
 	  "model": "mcme:block/beech_trunk_horizontal", "y":90
 	},
     "powered=false,disarmed=false,attached=false,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
+	  "model": "mcme:block/unused_block_0"
 	},
     "powered=false,disarmed=false,attached=true,north=false,east=false,south=false,west=false": {
 	  "model": "block/unused_block_0"
@@ -93,9 +93,11 @@
     "powered=false,disarmed=false,attached=true,north=true,east=true,south=true,west=false": {
 	  "model": "mcme:block/beech_thin_trunk_horizontal", "y":90
 	},
-    "powered=false,disarmed=false,attached=true,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
-	},
+    "powered=false,disarmed=false,attached=true,north=true,east=true,south=true,west=true": [
+		{ "model": "block/paper_quill", "y": 0 },
+		{ "model": "block/paper_quill_2", "y": 0 },
+		{ "model": "block/paper_quill_3", "y": 0 }
+	],
 	"powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=false": {
 	  "model": "block/unused_block_0"
 	},
@@ -127,7 +129,7 @@
 	  "model": "mcme:block/chestnut_trunk_horizontal" 
 	},
     "powered=true,disarmed=false,attached=false,north=true,east=false,south=true,west=false": {
-	  "model": "block/unused_block_0"
+	  "model": "block/library_portal"
 	},
     "powered=true,disarmed=false,attached=false,north=true,east=false,south=true,west=true": {
 	  "model": "mcme:block/elm_trunk_horizontal", "y":270
@@ -142,10 +144,10 @@
 	  "model": "mcme:block/elm_trunk_horizontal", "y":90
 	},
     "powered=true,disarmed=false,attached=false,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
+	  "model": "block/library_portal_1"
 	},
     "powered=true,disarmed=false,attached=true,north=false,east=false,south=false,west=false": {
-	  "model": "block/unused_block_0"
+	  "model": "block/library_portal_2"
 	},
     "powered=true,disarmed=false,attached=true,north=false,east=false,south=false,west=true": {
 	  "model": "mcme:block/ash_thin_trunk_horizontal", "y":270
@@ -189,9 +191,11 @@
     "powered=true,disarmed=false,attached=true,north=true,east=true,south=true,west=false": {
 	  "model": "mcme:block/elm_thin_trunk_horizontal", "y":90
 	},
-    "powered=true,disarmed=false,attached=true,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
-	},
+    "powered=true,disarmed=false,attached=true,north=true,east=true,south=true,west=true": [
+		{ "model": "block/paper_quill", "y": 90 },
+		{ "model": "block/paper_quill_2", "y": 90 },
+		{ "model": "block/paper_quill_3", "y": 90 }
+	],
 	"powered=false,disarmed=true,attached=false,north=false,east=false,south=false,west=false": [
 	{ "model": "block/bottle" },
 	{ "model": "block/bottle", "y":90 },
@@ -300,9 +304,11 @@
     "powered=false,disarmed=true,attached=true,north=true,east=true,south=true,west=false": {
 	  "model": "mcme:block/larch_thin_trunk_horizontal", "y":90
 	},
-    "powered=false,disarmed=true,attached=true,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
-	},
+    "powered=false,disarmed=true,attached=true,north=true,east=true,south=true,west=true": [
+		{ "model": "block/paper_quill", "y": 180 },
+		{ "model": "block/paper_quill_2", "y": 180 },
+		{ "model": "block/paper_quill_3", "y": 180 }
+	],
 	"powered=true,disarmed=true,attached=false,north=false,east=false,south=false,west=false": {
 	  "model": "block/unused_block_0"
 	},
@@ -396,8 +402,10 @@
     "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=false": {
 	  "model": "mcme:block/spruce_thin_trunk_horizontal", "y": 90
 	},
-    "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=true": {
-	  "model": "block/unused_block_0"
-	}
+    "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=true": [
+		{ "model": "block/paper_quill", "y": 270 },
+		{ "model": "block/paper_quill_2", "y": 270 },
+		{ "model": "block/paper_quill_3", "y": 270 }
+	]
   }
 }

@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"1": "minecraft:block/oak_planks"
+	},
+	"elements": [
+		{
+			"from": [5.375, 7.875, 7.875],
+			"to": [10.625, 8.125, 8.125],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 5.25, 0.25],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [0, 0, 0.25, 0.25],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0, 0, 5.25, 0.25],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [0, 0, 0.25, 0.25],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [0, 0, 5.25, 0.25],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [0, 0, 5.25, 0.25],
+					"texture": "#1"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -7.5, 0],
+			"translation": [-2.72433, -14.14158, -0.3],
+			"scale": [2, 2, 2]
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/discord_banner",
+		"particle": "item/discord_banner"
+	},
+	"elements": [
+		{
+			"from": [-16, -7, 8],
+			"to": [32, 23, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7, 8]},
+			"faces": {
+				"north": {"uv": [0, 1.625, 16, 12.625], "texture": "#0"},
+				"south": {"uv": [0, 1.625, 16, 12.625], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 114, 0],
+			"scale": [0.19, 0.19, 0.19]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 114, 0],
+			"scale": [0.19, 0.19, 0.19]
+		},
+		"firstperson_righthand": {
+			"translation": [2.5, 1.5, 0],
+			"scale": [0.28, 0.28, 0.28]
+		},
+		"firstperson_lefthand": {
+			"translation": [2.5, 1.5, 0],
+			"scale": [0.28, 0.28, 0.28]
+		},
+		"ground": {
+			"translation": [0, 1.75, 0],
+			"scale": [0.35, 0.35, 0.35]
+		},
+		"gui": {
+			"scale": [0.63, 0.63, 0.63]
+		},
+		"head": {
+			"scale": [0, 0, 0]
+		},
+		"fixed": {
+			"translation": [-16, -8.5, 31.65],
+			"scale": [2.08, 2.08, 2.08]
+		}
+	}
+}

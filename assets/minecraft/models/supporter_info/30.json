@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"2": "minecraft:block/yellow_wool"
+	},
+	"elements": [
+		{
+			"from": [6.1375, 7.875, 7.5],
+			"to": [9.8625, 8.125, 8.5],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 3.725, 0.25],
+					"texture": "#2"
+				},
+				"east": {
+					"uv": [0, 0, 1, 0.25],
+					"texture": "#2"
+				},
+				"south": {
+					"uv": [0, 0, 3.725, 0.25],
+					"texture": "#2"
+				},
+				"west": {
+					"uv": [0, 0, 1, 0.25],
+					"texture": "#2"
+				},
+				"up": {
+					"uv": [0, 0, 3.725, 1],
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [0, 0, 3.725, 1],
+					"texture": "#2"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [90.7547, 54.09262, 179.26002],
+			"translation": [-0.11363, -0.43667, -1.07661],
+			"scale": [2.5, 2.5, 2.5]
+		}
+	}
+}

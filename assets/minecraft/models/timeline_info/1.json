@@ -1,0 +1,29 @@
+{
+	"textures": {
+		"1": "minecraft:block/paper_empty_big"
+	},
+	"elements": [
+		{
+			"from": [2, 7.25, 7.985],
+			"to": [14, 8.75, 8.015],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 1.5],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0, 0, 16, 1.5],
+					"texture": "#1"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 82.5, 0],
+			"translation": [-17.50958, -1.88241, -1.62],
+			"scale": [2, 2, 2]
+		}
+	}
+}

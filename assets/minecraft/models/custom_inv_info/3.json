@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"2": "minecraft:block/custom_inv_info1"
+	},
+	"elements": [
+		{
+			"from": [7.4675, 7.725, 3.26],
+			"to": [8.5325, 8.275, 12.74],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [5, 14, 6, 15],
+					"texture": "#2"
+				},
+				"east": {
+					"uv": [0, 0, 9.48, 0.55],
+					"texture": "#2"
+				},
+				"south": {
+					"uv": [5, 3, 6, 4],
+					"texture": "#2"
+				},
+				"west": {
+					"uv": [0, 0, 9.48, 0.55],
+					"texture": "#2"
+				},
+				"up": {
+					"uv": [5, 4, 6, 14],
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [0, 0, 1.065, 9.48],
+					"texture": "#2"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [90, 10, -135],
+			"translation": [-0.98398, -0.18308, -1.35802],
+			"scale": [2, 2, 2]
+		}
+	}
+}

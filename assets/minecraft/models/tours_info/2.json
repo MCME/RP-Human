@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"2": "minecraft:block/lime_wool"
+	},
+	"elements": [
+		{
+			"from": [7.5, 7.5, 7.975],
+			"to": [8.5, 8.5, 8.025],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 11, 9],
+					"texture": "#2"
+				},
+				"east": {
+					"uv": [0, 0, 0.55, 9],
+					"texture": "#2"
+				},
+				"south": {
+					"uv": [0, 0, 11, 9],
+					"texture": "#2"
+				},
+				"west": {
+					"uv": [0, 0, 0.55, 9],
+					"texture": "#2"
+				},
+				"up": {
+					"uv": [0, 0, 11, 0.45],
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [0, 0, 11, 0.45],
+					"texture": "#2"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-86.02972, -0.48709, -6.98312],
+			"translation": [-3.57023, 7.66976, -3.12418],
+			"scale": [2, 2, 2]
+		}
+	}
+}

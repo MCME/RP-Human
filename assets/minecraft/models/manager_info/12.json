@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"1": "minecraft:block/detector_rail"
+	},
+	"elements": [
+		{
+			"from": [7.95, 3.85, 7.95],
+			"to": [8.05, 12.15, 8.05],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [7.75, 0, 7.85, 8.3],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [7.75, 0, 7.85, 8.3],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [7.75, 0, 7.85, 8.3],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [7.75, 0, 7.85, 8.3],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [7.75, 0, 7.85, 0.1],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [7.75, 0, 7.85, 0.1],
+					"texture": "#1"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -37.5, 0],
+			"translation": [-32.58144, 7.58274, -10.3],
+			"scale": [2, 2, 2]
+		}
+	}
+}
