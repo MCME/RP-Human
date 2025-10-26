@@ -1,0 +1,50 @@
+{
+	"textures": {
+		"0": "minecraft:block/cauldron_side"
+	},
+	"elements": [
+		{
+			"from": [7.3175, 7.3175, 2.54],
+			"to": [8.6825, 8.6825, 13.46],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [2, 4, 4, 6],
+					"rotation": 90,
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [13.92, 9, 3, 11.115],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [2, 4, 4, 6],
+					"rotation": 90,
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [12, 3, 14, 12],
+					"rotation": 90,
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [3, 10, 12, 12],
+					"rotation": 90,
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [3, 10, 12, 12],
+					"rotation": 90,
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [90, -12.5, 180],
+			"translation": [15.44162, 4.64378, -1.092],
+			"scale": [2, 2, 2]
+		}
+	}
+}

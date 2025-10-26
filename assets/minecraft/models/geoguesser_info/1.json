@@ -1,0 +1,25 @@
+{
+	"textures": {
+		"4": "minecraft:block/geo_img_1"
+	},
+	"elements": [
+		{
+			"from": [5.35, 8, 6.5],
+			"to": [10.65, 8, 9.5],
+			"light_emission": 0,
+			"faces": {
+				"up": {
+					"uv": [16, 16, 0, 0],
+					"texture": "#4"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -7.5, 0],
+			"translation": [8, 11.75, -0.04],
+			"scale": [2, 2, 2]
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "block/supported_info_paper"
+	},
+	"elements": [
+		{
+			"from": [4.99, 6.5, 4.99],
+			"to": [11.01, 9.5, 11.01],
+			"faces": {
+				"north": {"uv": [0, 0, 12, 6], "texture": "#1"},
+				"east": {"uv": [0, 6.98, 12, 12.98], "texture": "#1"},
+				"south": {"uv": [0, 6.98, 12, 12.98], "texture": "#1"},
+				"west": {"uv": [0, 6.98, 12, 12.98], "texture": "#1"},
+				"up": {"uv": [0, 6.98, 12, 16], "texture": "#1"},
+				"down": {"uv": [0, 6.98, 12, 16], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -9.375],
+			"scale": [2.5, 2.5, 2.5]
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/rank_info"
+	},
+	"elements": [
+		{
+			"from": [3, 8, -0.5],
+			"to": [13, 8, 16.5],
+			"faces": {
+				"up": {"uv": [2.73333, 0, 13.46667, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 3.7, -0.14],
+			"scale": [2, 2, 2]
+		}
+	}
+}

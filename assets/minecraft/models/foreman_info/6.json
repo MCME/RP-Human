@@ -1,0 +1,47 @@
+{
+	"textures": {
+		"0": "minecraft:block/leather"
+	},
+	"elements": [
+		{
+			"from": [7.4, 7.525, 7],
+			"to": [8.6, 8.475, 9],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [7.75, 0, 8.05, 0.6],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [7.75, 0, 8.25, 0.6],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [7.75, 0, 8.05, 0.6],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [7.75, 0, 8.25, 0.6],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [7.75, 0, 8.25, 0.6],
+					"rotation": 270,
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [7.75, 0, 8.25, 0.6],
+					"rotation": 90,
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -22.5, 0],
+			"translation": [-6.32598, -5.18854, -0.9],
+			"scale": [2, 2, 2]
+		}
+	}
+}

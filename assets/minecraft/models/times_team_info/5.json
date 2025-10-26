@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"3": "minecraft:block/white_wool"
+	},
+	"elements": [
+		{
+			"from": [6.65, 6.375, 7.825],
+			"to": [9.35, 9.625, 8.175],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 2.7, 3.25],
+					"texture": "#3"
+				},
+				"east": {
+					"uv": [0, 0, 0.35, 3.25],
+					"texture": "#3"
+				},
+				"south": {
+					"uv": [0, 0, 2.7, 3.25],
+					"texture": "#3"
+				},
+				"west": {
+					"uv": [0, 0, 0.35, 3.25],
+					"texture": "#3"
+				},
+				"up": {
+					"uv": [0, 0, 2.7, 0.35],
+					"texture": "#3"
+				},
+				"down": {
+					"uv": [0, 0, 2.7, 0.35],
+					"texture": "#3"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -22.5, 0],
+			"translation": [-10.17072, 13.33057, -3.25],
+			"scale": [2, 2, 2]
+		}
+	}
+}

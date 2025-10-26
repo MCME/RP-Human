@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"3": "minecraft:block/xylo_notes"
+	},
+	"elements": [
+		{
+			"from": [7.1, 7.875, 4.625],
+			"to": [8.9, 8.125, 11.375],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [4, 4, 5.8, 4.25],
+					"texture": "#3"
+				},
+				"east": {
+					"uv": [4, 4, 10.75, 4.25],
+					"texture": "#3"
+				},
+				"south": {
+					"uv": [4, 4, 5.8, 4.25],
+					"texture": "#3"
+				},
+				"west": {
+					"uv": [4, 4, 10.75, 4.25],
+					"texture": "#3"
+				},
+				"up": {
+					"uv": [4, 4, 5.8, 10.75],
+					"texture": "#3"
+				},
+				"down": {
+					"uv": [4, 4, 5.8, 10.75],
+					"texture": "#3"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 20, 0],
+			"translation": [-5.2599, 9.62951, -11.4],
+			"scale": [2, 2, 2]
+		}
+	}
+}

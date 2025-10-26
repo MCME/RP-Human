@@ -1,0 +1,46 @@
+{
+	"textures": {
+		"3": "minecraft:block/white_wool",
+		"4": "minecraft:block/brown_wool"
+	},
+	"elements": [
+		{
+			"from": [7, 6.725, 7],
+			"to": [9, 9.275, 9],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 2, 2.55],
+					"texture": "#3"
+				},
+				"east": {
+					"uv": [0, 0, 2, 2.55],
+					"texture": "#3"
+				},
+				"south": {
+					"uv": [0, 0, 2, 2.55],
+					"texture": "#3"
+				},
+				"west": {
+					"uv": [0, 0, 2, 2.55],
+					"texture": "#3"
+				},
+				"up": {
+					"uv": [0, 0, 2, 2],
+					"texture": "#4"
+				},
+				"down": {
+					"uv": [0, 0, 2, 2],
+					"texture": "#3"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -22.5, 0],
+			"translation": [-9.27142, 11.15945, -2.55],
+			"scale": [2, 2, 2]
+		}
+	}
+}
