@@ -39,9 +39,14 @@
     "facing\u003dsouth,mode\u003dsubtract,powered\u003dtrue": {
       "model": "block/comparator_powered_subtract_s"
     },
-    "facing\u003dwest,mode\u003dsubtract,powered\u003dtrue": {
-      "model": "block/comparator_powered_subtract_w"
-    },
+    "facing\u003dwest,mode\u003dsubtract,powered\u003dtrue": [
+    { "model": "block/comparator_powered_subtract_w"},
+    { "model": "block/comparator_powered_subtract_w_2"},
+    { "model": "block/comparator_powered_subtract_w_3"},
+    { "model": "block/comparator_powered_subtract_w_4"},
+    { "model": "block/comparator_powered_subtract_w_5"},
+    { "model": "block/comparator_powered_subtract_w_6"}
+    ],
     "facing\u003dnorth,mode\u003dsubtract,powered\u003dtrue": {
       "model": "block/comparator_powered_subtract_n"
     },
