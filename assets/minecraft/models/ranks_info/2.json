@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "block/paper_empty_big"
+	},
+	"elements": [
+		{
+			"from": [2, 8, 7.5],
+			"to": [14, 8, 8.5],
+			"faces": {
+				"up": {"uv": [0, 9, 12, 10], "texture": "#1"},
+				"down": {"uv": [0, 0, 12, 1], "rotation": 180, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-67.5, 0, 0],
+			"translation": [0, 21.18388, 0.26268],
+			"scale": [2, 2, 2]
+		}
+	}
+}

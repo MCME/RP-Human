@@ -1,0 +1,51 @@
+{
+	"textures": {
+		"2": "minecraft:block/blueprint"
+	},
+	"elements": [
+		{
+			"from": [8, 7.75, 1.125],
+			"to": [8, 8.25, 14.875],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 0.5, 0],
+					"rotation": 90,
+					"texture": "#2"
+				},
+				"east": {
+					"uv": [16, 16, 15.75, 15.75],
+					"rotation": 90,
+					"texture": "#2"
+				},
+				"south": {
+					"uv": [0, 0, 0.5, 0],
+					"rotation": 270,
+					"texture": "#2"
+				},
+				"west": {
+					"uv": [15.5, 0, 16, 13.75],
+					"rotation": 270,
+					"texture": "#2"
+				},
+				"up": {
+					"uv": [0, 0, 14, 0],
+					"rotation": 270,
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [0, 0, 14, 0],
+					"rotation": 270,
+					"texture": "#2"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -5, 22.5],
+			"translation": [17.75451, 1.80333, -3.52761],
+			"scale": [2, 2, 2]
+		}
+	}
+}

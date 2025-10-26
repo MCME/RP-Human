@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"0": "minecraft:block/mud_grass_block_top_designer_info"
+	},
+	"elements": [
+		{
+			"from": [1.5, 7.75, 1.5],
+			"to": [14.5, 8.25, 14.5],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 13, 0.5],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 0, 13, 0.5],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [0, 0, 13, 0.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0, 13, 0.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0, 1, 13, 14],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 0, 13, 13],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -7.5, 0],
+			"translation": [0.00856, -0.13053, -1.5],
+			"scale": [2, 2, 2]
+		}
+	}
+}
