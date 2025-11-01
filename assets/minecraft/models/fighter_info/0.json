@@ -1,37 +1,20 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "minecraft:entity/equipment/humanoid/iron"
+		"0": "entity/equipment/humanoid/iron"
 	},
 	"elements": [
 		{
 			"from": [3.25, 3.25, 3.25],
 			"to": [12.75, 12.75, 12.75],
-			"light_emission": 0,
 			"faces": {
-				"north": {
-					"uv": [2, 4, 4, 8],
-					"texture": "#0"
-				},
-				"east": {
-					"uv": [0, 4, 2, 8],
-					"texture": "#0"
-				},
-				"south": {
-					"uv": [6, 4, 8, 8],
-					"texture": "#0"
-				},
-				"west": {
-					"uv": [4, 4, 6, 8],
-					"texture": "#0"
-				},
-				"up": {
-					"uv": [4, 4, 2, 0],
-					"texture": "#0"
-				},
-				"down": {
-					"uv": [6, 0, 4, 4],
-					"texture": "#0"
-				}
+				"north": {"uv": [2.032, 4.032, 3.968, 7.968], "texture": "#0"},
+				"east": {"uv": [0.032, 4.032, 1.968, 7.968], "texture": "#0"},
+				"south": {"uv": [6.032, 4.032, 7.968, 7.968], "texture": "#0"},
+				"west": {"uv": [4.032, 4.032, 5.968, 7.968], "texture": "#0"},
+				"up": {"uv": [3.968, 3.968, 2.032, 0.032], "texture": "#0"},
+				"down": {"uv": [5.968, 0.032, 4.032, 3.968], "texture": "#0"}
 			}
 		}
 	],

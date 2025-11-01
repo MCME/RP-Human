@@ -1,37 +1,20 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "minecraft:block/file_cabinet"
+		"0": "block/file_cabinet"
 	},
 	"elements": [
 		{
 			"from": [1, 4.5, 4],
 			"to": [15, 11.5, 12],
-			"light_emission": 0,
 			"faces": {
-				"north": {
-					"uv": [0, 9, 14, 16],
-					"texture": "#0"
-				},
-				"east": {
-					"uv": [0, 9, 8, 16],
-					"texture": "#0"
-				},
-				"south": {
-					"uv": [0, 9, 14, 16],
-					"texture": "#0"
-				},
-				"west": {
-					"uv": [0, 9, 8, 16],
-					"texture": "#0"
-				},
-				"up": {
-					"uv": [0, 0, 14, 8],
-					"texture": "#0"
-				},
-				"down": {
-					"uv": [0, 0, 14, 8],
-					"texture": "#0"
-				}
+				"north": {"uv": [0.032, 9.032, 13.968, 15.968], "texture": "#0"},
+				"east": {"uv": [0.032, 9.032, 7.968, 15.968], "texture": "#0"},
+				"south": {"uv": [0.032, 9.032, 13.968, 15.968], "texture": "#0"},
+				"west": {"uv": [0.032, 9.032, 7.968, 15.968], "texture": "#0"},
+				"up": {"uv": [0.032, 0.032, 13.968, 7.968], "texture": "#0"},
+				"down": {"uv": [0.032, 0.032, 13.968, 7.968], "texture": "#0"}
 			}
 		}
 	],

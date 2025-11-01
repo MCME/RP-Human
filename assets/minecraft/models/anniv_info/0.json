@@ -1,37 +1,20 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "minecraft:item/gold_ingot"
+		"2": "block/gold_ingot"
 	},
 	"elements": [
 		{
 			"from": [6.75, 6.5, 7.5],
 			"to": [9.25, 9.5, 8.5],
-			"light_emission": 0,
 			"faces": {
-				"north": {
-					"uv": [15, 0, 12.5, 3],
-					"texture": "#2"
-				},
-				"east": {
-					"uv": [14.5, 0, 15, 3],
-					"texture": "#2"
-				},
-				"south": {
-					"uv": [12.5, 0, 15, 3],
-					"texture": "#2"
-				},
-				"west": {
-					"uv": [12.5, 0, 13, 3],
-					"texture": "#2"
-				},
-				"up": {
-					"uv": [12.5, 0, 15, 0.5],
-					"texture": "#2"
-				},
-				"down": {
-					"uv": [12.5, 2.5, 15, 3],
-					"texture": "#2"
-				}
+				"north": {"uv": [14.968, 0.032, 12.5, 2.968], "texture": "#2"},
+				"east": {"uv": [14.5, 0.032, 14.968, 2.968], "texture": "#2"},
+				"south": {"uv": [12.5, 0.032, 14.968, 2.968], "texture": "#2"},
+				"west": {"uv": [12.5, 0.032, 12.968, 2.968], "texture": "#2"},
+				"up": {"uv": [12.5, 0.032, 14.968, 0.5], "texture": "#2"},
+				"down": {"uv": [12.5, 2.5, 14.968, 2.968], "texture": "#2"}
 			}
 		}
 	],

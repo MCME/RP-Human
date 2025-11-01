@@ -1,37 +1,20 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"4": "minecraft:block/banker_yellow"
+		"4": "block/banker_yellow"
 	},
 	"elements": [
 		{
 			"from": [6, 7.5, 6],
 			"to": [10, 8.5, 10],
-			"light_emission": 0,
 			"faces": {
-				"north": {
-					"uv": [0, 0, 4, 1],
-					"texture": "#4"
-				},
-				"east": {
-					"uv": [0, 0, 4, 1],
-					"texture": "#4"
-				},
-				"south": {
-					"uv": [0, 0, 4, 1],
-					"texture": "#4"
-				},
-				"west": {
-					"uv": [0, 0, 4, 1],
-					"texture": "#4"
-				},
-				"up": {
-					"uv": [0, 0, 4, 4],
-					"texture": "#4"
-				},
-				"down": {
-					"uv": [0, 0, 4, 4],
-					"texture": "#4"
-				}
+				"north": {"uv": [0.032, 0.032, 3.968, 0.968], "texture": "#4"},
+				"east": {"uv": [0.032, 0.032, 3.968, 0.968], "texture": "#4"},
+				"south": {"uv": [0.032, 0.032, 3.968, 0.968], "texture": "#4"},
+				"west": {"uv": [0.032, 0.032, 3.968, 0.968], "texture": "#4"},
+				"up": {"uv": [0.032, 0.032, 3.968, 3.968], "texture": "#4"},
+				"down": {"uv": [0.032, 0.032, 3.968, 3.968], "texture": "#4"}
 			}
 		}
 	],

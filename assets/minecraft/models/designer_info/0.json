@@ -1,37 +1,20 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"3": "minecraft:block/cobblestone"
+		"3": "block/cobblestone"
 	},
 	"elements": [
 		{
 			"from": [1, 7.75, 1],
 			"to": [15, 8.25, 15],
-			"light_emission": 0,
 			"faces": {
-				"north": {
-					"uv": [0, 0, 14, 0.5],
-					"texture": "#3"
-				},
-				"east": {
-					"uv": [0, 0, 14, 0.5],
-					"texture": "#3"
-				},
-				"south": {
-					"uv": [0, 0, 14, 0.5],
-					"texture": "#3"
-				},
-				"west": {
-					"uv": [0, 0, 14, 0.5],
-					"texture": "#3"
-				},
-				"up": {
-					"uv": [0, 0, 14, 14],
-					"texture": "#3"
-				},
-				"down": {
-					"uv": [0, 0, 14, 14],
-					"texture": "#3"
-				}
+				"north": {"uv": [0.032, 0.032, 13.968, 0.5], "texture": "#3"},
+				"east": {"uv": [0.032, 0.032, 13.968, 0.5], "texture": "#3"},
+				"south": {"uv": [0.032, 0.032, 13.968, 0.5], "texture": "#3"},
+				"west": {"uv": [0.032, 0.032, 13.968, 0.5], "texture": "#3"},
+				"up": {"uv": [0.032, 0.032, 13.968, 13.968], "texture": "#3"},
+				"down": {"uv": [0.032, 0.032, 13.968, 13.968], "texture": "#3"}
 			}
 		}
 	],

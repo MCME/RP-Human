@@ -1,37 +1,20 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "minecraft:block/leather"
+		"1": "block/leather"
 	},
 	"elements": [
 		{
 			"from": [7, 7.375, 1],
 			"to": [9, 8.625, 15],
-			"light_emission": 0,
 			"faces": {
-				"north": {
-					"uv": [0, 0, 0.5, 0.625],
-					"texture": "#1"
-				},
-				"east": {
-					"uv": [0, 0, 4, 0.625],
-					"texture": "#1"
-				},
-				"south": {
-					"uv": [0, 0, 0.5, 0.625],
-					"texture": "#1"
-				},
-				"west": {
-					"uv": [0, 0, 4, 0.625],
-					"texture": "#1"
-				},
-				"up": {
-					"uv": [0, 0, 0.5, 8],
-					"texture": "#1"
-				},
-				"down": {
-					"uv": [0, 0, 0.5, 8],
-					"texture": "#1"
-				}
+				"north": {"uv": [0.032, 0.032, 0.5, 0.625], "texture": "#1"},
+				"east": {"uv": [0.032, 0.032, 3.968, 0.625], "texture": "#1"},
+				"south": {"uv": [0.032, 0.032, 0.5, 0.625], "texture": "#1"},
+				"west": {"uv": [0.032, 0.032, 3.968, 0.625], "texture": "#1"},
+				"up": {"uv": [0.032, 0.032, 0.5, 7.968], "texture": "#1"},
+				"down": {"uv": [0.032, 0.032, 0.5, 7.968], "texture": "#1"}
 			}
 		}
 	],

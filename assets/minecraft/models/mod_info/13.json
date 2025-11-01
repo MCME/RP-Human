@@ -1,37 +1,20 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"5": "minecraft:block/banker_green"
+		"5": "block/banker_green"
 	},
 	"elements": [
 		{
 			"from": [4, 7.75, 6.75],
 			"to": [12, 8.25, 9.25],
-			"light_emission": 0,
 			"faces": {
-				"north": {
-					"uv": [0, 0, 8, 0.5],
-					"texture": "#5"
-				},
-				"east": {
-					"uv": [0, 0, 2.5, 0.5],
-					"texture": "#5"
-				},
-				"south": {
-					"uv": [0, 0, 8, 0.5],
-					"texture": "#5"
-				},
-				"west": {
-					"uv": [0, 0, 2.5, 0.5],
-					"texture": "#5"
-				},
-				"up": {
-					"uv": [0, 0, 8, 2.5],
-					"texture": "#5"
-				},
-				"down": {
-					"uv": [0, 0, 8, 2.5],
-					"texture": "#5"
-				}
+				"north": {"uv": [0.032, 0.032, 7.968, 0.5], "texture": "#5"},
+				"east": {"uv": [0.032, 0.032, 2.5, 0.5], "texture": "#5"},
+				"south": {"uv": [0.032, 0.032, 7.968, 0.5], "texture": "#5"},
+				"west": {"uv": [0.032, 0.032, 2.5, 0.5], "texture": "#5"},
+				"up": {"uv": [0.032, 0.032, 7.968, 2.5], "texture": "#5"},
+				"down": {"uv": [0.032, 0.032, 7.968, 2.5], "texture": "#5"}
 			}
 		}
 	],
