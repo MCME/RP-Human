@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"0": "minecraft:block/presant2"
+	},
+	"elements": [
+		{
+			"from": [4, 4, 4],
+			"to": [12, 12, 12],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -19, 0],
+			"translation": [-5.59515, -5.40317, -8],
+			"scale": [2, 2, 2]
+		}
+	}
+}

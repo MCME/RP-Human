@@ -1,0 +1,50 @@
+{
+	"textures": {
+		"spyglass": "minecraft:block/spyglass_model"
+	},
+	"elements": [
+		{
+			"from": [6.9, 6.9, 5.4],
+			"to": [9.1, 9.1, 10.6],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 13, 2, 15],
+					"rotation": 180,
+					"texture": "#spyglass"
+				},
+				"east": {
+					"uv": [0, 7, 2, 12],
+					"rotation": 270,
+					"texture": "#spyglass"
+				},
+				"south": {
+					"uv": [0, 5, 2, 7],
+					"texture": "#spyglass"
+				},
+				"west": {
+					"uv": [0, 7, 2, 12],
+					"rotation": 90,
+					"texture": "#spyglass"
+				},
+				"up": {
+					"uv": [0, 7, 2, 12],
+					"rotation": 180,
+					"texture": "#spyglass"
+				},
+				"down": {
+					"uv": [0, 7, 2, 12],
+					"texture": "#spyglass"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-89, 0, 0],
+			"translation": [0, -4.49939, -2.57025],
+			"scale": [2, 2, 2]
+		}
+	},
+	"gui_light": "front"
+}

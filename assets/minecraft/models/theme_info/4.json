@@ -1,0 +1,28 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/file_cabinet"
+	},
+	"elements": [
+		{
+			"from": [1, 7.5, 4],
+			"to": [15, 8.5, 12],
+			"faces": {
+				"north": {"uv": [0.032, 9.032, 13.968, 9.968], "texture": "#0"},
+				"east": {"uv": [0.032, 9.032, 7.968, 9.968], "texture": "#0"},
+				"south": {"uv": [0.032, 9.032, 13.968, 9.968], "texture": "#0"},
+				"west": {"uv": [0.032, 9.032, 7.968, 9.968], "texture": "#0"},
+				"up": {"uv": [0.032, 0.032, 13.968, 7.968], "texture": "#0"},
+				"down": {"uv": [0.032, 0.032, 13.968, 7.968], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 6, -1],
+			"scale": [2, 2, 2]
+		}
+	}
+}

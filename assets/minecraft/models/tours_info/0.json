@@ -1,0 +1,29 @@
+{
+	"textures": {
+		"0": "minecraft:block/tour_info"
+	},
+	"elements": [
+		{
+			"from": [1, 7.975, 1],
+			"to": [15, 8.025, 15],
+			"light_emission": 0,
+			"faces": {
+				"up": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [1.625, 13.3125, 3.6875, 8.875],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [90, -6.5, -180],
+			"translation": [0, 0, -0.05],
+			"scale": [2, 2, 2]
+		}
+	}
+}

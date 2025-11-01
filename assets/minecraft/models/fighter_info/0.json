@@ -1,0 +1,28 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "entity/equipment/humanoid/iron"
+	},
+	"elements": [
+		{
+			"from": [3.25, 3.25, 3.25],
+			"to": [12.75, 12.75, 12.75],
+			"faces": {
+				"north": {"uv": [2.032, 4.032, 3.968, 7.968], "texture": "#0"},
+				"east": {"uv": [0.032, 4.032, 1.968, 7.968], "texture": "#0"},
+				"south": {"uv": [6.032, 4.032, 7.968, 7.968], "texture": "#0"},
+				"west": {"uv": [4.032, 4.032, 5.968, 7.968], "texture": "#0"},
+				"up": {"uv": [3.968, 3.968, 2.032, 0.032], "texture": "#0"},
+				"down": {"uv": [5.968, 0.032, 4.032, 3.968], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 25, 0],
+			"translation": [6, 2, -10],
+			"scale": [2, 2, 2]
+		}
+	}
+}

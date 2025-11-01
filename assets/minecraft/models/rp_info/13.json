@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"0": "minecraft:block/red_wool"
+	},
+	"elements": [
+		{
+			"from": [7.5, 7.95, 7.5],
+			"to": [8.5, 8.05, 8.5],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 1, 0.1],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 0, 1, 0.1],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [0, 0, 1, 0.1],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0, 1, 0.1],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0, 0, 1, 1],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 0, 1, 1],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -23.5, 0],
+			"translation": [-15.13759, -4.21329, -0.6],
+			"scale": [2, 2, 2]
+		}
+	}
+}

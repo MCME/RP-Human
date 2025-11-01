@@ -1,0 +1,29 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/times_info",
+		"1": "block/paper_empty_big"
+	},
+	"elements": [
+		{
+			"from": [3.5, 7.925, 2],
+			"to": [12.5, 8.075, 14],
+			"faces": {
+				"north": {"uv": [0.06, 0.06, 11.875, 1.825], "texture": "#1"},
+				"east": {"uv": [0.06, 0.06, 11.875, 1.65], "texture": "#1"},
+				"south": {"uv": [0.06, 0.06, 11.875, 1.825], "texture": "#1"},
+				"west": {"uv": [0.06, 0.06, 11.875, 1.65], "texture": "#1"},
+				"up": {"uv": [11.125, 15.94, 0.06, 0.06], "texture": "#0"},
+				"down": {"uv": [0.06, 0.06, 7.125, 13.5], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 20, 0],
+			"translation": [5.4926, -1.56276, -0.2],
+			"scale": [2, 2, 2]
+		}
+	}
+}

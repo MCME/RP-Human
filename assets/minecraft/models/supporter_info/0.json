@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"0": "minecraft:block/glass_light_blue_wood"
+	},
+	"elements": [
+		{
+			"from": [5, 7.875, 5],
+			"to": [11, 8.125, 11],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [1, 1, 7, 1.25],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [1, 1, 7, 1.25],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [1, 1, 7, 1.25],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [1, 1, 7, 1.25],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [1, 1, 7, 7],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [1, 1, 7, 7],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -0.3125],
+			"scale": [2.5, 2.5, 2.5]
+		}
+	}
+}

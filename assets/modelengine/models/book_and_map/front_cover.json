@@ -1,0 +1,27 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "modelengine:entity/red_book",
+		"particle": "modelengine:entity/red_book"
+	},
+	"elements": [
+		{
+			"from": [-1.95703, 7.98438, 1.13672],
+			"to": [8.04688, 8.75, 15.15234],
+			"faces": {
+				"north": {"uv": [7.5, 0, 10.00098, 0.19141], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [0, 3.5, 3.50391, 3.69141], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [7.75, 0, 10.25098, 0.19141], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 6.74844, 3.50391, 6.93985], "texture": "#1", "tintindex": 0},
+				"up": {"uv": [2.50098, 6.95215, 0, 3.5], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [4.99805, 0, 2.49707, 3.50391], "texture": "#1", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [-150, -45, -180]
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"2": "minecraft:block/stripped_oak_log"
+	},
+	"elements": [
+		{
+			"from": [7.4, 7.775, 4.3375],
+			"to": [8.6, 8.225, 11.6625],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 1.2, 0.45],
+					"texture": "#2"
+				},
+				"east": {
+					"uv": [0, 0, 7.325, 0.45],
+					"texture": "#2"
+				},
+				"south": {
+					"uv": [0, 0, 1.2, 0.45],
+					"texture": "#2"
+				},
+				"west": {
+					"uv": [0, 0, 7.325, 0.45],
+					"texture": "#2"
+				},
+				"up": {
+					"uv": [0, 0, 1.2, 7.325],
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [0, 0, 1.2, 7.325],
+					"texture": "#2"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 20, 0],
+			"translation": [13.66951, 1.38151, -9.3],
+			"scale": [2, 2, 2]
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"candle": "block/anni_candle"
+	},
+	"elements": [
+		{
+			"from": [7.75, 6.625, 7.75],
+			"to": [8.25, 9.375, 8.25],
+			"faces": {
+				"north": {"uv": [0.032, 8.032, 1.968, 13.968], "texture": "#candle"},
+				"east": {"uv": [0.032, 8.032, 1.968, 13.968], "texture": "#candle"},
+				"south": {"uv": [0.032, 8.032, 1.968, 13.968], "texture": "#candle"},
+				"west": {"uv": [0.032, 8.032, 1.968, 13.968], "texture": "#candle"},
+				"up": {"uv": [0.032, 6.032, 1.968, 7.968], "texture": "#candle"},
+				"down": {"uv": [0.032, 14.032, 1.968, 15.968], "texture": "#candle"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, -1.5, 0],
+			"translation": [-3.56411, -1.58638, -10.75],
+			"scale": [2, 2, 2]
+		}
+	}
+}

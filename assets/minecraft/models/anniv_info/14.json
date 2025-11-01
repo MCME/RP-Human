@@ -1,0 +1,45 @@
+{
+	"textures": {
+		"2": "minecraft:block/gold_ingot"
+	},
+	"elements": [
+		{
+			"from": [7.5, 7.75, 7.5],
+			"to": [8.5, 8.25, 8.5],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [5, 9, 4, 9.5],
+					"texture": "#2"
+				},
+				"east": {
+					"uv": [4.5, 9, 5, 9.5],
+					"texture": "#2"
+				},
+				"south": {
+					"uv": [4, 9, 5, 9.5],
+					"texture": "#2"
+				},
+				"west": {
+					"uv": [4, 9, 4.5, 9.5],
+					"texture": "#2"
+				},
+				"up": {
+					"uv": [4, 9, 5, 9.5],
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [4, 9, 5, 9.5],
+					"texture": "#2"
+				}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 22.5, 0],
+			"translation": [-1.44133, 10.30862, -13.5],
+			"scale": [2, 2, 2]
+		}
+	}
+}
