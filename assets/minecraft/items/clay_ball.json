@@ -7310,6 +7310,62 @@
                     "type": "model",
                     "model": "item/roadmap_sign"
                 }
+            },
+			{
+                "threshold": 1045,
+                "model": {
+                    "type": "model",
+                    "model": "block/log_palisade"
+                }
+            },
+			{
+                "threshold": 1046,
+                "model": {
+                    "type": "model",
+                    "model": "block/log_palisade_top"
+                }
+            },
+			{
+                "threshold": 1047,
+                "model": {
+                    "type": "model",
+                    "model": "block/plank_gate"
+                }
+            },
+			{
+                "threshold": 1048,
+                "model": {
+                    "type": "model",
+                    "model": "block/plank_gate_top"
+                }
+            },
+			{
+                "threshold": 1049,
+                "model": {
+                    "type": "model",
+                    "model": "block/iron_gate_hinge"
+                }
+            },
+			{
+                "threshold": 1050,
+                "model": {
+                    "type": "model",
+                    "model": "block/iron_gate_hinge_left"
+                }
+            },
+			{
+                "threshold": 1051,
+                "model": {
+                    "type": "model",
+                    "model": "block/iron_gate_hinge_open"
+                }
+            },
+			{
+                "threshold": 1052,
+                "model": {
+                    "type": "model",
+                    "model": "block/iron_gate_hinge_left_open"
+                }
             }
         ]
     }
