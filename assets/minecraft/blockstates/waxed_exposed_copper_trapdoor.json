@@ -71,6 +71,13 @@
 	"facing=west,half=top,open=true,powered=true,waterlogged=false": [
 		{ "model": "block/iron_gate_hinge_left", "y": 90 },
 		{ "model": "block/iron_gate_hinge_left_2", "y": 90 }
-	]
+	],
+	
+	
+	"facing=north,half=top,open=false,powered=false,waterlogged=false": { "model": "minecraft:block/cobblestone_quarter_block", "x": 180 },
+	"facing=east,half=top,open=false,powered=false,waterlogged=false": { "model": "minecraft:block/cobblestone_quarter_block", "y": 90, "x": 180 },
+	"facing=south,half=top,open=false,powered=false,waterlogged=false": { "model": "minecraft:block/cobblestone_quarter_block", "y": 180, "x": 180 },
+	"facing=west,half=top,open=false,powered=false,waterlogged=false": { "model": "minecraft:block/cobblestone_quarter_block", "y": 270, "x": 180 }
+	
   }
 }

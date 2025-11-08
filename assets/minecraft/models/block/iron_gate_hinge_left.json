@@ -4,7 +4,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "block/rough_iron"
+		"1": "block/rough_iron",
+		"particle": "block/rough_iron"
 	},
 	"elements": [
 		{
@@ -105,8 +106,8 @@
 			"scale": [0.25, 0.25, 0.25]
 		},
 		"gui": {
-			"rotation": [30, -135, 0],
-			"translation": [1, 1.75, 0],
+			"rotation": [30, 45, 0],
+			"translation": [-1, -0.25, 0],
 			"scale": [0.625, 0.625, 0.625]
 		},
 		"fixed": {
