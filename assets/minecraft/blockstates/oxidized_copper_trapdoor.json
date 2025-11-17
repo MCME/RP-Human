@@ -1,0 +1,143 @@
+{
+  "variants": {
+	"facing\u003dnorth,half\u003dtop,open\u003dtrue,powered=true": [
+	  {"model": "block/xmas/xmas_bow", "y":180}
+	],
+    "facing\u003dsouth,half\u003dtop,open\u003dtrue,powered=true": [
+	  {"model": "block/xmas/xmas_bow"}
+	],
+    "facing\u003deast,half\u003dtop,open\u003dtrue,powered=true": [
+	  {"model": "block/xmas/xmas_bow", "y":270}
+	],
+    "facing\u003dwest,half\u003dtop,open\u003dtrue,powered=true": [
+	  {"model": "block/xmas/xmas_bow", "y":90}
+	],
+	
+	"facing\u003dwest,half\u003dbottom,open\u003dfalse,powered=true": [
+	  {"model": "block/xmas/xmas_candycane_cross_ground", "y":90},
+	  {"model": "block/xmas/xmas_candycane_cross_ground", "y":270},
+	  {"model": "block/xmas/xmas_candycane_cross_ground", "y":180},
+	  {"model": "block/xmas/xmas_candycane_cross_ground"}
+	],
+	
+	"facing\u003dnorth,half\u003dbottom,open\u003dtrue,powered=true": [
+	  {"model": "block/xmas/xmas_wreath", "y":270}
+	],
+    "facing\u003dsouth,half\u003dbottom,open\u003dtrue,powered=true": [
+	  {"model": "block/xmas/xmas_wreath", "y":90}
+	],
+    "facing\u003deast,half\u003dbottom,open\u003dtrue,powered=true": [
+	  {"model": "block/xmas/xmas_wreath"}
+	],
+    "facing\u003dwest,half\u003dbottom,open\u003dtrue,powered=true": [
+	  {"model": "block/xmas/xmas_wreath", "y":180}
+	],
+	"facing\u003dwest,half\u003dtop,open\u003dtrue,powered=false": [
+	  {"model": "block/xmas/xmas_candycane_cross", "y":90}
+	],
+	"facing\u003dsouth,half\u003dtop,open\u003dtrue,powered=false": [
+	  {"model": "block/xmas/xmas_candycane_cross"}
+	],
+	"facing\u003deast,half\u003dtop,open\u003dtrue,powered=false": [
+	  {"model": "block/xmas/xmas_candycane_cross", "y":270}
+	],
+	"facing\u003dnorth,half\u003dtop,open\u003dtrue,powered=false": [
+	  {"model": "block/xmas/xmas_candycane_cross", "y":180}
+	],
+	"facing\u003deast,half\u003dbottom,open\u003dtrue,powered=false": [
+	  {"model": "block/xmas/xmas_sock_w", "y":270},
+	  {"model": "block/xmas/xmas_sock_j", "y":270},
+	  {"model": "block/xmas/xmas_sock_d", "y":270},
+	  {"model": "block/xmas/xmas_sock_m", "y":270},
+	  {"model": "block/xmas/xmas_sock_b", "y":270},
+	  {"model": "block/xmas/xmas_sock_a", "y":270},
+	  {"model": "block/xmas/xmas_sock_dl", "y":270},
+	  {"model": "block/xmas/xmas_sock_l", "y":270},
+	  {"model": "block/xmas/xmas_sock_r", "y":270},
+	  {"model": "block/xmas/xmas_sock_ay", "y":270},
+	  {"model": "block/xmas/xmas_sock_f", "y":270},
+	  {"model": "block/xmas/xmas_sock_e", "y":270},
+	  {"model": "block/xmas/xmas_sock_q", "y":270},
+	  {"model": "block/xmas/xmas_sock_c", "y":270},
+	  {"model": "block/xmas/xmas_sock_cr", "y":270},
+	  {"model": "block/xmas/xmas_sock_g", "y":270},
+	  {"model": "block/xmas/xmas_sock_t", "y":270},
+	  {"model": "block/xmas/xmas_sock_d3", "y":270},
+	  {"model": "block/xmas/xmas_sock_dr", "y":270},
+	  {"model": "block/xmas/xmas_sock_e1", "y":270},
+	  {"model": "block/xmas/xmas_sock_fig", "y":270},
+	  {"model": "block/xmas/xmas_sock_rw", "y":270}
+	],
+	"facing\u003dnorth,half\u003dbottom,open\u003dtrue,powered=false": [
+	  {"model": "block/xmas/xmas_sock_w", "y":180},
+	  {"model": "block/xmas/xmas_sock_j", "y":180},
+	  {"model": "block/xmas/xmas_sock_d", "y":180},
+	  {"model": "block/xmas/xmas_sock_m", "y":180},
+	  {"model": "block/xmas/xmas_sock_b", "y":180},
+	  {"model": "block/xmas/xmas_sock_a", "y":180},
+	  {"model": "block/xmas/xmas_sock_dl", "y":180},
+	  {"model": "block/xmas/xmas_sock_l", "y":180},
+	  {"model": "block/xmas/xmas_sock_r", "y":180},
+	  {"model": "block/xmas/xmas_sock_ay", "y":180},
+	  {"model": "block/xmas/xmas_sock_f", "y":180},
+	  {"model": "block/xmas/xmas_sock_e", "y":180},
+	  {"model": "block/xmas/xmas_sock_q", "y":180},
+	  {"model": "block/xmas/xmas_sock_c", "y":180},
+	  {"model": "block/xmas/xmas_sock_cr", "y":180},
+	  {"model": "block/xmas/xmas_sock_g", "y":180},
+	  {"model": "block/xmas/xmas_sock_t", "y":180},
+	  {"model": "block/xmas/xmas_sock_d3", "y":180},
+	  {"model": "block/xmas/xmas_sock_dr", "y":180},
+	  {"model": "block/xmas/xmas_sock_e1", "y":180},
+	  {"model": "block/xmas/xmas_sock_fig", "y":180},
+	  {"model": "block/xmas/xmas_sock_rw", "y":180}
+	],
+	"facing\u003dwest,half\u003dbottom,open\u003dtrue,powered=false": [
+	  {"model": "block/xmas/xmas_sock_w", "y":90},
+	  {"model": "block/xmas/xmas_sock_j", "y":90},
+	  {"model": "block/xmas/xmas_sock_d", "y":90},
+	  {"model": "block/xmas/xmas_sock_m", "y":90},
+	  {"model": "block/xmas/xmas_sock_b", "y":90},
+	  {"model": "block/xmas/xmas_sock_a", "y":90},
+	  {"model": "block/xmas/xmas_sock_dl", "y":90},
+	  {"model": "block/xmas/xmas_sock_l", "y":90},
+	  {"model": "block/xmas/xmas_sock_r", "y":90},
+	  {"model": "block/xmas/xmas_sock_ay", "y":90},
+	  {"model": "block/xmas/xmas_sock_f", "y":90},
+	  {"model": "block/xmas/xmas_sock_e", "y":90},
+	  {"model": "block/xmas/xmas_sock_q", "y":90},
+	  {"model": "block/xmas/xmas_sock_c", "y":90},
+	  {"model": "block/xmas/xmas_sock_cr", "y":90},
+	  {"model": "block/xmas/xmas_sock_g", "y":90},
+	  {"model": "block/xmas/xmas_sock_t", "y":90},
+	  {"model": "block/xmas/xmas_sock_d3", "y":90},
+	  {"model": "block/xmas/xmas_sock_dr", "y":90},
+	  {"model": "block/xmas/xmas_sock_e1", "y":90},
+	  {"model": "block/xmas/xmas_sock_fig", "y":90},
+	  {"model": "block/xmas/xmas_sock_rw", "y":90}
+	],
+	"facing\u003dsouth,half\u003dbottom,open\u003dtrue,powered=false": [
+	  {"model": "block/xmas/xmas_sock_w", "y":0},
+	  {"model": "block/xmas/xmas_sock_j", "y":0},
+	  {"model": "block/xmas/xmas_sock_d", "y":0},
+	  {"model": "block/xmas/xmas_sock_m", "y":0},
+	  {"model": "block/xmas/xmas_sock_b", "y":0},
+	  {"model": "block/xmas/xmas_sock_a", "y":0},
+	  {"model": "block/xmas/xmas_sock_dl", "y":0},
+	  {"model": "block/xmas/xmas_sock_l", "y":0},
+	  {"model": "block/xmas/xmas_sock_r", "y":0},
+	  {"model": "block/xmas/xmas_sock_f", "y":0},
+	  {"model": "block/xmas/xmas_sock_e", "y":0},
+	  {"model": "block/xmas/xmas_sock_q", "y":0},
+	  {"model": "block/xmas/xmas_sock_c", "y":0},
+	  {"model": "block/xmas/xmas_sock_cr", "y":0},
+	  {"model": "block/xmas/xmas_sock_g", "y":0},
+	  {"model": "block/xmas/xmas_sock_t", "y":0},
+	  {"model": "block/xmas/xmas_sock_d3", "y":0},
+	  {"model": "block/xmas/xmas_sock_dr", "y":0},
+	  {"model": "block/xmas/xmas_sock_e1", "y":0},
+	  {"model": "block/xmas/xmas_sock_fig", "y":0},
+	  {"model": "block/xmas/xmas_sock_rw", "y":0}
+	]
+	}
+}

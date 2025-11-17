@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/xmas/xmas_bow",
+		"particle": "block/xmas/xmas_bow"
+	},
+	"elements": [
+		{
+			"from": [-1, -2, 0.5],
+			"to": [18, 16, 0.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 0, 0.5]},
+			"faces": {
+				"north": {"uv": [3, 1.5, 12.5, 10.5], "texture": "#0"},
+				"east": {"uv": [3, 1.5, 3, 10.5], "texture": "#0"},
+				"south": {"uv": [3, 1.5, 12.5, 10.5], "texture": "#0"},
+				"west": {"uv": [3, 1.5, 3, 10.5], "texture": "#0"},
+				"up": {"uv": [3, 1.5, 12.5, 1.5], "texture": "#0"},
+				"down": {"uv": [3, 1.5, 12.5, 1.5], "texture": "#0"}
+			}
+		}
+	]
+}
