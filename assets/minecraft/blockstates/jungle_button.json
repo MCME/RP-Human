@@ -38,10 +38,20 @@
       "y": 90,
       "x": 180
     },
-    "face=floor,facing=east,powered=false": {
-      "model": "minecraft:block/jungle_button",
-      "y": 90
-    },
+    "face=floor,facing=east,powered=false": [
+	{ "model": "minecraft:block/tree_stump_rings" },
+	{ "model": "minecraft:block/tree_stump_rings",  "y": 90 },
+	{ "model": "minecraft:block/tree_stump_rings",  "y": 180 },
+	{ "model": "minecraft:block/tree_stump_rings",  "y": 270 },
+	{ "model": "minecraft:block/tree_stump_rings_2" },
+	{ "model": "minecraft:block/tree_stump_rings_2",  "y": 90 },
+	{ "model": "minecraft:block/tree_stump_rings_2",  "y": 180 },
+	{ "model": "minecraft:block/tree_stump_rings_2",  "y": 270 },
+	{ "model": "minecraft:block/tree_stump_rings_3" },
+	{ "model": "minecraft:block/tree_stump_rings_3",  "y": 90 },
+	{ "model": "minecraft:block/tree_stump_rings_3",  "y": 180 },
+	{ "model": "minecraft:block/tree_stump_rings_3",  "y": 270 }
+	],
     "face=floor,facing=east,powered=true": {
       "model": "minecraft:block/jungle_button_pressed",
       "y": 90
