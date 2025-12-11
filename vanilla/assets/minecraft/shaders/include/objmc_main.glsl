@@ -3,7 +3,6 @@
 
 isCustom = 0;
 transition = 0;
-texCoord2 = texCoord;
 int corner = gl_VertexID % 4;
 ivec2 atlasSize = textureSize(Sampler0, 0);
 vec2 onepixel = 1./atlasSize;
@@ -13,7 +12,7 @@ float scale = 1;
 vec3 rotation = vec3(0);
 int headerheight = 0;
 bool compression = false;
-ivec4 t[14];
+ivec4 t[8];
 //read uv offset
 t[0] = ivec4(texelFetch(Sampler0, uv, 0) * 255);
 ivec2 uvoffset = ivec2(t[0].r*256 + t[0].g, t[0].b*256 + t[0].a);
@@ -21,13 +20,27 @@ ivec2 uvoffset = ivec2(t[0].r*256 + t[0].g, t[0].b*256 + t[0].a);
 ivec2 topleft = uv - uvoffset;
 //if topleft marker is correct
 ivec4 marker = ivec4(texelFetch(Sampler0, topleft, 0)*255);
-if (marker == ivec4(12,34,56,78) || marker == ivec4(12,34,56,79)) {
+if (marker == ivec4(12,34,56,78)) {
     compression = marker.a == 79;
     isCustom = 1;
     // header
     //| 2^32   | 2^16x2   | 2^32      | 2^24 + 2^8   | 2^24    + \1 2^1  + 2^2   + 2^2 \2| 2^16x2       | 2^1     + 2^2       + 2^3      \1 2^9        \16|
     //| marker | tex size | nvertices | nobjs, ntexs | duration, autoplay, easing, interp| data heights | noshadow, autorotate, visibility, colorbehavior |
-    for (int i = 1; i < 14; i++) {
+
+    // header
+    //| 2^32   | 2^16x2   | 2^32      | 2^32 | 2^32 | 2^16 + 2^16     | 2^12         + 2^2     + 2^2   + 2^2       + 2^1     + 2^3    \10 |
+    //| marker | tex size | nvertices | npos | nuvs | nobjs, duration | colorbehavior, autoplay, easing, autorotate, noshadow, visibility |
+
+    //colorbehavior
+    // 0: nothing
+    // 1, 2, 3: rotation xyz
+    // 7: scale
+    // 8: time
+    // 9: texture variant
+    // 10: hue/tint
+    // 11: armor model
+
+    for (int i = 1; i < 8; i++) {
         t[i] = getmeta(topleft, i);
     }
     //1: texsize
@@ -55,23 +68,13 @@ if (marker == ivec4(12,34,56,78) || marker == ivec4(12,34,56,79)) {
     int tcolor = 0;
 
 #ifdef BLOCK
-	    // Floor positions to snap them back to 0,0,0 within the block
-    Pos = floor(Position) + vec3(0.5,0.0,0.5) + ModelOffset;
-
-    customMipFade = t[8].r < 1.0 ? 1.0 : 0.0 + t[8].r / 255.0 * 4.0;
-    baseBrightness = t[9].r < 1.0 ? 1.0 : 0.0 + t[9].r / 255.0 * 2.0;
-    aoIntensity = t[10].r < 1.0 ? 1.0 : 0.0 + t[10].r / 255.0 * 2.0;
-    customModelNormalShading = t[11].r < 1.0 ? 1.0 : 0.0 + t[11].r / 255.0 * 6.0;
-    underShadowStrength = t[12].r < 1.0 ? 1.0 : 0.0 + t[12].r / 255.0 * 3.0;
-    distanceDensity = t[13].r < 1.0 ? 1.0 : 0.0 + t[13].r / 255.0 * 3.0;
-
     if (!visibility.x) { //world
         Pos = vec3(0); posoffset = vec3(0);
     } else {
 #endif
 #ifdef ENTITY
     isGUI = int(isgui(ProjMat));
-    isHand = int(ishand(FogStart, ProjMat));
+    isHand = int(ishand(ProjMat));
     if (((isGUI + isHand == 0) && visibility.x) || (bool(isHand) && visibility.y) || (bool(isGUI) && visibility.z)) {
         //colorbehavior
         overlayColor = vec4(1);
@@ -82,7 +85,6 @@ if (marker == ivec4(12,34,56,78) || marker == ivec4(12,34,56,79)) {
         } else {
             //bits from colorbehavior
             vec3 accuracy = vec3(255./256.);
-            vec3 accuracy2 = vec3(255./256.);
             vec2 tscale = vec2(0, 255./256.);
             vec2 thue = vec2(0, 255./256.);
             switch ((colorbehavior>>6)&7) { //first 3 bits, r
@@ -175,33 +177,17 @@ if (marker == ivec4(12,34,56,78) || marker == ivec4(12,34,56,79)) {
         }
         transition = 0;
         texCoord = getuv(topleft, size.x, height+vph, index.y);
-        texCoord2 = texCoord;
-        if (ntextures > 1) {
-            frame = int(time * ntextures / duration) % ntextures;
-            texCoord.y += frame;
-            switch (easing.y) { //interpolation
-                case 1:
-                    transition = fract(time * ntextures / duration);
-                    texCoord2.y += (frame + 1) % ntextures;
-                    break;
-            }
-        }
 //custom entity rotation
 #ifdef ENTITY
-        //posoffset += vec3(0.5,0.5,0.5);
         posoffset *= scale;
-        posoffset *= 0.5;
         if (isGUI == 1) {
-            //posoffset *= 16.0;
-            //posoffset.zx *= -1;
-            //posoffset = rotate(rotation + vec3(0,1,0)) * posoffset;
-            posoffset *= 20;
-            posoffset.z *= -1;
-            posoffset = rotate(rotation + vec3(0,0,0)) * posoffset;
+            posoffset *= 24;
+            posoffset.y += 4;
+            posoffset.zy *= -1;
+            posoffset = rotate(rotation + vec3(0,1,0)) * posoffset;
         }
         if (isHand == 1) {
             posoffset.zx *= -1;
-            //posoffset *= 0.5;
             posoffset = (vec4(posoffset,0) * ModelViewMat).xyz;
         }
         if (isHand + isGUI == 0) {
@@ -224,9 +210,6 @@ if (marker == ivec4(12,34,56,78) || marker == ivec4(12,34,56,79)) {
     //final pos and uv
     Pos += posoffset;
     texCoord = (vec2(topleft.x,topleft.y+headerheight) + texCoord*size)/atlasSize
-                //make sure that faces with same uv beginning/ending renders
-                + vec2(onepixel.x*0.0001*corner,onepixel.y*0.0001*((corner+1)%4));
-    texCoord2 = (vec2(topleft.x,topleft.y+headerheight) + texCoord2*size)/atlasSize
                 //make sure that faces with same uv beginning/ending renders
                 + vec2(onepixel.x*0.0001*corner,onepixel.y*0.0001*((corner+1)%4));
 }

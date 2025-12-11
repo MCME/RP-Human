@@ -1,8 +1,9 @@
 {
-    "parent": "block/inner_stairs",
-    "textures": {
-        "bottom": "block/mossy_stone_bricks",
-        "top": "block/brown_mushroom_block_ne_1",
-        "side": "block/mossy_stone_brick_slab_double_3"
-    }
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "block/mossy_stone_bricks",
+    "top": "block/brown_mushroom_block_ne_1",
+    "side": "block/mossy_stone_brick_slab_double_3",
+    "particle": "block/mossy_stone_bricks"
+  }
 }

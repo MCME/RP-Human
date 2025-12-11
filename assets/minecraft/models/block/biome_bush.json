@@ -1,18 +1,23 @@
 {
-	"parent": "block/3x3x3vegetation_full_tint_1",
-	"textures": {
-		"1": "block/biome_bush",
-		"2": "block/biome_bush_2",
-		"3": "block/biome_bush_2",
-		"4": "block/biome_bush_3",
-		"5": "block/invisible",
-		"6": "block/invisible",
-		"7": "block/invisible",
-		"8": "block/invisible"
+  "parent": "block/3x3x3vegetation_full_tint_1",
+  "textures": {
+    "1": "block/biome_bush",
+    "2": "block/biome_bush_2",
+    "3": "block/biome_bush_2",
+    "4": "block/biome_bush_3",
+    "5": "block/invisible",
+    "6": "block/invisible",
+    "7": "block/invisible",
+    "8": "block/invisible",
+    "particle": "block/biome_bush"
   },
-	"display": {
-		"gui": {
-			"scale": [0.55, 0.55, 0.55]
-		}
-	}
+  "display": {
+    "gui": {
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    }
+  }
 }

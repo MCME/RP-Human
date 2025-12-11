@@ -1,7 +1,8 @@
 {
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "block/cut_elm_log",
-        "side": "block/jungle_wood"
-    }
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "block/cut_elm_log",
+    "side": "block/jungle_wood",
+    "particle": "block/cut_elm_log"
+  }
 }

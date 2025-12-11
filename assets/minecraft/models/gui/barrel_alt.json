@@ -1,11 +1,16 @@
 {
-    "parent": "item/generated",
-	"display": {
-		"gui": {
-			"scale": [1.25, 1.25, 1.25]
-		}
-	},
-    "textures": {
-        "layer0": "item/gui/inventory_icons/barrel_alt"
+  "parent": "item/generated",
+  "display": {
+    "gui": {
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ]
     }
+  },
+  "textures": {
+    "layer0": "item/gui/inventory_icons/barrel_alt",
+    "particle": "item/gui/inventory_icons/barrel_alt"
+  }
 }

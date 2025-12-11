@@ -3,16 +3,36 @@
   "particle": "mcme:block/poplar_log_composite",
   "flip_v": true,
   "model": "mcme:models/block/poplar_twig_branch.obj",
-	"gui_light": "front",
-	"display": {
-		"firstperson_righthand": {
-			"translation": [3.5, 0, 0],
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"gui": {
-			"rotation": [7, 140, 0],
-			"translation": [0, -5, 0],
-			"scale": [0.5, 0.5, 0.5]
-		}
-	}
+  "gui_light": "front",
+  "display": {
+    "firstperson_righthand": {
+      "translation": [
+        3.5,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        7,
+        140,
+        0
+      ],
+      "translation": [
+        0,
+        -5,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
 }

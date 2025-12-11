@@ -1,7 +1,8 @@
 {
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "block/xmas/xmas_presents_blue_top",
-        "side": "block/xmas/xmas_presents_blue_side"
-    }
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "block/xmas/xmas_presents_blue_top",
+    "side": "block/xmas/xmas_presents_blue_side",
+    "particle": "block/xmas/xmas_presents_blue_top"
+  }
 }

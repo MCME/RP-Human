@@ -3,16 +3,36 @@
   "particle": "mcme:block/cutlery_prep",
   "flip_v": true,
   "model": "mcme:models/block/cutleryr_4.obj",
-	"gui_light": "front",
-	"display": {
-		"firstperson_righthand": {
-			"translation": [3.5, 0, 0],
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"gui": {
-			"rotation": [5, 74, 0],
-			"translation": [-4, 3, 0],
-			"scale": [0.75, 0.75, 0.75]
-		}
-	}
+  "gui_light": "front",
+  "display": {
+    "firstperson_righthand": {
+      "translation": [
+        3.5,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        5,
+        74,
+        0
+      ],
+      "translation": [
+        -4,
+        3,
+        0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    }
+  }
 }
