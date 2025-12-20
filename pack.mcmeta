@@ -1,22 +1,9 @@
 {
-    "pack": {
-        "pack_format": 46,
-        "supported_formats": [
-            34,
-            46
-        ],
-        "description": "MCME Human 3.5.26 Sodium"
-  },
-	"overlays": {
-		"entries": [
-			{
-				"directory": "1_21_1",
-				"formats": [32,34]
-            },
-			{
-				"directory": "1_21_4",
-				"formats": [42,46]
-            }
-		]
+  "pack": {
+    "pack_format": 15,
+    "supported_formats": [15, 255],
+    "min_format": 15,
+    "max_format": 255,
+    "description": "§2Test Pack"
   }
 }
