@@ -39,7 +39,24 @@
 															{ "model": "block/repeater_delay3_s_3" }
 															],
         "delay=3,facing=west,locked=false,powered=false": { "model": "block/repeater_delay3_w" },
-		"delay=3,facing=north,locked=false,powered=false": { "model": "block/unused_cross_0" },
+		"delay=3,facing=north,locked=false,powered=false": [
+		{ "model": "block/orange_concrete_powder_slab" },
+		{ "model": "block/orange_concrete_powder_slab", "y":90 },
+		{ "model": "block/orange_concrete_powder_slab", "y":180 },
+		{ "model": "block/orange_concrete_powder_slab", "y":270 },
+		{ "model": "block/orange_concrete_powder_slab_2" },
+		{ "model": "block/orange_concrete_powder_slab_2", "y":90 },
+		{ "model": "block/orange_concrete_powder_slab_2", "y":180 },
+		{ "model": "block/orange_concrete_powder_slab_2", "y":270 },
+		{ "model": "block/orange_concrete_powder_slab_2" },
+		{ "model": "block/orange_concrete_powder_slab_3", "y":90 },
+		{ "model": "block/orange_concrete_powder_slab_3", "y":180 },
+		{ "model": "block/orange_concrete_powder_slab_3", "y":270 },
+		{ "model": "block/orange_concrete_powder_slab_3" },
+		{ "model": "block/orange_concrete_powder_slab_4", "y":90 },
+		{ "model": "block/orange_concrete_powder_slab_4", "y":180 },
+		{ "model": "block/orange_concrete_powder_slab_4", "y":270 }
+		],
 		"delay=3,facing=east,locked=false,powered=false": { "model": "block/repeater_delay3_e" },
 		"delay=4,facing=south,locked=false,powered=false": [
 		{ "model": "block/double_slab_nether_brick_seamless_slab" },
