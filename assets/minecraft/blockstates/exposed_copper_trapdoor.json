@@ -1,6 +1,39 @@
 {
   "variants": {
-	"facing\u003dwest,half\u003dtop,open\u003dfalse,powered=true": { "model": "mcme:block/small_sandstone_bricks_flat_1x1arch", "y": 90},
-	"facing\u003dsouth,half\u003dtop,open\u003dfalse,powered=true": { "model": "mcme:block/small_sandstone_bricks_flat_1x1arch"}
-	}
+	"facing=west,half=top,open=false,powered=true": { "model": "mcme:block/small_sandstone_bricks_flat_1x1arch", "y": 90},
+	"facing=south,half=top,open=false,powered=true": { "model": "mcme:block/small_sandstone_bricks_flat_1x1arch"},
+	
+	"facing=north,half=bottom,open=true,powered=true,waterlogged=false": [
+		{ "model": "block/iron_gate_hinge_open", "y": 180 },
+		{ "model": "block/iron_gate_hinge_open_2", "y": 180 }
+	],
+	"facing=east,half=bottom,open=true,powered=true,waterlogged=false": [
+		{ "model": "block/iron_gate_hinge_open", "y": 270 },
+		{ "model": "block/iron_gate_hinge_open_2", "y": 270 }
+	],
+	"facing=south,half=bottom,open=true,powered=true,waterlogged=false": [
+		{ "model": "block/iron_gate_hinge_open", "y": 0 },
+		{ "model": "block/iron_gate_hinge_open_2", "y": 0 }
+	],
+	"facing=west,half=bottom,open=true,powered=true,waterlogged=false": [
+		{ "model": "block/iron_gate_hinge_open", "y": 90 },
+		{ "model": "block/iron_gate_hinge_open_2", "y": 90 }
+	],
+	"facing=north,half=top,open=true,powered=true,waterlogged=false": [
+		{ "model": "block/iron_gate_hinge_left_open", "y": 180 },
+		{ "model": "block/iron_gate_hinge_left_open_2", "y": 180 }
+	],
+	"facing=east,half=top,open=true,powered=true,waterlogged=false": [
+		{ "model": "block/iron_gate_hinge_left_open", "y": 270 },
+		{ "model": "block/iron_gate_hinge_left_open_2", "y": 270 }
+	],
+	"facing=south,half=top,open=true,powered=true,waterlogged=false": [
+		{ "model": "block/iron_gate_hinge_left_open", "y": 0 },
+		{ "model": "block/iron_gate_hinge_left_open_2", "y": 0 }
+	],
+	"facing=west,half=top,open=true,powered=true,waterlogged=false": [
+		{ "model": "block/iron_gate_hinge_left_open", "y": 90 },
+		{ "model": "block/iron_gate_hinge_left_open_2", "y": 90 }
+	]
+  }
 }
