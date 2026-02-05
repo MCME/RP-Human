@@ -4,5 +4,11 @@
     "cross": "block/reeds_stage0"
 	
   },
-  "gui_light": "front"
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "translation": [0, 0, 0],
+      "scale": [0.7, 0.7, 0.7]
+    }
+  }
 }
