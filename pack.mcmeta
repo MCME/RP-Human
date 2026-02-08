@@ -1,7 +1,10 @@
 {
   "pack": {
-    "pack_format": 46,
-    "description": "MCME Path of the Dead 1.7.5"
+    "pack_format": 15,
+    "supported_formats": [15, 255],
+    "min_format": 15,
+    "max_format": 255,
+    "description": "MCME Path of the Dead 1.7.6"
   },
   "meta": {
     "game_version": "1.21.4"
