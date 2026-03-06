@@ -232,9 +232,13 @@
           "open": "false",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace"
-        }
+        "apply": [
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab", "y":180},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_2", "y":180},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_3", "y":180},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_4", "y":180},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_5", "y":180}
+	  ]
       },
       {
         "when": {
@@ -243,10 +247,13 @@
           "open": "false",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "y": 90
-        }
+        "apply": [
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab", "y":270},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_2", "y":270},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_3", "y":270},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_4", "y":270},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_5", "y":270}
+	  ]
       },
       {
         "when": {
@@ -255,10 +262,13 @@
           "open": "false",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "y": 180
-        }
+        "apply": [
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab"},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_2"},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_3"},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_4"},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_5"}
+	  ]
       },
       {
         "when": {
@@ -267,10 +277,13 @@
           "open": "false",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "y": 270
-        }
+        "apply": [
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab", "y":90},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_2", "y":90},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_3", "y":90},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_4", "y":90},
+	  {"model": "minecraft:block/pale_oak_planks_vertical_slab_5", "y":90}
+	  ]
       },
       {
         "when": {
