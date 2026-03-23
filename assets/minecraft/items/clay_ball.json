@@ -7399,21 +7399,21 @@
                 "threshold": 1205,
                 "model": {
                     "type": "model",
-                    "model": "block/beam_diagonal_pale_s_down"
+                    "model": "block/beam_pale_diagonal_s_down"
                 }
             },
             {
                 "threshold": 1206,
                 "model": {
                     "type": "model",
-                    "model": "block/beam_diagonal_pale_s"
+                    "model": "block/beam_pale_diagonal_s"
                 }
             },
             {
                 "threshold": 1207,
                 "model": {
                     "type": "model",
-                    "model": "block/beam_diagonal_pale_s_support"
+                    "model": "block/beam_pale_diagonal_s_support"
                 }
             },
 			{
@@ -7484,6 +7484,13 @@
                 "model": {
                     "type": "model",
                     "model": "block/brown_wool_slab"
+                }
+            },
+			{
+                "threshold": 1218,
+                "model": {
+                    "type": "model",
+                    "model": "block/pale_oak_planks_vertical_slab"
                 }
             }
         ]
