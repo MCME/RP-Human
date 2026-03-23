@@ -1,5 +1,11 @@
 {
   "variants": {
+	"facing\u003deast,half\u003dtop,open\u003dfalse,powered=true": [
+	  {"model": "block/brown_wool_slab", "x":180}
+	],
+	"facing\u003deast,half\u003dbottom,open\u003dfalse,powered=true": [
+	  {"model": "block/brown_wool_slab"}
+	],
     "facing=north,half=bottom,open=false,powered=false": [
 	  {"model": "mcme:block/ash_leaves_yellowish_slab"},
 	  {"model": "mcme:block/ash_leaves_yellowish_slab_2"},
