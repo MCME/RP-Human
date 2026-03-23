@@ -7359,6 +7359,97 @@
                     "type": "model",
                     "model": "block/sack"
                 }
+            },
+			{
+                "threshold": 1200,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_core_wide"
+                }
+            },
+			{
+                "threshold": 1201,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_core_light_wide"
+                }
+            },
+			{
+                "threshold": 1202,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_core_pale_wide"
+                }
+            },
+			{
+                "threshold": 1203,
+                "model": {
+                    "type": "model",
+                    "model": "block/pale_oak_planks_side_stairs"
+                }
+            },
+			{
+                "threshold": 1204,
+                "model": {
+                    "type": "model",
+                    "model": "block/medium_pale_oak_log_pillar"
+                }
+            },
+			{
+                "threshold": 1205,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_diagonal_pale_s_down"
+                }
+            },
+            {
+                "threshold": 1206,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_diagonal_pale_s"
+                }
+            },
+            {
+                "threshold": 1207,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_diagonal_pale_s_support"
+                }
+            },
+			{
+                "threshold": 1208,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_horizontal_pale_down"
+                }
+            },
+			{
+                "threshold": 1209,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_horizontal_pale"
+                }
+            },
+			{
+                "threshold": 1210,
+                "model": {
+                    "type": "model",
+                    "model": "block/pale_oak_planks_double_slab"
+                }
+            },
+			{
+                "threshold": 1211,
+                "model": {
+                    "type": "model",
+                    "model": "block/pale_oak_trapdoor_side"
+                }
+            },
+			{
+                "threshold": 1212,
+                "model": {
+                    "type": "model",
+                    "model": "block/pale_oak_trapdoor_bottom"
+                }
             }
         ]
     }
