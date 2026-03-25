@@ -391,8 +391,8 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true
+          "model": "block/pillar_top_white_half",
+          "uvlock": false
         }
       },
       {
@@ -403,8 +403,8 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true,
+          "model": "block/pillar_top_white_half",
+          "uvlock": false,
           "y": 90
         }
       },
@@ -416,8 +416,8 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true
+          "model": "block/pillar_top_white_half", "y":180,
+          "uvlock": false
         }
       },
       {
@@ -428,9 +428,9 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 90
+          "model": "block/pillar_top_white_half",
+          "uvlock": false,
+          "y": 270
         }
       }
     ]
