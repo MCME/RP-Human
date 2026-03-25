@@ -1,5 +1,12 @@
 {
   "multipart": [
+	{"when": { "up": "true", "north": "none", "east": "none", "south": "none", "west": "none" },
+      "apply": [
+	  { "model": "block/pale_oak_log_wall" },
+      { "model": "block/pale_oak_log_wall_2", "y": 90 },
+      { "model": "block/pale_oak_log_wall_3", "y": 180 },
+      { "model": "block/pale_oak_log_wall_4", "y": 270 }
+	  ]},
      {"when": { "up": "true", "north": "tall", "east": "tall", "south": "tall", "west": "tall" },
       "apply": [
 	  { "model": "block/medium_pale_oak_log_pillar" },

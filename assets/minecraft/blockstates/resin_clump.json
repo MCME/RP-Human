@@ -54,6 +54,18 @@
 	   { "model": "minecraft:block/beam_core_cut_stone", "y": 270 },
 	   { "model": "minecraft:block/beam_core_cut_stone_2", "y": 270 },
 	   { "model": "minecraft:block/beam_core_cut_stone_3", "y": 270 }
+	],
+	"up=false,north=true,east=false,south=false,west=false,down=true": [
+	   { "model": "minecraft:block/beam_core_wooden_knot_wide" }
+	],
+	"up=false,north=false,east=true,south=false,west=false,down=true": [
+	   { "model": "minecraft:block/beam_core_wooden_knot_wide", "y": 90 }
+	],
+	"up=false,north=false,east=false,south=true,west=false,down=true": [
+	   { "model": "minecraft:block/beam_core_wooden_knot_wide", "y": 180 }
+	],
+	"up=false,north=false,east=false,south=false,west=true,down=true": [
+	   { "model": "minecraft:block/beam_core_wooden_knot_wide", "y": 270 }
 	]
   }
 }
