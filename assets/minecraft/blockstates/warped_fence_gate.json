@@ -293,7 +293,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace"
+          "model": "block/vertical_slab_drawers"
         }
       },
       {
@@ -304,7 +304,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/vertical_slab_drawers",
           "y": 90
         }
       },
@@ -316,7 +316,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/vertical_slab_drawers",
 		  "y": 180
         }
       },
@@ -328,7 +328,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/vertical_slab_drawers",
           "y": 270
         }
       },
@@ -340,8 +340,8 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true
+          "model": "block/pillar_top_stone_half",
+          "uvlock": false
         }
       },
       {
@@ -352,8 +352,8 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true,
+          "model": "block/pillar_top_stone_half",
+          "uvlock": false,
           "y": 90
         }
       },
@@ -365,8 +365,8 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true,
+          "model": "block/pillar_top_stone_half",
+          "uvlock": false,
           "y": 180
         }
       },
@@ -378,8 +378,8 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
-          "uvlock": true,
+          "model": "block/pillar_top_stone_half",
+          "uvlock": false,
           "y": 270
         }
       },
