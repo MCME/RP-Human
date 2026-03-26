@@ -118,12 +118,21 @@
             { "model": "block/biome_bush_7", "y": 270 }
 			]
     },
+	{"when": {
+        "age": "6"
+      },
+      "apply":[
+			{ "model": "block/flat_grass_patches" },
+			{ "model": "block/flat_grass_patches_2" },
+			{ "model": "block/flat_grass_patches_3" },
+			{ "model": "block/flat_grass_patches_4" },
+			{ "model": "block/flat_grass_patches_5" },
+			{ "model": "block/flat_grass_patches_6" }
+			]
+    },
     {
       "when": {
         "OR": [
-          {
-            "age": "6"
-          },
           {
             "age": "7"
           },
