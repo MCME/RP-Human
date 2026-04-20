@@ -1,6 +1,12 @@
 {
   "variants": {
 	"facing\u003dwest,half\u003dtop,open\u003dfalse,powered=true": { "model": "mcme:block/small_stone_bricks_flat_1x1arch", "y": 90},
-	"facing\u003dsouth,half\u003dtop,open\u003dfalse,powered=true": { "model": "mcme:block/small_stone_bricks_flat_1x1arch"}
+	"facing\u003dsouth,half\u003dtop,open\u003dfalse,powered=true": { "model": "mcme:block/small_stone_bricks_flat_1x1arch"},
+	"facing\u003dsouth,half\u003dbottom,open\u003dfalse,powered=false": { "model": "block/trapdoor_gold"},
+	"facing\u003dsouth,half\u003dtop,open\u003dfalse,powered=false": { "model": "block/trapdoor_gold", "x":180},
+	"facing\u003dsouth,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":180},
+	"facing\u003dwest,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":270},
+	"facing\u003dnorth,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":0},
+	"facing\u003deast,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":90}
 	}
 }
