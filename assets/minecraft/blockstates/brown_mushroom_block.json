@@ -600,6 +600,12 @@
         "model": "block/brown_mushroom_block_sd"
       }
     ]},
+	{ "when": {"north": false, "west": false, "south": false, "east": false, "up": false, "down": true },
+      "apply": [
+      {
+        "model": "block/wooden_knot_tile"
+      }
+    ]},
 	{ "when": {"north": false, "west": false, "south": true, "east": false, "up": false, "down": false },
       "apply": [
       
