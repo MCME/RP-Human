@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing\u003dnorth,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/edoras_star",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/edoras_star",
+	  "y": 270,
+      "uvlock": true
+    },
+    "facing\u003dsouth,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/edoras_star",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing\u003dwest,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/edoras_star",
+      "y": 90,
+      "uvlock": true
+    }
+
+  }
+}

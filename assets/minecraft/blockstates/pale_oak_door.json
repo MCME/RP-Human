@@ -1,5 +1,37 @@
 {
   "variants": {
+	"facing\u003dnorth,half\u003dupper,hinge\u003dright,open\u003dtrue,powered\u003dtrue": {
+      "model": "minecraft:block/oak_beam_curved_flip_deco",
+      "y": 180
+    },
+    "facing\u003deast,half\u003dupper,hinge\u003dright,open\u003dtrue,powered\u003dtrue": {
+      "model": "minecraft:block/oak_beam_curved_flip_deco",
+	  "y": 270
+    },
+    "facing\u003dsouth,half\u003dupper,hinge\u003dright,open\u003dtrue,powered\u003dtrue": {
+      "model": "minecraft:block/oak_beam_curved_flip_deco",
+      "y": 0
+    },
+    "facing\u003dwest,half\u003dupper,hinge\u003dright,open\u003dtrue,powered\u003dtrue": {
+      "model": "minecraft:block/oak_beam_curved_flip_deco",
+      "y": 90
+    },
+	"facing\u003dnorth,half\u003dupper,hinge\u003dright,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/oak_beam_curved_deco",
+      "y": 270
+    },
+    "facing\u003deast,half\u003dupper,hinge\u003dright,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/oak_beam_curved_deco",
+	  "y": 0
+    },
+    "facing\u003dsouth,half\u003dupper,hinge\u003dright,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/oak_beam_curved_deco",
+      "y": 90
+    },
+    "facing\u003dwest,half\u003dupper,hinge\u003dright,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/oak_beam_curved_deco",
+      "y": 180
+    },
 	"facing\u003dnorth,half\u003dupper,hinge\u003dleft,open\u003dtrue,powered\u003dtrue": {
       "model": "minecraft:block/rohan_reins",
       "y": 90
