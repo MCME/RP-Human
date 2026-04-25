@@ -66,6 +66,50 @@
 	],
 	"up=false,north=false,east=false,south=false,west=true,down=true": [
 	   { "model": "minecraft:block/beam_core_wooden_knot_wide", "y": 270 }
+	],
+	"up=true,north=true,east=false,south=false,west=false,down=false": [
+	   { "model": "minecraft:block/beam_core_wide_gold" }
+	],
+	"up=true,north=false,east=true,south=false,west=false,down=false": [
+	   { "model": "minecraft:block/beam_core_wide_gold", "y": 90 }
+	],
+	"up=true,north=false,east=false,south=true,west=false,down=false": [
+	   { "model": "minecraft:block/beam_core_wide_gold", "y": 180 }
+	],
+	"up=true,north=false,east=false,south=false,west=true,down=false": [
+	   { "model": "minecraft:block/beam_core_wide_gold", "y": 270 }
+	],
+	"up=true,north=true,east=false,south=false,west=false,down=true": [
+	   { "model": "minecraft:block/shield_rohan_wall" },
+	   { "model": "minecraft:block/shield_rohan_wall_2" }
+	],
+	"up=true,north=false,east=true,south=false,west=false,down=true": [
+	   { "model": "minecraft:block/shield_rohan_wall", "y": 90 },
+	   { "model": "minecraft:block/shield_rohan_wall_2", "y": 90 }
+	],
+	"up=true,north=false,east=false,south=true,west=false,down=true": [
+	   { "model": "minecraft:block/shield_rohan_wall", "y": 180 },
+	   { "model": "minecraft:block/shield_rohan_wall_2", "y": 180 }
+	],
+	"up=true,north=false,east=false,south=false,west=true,down=true": [
+	   { "model": "minecraft:block/shield_rohan_wall", "y": 270 },
+	   { "model": "minecraft:block/shield_rohan_wall_2", "y": 270 }
+	],
+	"up=true,north=true,east=true,south=true,west=true,down=true": [
+	   { "model": "minecraft:block/rohan_spears", "y": 0 },
+	   { "model": "minecraft:block/rohan_spears", "y": 90 },
+	   { "model": "minecraft:block/rohan_spears", "y": 180 },
+	   { "model": "minecraft:block/rohan_spears", "y": 270 },
+	   { "model": "minecraft:block/rohan_spears_2", "y": 0 },
+	   { "model": "minecraft:block/rohan_spears_2", "y": 90 },
+	   { "model": "minecraft:block/rohan_spears_2", "y": 180 },
+	   { "model": "minecraft:block/rohan_spears_2", "y": 270 }
+	],
+	"up=false,north=true,east=true,south=true,west=true,down=true": [
+	   { "model": "minecraft:block/rohan_spear_single", "y": 0 },
+	   { "model": "minecraft:block/rohan_spear_single", "y": 90 },
+	   { "model": "minecraft:block/rohan_spear_single", "y": 180 },
+	   { "model": "minecraft:block/rohan_spear_single", "y": 270 }
 	]
   }
 }
