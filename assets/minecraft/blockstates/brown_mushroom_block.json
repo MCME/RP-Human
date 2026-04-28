@@ -1,5 +1,9 @@
 {
   "multipart": [
+    { "when": {"north": false, "west": true, "south": false, "east": false, "up": false, "down": true },
+      "apply": {
+      "model": "block/ent_eye"
+    }},
     { "when": {"north": true, "west": true, "south": true, "east": true, "up": false, "down": false },
       "apply": {
       "model": "block/brown_mushroom_block_c"
@@ -600,6 +604,42 @@
         "model": "block/brown_mushroom_block_sd"
       }
     ]},
+	{ "when": {"north": false, "west": false, "south": false, "east": false, "up": false, "down": true },
+      "apply": [
+      {
+        "model": "block/wooden_knot_tile"
+      }
+    ]},
+	{ "when": {"north": false, "west": false, "south": false, "east": false, "up": true, "down": false },
+      "apply": [
+      {
+        "model": "block/oak_wood_resin"
+      }
+    ]},
+	{ "when": {"north": false, "west": false, "south": false, "east": false, "up": true, "down": true },
+      "apply": [
+      
+		{ "model": "minecraft:block/black_bookshelf" },
+		{ "model": "minecraft:block/black_bookshelf_2" },
+		{ "model": "minecraft:block/black_bookshelf_3" },
+		{ "model": "minecraft:block/black_bookshelf_4" },
+		{ "model": "minecraft:block/black_bookshelf_5" },
+		{ "model": "minecraft:block/black_bookshelf_6" }
+		
+    ]
+	},
+	{ "when": {"north": false, "west": true, "south": false, "east": false, "up": false, "down": false },
+      "apply": 
+      [
+		{ "model": "minecraft:block/black_bookshelf", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_2", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_3", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_4", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_5", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_6", "y":90 }
+		
+    ]
+	},
 	{ "when": {"north": false, "west": false, "south": true, "east": false, "up": false, "down": false },
       "apply": [
       
