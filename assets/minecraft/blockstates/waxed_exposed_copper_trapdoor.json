@@ -11,6 +11,12 @@
 	"facing\u003dnorth,half\u003dtop,open\u003dtrue,powered=true": { "model": "block/dark_trim_offset"},
 	"facing\u003deast,half\u003dtop,open\u003dtrue,powered=true": { "model": "block/dark_trim_offset", "y":90},
 	"facing\u003dsouth,half\u003dtop,open\u003dtrue,powered=true": { "model": "block/dark_trim_offset", "y":180},
-	"facing\u003dwest,half\u003dtop,open\u003dtrue,powered=true": { "model": "block/dark_trim_offset", "y":270}
+	"facing\u003dwest,half\u003dtop,open\u003dtrue,powered=true": { "model": "block/dark_trim_offset", "y":270},
+	"facing\u003dsouth,half\u003dtop,open\u003dtrue,powered=false": { "model": "block/mangrove_quarter_slab"},
+	"facing\u003dwest,half\u003dtop,open\u003dtrue,powered=false": { "model": "block/mangrove_quarter_slab", "y":90},
+	"facing\u003dnorth,half\u003dtop,open\u003dtrue,powered=false": { "model": "block/mangrove_quarter_slab", "y":180},
+	"facing\u003deast,half\u003dtop,open\u003dtrue,powered=false": { "model": "block/mangrove_quarter_slab", "y":270}
+
+
 	}
 }
