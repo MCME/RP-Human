@@ -7,6 +7,10 @@
 	"facing\u003dsouth,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":180},
 	"facing\u003dwest,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":270},
 	"facing\u003dnorth,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":0},
-	"facing\u003deast,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":90}
+	"facing\u003deast,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":90},
+	"facing\u003dnorth,half\u003dtop,open\u003dtrue,powered=true": { "model": "block/dark_trim_offset"},
+	"facing\u003deast,half\u003dtop,open\u003dtrue,powered=true": { "model": "block/dark_trim_offset", "y":90},
+	"facing\u003dsouth,half\u003dtop,open\u003dtrue,powered=true": { "model": "block/dark_trim_offset", "y":180},
+	"facing\u003dwest,half\u003dtop,open\u003dtrue,powered=true": { "model": "block/dark_trim_offset", "y":270}
 	}
 }
