@@ -335,10 +335,13 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/replace",
-        "uvlock": true
-      }
+      "apply": [
+	  {  "model": "block/vertical_slab_dark_roman_bricks", "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_2", "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_3", "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_4", "uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_5", "uvlock": true }
+	  ]
     },
     {
       "when": {
@@ -347,10 +350,13 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/replace",
-        "uvlock": true
-      }
+      "apply": [
+	  {  "model": "block/vertical_slab_dark_roman_bricks", "y":90,"uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_2", "y":90,"uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_3", "y":90,"uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_4", "y":90,"uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_5", "y":90,"uvlock": true }
+	  ]
     },
     {
       "when": {
@@ -359,10 +365,13 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/replace",
-        "uvlock": true
-      }
+      "apply": [
+	  {  "model": "block/vertical_slab_dark_roman_bricks", "y":180,"uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_2", "y":180,"uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_3", "y":180,"uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_4", "y":180,"uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_5", "y":180,"uvlock": true }
+	  ]
     },
     {
       "when": {
@@ -371,10 +380,13 @@
         "open": "true",
         "powered": "false"
       },
-      "apply": {
-        "model": "block/replace",
-        "uvlock": true
-      }
+      "apply": [
+	  {  "model": "block/vertical_slab_dark_roman_bricks", "y":270,"uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_2", "y":270,"uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_3", "y":270,"uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_4", "y":270,"uvlock": true },
+	  {  "model": "block/vertical_slab_dark_roman_bricks_5", "y":270,"uvlock": true }
+	  ]
     },
     {
       "when": {
@@ -383,10 +395,13 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/replace",
-        "uvlock": true
-      }
+      "apply": [
+	  {  "model": "block/vertical_slab_roman_bricks","uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_2","uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_3","uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_4","uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_5","uvlock": true }
+	  ]
     },
     {
       "when": {
@@ -395,10 +410,13 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/replace",
-        "uvlock": true
-      }
+      "apply": [
+	  {  "model": "block/vertical_slab_roman_bricks", "y":90,"uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_2", "y":90,"uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_3", "y":90,"uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_4", "y":90,"uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_5", "y":90,"uvlock": true }
+	  ]
     },
     {
       "when": {
@@ -407,10 +425,13 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/replace",
-        "uvlock": true
-      }
+      "apply": [
+	  {  "model": "block/vertical_slab_roman_bricks", "y":180,"uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_2", "y":180,"uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_3", "y":180,"uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_4", "y":180,"uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_5", "y":180,"uvlock": true }
+	  ]
     },
     {
       "when": {
@@ -419,10 +440,13 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/replace",
-        "uvlock": true
-      }
+      "apply": [
+	  {  "model": "block/vertical_slab_roman_bricks", "y":270,"uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_2", "y":270,"uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_3", "y":270,"uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_4", "y":270,"uvlock": true },
+	  {  "model": "block/vertical_slab_roman_bricks_5", "y":270,"uvlock": true }
+	  ]
     },
     {
       "when": {
