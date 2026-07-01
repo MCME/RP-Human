@@ -1,0 +1,319 @@
+{
+  "multipart": [
+    { "when": {"north": true, "west": true, "south": true, "east": true, "up": false, "down": true },
+      "apply": [
+      { "model": "block/replace", "y": 180 },
+      { "model": "block/replace", "y": 180 }
+    ]},
+    { "when": {"north": true, "west": true, "south": true, "east": true, "up": false, "down": false },
+      "apply": [
+      { "model": "block/replace", "y": 270 },
+      { "model": "block/replace", "y": 270 }
+    ]},
+    { "when": {"north": true, "west": true, "south": true, "east": true, "up": true, "down": true },
+      "apply": [
+      { "model": "block/replace" },
+      { "model": "block/replace" }
+    ]},
+    { "when": {"north": true, "west": true, "south": true, "east": true, "up": true, "down": false },
+      "apply": [
+      { "model": "block/replace", "y": 90 },
+      { "model": "block/replace", "y": 90 }
+    ]},
+    { "when": {"north": true, "west": false, "south": true, "east": true, "up": false, "down": true },
+      "apply": [
+      { "model": "block/replace", "y": 180 },
+      { "model": "block/replace", "y": 180 }
+    ]},
+    { "when": {"north": true, "west": false, "south": true, "east": true, "up": false, "down": false },
+      "apply": [
+      { "model": "block/replace", "y": 270 },
+      { "model": "block/replace", "y": 270 }
+	]},
+    { "when": {"north": true, "west": false, "south": true, "east": true, "up": true, "down": true },
+      "apply": [
+      { "model": "block/replace" },
+      { "model": "block/replace" }
+    ]},
+    { "when": {"north": true, "west": false, "south": true, "east": true, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/replace", "y": 90 },
+		{ "model": "block/replace", "y": 90 }
+    ]},
+	{ "when": {"north": true, "west": true, "south": false, "east": true, "up": true, "down": true },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" }
+	]},
+	{ "when": {"north": true, "west": true, "south": false, "east": true, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" }
+	]},
+	{ "when": {"north": true, "west": true, "south": false, "east": true, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace", "y": 90 },
+		{ "model": "block/replace", "y": 180 },
+		{ "model": "block/replace" },
+		{ "model": "block/replace", "y": 90 },
+		{ "model": "block/replace", "y": 180 },
+		{ "model": "block/replace" },
+		{ "model": "block/replace", "y": 90 },
+		{ "model": "block/replace", "y": 180 }
+	]},
+	{ "when": {"north": true, "west": true, "south": false, "east": true, "up": false, "down": false },
+		"apply": [
+		{ "model": "block/red_mushroom_block_new" },
+		{ "model": "block/red_mushroom_block_new_2" },
+		{ "model": "block/red_mushroom_block_new_3" }
+	]},
+	{ "when": {"north": true, "west": false, "south": false, "east": true, "up": true, "down": true },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" }
+	]},
+	{ "when": {"north": true, "west": false, "south": false, "east": true, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace", "y":90 },
+		{ "model": "block/replace" },
+		{ "model": "block/replace", "y":90 }
+	]},
+	{ "when": {"north": true, "west": false, "south": false, "east": true, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/replace", "x": 90 },
+		{ "model": "block/replace", "x": 90 }
+	]},
+	{ "when": {"north": true, "west": false, "south": false, "east": true, "up": false, "down": false },
+		"apply": [
+		{ "model": "block/replace", "x": 90, "y": 90 },
+		{ "model": "block/replace", "x": 90, "y": 90 }
+	]},
+	{ "when": {"north": true, "west": true, "south":true, "east": false, "up": true, "down": true },
+		"apply": [
+		{ "model": "block/replace" }
+	]},
+	{ "when": {"north": true, "west": true, "south":true, "east": false, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/replace", "x": 90 }
+	]},
+	{ "when": {"north": true, "west": true, "south":true, "east": false, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/replace", "x": 90, "y": 90 }
+	]},
+	{ "when": {"north": true, "west": true, "south":true, "east": false, "up": false, "down": false },
+		"apply": [
+		{ "model": "block/replace", "y": 90 },
+		{ "model": "block/replace", "y": 90  },
+		{ "model": "block/replace", "y": 90  },
+		{ "model": "block/replace", "y": 90  },
+		{ "model": "block/replace", "y": 90  },
+		{ "model": "block/replace", "y": 90  }
+	]},
+	{ "when": {"north": true, "west": false, "south":true, "east": false, "up": true, "down": true },
+		"apply": [
+		{ "model": "block/replace", "x": 90 },
+		{ "model": "block/replace", "x": 90 },
+		{ "model": "block/replace", "x": 90 }
+	]},
+	{ "when": {"north": true, "west": false, "south":true, "east": false, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/replace", "x": 90, "y": 90 },
+		{ "model": "block/replace", "x": 90, "y": 90 },
+		{ "model": "block/replace", "x": 90, "y": 90 }
+	]},
+	{ "when": {"north": true, "west": false, "south":true, "east": false, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/red_mushroom_block_nsd" },
+		{ "model": "block/red_mushroom_block_nsd_2" },
+		{ "model": "block/red_mushroom_block_nsd_3" }
+	]},
+	{ "when": {"north": true, "west": false, "south":true, "east": false, "up": false, "down": false },
+		"apply": [
+		{ "model": "block/red_mushroom_block_ns" },
+		{ "model": "block/red_mushroom_block_ns_2" },
+		{ "model": "block/red_mushroom_block_ns_3" }
+	]},
+	{ "when": {"north": true, "west": true, "south":false, "east": false, "up": true, "down": true },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" }
+	]},
+	{ "when": {"north": true, "west": true, "south":false, "east": false, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace" }
+	]},
+	{ "when": {"north": true, "west": true, "south":false, "east": false, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/replace", "y": 90, "uvlock": true },
+		{ "model": "block/replace", "y": 90, "uvlock": true }
+	]},
+	{ "when": {"north": true, "west": true, "south":false, "east": false, "up": false, "down": false },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace" }
+	]},
+	{ "when": {"north": true, "west": false, "south":false, "east": false, "up": true, "down": true },
+		"apply": [
+		{ "model": "block/replace", "y": 90, "uvlock": true },
+		{ "model": "block/replace", "y": 90, "uvlock": true }
+	]},
+	{ "when": {"north": true, "west": false, "south":false, "east": false, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace" }
+	]},
+	{ "when": {"north": true, "west": false, "south":false, "east": false, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/replace", "y": 90, "uvlock": true },
+		{ "model": "block/replace", "y": 90, "uvlock": true }
+	]},
+	{ "when": {"north": true, "west": false, "south":false, "east": false, "up": false, "down": false },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" }
+	]},
+	{ "when": {"north": false, "west": true, "south":true, "east": true, "up": true, "down": true },
+		"apply": [
+		{ "model": "block/replace", "y": 90, "uvlock": true },
+		{ "model": "block/replace", "y": 90, "uvlock": true },
+		{ "model": "block/replace", "y": 90, "uvlock": true }
+	]},
+	{ "when": {"north": false, "west": true, "south":true, "east": true, "up": true, "down": false },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace" }
+	]},
+	{ "when": {"north": false, "west": true, "south":true, "east": true, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/replace", "y": 90, "uvlock": true },
+		{ "model": "block/replace", "y": 90, "uvlock": true }
+	]},
+	{ "when": {"north": false, "west": true, "south":true, "east": true, "up": false, "down": false },
+		"apply": [
+		{ "model": "block/replace", "weight": 1 },
+		{ "model": "block/replace", "weight": 1 },
+		{ "model": "block/replace", "weight": 1 },
+		{ "model": "block/replace", "weight": 1 },
+		{ "model": "block/replace", "weight": 1 }
+	]},
+	{ "when": {"north": false, "west": false, "south":true, "east": true, "up": false, "down": true },
+		"apply": [
+		{ "model": "block/replace", "weight": 1 },
+		{ "model": "block/replace", "weight": 1 }
+		]},
+	{ "when": {"north": false, "west": false, "south":true, "east": true, "up": false, "down": false	 },
+		"apply": [
+		{ "model": "block/replace", "weight": 1 }
+		]},
+		{ "when": {"north": false, "west": false, "south":true, "east": false, "up": false, "down": false	 },
+		"apply": [
+		{ "model": "block/replace" }
+		]},
+		{ "when": {"north": false, "west": true, "south":false, "east": false, "up": true, "down": true	 },
+		"apply": [
+		{ "model": "block/replace" }
+		]},
+	{ "when": {"north": false, "west": true, "south":true, "east": false, "up": false, "down": true	 },
+		"apply": [
+		{ "model": "block/replace", "weight": 1 },
+		{ "model": "block/replace", "weight": 1 },
+		{ "model": "block/replace", "weight": 1 },
+		{ "model": "block/replace", "weight": 1 },
+		{ "model": "block/replace", "weight": 1 },
+		{ "model": "block/replace", "weight": 1 },
+		{ "model": "block/replace", "weight": 1 },
+		{ "model": "block/replace", "weight": 1 }
+		]},
+	{ "when": {"north": false, "west": true, "south":false, "east": true, "up": true, "down": true	 },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" }
+		]},
+	{ "when": {"north": false, "west": true, "south":false, "east": true, "up": true, "down": false	 },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" }
+		]},
+	{ "when": {"north": false, "west": true, "south":false, "east": true, "up": false, "down": true	 },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" }
+		]},
+	{ "when": {"north": false, "west": true, "south":false, "east": true, "up": false, "down": false	 },
+		"apply": [
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" },
+		{ "model": "block/replace" }
+		]},
+	{ "when": {"north": false, "west": false, "south":false, "east": true, "up": true, "down": true	 },
+		"apply": [
+		{ "model": "block/replace" }
+		]},
+		{ "when": {"north": false, "west": false, "south":false, "east": true, "up": true, "down": false	 },
+		"apply": [
+		{ "model": "block/replace" }
+		]},
+		{ "when": {"north": false, "west": false, "south":false, "east": true, "up": false, "down": true	 },
+		"apply": [
+		{ "model": "block/replace", "x":90 },
+		{ "model": "block/replace", "x":90 },
+		{ "model": "block/replace", "x":90 }
+		]},
+		{ "when": {"north": false, "west": false, "south":false, "east": true, "up": false, "down": false	 },
+		"apply": [
+		{ "model": "block/replace", "x":90, "y":90 },
+		{ "model": "block/replace", "x":90, "y":90 },
+		{ "model": "block/replace", "x":90, "y":90 }
+		]},
+		{ "when": {"north": false, "west": true, "south":true, "east": false, "up": true, "down": true	 },
+		"apply": [
+		{ "model": "block/replace" }
+		]},
+		{ "when": {"north": false, "west": true, "south":true, "east": false, "up": true, "down": false	 },
+		"apply": [
+		{ "model": "block/replace", "x":90 },
+		{ "model": "block/replace", "x":90 },
+		{ "model": "block/replace", "x":90 }
+		]},
+		{ "when": {"north": false, "west": true, "south":true, "east": false, "up": false, "down": false	 },
+		"apply": [
+		{ "model": "block/replace", "x":90, "y":90 },
+		{ "model": "block/replace", "x":90, "y":90 },
+		{ "model": "block/replace", "x":90, "y":90 }
+		]},
+		{ "when": {"north": false, "west": false, "south":true, "east": false, "up": true, "down": true	 },
+		"apply": [
+		{ "model": "block/replace" }
+		]},
+		{ "when": {"north": false, "west": false, "south":true, "east": false, "up": true, "down": false	 },
+		"apply": [
+		{ "model": "block/replace", "x":90 }
+		]},
+		{ "when": {"north": false, "west": false, "south":true, "east": false, "up": false, "down": true	 },
+		"apply": [
+		{ "model": "block/replace", "x":90, "y":90 }
+		]}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "type=bottom": [
+      { "model": "minecraft:block/mangrove_slab" },
+      { "model": "minecraft:block/mangrove_slab", "y":90 },
+      { "model": "minecraft:block/mangrove_slab", "y":180 },
+      { "model": "minecraft:block/mangrove_slab", "y":270 },
+      { "model": "minecraft:block/mangrove_slab_2" },
+      { "model": "minecraft:block/mangrove_slab_2", "y":90 },
+      { "model": "minecraft:block/mangrove_slab_2", "y":180 },
+      { "model": "minecraft:block/mangrove_slab_2", "y":270 },
+      { "model": "minecraft:block/mangrove_slab_3" },
+      { "model": "minecraft:block/mangrove_slab_3", "y":90 },
+      { "model": "minecraft:block/mangrove_slab_3", "y":180 },
+      { "model": "minecraft:block/mangrove_slab_3", "y":270 },
+      { "model": "minecraft:block/mangrove_slab_4" },
+      { "model": "minecraft:block/mangrove_slab_4", "y":90 },
+      { "model": "minecraft:block/mangrove_slab_4", "y":180 },
+      { "model": "minecraft:block/mangrove_slab_4", "y":270 },
+      { "model": "minecraft:block/mangrove_slab_5" },
+      { "model": "minecraft:block/mangrove_slab_5", "y":90 },
+      { "model": "minecraft:block/mangrove_slab_5", "y":180 },
+      { "model": "minecraft:block/mangrove_slab_5", "y":270 }
+  ],
+    "type=double": [
+      { "model": "minecraft:block/dripstone_dark_block" },
+      { "model": "minecraft:block/dripstone_dark_block", "y":90 },
+      { "model": "minecraft:block/dripstone_dark_block", "y":180 },
+      { "model": "minecraft:block/dripstone_dark_block", "y":270 },
+      { "model": "minecraft:block/dripstone_dark_block_2" },
+      { "model": "minecraft:block/dripstone_dark_block_2", "y":90 },
+      { "model": "minecraft:block/dripstone_dark_block_2", "y":180 },
+      { "model": "minecraft:block/dripstone_dark_block_2", "y":270 }
+    ],
+    "type=top": [
+      { "model": "minecraft:block/dripstone_dark_slab", "x":180 },
+      { "model": "minecraft:block/dripstone_dark_slab", "x":180, "y":90 },
+      { "model": "minecraft:block/dripstone_dark_slab", "x":180, "y":180 },
+      { "model": "minecraft:block/dripstone_dark_slab", "x":180, "y":270 },
+      { "model": "minecraft:block/dripstone_dark_slab_2", "x":180 },
+      { "model": "minecraft:block/dripstone_dark_slab_2", "x":180, "y":90 },
+      { "model": "minecraft:block/dripstone_dark_slab_2", "x":180, "y":180 },
+      { "model": "minecraft:block/dripstone_dark_slab_2", "x":180, "y":270 }
+    ]
+  }
+}
