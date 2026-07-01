@@ -1,0 +1,140 @@
+{
+    "variants": {
+        "delay=1,facing=south,locked=false,powered=false": [
+			{ "model": "block/repeater_delay1_s" },
+			{ "model": "block/repeater_delay1_s", "y": 90 },
+			{ "model": "block/repeater_delay1_s", "y": 180 },
+			{ "model": "block/repeater_delay1_s", "y": 270 }
+		],
+        "delay=1,facing=west,locked=false,powered=false": { "model": "block/repeater_delay1_w" },
+        "delay=1,facing=north,locked=false,powered=false": { "model": "block/repeater_delay1_n" },
+        "delay=1,facing=east,locked=false,powered=false": { "model": "block/repeater_delay1_e" },
+		"delay=2,facing=south,locked=false,powered=false": [
+		{ "model": "block/repeater_delay2_s" },
+		{ "model": "block/repeater_delay2_s_2" },
+		{ "model": "block/repeater_delay2_s_3" },
+		{ "model": "block/repeater_delay2_s_4" }
+		],
+        "delay=2,facing=west,locked=false,powered=false": { "model": "block/repeater_delay2_w" },
+		"delay=2,facing=north,locked=false,powered=false": [
+															{ "model": "block/repeater_delay2_n"},
+															{ "model": "block/repeater_delay2_n_1"},
+															{ "model": "block/repeater_delay2_n_2"},
+															{ "model": "block/repeater_delay2_n", "y": 90 },
+															{ "model": "block/repeater_delay2_n_1", "y": 90 },
+															{ "model": "block/repeater_delay2_n_2", "y": 90 },
+															{ "model": "block/repeater_delay2_n", "y": 180 },
+															{ "model": "block/repeater_delay2_n_1", "y": 180 },
+															{ "model": "block/repeater_delay2_n_2", "y": 180 }
+														],
+		"delay=2,facing=east,locked=false,powered=false": [ 
+															{ "model": "block/repeater_delay2_e" },
+															{ "model": "block/repeater_delay2_e", "y": 90 },
+															{ "model": "block/repeater_delay2_e", "y": 180 },
+															{ "model": "block/repeater_delay2_e", "y": 270 }
+														],
+		"delay=3,facing=south,locked=false,powered=false": [
+															{ "model": "block/repeater_delay3_s" },
+															{ "model": "block/repeater_delay3_s_2" },
+															{ "model": "block/repeater_delay3_s_3" }
+															],
+        "delay=3,facing=west,locked=false,powered=false": { "model": "block/repeater_delay3_w" },
+		"delay=3,facing=north,locked=false,powered=false": [
+		{ "model": "block/orange_concrete_powder_slab" },
+		{ "model": "block/orange_concrete_powder_slab", "y":90 },
+		{ "model": "block/orange_concrete_powder_slab", "y":180 },
+		{ "model": "block/orange_concrete_powder_slab", "y":270 },
+		{ "model": "block/orange_concrete_powder_slab_2" },
+		{ "model": "block/orange_concrete_powder_slab_2", "y":90 },
+		{ "model": "block/orange_concrete_powder_slab_2", "y":180 },
+		{ "model": "block/orange_concrete_powder_slab_2", "y":270 },
+		{ "model": "block/orange_concrete_powder_slab_2" },
+		{ "model": "block/orange_concrete_powder_slab_3", "y":90 },
+		{ "model": "block/orange_concrete_powder_slab_3", "y":180 },
+		{ "model": "block/orange_concrete_powder_slab_3", "y":270 },
+		{ "model": "block/orange_concrete_powder_slab_3" },
+		{ "model": "block/orange_concrete_powder_slab_4", "y":90 },
+		{ "model": "block/orange_concrete_powder_slab_4", "y":180 },
+		{ "model": "block/orange_concrete_powder_slab_4", "y":270 }
+		],
+		"delay=3,facing=east,locked=false,powered=false": { "model": "block/repeater_delay3_e" },
+		"delay=4,facing=south,locked=false,powered=false": [
+		{ "model": "block/double_slab_nether_brick_seamless_slab" },
+		{ "model": "block/double_slab_nether_brick_seamless_slab_2" },
+		{ "model": "block/double_slab_nether_brick_seamless_slab_3"},
+		{ "model": "block/double_slab_nether_brick_seamless_slab_4" },
+		{ "model": "block/double_slab_nether_brick_seamless_slab_5" },
+		{ "model": "block/double_slab_nether_brick_seamless_slab_6" }
+		],
+        "delay=4,facing=west,locked=false,powered=false": { "model": "block/repeater_delay4_w" },
+		"delay=4,facing=north,locked=false,powered=false": { "model": "block/repeater_delay4_n" },
+		"delay=4,facing=east,locked=false,powered=false": { "model": "block/repeater_delay4_e" },
+        "delay=1,facing=south,locked=false,powered=true": { "model": "block/unused_cross_0" },
+        "delay=1,facing=west,locked=false,powered=true": { "model": "block/powered_repeater_delay1_w" },
+        "delay=1,facing=north,locked=false,powered=true": [
+		{ "model": "block/powered_repeater_delay1_n" },
+		{ "model": "block/powered_repeater_delay1_n_2" },
+		{ "model": "block/powered_repeater_delay1_n_3" },
+		{ "model": "block/powered_repeater_delay1_n_4" },
+		{ "model": "block/powered_repeater_delay1_n_5" },
+		{ "model": "block/powered_repeater_delay1_n_6" }],
+        "delay=1,facing=east,locked=false,powered=true": { "model": "block/powered_repeater_delay1_e" },
+        "delay=2,facing=south,locked=false,powered=true": { "model": "block/unused_cross_0" },
+        "delay=2,facing=west,locked=false,powered=true": { "model": "block/powered_repeater_delay2_w" },
+		"delay=2,facing=north,locked=false,powered=true": { "model": "block/powered_repeater_delay2_n" },
+		"delay=2,facing=east,locked=false,powered=true": { "model": "block/powered_repeater_delay2_e" },
+        "delay=3,facing=south,locked=false,powered=true": { "model": "block/powered_repeater_delay3_s" },
+        "delay=3,facing=west,locked=false,powered=true": { "model": "block/powered_repeater_delay3_w" },
+        "delay=3,facing=north,locked=false,powered=true": [
+		{ "model": "block/dry_mud_slab" },
+		{ "model": "block/dry_mud_slab_2" },
+		{ "model": "block/dry_mud_slab_3" }],
+        "delay=3,facing=east,locked=false,powered=true": [
+		{ "model": "block/powered_repeater_delay3_e" },
+		{ "model": "block/powered_repeater_delay3_e_2" },
+		{ "model": "block/powered_repeater_delay3_e_3" },
+		{ "model": "block/powered_repeater_delay3_e_4" },
+		{ "model": "block/powered_repeater_delay3_e_5" }
+		],
+        "delay=4,facing=south,locked=false,powered=true": { "model": "block/powered_repeater_delay4_s" },
+        "delay=4,facing=west,locked=false,powered=true": [
+		{ "model": "block/powered_repeater_delay4_w" },
+		{ "model": "block/powered_repeater_delay4_w_2" },
+		{ "model": "block/powered_repeater_delay4_w_3" },
+		{ "model": "block/powered_repeater_delay4_w_4" },
+		{ "model": "block/powered_repeater_delay4_w_5" },
+		{ "model": "block/powered_repeater_delay4_w_6" },
+		{ "model": "block/powered_repeater_delay4_w_7" },
+		{ "model": "block/powered_repeater_delay4_w_8" }
+		],
+        "delay=4,facing=north,locked=false,powered=true": { "model": "block/unused_cross_0" },
+        "delay=4,facing=east,locked=false,powered=true": { "model": "block/powered_repeater_delay4_e" },
+		"delay=1,facing=north,locked=true,powered=false": [
+															{ "model": "block/repeater_delay1_nl" },
+															{ "model": "block/repeater_delay1_nl", "y": 90 },
+															{ "model": "block/repeater_delay1_nl", "y": 180 },
+															{ "model": "block/repeater_delay1_nl", "y": 270 },
+															{ "model": "block/repeater_delay1_nl_1" },
+															{ "model": "block/repeater_delay1_nl_1", "y": 90 },
+															{ "model": "block/repeater_delay1_nl_1", "y": 180 },
+															{ "model": "block/repeater_delay1_nl_1", "y": 270 },
+															{ "model": "block/repeater_delay1_nl_2" },
+															{ "model": "block/repeater_delay1_nl_2", "y": 90 },
+															{ "model": "block/repeater_delay1_nl_2", "y": 180 },
+															{ "model": "block/repeater_delay1_nl_2", "y": 270 }
+														],
+		"delay=1,facing=south,locked=true,powered=false": { "model": "block/locked_repeater_delay1_s" },												
+		"delay=1,facing=east,locked=true,powered=false": { "model": "block/locked_repeater_delay1_e" },
+		"delay=1,facing=west,locked=true,powered=false": { "model": "block/locked_repeater_delay1_w" },
+		"delay=1,facing=north,locked=true,powered=true": [
+															{ "model": "block/locked_powered_repeater_delay1_n"},
+															{ "model": "block/locked_powered_repeater_delay1_n", "y": 90 }
+		],
+        "delay=1,facing=east,locked=true,powered=true": { "model": "block/locked_powered_repeater_delay1_e" },
+		"delay=1,facing=south,locked=true,powered=true": [
+		{ "model": "block/dark_mud_slab" },
+		{ "model": "block/dark_mud_slab_2" },
+		{ "model": "block/dark_mud_slab_3" }]
+
+    }
+}

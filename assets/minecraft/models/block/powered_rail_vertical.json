@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/tinted_cross",
+	"textures": {
+		"cross": "block/powered_rail_model"
+	},
+	"elements": [
+		{
+			"from": [6.5, 0, 8],
+			"to": [9.5, 16, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [3, 0, 6, 16], "texture": "#cross"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#cross"},
+				"south": {"uv": [3, 0, 6, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#cross"},
+				"up": {"uv": [0, 0, 3, 0], "texture": "#cross"},
+				"down": {"uv": [0, 0, 3, 0], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, 0, 6.5],
+			"to": [8, 16, 9.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#cross"},
+				"east": {"uv": [0, 0, 3, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 3, 16], "texture": "#cross"},
+				"up": {"uv": [0, 0, 3, 0], "rotation": 270, "texture": "#cross"},
+				"down": {"uv": [0, 0, 3, 0], "rotation": 90, "texture": "#cross"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [21, 15, 0],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}

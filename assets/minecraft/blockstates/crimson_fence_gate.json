@@ -7,10 +7,14 @@
           "open": "false",
           "powered": "false"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true
-        }
+        "apply": [
+		{"model": "block/vertical_slab_polished_andesite"},
+		{"model": "block/vertical_slab_polished_andesite_2"},
+		{"model": "block/vertical_slab_polished_andesite_3"},
+		{"model": "block/vertical_slab_polished_andesite_4"},
+		{"model": "block/vertical_slab_polished_andesite_5"},
+		{"model": "block/vertical_slab_polished_andesite_6"}
+        ]
       },
       {
         "when": {
@@ -19,11 +23,14 @@
           "open": "false",
           "powered": "false"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 90
-        }
+        "apply": [
+		{"model": "block/vertical_slab_polished_andesite", "y": 90},
+		{"model": "block/vertical_slab_polished_andesite_2", "y": 90},
+		{"model": "block/vertical_slab_polished_andesite_3", "y": 90},
+		{"model": "block/vertical_slab_polished_andesite_4", "y": 90},
+		{"model": "block/vertical_slab_polished_andesite_5", "y": 90},
+		{"model": "block/vertical_slab_polished_andesite_6", "y": 90}
+        ]
       },
       {
         "when": {
@@ -32,11 +39,14 @@
           "open": "false",
           "powered": "false"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 180
-        }
+        "apply": [
+		{"model": "block/vertical_slab_polished_andesite", "y": 180},
+		{"model": "block/vertical_slab_polished_andesite_2", "y": 180},
+		{"model": "block/vertical_slab_polished_andesite_3", "y": 180},
+		{"model": "block/vertical_slab_polished_andesite_4", "y": 180},
+		{"model": "block/vertical_slab_polished_andesite_5", "y": 180},
+		{"model": "block/vertical_slab_polished_andesite_6", "y": 180}
+        ]
       },
       {
         "when": {
@@ -45,11 +55,14 @@
           "open": "false",
           "powered": "false"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 270
-        }
+        "apply": [
+		{"model": "block/vertical_slab_polished_andesite", "y": 270},
+		{"model": "block/vertical_slab_polished_andesite_2", "y": 270},
+		{"model": "block/vertical_slab_polished_andesite_3", "y": 270},
+		{"model": "block/vertical_slab_polished_andesite_4", "y": 270},
+		{"model": "block/vertical_slab_polished_andesite_5", "y": 270},
+		{"model": "block/vertical_slab_polished_andesite_6", "y": 270}
+        ]
       },
       {
         "when": {
@@ -59,7 +72,7 @@
           "powered": "false"
         },
         "apply": { 
-            "model": "block/replace",
+            "model": "block/vertical_slab_dripstone",
              "uvlock": true 
         }
     
@@ -72,7 +85,7 @@
           "powered": "false"
         },
         "apply": { 
-            "model": "block/replace",
+            "model": "block/vertical_slab_dripstone",
              "uvlock": true,
               "y":90 
         }
@@ -85,7 +98,7 @@
           "powered": "false"
         },
         "apply": { 
-            "model": "block/replace",
+            "model": "block/vertical_slab_dripstone",
              "uvlock": true,
               "y":180 
         }
@@ -98,7 +111,7 @@
           "powered": "false"
         },
         "apply": { 
-            "model": "block/replace",
+            "model": "block/vertical_slab_dripstone",
              "uvlock": true,
               "y":270
         }
@@ -111,7 +124,7 @@
           "powered": "false"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/vertical_slab_dark_dripstone",
           "uvlock": true
         }
       },
@@ -123,7 +136,7 @@
           "powered": "false"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/vertical_slab_dark_dripstone",
           "uvlock": true,
           "y": 90
         }
@@ -136,7 +149,7 @@
           "powered": "false"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/vertical_slab_dark_dripstone",
           "uvlock": true,
           "y": 180
         }
@@ -149,7 +162,7 @@
           "powered": "false"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/vertical_slab_dark_dripstone",
           "uvlock": true,
           "y": 270
         }
