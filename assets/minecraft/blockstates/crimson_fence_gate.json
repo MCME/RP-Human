@@ -175,10 +175,7 @@
           "powered": "false"
         },
         "apply": [
-        {"model": "block/replace", "uvlock": true},
-		{"model": "block/replace", "uvlock": true},
-		{"model": "block/replace", "uvlock": true},
-		{"model": "block/replace", "uvlock": true}
+        {"model": "block/dark_architrave_half", "uvlock": false}
 		]
       },
       {
@@ -189,10 +186,7 @@
           "powered": "false"
         },
         "apply": [
-        {"model": "block/replace", "uvlock": true, "y": 90},
-		{"model": "block/replace", "uvlock": true, "y": 90},
-		{"model": "block/replace", "uvlock": true, "y": 90},
-		{"model": "block/replace", "uvlock": true, "y": 90}
+        {"model": "block/dark_architrave_half", "uvlock": false, "y": 90}
 		]
       },
       {
@@ -203,10 +197,7 @@
           "powered": "false"
         },
         "apply": [
-        {"model": "block/replace", "uvlock": true, "y": 180},
-		{"model": "block/replace", "uvlock": true, "y": 180},
-		{"model": "block/replace", "uvlock": true, "y": 180},
-		{"model": "block/replace", "uvlock": true, "y": 180}
+        {"model": "block/dark_architrave_half", "uvlock": false, "y": 180}
 		]
       },
       {
@@ -217,10 +208,7 @@
           "powered": "false"
         },
         "apply": [
-        {"model": "block/replace", "uvlock": true, "y": 270},
-		{"model": "block/replace", "uvlock": true, "y": 270},
-		{"model": "block/replace", "uvlock": true, "y": 270},
-		{"model": "block/replace", "uvlock": true, "y": 270}
+        {"model": "block/dark_architrave_half", "uvlock": false, "y": 270}
 		]
       },
       {
@@ -423,7 +411,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/vertical_slab_dark_pillar",
           "uvlock": false
         }
       },
@@ -435,7 +423,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/vertical_slab_dark_pillar",
           "uvlock": false,
           "y": 90
         }
@@ -448,7 +436,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/vertical_slab_dark_pillar",
           "uvlock": false, "y": 180
         }
       },
@@ -460,7 +448,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/replace",
+          "model": "block/vertical_slab_dark_pillar",
           "uvlock": false,
           "y": 270
         }
