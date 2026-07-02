@@ -1,0 +1,10 @@
+{
+  "variants": {
+   
+    "north=false,east=false,south=false,west=true": { "model": "block/bricks_vertical_quarter", "y":270 },
+    "north=false,east=false,south=true,west=false": { "model": "block/bricks_vertical_quarter", "y":180 },
+    "north=false,east=true,south=false,west=false": { "model": "block/bricks_vertical_quarter", "y":90 },
+   
+    "north=true,east=false,south=false,west=false": { "model": "block/bricks_vertical_quarter" }
+  }
+}

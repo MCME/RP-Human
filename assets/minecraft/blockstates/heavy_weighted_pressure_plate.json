@@ -130,9 +130,19 @@
 					{ "model": "block/boulders_blue_6", "y": 180 },
 					{ "model": "block/boulders_blue_6", "y": 270 }
 					],
-	"power\u003d5": {
-      "model": "block/replace"
-    },
+	"power\u003d5": [
+					{ "model": "block/brick_pile" },
+					{ "model": "block/brick_pile", "y": 90 },
+					{ "model": "block/brick_pile", "y": 180 },
+					{ "model": "block/brick_pile", "y": 270 },
+					{ "model": "block/brick_pile_2" },
+					{ "model": "block/brick_pile_2", "y": 90 },
+					{ "model": "block/brick_pile_2", "y": 180 },
+					{ "model": "block/brick_pile_2", "y": 270 },
+					{ "model": "block/brick_pile_3" },
+					{ "model": "block/brick_pile_3", "y": 90 },
+					{ "model": "block/brick_pile_3", "y": 180 },
+					{ "model": "block/brick_pile_3", "y": 270 }],
 	"power\u003d6": {
       "model": "block/replace"
     },
