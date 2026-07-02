@@ -1,0 +1,15 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "north": true,
+        "east": true,
+        "south": true,
+        "west": true
+      },
+      "apply": {
+        "model": "block/green_architrave"
+      }
+    }
+  ]
+}
