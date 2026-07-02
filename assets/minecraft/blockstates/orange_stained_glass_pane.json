@@ -1,15 +1,22 @@
 {
-  "multipart": [
-    {
-      "when": {
-        "north": true,
-        "east": true,
-        "south": true,
-        "west": true
-      },
-      "apply": {
-        "model": "block/green_architrave"
-      }
+  "variants": {
+    "east=true,north=true,south=true,west=true": {
+      "model": "block/green_architrave"
+    },
+    "east=false,north=false,south=true,west=true": {
+      "model": "block/orange_stained_glass_pane_ne",
+      "y": 180
+    },
+    "east=false,north=true,south=false,west=true": {
+      "model": "block/orange_stained_glass_pane_ne",
+      "y": 270
+    },
+    "east=true,north=false,south=true,west=false": {
+      "model": "block/orange_stained_glass_pane_ne",
+      "y": 90
+    },
+    "east=true,north=true,south=false,west=false": {
+      "model": "block/orange_stained_glass_pane_ne"
     }
-  ]
+  }
 }
