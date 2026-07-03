@@ -127,19 +127,17 @@
 	{ "model": "block/ghost_brick_pile_3", "y": 270 }
 	],
     "powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=true": [
-	{ "model": "block/replace", "y":270},
-	{ "model": "block/replace", "y":270}
+	{ "model": "block/ghost_rim", "y":90}
 	],
     "powered=true,disarmed=false,attached=false,north=false,east=false,south=true,west=false": [
-	{ "model": "block/replace", "y":180},
-	{ "model": "block/replace", "y":180}
+	{ "model": "block/ghost_rim"}
 	],
     "powered=true,disarmed=false,attached=false,north=false,east=false,south=true,west=true": [
 	{ "model": "block/greplaceround_hide", "y":270},
 	{ "model": "block/replace", "y":270}
 	],
     ",powered=true,disarmed=false,attached=false,north=false,east=true,south=false,west=false": {
-	  "model": "block/replace", "y":90
+	  "model": "block/ghost_rim", "y":270
 	},
     "powered=true,disarmed=false,attached=false,north=false,east=true,south=false,west=true": {
 	  "model": "block/replace"
@@ -151,7 +149,7 @@
 	  "model": "block/replace", "y":270
 	},
 	"powered=true,disarmed=false,attached=false,north=true,east=false,south=false,west=false": {
-	  "model": "block/replace" 
+	  "model": "block/ghost_rim", "y":180 
 	},
 	"powered=true,disarmed=false,attached=false,north=true,east=false,south=false,west=true": {
 	  "model": "block/replace", "y":90 
