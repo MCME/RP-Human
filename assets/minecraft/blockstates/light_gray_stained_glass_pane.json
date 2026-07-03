@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "east=false,north=false,south=true,west=true": {
+      "model": "block/vertical_quarter_ghost_pillar_1",
+      "y": 180
+    },
+    "east=false,north=true,south=false,west=true": {
+      "model": "block/vertical_quarter_ghost_pillar_1",
+      "y": 270
+    },
+    "east=true,north=false,south=true,west=false": {
+      "model": "block/vertical_quarter_ghost_pillar_1",
+      "y": 90
+    },
+    "east=true,north=true,south=false,west=false": {
+      "model": "block/vertical_quarter_ghost_pillar_1"
+    },
+    "east=true,north=false,south=true,west=true": {
+      "model": "block/vertical_slab_ghost_pillar_2"
+    },
+    "east=false,north=true,south=true,west=true": {
+      "model": "block/vertical_slab_ghost_pillar_2",
+      "y": 90
+    },
+    "east=true,north=true,south=false,west=true": {
+      "model": "block/vertical_slab_ghost_pillar_2",
+      "y": 180
+    },
+    "east=true,north=true,south=true,west=false": {
+      "model": "block/vertical_slab_ghost_pillar_2",
+      "y": 270
+    }
+  }
+}
