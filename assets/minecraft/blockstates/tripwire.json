@@ -113,8 +113,18 @@
 	{ "model": "block/replace"	}
 	],
 	"powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=false": [
-	{ "model": "block/replace", "y":180},
-	{ "model": "block/replace", "y":180}
+	{ "model": "block/ghost_brick_pile" },
+	{ "model": "block/ghost_brick_pile", "y": 90 },
+	{ "model": "block/ghost_brick_pile", "y": 180 },
+	{ "model": "block/ghost_brick_pile", "y": 270 },
+	{ "model": "block/ghost_brick_pile_2" },
+	{ "model": "block/ghost_brick_pile_2", "y": 90 },
+	{ "model": "block/ghost_brick_pile_2", "y": 180 },
+	{ "model": "block/ghost_brick_pile_2", "y": 270 },
+	{ "model": "block/ghost_brick_pile_3" },
+	{ "model": "block/ghost_brick_pile_3", "y": 90 },
+	{ "model": "block/ghost_brick_pile_3", "y": 180 },
+	{ "model": "block/ghost_brick_pile_3", "y": 270 }
 	],
     "powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=true": [
 	{ "model": "block/replace", "y":270},
