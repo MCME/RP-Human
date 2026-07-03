@@ -17,6 +17,21 @@
     },
     "east=true,north=true,south=false,west=false": {
       "model": "block/orange_stained_glass_pane_ne"
+    },
+    "east=true,north=false,south=true,west=true": {
+      "model": "block/vertical_slab_green_pillar"
+    },
+    "east=false,north=true,south=true,west=true": {
+      "model": "block/vertical_slab_green_pillar",
+      "y": 90
+    },
+    "east=true,north=true,south=false,west=true": {
+      "model": "block/vertical_slab_green_pillar",
+      "y": 180
+    },
+    "east=true,north=true,south=true,west=false": {
+      "model": "block/vertical_slab_green_pillar",
+      "y": 270
     }
   }
 }
