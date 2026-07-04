@@ -53,16 +53,10 @@
 	  {"model": "minecraft:block/replace", "y":90}
 	  ],
     "facing=south,half=bottom,open=false,powered=false": [
-	  {"model": "minecraft:block/replace"},
-	  {"model": "minecraft:block/replace"},
-	  {"model": "minecraft:block/replace"},
-	  {"model": "minecraft:block/replace"}
+	  {"model": "minecraft:block/trapdoor_stonebrick_chiseled_bottom"}
 	  ],
     "facing=south,half=top,open=false,powered=false": [
-	  {"model": "minecraft:block/replace"},
-	  {"model": "minecraft:block/replace"},
-	  {"model": "minecraft:block/replace"},
-	  {"model": "minecraft:block/replace"}
+	  {"model": "minecraft:block/trapdoor_stonebrick_chiseled_bottom", "x":180}
 	  ],
     "facing=west,half=bottom,open=false,powered=false": [
 	  {"model": "minecraft:block/replace"},
