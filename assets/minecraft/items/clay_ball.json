@@ -7763,7 +7763,7 @@
                 "threshold": 1257,
                 "model": {
                     "type": "model",
-                    "model": "block/ghost_pillar_1_corner"
+                    "model": "block/ghost_bricks_offset"
                 }
             },
             {
@@ -7827,6 +7827,41 @@
                 "model": {
                     "type": "model",
                     "model": "block/ghost_rim"
+                }
+            },
+            {
+                "threshold": 1267,
+                "model": {
+                    "type": "model",
+                    "model": "block/ghost_architrave_offset"
+                }
+            },
+            {
+                "threshold": 1268,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_ghost_architrave"
+                }
+            },
+            {
+                "threshold": 1269,
+                "model": {
+                    "type": "model",
+                    "model": "block/ghost_rim_corner"
+                }
+            },
+            {
+                "threshold": 1270,
+                "model": {
+                    "type": "model",
+                    "model": "block/ghost_pillar_1_corner"
+                }
+            },
+            {
+                "threshold": 1271,
+                "model": {
+                    "type": "model",
+                    "model": "block/ghost_pillar_2_offset"
                 }
             }
         ]

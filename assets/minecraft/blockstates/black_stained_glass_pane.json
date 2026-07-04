@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "east=true,north=true,south=true,west=true": {
+      "model": "block/ghost_architrave"
+    },
+    "east=true,north=false,south=true,west=true": {
+      "model": "block/vertical_slab_ghost_architrave"
+    },
+    "east=false,north=true,south=true,west=true": {
+      "model": "block/vertical_slab_ghost_architrave",
+      "y": 90
+    },
+    "east=true,north=true,south=false,west=true": {
+      "model": "block/vertical_slab_ghost_architrave",
+      "y": 180
+    },
+    "east=true,north=true,south=true,west=false": {
+      "model": "block/vertical_slab_ghost_architrave",
+      "y": 270
+    },
+    "east=false,north=false,south=true,west=true": {
+      "model": "block/ghost_architrave_offset",
+      "y": 180
+    },
+    "east=false,north=true,south=false,west=true": {
+      "model": "block/ghost_architrave_offset",
+      "y": 270
+    },
+    "east=true,north=false,south=true,west=false": {
+      "model": "block/ghost_architrave_offset",
+      "y": 90
+    },
+    "east=true,north=true,south=false,west=false": {
+      "model": "block/ghost_architrave_offset"
+    }
+  }
+}
