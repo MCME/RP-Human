@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "east=false,north=false,south=false,west=false": {
+      "model": "block/yellow_stained_glass_med"
+    },
+	"east=true,north=true,south=true,west=true": {
+      "model": "block/yellow_stained_glass_thic"
+    }
+
+  }
+}
