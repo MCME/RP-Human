@@ -143,9 +143,83 @@
 					{ "model": "block/brick_pile_3", "y": 90 },
 					{ "model": "block/brick_pile_3", "y": 180 },
 					{ "model": "block/brick_pile_3", "y": 270 }],
-	"power\u003d6": {
-      "model": "block/replace"
-    },
+	"power\u003d6": [
+            {
+                "model": "block/red_candle"
+            },
+            {
+                "model": "block/red_candle",
+                "y": 90
+            },
+            {
+                "model": "block/red_candle",
+                "y": 180
+            },
+            {
+                "model": "block/red_candle",
+                "y": 270
+            },
+            {
+                "model": "block/red_candle_2"
+            },
+            {
+                "model": "block/red_candle_2",
+                "y": 90
+            },
+            {
+                "model": "block/red_candle_2",
+                "y": 180
+            },
+            {
+                "model": "block/red_candle_2",
+                "y": 270
+            },
+			{
+                "model": "block/red_candle_3"
+            },
+            {
+                "model": "block/red_candle_3",
+                "y": 90
+            },
+            {
+                "model": "block/red_candle_3",
+                "y": 180
+            },
+            {
+                "model": "block/red_candle_3",
+                "y": 270
+            },
+			{
+                "model": "block/red_candle_4"
+            },
+            {
+                "model": "block/red_candle_4",
+                "y": 90
+            },
+            {
+                "model": "block/red_candle_4",
+                "y": 180
+            },
+            {
+                "model": "block/red_candle_4",
+                "y": 270
+            },
+			{
+                "model": "block/red_candle_5"
+            },
+            {
+                "model": "block/red_candle_5",
+                "y": 90
+            },
+            {
+                "model": "block/red_candle_5",
+                "y": 180
+            },
+            {
+                "model": "block/red_candle_5",
+                "y": 270
+            }
+        ],
 	"power\u003d7": {
       "model": "block/replace"
     },
