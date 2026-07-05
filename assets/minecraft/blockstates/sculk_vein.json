@@ -22,6 +22,26 @@
 	{"model": "minecraft:block/slave_shackles", "y":90  },
 	{"model": "minecraft:block/slave_shackles", "y":180  },
 	{"model": "minecraft:block/slave_shackles", "y":270  }
+	],
+	"up=false,north=true,east=false,south=false,west=false,down=false":[
+	{ "model": "block/skulls" },
+	{ "model": "block/skulls_2" },
+	{ "model": "block/skulls_3" }
+	],
+	"up=false,north=false,east=true,south=false,west=false,down=false":[
+	{ "model": "block/skulls", "y":90 },
+	{ "model": "block/skulls_2", "y":90 },
+	{ "model": "block/skulls_3", "y":90 }
+	],
+	"up=false,north=false,east=false,south=true,west=false,down=false":[
+	{ "model": "block/skulls", "y":180 },
+	{ "model": "block/skulls_2", "y":180 },
+	{ "model": "block/skulls_3", "y":180 }
+	],
+	"up=false,north=false,east=false,south=false,west=true,down=false":[
+	{ "model": "block/skulls", "y":270 },
+	{ "model": "block/skulls_2", "y":270 },
+	{ "model": "block/skulls_3", "y":270 }
 	]
     }
 }
