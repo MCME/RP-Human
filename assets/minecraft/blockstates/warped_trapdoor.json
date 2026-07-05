@@ -73,16 +73,10 @@
 	  {"model": "minecraft:block/trapdoor_mixed_cobblestone_bottom", "x":180 }
 	  ],
     "facing=south,half=bottom,open=false,powered=true": [
-	  {"model": "minecraft:block/replace"},
-	  {"model": "minecraft:block/replace"},
-	  {"model": "minecraft:block/replace"},
-	  {"model": "minecraft:block/replace"}
+	  {"model": "minecraft:block/trapdoor_red_cobblestone_bottom"}
 	  ],
     "facing=south,half=top,open=false,powered=true": [
-	  {"model": "minecraft:block/replace"},
-	  {"model": "minecraft:block/replace"},
-	  {"model": "minecraft:block/replace"},
-	  {"model": "minecraft:block/replace"}
+	  {"model": "minecraft:block/trapdoor_red_cobblestone_bottom", "x":180}
 	  ],
     "facing=west,half=bottom,open=false,powered=true": [
 	  {"model": "minecraft:block/replace"},
@@ -97,20 +91,16 @@
 	  {"model": "minecraft:block/replace", "y": 270}
 	  ],
 	  "facing=south,half=top,open=true,powered=true": [
-	  {"model": "minecraft:block/replace"},
-	  {"model": "minecraft:block/replace"}
+	  {"model": "minecraft:block/trapdoor_red_cobblestone_open", "y":180 }
 	  ],
     "facing=east,half=top,open=true,powered=true": [
-	  {"model": "minecraft:block/replace", "y":270},
-	  {"model": "minecraft:block/replace", "y":270}
+	  {"model": "minecraft:block/trapdoor_red_cobblestone_open", "y":90}
 	  ],
     "facing=north,half=top,open=true,powered=true": [
-	  {"model": "minecraft:block/replace", "y":180},
-	  {"model": "minecraft:block/replace", "y":180}
+	  {"model": "minecraft:block/trapdoor_red_cobblestone_open", "y":0}
 	  ],
     "facing=west,half=top,open=true,powered=true": [
-	  {"model": "minecraft:block/replace", "y":90},
-	  {"model": "minecraft:block/replace", "y":90}
+	  {"model": "minecraft:block/trapdoor_red_cobblestone_open", "y":270}
 	  ]
   }
 }
