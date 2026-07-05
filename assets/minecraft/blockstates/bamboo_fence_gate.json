@@ -8,12 +8,12 @@
           "powered": "false"
         },
         "apply": [
-		{"model": "block/vertical_slab_polished_andesite"},
-		{"model": "block/vertical_slab_polished_andesite_2"},
-		{"model": "block/vertical_slab_polished_andesite_3"},
-		{"model": "block/vertical_slab_polished_andesite_4"},
-		{"model": "block/vertical_slab_polished_andesite_5"},
-		{"model": "block/vertical_slab_polished_andesite_6"}
+		{"model": "block/replace"},
+		{"model": "block/replace"},
+		{"model": "block/replace"},
+		{"model": "block/replace"},
+		{"model": "block/replace"},
+		{"model": "block/replace"}
         ]
       },
       {
@@ -24,12 +24,12 @@
           "powered": "false"
         },
         "apply": [
-		{"model": "block/vertical_slab_polished_andesite", "y": 90},
-		{"model": "block/vertical_slab_polished_andesite_2", "y": 90},
-		{"model": "block/vertical_slab_polished_andesite_3", "y": 90},
-		{"model": "block/vertical_slab_polished_andesite_4", "y": 90},
-		{"model": "block/vertical_slab_polished_andesite_5", "y": 90},
-		{"model": "block/vertical_slab_polished_andesite_6", "y": 90}
+		{"model": "block/replace", "y": 90},
+		{"model": "block/replace", "y": 90},
+		{"model": "block/replace", "y": 90},
+		{"model": "block/replace", "y": 90},
+		{"model": "block/replace", "y": 90},
+		{"model": "block/replace", "y": 90}
         ]
       },
       {
@@ -40,12 +40,12 @@
           "powered": "false"
         },
         "apply": [
-		{"model": "block/vertical_slab_polished_andesite", "y": 180},
-		{"model": "block/vertical_slab_polished_andesite_2", "y": 180},
-		{"model": "block/vertical_slab_polished_andesite_3", "y": 180},
-		{"model": "block/vertical_slab_polished_andesite_4", "y": 180},
-		{"model": "block/vertical_slab_polished_andesite_5", "y": 180},
-		{"model": "block/vertical_slab_polished_andesite_6", "y": 180}
+		{"model": "block/replace", "y": 180},
+		{"model": "block/replace", "y": 180},
+		{"model": "block/replace", "y": 180},
+		{"model": "block/replace", "y": 180},
+		{"model": "block/replace", "y": 180},
+		{"model": "block/replace", "y": 180}
         ]
       },
       {
@@ -56,12 +56,12 @@
           "powered": "false"
         },
         "apply": [
-		{"model": "block/vertical_slab_polished_andesite", "y": 270},
-		{"model": "block/vertical_slab_polished_andesite_2", "y": 270},
-		{"model": "block/vertical_slab_polished_andesite_3", "y": 270},
-		{"model": "block/vertical_slab_polished_andesite_4", "y": 270},
-		{"model": "block/vertical_slab_polished_andesite_5", "y": 270},
-		{"model": "block/vertical_slab_polished_andesite_6", "y": 270}
+		{"model": "block/replace", "y": 270},
+		{"model": "block/replace", "y": 270},
+		{"model": "block/replace", "y": 270},
+		{"model": "block/replace", "y": 270},
+		{"model": "block/replace", "y": 270},
+		{"model": "block/replace", "y": 270}
         ]
       },
       {
@@ -72,8 +72,8 @@
           "powered": "false"
         },
         "apply": { 
-            "model": "block/vertical_slab_dripstone",
-             "uvlock": true 
+            "model": "block/vertical_slab_double_slab_cobblestone_mossy",
+             "uvlock": false 
         }
     
       },
@@ -85,8 +85,8 @@
           "powered": "false"
         },
         "apply": { 
-            "model": "block/vertical_slab_dripstone",
-             "uvlock": true,
+            "model": "block/vertical_slab_double_slab_cobblestone_mossy",
+             "uvlock": false,
               "y":90 
         }
       },
@@ -98,8 +98,8 @@
           "powered": "false"
         },
         "apply": { 
-            "model": "block/vertical_slab_dripstone",
-             "uvlock": true,
+            "model": "block/vertical_slab_double_slab_cobblestone_mossy",
+             "uvlock": false,
               "y":180 
         }
       },
@@ -111,8 +111,8 @@
           "powered": "false"
         },
         "apply": { 
-            "model": "block/vertical_slab_dripstone",
-             "uvlock": true,
+            "model": "block/vertical_slab_double_slab_cobblestone_mossy",
+             "uvlock": false,
               "y":270
         }
       },
@@ -124,7 +124,7 @@
           "powered": "false"
         },
         "apply": {
-          "model": "block/vertical_slab_dark_dripstone",
+          "model": "block/vertical_slab_monster_egg_cobblestone",
           "uvlock": true
         }
       },
@@ -136,8 +136,8 @@
           "powered": "false"
         },
         "apply": {
-          "model": "block/vertical_slab_dark_dripstone",
-          "uvlock": true,
+          "model": "block/vertical_slab_monster_egg_cobblestone",
+          "uvlock": false,
           "y": 90
         }
       },
@@ -149,8 +149,8 @@
           "powered": "false"
         },
         "apply": {
-          "model": "block/vertical_slab_dark_dripstone",
-          "uvlock": true,
+          "model": "block/vertical_slab_monster_egg_cobblestone",
+          "uvlock": false,
           "y": 180
         }
       },
@@ -162,8 +162,8 @@
           "powered": "false"
         },
         "apply": {
-          "model": "block/vertical_slab_dark_dripstone",
-          "uvlock": true,
+          "model": "block/vertical_slab_monster_egg_cobblestone",
+          "uvlock": false,
           "y": 270
         }
       },
@@ -175,7 +175,7 @@
           "powered": "false"
         },
         "apply": [
-        {"model": "block/dark_architrave_half", "uvlock": false}
+        {"model": "block/replace", "uvlock": false}
 		]
       },
       {
@@ -186,7 +186,7 @@
           "powered": "false"
         },
         "apply": [
-        {"model": "block/dark_architrave_half", "uvlock": false, "y": 90}
+        {"model": "block/replace", "uvlock": false, "y": 90}
 		]
       },
       {
@@ -197,7 +197,7 @@
           "powered": "false"
         },
         "apply": [
-        {"model": "block/dark_architrave_half", "uvlock": false, "y": 180}
+        {"model": "block/replace", "uvlock": false, "y": 180}
 		]
       },
       {
@@ -208,7 +208,7 @@
           "powered": "false"
         },
         "apply": [
-        {"model": "block/dark_architrave_half", "uvlock": false, "y": 270}
+        {"model": "block/replace", "uvlock": false, "y": 270}
 		]
       },
       {
@@ -219,12 +219,12 @@
           "powered": "true"
         },
         "apply": [
-		{ "model": "block/vertical_slab_polished_granite",  "uvlock": true  },
-		{ "model": "block/vertical_slab_polished_granite_2",  "uvlock": true  },
-		{ "model": "block/vertical_slab_polished_granite_3",  "uvlock": true  },
-		{ "model": "block/vertical_slab_polished_granite_4",  "uvlock": true  },
-		{ "model": "block/vertical_slab_polished_granite_5",  "uvlock": true  },
-		{ "model": "block/vertical_slab_polished_granite_6",  "uvlock": true  }
+		{ "model": "block/replace",  "uvlock": true  },
+		{ "model": "block/replace",  "uvlock": true  },
+		{ "model": "block/replace",  "uvlock": true  },
+		{ "model": "block/replace",  "uvlock": true  },
+		{ "model": "block/replace",  "uvlock": true  },
+		{ "model": "block/replace",  "uvlock": true  }
 		]
       },
       {
@@ -235,12 +235,12 @@
           "powered": "true"
         },
         "apply": [
-		{ "model": "block/vertical_slab_polished_granite",  "uvlock": true, "y": 90  },
-		{ "model": "block/vertical_slab_polished_granite_2",  "uvlock": true, "y": 90  },
-		{ "model": "block/vertical_slab_polished_granite_3",  "uvlock": true, "y": 90  },
-		{ "model": "block/vertical_slab_polished_granite_4",  "uvlock": true, "y": 90  },
-		{ "model": "block/vertical_slab_polished_granite_5",  "uvlock": true, "y": 90  },
-		{ "model": "block/vertical_slab_polished_granite_6",  "uvlock": true, "y": 90  }
+		{ "model": "block/replace",  "uvlock": true, "y": 90  },
+		{ "model": "block/replace",  "uvlock": true, "y": 90  },
+		{ "model": "block/replace",  "uvlock": true, "y": 90  },
+		{ "model": "block/replace",  "uvlock": true, "y": 90  },
+		{ "model": "block/replace",  "uvlock": true, "y": 90  },
+		{ "model": "block/replace",  "uvlock": true, "y": 90  }
 		]
       },
       {
@@ -251,12 +251,12 @@
           "powered": "true"
         },
         "apply": [
-		{ "model": "block/vertical_slab_polished_granite",  "uvlock": true, "y": 180  },
-		{ "model": "block/vertical_slab_polished_granite_2",  "uvlock": true, "y": 180  },
-		{ "model": "block/vertical_slab_polished_granite_3",  "uvlock": true, "y": 180  },
-		{ "model": "block/vertical_slab_polished_granite_4",  "uvlock": true, "y": 180  },
-		{ "model": "block/vertical_slab_polished_granite_5",  "uvlock": true, "y": 180  },
-		{ "model": "block/vertical_slab_polished_granite_6",  "uvlock": true, "y": 180  }
+		{ "model": "block/replace",  "uvlock": true, "y": 180  },
+		{ "model": "block/replace",  "uvlock": true, "y": 180  },
+		{ "model": "block/replace",  "uvlock": true, "y": 180  },
+		{ "model": "block/replace",  "uvlock": true, "y": 180  },
+		{ "model": "block/replace",  "uvlock": true, "y": 180  },
+		{ "model": "block/replace",  "uvlock": true, "y": 180  }
 		]
       },
       {
@@ -267,12 +267,12 @@
           "powered": "true"
         },
         "apply": [
-		{ "model": "block/vertical_slab_polished_granite",  "uvlock": true, "y": 270  },
-		{ "model": "block/vertical_slab_polished_granite_2",  "uvlock": true, "y": 270  },
-		{ "model": "block/vertical_slab_polished_granite_3",  "uvlock": true, "y": 270  },
-		{ "model": "block/vertical_slab_polished_granite_4",  "uvlock": true, "y": 270  },
-		{ "model": "block/vertical_slab_polished_granite_5",  "uvlock": true, "y": 270  },
-		{ "model": "block/vertical_slab_polished_granite_6",  "uvlock": true, "y": 270  }
+		{ "model": "block/replace",  "uvlock": true, "y": 270  },
+		{ "model": "block/replace",  "uvlock": true, "y": 270  },
+		{ "model": "block/replace",  "uvlock": true, "y": 270  },
+		{ "model": "block/replace",  "uvlock": true, "y": 270  },
+		{ "model": "block/replace",  "uvlock": true, "y": 270  },
+		{ "model": "block/replace",  "uvlock": true, "y": 270  }
 		]
       },
       {
@@ -283,7 +283,7 @@
           "powered": "true"
         },
         "apply": [
-        {"model": "block/vertical_slab_double_slab_cobblestone", "uvlock": false}
+        {"model": "block/replace", "uvlock": false}
         ]
       },
       {
@@ -294,7 +294,7 @@
           "powered": "true"
         },
         "apply": [
-        {"model": "block/vertical_slab_double_slab_cobblestone", "uvlock": false, "y": 90}
+        {"model": "block/replace", "uvlock": false, "y": 90}
         ]
       },
       {
@@ -305,7 +305,7 @@
           "powered": "true"
         },
         "apply": [
-        {"model": "block/vertical_slab_double_slab_cobblestone", "uvlock": false, "y": 180}
+        {"model": "block/replace", "uvlock": false, "y": 180}
         ]
       },
       {
@@ -316,7 +316,7 @@
           "powered": "true"
         },
         "apply": [
-        {"model": "block/vertical_slab_double_slab_cobblestone", "uvlock": false, "y": 270}
+        {"model": "block/replace", "uvlock": false, "y": 270}
         ]
       },
       {
@@ -327,12 +327,12 @@
           "powered": "true"
         },
         "apply": [
-		{"model": "block/vertical_slab_stone"},
-		{"model": "block/vertical_slab_stone_2"},
-		{"model": "block/vertical_slab_stone_3"},
-		{"model": "block/vertical_slab_stone_4"},
-		{"model": "block/vertical_slab_stone_5"},
-		{"model": "block/vertical_slab_stone_6"}
+		{"model": "block/replace"},
+		{"model": "block/replace"},
+		{"model": "block/replace"},
+		{"model": "block/replace"},
+		{"model": "block/replace"},
+		{"model": "block/replace"}
         ]
       },
       {
@@ -343,12 +343,12 @@
           "powered": "true"
         },
         "apply": [
-		{"model": "block/vertical_slab_stone", "y": 90},
-		{"model": "block/vertical_slab_stone_2", "y": 90},
-		{"model": "block/vertical_slab_stone_3", "y": 90},
-		{"model": "block/vertical_slab_stone_4", "y": 90},
-		{"model": "block/vertical_slab_stone_5", "y": 90},
-		{"model": "block/vertical_slab_stone_6", "y": 90}
+		{"model": "block/replace", "y": 90},
+		{"model": "block/replace", "y": 90},
+		{"model": "block/replace", "y": 90},
+		{"model": "block/replace", "y": 90},
+		{"model": "block/replace", "y": 90},
+		{"model": "block/replace", "y": 90}
         ]
       },
       {
@@ -359,12 +359,12 @@
           "powered": "true"
         },
         "apply": [
-		{"model": "block/vertical_slab_stone", "y": 180},
-		{"model": "block/vertical_slab_stone_2", "y": 180},
-		{"model": "block/vertical_slab_stone_3", "y": 180},
-		{"model": "block/vertical_slab_stone_4", "y": 180},
-		{"model": "block/vertical_slab_stone_5", "y": 180},
-		{"model": "block/vertical_slab_stone_6", "y": 180}
+		{"model": "block/replace", "y": 180},
+		{"model": "block/replace", "y": 180},
+		{"model": "block/replace", "y": 180},
+		{"model": "block/replace", "y": 180},
+		{"model": "block/replace", "y": 180},
+		{"model": "block/replace", "y": 180}
         ]
       },
       {
@@ -375,12 +375,12 @@
           "powered": "true"
         },
         "apply": [
-		{"model": "block/vertical_slab_stone", "y": 270},
-		{"model": "block/vertical_slab_stone_2", "y": 270},
-		{"model": "block/vertical_slab_stone_3", "y": 270},
-		{"model": "block/vertical_slab_stone_4", "y": 270},
-		{"model": "block/vertical_slab_stone_5", "y": 270},
-		{"model": "block/vertical_slab_stone_6", "y": 270}
+		{"model": "block/replace", "y": 270},
+		{"model": "block/replace", "y": 270},
+		{"model": "block/replace", "y": 270},
+		{"model": "block/replace", "y": 270},
+		{"model": "block/replace", "y": 270},
+		{"model": "block/replace", "y": 270}
         ]
       },
       {
@@ -391,7 +391,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/vertical_slab_dark_pillar",
+          "model": "block/replace",
           "uvlock": false
         }
       },
@@ -403,7 +403,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/vertical_slab_dark_pillar",
+          "model": "block/replace",
           "uvlock": false,
           "y": 90
         }
@@ -416,7 +416,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/vertical_slab_dark_pillar",
+          "model": "block/replace",
           "uvlock": false, "y": 180
         }
       },
@@ -428,7 +428,7 @@
           "powered": "true"
         },
         "apply": {
-          "model": "block/vertical_slab_dark_pillar",
+          "model": "block/replace",
           "uvlock": false,
           "y": 270
         }

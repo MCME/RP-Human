@@ -15,6 +15,13 @@
 	{ "model": "block/iron_sheets_ground_3", "y":270 }
 	],
 	"up=true,north=false,east=false,south=false,west=false,down=false":
-	{ "model": "block/hook" }
+	{ "model": "block/hook" },
+	"up=true,north=false,east=false,south=false,west=false,down=true":
+	[
+	{"model": "minecraft:block/slave_shackles"  },
+	{"model": "minecraft:block/slave_shackles", "y":90  },
+	{"model": "minecraft:block/slave_shackles", "y":180  },
+	{"model": "minecraft:block/slave_shackles", "y":270  }
+	]
     }
 }
