@@ -124,7 +124,7 @@
           "powered": "false"
         },
         "apply": {
-          "model": "block/vertical_slab_monster_egg_cobblestone",
+          "model": "block/replace",
           "uvlock": true
         }
       },
@@ -136,8 +136,8 @@
           "powered": "false"
         },
         "apply": {
-          "model": "block/vertical_slab_monster_egg_cobblestone",
-          "uvlock": false,
+          "model": "block/replace",
+          "uvlock": true,
           "y": 90
         }
       },
@@ -149,8 +149,8 @@
           "powered": "false"
         },
         "apply": {
-          "model": "block/vertical_slab_monster_egg_cobblestone",
-          "uvlock": false,
+          "model": "block/replace",
+          "uvlock": true,
           "y": 180
         }
       },
@@ -162,8 +162,8 @@
           "powered": "false"
         },
         "apply": {
-          "model": "block/vertical_slab_monster_egg_cobblestone",
-          "uvlock": false,
+          "model": "block/replace",
+          "uvlock": true,
           "y": 270
         }
       },
