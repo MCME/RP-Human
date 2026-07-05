@@ -1,0 +1,101 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "true",
+        "west": "true"
+      },
+      "apply": [
+        {
+          "model": "block/vertical_slab_ghost_bricks_mixed",
+          "uvlock": true
+        },
+        {
+          "model": "block/vertical_slab_ghost_bricks_mixed_2",
+          "uvlock": true
+        },
+        {
+          "model": "block/vertical_slab_ghost_bricks_mixed_3",
+          "uvlock": true
+        }
+      ]
+    },
+    {
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "true",
+        "west": "true"
+      },
+      "apply": [
+        {
+          "model": "block/vertical_slab_ghost_bricks_mixed",
+          "uvlock": true,
+          "y": 90
+        },
+        {
+          "model": "block/vertical_slab_ghost_bricks_mixed_2",
+          "uvlock": true,
+          "y": 90
+        },
+        {
+          "model": "block/vertical_slab_ghost_bricks_mixed_3",
+          "uvlock": true,
+          "y": 90
+        }
+      ]
+    },
+    {
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "false",
+        "west": "true"
+      },
+      "apply": [
+        {
+          "model": "block/vertical_slab_ghost_bricks_mixed",
+          "uvlock": true,
+          "y": 180
+        },
+        {
+          "model": "block/vertical_slab_ghost_bricks_mixed_2",
+          "uvlock": true,
+          "y": 180
+        },
+        {
+          "model": "block/vertical_slab_ghost_bricks_mixed_3",
+          "uvlock": true,
+          "y": 180
+        }
+      ]
+    },
+    {
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "true",
+        "west": "false"
+      },
+      "apply": [
+        {
+          "model": "block/vertical_slab_ghost_bricks_mixed",
+          "uvlock": true,
+          "y": 180
+        },
+        {
+          "model": "block/vertical_slab_ghost_bricks_mixed_2",
+          "uvlock": true,
+          "y": 180
+        },
+        {
+          "model": "block/vertical_slab_ghost_bricks_mixed_3",
+          "uvlock": true,
+          "y": 180
+        }
+      ]
+    }
+  ]
+}
