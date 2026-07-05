@@ -293,6 +293,20 @@
                     "type": "model",
                     "model": "gui/trees_alt"
                 }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "model",
+                    "model": "gui/det"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "gui/det_alt"
+                }
             }
         ]
     }
