@@ -37,10 +37,10 @@
 		  { "model": "block/red_stained_glass_stairs", "x":180, "y":270 }
 	      ],
     "powered=false,disarmed=false,attached=false,north=true,east=true,south=false,west=false": [   
-		  { "model": "block/replace" }
+		  { "model": "block/ghost_cobblestone_slab" }
 	      ],
     "powered=false,disarmed=false,attached=false,north=true,east=true,south=false,west=true": [
-	{ "model": "block/replace" }
+	{ "model": "block/weathered_ghost_bricks_slab" }
 	],
     "powered=false,disarmed=false,attached=false,north=true,east=true,south=true,west=false": [
 	{ "model": "block/replace", "y": 90 },
@@ -51,7 +51,7 @@
 	{ "model": "block/replace"}
 	],
     "powered=false,disarmed=false,attached=true,north=false,east=false,south=false,west=false": [
-	{ "model": "block/replace", "y": 180 }
+	{ "model": "block/trapdoor_ghost_cobblestone_bottom"}
 	],
     "powered=false,disarmed=false,attached=true,north=false,east=false,south=false,west=true": [
 	{ "model": "block/replace", "y":270}
