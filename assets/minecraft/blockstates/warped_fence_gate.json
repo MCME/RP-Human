@@ -1,0 +1,380 @@
+{
+    "multipart": [
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate"}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate", "y":90}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate", "y":180}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate", "y":270}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate_open"}
+	  ]
+    
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate_open", "y":90}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate_open", "y":180}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate_open", "y":270}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_resin_block"},
+	  {"model": "minecraft:block/vertical_slab_resin_block_2"},
+	  {"model": "minecraft:block/vertical_slab_resin_block_3"},
+	  {"model": "minecraft:block/vertical_slab_resin_block_4"}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_resin_block", "y":90},
+	  {"model": "minecraft:block/vertical_slab_resin_block_2", "y":90},
+	  {"model": "minecraft:block/vertical_slab_resin_block_3", "y":90},
+	  {"model": "minecraft:block/vertical_slab_resin_block_4", "y":90}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_resin_block", "y":180},
+	  {"model": "minecraft:block/vertical_slab_resin_block_2", "y":180},
+	  {"model": "minecraft:block/vertical_slab_resin_block_3", "y":180},
+	  {"model": "minecraft:block/vertical_slab_resin_block_4", "y":180}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_resin_block", "y":270},
+	  {"model": "minecraft:block/vertical_slab_resin_block_2", "y":270},
+	  {"model": "minecraft:block/vertical_slab_resin_block_3", "y":270},
+	  {"model": "minecraft:block/vertical_slab_resin_block_4", "y":270}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate_wall_open"}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate_wall_open", "y":90}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate_wall_open", "y":180}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate_wall_open", "y":270}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate", "y":180}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate", "y":270}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate"}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": [
+	  {"model": "minecraft:block/warped_fence_gate", "y":90}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/warped_fence_gate_open"
+        }
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/warped_fence_gate_open",
+          "y": 90
+        }
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/warped_fence_gate_open",
+		  "y": 180
+        }
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/warped_fence_gate_open",
+          "y": 270
+        }
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/warped_fence_gate_wall"
+        }
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/warped_fence_gate_wall",
+          "y": 90
+        }
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/warped_fence_gate_wall",
+          "y": 180
+        }
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/warped_fence_gate_wall",
+          "y": 270
+        }
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/warped_fence_gate_wall_open"
+
+        }
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/warped_fence_gate_wall_open",
+          "y": 90
+        }
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/warped_fence_gate_wall_open", "y": 180
+        }
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/pillar_top_white_half",
+          "uvlock": false,
+          "y": 270
+        }
+      }
+    ]
+  }
+  

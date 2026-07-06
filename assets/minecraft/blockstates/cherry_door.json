@@ -1,0 +1,34 @@
+{
+    "variants": {
+        "facing=east,half=lower,hinge=right,open=false,powered=true": {
+            "model": "minecraft:block/resin_block_offset_down"
+        },
+        "facing=east,half=lower,hinge=right,open=true,powered=true": {
+            "model": "minecraft:block/resin_block_offset_up",
+            "y": 180
+        },
+        "facing=north,half=lower,hinge=right,open=false,powered=true": {
+            "model": "minecraft:block/resin_block_offset_down",
+            "y": 270
+        },
+        "facing=north,half=lower,hinge=right,open=true,powered=true": {
+            "model": "minecraft:block/resin_block_offset_up",
+            "y": 90
+        },
+        "facing=south,half=lower,hinge=right,open=false,powered=true": {
+            "model": "minecraft:block/resin_block_offset_down",
+            "y": 90
+        },
+        "facing=south,half=lower,hinge=right,open=true,powered=true": {
+            "model": "minecraft:block/resin_block_offset_up",
+            "y": 270
+        },
+        "facing=west,half=lower,hinge=right,open=false,powered=true": {
+            "model": "minecraft:block/resin_block_offset_down",
+            "y": 180
+        },
+        "facing=west,half=lower,hinge=right,open=true,powered=true": {
+            "model": "minecraft:block/resin_block_offset_up"
+        }
+    }
+}
