@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east,half=upper,hinge=left,open=true,powered=true": {
+      "model": "minecraft:block/dripstone_vertical_thin_slab",
+      "y": 90
+    },
+    "facing=north,half=upper,hinge=left,open=true,powered=true": {
+      "model": "minecraft:block/dripstone_vertical_thin_slab"
+    },
+    "facing=south,half=upper,hinge=left,open=true,powered=true": {
+      "model": "minecraft:block/dripstone_vertical_thin_slab",
+      "y": 180
+    },
+    "facing=west,half=upper,hinge=left,open=true,powered=true": {
+      "model": "minecraft:block/dripstone_vertical_thin_slab",
+      "y": 270
+    }
+  }
+}
