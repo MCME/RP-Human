@@ -7,14 +7,25 @@
 	},
 	"elements": [
 		{
-			"from": [0, -1.48, 0],
-			"to": [0, 1.52, 16],
+			"from": [-0.0147, -1.48, 0],
+			"to": [-0.0147, 1.52, 16],
 			"rotation": {"angle": 0, "axis": "z", "origin": [0.03014, 0.03651, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 0], "rotation": 90, "texture": "#missing"},
+				"south": {"uv": [0, 0, 3, 0], "rotation": 90, "texture": "#missing"},
+				"west": {"uv": [3, 0, 6, 16], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 16], "rotation": 180, "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [0.0147, -1.48, 0],
+			"to": [0.0147, 1.52, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.03014, 0.03651, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 3, 0], "rotation": 90, "texture": "#missing"},
 				"east": {"uv": [3, 0, 6, 16], "rotation": 270, "texture": "#1"},
 				"south": {"uv": [0, 0, 3, 0], "rotation": 90, "texture": "#missing"},
-				"west": {"uv": [3, 0, 6, 16], "rotation": 90, "texture": "#1"},
 				"up": {"uv": [0, 0, 0, 16], "rotation": 180, "texture": "#missing"},
 				"down": {"uv": [0, 0, 0, 16], "texture": "#missing"}
 			}
@@ -28,7 +39,18 @@
 				"east": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#missing"},
 				"south": {"uv": [0, 0, 3, 0], "texture": "#missing"},
 				"west": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#missing"},
-				"up": {"uv": [3, 0, 6, 16], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [3, 0, 6, 16], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [-1.5, -0.02, 0],
+			"to": [1.5, -0.02, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.03014, 0.03651, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 0], "rotation": 180, "texture": "#missing"},
+				"east": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#missing"},
+				"south": {"uv": [0, 0, 3, 0], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#missing"},
 				"down": {"uv": [3, 0, 6, 16], "texture": "#1"}
 			}
 		}
@@ -71,7 +93,7 @@
 			"origin": [15.975, 13.68, 0.88527],
 			"scope": 0,
 			"color": 0,
-			"children": [0, 1]
+			"children": [0, 1, 2, 3]
 		}
 	]
 }
