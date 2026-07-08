@@ -1,0 +1,79 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [3, 3],
+	"textures": {
+		"6": "block/models/vase3",
+		"particle": "block/models/vase3"
+	},
+	"elements": [
+		{
+			"name": "vase_body_main",
+			"from": [11, -1, 9],
+			"to": [14, 5, 12],
+			"rotation": {"angle": -45, "axis": "y", "origin": [12.5, 7, 10.5]},
+			"faces": {
+				"north": {"uv": [3.00267, 5.00267, 6, 11.00267], "texture": "#6"},
+				"east": {"uv": [3.00267, 5.00267, 6, 11.00267], "texture": "#6"},
+				"south": {"uv": [3.00267, 5.00267, 6, 11.00267], "texture": "#6"},
+				"west": {"uv": [1.00267, 9.00267, 4, 10], "texture": "#6"},
+				"up": {"uv": [3.00267, 8, 6, 11.00267], "texture": "#6"},
+				"down": {"uv": [3.00267, 7.00267, 6, 10], "texture": "#6"}
+			}
+		},
+		{
+			"name": "vase_body",
+			"from": [10.5, -0.5, 8.5],
+			"to": [14.5, 3.5, 12.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [12.5, 7, 10.5]},
+			"faces": {
+				"north": {"uv": [0, 9, 4, 13], "texture": "#6"},
+				"east": {"uv": [0, 9.00267, 4, 13.00267], "texture": "#6"},
+				"south": {"uv": [0, 9.00267, 4, 13.00267], "texture": "#6"},
+				"west": {"uv": [0, 9.00267, 4, 12.99733], "texture": "#6"},
+				"up": {"uv": [3.00267, 5.00267, 7.00267, 9.00267], "texture": "#6"},
+				"down": {"uv": [3.00267, 5.00267, 7.00267, 9.00267], "texture": "#6"}
+			}
+		},
+		{
+			"name": "vase_stem",
+			"from": [11.5, 4, 9.5],
+			"to": [13.5, 6, 11.5],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [12.5, 7, 10.5]},
+			"faces": {
+				"north": {"uv": [1.00267, 9.00267, 4, 10], "texture": "#6"},
+				"east": {"uv": [2, 8, 4, 10], "texture": "#6"},
+				"south": {"uv": [2, 8, 4, 10], "texture": "#6"},
+				"west": {"uv": [1.00267, 8, 3.00267, 10], "texture": "#6"},
+				"up": {"uv": [3.00267, 8, 5.00267, 10], "rotation": 270, "texture": "#6"},
+				"down": {"uv": [0, 9.00267, 2, 11.00267], "rotation": 90, "texture": "#6"}
+			}
+		},
+		{
+			"name": "vase_top",
+			"from": [11, 5.5, 9],
+			"to": [14, 6.5, 12],
+			"rotation": {"angle": -45, "axis": "y", "origin": [12.5, 7, 10.5]},
+			"faces": {
+				"north": {"uv": [1.00267, 8, 4, 9.00267], "texture": "#6"},
+				"east": {"uv": [1.00267, 8, 4, 11.00267], "texture": "#6"},
+				"south": {"uv": [1.00267, 9.00267, 4, 10], "texture": "#6"},
+				"west": {"uv": [1.00267, 9.00267, 4, 10], "texture": "#6"},
+				"up": {"uv": [0, 5.00267, 3.00267, 8], "texture": "#6"},
+				"down": {"uv": [3.00267, 8, 6, 11.00267], "texture": "#6"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 10.75, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "vase3",
+			"origin": [7.5, 9, 7.5],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

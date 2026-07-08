@@ -220,9 +220,37 @@
                 "y": 270
             }
         ],
-	"power\u003d7": {
-      "model": "block/replace"
-    },
+	"power\u003d7": [{
+                "model": "block/skulls_ground"
+            },
+            {
+                "model": "block/skulls_ground",
+                "y": 90
+            },
+            {
+                "model": "block/skulls_ground",
+                "y": 180
+            },
+            {
+                "model": "block/skulls_ground",
+                "y": 270
+            },
+			{
+                "model": "block/skulls_ground_2"
+            },
+            {
+                "model": "block/skulls_ground_2",
+                "y": 90
+            },
+            {
+                "model": "block/skulls_ground_2",
+                "y": 180
+            },
+            {
+                "model": "block/skulls_ground_2",
+                "y": 270
+            }
+			],
 	"power\u003d8": {
       "model": "block/replace"
     },
