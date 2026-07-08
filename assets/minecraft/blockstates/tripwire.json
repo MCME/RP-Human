@@ -138,9 +138,37 @@
     ",powered=true,disarmed=false,attached=false,north=false,east=true,south=false,west=false": {
 	  "model": "block/ghost_rim", "y":270
 	},
-    "powered=true,disarmed=false,attached=false,north=false,east=true,south=false,west=true": {
-	  "model": "block/replace"
-	},
+    "powered=true,disarmed=false,attached=false,north=false,east=true,south=false,west=true": [{
+                "model": "block/iron_helmet"
+            },
+            {
+                "model": "block/iron_helmet",
+                "y": 90
+            },
+            {
+                "model": "block/iron_helmet",
+                "y": 180
+            },
+            {
+                "model": "block/iron_helmet",
+                "y": 270
+            },
+			{
+                "model": "block/iron_helmet_2"
+            },
+            {
+                "model": "block/iron_helmet_2",
+                "y": 90
+            },
+            {
+                "model": "block/iron_helmet_2",
+                "y": 180
+            },
+            {
+                "model": "block/iron_helmet_2",
+                "y": 270
+            }
+			],
 	"powered=true,disarmed=false,attached=false,north=false,east=true,south=true,west=false": {
 	  "model": "block/ghost_rim_corner", "y":270
 	},
