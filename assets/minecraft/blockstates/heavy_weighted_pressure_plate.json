@@ -1,6 +1,6 @@
 {
   "variants": {
-    "power\u003d0": [
+    "power=0": [
 					{ "model": "block/boulders_mossy" },
 					{ "model": "block/boulders_mossy", "y": 90 },
 					{ "model": "block/boulders_mossy", "y": 180 },
@@ -26,7 +26,7 @@
 					{ "model": "block/boulders_mossy_6", "y": 180 },
 					{ "model": "block/boulders_mossy_6", "y": 270 }
       ], 
-    "power\u003d1": [
+    "power=1": [
 					{ "model": "block/boulders_light" },
 					{ "model": "block/boulders_light", "y": 90 },
 					{ "model": "block/boulders_light", "y": 180 },
@@ -52,7 +52,7 @@
 					{ "model": "block/boulders_light_6", "y": 180 },
 					{ "model": "block/boulders_light_6", "y": 270 }
 					],
-	"power\u003d2": [
+	"power=2": [
 					{ "model": "block/boulders_dark" },
 					{ "model": "block/boulders_dark", "y": 90 },
 					{ "model": "block/boulders_dark", "y": 180 },
@@ -78,7 +78,7 @@
 					{ "model": "block/boulders_dark_6", "y": 180 },
 					{ "model": "block/boulders_dark_6", "y": 270 }
 					],
-	"power\u003d3": [
+	"power=3": [
 					{ "model": "block/boulders_mixed" },
 					{ "model": "block/boulders_mixed", "y": 90 },
 					{ "model": "block/boulders_mixed", "y": 180 },
@@ -104,7 +104,7 @@
 					{ "model": "block/boulders_mixed_6", "y": 180 },
 					{ "model": "block/boulders_mixed_6", "y": 270 }
 					],
-	"power\u003d4": [
+	"power=4": [
 					{ "model": "block/boulders_blue" },
 					{ "model": "block/boulders_blue", "y": 90 },
 					{ "model": "block/boulders_blue", "y": 180 },
@@ -130,7 +130,7 @@
 					{ "model": "block/boulders_blue_6", "y": 180 },
 					{ "model": "block/boulders_blue_6", "y": 270 }
 					],
-	"power\u003d5": [
+	"power=5": [
 					{ "model": "block/brick_pile" },
 					{ "model": "block/brick_pile", "y": 90 },
 					{ "model": "block/brick_pile", "y": 180 },
@@ -143,7 +143,7 @@
 					{ "model": "block/brick_pile_3", "y": 90 },
 					{ "model": "block/brick_pile_3", "y": 180 },
 					{ "model": "block/brick_pile_3", "y": 270 }],
-	"power\u003d6": [
+	"power=6": [
             {
                 "model": "block/red_candle"
             },
@@ -220,7 +220,7 @@
                 "y": 270
             }
         ],
-	"power\u003d7": [{
+	"power=7": [{
                 "model": "block/skulls_ground"
             },
             {
@@ -251,28 +251,66 @@
                 "y": 270
             }
 			],
-	"power\u003d8": {
+    "power=8": [
+      { "model": "block/pot", "weight": 2 },
+	  { "model": "block/pot", "weight": 2, "y": 90 },
+	  { "model": "block/pot", "weight": 2, "y": 180 },
+	  { "model": "block/pot", "weight": 2, "y": 270 },
+      { "model": "block/pot_10", "weight": 2 },
+	  { "model": "block/pot_10", "weight": 2, "y": 90 },
+	  { "model": "block/pot_10", "weight": 2, "y": 180 },
+	  { "model": "block/pot_10", "weight": 2, "y": 270 },
+      { "model": "block/pot_5", "weight": 2 },
+	  { "model": "block/pot_5", "weight": 2, "y": 90  },
+	  { "model": "block/pot_5", "weight": 2, "y": 180  },
+	  { "model": "block/pot_5", "weight": 2, "y": 270  },
+      { "model": "block/pot_6", "weight": 2 },
+	  { "model": "block/pot_6", "weight": 2, "y": 90  },
+	  { "model": "block/pot_6", "weight": 2, "y": 180  },
+	  { "model": "block/pot_6", "weight": 2, "y": 270  },
+      { "model": "block/pot_8", "weight": 2 },
+	  { "model": "block/pot_8", "weight": 2, "y": 90 },
+	  { "model": "block/pot_8", "weight": 2, "y": 180 },
+	  { "model": "block/pot_8", "weight": 2, "y": 270 },
+      { "model": "block/pot_9", "weight": 2 },
+      { "model": "block/pot_9", "weight": 2, "y": 90 },
+      { "model": "block/pot_9", "weight": 2, "y": 180 },
+      { "model": "block/pot_9", "weight": 2, "y": 270 }
+    ],
+    "power=9": [
+      { "model": "block/pot_2", "weight": 3 },
+	  { "model": "block/pot_2", "weight": 3, "y": 90 },
+	  { "model": "block/pot_2", "weight": 3, "y": 180 },
+	  { "model": "block/pot_2", "weight": 3, "y": 270 },
+      { "model": "block/pot_3", "weight": 3 },
+	  { "model": "block/pot_3", "weight": 3, "y": 90 },
+	  { "model": "block/pot_3", "weight": 3, "y": 180 },
+	  { "model": "block/pot_3", "weight": 3, "y": 270 },
+      { "model": "block/pot_4", "weight": 3 },
+	  { "model": "block/pot_4", "weight": 3, "y": 90 },
+	  { "model": "block/pot_4", "weight": 3, "y": 180 },
+	  { "model": "block/pot_4", "weight": 3, "y": 270 },
+      { "model": "block/pot_7", "weight": 2 },
+	  { "model": "block/pot_7", "weight": 2, "y": 90 },
+	  { "model": "block/pot_7", "weight": 2, "y": 180 },
+	  { "model": "block/pot_7", "weight": 2, "y": 270 }
+	],
+	"power=10": {
       "model": "block/replace"
     },
-	"power\u003d9": {
+    "power=11": {
       "model": "block/replace"
     },
-	"power\u003d10": {
+    "power=12": {
       "model": "block/replace"
     },
-    "power\u003d11": {
+    "power=13": {
       "model": "block/replace"
     },
-    "power\u003d12": {
+    "power=14": {
       "model": "block/replace"
     },
-    "power\u003d13": {
-      "model": "block/replace"
-    },
-    "power\u003d14": {
-      "model": "block/replace"
-    },
-    "power\u003d15": {
+    "power=15": {
       "model": "block/replace"
     }
   }

@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "east=false,north=true,south=false,west=true": {
+      "model": "block/pillar_corner"
+    },
+    "east=true,north=true,south=false,west=false": {
+      "model": "block/pillar_corner",
+      "y": 90
+    },
+    "east=true,north=false,south=true,west=false": {
+      "model": "block/pillar_corner",
+      "y": 180
+    },
+    "east=false,north=false,south=true,west=true": {
+      "model": "block/pillar_corner",
+      "y": 270
+    }
+  }
+}
+

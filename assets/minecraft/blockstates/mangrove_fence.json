@@ -1,0 +1,155 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "OR": [
+          { "north": "false", "east": "false", "south": "false", "west": "false" },
+          { "north": "true", "east": "false", "south": "false", "west": "false" },
+          { "north": "false", "east": "true", "south": "false", "west": "false" },
+          { "north": "false", "east": "false", "south": "true", "west": "false" },
+          { "north": "false", "east": "false", "south": "false", "west": "true" },
+
+          { "north": "true", "east": "false", "south": "true", "west": "false" },
+          { "north": "false", "east": "true", "south": "false", "west": "true" },
+
+          { "north": "true", "east": "true", "south": "true", "west": "false" },
+          { "north": "true", "east": "true", "south": "false", "west": "true" },
+          { "north": "true", "east": "false", "south": "true", "west": "true" },
+          { "north": "false", "east": "true", "south": "true", "west": "true" },
+          { "north": "true", "east": "true", "south": "true", "west": "true" }
+        ]
+      },
+      "apply": {
+        "model": "minecraft:block/mangrove_fence_post"
+      }
+    },
+
+    {
+      "when": { "north": "true", "east": "false", "south": "false", "west": "false" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true }
+    },
+    {
+      "when": { "north": "true", "east": "true", "south": "false", "west": "false" },
+      "apply": [
+        { "model": "minecraft:block/pillar_bones", "y": 90 },
+        { "model": "minecraft:block/pillar_bones_2", "y": 90 }
+      ]
+    },
+    {
+      "when": { "north": "true", "east": "false", "south": "true", "west": "false" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true }
+    },
+    {
+      "when": { "north": "true", "east": "false", "south": "false", "west": "true" },
+      "apply": [
+        { "model": "minecraft:block/pillar_bones" },
+        { "model": "minecraft:block/pillar_bones_2" }
+      ]
+    },
+    {
+      "when": { "north": "true", "east": "true", "south": "true", "west": "false" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true }
+    },
+    {
+      "when": { "north": "true", "east": "true", "south": "false", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true }
+    },
+    {
+      "when": { "north": "true", "east": "false", "south": "true", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true }
+    },
+    {
+      "when": { "north": "true", "east": "true", "south": "true", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true }
+    },
+
+    {
+      "when": { "north": "false", "east": "true", "south": "false", "west": "false" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 90 }
+    },
+    {
+      "when": { "north": "false", "east": "true", "south": "true", "west": "false" },
+      "apply": [
+        { "model": "minecraft:block/pillar_bones", "y": 180 },
+        { "model": "minecraft:block/pillar_bones_2", "y": 180 }
+      ]
+    },
+    {
+      "when": { "north": "false", "east": "true", "south": "false", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 90 }
+    },
+    {
+      "when": { "north": "true", "east": "true", "south": "true", "west": "false" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 90 }
+    },
+    {
+      "when": { "north": "true", "east": "true", "south": "false", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 90 }
+    },
+    {
+      "when": { "north": "false", "east": "true", "south": "true", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 90 }
+    },
+    {
+      "when": { "north": "true", "east": "true", "south": "true", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 90 }
+    },
+
+    {
+      "when": { "north": "false", "east": "false", "south": "true", "west": "false" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 180 }
+    },
+    {
+      "when": { "north": "true", "east": "false", "south": "true", "west": "false" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 180 }
+    },
+    {
+      "when": { "north": "false", "east": "false", "south": "true", "west": "true" },
+      "apply": [
+        { "model": "minecraft:block/pillar_bones", "y": 270 },
+        { "model": "minecraft:block/pillar_bones_2", "y": 270 }
+      ]
+    },
+    {
+      "when": { "north": "true", "east": "true", "south": "true", "west": "false" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 180 }
+    },
+    {
+      "when": { "north": "true", "east": "false", "south": "true", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 180 }
+    },
+    {
+      "when": { "north": "false", "east": "true", "south": "true", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 180 }
+    },
+    {
+      "when": { "north": "true", "east": "true", "south": "true", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 180 }
+    },
+
+    {
+      "when": { "north": "false", "east": "false", "south": "false", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 270 }
+    },
+    {
+      "when": { "north": "false", "east": "true", "south": "false", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 270 }
+    },
+    {
+      "when": { "north": "true", "east": "true", "south": "false", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 270 }
+    },
+    {
+      "when": { "north": "true", "east": "false", "south": "true", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 270 }
+    },
+    {
+      "when": { "north": "false", "east": "true", "south": "true", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 270 }
+    },
+    {
+      "when": { "north": "true", "east": "true", "south": "true", "west": "true" },
+      "apply": { "model": "minecraft:block/mangrove_fence_side", "uvlock": true, "y": 270 }
+    }
+  ]
+}

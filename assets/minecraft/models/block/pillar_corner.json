@@ -1,0 +1,99 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"4": "block/stripped_dark_oak_log_side"
+	},
+	"elements": [
+		{
+			"from": [-4.01, -0.019, -4.01],
+			"to": [3.99, 15.986, 3.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 8, 0]},
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#4"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#4"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#4"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#4"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#4"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#4"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.59, 0.59, 0.59]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [-9, 2.25, 0],
+			"scale": [0.5193, 0.5193, 0.5193]
+		},
+		"head": {
+			"rotation": [-50.75, 0, 0],
+			"translation": [8.25, 14.75, 0]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		0,
+		{
+			"name": "group",
+			"origin": [3.25, -0.25, 4.25],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "group",
+			"origin": [0, 0, 1],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "group",
+					"origin": [-1.39499, 7.5, -5.03216],
+					"scope": 0,
+					"color": 0,
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "group",
+			"origin": [-4, -5.25, -1.75],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		},
+		{
+			"name": "group",
+			"origin": [6, -0.25, -1.75],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		}
+	]
+}
