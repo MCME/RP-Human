@@ -1,0 +1,118 @@
+{
+  "variants": {
+    "facing=east,half=bottom,open=false,powered=false": [
+	  {"model": "minecraft:block/replace"}
+	  ],
+    "facing=east,half=top,open=false,powered=false": [
+	  {"model": "minecraft:block/replace", "x":180}
+	  ],
+    "facing=north,half=bottom,open=false,powered=false": [
+	  {"model": "minecraft:block/replace"}
+	  ],
+    "facing=north,half=top,open=false,powered=false": [
+	  {"model": "minecraft:block/replace", "x":180}
+	  ],
+	  "facing=north,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open"},
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open_2"},
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open_3"},
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open_4"}
+	  ],
+    "facing=west,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open", "y":270},
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open_2", "y":270},
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open_3", "y":270},
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open_4", "y":270}
+	  ],
+    "facing=south,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open", "y":180},
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open_2", "y":180},
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open_3", "y":180},
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open_4", "y":180}
+	  ],
+    "facing=east,half=bottom,open=true,powered=true": [
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open", "y":90},
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open_2", "y":90},
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open_3", "y":90},
+	  {"model": "minecraft:block/trapdoor_bamboo_mosaic_open_4", "y":90}
+	  ],
+	  "facing=south,half=bottom,open=true,powered=false": [
+	  {"model": "minecraft:block/replace", "y":180 }
+	  ],
+    "facing=east,half=bottom,open=true,powered=false": [
+	  {"model": "minecraft:block/replace", "y":90}
+	  ],
+    "facing=north,half=bottom,open=true,powered=false": [
+	  {"model": "minecraft:block/replace", "y":0}
+	  ],
+    "facing=west,half=bottom,open=true,powered=false": [
+	  {"model": "minecraft:block/replace", "y":270}
+	  ],
+	  "facing=south,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/replace", "y":180}
+	  ],
+    "facing=east,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/replace", "y":90}
+	  ],
+    "facing=north,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/replace", "y":0}
+	  ],
+    "facing=west,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/replace", "y":270}
+	  ],
+    "facing=south,half=bottom,open=false,powered=false": [
+	  {"model": "minecraft:block/replace"}
+	  ],
+    "facing=south,half=top,open=false,powered=false": [
+	  {"model": "minecraft:block/replace", "x":180}
+	  ],
+    "facing=west,half=bottom,open=false,powered=false": [
+	  {"model": "minecraft:block/replace"}
+	  ],
+    "facing=west,half=top,open=false,powered=false": [
+	  {"model": "minecraft:block/replace", "x":180}
+	  ],
+    "facing=north,half=bottom,open=false,powered=true": [
+	  {"model": "minecraft:block/replace"}
+	  ],
+    "facing=north,half=top,open=false,powered=true": [
+	  {"model": "minecraft:block/replace", "x":180 }
+	  ],
+    "facing=east,half=bottom,open=false,powered=true": [
+	  {"model": "minecraft:block/replace"}
+	  ],
+    "facing=east,half=top,open=false,powered=true": [
+	  {"model": "minecraft:block/replace", "x":180 }
+	  ],
+    "facing=south,half=bottom,open=false,powered=true": [
+	  {"model": "minecraft:block/replace"}
+	  ],
+    "facing=south,half=top,open=false,powered=true": [
+	  {"model": "minecraft:block/replace", "x":180}
+	  ],
+    "facing=west,half=bottom,open=false,powered=true": [
+	  {"model": "minecraft:block/replace"},
+	  {"model": "minecraft:block/replace"},
+	  {"model": "minecraft:block/replace"},
+	  {"model": "minecraft:block/replace"}
+	  ],
+    "facing=west,half=top,open=false,powered=true": [
+	  {"model": "minecraft:block/replace", "x":180},
+	  {"model": "minecraft:block/replace", "x":180},
+	  {"model": "minecraft:block/replace", "x":180},
+	  {"model": "minecraft:block/replace", "x":180}
+	  ],
+	  "facing=south,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/replace", "y":180 }
+	  ],
+    "facing=east,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/replace", "y":90}
+	  ],
+    "facing=north,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/replace", "y":0}
+	  ],
+    "facing=west,half=top,open=true,powered=true": [
+	  {"model": "minecraft:block/replace", "y":270}
+	  ]
+  }
+}

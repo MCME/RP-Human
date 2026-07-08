@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/bamboo_mosaic_slab" },
+			{ "model": "block/bamboo_mosaic_slab_2" },
+			{ "model": "block/bamboo_mosaic_slab_3" },
+			{ "model": "block/bamboo_mosaic_slab_4" }
+			],
+        "type=top": [
+			{ "model": "block/bamboo_mosaic_slab", "x": 180 },
+			{ "model": "block/bamboo_mosaic_slab_2", "x": 180 },
+			{ "model": "block/bamboo_mosaic_slab_3", "x": 180 },
+			{ "model": "block/bamboo_mosaic_slab_4", "x": 180 }
+			]
+    }
+}
