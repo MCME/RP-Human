@@ -62,6 +62,17 @@
 	{ "model": "block/skulls_full", "y":270 },
 	{ "model": "block/skulls_full_2", "y":270 },
 	{ "model": "block/skulls_full_3", "y":270 }
-	]
-    }
+	],
+	"down=false,east=false,north=true,south=false,up=false,west=true":[
+	{ "model": "block/pillar_corner" }
+	],
+	"down=false,east=true,north=true,south=false,up=false,west=false":[
+	{ "model": "block/pillar_corner", "y":90 }
+	],
+	"down=false,east=true,north=false,south=true,up=false,west=false":[
+	{ "model": "block/pillar_corner", "y":180 }
+	],
+	"down=false,east=false,north=false,south=true,up=false,west=true":[
+	{ "model": "block/pillar_corner", "y":270 }
+    ]}
 }
