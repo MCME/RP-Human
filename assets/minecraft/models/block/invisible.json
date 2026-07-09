@@ -1,4 +1,25 @@
 {
 	"format_version": "1.9.0",
-	"credit": "Made with Blockbench"
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"1": "block/gray_stained_glass_half",
+		"particle": "block/red_stained_glass"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"faces": {
+				"south": {"uv": [3, 11, 5, 13], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [31, 46, 0],
+			"translation": [0, 6.75, 0],
+			"scale": [0.49414, 0.49414, 0.49414]
+		}
+	}
 }
