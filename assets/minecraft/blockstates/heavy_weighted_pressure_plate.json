@@ -386,28 +386,13 @@
             {
                 "model": "block/red_candle_slab_4",
                 "y": 270
-            },
-			{
-                "model": "block/red_candle_slab_5"
-            },
-            {
-                "model": "block/red_candle_slab_5",
-                "y": 90
-            },
-            {
-                "model": "block/red_candle_slab_5",
-                "y": 180
-            },
-            {
-                "model": "block/red_candle_slab_5",
-                "y": 270
             }
         ],
     "power=12": {
-      "model": "block/replace"
+      "model": "block/dark_architrave_overhead_45"
     },
     "power=13": {
-      "model": "block/replace"
+      "model": "block/dark_architrave_overhead_45", "y":90
     },
     "power=14": {
       "model": "block/replace"
