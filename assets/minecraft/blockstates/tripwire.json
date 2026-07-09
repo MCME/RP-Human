@@ -424,7 +424,7 @@
 	  "model": "block/replace", "y":180
 	},
 	"powered=true,disarmed=true,attached=true,north=false,east=true,south=true,west=true": {
-	  "model": "block/replace", "y":180
+	  "model": "block/offset_ghost_brick_stairs"
 	},
 	"powered=true,disarmed=true,attached=true,north=true,east=false,south=false,west=false": {
 	  "model": "block/replace" 
@@ -436,16 +436,16 @@
 	  "model": "block/replace"
 	},
     "powered=true,disarmed=true,attached=true,north=true,east=false,south=true,west=true": {
-	  "model": "block/replace", "y":270
+	  "model": "block/offset_ghost_brick_stairs", "y": 90
 	},
     "powered=true,disarmed=true,attached=true,north=true,east=true,south=false,west=false": {
 	  "model": "block/replace", "y":90
 	},
     "powered=true,disarmed=true,attached=true,north=true,east=true,south=false,west=true": {
-	  "model": "block/replace" 
+	  "model": "block/offset_ghost_brick_stairs", "y": 180
 	},
     "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=false": {
-	  "model": "block/replace", "y": 90
+	  "model": "block/offset_ghost_brick_stairs", "y": 270
 	},
     "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=true": {
 	  "model": "block/replace"

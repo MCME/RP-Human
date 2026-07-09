@@ -8024,7 +8024,14 @@
                     "type": "model",
                     "model": "block/vertical_bones"
                 }
-            } 
+            },
+            {
+                "threshold": 1295,
+                "model": {
+                    "type": "model",
+                    "model": "block/offset_ghost_brick_stairs"
+                }
+            }
         ]
     }
 }
