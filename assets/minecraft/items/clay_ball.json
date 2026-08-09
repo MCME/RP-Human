@@ -8101,7 +8101,14 @@
                     "type": "model",
                     "model": "block/scaffolding_ghost_window"
                 }
-            }     
+            },
+            {
+                "threshold": 1305,
+                "model": {
+                    "type": "model",
+                    "model": "block/ghost_pillar_thin_corner"
+                }
+            }        
         ]
     }
 }
