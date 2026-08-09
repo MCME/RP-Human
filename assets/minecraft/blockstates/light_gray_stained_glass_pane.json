@@ -29,7 +29,13 @@
     "east=true,north=true,south=false,west=false": {
       "model": "block/ghost_pillar_2_offset",
       "y": 90
+    },
+    "east=false,north=true,south=true,west=false": {
+      "model": "block/scaffolding_ghost_window",
+      "y": 90
+    },
+    "east=true,north=false,south=false,west=true": {
+      "model": "block/scaffolding_ghost_window"
     }
-
   }
 }

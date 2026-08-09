@@ -14,6 +14,13 @@
     "east=true,north=true,south=true,west=false": {
       "model": "block/vertical_slab_ghost_stone",
       "y": 270
+    },
+    "east=false,north=true,south=true,west=false": {
+      "model": "block/scaffolding_ghost_window_down",
+      "y": 90
+    },
+    "east=true,north=false,south=false,west=true": {
+      "model": "block/scaffolding_ghost_window_down"
     }
   }
 }
