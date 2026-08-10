@@ -1,4 +1,5 @@
 {
+	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "#0",
@@ -7,7 +8,7 @@
 	"elements": [
 		{
 			"from": [-8, 0, -8],
-			"to": [8, 16, 8],
+			"to": [8, 16.01, 8],
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
@@ -34,7 +35,7 @@
 			"scale": [0.57, 0.57, 0.56]
 		},
 		"gui": {
-			"rotation": [30, 225, 0],
+			"rotation": [30, -135, 0],
 			"translation": [-7.75, 1.75, 0],
 			"scale": [0.49, 0.49, 0.49]
 		}

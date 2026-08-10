@@ -1,5 +1,5 @@
 {
-	"format_version": "1.21.11",
+	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"ambientocclusion": false,
@@ -11,7 +11,7 @@
 		{
 			"from": [-4, 14, -3],
 			"to": [20, 18, 19],
-			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
 				"north": {"uv": [0, 1.33333, 12, 4], "rotation": 180, "texture": "#particle"},
 				"east": {"uv": [0.66667, 1.33333, 11.83333, 4], "rotation": 180, "texture": "#particle"},

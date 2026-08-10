@@ -3,6 +3,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/stairs",
 	"textures": {
+		"particle": "block/red_stained_glass",
 		"bottom": "block/red_stained_glass"
 	},
 	"elements": [
@@ -41,7 +42,7 @@
 	"display": {
 		"gui": {
 			"rotation": [31, 46, 0],
-			"translation": [0, 6.75, 0],
+			"translation": [0, 3.5, 0],
 			"scale": [0.49414, 0.49414, 0.49414]
 		}
 	}
