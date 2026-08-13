@@ -8103,12 +8103,40 @@
                 }
             },
             {
-                "threshold": 1305,
+                "threshold": 1306,
                 "model": {
                     "type": "model",
                     "model": "block/ghost_pillar_thin_corner"
                 }
-            }        
+            },
+            {
+                "threshold": 1307,
+                "model": {
+                    "type": "model",
+                    "model": "block/offset_ghost_brick_slab_offset"
+                }
+            },
+            {
+                "threshold": 1308,
+                "model": {
+                    "type": "model",
+                    "model": "block/smooth_ghost_stone_vertical_thin_slab"
+                }
+            },
+            {
+                "threshold": 1309,
+                "model": {
+                    "type": "model",
+                    "model": "block/ghost_bricks_vertical_thin_slab"
+                }
+            },
+            {
+                "threshold": 1310,
+                "model": {
+                    "type": "model",
+                    "model": "block/small_ghost_bricks_vertical_thin_slab"
+                }
+            }
         ]
     }
 }
