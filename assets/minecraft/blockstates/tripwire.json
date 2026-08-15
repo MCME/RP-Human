@@ -173,7 +173,7 @@
 	  "model": "block/ghost_rim_corner", "y":270
 	},
 	"powered=true,disarmed=false,attached=false,north=false,east=true,south=true,west=true": {
-	  "model": "block/replace", "y":270
+	  "model": "block/ghost_side_railing", "y":180
 	},
 	"powered=true,disarmed=false,attached=false,north=true,east=false,south=false,west=false": {
 	  "model": "block/ghost_rim", "y":180 
@@ -185,16 +185,16 @@
 	  "model": "block/replace", "y":180
 	},
     "powered=true,disarmed=false,attached=false,north=true,east=false,south=true,west=true": {
-	  "model": "block/replace", "y":270
+	  "model": "block/ghost_side_railing", "y":270
 	},
     "powered=true,disarmed=false,attached=false,north=true,east=true,south=false,west=false": {
 	  "model": "block/ghost_rim_corner", "y":180
 	},
     "powered=true,disarmed=false,attached=false,north=true,east=true,south=false,west=true": {
-	  "model": "block/replace" 
+	  "model": "block/ghost_side_railing" 
 	},
     "powered=true,disarmed=false,attached=false,north=true,east=true,south=true,west=false": {
-	  "model": "block/replace", "y":90
+	  "model": "block/ghost_side_railing", "y":90
 	},
     "powered=true,disarmed=false,attached=false,north=true,east=true,south=true,west=true": {
 	  "model": "block/replace"

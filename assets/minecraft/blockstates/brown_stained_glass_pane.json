@@ -29,6 +29,13 @@
     "east=false,north=false,south=true,west=false": {
       "model": "block/small_ghost_bricks_vertical_thin_slab",
       "y": 270
+    },
+    "east=true,north=false,south=false,west=true": {
+      "model": "block/ghost_anvil",
+      "y": 90
+    },
+    "east=false,north=true,south=true,west=false": {
+      "model": "block/ghost_anvil"
     }
   }
 }
