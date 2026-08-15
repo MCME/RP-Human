@@ -8,6 +8,7 @@
 		"instrument=harp,note=5,powered=false": { "model":"block/marker_info" },
 		"instrument=harp,note=7,powered=false": { "model":"block/replace" },
 		"instrument=harp,note=8,powered=false": { "model":"block/dark_architrave" },
+		"instrument=harp,note=9,powered=false": { "model":"block/dark_architrave", "x":180 },
 		"instrument=basedrum,note=0,powered=false": [
 			{ "model":"block/note_block_1" },
 			{ "model":"block/note_block_2", "y":-90 },
