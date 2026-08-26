@@ -200,7 +200,7 @@
 	  "model": "block/replace"
 	},
     "powered=true,disarmed=false,attached=true,north=false,east=false,south=false,west=false": {
-	  "model": "block/replace"
+	  "model": "block/ghost_hook"
 	},
     "powered=true,disarmed=false,attached=true,north=false,east=false,south=false,west=true": {
 	  "model": "block/replace", "y":270
@@ -248,7 +248,7 @@
 	  "model": "block/replace"
 	},
 	"powered=false,disarmed=true,attached=false,north=false,east=false,south=false,west=false": {
-	  "model": "block/replace"
+	  "model": "block/ghost_chain"
 	},
     "powered=false,disarmed=true,attached=false,north=false,east=false,south=true,west=true": {
 	  "model": "block/replace", "y":270
