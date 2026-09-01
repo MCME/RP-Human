@@ -1,6 +1,6 @@
 {
   "variants": {
-	  "facing=false,east=false,south=true,west=true": { "model": "block/dark_architrave_quarter", "y":270, "x": 180 },
+	  "north=false,east=false,south=true,west=true": { "model": "block/dark_architrave_quarter", "y":270, "x": 180 },
     "north=false,east=true,south=true,west=false": { "model": "block/dark_architrave_quarter", "y":180, "x": 180 },
     "north=true,east=true,south=false,west=false": { "model": "block/dark_architrave_quarter", "y":90, "x": 180 },
     "north=true,east=false,south=false,west=true": { "model": "block/dark_architrave_quarter", "y":0, "x": 180 }
