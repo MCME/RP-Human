@@ -1,0 +1,856 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [{
+        "model": "block/replace", "y":90
+      },
+	  {
+        "model": "block/replace", "y":90
+      }]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [{
+        "model": "block/replace",
+        "y": 180
+      },
+	  {
+        "model": "block/replace",
+        "y": 180
+      }]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [{
+        "model": "block/replace",
+        "y": 270
+      },
+	  {
+        "model": "block/replace",
+        "y": 270
+      }]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": [{
+        "model": "block/replace",
+        "y": 0
+      },
+	  {
+        "model": "block/replace",
+        "y": 0
+      }]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace", "y":90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace", "y":270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace", "y":270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/deepslate_bricks_quarter_top",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/deepslate_bricks_quarter_top",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/deepslate_bricks_quarter_top",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/deepslate_bricks_quarter_top", "y":270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/deepslate_bricks_quarter_bottom",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/deepslate_bricks_quarter_bottom", "y":270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/deepslate_bricks_quarter_bottom",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/deepslate_bricks_quarter_bottom",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace", "y":90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace", "y":90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace", "y":90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace", "y":90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/replace",
+		"y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/replace"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/replace",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/replace", "y": 180 },
+	{ "model": "minecraft:block/replace", "y": 180 },
+	{ "model": "minecraft:block/replace", "y": 180 }
+	] 
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/replace", "y": 270 },
+	{ "model": "minecraft:block/replace", "y": 270 },
+	{ "model": "minecraft:block/replace", "y": 270 }
+	]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/replace"},
+	{ "model": "minecraft:block/replace" },
+	{ "model": "minecraft:block/replace" }
+	]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/replace", "y": 90 },
+	{ "model": "minecraft:block/replace", "y": 90 },
+	{ "model": "minecraft:block/replace", "y": 90 }
+	]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"}
+	  ]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"},
+	  { "model": "block/replace"}
+	  ]
+    },
+	   {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/deepslate_brick_vertical_thin_slab",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/deepslate_brick_vertical_thin_slab",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/deepslate_brick_vertical_thin_slab",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/deepslate_brick_vertical_thin_slab"
+      }
+    },
+	   {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/replace", "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/replace", "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/replace", "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/replace"
+      }
+    }
+
+  ]
+}

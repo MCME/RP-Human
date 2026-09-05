@@ -8,12 +8,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": [{
-        "model": "block/dark_stone_rim", "y":90
-      },
-	  {
-        "model": "block/dark_stone_rim_2", "y":90
-      }]
+      "apply": [
+        {
+          "model": "block/dark_stone_rim",
+          "y": 90
+        }
+      ]
     },
     {
       "when": {
@@ -23,14 +23,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": [{
-        "model": "block/dark_stone_rim",
-        "y": 180
-      },
-	  {
-        "model": "block/dark_stone_rim_2",
-        "y": 180
-      }]
+      "apply": [
+        {
+          "model": "block/dark_stone_rim",
+          "y": 180
+        }
+      ]
     },
     {
       "when": {
@@ -40,14 +38,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": [{
-        "model": "block/dark_stone_rim",
-        "y": 270
-      },
-	  {
-        "model": "block/dark_stone_rim_2",
-        "y": 270
-      }]
+      "apply": [
+        {
+          "model": "block/dark_stone_rim",
+          "y": 270
+        }
+      ]
     },
     {
       "when": {
@@ -57,14 +53,12 @@
         "open": "false",
         "powered": "false"
       },
-      "apply": [{
-        "model": "block/dark_stone_rim",
-        "y": 0
-      },
-	  {
-        "model": "block/dark_stone_rim_2",
-        "y": 0
-      }]
+      "apply": [
+        {
+          "model": "block/dark_stone_rim",
+          "y": 0
+        }
+      ]
     },
     {
       "when": {
@@ -75,7 +69,8 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/trapdoor_dark_gray_brick_open", "y":90
+        "model": "block/trapdoor_dark_gray_brick_open",
+        "y": 90
       }
     },
     {
@@ -165,7 +160,8 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/bricks_quarter_top", "y":270
+        "model": "block/bricks_quarter_top",
+        "y": 270
       }
     },
     {
@@ -190,7 +186,8 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/bricks_quarter_bottom", "y":270
+        "model": "block/bricks_quarter_bottom",
+        "y": 270
       }
     },
     {
@@ -267,7 +264,8 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/nether_bricks_quarter_top", "y":270
+        "model": "block/nether_bricks_quarter_top",
+        "y": 270
       }
     },
     {
@@ -292,7 +290,8 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/nether_bricks_quarter_bottom", "y":270
+        "model": "block/nether_bricks_quarter_bottom",
+        "y": 270
       }
     },
     {
@@ -330,7 +329,8 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/trapdoor_cracked_dark_gray_brick_open", "y":90
+        "model": "block/trapdoor_cracked_dark_gray_brick_open",
+        "y": 90
       }
     },
     {
@@ -381,7 +381,8 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/dark_architrave_thin", "y":90
+        "model": "block/dark_architrave_thin",
+        "y": 90
       }
     },
     {
@@ -471,7 +472,8 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/trapdoor_dark_pillar_open", "y":90
+        "model": "block/trapdoor_dark_pillar_open",
+        "y": 90
       }
     },
     {
@@ -496,7 +498,8 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/trapdoor_stonebrick_chiseled_open", "y":90
+        "model": "block/trapdoor_stonebrick_chiseled_open",
+        "y": 90
       }
     },
     {
@@ -535,7 +538,7 @@
       },
       "apply": {
         "model": "block/iron_bars_edge",
-		"y": 270
+        "y": 270
       }
     },
     {
@@ -584,12 +587,7 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": [
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"}
-	  ]
+      "apply": { "model": "block/darkest_stone_rim", "y": 90 }
     },
     {
       "when": {
@@ -599,12 +597,7 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": [
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"}
-	  ]
+      "apply": { "model": "block/darkest_stone_rim", "y": 180 }
     },
     {
       "when": {
@@ -614,12 +607,7 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": [
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"}
-	  ]
+      "apply": { "model": "block/darkest_stone_rim", "y": 270 }
     },
     {
       "when": {
@@ -629,12 +617,7 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": [
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"}
-	  ]
+      "apply": { "model": "block/darkest_stone_rim" }
     },
     {
       "when": {
@@ -645,10 +628,10 @@
         "powered": "true"
       },
       "apply": [
-	{ "model": "minecraft:block/replace", "y": 180 },
-	{ "model": "minecraft:block/replace", "y": 180 },
-	{ "model": "minecraft:block/replace", "y": 180 }
-	] 
+        { "model": "minecraft:block/replace", "y": 180 },
+        { "model": "minecraft:block/replace", "y": 180 },
+        { "model": "minecraft:block/replace", "y": 180 }
+      ]
     },
     {
       "when": {
@@ -659,10 +642,10 @@
         "powered": "true"
       },
       "apply": [
-	{ "model": "minecraft:block/replace", "y": 270 },
-	{ "model": "minecraft:block/replace", "y": 270 },
-	{ "model": "minecraft:block/replace", "y": 270 }
-	]
+        { "model": "minecraft:block/replace", "y": 270 },
+        { "model": "minecraft:block/replace", "y": 270 },
+        { "model": "minecraft:block/replace", "y": 270 }
+      ]
     },
     {
       "when": {
@@ -673,10 +656,10 @@
         "powered": "true"
       },
       "apply": [
-	{ "model": "minecraft:block/replace"},
-	{ "model": "minecraft:block/replace" },
-	{ "model": "minecraft:block/replace" }
-	]
+        { "model": "minecraft:block/replace" },
+        { "model": "minecraft:block/replace" },
+        { "model": "minecraft:block/replace" }
+      ]
     },
     {
       "when": {
@@ -687,10 +670,10 @@
         "powered": "true"
       },
       "apply": [
-	{ "model": "minecraft:block/replace", "y": 90 },
-	{ "model": "minecraft:block/replace", "y": 90 },
-	{ "model": "minecraft:block/replace", "y": 90 }
-	]
+        { "model": "minecraft:block/replace", "y": 90 },
+        { "model": "minecraft:block/replace", "y": 90 },
+        { "model": "minecraft:block/replace", "y": 90 }
+      ]
     },
     {
       "when": {
@@ -701,11 +684,11 @@
         "powered": "true"
       },
       "apply": [
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"}
-	  ]
+        { "model": "block/replace" },
+        { "model": "block/replace" },
+        { "model": "block/replace" },
+        { "model": "block/replace" }
+      ]
     },
     {
       "when": {
@@ -716,11 +699,11 @@
         "powered": "true"
       },
       "apply": [
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"}
-	  ]
+        { "model": "block/replace" },
+        { "model": "block/replace" },
+        { "model": "block/replace" },
+        { "model": "block/replace" }
+      ]
     },
     {
       "when": {
@@ -731,11 +714,11 @@
         "powered": "true"
       },
       "apply": [
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"}
-	  ]
+        { "model": "block/replace" },
+        { "model": "block/replace" },
+        { "model": "block/replace" },
+        { "model": "block/replace" }
+      ]
     },
     {
       "when": {
@@ -746,13 +729,13 @@
         "powered": "true"
       },
       "apply": [
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"},
-	  { "model": "block/replace"}
-	  ]
+        { "model": "block/replace" },
+        { "model": "block/replace" },
+        { "model": "block/replace" },
+        { "model": "block/replace" }
+      ]
     },
-	   {
+    {
       "when": {
         "facing": "east",
         "half": "lower",
@@ -803,7 +786,7 @@
         "model": "block/nether_brick_vertical_thin_slab"
       }
     },
-	   {
+    {
       "when": {
         "facing": "west",
         "half": "lower",
@@ -812,7 +795,8 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace", "y": 90
+        "model": "block/darker_stone_rim",
+        "y": 270
       }
     },
     {
@@ -824,7 +808,8 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace", "y": 180
+        "model": "block/darker_stone_rim",
+        "y": 0
       }
     },
     {
@@ -836,7 +821,8 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace", "y": 270
+        "model": "block/darker_stone_rim",
+        "y": 90
       }
     },
     {
@@ -848,9 +834,9 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace"
+        "model": "block/darker_stone_rim",
+        "y": 180
       }
     }
-
   ]
 }

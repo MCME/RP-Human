@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "south=true,east=false,north=false,west=false": { "model": "block/darkest_architrave_quarter", "x":180, "y":180 },
+    "south=false,east=false,north=false,west=true": { "model": "block/darkest_architrave_quarter", "x":180, "y":270 },
+    "south=false,east=false,north=true,west=false": { "model": "block/darkest_architrave_quarter", "x":180},
+    "south=false,east=true,north=false,west=false": { "model": "block/darkest_architrave_quarter", "x":180, "y":90 }
+  }
+}

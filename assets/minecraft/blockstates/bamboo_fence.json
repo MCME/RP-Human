@@ -3,6 +3,11 @@
 	  "north=false,east=false,south=true,west=true": { "model": "block/dark_architrave_quarter", "y":270, "x": 180 },
     "north=false,east=true,south=true,west=false": { "model": "block/dark_architrave_quarter", "y":180, "x": 180 },
     "north=true,east=true,south=false,west=false": { "model": "block/dark_architrave_quarter", "y":90, "x": 180 },
-    "north=true,east=false,south=false,west=true": { "model": "block/dark_architrave_quarter", "y":0, "x": 180 }
+    "north=true,east=false,south=false,west=true": { "model": "block/dark_architrave_quarter", "y":0, "x": 180 },
+    "south=true,east=false,north=false,west=false": { "model": "block/darker_architrave_quarter", "x":180, "y":180 },
+    "south=false,east=false,north=false,west=true": { "model": "block/darker_architrave_quarter", "x":180, "y":270 },
+    "south=false,east=false,north=true,west=false": { "model": "block/darker_architrave_quarter", "x":180},
+    "south=false,east=true,north=false,west=false": { "model": "block/darker_architrave_quarter", "x":180, "y":90 }
+
   }
 }

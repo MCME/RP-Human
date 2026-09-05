@@ -11,6 +11,10 @@
 	  "facing=east,in_wall=true,open=false,powered=true": { "model": "block/vertical_slab_darker_pillar", "y":270},
     "facing=south,in_wall=true,open=false,powered=true": { "model": "block/vertical_slab_darker_pillar", "y":0},
     "facing=west,in_wall=true,open=false,powered=true": { "model": "block/vertical_slab_darker_pillar", "y":90},
-    "facing=north,in_wall=true,open=false,powered=true": { "model": "block/vertical_slab_darker_pillar", "y":180}
+    "facing=north,in_wall=true,open=false,powered=true": { "model": "block/vertical_slab_darker_pillar", "y":180},
+    "facing=south,in_wall=true,open=true,powered=true": { "model": "block/darker_architrave_half", "y": 180, "x":180},
+    "facing=west,in_wall=true,open=true,powered=true": { "model": "block/darker_architrave_half", "y":270, "x":180},
+    "facing=north,in_wall=true,open=true,powered=true": { "model": "block/darker_architrave_half", "y":0, "x":180},
+    "facing=east,in_wall=true,open=true,powered=true": { "model": "block/darker_architrave_half", "y":90, "x":180}
   }
 }
