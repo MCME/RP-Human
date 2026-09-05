@@ -49,6 +49,25 @@
     "east=true,north=false,south=false,west=true": {
       "model": "block/ghost_balustrade",
       "y": 90
+    },
+    "east=false,north=false,south=false,west=true": {
+      "model": "block/ghost_architrave_thin",
+      "y": 270,
+      "x": 180
+    },
+    "east=false,north=true,south=false,west=false": {
+      "model": "block/ghost_architrave_thin",
+      "x": 180
+    },
+    "east=true,north=false,south=false,west=false": {
+      "model": "block/ghost_architrave_thin",
+      "y": 90,
+      "x": 180
+    },
+    "east=false,north=false,south=true,west=false": {
+      "model": "block/ghost_architrave_thin",
+      "y": 180,
+      "x": 180
     }
   }
 }
