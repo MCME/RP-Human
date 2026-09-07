@@ -8507,7 +8507,21 @@
                     "type": "model",
                     "model": "block/magenta_stained_glass_pane_nesw"
                 }
-            }                  
+            },
+            {
+                "threshold": 1364,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_ghost_bricks_bottom"
+                }
+            },
+            {
+                "threshold": 1365,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_ghost_stone_bottom"
+                }
+            }                      
         ]
     }
 }

@@ -109,8 +109,7 @@
 	{"model": "block/replace", "y":90}
 	],
     "powered=false,disarmed=false,attached=true,north=true,east=true,south=true,west=true": [
-	{ "model": "block/replace"	},
-	{ "model": "block/replace"	}
+	{ "model": "block/trapdoor_ghost_stone_bottom"	}
 	],
 	"powered=true,disarmed=false,attached=false,north=false,east=false,south=false,west=false": [
 	{ "model": "block/ghost_brick_pile" },
@@ -245,7 +244,7 @@
 	  "model": "block/replace", "y":90
 	},
     "powered=true,disarmed=false,attached=true,north=true,east=true,south=true,west=true": {
-	  "model": "block/replace"
+	  "model": "block/trapdoor_ghost_bricks_bottom"
 	},
 	"powered=false,disarmed=true,attached=false,north=false,east=false,south=false,west=false": {
 	  "model": "block/ghost_chain"
