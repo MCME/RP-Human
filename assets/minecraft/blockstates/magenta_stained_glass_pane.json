@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "east=true,north=false,south=true,west=true": {
+      "model": "block/vertical_slab_ghost_stone_fade"
+    },
+    "east=false,north=true,south=true,west=true": {
+      "model": "block/vertical_slab_ghost_stone_fade",
+      "y": 90
+    },
+    "east=true,north=true,south=false,west=true": {
+      "model": "block/vertical_slab_ghost_brick_fade",
+      "y": 180
+    },
+    "east=true,north=true,south=true,west=false": {
+      "model": "block/vertical_slab_ghost_stone_fade",
+      "y": 270
+    },
+    "east=true,north=true,south=true,west=true": {
+      "model": "block/magenta_stained_glass_pane_nesw"
+    }
+  }
+}
