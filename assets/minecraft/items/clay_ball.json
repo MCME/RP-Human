@@ -7840,7 +7840,7 @@
                 "threshold": 1268,
                 "model": {
                     "type": "model",
-                    "model": "block/vertical_slab_ghost_architrave"
+                    "model": "block/ghost_architrave_half"
                 }
             },
             {
@@ -8176,7 +8176,7 @@
                 "threshold": 1316,
                 "model": {
                     "type": "model",
-                    "model": "item/vertical_slab_ghost_architrave_bottom_inv"
+                    "model": "item/ghost_architrave_bottom_half_inv"
                 }
             },
             {
@@ -8521,7 +8521,49 @@
                     "type": "model",
                     "model": "block/trapdoor_ghost_stone_bottom"
                 }
-            }                      
+            },
+            {
+                "threshold": 1366,
+                "model": {
+                    "type": "model",
+                    "model": "block/riverbed_boulders_brown_low"
+                }
+            },  
+            {
+                "threshold": 1367,
+                "model": {
+                    "type": "model",
+                    "model": "block/riverbed_boulders_brown"
+                }
+            },  
+            {
+                "threshold": 1368,
+                "model": {
+                    "type": "model",
+                    "model": "block/riverbed_boulders_brown_high"
+                }
+            },
+            {
+                "threshold": 1369,
+                "model": {
+                    "type": "model",
+                    "model": "block/riverbed_boulders_blue_low"
+                }
+            },  
+            {
+                "threshold": 1370,
+                "model": {
+                    "type": "model",
+                    "model": "block/riverbed_boulders_blue"
+                }
+            },  
+            {
+                "threshold": 1371,
+                "model": {
+                    "type": "model",
+                    "model": "block/riverbed_boulders_blue_high"
+                }
+            }                                       
         ]
     }
 }

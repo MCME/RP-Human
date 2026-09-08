@@ -5,24 +5,20 @@
       "x": 180
     },
     "east=true,north=false,south=true,west=true": {
-      "model": "block/vertical_slab_ghost_architrave",
-      "x": 180,
-      "y": 180
+      "model": "block/ghost_architrave_half"
 
     },
     "east=false,north=true,south=true,west=true": {
-      "model": "block/vertical_slab_ghost_architrave",
-      "x": 180,
-      "y": 270
+      "model": "block/ghost_architrave_half",
+      "y": 90
     },
     "east=true,north=true,south=false,west=true": {
-      "model": "block/vertical_slab_ghost_architrave",
-      "x": 180
+      "model": "block/ghost_architrave_half",
+      "y": 180
     },
     "east=true,north=true,south=true,west=false": {
-      "model": "block/vertical_slab_ghost_architrave",
-      "y": 90,
-      "x": 180
+      "model": "block/ghost_architrave_half",
+      "y": 270
     },
     "east=false,north=false,south=true,west=true": {
       "model": "block/ghost_architrave_offset",
