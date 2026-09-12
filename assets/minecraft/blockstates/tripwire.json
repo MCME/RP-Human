@@ -402,10 +402,22 @@
     "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=false": {
 	  "model": "mcme:block/spruce_thin_trunk_horizontal", "y": 90
 	},
-    "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=true": [
-		{ "model": "block/paper_quill", "y": 270 },
-		{ "model": "block/paper_quill_2", "y": 270 },
-		{ "model": "block/paper_quill_3", "y": 270 }
+    "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=true": {
+	  "model": "block/offset_ghost_brick_slab"
+	},
+		"attached=true,east=false,north=true,south=true,west=false,powered=true,disarmed=true": [
+		{"model": "minecraft:block/potion"  },
+		{"model": "minecraft:block/potion", "y":90  },
+		{"model": "minecraft:block/potion", "y":180  },
+		{"model": "minecraft:block/potion", "y":270  },
+		{"model": "minecraft:block/potion_2"  },
+		{"model": "minecraft:block/potion_2", "y":90  },
+		{"model": "minecraft:block/potion_2", "y":180  },
+		{"model": "minecraft:block/potion_2", "y":270  },
+		{"model": "minecraft:block/potion_3"  },
+		{"model": "minecraft:block/potion_3", "y":90  },
+		{"model": "minecraft:block/potion_3", "y":180  },
+		{"model": "minecraft:block/potion_3", "y":270  }
 	]
   }
 }

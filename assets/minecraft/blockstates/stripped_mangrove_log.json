@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "axis=y": [
+		{ "model": "block/stripped_mangrove_log" }
+		],
+        "axis=z": [
+		{ "model": "block/stripped_mangrove_log", "x": 90 }
+		],
+        "axis=x": [    
+		{ "model": "block/stripped_mangrove_log", "x": 90, "y": 90 }
+		]
+    }
+}

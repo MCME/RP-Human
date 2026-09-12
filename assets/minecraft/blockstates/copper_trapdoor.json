@@ -1,5 +1,25 @@
 {
   "variants": {
+	"facing\u003dwest,half\u003dtop,open\u003dfalse,powered=false": [
+	  {"model": "block/green_wool_slab", "x":180}
+	],
+	"facing\u003dwest,half\u003dbottom,open\u003dfalse,powered=false": [
+	  {"model": "block/green_wool_slab"}
+	],
+	"facing\u003dsouth,half\u003dtop,open\u003dfalse,powered=false": [
+	  {"model": "block/pale_oak_trapdoor_bottom", "x":180},
+	  {"model": "block/pale_oak_trapdoor_bottom_2", "x":180},
+	  {"model": "block/pale_oak_trapdoor_bottom_3", "x":180},
+	  {"model": "block/pale_oak_trapdoor_bottom_4", "x":180},
+	  {"model": "block/pale_oak_trapdoor_bottom_5", "x":180}
+	],
+	"facing\u003dsouth,half\u003dbottom,open\u003dfalse,powered=false": [
+	  {"model": "block/pale_oak_trapdoor_bottom"},
+	  {"model": "block/pale_oak_trapdoor_bottom_2"},
+	  {"model": "block/pale_oak_trapdoor_bottom_3"},
+	  {"model": "block/pale_oak_trapdoor_bottom_4"},
+	  {"model": "block/pale_oak_trapdoor_bottom_5"}
+	],
 	"facing\u003dnorth,half\u003dtop,open\u003dtrue,powered=true": [
 	  {"model": "block/thin_rough_red_brick_open"},
 	  {"model": "block/thin_rough_red_brick_open_2"},

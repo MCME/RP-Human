@@ -1,0 +1,34 @@
+{
+    "variants": {
+        "axis=y": [
+		{ "model": "block/cherry_log" },
+		{ "model": "block/cherry_log", "y": 90 },
+		{ "model": "block/cherry_log", "y": 180 },
+		{ "model": "block/cherry_log", "y": 270 },
+		{ "model": "block/cherry_log_2" },
+		{ "model": "block/cherry_log_2", "y": 90 },
+		{ "model": "block/cherry_log_2", "y": 180 },
+		{ "model": "block/cherry_log_2", "y": 270 },
+		{ "model": "block/cherry_log_3" },
+		{ "model": "block/cherry_log_3", "y": 90 },
+		{ "model": "block/cherry_log_3", "y": 180 },
+		{ "model": "block/cherry_log_3", "y": 270 },
+		{ "model": "block/cherry_log_4" },
+		{ "model": "block/cherry_log_4", "y": 90 },
+		{ "model": "block/cherry_log_4", "y": 180 },
+		{ "model": "block/cherry_log_4", "y": 270 }
+		],
+        "axis=z": [
+		{ "model": "block/cherry_log", "x": 90 },
+		{ "model": "block/cherry_log_2", "x": 90 },		
+		{ "model": "block/cherry_log_3", "x": 90 },
+		{ "model": "block/cherry_log_4", "x": 90}
+		],
+        "axis=x": [    
+		{ "model": "block/cherry_log", "x": 90, "y": 90 },
+		{ "model": "block/cherry_log_2", "x": 90, "y": 90 },
+		{ "model": "block/cherry_log_3", "x": 90, "y": 90 },
+		{ "model": "block/cherry_log_4", "x": 90, "y": 90 }
+		]
+    }
+}

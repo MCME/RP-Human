@@ -86,6 +86,34 @@
 		{ "model": "minecraft:block/trapdoor_prismarine_bricks_bottom_4"},
 		{ "model": "minecraft:block/trapdoor_prismarine_bricks_bottom_5"}
 	],
+	"facing\u003dsouth,half\u003dbottom,open\u003dtrue,powered=true": [
+	  {"model": "block/pale_oak_trapdoor_side", "y":180},
+	  {"model": "block/pale_oak_trapdoor_side_2", "y":180},
+	  {"model": "block/pale_oak_trapdoor_side_3", "y":180},
+	  {"model": "block/pale_oak_trapdoor_side_4", "y":180},
+	  {"model": "block/pale_oak_trapdoor_side_5", "y":180}
+	],
+	"facing\u003dwest,half\u003dbottom,open\u003dtrue,powered=true": [
+	  {"model": "block/pale_oak_trapdoor_side", "y":270},
+	  {"model": "block/pale_oak_trapdoor_side_2", "y":270},
+	  {"model": "block/pale_oak_trapdoor_side_3", "y":270},
+	  {"model": "block/pale_oak_trapdoor_side_4", "y":270},
+	  {"model": "block/pale_oak_trapdoor_side_5", "y":270}
+	],
+	"facing\u003deast,half\u003dbottom,open\u003dtrue,powered=true": [
+	  {"model": "block/pale_oak_trapdoor_side", "y":90},
+	  {"model": "block/pale_oak_trapdoor_side_2", "y":90},
+	  {"model": "block/pale_oak_trapdoor_side_3", "y":90},
+	  {"model": "block/pale_oak_trapdoor_side_4", "y":90},
+	  {"model": "block/pale_oak_trapdoor_side_5", "y":90}
+	],
+	"facing\u003dnorth,half\u003dbottom,open\u003dtrue,powered=true": [
+	  {"model": "block/pale_oak_trapdoor_side"},
+	  {"model": "block/pale_oak_trapdoor_side_2"},
+	  {"model": "block/pale_oak_trapdoor_side_3"},
+	  {"model": "block/pale_oak_trapdoor_side_4"},
+	  {"model": "block/pale_oak_trapdoor_side_5"}
+	],
 	"facing=north,half=bottom,open=true,powered=false": [
 		{ "model": "minecraft:block/purpur_block_trapdoor_open"},
 		{ "model": "minecraft:block/purpur_block_trapdoor_open_2"},

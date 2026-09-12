@@ -1,0 +1,85 @@
+{
+  "variants": {
+   "facing\u003dnorth,half\u003dlower,hinge\u003dright,open\u003dtrue,powered\u003dtrue": {
+      "model": "minecraft:block/wooden_horse_corbel",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing\u003deast,half\u003dlower,hinge\u003dright,open\u003dtrue,powered\u003dtrue": {
+      "model": "minecraft:block/wooden_horse_corbel",
+	  "y": 90,
+      "uvlock": false
+    },
+    "facing\u003dsouth,half\u003dlower,hinge\u003dright,open\u003dtrue,powered\u003dtrue": {
+      "model": "minecraft:block/wooden_horse_corbel",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing\u003dwest,half\u003dlower,hinge\u003dright,open\u003dtrue,powered\u003dtrue": {
+      "model": "minecraft:block/wooden_horse_corbel",
+      "y": 270,
+      "uvlock": false
+    },
+   "facing\u003dnorth,half\u003dlower,hinge\u003dright,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/wood_corbel",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing\u003deast,half\u003dlower,hinge\u003dright,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/wood_corbel",
+	  "y": 180,
+      "uvlock": false
+    },
+    "facing\u003dsouth,half\u003dlower,hinge\u003dright,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/wood_corbel",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing\u003dwest,half\u003dlower,hinge\u003dright,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/wood_corbel",
+      "y": 0,
+      "uvlock": false
+    },
+	"facing\u003dnorth,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dtrue": {
+      "model": "minecraft:block/wood_decorated_trim",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dtrue": {
+      "model": "minecraft:block/wood_decorated_trim",
+	  "y": 0,
+      "uvlock": false
+    },
+    "facing\u003dsouth,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dtrue": {
+      "model": "minecraft:block/wood_decorated_trim",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing\u003dwest,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dtrue": {
+      "model": "minecraft:block/wood_decorated_trim",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing\u003dnorth,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/edoras_star",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/edoras_star",
+	  "y": 270,
+      "uvlock": true
+    },
+    "facing\u003dsouth,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/edoras_star",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing\u003dwest,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dtrue": {
+      "model": "minecraft:block/edoras_star",
+      "y": 90,
+      "uvlock": true
+    }
+
+  }
+}

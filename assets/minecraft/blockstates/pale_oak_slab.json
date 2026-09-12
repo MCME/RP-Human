@@ -1,0 +1,24 @@
+{
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/pale_oak_slab" },
+			{ "model": "block/pale_oak_slab_2" },
+			{ "model": "block/pale_oak_slab_3" },
+			{ "model": "block/pale_oak_slab_4" },
+			{ "model": "block/pale_oak_slab_5" }
+		],
+        "type=top": [
+			{ "model": "block/pale_oak_slab", "x":180 },
+			{ "model": "block/pale_oak_slab_2", "x":180 },
+			{ "model": "block/pale_oak_slab_3", "x":180 },
+			{ "model": "block/pale_oak_slab_4", "x":180 },
+			{ "model": "block/pale_oak_slab_5", "x":180 }
+		],
+        "type=double": [
+		{ "model": "block/pale_oak_planks_double_slab" },
+		{ "model": "block/pale_oak_planks_double_slab_2" },
+		{ "model": "block/pale_oak_planks_double_slab_3" },
+		{ "model": "block/pale_oak_planks_double_slab_4" }
+		]
+    }
+}

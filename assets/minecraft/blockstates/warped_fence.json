@@ -44,6 +44,12 @@
       { "model": "block/burnt_tree_trunk_thin_2", "y": 270 }
 	  ],
       "when": {"north": "false", "east": "false", "south": "false", "west": "false"}
+    },
+	{
+      "apply": [
+	  { "model": "block/medium_wooden_knot_pillar" }
+	  ],
+      "when": {"north": "true", "east": "true", "south": "true", "west": "true"}
     }
   ]
 }
