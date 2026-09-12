@@ -1,9 +1,10 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/cauldron_side",
 		"1": "block/pot_lids",
-		"particle": "#0"
+		"particle": "block/cauldron_side"
 	},
 	"elements": [
 		{
@@ -55,7 +56,7 @@
 				"south": {"uv": [2, 7, 6, 10], "texture": "#0"},
 				"west": {"uv": [5, 6, 9, 9], "texture": "#0"},
 				"up": {"uv": [6, 5, 10, 9], "texture": "#0"},
-				"down": {"uv": [2.84, 5, -3, 10.84], "texture": "#0"}
+				"down": {"uv": [5.84, 5, 0, 10.84], "texture": "#0"}
 			}
 		},
 		{
@@ -89,6 +90,7 @@
 		{
 			"name": "bone",
 			"origin": [0, 4.62167, 3.15583],
+			"scope": 0,
 			"color": 0,
 			"children": [0, 1, 2, 3, 4, 5]
 		}
