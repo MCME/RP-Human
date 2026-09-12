@@ -1,16 +1,25 @@
 {
-    "parent": "block/3x3vegetation_tintless_1",
-    "textures": {
-        "0": "block/invisible",
-		"1": "block/invisible",
-		"2": "block/peony_bottom",
-		"3": "block/peony_bottom_2"
-    },
-    "gui_light": "front",
-    "display": {
-		"gui": {
-			"translation": [0, 1, 0],
-			"scale": [0.5, 0.5, 0.5]
-		}
-	}
+  "parent": "block/3x3vegetation_tintless_1",
+  "textures": {
+    "0": "block/invisible",
+    "1": "block/invisible",
+    "2": "block/peony_bottom",
+    "3": "block/peony_bottom_2",
+    "particle": "block/invisible"
+  },
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
 }

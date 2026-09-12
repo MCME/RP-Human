@@ -1,15 +1,20 @@
 {
-    "parent": "block/3x3vegetation_tintless_2",
-    "textures": {
-        "0": "block/invisible",
-		"1": "block/invisible",
-		"2": "block/hazelnut_bush",
-		"3": "block/hazelnut_bush_2"
-    },
-	"gui_light": "front",
-	"display": {
-		"gui": {
-			"scale": [0.25, 0.25, 0.25]
-		}
-	}
+  "parent": "block/3x3vegetation_tintless_2",
+  "textures": {
+    "0": "block/invisible",
+    "1": "block/invisible",
+    "2": "block/hazelnut_bush",
+    "3": "block/hazelnut_bush_2",
+    "particle": "block/invisible"
+  },
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    }
+  }
 }

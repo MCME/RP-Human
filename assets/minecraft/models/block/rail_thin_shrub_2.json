@@ -1,9 +1,10 @@
 {
-    "parent": "block/3x3vegetation_tintless",
-    "textures": {
-        "0": "block/invisible",
-		"1": "block/invisible",
-		"2": "block/rail_thin_shrub_3",
-		"3": "block/rail_thin_shrub_5"
-    }
+  "parent": "block/3x3vegetation_tintless",
+  "textures": {
+    "0": "block/invisible",
+    "1": "block/invisible",
+    "2": "block/rail_thin_shrub_3",
+    "3": "block/rail_thin_shrub_5",
+    "particle": "block/invisible"
+  }
 }

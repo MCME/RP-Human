@@ -1,19 +1,24 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "block/3x3x3vegetation_full_tint",
-	"textures": {
-		"1": "block/mid_grass",
-		"2": "block/mid_grass_2",
-		"3": "block/mid_grass_4",
-		"4": "block/mid_grass_3",
-		"5": "block/invisible",
-		"6": "block/invisible",
-		"7": "block/invisible",
-		"8": "block/invisible"
-	},
-	"display": {
-		"gui": {
-			"scale": [0.6, 0.6, 0.6]
-		}
-	}
+  "credit": "Made with Blockbench",
+  "parent": "block/3x3x3vegetation_full_tint",
+  "textures": {
+    "1": "block/mid_grass",
+    "2": "block/mid_grass_2",
+    "3": "block/mid_grass_4",
+    "4": "block/mid_grass_3",
+    "5": "block/invisible",
+    "6": "block/invisible",
+    "7": "block/invisible",
+    "8": "block/invisible",
+    "particle": "block/mid_grass"
+  },
+  "display": {
+    "gui": {
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  }
 }

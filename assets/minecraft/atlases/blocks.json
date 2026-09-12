@@ -1,1 +1,11 @@
-{"sources":[{"source":"entity","prefix":"entity/","type":"directory"},{"pattern":{"namespace":"minecraft","path":"entity/fishing_hook"},"type":"filter"}]}
+{
+  "sources": [
+    {
+      "pattern": {
+        "namespace": "minecraft",
+        "path": "entity/fishing_hook"
+      },
+      "type": "filter"
+    }
+  ]
+}

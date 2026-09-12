@@ -1,14 +1,22 @@
 {
   "parent": "block/tinted_cross",
   "textures": {
-    "cross": "block/reeds_stage0"
-	
+    "cross": "block/reeds_stage0",
+    "particle": "block/reeds_stage0"
   },
   "gui_light": "front",
   "display": {
     "gui": {
-      "translation": [0, 0, 0],
-      "scale": [0.7, 0.7, 0.7]
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
     }
   }
 }

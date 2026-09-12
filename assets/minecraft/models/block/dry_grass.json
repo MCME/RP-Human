@@ -1,21 +1,34 @@
 {
   "parent": "block/3x3x3vegetation_tintless",
   "textures": {
-		"1": "block/dry_grass",
-		"2": "block/dry_grass_2",
-		"3": "block/dry_grass_3",
-		"4": "block/dry_grass_4",
-		"5": "block/invisible",
-		"6": "block/invisible",
-		"7": "block/invisible",
-		"8": "block/invisible"
+    "1": "block/dry_grass",
+    "2": "block/dry_grass_2",
+    "3": "block/dry_grass_3",
+    "4": "block/dry_grass_4",
+    "5": "block/invisible",
+    "6": "block/invisible",
+    "7": "block/invisible",
+    "8": "block/invisible",
+    "particle": "block/dry_grass"
   },
-	"gui_light": "front",
-	"display": {
-		"gui": {
-			"rotation": [0, -115, 0],
-			"translation": [0, 4, 0],
-			"scale": [1, 0.45, 0.45]
-		}
-	}
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        -115,
+        0
+      ],
+      "translation": [
+        0,
+        4,
+        0
+      ],
+      "scale": [
+        1,
+        0.45,
+        0.45
+      ]
+    }
+  }
 }

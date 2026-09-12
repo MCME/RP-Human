@@ -1,17 +1,26 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "block/3x3vegetation_tintless_1",
-	"textures": {
-		"0": "block/oxeye_daisy",
-		"1": "block/oxeye_daisy",
-		"2": "block/oxeye_daisy",
-		"3": "block/oxeye_daisy"
-	},
-	"gui_light": "front",
-	"display": {
-		"gui": {
-			"translation": [1, 2, 0],
-			"scale": [1, 1, 1]
-		}
-	}
+  "credit": "Made with Blockbench",
+  "parent": "block/3x3vegetation_tintless_1",
+  "textures": {
+    "0": "block/oxeye_daisy",
+    "1": "block/oxeye_daisy",
+    "2": "block/oxeye_daisy",
+    "3": "block/oxeye_daisy",
+    "particle": "block/oxeye_daisy"
+  },
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "translation": [
+        1,
+        2,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
 }
