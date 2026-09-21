@@ -94,9 +94,26 @@ if (marker == ivec4(12, 34, 56, 255)) {
         texCoord = getuv(topleft, size.x, height + vph, index.y);
     }
 
-    Pos = subgroupQuadBroadcast(Pos, 2) + posoffset;
+    // Every corner of a carrier element sits within a small fraction of a
+    // block from its block's centre (see objmc.py's ELEMENT_SCALE), so the
+    // block's integer cell is identical for all 4 corners of a face. That
+    // replaces subgroupQuadBroadcast, whose "quad" grouping is only
+    // spec-guaranteed for fragment-shader 2x2 pixel quads.
+    //
+    // Floor the raw section-local Position, NOT Pos: Pos already contains
+    // CameraOffset (the camera's fractional block position), so flooring it
+    // moves the cell boundary every frame the camera moves and the model
+    // snaps by a block. Position is camera-independent; the camera-relative
+    // terms are whole-block shifts (plus CameraOffset) added afterwards.
+    vec3 blockOrigin = floor(Position) + (ChunkPosition - CameraBlockPos) + CameraOffset;
+    Pos = blockOrigin + vec3(0.5) + posoffset;
     vec2 uvjit = vec2(onepixel.x * 0.0001 * corner, onepixel.y * 0.0001 * ((corner + 1) % 4));
     vec2 texuvpx = texCoord * size;
+    // A face UV that reaches exactly 0 or `size` rounds, after the fragment
+    // shader's uv*textureSize truncation, to one texel past the baked
+    // texture's true edge - clipping a thin strip off every polygon that maps
+    // to the edge of its source texture. Keep it strictly inside instead.
+    texuvpx = clamp(texuvpx, vec2(0.01), vec2(size) - vec2(0.01));
 
     if (ntextures > 1) {
         ivec4 texmeta = ivec4(texelFetch(Sampler0, topleft + ivec2(4, 1), 0) * 255.0 + 0.5);
