@@ -1,0 +1,8 @@
+{
+  "variants": {
+	  "facing=north": { "model": "block/ghost_anvil_fade"},
+	  "facing=east": { "model": "block/ghost_anvil_fade", "y":90},
+	  "facing=south": { "model": "block/ghost_anvil"},
+	  "facing=west": { "model": "block/ghost_anvil", "y":90}
+  }
+}

@@ -1,13 +1,80 @@
 {
   "variants": {
-	  "north=false,east=false,south=true,west=true": { "model": "block/dark_architrave_quarter", "y":270, "x": 180 },
-    "north=false,east=true,south=true,west=false": { "model": "block/dark_architrave_quarter", "y":180, "x": 180 },
-    "north=true,east=true,south=false,west=false": { "model": "block/dark_architrave_quarter", "y":90, "x": 180 },
-    "north=true,east=false,south=false,west=true": { "model": "block/dark_architrave_quarter", "y":0, "x": 180 },
-    "south=true,east=false,north=false,west=false": { "model": "block/darker_architrave_quarter", "x":180, "y":180 },
-    "south=false,east=false,north=false,west=true": { "model": "block/darker_architrave_quarter", "x":180, "y":270 },
-    "south=false,east=false,north=true,west=false": { "model": "block/darker_architrave_quarter", "x":180},
-    "south=false,east=true,north=false,west=false": { "model": "block/darker_architrave_quarter", "x":180, "y":90 }
-
+    "north=false,east=false,south=true,west=true": {
+      "model": "block/dark_architrave_quarter",
+      "y": 270,
+      "x": 180
+    },
+    "north=false,east=true,south=true,west=false": {
+      "model": "block/dark_architrave_quarter",
+      "y": 180,
+      "x": 180
+    },
+    "north=true,east=true,south=false,west=false": {
+      "model": "block/dark_architrave_quarter",
+      "y": 90,
+      "x": 180
+    },
+    "north=true,east=false,south=false,west=true": {
+      "model": "block/dark_architrave_quarter",
+      "y": 0,
+      "x": 180
+    },
+    "south=true,east=false,north=false,west=false": {
+      "model": "block/darker_architrave_quarter",
+      "x": 180,
+      "y": 180
+    },
+    "south=false,east=false,north=false,west=true": {
+      "model": "block/darker_architrave_quarter",
+      "x": 180,
+      "y": 270
+    },
+    "south=false,east=false,north=true,west=false": {
+      "model": "block/darker_architrave_quarter",
+      "x": 180
+    },
+    "south=false,east=true,north=false,west=false": {
+      "model": "block/darker_architrave_quarter",
+      "x": 180,
+      "y": 90
+    },
+    "north=true,east=false,south=true,west=true": [{
+      "model": "block/vertical_slab_ghost_bricks_mixed",
+      "y": 90
+    },{
+      "model": "block/vertical_slab_ghost_bricks_mixed_2",
+      "y": 90
+    },{
+      "model": "block/vertical_slab_ghost_bricks_mixed_3",
+      "y": 90
+    }],
+    "north=false,east=true,south=true,west=true": [{
+      "model": "block/vertical_slab_ghost_bricks_mixed"
+    },{
+      "model": "block/vertical_slab_ghost_bricks_mixed_2"
+    },{
+      "model": "block/vertical_slab_ghost_bricks_mixed_3"
+    }],
+    "north=true,east=true,south=true,west=false": [{
+      "model": "block/vertical_slab_ghost_bricks_mixed",
+      "y": 270
+    },{
+      "model": "block/vertical_slab_ghost_bricks_mixed_2",
+      "y": 270
+    },{
+      "model": "block/vertical_slab_ghost_bricks_mixed_3",
+      "y": 270
+    }],
+    "north=true,east=true,south=false,west=true": [{
+      "model": "block/vertical_slab_ghost_bricks_mixed",
+      "y": 180
+    },{
+      "model": "block/vertical_slab_ghost_bricks_mixed_2",
+      "y": 180
+    },{
+      "model": "block/vertical_slab_ghost_bricks_mixed_3",
+      "y": 180
+    }]
   }
 }

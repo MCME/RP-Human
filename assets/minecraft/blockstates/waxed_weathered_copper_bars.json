@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "east=true,north=false,west=false,south=true": { "model": "block/ghost_pillar_2_fade_offset", "y":180 },
+    "east=false,north=false,west=true,south=true": { "model": "block/ghost_pillar_2_fade_offset", "y":270 },
+    "east=false,north=true,west=true,south=false": { "model": "block/ghost_pillar_2_fade_offset", "y":0 },
+    "east=true,north=true,west=false,south=false": { "model": "block/ghost_pillar_2_fade_offset", "y":90 }
+  }
+}

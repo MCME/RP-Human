@@ -82,5 +82,17 @@
 	{ "model": "block/pillar_corner", "y":270 },
 	{ "model": "block/pillar_corner_2", "y":270 },
 	{ "model": "block/pillar_corner_3", "y":270 }
+	],
+	"down=true,east=false,north=true,south=false,up=true,west=true":[
+	{ "model": "block/ghost_pillar_thin_corner"}
+	],
+	"down=true,east=true,north=true,south=false,up=true,west=false":[
+	{ "model": "block/ghost_pillar_thin_corner", "y": 90}
+	],
+	"down=true,east=true,north=true,south=true,up=true,west=false":[
+	{ "model": "block/ghost_pillar_thin_corner", "y": 180}
+	],
+	"down=true,east=false,north=false,south=true,up=true,west=true":[
+	{ "model": "block/ghost_pillar_thin_corner", "y": 270}
 	]}
 }

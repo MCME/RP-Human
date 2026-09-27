@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north,half=top,open=true,powered=false": { "model": "block/ghost_architrave_fade_thin"},
+    "facing=east,half=top,open=true,powered=false": { "model": "block/ghost_architrave_fade_thin", "y": 90},
+    "facing=south,half=top,open=true,powered=false": { "model": "block/ghost_architrave_fade_thin", "y": 180},
+    "facing=west,half=top,open=true,powered=false": { "model": "block/ghost_architrave_fade_thin", "y": 270},
+    "facing=north,half=bottom,open=true,powered=false": { "model": "block/ghost_architrave_fade_thin", "y": 180, "x": 180},
+    "facing=east,half=bottom,open=true,powered=false": { "model": "block/ghost_architrave_fade_thin", "y": 270, "x": 180},
+    "facing=south,half=bottom,open=true,powered=false": { "model": "block/ghost_architrave_fade_thin", "x": 180},
+    "facing=west,half=bottom,open=true,powered=false": { "model": "block/ghost_architrave_fade_thin", "y": 90, "x": 180},
+	  "facing=north,half=bottom,open=false,powered=true": { "model": "block/trapdoor_ghost_stone_fade_bottom"},
+	  "facing=north,half=bottom,open=true,powered=true": { "model": "block/trapdoor_ghost_stone_fade_bottom", "x":90},
+	  "facing=east,half=bottom,open=true,powered=true": { "model": "block/trapdoor_ghost_stone_fade_bottom", "y":90, "x":90},
+	  "facing=south,half=bottom,open=true,powered=true": { "model": "block/trapdoor_ghost_stone_fade_bottom", "y":180, "x":90},
+	  "facing=west,half=bottom,open=true,powered=true": { "model": "block/trapdoor_ghost_stone_fade_bottom", "y":270, "x":90}
+
+  }
+}

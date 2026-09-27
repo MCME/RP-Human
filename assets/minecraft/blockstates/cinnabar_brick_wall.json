@@ -1,0 +1,8 @@
+{
+  "variants": {
+	  "east=none,north=none,south=none,up=true,west=none": { "model": "block/blue_stained_glass_pane_nesw"},
+	  "east=none,north=low,south=low,up=true,west=none": { "model": "block/ghost_balustrade_fade"},
+	  "east=low,north=none,south=none,up=true,west=low": { "model": "block/ghost_balustrade_fade", "y": 90}
+
+  }
+}

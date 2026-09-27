@@ -3,6 +3,14 @@
 	"bottom=false,distance=1": { "model": "minecraft:block/scaffolding_stone_window", "y":90 },
 	"bottom=false,distance=2": { "model": "minecraft:block/scaffolding_stone_window" },
 	"bottom=false,distance=3": { "model": "minecraft:block/scaffolding_stone_window", "y":90, "x":180 },
-	"bottom=false,distance=4": { "model": "minecraft:block/scaffolding_stone_window", "x":180 }
+	"bottom=false,distance=4": { "model": "minecraft:block/scaffolding_stone_window", "x":180 },
+	"bottom=false,distance=5": { "model": "minecraft:block/scaffolding_ghost_window", "y":90 },
+	"bottom=false,distance=6": { "model": "minecraft:block/scaffolding_ghost_window" },
+	"bottom=false,distance=7": { "model": "minecraft:block/scaffolding_ghost_window", "y":90, "x":180 },
+	"bottom=false,distance=0": { "model": "minecraft:block/scaffolding_ghost_window", "x":180 },
+	"bottom=true,distance=5": { "model": "minecraft:block/scaffolding_ghost_window_fade", "y":90 },
+	"bottom=true,distance=6": { "model": "minecraft:block/scaffolding_ghost_window_fade" },
+	"bottom=true,distance=7": { "model": "minecraft:block/scaffolding_ghost_window_fade", "y":90, "x":180 },
+	"bottom=true,distance=0": { "model": "minecraft:block/scaffolding_ghost_window_fade", "x":180 }
   }
 }

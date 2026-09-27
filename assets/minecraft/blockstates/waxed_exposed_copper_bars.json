@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "east=true,north=false,west=false,south=true": { "model": "block/ghost_architrave_fade_offset", "y":90 },
+    "east=false,north=false,west=true,south=true": { "model": "block/ghost_architrave_fade_offset", "y":180 },
+    "east=false,north=true,west=true,south=false": { "model": "block/ghost_architrave_fade_offset", "y":270 },
+    "east=true,north=true,west=false,south=false": { "model": "block/ghost_architrave_fade_offset"},
+    "east=true,north=false,west=true,south=true": { "model": "block/ghost_architrave_fade_half", "y":180, "x":180 },
+    "east=true,north=true,west=false,south=true": { "model": "block/ghost_architrave_fade_half", "y":90, "x":180 },
+    "east=true,north=true,west=true,south=false": { "model": "block/ghost_architrave_fade_half", "x":180 },
+    "east=false,north=true,west=true,south=true": { "model": "block/ghost_architrave_fade_half", "y":270, "x":180 },
+    "east=true,north=true,west=true,south=true": { "model": "block/ghost_architrave_fade", "x":180 }
+  }
+}

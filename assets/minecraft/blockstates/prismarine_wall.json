@@ -1,7 +1,26 @@
 {
     "variants": {
-        "east=low,north=low,south=low,up=false,waterlogged=false,west=low": {
-            "model": "block/stone"
+        "east=low,north=low,south=low,up=false,west=low": {
+            "model": "block/fake_stone"
+        },
+        "east=tall,north=tall,south=tall,up=false,west=tall": {
+            "model": "block/fake_granite"
+        },
+        "east=tall,north=tall,south=tall,up=true,west=tall": {
+            "model": "block/fake_p_granite"
+        },
+        "east=low,north=low,south=low,up=true,west=low": {
+            "model": "block/fake_p_andesite"
+        },
+        "east=tall,north=low,south=low,up=true,west=tall": {
+            "model": "block/fake_tuff"
+        },
+        "east=tall,north=low,south=low,up=false,west=tall": {
+            "model": "block/fake_p_tuff"
+        },
+        "east=tall,north=tall,south=low,up=false,west=tall": {
+            "model": "block/fake_bricks"
         }
+
     }
 }

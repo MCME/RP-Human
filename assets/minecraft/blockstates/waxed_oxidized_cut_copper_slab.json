@@ -1,7 +1,11 @@
 {
-"variants": {
-"waterlogged=false": {
-      "model": "block/invisible"
+    "variants": {
+        "type=bottom": 
+			{ "model": "block/vertical_slab_ghost_stone_fade", "x":270 },
+        "type=top": 
+			{ "model": "block/vertical_slab_ghost_stone_fade", "x": 90 },
+        "type=double": [
+			{ "model": "block/replace"}
+			]
     }
-}
 }

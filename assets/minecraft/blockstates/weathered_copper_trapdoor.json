@@ -1,0 +1,10 @@
+{
+  "variants": {
+	  "facing=north,half=bottom,open=false,powered=true": { "model": "block/trapdoor_ghost_stone_bottom"},
+	  "facing=north,half=bottom,open=true,powered=true": { "model": "block/smooth_ghost_stone_vertical_thin_slab", "y":270},
+	  "facing=east,half=bottom,open=true,powered=true": { "model": "block/smooth_ghost_stone_vertical_thin_slab"},
+	  "facing=south,half=bottom,open=true,powered=true": { "model": "block/smooth_ghost_stone_vertical_thin_slab", "y":90},
+	  "facing=west,half=bottom,open=true,powered=true": { "model": "block/smooth_ghost_stone_vertical_thin_slab", "y":180}
+
+  }
+}

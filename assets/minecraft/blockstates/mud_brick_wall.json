@@ -140,24 +140,24 @@
       { "model": "block/mud_brick_wall_wedge2", "y": 90, "x": 180 }
     ],
 	"waterlogged=false,east=none,north=tall,south=none,west=low,up=true": [
-	{ "model": "block/mud_bricks_corner", "y": 270 },
-	{ "model": "block/mud_bricks_corner_2", "y": 270 },
-	{ "model": "block/mud_bricks_corner_3", "y": 270 }
+	{ "model": "block/mud_bricks_corner"},
+	{ "model": "block/mud_bricks_corner_2"},
+	{ "model": "block/mud_bricks_corner_3"}
 	],
 	"waterlogged=false,east=tall,north=low,south=none,west=none,up=true": [
-	{ "model": "block/mud_bricks_corner" },
-	{ "model": "block/mud_bricks_corner_2" },
-	{ "model": "block/mud_bricks_corner_3" }
+	{ "model": "block/mud_bricks_corner", "y":90 },
+	{ "model": "block/mud_bricks_corner_2", "y":90 },
+	{ "model": "block/mud_bricks_corner_3", "y":90 }
 	],
 	"waterlogged=false,east=low,north=none,south=tall,west=none,up=true": [
-	{ "model": "block/mud_bricks_corner", "y": 90 },
-	{ "model": "block/mud_bricks_corner_2", "y": 90 },
-	{ "model": "block/mud_bricks_corner_3", "y": 90 }
-	],
-	"waterlogged=false,east=none,north=none,south=low,west=tall,up=true": [
 	{ "model": "block/mud_bricks_corner", "y": 180 },
 	{ "model": "block/mud_bricks_corner_2", "y": 180 },
 	{ "model": "block/mud_bricks_corner_3", "y": 180 }
+	],
+	"waterlogged=false,east=none,north=none,south=low,west=tall,up=true": [
+	{ "model": "block/mud_bricks_corner", "y": 270 },
+	{ "model": "block/mud_bricks_corner_2", "y": 270 },
+	{ "model": "block/mud_bricks_corner_3", "y": 270 }
 	],
 	"waterlogged=false,east=none,north=none,south=none,west=tall,up=false": [
 	{ "model": "block/mud_bricks_n", "y": 270 },

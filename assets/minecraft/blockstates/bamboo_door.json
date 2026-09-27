@@ -14,6 +14,30 @@
     "facing=west,half=upper,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/dripstone_vertical_thin_slab",
       "y": 270
+    },
+    "facing=south,half=lower,hinge=left,open=false,powered=false": {
+      "model": "minecraft:block/ghost_side_railing_fade"
+    },
+    "facing=west,half=lower,hinge=left,open=false,powered=false": {
+      "model": "minecraft:block/ghost_side_railing_fade", "y":90
+    },
+    "facing=north,half=lower,hinge=left,open=false,powered=false": {
+      "model": "minecraft:block/ghost_side_railing_fade", "y":180
+    },
+    "facing=east,half=lower,hinge=left,open=false,powered=false": {
+      "model": "minecraft:block/ghost_side_railing_fade", "y":270
+    },
+    "facing=south,half=upper,hinge=left,open=false,powered=false": {
+      "model": "minecraft:block/ghost_side_railing"
+    },
+    "facing=west,half=upper,hinge=left,open=false,powered=false": {
+      "model": "minecraft:block/ghost_side_railing", "y":90
+    },
+    "facing=north,half=upper,hinge=left,open=false,powered=false": {
+      "model": "minecraft:block/ghost_side_railing", "y":180
+    },
+    "facing=east,half=upper,hinge=left,open=false,powered=false": {
+      "model": "minecraft:block/ghost_side_railing", "y":270
     }
   }
 }

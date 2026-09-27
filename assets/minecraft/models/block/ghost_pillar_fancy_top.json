@@ -2,6 +2,10 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
+	"textures": {
+		"0": "block/red_stained_glass",
+		"2": "block/gray_stained_glass"
+	},
 	"elements": [
 		{
 			"from": [0, 14, 0],
@@ -41,36 +45,48 @@
 			"from": [5, 0, 11],
 			"to": [11, 10, 13],
 			"faces": {
-				"east": {"uv": [6, 6, 8, 16], "texture": "#1"},
-				"south": {"uv": [4, 4, 10, 14], "texture": "#1"},
-				"west": {"uv": [0, 0, 2, 10], "texture": "#1"}
+				"east": {"uv": [6, 6, 8, 16], "texture": "#2"},
+				"south": {"uv": [4, 4, 10, 14], "texture": "#2"},
+				"west": {"uv": [0, 0, 2, 10], "texture": "#2"},
+				"down": {"uv": [0, 0, 6, 2], "texture": "#2", "cullface": "down"}
 			}
 		},
 		{
 			"from": [5, 0, 3],
 			"to": [11, 10, 5],
 			"faces": {
-				"north": {"uv": [8, 3, 14, 13], "texture": "#1"},
-				"east": {"uv": [6, 6, 8, 16], "texture": "#1"},
-				"west": {"uv": [0, 0, 2, 10], "texture": "#1"}
+				"north": {"uv": [8, 3, 14, 13], "texture": "#2"},
+				"east": {"uv": [6, 6, 8, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 2, 10], "texture": "#2"},
+				"down": {"uv": [0, 0, 6, 2], "texture": "#2", "cullface": "down"}
 			}
 		},
 		{
 			"from": [3, 0, 5],
 			"to": [5, 10, 11],
 			"faces": {
-				"north": {"uv": [5, 6, 7, 16], "texture": "#1"},
-				"south": {"uv": [9, 0, 11, 10], "texture": "#1"},
-				"west": {"uv": [1, 5, 7, 15], "texture": "#1"}
+				"north": {"uv": [5, 6, 7, 16], "texture": "#2"},
+				"south": {"uv": [9, 0, 11, 10], "texture": "#2"},
+				"west": {"uv": [1, 5, 7, 15], "texture": "#2"},
+				"down": {"uv": [0, 0, 2, 6], "texture": "#2", "cullface": "down"}
 			}
 		},
 		{
 			"from": [11, 0, 5],
 			"to": [13, 10, 11],
 			"faces": {
-				"north": {"uv": [0, 0, 2, 10], "texture": "#1"},
-				"east": {"uv": [0, 0, 6, 10], "texture": "#1"},
-				"south": {"uv": [14, 6, 16, 16], "texture": "#1"}
+				"north": {"uv": [0, 0, 2, 10], "texture": "#2"},
+				"east": {"uv": [0, 0, 6, 10], "texture": "#2"},
+				"south": {"uv": [14, 6, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 2, 6], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"from": [5, 0, 5],
+			"to": [11, 2, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0, 6]},
+			"faces": {
+				"down": {"uv": [0, 0, 6, 6], "texture": "#2", "cullface": "down"}
 			}
 		}
 	]
