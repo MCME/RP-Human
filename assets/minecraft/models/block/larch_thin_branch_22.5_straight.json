@@ -1,0 +1,50 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [48, 48],
+	"textures": {
+		"0": "block/larch_log_composite",
+		"particle": "block/larch_log_composite"
+	},
+	"elements": [
+		{
+			"from": [5.4, -13.46447, 20.72183],
+			"to": [10.6, 22.5, 25.39683],
+			"rotation": {"angle": -26.6, "axis": "x", "origin": [4.5, -13, 27]},
+			"faces": {
+				"north": {"uv": [4.01184, 1, 16, 2.73333], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0.40333, 1, 12.39149, 2.55833], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2.66667, 11, 14.65482, 12.73333], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [4.01184, 10, 16, 11.55833], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [4, 0.91667, 5.55833, 2.65], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [4, 1.73667, 5.55833, 3.47], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.575, -16, 21.9],
+			"to": [10.425, -14, 25.575],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.5, -12, 19.4]},
+			"faces": {
+				"north": {"uv": [5.33333, 1, 6, 2.61667], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0.40333, 1, 1.07, 2.225], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [4, 9.33333, 4.66667, 10.95], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [7.25, 10, 7.91667, 11.225], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [4, 0.91667, 5.225, 2.53334], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [4, 1.73667, 5.225, 3.35334], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.575, 15.25, 5.9],
+			"to": [10.425, 17.75, 9.575],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.5, -12, 19.4]},
+			"faces": {
+				"north": {"uv": [5.33333, 1, 6.16666, 2.61667], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0.40333, 1, 1.23666, 2.225], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [4, 9.33333, 4.83333, 10.95], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [7.25, 10, 8.08333, 11.225], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [4, 0.91667, 5.225, 2.53334], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [4, 1.73667, 5.225, 3.35334], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}

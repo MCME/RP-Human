@@ -1,0 +1,49 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/stripped_acacia_log_2",
+		"particle": "block/stripped_acacia_log_2"
+	},
+	"elements": [
+		{
+			"from": [7.1, 8.1, 5.2],
+			"to": [9.9, 10.9, 13.05],
+			"rotation": {"x": 10.8052, "y": -22.1399, "z": -4.1141, "origin": [0.5, 5.8, 13.2]},
+			"faces": {
+				"north": {"uv": [8.6667, 2, 11.4667, 4.8], "texture": "#0"},
+				"east": {"uv": [4, 3.6667, 11.85, 6.4667], "texture": "#0"},
+				"south": {"uv": [10.1333, 4.8, 7.3333, 2], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [11.85, 14.4667, 4, 11.6667], "texture": "#0"},
+				"up": {"uv": [11.85, 4.4667, 4, 1.6667], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [4, 0.6667, 11.85, 3.4667], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [12.35, 10.65, 4.55],
+			"to": [14.25, 12.8, 11.55],
+			"rotation": {"x": 23.5292, "y": -26.1586, "z": -11.5666, "origin": [13.9, 12.55, 5.95]},
+			"faces": {
+				"north": {"uv": [8.6667, 1, 10.5667, 3.15], "texture": "#0"},
+				"east": {"uv": [4, 12, 11, 14.15], "texture": "#0"},
+				"south": {"uv": [9.4833, 2.9, 7.3333, 1], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [11, 13.4833, 4, 11.3333], "texture": "#0"},
+				"up": {"uv": [11, 12.5667, 4, 10.6667], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [4, 10, 11, 11.9], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.475, 7.65, 16],
+			"to": [9.375, 10.65, 23.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.925, 9.15, 19.75]},
+			"faces": {
+				"north": {"uv": [3, 2, 6, 4.9], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [3.1667, 2, 6.1667, 9.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3, 2, 6, 4.9], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [3, 2, 6, 9.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [5.6667, 4, 13.1667, 6.9], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [5.6667, 4.1667, 13.1667, 7.0667], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}
