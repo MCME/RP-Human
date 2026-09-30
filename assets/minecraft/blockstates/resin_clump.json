@@ -43,6 +43,14 @@
 	"down=true,east=true,north=false,south=true,up=false,west=false":
 	{ "model": "block/ghost_pillar_fade_thin_corner", "y": 180},
 	"down=true,east=false,north=false,south=true,up=false,west=true":
-	{ "model": "block/ghost_pillar_fade_thin_corner", "y": 270}
+	{ "model": "block/ghost_pillar_fade_thin_corner", "y": 270},
+	"down=false,east=false,north=true,south=false,up=true,west=false":
+	{ "model": "block/skeleton_hanging"},
+	"down=false,east=true,north=false,south=false,up=true,west=false":
+	{ "model": "block/skeleton_hanging", "y": 90},
+	"down=false,east=false,north=false,south=true,up=true,west=false":
+	{ "model": "block/skeleton_hanging", "y": 180},
+	"down=false,east=false,north=false,south=false,up=true,west=true":
+	{ "model": "block/skeleton_hanging", "y": 270}
   }
 }
