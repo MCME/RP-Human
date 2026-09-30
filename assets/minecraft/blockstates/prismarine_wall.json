@@ -20,6 +20,12 @@
         },
         "east=tall,north=tall,south=low,up=false,west=tall": {
             "model": "block/fake_bricks"
+        },
+        "east=none,north=none,south=none,up=true,west=low": {
+            "model": "block/iron_bars_diagonal"
+        },
+        "east=none,north=none,south=low,up=true,west=none": {
+            "model": "block/iron_bars_diagonal", "y": 90
         }
 
     }
