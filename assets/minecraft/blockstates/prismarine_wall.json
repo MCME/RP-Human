@@ -26,6 +26,24 @@
         },
         "east=none,north=none,south=low,up=true,west=none": {
             "model": "block/iron_bars_diagonal", "y": 90
+        },
+        "east=low,north=tall,south=tall,up=false,west=low": {
+            "model": "block/double_slab_brick"
+        },
+        "east=low,north=low,south=tall,up=false,west=low": {
+            "model": "block/mud_bricks"
+        },
+        "east=low,north=low,south=tall,up=true,west=low": {
+            "model": "block/red_mushroom_block_ns"
+        },
+        "east=low,north=low,south=tall,up=true,west=tall": {
+            "model": "block/deepslate_bricks"
+        },
+        "east=tall,north=low,south=tall,up=false,west=low": {
+            "model": "block/double_slab_cobblestone"
+        },
+        "east=low,north=low,south=tall,up=false,west=tall": {
+            "model": "block/nether_bricks"
         }
 
     }
