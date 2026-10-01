@@ -1,6 +1,12 @@
 {
   "variants": {
-	  "distance=4,persistent=true,waterlogged=false": { "model": "block/pine_leaves"}
+	  "distance=4,persistent=true,waterlogged=false": [
+		{ "model": "mcme:block/pine_leaves" },
+		{ "model": "mcme:block/pine_leaves_2" },
+		{ "model": "mcme:block/pine_leaves_3" },
+		{ "model": "mcme:block/pine_leaves_4" },
+		{ "model": "mcme:block/pine_leaves_5" }
+		]
 
   }
 }

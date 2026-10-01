@@ -1,7 +1,33 @@
 {
   "variants": {
-	  "facing=west,half=bottom,open=false,powered=false,waterlogged=false": { "model": "block/pine_leaves_slab"},
-	  "facing=west,half=top,open=false,powered=false,waterlogged=false": { "model": "block/pine_leaves_slab", "x": 180}
+	  "facing=west,half=bottom,open=false,powered=false,waterlogged=false": [
+      {
+        "model": "mcme:block/pine_leaves_slab"
+      },
+      {
+        "model": "mcme:block/pine_leaves_slab_2"
+      },
+      {
+        "model": "mcme:block/pine_leaves_slab_3"
+      },
+      {
+        "model": "mcme:block/pine_leaves_slab_4"
+      }
+    ],
+	  "facing=west,half=top,open=false,powered=false,waterlogged=false": [
+      {
+        "model": "mcme:block/pine_leaves_slab_upper"
+      },
+      {
+        "model": "mcme:block/pine_leaves_slab_upper_2"
+      },
+      {
+        "model": "mcme:block/pine_leaves_slab_upper_3"
+      },
+      {
+        "model": "mcme:block/pine_leaves_slab_upper_4"
+      }
+    ]
 
   }
 }

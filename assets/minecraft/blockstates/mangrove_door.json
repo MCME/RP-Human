@@ -600,10 +600,20 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/pine_leaves_slab_dark",
-        "y": 270, "x":270
+      "apply": [
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_4"
+      },
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_4_2"
+      },
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_4_3"
+      },
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_4_4"
       }
+    ]
     },
     {
       "when": {
@@ -613,10 +623,20 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/pine_leaves_slab_dark",
-        "x":270
+      "apply": [
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab"
+      },
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_1_2"
+      },
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_1_3"
+      },
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_1_4"
       }
+    ]
     },
     {
       "when": {
@@ -626,10 +646,20 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/pine_leaves_slab_dark",
-        "y": 90, "x":270
+      "apply": [
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_2"
+      },
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_2_2"
+      },
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_2_3"
+      },
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_2_4"
       }
+    ]
     },
     {
       "when": {
@@ -639,10 +669,20 @@
         "open": "false",
         "powered": "true"
       },
-      "apply": {
-        "model": "block/pine_leaves_slab_dark",
-        "y": 180, "x":270
+      "apply": [
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_3"
+      },
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_3_2"
+      },
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_3_3"
+      },
+      {
+        "model": "mcme:block/pine_leaves_dark_vertical_slab_3_4"
       }
+    ]
     },
     {
       "when": {
