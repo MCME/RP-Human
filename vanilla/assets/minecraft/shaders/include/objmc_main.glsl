@@ -78,7 +78,13 @@ if (marker == ivec4(12, 34, 56, 255)) {
         // texture_layout), so no mip level up to maxLod mixes the data in.
         headerheight = 2 + int(ceil(nvertices * 0.25 / size.x));
         int height = headerheight + size.y * ntextures;
-        if (maxLod > 0) {
+        if (t[8].r == 2) {
+            // Layout 2 (objmc_merge.py): the texture is shared by every model
+            // baked onto this sprite and sits above this model's block, t[8].gb
+            // rows up; the data follows the pointers directly.
+            height = headerheight;
+            headerheight = -(t[8].g * 256 + t[8].b);
+        } else if (maxLod > 0) {
             int block = 1 << maxLod;
             headerheight = (headerheight + 2 * block - 1) / block * block;
             height = (headerheight + size.y * ntextures + block - 1) / block * block + block;
