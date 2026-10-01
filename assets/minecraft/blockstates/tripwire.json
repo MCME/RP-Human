@@ -220,7 +220,7 @@
 	  "model": "block/replace", "y":180
 	},
 	"powered=true,disarmed=true,attached=true,north=false,east=true,south=true,west=true": {
-	  "model": "block/spruce_branch_horizontal_thin", "y":180
+	  "model": "mcme:block/spruce_thin_trunk_horizontal", "y":180
 	},
 	"powered=true,disarmed=false,attached=true,north=true,east=false,south=false,west=false": {
 	  "model": "block/replace" 
@@ -232,16 +232,16 @@
 	  "model": "block/replace"
 	},
     "powered=true,disarmed=true,attached=true,north=true,east=false,south=true,west=true": {
-	  "model": "block/spruce_branch_horizontal_thin", "y":270
+	  "model": "mcme:block/spruce_thin_trunk_horizontal", "y":270
 	},
     "powered=true,disarmed=false,attached=true,north=true,east=true,south=false,west=false": {
 	  "model": "block/replace", "y":90
 	},
     "powered=true,disarmed=true,attached=true,north=true,east=true,south=false,west=true": {
-	  "model": "block/spruce_branch_horizontal_thin" 
+	  "model": "mcme:block/spruce_thin_trunk_horizontal" 
 	},
     "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=false": {
-	  "model": "block/spruce_branch_horizontal_thin", "y":90
+	  "model": "mcme:block/spruce_thin_trunk_horizontal", "y":90
 	},
     "powered=true,disarmed=false,attached=true,north=true,east=true,south=true,west=true": {
 	  "model": "block/trapdoor_ghost_bricks_bottom"
@@ -262,7 +262,7 @@
 	  "model": "block/replace", "y":180
 	},
 	"powered=false,disarmed=true,attached=false,north=false,east=true,south=true,west=true": {
-	  "model": "block/larch_branch_horizontal_thick", "y":180
+	  "model": "mcme:block/larch_trunk_horizontal", "y":180
 	},
 	"powered=false,disarmed=true,attached=false,north=true,east=false,south=false,west=false": {
 	  "model": "block/ghost_pillar_thin_corner" 
@@ -283,16 +283,16 @@
 	  "model": "block/replace"
 	},
     "powered=false,disarmed=true,attached=false,north=true,east=false,south=true,west=true": {
-	  "model": "block/larch_branch_horizontal_thick", "y":270
+	  "model": "mcme:block/larch_trunk_horizontal", "y":270
 	},
     "powered=false,disarmed=true,attached=false,north=true,east=true,south=false,west=false": {
 	  "model": "block/replace", "y":90
 	},
     "powered=false,disarmed=true,attached=false,north=true,east=true,south=false,west=true": {
-	  "model": "block/larch_branch_horizontal_thick" 
+	  "model": "mcme:block/larch_trunk_horizontal" 
 	},
     "powered=false,disarmed=true,attached=false,north=true,east=true,south=true,west=false": {
-	  "model": "block/larch_branch_horizontal_thick", "y":90
+	  "model": "mcme:block/larch_trunk_horizontal", "y":90
 	},
     "powered=false,disarmed=true,attached=false,north=true,east=true,south=true,west=true": {
 	  "model": "block/replace"
@@ -319,7 +319,7 @@
 	  "model": "block/replace", "y":180
 	},
 	"powered=false,disarmed=true,attached=true,north=false,east=true,south=true,west=true": {
-      "model": "block/larch_branch_horizontal_thin",
+      "model": "mcme:block/larch_thin_trunk_horizontal",
       "y": 180
     },
 	"powered=false,disarmed=true,attached=true,north=true,east=false,south=false,west=false": {
@@ -332,17 +332,17 @@
 	  "model": "block/replace"
 	},
     "powered=false,disarmed=true,attached=true,north=true,east=false,south=true,west=true": {
-      "model": "block/larch_branch_horizontal_thin",
+      "model": "mcme:block/larch_thin_trunk_horizontal",
       "y": 270
     },
     "powered=false,disarmed=true,attached=true,north=true,east=true,south=false,west=false": {
 	  "model": "block/replace", "y":90
 	},
     "powered=false,disarmed=true,attached=true,north=true,east=true,south=false,west=true": {
-      "model": "block/larch_branch_horizontal_thin"
+      "model": "mcme:block/larch_thin_trunk_horizontal"
     },
     "powered=false,disarmed=true,attached=true,north=true,east=true,south=true,west=false": {
-      "model": "block/larch_branch_horizontal_thin",
+      "model": "mcme:block/larch_thin_trunk_horizontal",
       "y": 90
     },
     "powered=false,disarmed=true,attached=true,north=true,east=true,south=true,west=true": {
@@ -381,7 +381,7 @@
 	  "model": "block/replace", "y":180
 	},
 	"powered=true,disarmed=true,attached=false,north=false,east=true,south=true,west=true": {
-	  "model": "block/spruce_branch_horizontal_thick", "y":180
+	  "model": "mcme:block/spruce_trunk_horizontal", "y":180
 	},
 	"powered=true,disarmed=true,attached=false,north=true,east=false,south=false,west=false": {
 	  "model": "block/replace" 
@@ -393,16 +393,16 @@
 	  "model": "block/replace"
 	},
     "powered=true,disarmed=true,attached=false,north=true,east=false,south=true,west=true": {
-	  "model": "block/spruce_branch_horizontal_thick", "y":270
+	  "model": "mcme:block/spruce_trunk_horizontal", "y":270
 	},
     "powered=true,disarmed=true,attached=false,north=true,east=true,south=false,west=false": {
 	  "model": "block/replace", "y":90
 	},
     "powered=true,disarmed=true,attached=false,north=true,east=true,south=false,west=true": {
-	  "model": "block/spruce_branch_horizontal_thick" 
+	  "model": "mcme:block/spruce_trunk_horizontal" 
 	},
     "powered=true,disarmed=true,attached=false,north=true,east=true,south=true,west=false": {
-	  "model": "block/spruce_branch_horizontal_thick", "y":90
+	  "model": "mcme:block/spruce_trunk_horizontal", "y":90
 	},
     "powered=true,disarmed=true,attached=false,north=true,east=true,south=true,west=true": {
 	  "model": "block/replace"
