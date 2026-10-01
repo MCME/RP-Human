@@ -1,6 +1,13 @@
 //objmc
 //https://github.com/Godlander/objmc
 
+// How much of the client's ambient occlusion objmc models get: 0 none, 1 all.
+#define OBJMC_AO_STRENGTH 0.6
+// How much brighter texels are spared from it, keeping highlights: 0 none.
+#define OBJMC_AO_HIGHLIGHTS 0.5
+// Overall brightness of objmc models, before the lightmap: 1.0 unchanged.
+#define OBJMC_BRIGHTNESS 1.1
+
 //default lighting
 if (isCustom == 0) {
 #ifndef EMISSIVE
@@ -15,10 +22,29 @@ else if (noshadow == 0) {
 
     //block lighting
 #ifdef BLOCK
-    float vertical = sign(normal.y) * 0.3 + 0.7;
-    float horizontal = abs(normal.z) * 0.25 + 0.5;
-    float brightness = mix(horizontal, vertical, abs(normal.y));
+    // Vanilla's face shading - up 1.0, down 0.5, north/south 0.8, east/west
+    // 0.6 - blended by the true normal, as Sodium shades an .obj.
+    vec3 n2 = normal * normal;
+    float brightness = n2.x * 0.6 + n2.z * 0.8 + n2.y * (normal.y > 0.0 ? 1.0 : 0.5);
     color *= vec4(vec3(brightness), 1.0);
+
+    // Ambient occlusion. The client works it out for the carrier element's
+    // face - from the blocks around, so a dense canopy darkens - and bakes it
+    // into vertexColor along with that face's own cardinal shading. The carrier
+    // faces the true normal's dominant axis (objmc.py's classify_direction), so
+    // that shading is divided back out, leaving the occlusion. Capped at 1, so
+    // a mismatch only weakens it. Applied at OBJMC_AO_STRENGTH: the client's
+    // occlusion is per block, not per vertex, and at full strength turns whole
+    // faces black.
+    vec3 an = abs(normal);
+    float carrierShade = (an.y >= an.x && an.y >= an.z) ? (normal.y > 0.0 ? 1.0 : 0.5)
+                       : (an.x >= an.z ? 0.6 : 0.8);
+    float occlusion = clamp(vertexColor.r / carrierShade, 0.0, 1.0);
+    // Bright texels are darkened less, so a texture's highlights keep their
+    // contrast in shade instead of sinking with the rest.
+    float highlight = max(color.r, max(color.g, color.b));
+    color.rgb *= mix(mix(1.0, occlusion, OBJMC_AO_STRENGTH), 1.0, OBJMC_AO_HIGHLIGHTS * highlight);
+    color.rgb *= OBJMC_BRIGHTNESS;
 #endif
 
 // BEGIN COMMENTED 1.21.4 BLOCK-LIGHTING RESTORATION
