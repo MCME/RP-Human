@@ -2,11 +2,24 @@
 //https://github.com/Godlander/objmc
 
 // How much of the client's ambient occlusion objmc models get: 0 none, 1 all.
-#define OBJMC_AO_STRENGTH 0.6
+#define OBJMC_AO_STRENGTH 0.75
 // How much brighter texels are spared from it, keeping highlights: 0 none.
-#define OBJMC_AO_HIGHLIGHTS 0.5
+// Above 0 the texture's bright spots keep their brightness in shade, which
+// shows its tiling across a canopy.
+#define OBJMC_AO_HIGHLIGHTS 0.0
 // Overall brightness of objmc models, before the lightmap: 1.0 unchanged.
-#define OBJMC_BRIGHTNESS 1.1
+#define OBJMC_BRIGHTNESS 1.0
+// The occlusion the client gives a face nothing occludes, when its block has a
+// full collision box (leaves): such a block counts itself as one of the four
+// samples it averages, 0.2 against 1.0 for open air. Divided out, so open
+// leaves are at full brightness and shade has the whole range; other blocks
+// reach 1 earlier and are capped there.
+#define OBJMC_AO_OPEN 0.7
+// The same for upward faces. Their carriers lie flat (objmc.py's CARRIER_FLAT)
+// so the client occludes them from the layer above, which stands in for the
+// block itself: open is 1.0 there. Lower brightens canopy tops, cutting their
+// lightest shading first; higher darkens them evenly.
+#define OBJMC_AO_OPEN_UP 1.1
 
 //default lighting
 if (isCustom == 0) {
@@ -28,18 +41,19 @@ else if (noshadow == 0) {
     float brightness = n2.x * 0.6 + n2.z * 0.8 + n2.y * (normal.y > 0.0 ? 1.0 : 0.5);
     color *= vec4(vec3(brightness), 1.0);
 
-    // Ambient occlusion. The client works it out for the carrier element's
-    // face - from the blocks around, so a dense canopy darkens - and bakes it
-    // into vertexColor along with that face's own cardinal shading. The carrier
+    // Ambient occlusion. The client works it out for each corner of the
+    // carrier element's face - which sits where the real face does, see
+    // objmc.py's carrier - from the blocks around, and bakes it into
+    // vertexColor along with that face's own cardinal shading. The carrier
     // faces the true normal's dominant axis (objmc.py's classify_direction), so
     // that shading is divided back out, leaving the occlusion. Capped at 1, so
-    // a mismatch only weakens it. Applied at OBJMC_AO_STRENGTH: the client's
-    // occlusion is per block, not per vertex, and at full strength turns whole
-    // faces black.
+    // a mismatch only weakens it.
     vec3 an = abs(normal);
+    bool facesUp = an.y >= an.x && an.y >= an.z && normal.y > 0.0;
     float carrierShade = (an.y >= an.x && an.y >= an.z) ? (normal.y > 0.0 ? 1.0 : 0.5)
                        : (an.x >= an.z ? 0.6 : 0.8);
-    float occlusion = clamp(vertexColor.r / carrierShade, 0.0, 1.0);
+    float open = facesUp ? OBJMC_AO_OPEN_UP : OBJMC_AO_OPEN;
+    float occlusion = clamp(vertexColor.r / carrierShade / open, 0.0, 1.0);
     // Bright texels are darkened less, so a texture's highlights keep their
     // contrast in shade instead of sinking with the rest.
     float highlight = max(color.r, max(color.g, color.b));
