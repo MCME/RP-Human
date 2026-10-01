@@ -26,6 +26,7 @@ out float transition;
 
 flat out int isCustom;
 flat out int noshadow;
+flat out int maxLod;
 // BEGIN COMMENTED 1.21.4 BLOCK-LIGHTING VARYINGS
 // flat out float baseBrightness;
 // flat out float aoIntensity;
@@ -44,6 +45,7 @@ void main() {
     transition = 0;
     isCustom = 0;
     noshadow = 0;
+    maxLod = 0;
     // BEGIN COMMENTED 1.21.4 BLOCK-LIGHTING DEFAULTS
     // baseBrightness = 1.0;
     // aoIntensity = 1.0;

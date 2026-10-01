@@ -20,6 +20,7 @@ in float transition;
 
 flat in int isCustom;
 flat in int noshadow;
+flat in int maxLod;
 // BEGIN COMMENTED 1.21.4 BLOCK-LIGHTING VARYINGS
 // flat in float baseBrightness;
 // flat in float aoIntensity;
@@ -103,9 +104,30 @@ vec4 sampleRGSS(sampler2D source, vec2 uv, vec2 pixelSize) {
     return mix(nearestColor, rgssColor, blendFactor);
 }
 
-vec4 sampleColor(vec2 uv) {
-    if (isCustom == 1)
+// An objmc model's texture sits in one atlas sprite with its geometry data, and
+// is only padded against that data bleeding in for maxLod mip levels (see
+// objmc_main.glsl). Sampled like vanilla, but with the gradients shortened so
+// the mip level never goes past maxLod; with no padding at all, full size only.
+vec4 sampleCustom(vec2 uv, vec2 du, vec2 dv) {
+    if (maxLod <= 0)
         return texelFetch(Sampler0, ivec2(uv * textureSize(Sampler0, 0)), 0);
+    vec2 pixelSize = 1.0f / TextureSize;
+    vec2 texelScreenSize = sqrt(du * du + dv * dv);
+    float footprint = max(length(du / pixelSize), length(dv / pixelSize));
+    float limit = exp2(float(maxLod));
+    if (footprint > limit) {
+        du *= limit / footprint;
+        dv *= limit / footprint;
+    }
+    return sampleNearest(Sampler0, uv, pixelSize, du, dv, texelScreenSize);
+}
+
+vec4 sampleColor(vec2 uv) {
+    // Taken before branching: derivatives are undefined in divergent control flow.
+    vec2 du = dFdx(uv);
+    vec2 dv = dFdy(uv);
+    if (isCustom == 1)
+        return sampleCustom(uv, du, dv);
     return UseRgss == 1 ? sampleRGSS(Sampler0, uv, 1.0f / TextureSize) : sampleNearest(Sampler0, uv, 1.0f / TextureSize);
 }
 

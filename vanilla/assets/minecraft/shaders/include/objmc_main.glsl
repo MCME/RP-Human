@@ -36,6 +36,9 @@ if (marker == ivec4(12, 34, 56, 255)) {
     int vth = t[5].b * 256 + t[7].b;
     noshadow = getb(t[6].r, 7, 1);
     bvec3 visibility = bvec3(getb(t[6].r, 4), getb(t[6].r, 3), getb(t[6].r, 2));
+    // Mip levels the texture is padded for (objmc.py --mipmap). The fragment
+    // shader samples the texture no smaller than this.
+    maxLod = min(t[6].g, 4);
 
     float time = GameTime * 24000.0;
     float texTime = GameTime * 24000.0;
@@ -58,8 +61,17 @@ if (marker == ivec4(12, 34, 56, 255)) {
 
         int id = (((uvoffset.y - 2) * size.x) + uvoffset.x) * 4 + corner;
         id += frame * nvertices;
+        // headerheight is the texture's first row, height the data's. Padded
+        // for mipmapping, the texture starts on a 2^maxLod row boundary with at
+        // least one such block of repeated edge rows either side (objmc.py's
+        // texture_layout), so no mip level up to maxLod mixes the data in.
         headerheight = 2 + int(ceil(nvertices * 0.25 / size.x));
         int height = headerheight + size.y * ntextures;
+        if (maxLod > 0) {
+            int block = 1 << maxLod;
+            headerheight = (headerheight + 2 * block - 1) / block * block;
+            height = (headerheight + size.y * ntextures + block - 1) / block * block + block;
+        }
         ivec2 index = getvert(topleft, size.x, height + vph + vth, id);
         posoffset = getpos(topleft, size.x, height, index.x);
 
