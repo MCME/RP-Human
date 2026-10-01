@@ -6,9 +6,17 @@
 
 isCustom = 0;
 transition = 0;
-int corner = gl_VertexID % 4;
 ivec2 atlasSize = textureSize(Sampler0, 0);
 vec2 onepixel = 1.0 / atlasSize;
+// Which corner of its carrier face this vertex is, from its UV: a carrier's UVs
+// span 0.1 to 0.9 of its pointer pixel, and the client gives face vertex 0 the
+// (min u, min v) corner, 1 (min u, max v), 2 (max u, max v), 3 (max u, min v)
+// (26.2's CuboidFace.UVs). Not gl_VertexID % 4: a section's vertices start
+// wherever its shared buffer had room, so that is off by a different 0-3 per
+// section, changing whenever the section is rebuilt - which keeps the shape
+// but moves the client's per-corner occlusion onto the wrong corners.
+bvec2 uvHigh = greaterThan(fract(UV0 * atlasSize), vec2(0.5));
+int corner = uvHigh.x ? (uvHigh.y ? 2 : 3) : (uvHigh.y ? 1 : 0);
 ivec2 uv = ivec2(UV0 * atlasSize);
 vec3 posoffset = vec3(0.0);
 int headerheight = 0;
@@ -70,7 +78,13 @@ if (marker == ivec4(12, 34, 56, 255)) {
         // texture_layout), so no mip level up to maxLod mixes the data in.
         headerheight = 2 + int(ceil(nvertices * 0.25 / size.x));
         int height = headerheight + size.y * ntextures;
-        if (maxLod > 0) {
+        if (t[8].r == 2) {
+            // Layout 2 (objmc_merge.py): the texture is shared by every model
+            // baked onto this sprite and sits above this model's block, t[8].gb
+            // rows up; the data follows the pointers directly.
+            height = headerheight;
+            headerheight = -(t[8].g * 256 + t[8].b);
+        } else if (maxLod > 0) {
             int block = 1 << maxLod;
             headerheight = (headerheight + 2 * block - 1) / block * block;
             height = (headerheight + size.y * ntextures + block - 1) / block * block + block;
@@ -109,9 +123,9 @@ if (marker == ivec4(12, 34, 56, 255)) {
         texCoord = getuv(topleft, size.x, height + vph, index.y);
     }
 
-    // Every corner of a carrier element sits within a small fraction of a
-    // block from its block's centre (see objmc.py's ELEMENT_SCALE), so the
-    // block's integer cell is identical for all 4 corners of a face. That
+    // Every corner of a carrier element sits strictly inside its block (see
+    // objmc.py's CARRIER_MARGIN), so the block's integer cell is identical
+    // for all 4 corners of a face. That
     // replaces subgroupQuadBroadcast, whose "quad" grouping is only
     // spec-guaranteed for fragment-shader 2x2 pixel quads.
     //
