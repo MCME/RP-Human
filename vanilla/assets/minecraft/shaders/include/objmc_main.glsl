@@ -5,6 +5,8 @@
 // item, GUI, hand, display, and armor branches are not part of shaders_sort.
 
 isCustom = 0;
+// The carrier vertex where the client put it, random block offset included.
+vec3 carrierPos = Pos;
 transition = 0;
 ivec2 atlasSize = textureSize(Sampler0, 0);
 vec2 onepixel = 1.0 / atlasSize;
@@ -41,6 +43,9 @@ if (marker == ivec4(12, 34, 56, 255)) {
     bool autoplay = getb(t[4].a, 6);
     ivec2 easing = ivec2(getb(t[4].a, 4, 2), getb(t[4].a, 2, 2));
     int vph = t[5].r * 256 + t[5].g;
+    // A bake narrower than 16 texels ends before t[8], which then reads from
+    // whatever sprite lies next to it in the atlas: ignore t[8] and on there.
+    bool wideHeader = size.x >= 16;
     int vth = t[5].b * 256 + t[7].b;
     noshadow = getb(t[6].r, 7, 1);
     bvec3 visibility = bvec3(getb(t[6].r, 4), getb(t[6].r, 3), getb(t[6].r, 2));
@@ -78,7 +83,7 @@ if (marker == ivec4(12, 34, 56, 255)) {
         // texture_layout), so no mip level up to maxLod mixes the data in.
         headerheight = 2 + int(ceil(nvertices * 0.25 / size.x));
         int height = headerheight + size.y * ntextures;
-        if (t[8].r == 2) {
+        if (wideHeader && t[8].r == 2) {
             // Layout 2 (objmc_merge.py): the texture is shared by every model
             // baked onto this sprite and sits above this model's block, t[8].gb
             // rows up; the data follows the pointers directly.
@@ -136,6 +141,12 @@ if (marker == ivec4(12, 34, 56, 255)) {
     // terms are whole-block shifts (plus CameraOffset) added afterwards.
     vec3 blockOrigin = floor(Position) + (ChunkPosition - CameraBlockPos) + CameraOffset;
     Pos = blockOrigin + vec3(0.5) + posoffset;
+    // Centred carriers (objmc.py's --centred, t[9].r = 1) sit at the block's
+    // centre plus the random offset the client gives blocks like ferns; the
+    // model goes where the client put its carrier, keeping that offset.
+    if (wideHeader && t[9].r == 1) {
+        Pos = carrierPos + posoffset;
+    }
     vec2 uvjit = vec2(onepixel.x * 0.0001 * corner, onepixel.y * 0.0001 * ((corner + 1) % 4));
     vec2 texuvpx = texCoord * size;
     // A face UV that reaches exactly 0 or `size` rounds, after the fragment
