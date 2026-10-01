@@ -449,7 +449,7 @@
       "apply": { "model": "mcme:block/larch_thin_branch_22.5_diagonal", "y": 270 }
 	},
 	{ "when": { "OR": [
-	      { "up": "true|false", "north": "tall", "east": "none|tall", "south": "none|tall", "west": "none|tall" },
+	      { "up": "true", "north": "tall", "east": "none|tall", "south": "none|tall", "west": "none|tall" },
 	      { "up": "false", "north": "tall", "east": "low", "south": "none|tall", "west": "none|tall" },
 	      { "up": "false", "north": "tall", "east": "none|tall", "south": "low", "west": "none|tall" },
 	      { "up": "false", "north": "tall", "east": "none|tall", "south": "none|tall", "west": "low" }
@@ -457,7 +457,7 @@
 		"apply": { "model": "mcme:block/larch_thin_branch_45_straight" }
 	},
 	{ "when": { "OR": [
-	      { "up": "true|false", "north": "none|tall", "east": "tall", "south": "none|tall", "west": "none|tall" },
+	      { "up": "true", "north": "none|tall", "east": "tall", "south": "none|tall", "west": "none|tall" },
 	      { "up": "false", "north": "low", "east": "tall", "south": "none|tall", "west": "none|tall" },
 	      { "up": "false", "north": "none|tall", "east": "tall", "south": "low", "west": "none|tall" },
 	      { "up": "false", "north": "none|tall", "east": "tall", "south": "none|tall", "west": "low" }
@@ -465,7 +465,7 @@
 		"apply": { "model": "mcme:block/larch_thin_branch_45_straight", "y": 90 }
 	},
 	{ "when": { "OR": [
-	      { "up": "true|false", "north": "none|tall", "east": "none|tall", "south": "tall", "west": "none|tall" },
+	      { "up": "true", "north": "none|tall", "east": "none|tall", "south": "tall", "west": "none|tall" },
 	      { "up": "false", "north": "none|tall", "east": "low", "south": "tall", "west": "none|tall" },
 	      { "up": "false", "north": "low", "east": "none|tall", "south": "tall", "west": "none|tall" },
 	      { "up": "false", "north": "none|tall", "east": "none|tall", "south": "tall", "west": "low" }
@@ -473,7 +473,7 @@
 		"apply": { "model": "mcme:block/larch_thin_branch_45_straight", "y": 180 }
 	},
 	{ "when": { "OR": [
-	      { "up": "true|false", "north": "none|tall", "east": "none|tall", "south": "none|tall", "west": "tall" },
+	      { "up": "true", "north": "none|tall", "east": "none|tall", "south": "none|tall", "west": "tall" },
 	      { "up": "false", "north": "none|tall", "east": "low", "south": "none|tall", "west": "tall" },
 	      { "up": "false", "north": "none|tall", "east": "none|tall", "south": "low", "west": "tall" },
 	      { "up": "false", "north": "low", "east": "none|tall", "south": "none|tall", "west": "tall" }

@@ -1,8 +1,9 @@
 {
-    "parent": "block/orientable",
-    "textures": {
-        "top": "block/pumpkin_top",
-        "front": "block/carved_pumpkin",
-        "side": "block/pumpkin_side"
-    }
+  "parent": "block/orientable",
+  "textures": {
+    "top": "block/pumpkin_top",
+    "front": "block/carved_pumpkin",
+    "side": "block/pumpkin_side",
+    "particle": "block/pumpkin_top"
+  }
 }

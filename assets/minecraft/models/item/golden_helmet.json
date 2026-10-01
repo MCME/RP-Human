@@ -1,7 +1,8 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "item/golden_helmet"
+    "layer0": "item/golden_helmet",
+    "particle": "item/golden_helmet"
   },
   "overrides": [
     {
@@ -30,7 +31,7 @@
     },
     {
       "predicate": {
-        "damage": 0.06410
+        "damage": 0.0641
       },
       "model": "gui/terra"
     },
@@ -195,7 +196,7 @@
         "damage": 0.41026
       },
       "model": "gui/misc_alt",
-	  "name": 32
+      "name": 32
     },
     {
       "predicate": {
@@ -205,7 +206,7 @@
     },
     {
       "predicate": {
-        "damage": 0.43590
+        "damage": 0.4359
       },
       "model": "gui/heads"
     },
@@ -235,7 +236,7 @@
     },
     {
       "predicate": {
-        "damage": 0.50000
+        "damage": 0.5
       },
       "model": "gui/replace"
     }
