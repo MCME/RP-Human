@@ -39,6 +39,9 @@ if (marker == ivec4(12, 34, 56, 255)) {
     // Mip levels the texture is padded for (objmc.py --mipmap). The fragment
     // shader samples the texture no smaller than this.
     maxLod = min(t[6].g, 4);
+    // Whether the texture has partly transparent texels of its own, whose
+    // alpha terrain.fsh leaves alone rather than sharpening its edges.
+    blendTexture = t[6].b & 1;
 
     float time = GameTime * 24000.0;
     float texTime = GameTime * 24000.0;
@@ -126,6 +129,11 @@ if (marker == ivec4(12, 34, 56, 255)) {
     // texture's true edge - clipping a thin strip off every polygon that maps
     // to the edge of its source texture. Keep it strictly inside instead.
     texuvpx = clamp(texuvpx, vec2(0.01), vec2(size) - vec2(0.01));
+    // The texture's rectangle in the atlas (all frames, for ntextures > 1),
+    // which the fragment shader keeps its filtering inside.
+    texRect = vec4(vec2(topleft.x, topleft.y + headerheight),
+                   vec2(topleft.x + size.x, topleft.y + headerheight + size.y * ntextures))
+            / vec4(atlasSize, atlasSize);
 
     if (ntextures > 1) {
         ivec4 texmeta = ivec4(texelFetch(Sampler0, topleft + ivec2(4, 1), 0) * 255.0 + 0.5);
