@@ -1,8 +1,71 @@
 {
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "block/pine_leaves_brown",
-    "top": "block/pine_leaves_brown",
-    "side": "block/pine_leaves_brown"
-  }
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [80, 80],
+	"textures": {
+		"0": "block/pine_leaves_brown",
+		"particle": "block/pine_leaves_brown"
+	},
+	"elements": [
+		{
+			"name": "plane",
+			"from": [-8.7414, 1.7148, -5.8632],
+			"to": [21.1711, 1.7148, 17.2518],
+			"rotation": {"angle": 27.5, "axis": "x", "origin": [6.2149, 1.7148, 5.6943]},
+			"faces": {
+				"up": {"uv": [5.803, 6.90427, 1.18, 0.92177], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [1.18, 6.90427, 5.803, 0.92177], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "plane",
+			"from": [-8.7414, 1.7148, 1.1368],
+			"to": [21.1711, 1.7148, 24.2518],
+			"rotation": {"x": 53.30854, "y": 16.27014, "z": -11.79198, "origin": [6.2149, 1.7148, 12.6943]},
+			"faces": {
+				"up": {"uv": [5.003, 6.74427, 0.38, 0.76177], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0.38, 6.74427, 5.003, 0.76177], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "plane",
+			"from": [-7.65, 4.8, -3.95],
+			"to": [22.2625, 4.8, 19.165],
+			"rotation": {"x": -19.1521, "y": -20.4363, "z": 32.3169, "origin": [8.55, 3.05, 6.45]},
+			"faces": {
+				"up": {"uv": [1.145, 0.94136, 5.768, 6.92386], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [5.7932, 0.96656, 1.1702, 6.94906], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "plane",
+			"from": [8.1, -7.5, -9.5],
+			"to": [8.1, 15.615, 20.4125],
+			"rotation": {"x": 36.5504, "y": 37.3282, "z": 19.6927, "origin": [10.9, 1.5, 9]},
+			"faces": {
+				"east": {"uv": [6.1825, 5.73935, 0.2, 1.11635], "texture": "#0"},
+				"west": {"uv": [0.2252, 5.76455, 6.2077, 1.14155], "texture": "#0"}
+			}
+		},
+		{
+			"name": "plane",
+			"from": [-8.2, 8.3, -3.3],
+			"to": [19.81, 8.3, 19.815],
+			"rotation": {"x": -17.0646, "y": 8.0884, "z": -41.2704, "origin": [7, 2.5, 5.7]},
+			"faces": {
+				"up": {"uv": [5.6, 6.7, 0.977, 1.098], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0.977, 6.7, 5.6, 1.098], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [6.2149, 1.7148, 5.6943],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
 }
