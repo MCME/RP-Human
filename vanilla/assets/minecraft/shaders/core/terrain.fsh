@@ -153,6 +153,8 @@ void main() {
     //custom lighting
     #define BLOCK
     #moj_import<objmc_light.glsl>
+    // A chunk that has just loaded fades in from the fog colour, as in vanilla.
+    color = mix(FogColor * vec4(1, 1, 1, color.a), color, ChunkVisibility);
 
     // objmc faces always land in the translucent layer: their UVs cover a
     // pointer pixel whose alpha is a row number. Sampling gives a cutout
