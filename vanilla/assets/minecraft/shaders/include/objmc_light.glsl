@@ -50,8 +50,14 @@ else if (noshadow == 0) {
     // a mismatch only weakens it.
     vec3 an = abs(normal);
     bool facesUp = an.y >= an.x && an.y >= an.z && normal.y > 0.0;
+#ifdef SODIUM
+    // Sodium shades a face that isn't along an axis by its true normal,
+    // blending each axis's shade as `brightness` above does.
+    float carrierShade = brightness;
+#else
     float carrierShade = (an.y >= an.x && an.y >= an.z) ? (normal.y > 0.0 ? 1.0 : 0.5)
                        : (an.x >= an.z ? 0.6 : 0.8);
+#endif
     float open = facesUp ? OBJMC_AO_OPEN_UP : OBJMC_AO_OPEN;
     float occlusion = clamp(vertexColor.r / carrierShade / open, 0.0, 1.0);
     // Bright texels are darkened less, so a texture's highlights keep their

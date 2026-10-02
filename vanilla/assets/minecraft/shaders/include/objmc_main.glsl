@@ -3,6 +3,15 @@
 
 // This include is intentionally limited to the BLOCK/terrain path. Entity,
 // item, GUI, hand, display, and armor branches are not part of shaders_sort.
+//
+// Shared by vanilla's terrain.vsh and Sodium's block_layer_opaque.vsh (in
+// assets/sodium). Sodium's names are mapped onto vanilla's with #defines;
+// OBJMC_SECTION_OFFSET and OBJMC_UV_BIAS are set there.
+
+#ifndef OBJMC_SECTION_OFFSET
+// From a vertex's section-local position to its place relative to the camera.
+#define OBJMC_SECTION_OFFSET ((ChunkPosition - CameraBlockPos) + CameraOffset)
+#endif
 
 isCustom = 0;
 // The carrier vertex where the client put it, random block offset included.
@@ -17,7 +26,13 @@ vec2 onepixel = 1.0 / atlasSize;
 // wherever its shared buffer had room, so that is off by a different 0-3 per
 // section, changing whenever the section is rebuilt - which keeps the shape
 // but moves the client's per-corner occlusion onto the wrong corners.
+#ifdef OBJMC_UV_BIAS
+// Sodium rounds a texture coordinate and moves it a step towards its face's
+// centre, keeping which side it came from: +1 below the centre, -1 above.
+bvec2 uvHigh = lessThan(OBJMC_UV_BIAS, vec2(0.0));
+#else
 bvec2 uvHigh = greaterThan(fract(UV0 * atlasSize), vec2(0.5));
+#endif
 int corner = uvHigh.x ? (uvHigh.y ? 2 : 3) : (uvHigh.y ? 1 : 0);
 ivec2 uv = ivec2(UV0 * atlasSize);
 vec3 posoffset = vec3(0.0);
@@ -147,7 +162,7 @@ if (marker == ivec4(12, 34, 56, 255)) {
     // moves the cell boundary every frame the camera moves and the model
     // snaps by a block. Position is camera-independent; the camera-relative
     // terms are whole-block shifts (plus CameraOffset) added afterwards.
-    vec3 blockOrigin = floor(Position) + (ChunkPosition - CameraBlockPos) + CameraOffset;
+    vec3 blockOrigin = floor(Position) + OBJMC_SECTION_OFFSET;
     Pos = blockOrigin + vec3(0.5) + posoffset;
     // Centred carriers (objmc.py's --centred, t[9].r = 1) sit at the block's
     // centre plus the random offset the client gives blocks like ferns; the
@@ -181,36 +196,6 @@ if (marker == ivec4(12, 34, 56, 255)) {
         texCoord2 = (base2 + texuvpx) / atlasSize + uvjit;
         transition = texFade ? fract(texTime / texFrametime) : 0.0;
     } else {
-        ivec4 aaf = ivec4(texelFetch(Sampler0, topleft + ivec2(5, 1), 0) * 255.0 + 0.5);
-        int nbands = min(aaf.g, 15);
-        if (nbands > 0) {
-            ivec4 m4 = ivec4(texelFetch(Sampler0, topleft + ivec2(4, 1), 0) * 255.0 + 0.5);
-            float ft = max(float(m4.r * 65536 + m4.g * 256 + m4.b), 1.0);
-            float vmid = (subgroupQuadBroadcast(texCoord.y, 0) + subgroupQuadBroadcast(texCoord.y, 2))
-                       * 0.5 * float(size.y);
-            float dy = 0.0;
-            float dy2 = 0.0;
-            bool inBand = false;
-            for (int b = 0; b < nbands; b++) {
-                ivec4 m6 = ivec4(texelFetch(Sampler0, topleft + ivec2(6 + 2 * b, 1), 0) * 255.0 + 0.5);
-                ivec4 m7 = ivec4(texelFetch(Sampler0, topleft + ivec2(7 + 2 * b, 1), 0) * 255.0 + 0.5);
-                int y0 = m6.r * 256 + m6.g;
-                int fH = m6.b * 256 + m7.r;
-                int fc = max(m7.g, 1);
-                if (vmid > float(y0) && vmid < float(y0 + fH)) {
-                    int tf = int(texTime / ft) % fc;
-                    int tn = (tf + 1) % fc;
-                    dy = float(-tf * fH);
-                    dy2 = float(-tn * fH);
-                    inBand = true;
-                    break;
-                }
-            }
-            texCoord = (vec2(topleft.x, topleft.y + headerheight) + texuvpx + vec2(0.0, dy)) / atlasSize + uvjit;
-            texCoord2 = (vec2(topleft.x, topleft.y + headerheight) + texuvpx + vec2(0.0, dy2)) / atlasSize + uvjit;
-            transition = (inBand && ((aaf.r & 1) == 1)) ? fract(texTime / ft) : 0.0;
-        } else {
-            texCoord = (vec2(topleft.x, topleft.y + headerheight) + texuvpx) / atlasSize + uvjit;
-        }
+        texCoord = (vec2(topleft.x, topleft.y + headerheight) + texuvpx) / atlasSize + uvjit;
     }
 }
