@@ -25,9 +25,16 @@ int headerheight = 0;
 ivec4 t[16];
 
 t[0] = ivec4(texelFetch(Sampler0, uv, 0) * 255.0 + 0.5);
-ivec2 uvoffset = ivec2(t[0].r * 256 + t[0].g, t[0].b * 256 + t[0].a);
+// A face pointer holds its own column and row in the bake, 12 bits each in
+// red, green and blue; its alpha is a constant (objmc.py's POINTER_ALPHA).
+ivec2 uvoffset = ivec2(t[0].r * 16 + (t[0].g >> 4), (t[0].g & 15) * 256 + t[0].b);
 ivec2 topleft = uv - uvoffset;
-ivec4 marker = ivec4(texelFetch(Sampler0, topleft, 0) * 255.0 + 0.5);
+// Every texel decodes to some offset, so only a texel with the pointer's alpha
+// counts - no opaque or cutout texture has it - and only one leading to a
+// header's marker.
+ivec4 marker = t[0].a == 254
+    ? ivec4(texelFetch(Sampler0, topleft, 0) * 255.0 + 0.5)
+    : ivec4(0);
 
 if (marker == ivec4(12, 34, 56, 255)) {
     isCustom = 1;
@@ -38,7 +45,8 @@ if (marker == ivec4(12, 34, 56, 255)) {
     ivec2 size = ivec2(t[1].r * 256 + t[1].g, t[1].b * 256 + t[7].r);
     int nvertices = t[2].r * 16777216 + t[2].g * 65536 + t[2].b * 256 + t[7].g;
     int nframes = max(t[3].r * 65536 + t[3].g * 256 + t[3].b, 1);
-    int ntextures = max(t[3].a, 1);
+    // 255 is written for 1, keeping the pixel opaque (objmc.py's POINTER_ALPHA).
+    int ntextures = t[3].a == 255 ? 1 : max(t[3].a, 1);
     float duration = max(t[4].r * 65536 + t[4].g * 256 + t[4].b, 1);
     bool autoplay = getb(t[4].a, 6);
     ivec2 easing = ivec2(getb(t[4].a, 4, 2), getb(t[4].a, 2, 2));
