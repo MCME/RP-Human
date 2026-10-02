@@ -546,8 +546,11 @@
       "model": "mcme:block/spruce_thin_trunk_horizontal",
       "y": 90
     },
-    "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=true": {
-      "model": "block/offset_ghost_brick_slab"
-    }
+    "powered=true,disarmed=true,attached=true,north=true,east=true,south=true,west=true": [ 
+      {"model":"block/paper_quill","y":270}, 
+      {"model":"block/paper_quill_2","y":270}, 
+      {"model":"block/paper_quill_3","y":270} 
+    ]
+
   }
 }
