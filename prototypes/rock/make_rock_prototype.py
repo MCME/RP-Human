@@ -17,27 +17,25 @@ are open (see EDGE_STRIP).
 
 The materials are shader includes this script writes - rockproto_config.glsl
 (TUNE), rockproto_main.glsl (the vertex part) and rockproto.glsl (the colours)
-- hooked into vanilla's terrain shaders and, where the base pack has them, the
-vanilla pack's Sodium block shaders. Sodium tells its shaders no position in
-the world, only within the vertex's region of 128 x 64 x 128 blocks, so there
-every pattern is fitted to that region and repeats with it, seamlessly (see
-ROCK_REGION in rockproto.glsl).
+- hooked into the terrain shaders through the shared shader base's hooks
+(ResourcePackScripts/shaderBase), the same for vanilla's and Sodium's. Sodium
+tells its shaders no position in the world, only within the vertex's region
+of 128 x 64 x 128 blocks, so there every pattern is fitted to that region and
+repeats with it, seamlessly (see ROCK_REGION in rockproto.glsl).
 
     python make_rock_prototype.py [--base pack] [output folder]
 
-writes the pack to .minecraft/resourcepacks/RP-rock-prototype by default.
-It is built on a base pack's terrain, objmc and Sodium shaders - this
-repository's vanilla pack unless --base names another - and brings them with
-it. Load it above that base: its objmc models then look as they do without
-it. Above a pack with another objmc format, that pack's objmc models break.
+writes the pack to .minecraft/resourcepacks/RP-rock-prototype by default. Load
+it above the shader base and the pack - this repository unless --base names
+another, whose own hooks it adds to (its hooks replace the pack's, being
+above it):
 
-    python make_rock_prototype.py --base path/to/Mordor-Vanilla RP-rock-prototype-Mordor
+    python make_rock_prototype.py --base path/to/RP-Mordor RP-rock-prototype-Mordor
 """
 
 import argparse
 import json
 import random
-import re
 import shutil
 from pathlib import Path
 
@@ -1111,19 +1109,36 @@ FSH_MAIN = """
 """
 
 
-def patch(text, anchor, insert, before=False):
-    m = re.search(anchor, text)
-    assert m, anchor
-    nl = "\r\n" if "\r\n" in text else "\n"
-    insert = insert.replace("\n", nl)
-    i = m.start() if before else m.end()
-    return text[:i] + insert + text[i:]
+# The rock, as the shader base's hooks (ResourcePackScripts/shaderBase, its
+# docs/shader-base.md): the same files serve vanilla's terrain shaders and
+# Sodium's, the base's MCME_* macros saying what differs between them.
+HOOKS = {
+    "mcme_hook_vertex_globals.glsl": VSH_OUTS + """
+#moj_import <minecraft:rockproto_config.glsl>
+""",
+    "mcme_hook_vertex_main.glsl": """
+// rock prototype: under Sodium, positions only within the vertex's region
+#define ROCK_WORLD MCME_WORLD_POS
+#define ROCK_SECTION_CENTRE MCME_SECTION_CENTRE
+#moj_import <minecraft:rockproto_main.glsl>
+""",
+    "mcme_hook_fragment_globals.glsl": FSH_INS + """
+#moj_import <minecraft:rockproto_config.glsl>
+#define ROCK_ATLAS_SIZE MCME_ATLAS_SIZE
+#ifdef MCME_SODIUM
+#define ROCK_REGION MCME_REGION
+#endif
+#moj_import <minecraft:rockproto.glsl>
+""",
+    "mcme_hook_fragment_main.glsl": FSH_MAIN,
+}
+HOOKS_PATH = Path("assets/minecraft/shaders/include")
 
 
 def main():
     parser = argparse.ArgumentParser(description="Builds the rock prototype overlay pack.")
-    parser.add_argument("--base", type=Path, default=REPO / "vanilla",
-                        help="the pack whose terrain, objmc and Sodium shaders it builds on")
+    parser.add_argument("--base", type=Path, default=REPO,
+                        help="the pack whose own hooks it adds to")
     parser.add_argument("out", type=Path, nargs="?", default=RESOURCEPACKS / "RP-rock-prototype")
     args = parser.parse_args()
     assert TUNE["ROCK_EDGE_WIDTH"] <= EDGE_STRIP - 1, "edge wear must fade out inside its strip"
@@ -1136,23 +1151,9 @@ def build(BASE, OUT):
         # only ever replace a pack this script wrote
         assert (OUT / "assets/rockproto").is_dir(), f"{OUT} exists and isn't a rock prototype pack"
         shutil.rmtree(OUT)
-    shaders = BASE / "assets/minecraft/shaders"
-    core = OUT / "assets/minecraft/shaders/core"
-    core.mkdir(parents=True)
-    for name in ("terrain.vsh", "terrain.fsh"):
-        shutil.copy(shaders / "core" / name, core / name)
-    # and the objmc files they import, so a pack below without them (or with
-    # others) can't fail every shader reload
-    include = OUT / "assets/minecraft/shaders/include"
-    include.mkdir(parents=True)
-    for source in (shaders / "include").glob("objmc_*.glsl"):
-        shutil.copy(source, include / source.name)
-    # and the Sodium shaders, if the base has them
-    sodium = BASE / "assets/sodium/shaders"
-    if sodium.is_dir():
-        shutil.copytree(sodium, OUT / "assets/sodium/shaders")
-
     # the materials, as includes
+    include = OUT / HOOKS_PATH
+    include.mkdir(parents=True)
     config = "// The rock prototype's settings (make_rock_prototype.py's TUNE).\n"
     config += f"#define ROCK_DESCRIPTOR_X {DESCRIPTOR[0]}\n"
     config += "".join(f"#define {k} {float(v) if isinstance(v, float) else v}\n" for k, v in TUNE.items())
@@ -1160,52 +1161,15 @@ def build(BASE, OUT):
     (include / "rockproto_main.glsl").write_text(RP_MAIN)
     (include / "rockproto.glsl").write_text(RP_FUNCS)
 
-    # hooked into vanilla's terrain shaders...
-    vsh = core / "terrain.vsh"
-    t = vsh.read_bytes().decode()
-    t = patch(t, r"flat out int maxLod;", VSH_OUTS)
-    t = patch(t, r"#moj_import <objmc_tools\.glsl>", "\n#moj_import <rockproto_config.glsl>")
-    t = patch(t, r"#moj_import <objmc_main\.glsl>", """
-    #define ROCK_WORLD (Position + vec3(ChunkPosition))
-    #define ROCK_SECTION_CENTRE (vec3(ChunkPosition - CameraBlockPos) + 8.0)
-    #moj_import <rockproto_main.glsl>""")
-    vsh.write_bytes(t.encode())
-
-    fsh = core / "terrain.fsh"
-    t = fsh.read_bytes().decode()
-    t = patch(t, r"flat in int maxLod;", FSH_INS)
-    t = patch(t, r"void main\(\) \{", """#moj_import <rockproto_config.glsl>
-#define ROCK_ATLAS_SIZE vec2(TextureSize)
-#moj_import <rockproto.glsl>
-
-""", before=True)
-    # right after objmc's lighting
-    t = patch(t, r"#moj_import ?<objmc_light\.glsl>", FSH_MAIN)
-    fsh.write_bytes(t.encode())
-
-    # ...and Sodium's, where positions are only known within their region
-    if sodium.is_dir():
-        blocks = OUT / "assets/sodium/shaders/blocks"
-        vsh = blocks / "block_layer_opaque.vsh"
-        t = vsh.read_bytes().decode()
-        t = patch(t, r"flat out int maxLod;", VSH_OUTS)
-        t = patch(t, r"#moj_import <minecraft:objmc_tools\.glsl>", "\n#moj_import <minecraft:rockproto_config.glsl>")
-        t = patch(t, r"#moj_import <minecraft:objmc_main\.glsl>", """
-#define ROCK_WORLD (_vert_position + _get_draw_translation(_draw_id))
-#define ROCK_SECTION_CENTRE (translation + 8.0)
-#moj_import <minecraft:rockproto_main.glsl>""")
-        vsh.write_bytes(t.encode())
-
-        fsh = blocks / "block_layer_opaque.fsh"
-        t = fsh.read_bytes().decode()
-        t = patch(t, r"flat in int maxLod;", FSH_INS)
-        t = patch(t, r"#moj_import <minecraft:objmc_fragment\.glsl>", """
-#moj_import <minecraft:rockproto_config.glsl>
-#define ROCK_ATLAS_SIZE (1.0 / u_TexelSize)
-#define ROCK_REGION vec3(128.0, 64.0, 128.0)
-#moj_import <minecraft:rockproto.glsl>""")
-        t = patch(t, r"#moj_import <minecraft:objmc_light\.glsl>", FSH_MAIN)
-        fsh.write_bytes(t.encode())
+    # hooked in after the base pack's own hooks, if it has any: this pack's
+    # replace them, being loaded above it
+    for name, rock in HOOKS.items():
+        own = BASE / HOOKS_PATH / name
+        text = own.read_text(encoding="utf-8-sig") if own.is_file() else ""
+        (include / name).write_text(text + rock)
+    own_end = BASE / HOOKS_PATH / "mcme_hook_vertex_end.glsl"
+    if own_end.is_file():
+        shutil.copy(own_end, include / own_end.name)
 
     tex = OUT / "assets/rockproto/textures/block"
     tex.mkdir(parents=True)

@@ -34,18 +34,19 @@ Needs Python 3 with Pillow:
 
     python prototypes/rock/make_rock_prototype.py [--base pack] [output folder]
 
-The output defaults to `.minecraft/resourcepacks/RP-rock-prototype`. The pack
-brings the base pack's terrain, objmc and Sodium shaders with the materials
-hooked in, so load it above that base - by default this repository's
-`vanilla/`. `--base` builds on another pack's shaders instead, for example
-Mordor's vanilla pack. The script also reads the stone textures from
-`assets/`, so rebuild it after either changes. Everything you can tune is in
-`TUNE` at the top of the script.
+The output defaults to `.minecraft/resourcepacks/RP-rock-prototype`. The
+materials hook into the terrain shaders through the hooks of ResourcePackScripts'
+shared shader base (`shaderBase/`, see its `docs/shader-base.md`), so load the
+pack above the shader base and this repository. Its hooks replace the pack's,
+so it adds to the pack's own: `--base` names another pack to add to instead,
+for example RP-Mordor, with its fire eye and lava. The script also reads the
+stone textures from `assets/`, so rebuild it after either changes. Everything
+you can tune is in `TUNE` at the top of the script.
 
 The materials themselves are shader includes the script writes:
 `rockproto_config.glsl` (`TUNE`), `rockproto_main.glsl` (the vertex part) and
-`rockproto.glsl` (the colours), shared by vanilla's terrain shaders and the
-vanilla pack's Sodium block shaders.
+`rockproto.glsl` (the colours), shared by vanilla's terrain shaders and
+Sodium's block shaders.
 
 ## Sodium
 
