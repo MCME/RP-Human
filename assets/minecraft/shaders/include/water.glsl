@@ -42,9 +42,8 @@ struct WaterShore {
     vec2 dx, dy;      // at's change to the next pixel across and up
     vec4 shore;       // per corner: 1 on a shore, 0 not, -1 not this triangle's
     float open;       // the brightest corner's brightness: the face's own, unoccluded
-    float height;     // how tall its triangle is, from its lowest corner to its
-                      // highest, in blocks: on a side face, the face's height, as
-                      // either triangle of a side spans it. 1 where unknown
+    float height;     // a side face's height, foot to top, in blocks: the same
+                      // all over it (see waterShore). 1 where unknown
 };
 
 // The corners of a face, in the order its vertices come in.
@@ -54,16 +53,16 @@ WaterShore waterShore(vec4 lights, vec4 weights, vec4 heights) {
     WaterShore s;
     float brightest = 0.0;
     vec4 corner = vec4(0.0);
-    float low = 1.0e9, high = -1.0e9;
     for (int k = 0; k < 4; k++) {
         corner[k] = weights[k] > 1.0e-3 ? lights[k] / weights[k] : 0.0;
         brightest = max(brightest, corner[k]);
-        if (weights[k] > 1.0e-3) {
-            low = min(low, heights[k] / weights[k]);
-            high = max(high, heights[k] / weights[k]);
-        }
     }
-    s.height = high > low ? high - low : 1.0;
+    // a side's height from the two corners both its triangles have - a quad
+    // is drawn as corners 0-1-2 and 2-3-0 - which, whichever corner it starts
+    // at (Sodium turns some), are one at its top and one at its foot: so the
+    // same all over it. Taken from each triangle's own three, a side whose
+    // top slopes had two heights, and its streaks broke off along the diagonal
+    s.height = min(weights[0], weights[2]) > 1.0e-4 ? abs(heights[0] / weights[0] - heights[2] / weights[2]) : 1.0;
     s.at = vec2(0.0);
     for (int k = 0; k < 4; k++) {
         s.at += weights[k] * WATER_CORNERS[k];
@@ -395,13 +394,14 @@ WaterLook waterLook(int kind, FluidFrame f, float time, WaterShore shore) {
     }
     // (broken up into bubbles, only where there is any)
     look.foam = foam > 0.0 ? foam * smoothstep(0.2, 0.6, fluidNoise(c, vec2(16.0), pixel, 133) + foam * 0.4) * WATER_FOAM_OPACITY : 0.0;
-    // clearer looked into, more solid looked along: by the face's turn
     // ---- murk: what's under it is taken to lie WATER_MURK_DEPTH below its
     // top - it can't know how deep it is - so the further one's view runs
-    // through it to there, the murkier: more at a slant than looking down
-    float through = WATER_MURK_DEPTH / max(-dot(ray, facing), 0.05);
-    float murk = 1.0 - exp(-through / WATER_MURK_CLEAR);
-    look.murk = murk;
-    look.alpha = mix(mix(WATER_ALPHA, WATER_ALPHA_MURK, murk), 0.9, look.foam);
+    // through it to there, the murkier: more at a slant than looking down.
+    // Its sides the same colour, but see-through: what's behind them taken
+    // to lie only WATER_MURK_SIDE behind, as behind a fall
+    float cosine = max(-dot(ray, facing), 0.05);
+    look.murk = 1.0 - exp(-WATER_MURK_DEPTH / cosine / WATER_MURK_CLEAR);
+    float hides = top ? look.murk : 1.0 - exp(-WATER_MURK_SIDE / cosine / WATER_MURK_CLEAR);
+    look.alpha = mix(mix(WATER_ALPHA, WATER_ALPHA_MURK, hides), 0.9, look.foam);
     return look;
 }
