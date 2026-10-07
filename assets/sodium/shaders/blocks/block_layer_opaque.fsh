@@ -24,8 +24,17 @@ flat in int noshadow;
 flat in int maxLod;
 flat in int blendTexture;
 flat in vec4 texRect;
+// the fluids (fluid.glsl)
+in vec3 fluidWorld;
+in vec4 waterLights;
+in vec4 waterWeights;
+in vec4 waterHeights;
 
 uniform sampler2D u_BlockTex; // The block texture
+// the light map, for the time of day core/lightmap.fsh hides in it
+// (mcme_clock.glsl): Sodium's own clock restarts with each region, which
+// would part whatever moves at their edges
+uniform sampler2D u_LightTex;
 
 out vec4 fragColor; // The output fragment for the color framebuffer
 
@@ -95,6 +104,25 @@ vec4 sampleRGSS(sampler2D source, vec2 uv, vec2 pixelSize) {
 #define Sampler0 u_BlockTex
 #moj_import <minecraft:objmc_fragment.glsl>
 
+// the fluids: the water for every pack, the modules the pack turned on
+// (lava, ice), and a pack's own in its hooks
+#moj_import <minecraft:mcme_clock.glsl>
+#moj_import <minecraft:fluid.glsl>
+#moj_import <minecraft:water_config.glsl>
+#moj_import <minecraft:water.glsl>
+#moj_import <minecraft:mcme_modules.glsl>
+#moj_import <minecraft:mcme_lite.glsl>
+
+// The pack's own terrain features (see block_layer_opaque.vsh)
+#define MCME_SODIUM
+#define MCME_SECONDS mcmeClockSeconds(u_LightTex)
+#define MCME_REGION vec3(128.0, 64.0, 128.0)
+#define MCME_TEXCOORD v_TexCoord
+#define MCME_ATLAS_SIZE (1.0 / u_TexelSize)
+#define MCME_FOG_START u_RenderFog.x
+#define MCME_FOG_COLOR u_FogColor
+#moj_import <minecraft:mcme_hook_fragment_globals.glsl>
+
 vec4 sampleColor(vec2 uv) {
     // Taken before branching: derivatives are undefined in divergent control flow.
     vec2 du = dFdx(uv);
@@ -111,6 +139,26 @@ void main() {
 #define BLOCK
 #define SODIUM
 #moj_import <minecraft:objmc_light.glsl>
+
+    // the fluids: which one this face is, if any, and where on it - taken
+    // before branching, as it needs derivatives
+    FluidFrame fluidHere = fluidFrame(fluidWorld, Pos, v_TexCoord);
+    WaterShore shore = waterShore(waterLights, waterWeights, waterHeights);
+#ifdef MCME_LITE
+    int fluid = -1;     // the Lite zip: fluids as their textures
+#else
+    int fluid = isCustom == 0 ? fluidKind(u_BlockTex, v_TexCoord) : -1;
+#endif
+    // water: its colour and light as ever, its pattern and opacity its own;
+    // foam along its shores, from smooth lighting
+    if (fluid == WATER_STILL || fluid == WATER_FLOWING) {
+        WaterLook water = waterLook(fluid, fluidHere, MCME_SECONDS, shore);
+        vec3 lit = waterTint(vertexColor.rgb) * lightColor.rgb;
+        color = vec4(mix(waterMurky(lit, water.murk) * water.shade, WATER_FOAM_COLOR * lightColor.rgb, water.foam), water.alpha);
+    }
+
+#moj_import <minecraft:mcme_modules_main.glsl>
+#moj_import <minecraft:mcme_hook_fragment_main.glsl>
 
     objmcEdges(color, v_TexCoord, 1.0 / u_TexelSize);
 

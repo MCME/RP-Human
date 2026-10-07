@@ -5,6 +5,12 @@
 // objmc_main.glsl is shared with vanilla's terrain.vsh, Sodium's names mapped
 // onto vanilla's below. Sodium's shaders are internal to it: compare against
 // the jar's assets/sodium/shaders on every Sodium update.
+//
+// Sodium's includes are copied beside these (shaders/include) and must be
+// re-copied with them: vanilla resolves every #moj_import in every pack shader
+// whether or not Sodium is there, and one it can't find fails the whole pack.
+// Never #include them instead: Sodium compiles through vanilla's preprocessor,
+// which only expands #moj_import.
 
 #moj_import <sodium:globals.glsl>
 #moj_import <sodium:fog.glsl>
@@ -46,9 +52,37 @@ flat out int noshadow;
 flat out int maxLod;
 flat out int blendTexture;
 flat out vec4 texRect;
+// the fluids (fluid.glsl): the position, mod 64 blocks
+out vec3 fluidWorld;
+// water (water.glsl): each corner's brightness - with its smooth lighting's
+// occlusion - for its shores
+out vec4 waterLights;
+out vec4 waterWeights;
+out vec4 waterHeights;
 
 #define Sampler0 u_BlockTex
 #moj_import <minecraft:objmc_tools.glsl>
+#moj_import <minecraft:water_corner.glsl>
+
+// The pack's own terrain features, as in vanilla's terrain.vsh. Sodium knows
+// positions only within a region of 128 x 64 x 128 blocks, and its clock is
+// milliseconds since the region was made.
+#define MCME_SODIUM
+#define MCME_REGION vec3(128.0, 64.0, 128.0)
+#define MCME_MODELVIEW u_ModelViewMatrix
+#define MCME_PROJECTION u_ProjectionMatrix
+#define MCME_SECONDS (float(u_CurrentTime) / 1000.0)
+#define MCME_WORLD_POS (_vert_position + _get_draw_translation(_draw_id))
+// regions lie on the world's grid of 128 x 64 x 128 blocks, so this matches
+// vanilla's
+#define MCME_WORLD_POS_64 (_vert_position + mod(_get_draw_translation(_draw_id), 64.0))
+#define MCME_SECTION_CENTRE (translation + 8.0)
+#ifdef USE_FOG
+#define MCME_FOG_DISTANCE(p) v_FragDistance = getFragDistance(p)
+#else
+#define MCME_FOG_DISTANCE(p)
+#endif
+#moj_import <minecraft:mcme_hook_vertex_globals.glsl>
 
 uvec3 _get_relative_chunk_coord(uint pos) {
     // Packing scheme is defined by LocalSectionIndex
@@ -65,6 +99,8 @@ void main() {
     // Transform the chunk-local vertex position into world model space
     vec3 translation = u_RegionOffset + _get_draw_translation(_draw_id);
     Pos = _vert_position + translation;
+    fluidWorld = MCME_WORLD_POS_64;
+    waterCorner(gl_VertexID, _vert_color.rgb, Pos.y, waterLights, waterWeights, waterHeights);
 
     vertexColor = _vert_color;
     lightColor = texture(u_LightTex, _vert_tex_light_coord);
@@ -85,6 +121,7 @@ void main() {
 #define GameTime 0.0
 #define BLOCK
 #moj_import <minecraft:objmc_main.glsl>
+#moj_import <minecraft:mcme_hook_vertex_main.glsl>
 #undef texCoord
 
 #ifdef USE_FOG
@@ -100,4 +137,5 @@ void main() {
 
     // Transform the vertex position into model-view-projection space
     gl_Position = u_ProjectionMatrix * u_ModelViewMatrix * vec4(Pos, 1.0);
+#moj_import <minecraft:mcme_hook_vertex_end.glsl>
 }

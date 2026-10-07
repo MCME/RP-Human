@@ -19,10 +19,16 @@ float linear_fog_value(float vertexDistance, float fogStart, float fogEnd) {
     return (vertexDistance - fogStart) / (fogEnd - fogStart);
 }
 
-// Измененная функция для удаления тумана
+// MCME has no fog in the open: neither the render distance's, which hides the
+// far terrain, nor 26.x's haze over the land (its "environmental" fog in air,
+// at least 768 blocks deep even in rain). It keeps the fog that ends near:
+// under water (96 blocks at most), in lava (1, or 5 resisting fire), in
+// powder snow (2), blinded or in darkness - and the Nether's (96). It goes by
+// where the game's own environmental fog ends, whatever the shader passes:
+// the sky passes its own distances.
 float total_fog_value(float sphericalVertexDistance, float cylindricalVertexDistance, float environmentalStart, float environmentalEnd, float renderDistanceStart, float renderDistanceEnd) {
-    // Мы всегда возвращаем 0.0, чтобы туман никогда не появлялся
-    return 0.0; 
+    float near = 1.0 - smoothstep(96.0, 160.0, FogEnvironmentalEnd);
+    return linear_fog_value(sphericalVertexDistance, environmentalStart, environmentalEnd) * near;
 }
 
 vec4 apply_fog(vec4 inColor, float sphericalVertexDistance, float cylindricalVertexDistance, float environmentalStart, float environmentalEnd, float renderDistanceStart, float renderDistanceEnd, vec4 fogColor) {

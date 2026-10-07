@@ -4,5 +4,12 @@
     "min_format": 88,
     "max_format": 88,
     "description": "MCME Human v4.0.6 for MC 26.2"
+  },
+  "sodium": {
+    "ignored_shaders": [
+      "fog.glsl",
+      "terrain.fsh",
+      "terrain.vsh"
+    ]
   }
 }
