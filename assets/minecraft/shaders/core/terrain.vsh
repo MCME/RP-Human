@@ -77,7 +77,7 @@ void main() {
     // END COMMENTED 1.21.4 BLOCK-LIGHTING DEFAULTS
     Pos = Position + (ChunkPosition - CameraBlockPos) + CameraOffset;
     fluidWorld = MCME_WORLD_POS_64;
-    waterCorner(gl_VertexID, Color.rgb, Pos.y, waterLights, waterWeights, waterHeights);
+    waterCorner(gl_VertexID, Color.rgb, Position.y, waterLights, waterWeights, waterHeights);
     vertexColor = Color;
     lightColor = minecraft_sample_lightmap(Sampler2, UV2);
     texCoord = UV0;

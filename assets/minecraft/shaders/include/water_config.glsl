@@ -42,6 +42,8 @@
 // murk: what's under it is taken to lie WATER_MURK_DEPTH below its top, as it
 // can't know - so it is murkier the further one's view runs through it to there
 #define WATER_MURK_DEPTH 1.5         // how deep what's under it is taken to be, in blocks
+#define WATER_MURK_SIDE 0.3          // ...and behind its sides, setting only how see-through they are: under
+                                     // a block, so that falls and the water's edges show what's behind them
 #define WATER_MURK_CLEAR 1.1         // how far one sees through it before it's mostly (63%) murk, in blocks
 #define WATER_MURK_SHADE 0.7         // how dark murk is, of the water's own colour (its biome's) - it's brightened
                                      // to start with, so that looked straight down on it is the biome's colour
