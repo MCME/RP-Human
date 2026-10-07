@@ -33,9 +33,12 @@ jobs:
         with:
           path: pack
 
+      # the checks as on ResourcePackScripts' development, which the test
+      # stage builds with: a check changed there runs here before production
       - uses: actions/checkout@v4
         with:
           repository: MCME/ResourcePackScripts
+          ref: development
           path: scripts
 
       - uses: actions/setup-python@v5
