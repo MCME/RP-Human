@@ -1,0 +1,63 @@
+# Checks the pack's shaders on every push and pull request that touches them,
+# with ResourcePackScripts' checkShaders.py (docs/shader-base.md, "Checks"):
+# the rules, Distant Horizons' originals, and every shader compiled with
+# glslang and linked on Mesa against the game, Sodium and DH versions they
+# were tested on. Weekly it runs against the newest Sodium and DH too, and
+# notes which are newer than the tested ones - that run doesn't fail the
+# repository, it's a heads-up.
+#
+# The same file in every pack repository, as .github/workflows/check-shaders.yml;
+# its master copy is ResourcePackScripts/ci/check-shaders.yml.
+name: Check shaders
+
+on:
+  push:
+    paths: ["assets/*/shaders/**", ".mcme-shaders.*", ".github/workflows/check-shaders.yml"]
+  pull_request:
+    paths: ["assets/*/shaders/**", ".mcme-shaders.*", ".github/workflows/check-shaders.yml"]
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # the newest mods only on the weekly run and by hand
+        versions: ${{ fromJSON((github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && '["tested", "latest"]' || '["tested"]') }}
+    continue-on-error: ${{ matrix.versions == 'latest' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: pack
+
+      # the checks as on ResourcePackScripts' development, which the test
+      # stage builds with: a check changed there runs here before production
+      - uses: actions/checkout@v4
+        with:
+          repository: MCME/ResourcePackScripts
+          ref: development
+          path: scripts
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install glslang, Mesa and moderngl
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -yq glslang-tools libegl1 libgl1-mesa-dri
+          pip install moderngl
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/mcme-shaders
+          key: jars-${{ matrix.versions }}-${{ github.run_id }}
+          restore-keys: jars-
+
+      - name: Check
+        env:
+          MCME_GL_BACKEND: egl
+        run: python scripts/generateVanilla/checkShaders.py pack --fetch ${{ matrix.versions }} --require-compiler
