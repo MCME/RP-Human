@@ -2,7 +2,7 @@
   "pack": {
     "pack_format": 88,
     "min_format": 88,
-    "max_format": 88,
+    "max_format": 97,
     "description": "MCME Human v4.0.9 for MC 26.2"
   },
   "sodium": {
@@ -10,6 +10,15 @@
       "fog.glsl",
       "terrain.fsh",
       "terrain.vsh"
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "min_format": 97,
+        "max_format": 97,
+        "directory": "mc26_3"
+      }
     ]
   }
 }
