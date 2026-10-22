@@ -10,5 +10,103 @@
     "7": "block/nether_wart_stage3_7",
     "8": "block/nether_wart_stage3_4",
     "particle": "block/nether_wart_stage3_top_6"
-  }
+  },
+  "elements": [
+    {
+      "name": "North",
+      "from": [-8, -4, 3],
+      "to": [24, 16, 3],
+      "shade": false,
+      "shade_direction_override": "up",
+      "rotation": {"angle": -22.5, "axis": "y", "origin": [8, 0, 8]},
+      "faces": {
+        "north": {"uv": [12.6667, 5.3333, 3.3333, 12], "texture": "#1"},
+        "south": {"uv": [3.3333, 5.3333, 12.6667, 12], "texture": "#1"}
+      }
+    },
+    {
+      "name": "North_b",
+      "from": [-10.2858, -16, 2.97],
+      "to": [24, 16, 2.97],
+      "shade": false,
+      "shade_direction_override": "up",
+      "rotation": {"angle": -22.5, "axis": "y", "origin": [8, 0, 8]},
+      "faces": {
+        "north": {"uv": [12.6667, 5.3333, 2.6666, 16], "texture": "#5", "cullface": "down"},
+        "south": {"uv": [2.6666, 5.3333, 12.6667, 16], "texture": "#5", "cullface": "down"}
+      }
+    },
+    {
+      "name": "South",
+      "from": [-12.5715, -2, 12],
+      "to": [28.5715, 18, 12],
+      "shade": false,
+      "shade_direction_override": "up",
+      "rotation": {"angle": -22.5, "axis": "y", "origin": [8, 0, 8]},
+      "faces": {
+        "north": {"uv": [14, 4.6667, 2, 11.3333], "texture": "#2"},
+        "south": {"uv": [2, 4.6667, 14, 11.3333], "texture": "#2"}
+      }
+    },
+    {
+      "name": "South_b",
+      "from": [-12.5715, -16, 12.03],
+      "to": [28.5715, 18, 12.03],
+      "shade": false,
+      "shade_direction_override": "up",
+      "rotation": {"angle": -22.5, "axis": "y", "origin": [8, 0, 8]},
+      "faces": {
+        "north": {"uv": [14, 4.6667, 2, 16], "texture": "#6", "cullface": "down"},
+        "south": {"uv": [2, 4.6667, 14, 16], "texture": "#6", "cullface": "down"}
+      }
+    },
+    {
+      "name": "West",
+      "from": [4, -6, -12.5715],
+      "to": [4, 18, 28.5715],
+      "shade": false,
+      "shade_direction_override": "up",
+      "rotation": {"angle": -22.5, "axis": "y", "origin": [8, 0, 8]},
+      "faces": {
+        "east": {"uv": [14, 4.6667, 2, 12.6667], "texture": "#3"},
+        "west": {"uv": [2, 4.6667, 14, 12.6667], "texture": "#3"}
+      }
+    },
+    {
+      "name": "West_b",
+      "from": [3.97, -16, -12.5715],
+      "to": [3.97, 18, 28.5715],
+      "shade": false,
+      "shade_direction_override": "up",
+      "rotation": {"angle": -22.5, "axis": "y", "origin": [8, 0, 8]},
+      "faces": {
+        "east": {"uv": [14, 4.6667, 2, 16], "texture": "#7", "cullface": "down"},
+        "west": {"uv": [2, 4.6667, 14, 16], "texture": "#7", "cullface": "down"}
+      }
+    },
+    {
+      "name": "East",
+      "from": [12, -8, -14.8572],
+      "to": [12, 14, 28.5715],
+      "shade": false,
+      "shade_direction_override": "up",
+      "rotation": {"angle": -22.5, "axis": "y", "origin": [8, 0, 8]},
+      "faces": {
+        "east": {"uv": [14, 6, 1.3333, 13.3333], "texture": "#4"},
+        "west": {"uv": [1.3333, 6, 14, 13.3333], "texture": "#4"}
+      }
+    },
+    {
+      "name": "East_b",
+      "from": [12.03, -16, -14.8572],
+      "to": [12.03, 14, 30.8572],
+      "shade": false,
+      "shade_direction_override": "up",
+      "rotation": {"angle": -22.5, "axis": "y", "origin": [8, 0, 8]},
+      "faces": {
+        "east": {"uv": [14.6667, 6, 1.3333, 16], "texture": "#8", "cullface": "down"},
+        "west": {"uv": [1.3333, 6, 14.6667, 16], "texture": "#8", "cullface": "down"}
+      }
+    }
+  ]
 }
