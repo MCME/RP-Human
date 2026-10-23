@@ -1,0 +1,72 @@
+{
+  "multipart": [
+    {
+      "when": { "facing": "north" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 0
+      }
+    },
+    {
+      "when": { "facing": "north" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_dahl"},
+        {"model": "minecraft:block/halloween/grave_names/grave_dahllen"},
+        {"model": "minecraft:block/halloween/grave_names/grave_daom"},
+        {"model": "minecraft:block/halloween/grave_names/grave_drao"},
+        {"model": "minecraft:block/halloween/grave_names/grave_drayz"}
+      ]
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 90
+      }
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_dahl", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_dahllen", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_daom", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_drao", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_drayz", "y": 90}
+      ]
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 180
+      }
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_dahl", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_dahllen", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_daom", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_drao", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_drayz", "y": 180}
+      ]
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 270
+      }
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_dahl", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_dahllen", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_daom", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_drao", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_drayz", "y": 270}
+      ]
+    }
+  ]
+}

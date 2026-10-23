@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "candles=1,lit=false,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy"
+    },
+    "candles=2,lit=false,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy_2"
+    },
+    "candles=3,lit=false,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy_3"
+    },
+    "candles=4,lit=false,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy_bucket",
+      "y": 0
+    },
+    "candles=1,lit=true,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy_bucket",
+      "y": 90
+    },
+    "candles=2,lit=true,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy_bucket",
+      "y": 180
+    },
+    "candles=3,lit=true,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy_bucket",
+      "y": 270
+    }
+  }
+}

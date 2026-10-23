@@ -1,0 +1,80 @@
+{
+  "multipart": [
+    {
+      "when": { "facing": "north" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 0
+      }
+    },
+    {
+      "when": { "facing": "north" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_effie"},
+        {"model": "minecraft:block/halloween/grave_names/grave_eggo"},
+        {"model": "minecraft:block/halloween/grave_names/grave_eone"},
+        {"model": "minecraft:block/halloween/grave_names/grave_eriol"},
+        {"model": "minecraft:block/halloween/grave_names/grave_fig"},
+        {"model": "minecraft:block/halloween/grave_names/grave_fish"},
+        {"model": "minecraft:block/halloween/grave_names/grave_foxy"}
+      ]
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 90
+      }
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_effie", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_eggo", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_eone", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_eriol", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_fig", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_fish", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_foxy", "y": 90}
+      ]
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 180
+      }
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_effie", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_eggo", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_eone", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_eriol", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_fig", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_fish", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_foxy", "y": 180}
+      ]
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 270
+      }
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_effie", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_eggo", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_eone", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_eriol", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_fig", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_fish", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_foxy", "y": 270}
+      ]
+    }
+  ]
+}
