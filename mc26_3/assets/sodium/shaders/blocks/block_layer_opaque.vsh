@@ -57,12 +57,25 @@ layout(location = 14) out vec3 fluidWorld;
 layout(location = 15) out vec4 waterLights;
 layout(location = 16) out vec4 waterWeights;
 layout(location = 17) out vec4 waterHeights;
+// still water's wind (water.glsl): its broad fields at this corner, and 1
+// where they were worked out
+layout(location = 18) out vec4 waterWarps;
+layout(location = 19) out vec4 waterGusts;
+layout(location = 20) out float waterWindSet;
 // a pack's hooks' own (mcme_hook_vertex_globals.glsl) are numbered from 18, as
 // in vanilla's terrain.vsh
 
 #define Sampler0 u_BlockTex
 #include <minecraft:objmc_tools.glsl>
 #include <minecraft:water_corner.glsl>
+// the water's, for its wind (waterWindHere), without what needs derivatives;
+// its clock the fragment shader's, the light map's (mcme_clock.glsl)
+#define FLUID_VERTEX
+#include <minecraft:mcme_lite.glsl>
+#include <minecraft:mcme_clock.glsl>
+#include <minecraft:fluid.glsl>
+#include <minecraft:water_config.glsl>
+#include <minecraft:water.glsl>
 
 // The pack's own terrain features, as in vanilla's terrain.vsh. Sodium knows
 // positions only within a region of 128 x 64 x 128 blocks, and its clock is
@@ -101,9 +114,16 @@ void main() {
     Pos = _vert_position + translation;
     fluidWorld = MCME_WORLD_POS_64;
     waterCorner(gl_VertexIndex, _vert_color.rgb, _vert_position.y, waterLights, waterWeights, waterHeights);
+    waterWarps = vec4(0.0);
+    waterGusts = vec4(0.0);
+    waterWindSet = 0.0;
+    if (waterWindHere(u_BlockTex, _vert_tex_diffuse_coord, Pos)) {
+        waterWindFields(fluidWorld.xz, mcmeClockSeconds(u_LightTex), waterWarps, waterGusts);
+        waterWindSet = 1.0;
+    }
 
     vertexColor = _vert_color;
-    lightColor = texture(u_LightTex, _vert_tex_light_coord);
+    lightColor = mcmeLightmap(u_LightTex, _vert_tex_light_coord);     // without the clock in it
     v_TexCoord = (_vert_tex_diffuse_coord_bias * u_TexCoordShrink) + _vert_tex_diffuse_coord; // FMA for precision
     texCoord2 = v_TexCoord;
     noshadow = 0;

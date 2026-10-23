@@ -13,8 +13,9 @@
 // of each texel's red, green and blue hold a code, by the texel's place in
 // its 4x4 block of the sprite and by the sprite (fluidCode) - at most 3 steps
 // in 255, which no one sees.
-// A texel's code is checked, and if it is a fluid's, the codes of its whole
-// 4x4 block. Lava's texels are opaque, the others' needn't be. The
+// A texel's code is checked, and if it is a fluid's, the codes of half its
+// 4x4 block, as a chequerboard (fluidKind). Lava's texels are opaque, the
+// others' needn't be. The
 // build writes the water's codes into every pack's water textures
 // (ResourcePackScripts' generateVanilla/fluid_signature.py); a pack's own it
 // signs with signFluids.py there, again after every edit of the textures.
@@ -61,21 +62,29 @@ bool fluidFits(int kind, vec4 texel, ivec2 t) {
         && (((c.r & 3) << 4) | ((c.g & 3) << 2) | (c.b & 3)) == fluidCode(kind, t);
 }
 
+// Whether atlas texel t, which holds texel, is on a sprite of kind. A texel's
+// code can be more than one kind's: each such kind is checked on half its
+// 4x4 block, every other texel: at least 48 bits, so that a texture matches
+// by chance about once in 10^13 blocks, and a third faster than the whole
+// block, which every terrain fragment pays for (fluid_signature.py's
+// fluid_kinds does the same).
+bool fluidIs(int kind, sampler2D atlas, vec4 texel, ivec2 t) {
+    if (!fluidFits(kind, texel, t)) return false;
+    ivec2 block = t - (t & 3);
+    bool all = true;
+    for (int i = 0; i < 16 && all; i += 2) {
+        ivec2 p = block + ivec2((i & 3) ^ ((i >> 2) & 1), i >> 2);
+        all = fluidFits(kind, texelFetch(atlas, p, 0), p);
+    }
+    return all;
+}
+
 // Which of their sprites the atlas holds at uv - a FLUID_ kind - or -1 if none.
-// A texel's code can be more than one kind's: each such kind is checked on
-// the whole 4x4 block.
 int fluidKind(sampler2D atlas, vec2 uv) {
     ivec2 t = ivec2(floor(uv * vec2(textureSize(atlas, 0))));
     vec4 texel = texelFetch(atlas, t, 0);
-    ivec2 block = t - (t & 3);
     for (int k = 0; k < FLUID_KINDS; k++) {
-        if (!fluidFits(k, texel, t)) continue;
-        bool all = true;
-        for (int i = 0; i < 16 && all; i++) {
-            ivec2 p = block + ivec2(i & 3, i >> 2);
-            all = fluidFits(k, texelFetch(atlas, p, 0), p);
-        }
-        if (all) return k;
+        if (fluidIs(k, atlas, texel, t)) return k;
     }
     return -1;
 }
@@ -92,9 +101,12 @@ struct FluidFrame {
     vec2 dv;        // the texture's v's change to the same
 };
 
+// (Vertex shaders, which have no derivatives, define FLUID_VERTEX first.)
+#ifndef FLUID_VERTEX
 FluidFrame fluidFrame(vec3 world, vec3 pos, vec2 uv) {
     return FluidFrame(world, pos, dFdx(pos), dFdy(pos), vec2(dFdx(uv.y), dFdy(uv.y)));
 }
+#endif
 
 // The face's normal, towards the camera.
 vec3 fluidNormal(FluidFrame f) {

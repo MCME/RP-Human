@@ -49,6 +49,9 @@ struct WaterShore {
 // The corners of a face, in the order its vertices come in.
 const vec2 WATER_CORNERS[4] = vec2[4](vec2(0.0, 0.0), vec2(0.0, 1.0), vec2(1.0, 1.0), vec2(1.0, 0.0));
 
+// (The vertex shaders, which have no derivatives, import this file too, for
+// waterWindHere and waterWindFields, and define FLUID_VERTEX first.)
+#ifndef FLUID_VERTEX
 WaterShore waterShore(vec4 lights, vec4 weights, vec4 heights) {
     WaterShore s;
     float brightest = 0.0;
@@ -75,6 +78,7 @@ WaterShore waterShore(vec4 lights, vec4 weights, vec4 heights) {
     s.dy = dFdy(s.at);
     return s;
 }
+#endif
 
 // How far point p is from the segment a to b.
 float waterToSegment(vec2 p, vec2 a, vec2 b) {
@@ -173,6 +177,88 @@ struct WaterSurface {
                     // gusts, here and there - on every crest, they'd line up
 };
 
+// The wind's broad fields at here (x and z, blocks), time seconds into the
+// day, unfaded (waterWind fades them by the pixel's size, as fluidNoise
+// would): in warps, the bending of its crests, finely and broadly, as
+// fluidWarp gives them; in gusts, its three gusts' patchworks, and where light
+// may catch. Smooth over several blocks, and most of the wind's cost: so the
+// vertex shaders work them out at the corners of still water near the camera
+// (waterWindHere), and its fragments take them from there (waterWindGiven).
+void waterWindFields(vec2 here, float time, out vec4 warps, out vec4 gusts) {
+    // (each patchwork, and the bending, drifting its own way, slowly)
+    warps = vec4(fluidWarp(here - vec2(FLUID_STIR[2]) * FLUID_STEP * time, vec2(0.25), 0.0, 150),
+                 fluidWarp(here - vec2(FLUID_STIR[1]) * FLUID_STEP * time, vec2(0.0625), 0.0, 158));
+    gusts = vec4(fluidNoise(here - vec2(FLUID_STIR[0]) * FLUID_STEP * time, vec2(0.125), 0.0, 152),
+                 fluidNoise(here - vec2(FLUID_STIR[4]) * FLUID_STEP * time + 21.0, vec2(0.1875), 0.0, 153),
+                 fluidNoise(here - vec2(FLUID_STIR[3]) * FLUID_STEP * time + 43.0, vec2(0.25), 0.0, 156),
+                 fluidNoise(here - vec2(FLUID_STIR[5]) * FLUID_STEP * time, vec2(0.375), 0.0, 155));
+}
+
+// How far from the camera, in blocks, the vertex shaders work the wind's
+// fields out: further, a block's few pixels cost less than its corners do.
+#define WATER_WIND_NEAR 96.0
+
+// Whether the vertex shader should work out the wind's fields for this
+// vertex (uv, its place in the atlas; pos, from the camera): one of still
+// water's, near, drawn in the translucent pass - never another block's, nor
+// any other pass's. Its uv is a corner of its sprite, or within it, the
+// atlas' texels round it: one of the four is the sprite's. A vertex this
+// misses only leaves its fragments to work them out themselves.
+bool waterWindHere(sampler2D atlas, vec2 uv, vec3 pos) {
+#if defined(ALPHA_CUTOUT) && !defined(MCME_LITE)
+    // (the translucent pass discards under 0.1, or Sodium's 0.01; cutout, 0.5)
+    if (ALPHA_CUTOUT > 0.3 || dot(pos, pos) > WATER_WIND_NEAR * WATER_WIND_NEAR) return false;
+    ivec2 size = textureSize(atlas, 0);
+    ivec2 corner = ivec2(round(uv * vec2(size)));
+    for (int i = 0; i < 4; i++) {
+        ivec2 t = clamp(corner - ivec2(i & 1, i >> 1), ivec2(0), size - 1);
+        if (fluidIs(WATER_STILL, atlas, texelFetch(atlas, t, 0), t)) return true;
+    }
+#endif
+    return false;
+}
+
+#ifndef FLUID_VERTEX
+// The wind's fields as the vertex shader gave them - waterWindFields' warps
+// and gusts at its triangle's corners, interpolated - and their change to the
+// next pixel across and up: set by waterWindGiven, which takes derivatives,
+// so before any branching. given is 1 where all three corners had them: a
+// shader that doesn't call it (a shader pack's, through MCME's mod) leaves it
+// 0, and its water works them out per fragment, as the same.
+vec4 waterGivenWarps = vec4(0.0);
+vec4 waterGivenWarpsDx = vec4(0.0);
+vec4 waterGivenWarpsDy = vec4(0.0);
+vec4 waterGivenGusts = vec4(0.0);
+vec4 waterGivenGustsDx = vec4(0.0);
+vec4 waterGivenGustsDy = vec4(0.0);
+float waterGiven = 0.0;
+
+void waterWindGiven(vec4 warps, vec4 gusts, float given) {
+    waterGivenWarps = warps;
+    waterGivenWarpsDx = dFdx(warps);
+    waterGivenWarpsDy = dFdy(warps);
+    waterGivenGusts = gusts;
+    waterGivenGustsDx = dFdx(gusts);
+    waterGivenGustsDy = dFdy(gusts);
+    waterGiven = given;
+}
+
+// v, interpolated over f's face, shift away in the world: from its change to
+// the next pixel across (dx) and up (dy), as fluidFlow finds the flow's.
+vec4 waterShifted(vec4 v, vec4 dx, vec4 dy, FluidFrame f, vec3 shift) {
+    vec3 n = cross(f.dx, f.dy);
+    float nn = dot(n, n);
+    if (nn <= 0.0) return v;
+    return v + dx * (dot(cross(f.dy, n), shift) / nn) + dy * (dot(cross(n, f.dx), shift) / nn);
+}
+#endif
+
+// How much of a noise of cells per block shows, pixel blocks a pixel: as
+// fluidNoise fades it.
+float waterFade(float cells, float pixel) {
+    return 1.0 / max(pixel * cells * 2.0, 1.0);
+}
+
 // The wind's waves at here (x and z, blocks), time seconds into the day.
 // Each has sharp crests and wide troughs (exp(sharp (sin - 1))), and pushes those
 // after it along by its own slope, bunching them on its crests as the wind
@@ -185,8 +271,8 @@ struct WaterSurface {
 // (WATER_WIND_BEND) and broadly (WATER_WIND_SWAY), and gusts drift over the
 // water: three patchworks of calmer and choppier water, each wave stirred
 // by its own mix of them (WATER_WIND_GUSTS), so that which waves are up
-// changes from place to place.
-WaterSurface waterWind(vec2 here, float time, float pixel) {
+// changes from place to place. warps and gusts are waterWindFields' there.
+WaterSurface waterWind(vec2 here, float time, float pixel, vec4 warps, vec4 gusts4) {
     WaterSurface s = WaterSurface(0.0, vec2(0.0), 0.0);
     // a wave's average, I0(sharp) / e^sharp, from I0's series
     float mean = 0.0;
@@ -200,12 +286,9 @@ WaterSurface waterWind(vec2 here, float time, float pixel) {
     // (WATER_WIND_COUNT) only lose the finest, the rest as strong as ever
     float total = 0.0;
     for (int i = 0; i < 12; i++) total += WATER_WIND_WAVES[i].z;
-    // (each patchwork, and the bending, drifting its own way, slowly)
-    vec2 at = here + fluidWarp(here - vec2(FLUID_STIR[2]) * FLUID_STEP * time, vec2(0.25), pixel, 150) * WATER_WIND_BEND
-                   + fluidWarp(here - vec2(FLUID_STIR[1]) * FLUID_STEP * time, vec2(0.0625), pixel, 158) * WATER_WIND_SWAY;
-    vec3 gusts = vec3(fluidNoise(here - vec2(FLUID_STIR[0]) * FLUID_STEP * time, vec2(0.125), pixel, 152),
-                      fluidNoise(here - vec2(FLUID_STIR[4]) * FLUID_STEP * time + 21.0, vec2(0.1875), pixel, 153),
-                      fluidNoise(here - vec2(FLUID_STIR[3]) * FLUID_STEP * time + 43.0, vec2(0.25), pixel, 156));
+    // (the fields faded as fluidWarp and fluidNoise would have, by the pixel)
+    vec2 at = here + warps.xy * (waterFade(0.25, pixel) * WATER_WIND_BEND) + warps.zw * (waterFade(0.0625, pixel) * WATER_WIND_SWAY);
+    vec3 gusts = mix(vec3(0.5), gusts4.xyz, vec3(waterFade(0.125, pixel), waterFade(0.1875, pixel), waterFade(0.25, pixel)));
     for (int i = 0; i < WATER_WIND_COUNT; i++) {
         vec3 w = WATER_WIND_WAVES[i];
         float a = radians(w.y);
@@ -234,7 +317,7 @@ WaterSurface waterWind(vec2 here, float time, float pixel) {
         at -= k * (de * show * WATER_WIND_DRAG / length(k));
     }
     s.height /= total;
-    float patches = fluidNoise(here - vec2(FLUID_STIR[5]) * FLUID_STEP * time, vec2(0.375), pixel, 155);
+    float patches = mix(0.5, gusts4.w, waterFade(0.375, pixel));
     s.glints = smoothstep(0.38, 0.68, patches) * smoothstep(0.38, 0.62, (gusts.x + gusts.y + gusts.z) / 3.0);
     return s;
 }
@@ -262,6 +345,7 @@ vec3 waterMurky(vec3 color, float murk) {
     return mix(color, deep, murk) / mix(1.0, WATER_MURK_SHADE, WATER_MURK_DOWN);
 }
 
+#ifndef FLUID_VERTEX
 // The water's look at f, a face of kind, time seconds into the day; shore
 // from waterShore.
 WaterLook waterLook(int kind, FluidFrame f, float time, WaterShore shore) {
@@ -306,7 +390,16 @@ WaterLook waterLook(int kind, FluidFrame f, float time, WaterShore shore) {
     WaterSurface wind = WaterSurface(0.0, vec2(0.0), 0.0);
     vec3 facing = n;
     if (windy) {
-        wind = waterWind(here, time, pixel);
+        // its broad fields from the vertex shader, at the middle of this
+        // pixel of the water's - else worked out here
+        vec4 warps, gusts;
+        if (waterGiven > 0.999) {
+            warps = waterShifted(waterGivenWarps, waterGivenWarpsDx, waterGivenWarpsDy, f, shift);
+            gusts = waterShifted(waterGivenGusts, waterGivenGustsDx, waterGivenGustsDy, f, shift);
+        } else {
+            waterWindFields(here, time, warps, gusts);
+        }
+        wind = waterWind(here, time, pixel, warps, gusts);
         facing = sign(n.y) * normalize(vec3(-wind.slope.x, 1.0, -wind.slope.y));
     }
     float glance = 1.0 - clamp(-dot(ray, facing), 0.0, 1.0);
@@ -405,3 +498,4 @@ WaterLook waterLook(int kind, FluidFrame f, float time, WaterShore shore) {
     look.alpha = mix(mix(WATER_ALPHA, WATER_ALPHA_MURK, hides), 0.9, look.foam);
     return look;
 }
+#endif

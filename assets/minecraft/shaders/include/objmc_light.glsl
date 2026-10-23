@@ -22,7 +22,7 @@
 #define OBJMC_AO_OPEN_UP 1.1
 
 //default lighting
-if (isCustom == 0) {
+if (isCustom == 0 || !OBJMC_PASS) {
 #ifndef EMISSIVE
     color *= lightColor;
 #endif
