@@ -17,6 +17,27 @@ vec3 mcmeClockEncode(vec3 color, ivec2 texel, float gameTime) {
     return vec3(c) / 255.0;
 }
 
+// The lightmap's light at uv (0 to 1, as texture() takes it) without the
+// clock: filtered as the game's own, from its four texels, with the clock's
+// bits cleared from those that hold them. Terrain is lit by this, not the
+// texture itself: full sky light without block light is the clock's first
+// texel, and a step of 255 flickering with the tick shows on bright faces.
+vec4 mcmeLightmap(sampler2D lightmap, vec2 uv) {
+    ivec2 size = textureSize(lightmap, 0);
+    vec2 st = uv * vec2(size) - 0.5;
+    ivec2 t = ivec2(floor(st));
+    vec2 f = st - vec2(t);
+    vec4 c[4];
+    for (int k = 0; k < 4; k++) {
+        ivec2 tk = clamp(t + ivec2(k & 1, k >> 1), ivec2(0), size - 1);
+        c[k] = texelFetch(lightmap, tk, 0);
+        if (tk.y == MCME_CLOCK_ROW && tk.x < MCME_CLOCK_TEXELS) {
+            c[k].rgb = vec3(uvec3(c[k].rgb * 255.0 + 0.5) & ~1u) / 255.0;
+        }
+    }
+    return mix(mix(c[0], c[1], f.x), mix(c[2], c[3], f.x), f.y);
+}
+
 // the time, in seconds into the day, as vanilla's GameTime * 1200.0
 float mcmeClockSeconds(sampler2D lightmap) {
     uint ticks = 0u;

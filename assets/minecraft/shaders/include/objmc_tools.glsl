@@ -3,6 +3,15 @@
 
 #define PI 3.1415926535897932
 
+// objmc's faces go in the translucent pass - their pointer texel's alpha is
+// below 255 - so only that pass has its code: in the others it would slow
+// every face, as the water did
+#ifdef ALPHA_CUTOUT
+const bool OBJMC_PASS = ALPHA_CUTOUT < 0.3;
+#else
+const bool OBJMC_PASS = false;
+#endif
+
 ivec4 getmeta(ivec2 topleft, int offset) {
     return ivec4(texelFetch(Sampler0, topleft + ivec2(offset,0), 0) * 255.0 + 0.5);
 }

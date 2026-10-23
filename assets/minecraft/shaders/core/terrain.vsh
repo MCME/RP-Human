@@ -41,9 +41,21 @@ out vec3 fluidWorld;
 out vec4 waterLights;
 out vec4 waterWeights;
 out vec4 waterHeights;
+// still water's wind (water.glsl): its broad fields at this corner, and 1
+// where they were worked out
+out vec4 waterWarps;
+out vec4 waterGusts;
+out float waterWindSet;
 
 #moj_import <objmc_tools.glsl>
 #moj_import <minecraft:water_corner.glsl>
+// the water's, for its wind (waterWindHere), without what needs derivatives
+#define FLUID_VERTEX
+#moj_import <minecraft:mcme_lite.glsl>
+#moj_import <minecraft:mcme_clock.glsl>
+#moj_import <minecraft:fluid.glsl>
+#moj_import <minecraft:water_config.glsl>
+#moj_import <minecraft:water.glsl>
 
 // The pack's own terrain features hook in through the mcme_hook_*.glsl files,
 // shared with Sodium's block_layer_opaque.vsh. These say what the hooks need
@@ -58,7 +70,8 @@ out vec4 waterHeights;
 #moj_import <minecraft:mcme_hook_vertex_globals.glsl>
 
 vec4 minecraft_sample_lightmap(sampler2D lightMap, ivec2 uv) {
-    return texture(lightMap, clamp(uv / 256.0, vec2(0.5 / 16.0), vec2(15.5 / 16.0)));
+    // without the clock in it (mcme_clock.glsl); light level n is n*16, its texel centre n/16 + 0.5/16, as vanilla samples it
+    return mcmeLightmap(lightMap, clamp(uv / 256.0 + 0.5 / 16.0, vec2(0.5 / 16.0), vec2(15.5 / 16.0)));
 }
 
 void main() {
@@ -78,6 +91,13 @@ void main() {
     Pos = Position + (ChunkPosition - CameraBlockPos) + CameraOffset;
     fluidWorld = MCME_WORLD_POS_64;
     waterCorner(gl_VertexID, Color.rgb, Position.y, waterLights, waterWeights, waterHeights);
+    waterWarps = vec4(0.0);
+    waterGusts = vec4(0.0);
+    waterWindSet = 0.0;
+    if (waterWindHere(Sampler0, UV0, Pos)) {
+        waterWindFields(fluidWorld.xz, MCME_SECONDS, waterWarps, waterGusts);
+        waterWindSet = 1.0;
+    }
     vertexColor = Color;
     lightColor = minecraft_sample_lightmap(Sampler2, UV2);
     texCoord = UV0;
