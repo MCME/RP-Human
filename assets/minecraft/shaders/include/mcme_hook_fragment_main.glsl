@@ -1,10 +1,18 @@
-// Hook: a pack's own code in the terrain fragment shader's main(), right after
-// objmc's lighting and before the alpha cutout and fog. `color` is the lit
-// colour, the base's water already drawn into it; vertexColor, lightColor and
-// Pos are in scope, and for a pack's own fluids fluid and fluidHere
-// (fluid.glsl: which fluid the face is, if any, and where on it) and shore
-// (water.glsl: its corners' smooth-lighting occlusion). Nothing has been
-// discarded yet, so derivatives (dFdx, fwidth) still work outside branches.
-//
-// A pack overrides this file; this empty one is the shader base's. See
-// mcme_hook_fragment_globals.glsl and docs/shader-base.md.
+// The base has told which fluid the face is (fluid) and where on it
+// (fluidHere), and drawn its water.
+// the fog blocks and clouds: the fog the view passes through behind the face,
+// lit by the light alone - no shading of its faces, which would show them -
+// and as if under the open sky, as much as FOG_OPEN says
+if (fluid == FOG_BLOCK) {
+    vec4 fog = fogLook(fluidHere, fogEye, Sampler0, MCME_TEXCOORD, MCME_SECONDS, MCME_FOG_COLOR.rgb);
+    color = vec4(fog.rgb * mix(lightColor.rgb, fogLight.rgb, FOG_OPEN), fog.a);
+}
+// ...kept down to 1% opacity, as Sodium keeps every translucent face: vanilla
+// drops translucent terrain under 10% (its translucent_terrain pipeline's
+// ALPHA_CUTOUT), which would cut this thin fog's soft edges away, face by
+// face, into hard-edged blocks. Every other face keeps the pass's own.
+#if defined(ALPHA_CUTOUT) && !defined(MCME_SODIUM)
+float mcmeCutout = ALPHA_CUTOUT;
+#undef ALPHA_CUTOUT
+#define ALPHA_CUTOUT (fluid == FOG_BLOCK ? 0.01 : mcmeCutout)
+#endif
