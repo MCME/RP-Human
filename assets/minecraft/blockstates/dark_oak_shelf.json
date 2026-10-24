@@ -1,0 +1,76 @@
+{
+  "multipart": [
+    {
+      "when": { "facing": "north" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 0
+      }
+    },
+    {
+      "when": { "facing": "north" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_gary"},
+        {"model": "minecraft:block/halloween/grave_names/grave_givet"},
+        {"model": "minecraft:block/halloween/grave_names/grave_goten"},
+        {"model": "minecraft:block/halloween/grave_names/grave_green"},
+        {"model": "minecraft:block/halloween/grave_names/grave_hemi"},
+        {"model": "minecraft:block/halloween/grave_names/grave_kiwi"}
+      ]
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 90
+      }
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": [
+      {"model": "minecraft:block/halloween/grave_names/grave_gary", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_givet", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_goten", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_green", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_hemi", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_kiwi", "y": 90}
+      ]
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 180
+      }
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": [
+       {"model": "minecraft:block/halloween/grave_names/grave_gary", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_givet", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_goten", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_green", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_hemi", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_kiwi", "y": 180}
+      ]
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 270
+      }
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_gary", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_givet", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_goten", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_green", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_hemi", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_kiwi", "y": 270}
+      ]
+    }
+  ]
+}

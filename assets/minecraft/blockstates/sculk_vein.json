@@ -1,244 +1,106 @@
 {
-  "variants": {
-	"up=false,north=true,east=true,south=true,west=false,down=true":[
-	{ "model": "minecraft:block/ground_wide_hides", "y": 90},
-	{ "model": "minecraft:block/ground_wide_hides_2", "y": 90}
+    "variants": {
+	   "up=false,north=false,east=false,south=false,west=false,down=true": [
+	{ "model": "block/iron_sheets_ground" },
+	{ "model": "block/iron_sheets_ground", "y":90 },
+	{ "model": "block/iron_sheets_ground", "y":180 },
+	{ "model": "block/iron_sheets_ground", "y":270 },
+	{ "model": "block/iron_sheets_ground_2" },
+	{ "model": "block/iron_sheets_ground_2", "y":90 },
+	{ "model": "block/iron_sheets_ground_2", "y":180 },
+	{ "model": "block/iron_sheets_ground_2", "y":270 },
+	{ "model": "block/iron_sheets_ground_3" },
+	{ "model": "block/iron_sheets_ground_3", "y":90 },
+	{ "model": "block/iron_sheets_ground_3", "y":180 },
+	{ "model": "block/iron_sheets_ground_3", "y":270 }
 	],
-	  "up=false,north=true,east=true,south=false,west=true,down=true":[
-	{ "model": "minecraft:block/ground_wide_hides", "y": 0},
-	{ "model": "minecraft:block/ground_wide_hides_2", "y": 0}
+	"up=true,north=false,east=false,south=false,west=false,down=false":
+	{ "model": "block/hook" },
+	"up=true,north=false,east=false,south=false,west=false,down=true":
+	[
+	{"model": "minecraft:block/slave_shackles"  },
+	{"model": "minecraft:block/slave_shackles", "y":90  },
+	{"model": "minecraft:block/slave_shackles", "y":180  },
+	{"model": "minecraft:block/slave_shackles", "y":270  }
 	],
-	 "up=false,north=true,east=false,south=true,west=true,down=true":[
-	{ "model": "minecraft:block/ground_wide_hides", "y": 270},
-	{ "model": "minecraft:block/ground_wide_hides_2", "y": 270}
+	"up=false,north=true,east=false,south=false,west=false,down=false":[
+	{ "model": "block/skulls" },
+	{ "model": "block/skulls_2" },
+	{ "model": "block/skulls_3" }
 	],
-	  "up=false,north=false,east=true,south=true,west=true,down=true":[
-	{ "model": "minecraft:block/ground_wide_hides", "y": 180},
-	{ "model": "minecraft:block/ground_wide_hides_2", "y": 180}
+	"up=false,north=false,east=true,south=false,west=false,down=false":[
+	{ "model": "block/skulls", "y":90 },
+	{ "model": "block/skulls_2", "y":90 },
+	{ "model": "block/skulls_3", "y":90 }
 	],
-	  "up=true,north=false,east=false,south=false,west=false,down=true": [
-	{ "model": "minecraft:block/ground_hide_offset", "y": 90},
-	{ "model": "minecraft:block/ground_hide_offset_2", "y": 90},
-	{ "model": "minecraft:block/ground_hide_2_offset", "y": 90},
-	{ "model": "minecraft:block/ground_hide_2_offset_2", "y": 90},
-	{ "model": "minecraft:block/ground_hide_offset", "y": 270},
-	{ "model": "minecraft:block/ground_hide_offset_2", "y": 270},
-	{ "model": "minecraft:block/ground_hide_2_offset", "y": 270},
-	{ "model": "minecraft:block/ground_hide_2_offset_2", "y": 270}
+	"up=false,north=false,east=false,south=true,west=false,down=false":[
+	{ "model": "block/skulls", "y":180 },
+	{ "model": "block/skulls_2", "y":180 },
+	{ "model": "block/skulls_3", "y":180 }
 	],
-	"up=false,north=false,east=false,south=false,west=false,down=true":[
-	{ "model": "minecraft:block/ground_hide_offset"},
-	{ "model": "minecraft:block/ground_hide_offset_2"},
-	{ "model": "minecraft:block/ground_hide_2_offset"},
-	{ "model": "minecraft:block/ground_hide_2_offset_2"},
-	{ "model": "minecraft:block/ground_hide_offset", "y": 180},
-	{ "model": "minecraft:block/ground_hide_offset_2", "y": 180},
-	{ "model": "minecraft:block/ground_hide_2_offset", "y": 180},
-	{ "model": "minecraft:block/ground_hide_2_offset_2", "y": 180}
+	"up=false,north=false,east=false,south=false,west=true,down=false":[
+	{ "model": "block/skulls", "y":270 },
+	{ "model": "block/skulls_2", "y":270 },
+	{ "model": "block/skulls_3", "y":270 }
 	],
-	"up=false,north=true,east=true,south=true,west=false,down=false":[
-	{ "model": "minecraft:block/retaining_wall_hide", "y": 90},
-	{ "model": "minecraft:block/retaining_wall_hide_2", "y": 90},
-	{ "model": "minecraft:block/retaining_wall_hide_3", "y": 90},
-	{ "model": "minecraft:block/retaining_wall_hide_4", "y": 90}
+	"up=false,north=true,east=false,south=false,west=false,down=true":[
+	{ "model": "block/skulls_full" },
+	{ "model": "block/skulls_full_2" },
+	{ "model": "block/skulls_full_3" }
 	],
-	  "up=false,north=true,east=true,south=false,west=true,down=false":[
-	{ "model": "minecraft:block/retaining_wall_hide", "y": 0},
-	{ "model": "minecraft:block/retaining_wall_hide_2", "y": 0},
-	{ "model": "minecraft:block/retaining_wall_hide_3", "y": 0},
-	{ "model": "minecraft:block/retaining_wall_hide_4", "y": 0}
+	"up=false,north=false,east=true,south=false,west=false,down=true":[
+	{ "model": "block/skulls_full", "y":90 },
+	{ "model": "block/skulls_full_2", "y":90 },
+	{ "model": "block/skulls_full_3", "y":90 }
 	],
-	 "up=false,north=true,east=false,south=true,west=true,down=false":[
-	{ "model": "minecraft:block/retaining_wall_hide", "y": 270},
-	{ "model": "minecraft:block/retaining_wall_hide_2", "y": 270},
-	{ "model": "minecraft:block/retaining_wall_hide_3", "y": 270},
-	{ "model": "minecraft:block/retaining_wall_hide_4", "y": 270}
+	"up=false,north=false,east=false,south=true,west=false,down=true":[
+	{ "model": "block/skulls_full", "y":180 },
+	{ "model": "block/skulls_full_2", "y":180 },
+	{ "model": "block/skulls_full_3", "y":180 }
 	],
-	  "up=false,north=false,east=true,south=true,west=true,down=false":[
-	{ "model": "minecraft:block/retaining_wall_hide", "y": 180},
-	{ "model": "minecraft:block/retaining_wall_hide_2", "y": 180},
-	{ "model": "minecraft:block/retaining_wall_hide_3", "y": 180},
-	{ "model": "minecraft:block/retaining_wall_hide_4", "y": 180}
+	"up=false,north=false,east=false,south=false,west=true,down=true":[
+	{ "model": "block/skulls_full", "y":270 },
+	{ "model": "block/skulls_full_2", "y":270 },
+	{ "model": "block/skulls_full_3", "y":270 }
 	],
-	  "up=false,north=true,east=false,south=true,west=false,down=true":[
-	{"model": "block/hanging_hide", "y":0},
-	{"model": "block/hanging_hide_2", "y":0}
+	"down=false,east=false,north=true,south=false,up=false,west=true":[
+	{ "model": "block/pillar_corner" },
+	{ "model": "block/pillar_corner_2" },
+	{ "model": "block/pillar_corner_3" }
 	],
-	"up=false,north=false,east=true,south=false,west=true,down=true":[
-	{"model": "block/hanging_hide", "y":90},
-	{"model": "block/hanging_hide_2", "y":90}
+	"down=false,east=true,north=true,south=false,up=false,west=false":[
+	{ "model": "block/pillar_corner", "y":90 },
+	{ "model": "block/pillar_corner_2", "y":90 },
+	{ "model": "block/pillar_corner_3", "y":90 }
 	],
-	"up=true,north=true,east=false,south=true,west=false,down=false":[
-	{"model": "block/hanging_hide", "y":180},
-	{"model": "block/hanging_hide_2", "y":180}
+	"down=false,east=true,north=false,south=true,up=false,west=false":[
+	{ "model": "block/pillar_corner", "y":180 },
+	{ "model": "block/pillar_corner_2", "y":180 },
+	{ "model": "block/pillar_corner_3", "y":180 }
 	],
-	"up=true,north=false,east=true,south=false,west=true,down=false":[
-	{"model": "block/hanging_hide", "y":270},
-	{"model": "block/hanging_hide_2", "y":270}
+	"down=false,east=false,north=false,south=true,up=false,west=true":[
+	{ "model": "block/pillar_corner", "y":270 },
+	{ "model": "block/pillar_corner_2", "y":270 },
+	{ "model": "block/pillar_corner_3", "y":270 }
 	],
-	   "up=false,north=true,east=false,south=false,west=false,down=false":[
-	   { "model": "block/shelf_deco_container" },
-	   { "model": "block/shelf_deco_container_2" },
-	   { "model": "block/shelf_deco_container_3" },
-	   { "model": "block/shelf_deco_container_4" },
-	   { "model": "block/shelf_deco_food" },
-	   { "model": "block/shelf_deco_books" },
-	   { "model": "block/shelf_deco_books_2" },
-	   { "model": "block/shelf_deco_scrolls" },
-	   { "model": "block/shelf_deco_scrolls_2" }
-	   ],
-	   "up=false,north=false,east=true,south=false,west=false,down=false": [
-	   { "model": "block/shelf_deco_container", "y":90 },
-	   { "model": "block/shelf_deco_container_2", "y":90 },
-	   { "model": "block/shelf_deco_container_3", "y":90 },
-	   { "model": "block/shelf_deco_container_4", "y":90 },
-	   { "model": "block/shelf_deco_food", "y":90 },
-	   { "model": "block/shelf_deco_books", "y":90 },
-	   { "model": "block/shelf_deco_books_2", "y":90 },
-	   { "model": "block/shelf_deco_scrolls", "y":90 },
-	   { "model": "block/shelf_deco_scrolls_2", "y":90 }
-	   ],
-	   "up=false,north=false,east=false,south=true,west=false,down=false": [
-	   { "model": "block/shelf_deco_container", "y":180 },
-	   { "model": "block/shelf_deco_container_2", "y":180 },
-	   { "model": "block/shelf_deco_container_3", "y":180 },
-	   { "model": "block/shelf_deco_container_4", "y":180 },
-	   { "model": "block/shelf_deco_food", "y":180 },
-	   { "model": "block/shelf_deco_books", "y":180 },
-	   { "model": "block/shelf_deco_books_2", "y":180 },
-	   { "model": "block/shelf_deco_scrolls", "y":180 },
-	   { "model": "block/shelf_deco_scrolls_2", "y":180 }
-	   ],
-	   "up=false,north=false,east=false,south=false,west=true,down=false": [
-	   { "model": "block/shelf_deco_container", "y":270 },
-	   { "model": "block/shelf_deco_container_2", "y":270 },
-	   { "model": "block/shelf_deco_container_3", "y":270 },
-	   { "model": "block/shelf_deco_container_4", "y":270 },
-	   { "model": "block/shelf_deco_food", "y":270 },
-	   { "model": "block/shelf_deco_books", "y":270 },
-	   { "model": "block/shelf_deco_books_2", "y":270 },
-	   { "model": "block/shelf_deco_scrolls", "y":270 },
-	   { "model": "block/shelf_deco_scrolls_2", "y":270 }
-	   ],
-	   "up=false,north=true,east=false,south=false,west=true,down=false": [
-	   { "model": "minecraft:block/beam_core" },
-	   { "model": "minecraft:block/beam_core_2" },
-	   { "model": "minecraft:block/beam_core_3" }
-	   ],
-	   "up=false,north=false,east=true,south=false,west=false,down=true": [
-	   { "model": "minecraft:block/beam_pale_core", "y": 90 },
-	   { "model": "minecraft:block/beam_pale_core_2", "y": 90 },
-	   { "model": "minecraft:block/beam_pale_core_3", "y": 90 }
-	   ],
-	   "up=false,north=false,east=false,south=true,west=false,down=true": [
-	   { "model": "minecraft:block/beam_pale_core", "y": 180 },
-	   { "model": "minecraft:block/beam_pale_core_2", "y": 180 },
-	   { "model": "minecraft:block/beam_pale_core_3", "y": 180 }
-	   ],
-	   "up=false,north=false,east=false,south=false,west=true,down=true": [
-	   { "model": "minecraft:block/beam_pale_core", "y": 270 },
-	   { "model": "minecraft:block/beam_pale_core_2", "y": 270 },
-	   { "model": "minecraft:block/beam_pale_core_3", "y": 270 }
-	   ],
-	   "up=false,north=true,east=false,south=false,west=false,down=true": [
-	   { "model": "minecraft:block/beam_pale_core" },
-	   { "model": "minecraft:block/beam_pale_core_2" },
-	   { "model": "minecraft:block/beam_pale_core_3" }
-	   ],
-	   "up=false,north=true,east=true,south=false,west=false,down=false": [
-	   { "model": "minecraft:block/beam_core", "y": 90 },
-	   { "model": "minecraft:block/beam_core_2", "y": 90 },
-	   { "model": "minecraft:block/beam_core_3", "y": 90 }
-	   ],
-	   "up=false,north=false,east=true,south=true,west=false,down=false": [
-	   { "model": "minecraft:block/beam_core", "y": 180 },
-	   { "model": "minecraft:block/beam_core_2", "y": 180 },
-	   { "model": "minecraft:block/beam_core_3", "y": 180 }
-	   ],
-	   "up=false,north=false,east=false,south=true,west=true,down=false": [
-	   { "model": "minecraft:block/beam_core", "y": 270 },
-	   { "model": "minecraft:block/beam_core_2", "y": 270 },
-	   { "model": "minecraft:block/beam_core_3", "y": 270 }
-	   ],
-	   "up=false,north=true,east=false,south=false,west=true,down=true": [
-	   { "model": "minecraft:block/beam_core_light" },
-	   { "model": "minecraft:block/beam_core_light_2" },
-	   { "model": "minecraft:block/beam_core_light_3" }
-	   ],
-	   "up=false,north=true,east=true,south=false,west=false,down=true": [
-	   { "model": "minecraft:block/beam_core_light", "y": 90 },
-	   { "model": "minecraft:block/beam_core_light_2", "y": 90 },
-	   { "model": "minecraft:block/beam_core_light_3", "y": 90 }
-	   ],
-	   "up=false,north=false,east=true,south=true,west=false,down=true": [
-	   { "model": "minecraft:block/beam_core_light", "y": 180 },
-	   { "model": "minecraft:block/beam_core_light_2", "y": 180 },
-	   { "model": "minecraft:block/beam_core_light_3", "y": 180 }
-	   ],
-	   "up=false,north=false,east=false,south=true,west=true,down=true": [
-	   { "model": "minecraft:block/beam_core_light", "y": 270 },
-	   { "model": "minecraft:block/beam_core_light_2", "y": 270 },
-	   { "model": "minecraft:block/beam_core_light_3", "y": 270 }
-	   ],
-	   "up=true,north=false,east=true,south=false,west=false,down=false": [
-	   { "model": "minecraft:block/beam_core_wide", "y": 90 },
-	   { "model": "minecraft:block/beam_core_wide_2", "y": 90 },
-	   { "model": "minecraft:block/beam_core_wide_3", "y": 90 }
-	   ],
-	   "up=true,north=false,east=false,south=true,west=false,down=false": [
-	   { "model": "minecraft:block/beam_core_wide", "y": 180 },
-	   { "model": "minecraft:block/beam_core_wide_2", "y": 180 },
-	   { "model": "minecraft:block/beam_core_wide_3", "y": 180 }
-	   ],
-	   "up=true,north=false,east=false,south=false,west=true,down=false": [
-	   { "model": "minecraft:block/beam_core_wide", "y": 270 },
-	   { "model": "minecraft:block/beam_core_wide_2", "y": 270 },
-	   { "model": "minecraft:block/beam_core_wide_3", "y": 270 }
-	   ],
-	   "up=true,north=true,east=false,south=false,west=false,down=false": [
-	   { "model": "minecraft:block/beam_core_wide" },
-	   { "model": "minecraft:block/beam_core_wide_2" },
-	   { "model": "minecraft:block/beam_core_wide_3" }
-	   ],
-	   "up=true,north=false,east=true,south=false,west=false,down=true": [
-	   { "model": "minecraft:block/beam_core_pale_wide", "y": 90 },
-	   { "model": "minecraft:block/beam_core_pale_wide_2", "y": 90 },
-	   { "model": "minecraft:block/beam_core_pale_wide_3", "y": 90 }
-	   ],
-	   "up=true,north=false,east=false,south=true,west=false,down=true": [
-	   { "model": "minecraft:block/beam_core_pale_wide", "y": 180 },
-	   { "model": "minecraft:block/beam_core_pale_wide_2", "y": 180 },
-	   { "model": "minecraft:block/beam_core_pale_wide_3", "y": 180 }
-	   ],
-	   "up=true,north=false,east=false,south=false,west=true,down=true": [
-	   { "model": "minecraft:block/beam_core_pale_wide", "y": 270 },
-	   { "model": "minecraft:block/beam_core_pale_wide_2", "y": 270 },
-	   { "model": "minecraft:block/beam_core_pale_wide_3", "y": 270 }
-	   ],
-	   "up=true,north=true,east=false,south=false,west=false,down=true": [
-	   { "model": "minecraft:block/beam_core_pale_wide" },
-	   { "model": "minecraft:block/beam_core_pale_wide_2" },
-	   { "model": "minecraft:block/beam_core_pale_wide_3" }
-	   ],
-	   "up=true,north=true,east=true,south=false,west=false,down=false": [
-	   { "model": "minecraft:block/beam_core_light_wide", "y": 90 },
-	   { "model": "minecraft:block/beam_core_light_wide_2", "y": 90 },
-	   { "model": "minecraft:block/beam_core_light_wide_3", "y": 90 }
-	   ],
-	   "up=true,north=false,east=true,south=true,west=false,down=false": [
-	   { "model": "minecraft:block/beam_core_light_wide", "y": 180 },
-	   { "model": "minecraft:block/beam_core_light_wide_2", "y": 180 },
-	   { "model": "minecraft:block/beam_core_light_wide_3", "y": 180 }
-	   ],
-	   "up=true,north=false,east=false,south=true,west=true,down=false": [
-	   { "model": "minecraft:block/beam_core_light_wide", "y": 270 },
-	   { "model": "minecraft:block/beam_core_light_wide_2", "y": 270 },
-	   { "model": "minecraft:block/beam_core_light_wide_3", "y": 270 }
-	   ],
-	   "up=true,north=true,east=false,south=false,west=true,down=false": [
-	   { "model": "minecraft:block/beam_core_light_wide" },
-	   { "model": "minecraft:block/beam_core_light_wide_2" },
-	   { "model": "minecraft:block/beam_core_light_wide_3" }
-	   ]
-	}
+	"down=true,east=false,north=true,south=false,up=true,west=true":[
+	{ "model": "block/ghost_pillar_thin_corner"}
+	],
+	"down=true,east=true,north=true,south=false,up=true,west=false":[
+	{ "model": "block/ghost_pillar_thin_corner", "y": 90}
+	],
+	"down=true,east=true,north=true,south=true,up=true,west=false":[
+	{ "model": "block/ghost_pillar_thin_corner", "y": 180}
+	],
+	"down=true,east=false,north=false,south=true,up=true,west=true":[
+	{ "model": "block/ghost_pillar_thin_corner", "y": 270}
+	],
+	"down=true,east=false,north=true,south=false,up=true,waterlogged=false,west=false":
+	[{ "model": "block/skeleton_lying_down_slope"},{ "model": "block/skeleton_lying_down_slope_2"},{ "model": "block/skeleton_lying_down_slope_3"}],
+	"down=true,east=true,north=false,south=false,up=true,waterlogged=false,west=false":
+	[{ "model": "block/skeleton_lying_down_slope", "y": 90},{ "model": "block/skeleton_lying_down_slope_2", "y": 90},{ "model": "block/skeleton_lying_down_slope_3", "y": 90}],
+	"down=true,east=false,north=false,south=true,up=true,waterlogged=false,west=false":
+	[{ "model": "block/skeleton_lying_down_slope", "y": 180},{ "model": "block/skeleton_lying_down_slope_2", "y": 180},{ "model": "block/skeleton_lying_down_slope_3", "y": 180}],
+	"down=true,east=false,north=false,south=false,up=true,waterlogged=false,west=true":
+	[{ "model": "block/skeleton_lying_down_slope", "y": 270},{ "model": "block/skeleton_lying_down_slope_2", "y": 270},{ "model": "block/skeleton_lying_down_slope_3", "y": 270}]}
 }
