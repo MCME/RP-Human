@@ -1,0 +1,76 @@
+{
+  "multipart": [
+    {
+      "when": { "facing": "north" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 0
+      }
+    },
+    {
+      "when": { "facing": "north" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_pat"},
+        {"model": "minecraft:block/halloween/grave_names/grave_phoenix"},
+        {"model": "minecraft:block/halloween/grave_names/grave_polo"},
+        {"model": "minecraft:block/halloween/grave_names/grave_q"},
+        {"model": "minecraft:block/halloween/grave_names/grave_rudo"},
+        {"model": "minecraft:block/halloween/grave_names/grave_rwyland"}
+      ]
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 90
+      }
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_pat", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_phoenix", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_polo", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_q", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_rudo", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_rwyland", "y": 90}
+      ]
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 180
+      }
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_pat", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_phoenix", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_polo", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_q", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_rudo", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_rwyland", "y": 180}
+      ]
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 270
+      }
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_pat", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_phoenix", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_polo", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_q", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_rudo", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_rwyland", "y": 270}
+      ]
+    }
+  ]
+}

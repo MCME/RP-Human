@@ -110,6 +110,32 @@
 	   { "model": "minecraft:block/rohan_spear_single", "y": 90 },
 	   { "model": "minecraft:block/rohan_spear_single", "y": 180 },
 	   { "model": "minecraft:block/rohan_spear_single", "y": 270 }
-	]
+	],
+	"down=false,east=false,north=false,south=false,up=true,west=false,waterlogged=false": {"model": "block/skeleton_hanging"},
+	"down=false,east=false,north=false,south=true,up=true,west=true,waterlogged=false": {"model": "block/skeleton_hanging", "y": 90},
+	"down=false,east=false,north=true,south=false,up=true,west=true,waterlogged=false": {"model": "block/skeleton_hanging", "y": 180},
+	"down=false,east=false,north=true,south=true,up=false,west=false,waterlogged=false": {"model": "block/skeleton_hanging", "y": 270},
+	"down=false,east=false,north=true,south=true,up=false,west=true,waterlogged=false": {"model": "block/skeleton_sitting"},
+	"down=false,east=false,north=true,south=true,up=true,west=false,waterlogged=false": {"model": "block/skeleton_sitting", "y": 90},
+	"down=false,east=false,north=true,south=true,up=true,west=true,waterlogged=false": {"model": "block/skeleton_sitting", "y": 180},
+	"down=false,east=true,north=false,south=false,up=false,west=true,waterlogged=false": {"model": "block/skeleton_sitting", "y": 270},
+	"down=false,east=true,north=false,south=false,up=true,west=true,waterlogged=false": [{"model": "block/skeleton_lying_down"}, {"model": "block/skeleton_lying_down_2"}, {"model": "block/skeleton_lying_down_3"}],
+	"down=false,east=true,north=false,south=true,up=false,west=true,waterlogged=false": [{"model": "block/skeleton_lying_down", "y": 90}, {"model": "block/skeleton_lying_down_2", "y": 90}, {"model": "block/skeleton_lying_down_3", "y": 90}],
+	"down=false,east=true,north=false,south=true,up=true,west=false,waterlogged=false": [{"model": "block/skeleton_lying_down", "y": 180}, {"model": "block/skeleton_lying_down_2", "y": 180}, {"model": "block/skeleton_lying_down_3", "y": 180}],
+	"down=false,east=true,north=false,south=true,up=true,west=true,waterlogged=false": [{"model": "block/skeleton_lying_down", "y": 270}, {"model": "block/skeleton_lying_down_2", "y": 270}, {"model": "block/skeleton_lying_down_3", "y": 270}],
+	"down=false,east=true,north=true,south=false,up=false,west=true,waterlogged=false": {"model": "block/halloween/candy_bucket", "y": 90},
+	"down=false,east=true,north=true,south=false,up=true,west=false,waterlogged=false": {"model": "block/halloween/candy_bucket", "y": 180},
+	"down=false,east=true,north=true,south=false,up=true,west=true,waterlogged=false": {"model": "block/halloween/candy_bucket", "y": 270},
+	"down=false,east=true,north=true,south=true,up=false,west=false,waterlogged=false": {"model": "block/halloween/candy_bucket"},
+	"down=false,east=true,north=true,south=true,up=false,west=true,waterlogged=false": {"model": "block/halloween/witch_broom"},
+	"down=false,east=true,north=true,south=true,up=true,west=false,waterlogged=false": {"model": "block/halloween/witch_broom", "y": 90},
+	"down=false,east=true,north=true,south=true,up=true,west=true,waterlogged=false": {"model": "block/halloween/witch_broom", "y": 180},
+	"down=true,east=false,north=false,south=false,up=false,west=false,waterlogged=false": {"model": "block/halloween/witch_broom", "y": 270},
+	"down=true,east=false,north=false,south=false,up=true,west=false,waterlogged=false": {"model": "block/halloween/witch_broom_2"},
+	"down=true,east=false,north=false,south=true,up=true,west=true,waterlogged=false": {"model": "block/halloween/witch_broom_2", "y": 90},
+	"down=true,east=false,north=true,south=false,up=true,west=true,waterlogged=false": {"model": "block/halloween/witch_broom_2", "y": 180},
+	"down=true,east=false,north=true,south=true,up=false,west=false,waterlogged=false": {"model": "block/halloween/witch_broom_2", "y": 270},
+	"down=true,east=false,north=true,south=true,up=false,west=true,waterlogged=false": {"model": "block/halloween/ghost_cauldron"},
+	"down=true,east=false,north=true,south=true,up=true,west=false,waterlogged=false": {"model": "block/hanging_skull_cluster"}
   }
 }

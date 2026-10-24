@@ -7,6 +7,15 @@
 // blendTexture and texRect, and sampleNearest(source, uv, pixelSize, du, dv,
 // texelScreenSize).
 
+// objmc's faces go in the translucent pass - their pointer texel's alpha is
+// below 255 - so only that pass has its code: in the others it would slow
+// every face, as the water did
+#ifdef ALPHA_CUTOUT
+const bool OBJMC_PASS = ALPHA_CUTOUT < 0.3;
+#else
+const bool OBJMC_PASS = false;
+#endif
+
 // objmc cutout edges, see objmcEdges: the alpha the edge sits at - higher
 // thins the leaves - and how much of the soft rim it gets in the distance is
 // drawn - lower is softer, but lets more of whatever was drawn before (the
@@ -55,7 +64,7 @@ vec4 sampleCustom(vec2 uv, vec2 du, vec2 dv, vec2 atlasSize) {
 void objmcEdges(inout vec4 color, vec2 uv, vec2 atlasSize) {
     float alphaWidth = max(fwidth(color.a), 1.0 / 255.0);
     float texelsPerPixel = max(length(dFdx(uv) * atlasSize), length(dFdy(uv) * atlasSize));
-    if (isCustom == 1 && maxLod > 0 && blendTexture == 0) {
+    if (OBJMC_PASS && isCustom == 1 && maxLod > 0 && blendTexture == 0) {
         float hard = step(OBJMC_EDGE_CUTOFF, color.a);
         float soft = clamp((color.a - OBJMC_EDGE_CUTOFF) / alphaWidth + 0.5, 0.0, 1.0);
         color.a = mix(hard, soft, clamp(texelsPerPixel - 1.0, 0.0, 1.0));

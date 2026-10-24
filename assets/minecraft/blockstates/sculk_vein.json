@@ -239,6 +239,24 @@
 	   { "model": "minecraft:block/beam_core_light_wide" },
 	   { "model": "minecraft:block/beam_core_light_wide_2" },
 	   { "model": "minecraft:block/beam_core_light_wide_3" }
-	   ]
-	}
+	   ],
+	"down=false,east=false,north=false,south=false,up=true,west=false,waterlogged=false": [{"model": "block/skulls"}, {"model": "block/skulls_2"}, {"model": "block/skulls_3"}],
+	"down=false,east=false,north=true,south=true,up=false,west=false,waterlogged=false": [{"model": "block/skulls", "y": 90}, {"model": "block/skulls_2", "y": 90}, {"model": "block/skulls_3", "y": 90}],
+	"down=false,east=false,north=true,south=true,up=true,west=true,waterlogged=false": [{"model": "block/skulls", "y": 180}, {"model": "block/skulls_2", "y": 180}, {"model": "block/skulls_3", "y": 180}],
+	"down=false,east=true,north=false,south=false,up=false,west=true,waterlogged=false": [{"model": "block/skulls", "y": 270}, {"model": "block/skulls_2", "y": 270}, {"model": "block/skulls_3", "y": 270}],
+	"down=false,east=true,north=false,south=true,up=true,west=true,waterlogged=false": [{"model": "block/skulls_full"}, {"model": "block/skulls_full_2"}, {"model": "block/skulls_full_3"}],
+	"down=false,east=true,north=true,south=false,up=true,west=true,waterlogged=false": [{"model": "block/skulls_full", "y": 90}, {"model": "block/skulls_full_2", "y": 90}, {"model": "block/skulls_full_3", "y": 90}],
+	"down=false,east=true,north=true,south=true,up=false,west=true,waterlogged=false": [{"model": "block/skulls_full", "y": 180}, {"model": "block/skulls_full_2", "y": 180}, {"model": "block/skulls_full_3", "y": 180}],
+	"down=false,east=true,north=true,south=true,up=true,west=false,waterlogged=false": [{"model": "block/skulls_full", "y": 270}, {"model": "block/skulls_full_2", "y": 270}, {"model": "block/skulls_full_3", "y": 270}],
+	"down=false,east=true,north=true,south=true,up=true,west=true,waterlogged=false": [{"model": "block/skeleton_lying_down_slope"}, {"model": "block/skeleton_lying_down_slope_2"}, {"model": "block/skeleton_lying_down_slope_3"}],
+	"down=true,east=false,north=false,south=true,up=true,west=true,waterlogged=false": [{"model": "block/skeleton_lying_down_slope", "y": 90}, {"model": "block/skeleton_lying_down_slope_2", "y": 90}, {"model": "block/skeleton_lying_down_slope_3", "y": 90}],
+	"down=true,east=false,north=true,south=false,up=true,west=true,waterlogged=false": [{"model": "block/skeleton_lying_down_slope", "y": 180}, {"model": "block/skeleton_lying_down_slope_2", "y": 180}, {"model": "block/skeleton_lying_down_slope_3", "y": 180}],
+	"down=true,east=false,north=true,south=true,up=true,west=false,waterlogged=false": [{"model": "block/skeleton_lying_down_slope", "y": 270}, {"model": "block/skeleton_lying_down_slope_2", "y": 270}, {"model": "block/skeleton_lying_down_slope_3", "y": 270}],
+	"down=true,east=false,north=true,south=true,up=true,west=true,waterlogged=false": {"model": "block/halloween/spider"},
+	"down=true,east=true,north=false,south=false,up=true,west=true,waterlogged=false": {"model": "block/halloween/spider", "x": 180},
+	"down=true,east=true,north=false,south=true,up=true,west=false,waterlogged=false": {"model": "block/halloween/spider", "x": 90},
+	"down=true,east=true,north=false,south=true,up=true,west=true,waterlogged=false": {"model": "block/halloween/spider", "x": 90, "y": 90},
+	"down=true,east=true,north=true,south=false,up=true,west=false,waterlogged=false": {"model": "block/halloween/spider", "x": 90, "y": 180},
+	"down=true,east=true,north=true,south=false,up=true,west=true,waterlogged=false": {"model": "block/halloween/spider", "x": 90, "y": 270}
+  }
 }

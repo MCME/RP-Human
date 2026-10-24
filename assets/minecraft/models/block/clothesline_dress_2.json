@@ -12,6 +12,7 @@
 			"from": [0, 15, 7],
 			"to": [16, 16, 8],
 			"shade": false,
+			"shade_direction_override": "up",
 			"faces": {
 				"north": {"uv": [16, 0, 0, 1], "texture": "#texture"},
 				"east": {"uv": [16, 0, 0, 1], "texture": "#texture"},
@@ -25,6 +26,7 @@
 			"from": [0, 2, 7.5],
 			"to": [16, 15, 7.5],
 			"shade": false,
+			"shade_direction_override": "up",
 			"faces": {
 				"north": {"uv": [16, 1, 0, 16], "texture": "#2"},
 				"east": {"uv": [16, 1, 0, 16], "texture": "#1"},

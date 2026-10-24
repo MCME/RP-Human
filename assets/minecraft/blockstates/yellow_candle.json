@@ -1,0 +1,56 @@
+{
+  "variants": {
+    "candles=1,lit=false,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy"
+    },
+    "candles=2,lit=false,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy_2"
+    },
+    "candles=3,lit=false,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy_3"
+    },
+    "candles=4,lit=false,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy_bucket",
+      "y": 0
+    },
+    "candles=1,lit=true,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy_bucket",
+      "y": 90
+    },
+    "candles=2,lit=true,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy_bucket",
+      "y": 180
+    },
+    "candles=3,lit=true,waterlogged=false": {
+      "model": "minecraft:block/halloween/candy_bucket",
+      "y": 270
+    },
+    "candles=1,lit=false,waterlogged=true": {
+      "model": "minecraft:block/yellow_candle_one_candle"
+    },
+    "candles=1,lit=true,waterlogged=true": {
+      "model": "minecraft:block/yellow_candle_one_candle_lit"
+    },
+    "candles=2,lit=false,waterlogged=true": {
+      "model": "minecraft:block/yellow_candle_two_candles"
+    },
+    "candles=2,lit=true,waterlogged=true": {
+      "model": "minecraft:block/yellow_candle_two_candles_lit"
+    },
+    "candles=3,lit=false,waterlogged=true": {
+      "model": "minecraft:block/yellow_candle_three_candles"
+    },
+    "candles=3,lit=true,waterlogged=true": {
+      "model": "minecraft:block/yellow_candle_three_candles_lit"
+    },
+    "candles=4,lit=false,waterlogged=true": {
+      "model": "minecraft:block/yellow_candle_four_candles"
+    },
+    "candles=4,lit=true,waterlogged=false": {
+      "model": "minecraft:block/yellow_candle_four_candles_lit"
+    },
+    "candles=4,lit=true,waterlogged=true": {
+      "model": "minecraft:block/yellow_candle_four_candles_lit"
+    }
+  }
+}

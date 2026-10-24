@@ -54,7 +54,7 @@ ivec4 marker = t[0].a == 254
     ? ivec4(texelFetch(Sampler0, topleft, 0) * 255.0 + 0.5)
     : ivec4(0);
 
-if (marker == ivec4(12, 34, 56, 255)) {
+if (OBJMC_PASS && marker == ivec4(12, 34, 56, 255)) {
     isCustom = 1;
     for (int i = 1; i < 16; i++) {
         t[i] = getmeta(topleft, i);

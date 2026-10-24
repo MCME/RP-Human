@@ -1,0 +1,64 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "block/halloween/grave_names/gravestone",
+		"particle": "block/halloween/grave_names/gravestone",
+		"names": "block/halloween/grave_names/grave_name"
+	},
+	"elements": [
+		{
+			"from": [7.9, 6.05, 10.4],
+			"to": [8.5, 12.65, 20.8],
+			"rotation": {"x": 0, "y": 90, "z": 0, "origin": [8, 8.5, 15.6]},
+			"faces": {
+				"north": {"uv": [7.70846, 7.0105, 8.30846, 8.57072], "texture": "#2"},
+				"east": {"uv": [1.00831, 0.8275, 15.0792, 15.2865], "texture": "#names"},
+				"south": {"uv": [7.6924, 7.11921, 8.2924, 8.51143], "texture": "#2"},
+				"west": {"uv": [1.06675, 0.8275, 14.99588, 15.21987], "texture": "#names"},
+				"up": {"uv": [7.78135, 7.1155, 8.38135, 8.54107], "texture": "#2"},
+				"down": {"uv": [7.04015, 8.00494, 9.00395, 8.56084], "texture": "#2"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 3.25, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 3.25, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 23.5, 0],
+			"translation": [-1.5, 2.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 23.5, 0],
+			"translation": [-1.5, 2.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [-169.27, -40.82, 178.89],
+			"translation": [3.75, -3.25, 0],
+			"scale": [1.18, 1.18, 1.18]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0],
+			"translation": [0.75, -2.25, 35],
+			"scale": [4, 4, 4]
+		}
+	}
+}

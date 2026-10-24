@@ -53,9 +53,21 @@ layout(location = 14) out vec3 fluidWorld;
 layout(location = 15) out vec4 waterLights;
 layout(location = 16) out vec4 waterWeights;
 layout(location = 17) out vec4 waterHeights;
+// still water's wind (water.glsl): its broad fields at this corner, and 1
+// where they were worked out
+layout(location = 18) out vec4 waterWarps;
+layout(location = 19) out vec4 waterGusts;
+layout(location = 20) out float waterWindSet;
 
 #include <minecraft:objmc_tools.glsl>
 #include <minecraft:water_corner.glsl>
+// the water's, for its wind (waterWindHere), without what needs derivatives
+#define FLUID_VERTEX
+#include <minecraft:mcme_lite.glsl>
+#include <minecraft:mcme_clock.glsl>
+#include <minecraft:fluid.glsl>
+#include <minecraft:water_config.glsl>
+#include <minecraft:water.glsl>
 
 #define MCME_MODELVIEW ModelViewMat
 #define MCME_PROJECTION ProjMat
@@ -72,7 +84,8 @@ layout(location = 17) out vec4 waterHeights;
 #define minecraft_sample_lightmap(lightMap, uv) vec4(1.0)
 #else
 vec4 minecraft_sample_lightmap(sampler2D lightMap, ivec2 uv) {
-    return texture(lightMap, clamp(uv / 256.0, vec2(0.5 / 16.0), vec2(15.5 / 16.0)));
+    // without the clock in it (mcme_clock.glsl); light level n is n*16, its texel centre n/16 + 0.5/16, as vanilla samples it
+    return mcmeLightmap(lightMap, clamp(uv / 256.0 + 0.5 / 16.0, vec2(0.5 / 16.0), vec2(15.5 / 16.0)));
 }
 #endif
 
@@ -87,6 +100,13 @@ void main() {
     Pos = Position + (ChunkPosition - CameraBlockPos) + CameraOffset;
     fluidWorld = MCME_WORLD_POS_64;
     waterCorner(gl_VertexIndex, Color.rgb, Position.y, waterLights, waterWeights, waterHeights);
+    waterWarps = vec4(0.0);
+    waterGusts = vec4(0.0);
+    waterWindSet = 0.0;
+    if (waterWindHere(Sampler0, UV0, Pos)) {
+        waterWindFields(fluidWorld.xz, MCME_SECONDS, waterWarps, waterGusts);
+        waterWindSet = 1.0;
+    }
     vertexColor = Color;
 #ifdef OIT_ALPHA_ONLY
     lightColor = vec4(1.0);     // no lightmap in these passes, nor needed: only alpha counts

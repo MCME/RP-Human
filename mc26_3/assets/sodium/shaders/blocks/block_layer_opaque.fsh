@@ -34,6 +34,9 @@ layout(location = 14) in vec3 fluidWorld;
 layout(location = 15) in vec4 waterLights;
 layout(location = 16) in vec4 waterWeights;
 layout(location = 17) in vec4 waterHeights;
+layout(location = 18) in vec4 waterWarps;
+layout(location = 19) in vec4 waterGusts;
+layout(location = 20) in float waterWindSet;
 
 uniform sampler2D u_BlockTex; // The block texture
 // the light map, for the time of day core/lightmap.fsh hides in it
@@ -134,7 +137,7 @@ vec4 sampleColor(vec2 uv) {
     // Taken before branching: derivatives are undefined in divergent control flow.
     vec2 du = dFdx(uv);
     vec2 dv = dFdy(uv);
-    if (isCustom == 1)
+    if (isCustom == 1 && OBJMC_PASS)
         return sampleCustom(uv, du, dv, 1.0 / u_TexelSize);
     return u_UseRGSS ? sampleRGSS(u_BlockTex, uv, u_TexelSize) : sampleNearest(u_BlockTex, uv, u_TexelSize);
 }
@@ -150,7 +153,11 @@ vec4 calculateFinalColor(vec4 color) {
 }
 
 void main() {
-    vec4 color = mix(sampleColor(v_TexCoord), sampleColor(texCoord2), transition);
+    // the second sample only for objmc's fading frames: transition is 0 on every other face, the same at all its vertices
+    vec4 color = sampleColor(v_TexCoord);
+    if (transition > 0.0) color = mix(color, sampleColor(texCoord2), transition);
+    // the cutout pass, with no fluid: a texel it drops goes before any other work (mcme_pass.glsl)
+    if (MCME_CUTOUT_PASS && MCME_PASS_KINDS == 0u && isCustom == 0 && color.a < MCME_PASS_CUTOUT) discard;
 
     // Apply per-vertex color modulator - objmc's lighting for its models
 #define BLOCK
@@ -161,14 +168,16 @@ void main() {
     // before branching, as it needs derivatives
     FluidFrame fluidHere = fluidFrame(fluidWorld, Pos, v_TexCoord);
     WaterShore shore = waterShore(waterLights, waterWeights, waterHeights);
+    waterWindGiven(waterWarps, waterGusts, waterWindSet);
 #ifdef MCME_LITE
     int fluid = -1;     // the Lite zip: fluids as their textures
 #else
-    int fluid = isCustom == 0 ? fluidKind(u_BlockTex, v_TexCoord) : -1;
+    int fluid = isCustom == 0 && MCME_PASS_KINDS != 0u ? fluidKind(u_BlockTex, v_TexCoord) : -1;
 #endif
-    // water: its colour and light as ever, its pattern and opacity its own;
+    // water: its colour and light as ever, its pattern and opacity its own,
+    // in the passes its textures can be drawn in (mcme_pass.glsl);
     // foam along its shores, from smooth lighting
-    if (fluid == WATER_STILL || fluid == WATER_FLOWING) {
+    if ((fluid == WATER_STILL && MCME_PASS_HAS(WATER_STILL)) || (fluid == WATER_FLOWING && MCME_PASS_HAS(WATER_FLOWING))) {
         WaterLook water = waterLook(fluid, fluidHere, MCME_SECONDS, shore);
         vec3 lit = waterTint(vertexColor.rgb) * lightColor.rgb;
         color = vec4(mix(waterMurky(lit, water.murk) * water.shade, WATER_FOAM_COLOR * lightColor.rgb, water.foam), water.alpha);
