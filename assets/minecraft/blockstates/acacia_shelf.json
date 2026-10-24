@@ -1,0 +1,80 @@
+{
+  "multipart": [
+    {
+      "when": { "facing": "north" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 0
+      }
+    },
+    {
+      "when": { "facing": "north" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_larry"},
+        {"model": "minecraft:block/halloween/grave_names/grave_luke"},
+        {"model": "minecraft:block/halloween/grave_names/grave_medio"},
+        {"model": "minecraft:block/halloween/grave_names/grave_mershy"},
+        {"model": "minecraft:block/halloween/grave_names/grave_mith"},
+        {"model": "minecraft:block/halloween/grave_names/grave_nexus"},
+        {"model": "minecraft:block/halloween/grave_names/grave_ooits"}
+      ]
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 90
+      }
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_larry", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_luke", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_medio", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_mershy", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_mith", "y": 90  },
+        {"model": "minecraft:block/halloween/grave_names/grave_nexus", "y": 90},
+        {"model": "minecraft:block/halloween/grave_names/grave_ooits", "y": 90}
+      ]
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 180
+      }
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_larry", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_luke", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_medio", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_mershy", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_mith", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_nexus", "y": 180},
+        {"model": "minecraft:block/halloween/grave_names/grave_ooits", "y": 180}
+      ]
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": {
+        "model": "minecraft:block/halloween/grave_stone",
+        "y": 270
+      }
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": [
+        {"model": "minecraft:block/halloween/grave_names/grave_larry", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_luke", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_medio", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_mershy", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_mith", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_nexus", "y": 270},
+        {"model": "minecraft:block/halloween/grave_names/grave_ooits", "y": 270}
+      ]
+    }
+  ]
+}

@@ -1,8 +1,17 @@
 {
   "variants": {
     "tip=true": [
-      { "model": "block/halloween/bats", "weight": 3 },
-      { "model": "block/halloween/bats_2", "weight": 2 }
-    ]
+      {
+        "model": "block/halloween/bats",
+        "weight": 3
+      },
+      {
+        "model": "block/halloween/bats_2",
+        "weight": 2
+      }
+    ],
+    "tip=false": {
+      "model": "minecraft:block/pale_hanging_moss"
+    }
   }
 }
