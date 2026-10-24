@@ -1,0 +1,90 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "fog": "block/fog_thick",
+        "particle": "block/fog_thick"
+    },
+    "elements": [
+        {
+            "from": [
+                0,
+                0,
+                0
+            ],
+            "to": [
+                16,
+                16,
+                16
+            ],
+            "shade": false,
+            "shade_direction_override": "up",
+            "rotation": {
+                "origin": [
+                    8,
+                    8,
+                    8
+                ],
+                "x": 0.002,
+                "y": 0.002,
+                "z": 0.002,
+                "rescale": false
+            },
+            "faces": {
+                "down": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#fog"
+                },
+                "up": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#fog"
+                },
+                "north": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#fog"
+                },
+                "south": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#fog"
+                },
+                "west": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#fog"
+                },
+                "east": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#fog"
+                }
+            }
+        }
+    ]
+}

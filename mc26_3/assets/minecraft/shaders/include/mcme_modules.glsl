@@ -6,6 +6,6 @@
 // Written by ResourcePackScripts' generateVanilla/syncShaderBase.py: don't edit it.
 #define MCME_SOLID_KINDS 0x0u
 #define MCME_CUTOUT_KINDS 0x0u
-#define MCME_TRANSLUCENT_KINDS 0xCu
+#define MCME_TRANSLUCENT_KINDS 0x2Cu
 #include <minecraft:mcme_pass.glsl>
 #endif
