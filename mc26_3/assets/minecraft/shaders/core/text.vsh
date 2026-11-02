@@ -2,6 +2,8 @@
 // 26.3's copy of assets/minecraft/shaders/core/text.vsh, translated by ResourcePackScripts' shader_base.py: don't edit it.
 #extension GL_ARB_separate_shader_objects : require
 
+// The MCME action bar (below) and MCME-GUI's screens (include/mcme_gui.glsl): every other text is vanilla's.
+
 // ============================================================
 //  MCME-Action-Bar – GUI-scale-invariant HUD positioning
 //
@@ -41,6 +43,9 @@
 
 #include <minecraft:dynamictransforms.glsl>
 #include <minecraft:projection.glsl>
+#include <minecraft:globals.glsl>
+#include <minecraft:mcme_gui.glsl>
+#include <minecraft:mcme_gui_hud.glsl>
 
 layout(location = 0) in vec3 Position;
 layout(location = 1) in vec4 Color;
@@ -57,6 +62,10 @@ layout(location = 1) out float cylindricalVertexDistance;
 
 layout(location = 2) out vec4 vertexColor;
 layout(location = 3) out vec2 texCoord0;
+layout(location = 4) flat out int guiKind;
+layout(location = 5) flat out ivec4 guiCode;
+layout(location = 6) out vec2 guiCorner;
+layout(location = 7) out vec2 guiBoard;
 
 #ifdef IS_GUI
 // ── Encoding constants – must match the font ascent formula ──
@@ -75,8 +84,30 @@ layout(location = 3) out vec2 texCoord0;
 // Runs once per vertex — each character is a textured quad (4 vertices), and each vertex is processed independently
 void main() {
     vec3 pos = Position;
+    guiKind = GUI_NONE;
+    guiCode = ivec4(0);
+    guiCorner = vec2(0.0);
+    guiBoard = vec2(0.0);
 
     #ifdef IS_GUI
+    // A HUD overlay glyph (include/mcme_gui_hud.glsl): to its anchor, in its colour.
+    if (gui_is_overlay(Color) && ProjMat[3][3] == 1.0) {
+        vec2 ui = 2.0 / vec2(ProjMat[0][0], -ProjMat[1][1]);
+        vec3 tint;
+        vec2 at = gui_overlay_place(Color, Position, ui, tint);
+        gl_Position = ProjMat * ModelViewMat * vec4(at, Position.z, 1.0);
+        vertexColor = vec4(tint, Color.a);
+        texCoord0 = UV0;
+        return;
+    }
+
+    // An MCME-GUI screen is open: the fragment shader drops the HUD's text, glyphs all of whose corners are its.
+    vec2 hudUi = gui_hud_ui();
+    if (hudUi.x > 0.0) {
+        guiKind = GUI_HUD;
+        guiCorner = vec2(gui_hud_corner(Position.xy, hudUi, true));
+    }
+
     // IS_GUI is defined by Minecraft (in RenderPipelines) when it compiles this
     // file for the gui_text pipeline — the pass that draws 2D UI elements
     // (e.g. the action bar).  The world-text and see-through pipelines compile
@@ -159,9 +190,16 @@ void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(pos, 1.0);
 
     #if !defined(IS_GUI) && !defined(IS_SEE_THROUGH)
+    guiKind = gui_kind(Color);
+    if (guiKind != GUI_NONE) {
+        guiCode = ivec4(gui_byte(Color.r), gui_byte(Color.g), gui_byte(Color.b), gui_byte(Color.a));
+        gl_Position = gui_place(guiKind, Color, Position, UV0, guiCorner, guiBoard);
+    }
+
     sphericalVertexDistance = fog_spherical_distance(Position);
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
-    vertexColor = Color * sample_lightmap(Sampler2, UV2);
+    // GUI pieces are a screen, not something in the world: no light.
+    vertexColor = guiKind != GUI_NONE ? vec4(Color.rgb, 1.0) : Color * sample_lightmap(Sampler2, UV2);
     #else
     vertexColor = Color;
     #endif
