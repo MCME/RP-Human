@@ -2,23 +2,23 @@
 	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/xmas/xmas_lights_angle",
-		"particle": "block/xmas/xmas_lights_angle"
+		"0": "block/xmas/xmas_string_lights_angle",
+		"particle": "block/xmas/xmas_string_lights_angle"
 	},
 	"elements": [
 		{
-			"from": [8.1, 0, -7.6],
-			"to": [8.1, 16, 8.4],
-			"rotation": {"x": 0, "y": -90, "z": 0, "origin": [8.1, 7.35, 0.4]},
+			"from": [8.1, -4.3, -7.6],
+			"to": [8.1, 11.7, 8.4],
+			"rotation": {"x": 0, "y": -90, "z": 0, "origin": [8.1, 3.05, 0.4]},
 			"faces": {
-				"east": {"uv": [0.53589, 0.62903, 15.38756, 14.67305], "texture": "#0"},
-				"west": {"uv": [15.38756, 0.62903, 0.53589, 14.67305], "texture": "#0"}
+				"east": {"uv": [0, 1.5, 16, 13.25], "texture": "#0"},
+				"west": {"uv": [16, 1.5, 0, 13.25], "texture": "#0"}
 			}
 		}
 	],
 	"display": {
 		"gui": {
-			"rotation": [0, 180, 0]
+			"scale": [0.84, 0.84, 0.84]
 		}
 	}
 }

@@ -1,4 +1,5 @@
 {
+	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"texture_size": [48, 48],
 	"textures": {
@@ -124,11 +125,19 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
+		"firstperson_righthand": {
+			"translation": [0, 0, 0.75],
+			"scale": [0.28, 0.28, 0.28]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 0, 1.5],
+			"scale": [0.28, 0.28, 0.28]
+		},
 		"gui": {
 			"rotation": [21, -33, 0],
-			"translation": [0, -1, 0],
-			"scale": [0.45, 0.35, 0.43]
+			"scale": [0.25, 0.25, 0.25]
 		}
 	}
 }
