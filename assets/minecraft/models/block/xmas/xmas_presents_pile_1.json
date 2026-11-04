@@ -1,0 +1,23 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "block/xmas/xmas_presents_pile",
+		"particle": "block/xmas/xmas_presents_pile"
+	},
+	"elements": [
+		{
+			"from": [6.5916, 0.0266, 6.7666],
+			"to": [14.6584, 8.0934, 14.8334],
+			"rotation": {"x": 0, "y": -53, "z": 0, "origin": [10.625, 3.7786, 10.8]},
+			"faces": {
+				"north": {"uv": [4.5, 4.475, 7.225, 7.25], "texture": "#2"},
+				"east": {"uv": [4.5, 4.475, 7.225, 7.25], "texture": "#2"},
+				"south": {"uv": [4.5, 4.475, 7.225, 7.25], "texture": "#2"},
+				"west": {"uv": [4.5, 4.475, 7.225, 7.25], "texture": "#2"},
+				"up": {"uv": [4.5, 3.225, 7.25, 0.5], "texture": "#2"},
+				"down": {"uv": [4.5, 3.225, 7.25, 0.5], "texture": "#2"}
+			}
+		}
+	]
+}

@@ -1,6 +1,76 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "minecraft:item/xmas_hat"
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1101,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat"
+        }
+      },
+      {
+        "threshold": 1102,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_valar"
+        }
+      },
+      {
+        "threshold": 1103,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_moderator"
+        }
+      },
+      {
+        "threshold": 1104,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_designer"
+        }
+      },
+      {
+        "threshold": 1105,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_foreman"
+        }
+      },
+      {
+        "threshold": 1106,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_artist"
+        }
+      },
+      {
+        "threshold": 1107,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_guide"
+        }
+      },
+      {
+        "threshold": 1108,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_commoner"
+        }
+      },
+      {
+        "threshold": 1109,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_manager"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/carved_pumpkin"
+    }
   }
 }
