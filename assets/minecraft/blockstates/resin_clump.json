@@ -1,18 +1,18 @@
 {
   "variants": {
     "down=false,east=false,north=true,south=false,up=false,waterlogged=false,west=false": {
-      "model": "block/offset_rope",
+      "model": "block/rope_offset",
       "y": 180
     },
     "east=true,waterlogged=false,south=false,north=false,west=false,up=false,down=false": {
-      "model": "block/offset_rope",
+      "model": "block/rope_offset",
       "y": 270
     },
     "east=false,waterlogged=false,south=true,north=false,west=false,up=false,down=false": {
-      "model": "block/offset_rope"
+      "model": "block/rope_offset"
     },
     "east=false,waterlogged=false,south=false,north=false,west=true,up=false,down=false": {
-      "model": "block/offset_rope",
+      "model": "block/rope_offset",
       "y": 90
     },
 	"up=false,north=true,east=false,south=false,west=true,down=false": [
