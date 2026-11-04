@@ -6957,7 +6957,10 @@
                 "threshold": 1233,
                 "model": {
                     "type": "model",
-                    "model": "block/flat_grass_patches"
+                    "model": "block/flat_grass_patches",
+                    "tints": [
+                        { "type": "minecraft:grass", "temperature": 0.5, "downfall": 1.0 }
+                    ]
                 }
             },
             {
