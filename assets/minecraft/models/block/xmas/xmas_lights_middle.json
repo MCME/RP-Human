@@ -1,0 +1,24 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/xmas/xmas_string_lights_middle",
+		"particle": "block/xmas/xmas_string_lights_middle"
+	},
+	"elements": [
+		{
+			"from": [8.1, 0, -7.6],
+			"to": [8.1, 16, 8.4],
+			"rotation": {"x": 0, "y": -90, "z": 0, "origin": [8.1, 7.35, 0.4]},
+			"faces": {
+				"east": {"uv": [0.275, 5.75, 15.775, 16], "texture": "#0"},
+				"west": {"uv": [0.275, 5.75, 15.775, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [0, 180, 0]
+		}
+	}
+}
