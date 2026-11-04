@@ -1,18 +1,18 @@
 {
   "variants": {
     "down=false,east=false,north=true,south=false,up=false,waterlogged=false,west=false": {
-      "model": "block/offset_rope",
+      "model": "block/rope_offset",
       "y": 180
     },
     "east=true,waterlogged=false,south=false,north=false,west=false,up=false,down=false": {
-      "model": "block/offset_rope",
+      "model": "block/rope_offset",
       "y": 270
     },
     "east=false,waterlogged=false,south=true,north=false,west=false,up=false,down=false": {
-      "model": "block/offset_rope"
+      "model": "block/rope_offset"
     },
     "east=false,waterlogged=false,south=false,north=false,west=true,up=false,down=false": {
-      "model": "block/offset_rope",
+      "model": "block/rope_offset",
       "y": 90
     },
 	"up=false,north=true,east=false,south=false,west=true,down=false": [
@@ -111,6 +111,19 @@
 	   { "model": "minecraft:block/rohan_spear_single", "y": 180 },
 	   { "model": "minecraft:block/rohan_spear_single", "y": 270 }
 	],
-"down=false,east=false,north=false,south=false,up=true,west=false,waterlogged=false": {"model": "minecraft:block/xmas/xmas_mistletoe"}
-}
+	"down=false,east=false,north=false,south=false,up=true,west=false,waterlogged=false": {"model": "block/skeleton_hanging"},
+	"down=false,east=false,north=false,south=true,up=true,west=true,waterlogged=false": {"model": "block/skeleton_hanging", "y": 90},
+	"down=false,east=false,north=true,south=false,up=true,west=true,waterlogged=false": {"model": "block/skeleton_hanging", "y": 180},
+	"down=false,east=false,north=true,south=true,up=false,west=false,waterlogged=false": {"model": "block/skeleton_hanging", "y": 270},
+	"down=false,east=false,north=true,south=true,up=false,west=true,waterlogged=false": {"model": "block/skeleton_sitting"},
+	"down=false,east=false,north=true,south=true,up=true,west=false,waterlogged=false": {"model": "block/skeleton_sitting", "y": 90},
+	"down=false,east=false,north=true,south=true,up=true,west=true,waterlogged=false": {"model": "block/skeleton_sitting", "y": 180},
+	"down=false,east=true,north=false,south=false,up=false,west=true,waterlogged=false": {"model": "block/skeleton_sitting", "y": 270},
+	"down=false,east=true,north=false,south=false,up=true,west=true,waterlogged=false": [{"model": "block/skeleton_lying_down"}, {"model": "block/skeleton_lying_down_2"}, {"model": "block/skeleton_lying_down_3"}],
+	"down=false,east=true,north=false,south=true,up=false,west=true,waterlogged=false": [{"model": "block/skeleton_lying_down", "y": 90}, {"model": "block/skeleton_lying_down_2", "y": 90}, {"model": "block/skeleton_lying_down_3", "y": 90}],
+	"down=false,east=true,north=false,south=true,up=true,west=false,waterlogged=false": [{"model": "block/skeleton_lying_down", "y": 180}, {"model": "block/skeleton_lying_down_2", "y": 180}, {"model": "block/skeleton_lying_down_3", "y": 180}],
+	"down=false,east=true,north=false,south=true,up=true,west=true,waterlogged=false": [{"model": "block/skeleton_lying_down", "y": 270}, {"model": "block/skeleton_lying_down_2", "y": 270}, {"model": "block/skeleton_lying_down_3", "y": 270}],
+	"down=false,east=true,north=true,south=true,up=true,west=true,waterlogged=false": {"model": "minecraft:block/xmas/xmas_mistletoe"},
+	"down=true,east=false,north=true,south=true,up=true,west=false,waterlogged=false": {"model": "block/hanging_skull_cluster"}
+	}
 }

@@ -1089,7 +1089,7 @@
                 "threshold": 175,
                 "model": {
                     "type": "model",
-                    "model": "item/detector_rail_flat_diagonal"
+                    "model": "block/rope_diagonal"
                 }
             },
             {
@@ -1783,6 +1783,13 @@
                 "model": {
                     "type": "model",
                     "model": "item/whitebeam_thin_trunk_vertical_inv"
+                }
+            },
+            {
+                "threshold": 327,
+                "model": {
+                    "type": "model",
+                    "model": "item/shutter"
                 }
             },
             {
