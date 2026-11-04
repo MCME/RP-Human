@@ -13,13 +13,19 @@
 	  {"model": "block/xmas/xmas_bow", "y":90}
 	],
 	
-	"facing=west,half=bottom,open=false,powered=true": [
-	  {"model": "block/xmas/xmas_candycane_ground", "y":90},
-	  {"model": "block/xmas/xmas_candycane_ground", "y":270},
-	  {"model": "block/xmas/xmas_candycane_ground", "y":180},
-	  {"model": "block/xmas/xmas_candycane_ground"}
+	"facing=north,half=bottom,open=false,powered=true": [
+		{"model": "block/xmas/xmas_candycane_ground"}
 	],
-	
+	"facing=south,half=bottom,open=false,powered=true": [
+	  {"model": "block/xmas/xmas_candycane_ground", "y":270}
+	],
+	"facing=east,half=bottom,open=false,powered=true": [
+	  {"model": "block/xmas/xmas_candycane_ground", "y":90}
+	],
+	"facing=west,half=bottom,open=false,powered=true": [	
+	  {"model": "block/xmas/xmas_candycane_ground", "y":180}
+	],
+
 	"facing=north,half=bottom,open=true,powered=true": [
 	  {"model": "block/xmas/xmas_wreath", "y":270}
 	],
