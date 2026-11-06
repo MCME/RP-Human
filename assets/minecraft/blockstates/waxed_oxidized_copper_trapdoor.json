@@ -1,6 +1,6 @@
 {
   "variants": {
-    "facing=north": [
+    "facing=north,half=top,open=true,powered=false": [
       {"model":"block/xmas/stockings/xmas_sock_larry","y":0},
       {"model":"block/xmas/stockings/xmas_sock_loot","y":0},
       {"model":"block/xmas/stockings/xmas_sock_luke","y":0},
@@ -16,7 +16,7 @@
       {"model":"block/xmas/stockings/xmas_sock_phoenix","y":0},
       {"model":"block/xmas/stockings/xmas_sock_polo","y":0}
     ],
-    "facing=east": [
+    "facing=east,half=top,open=true,powered=false": [
       {"model":"block/xmas/stockings/xmas_sock_larry","y":90},
       {"model":"block/xmas/stockings/xmas_sock_loot","y":90},
       {"model":"block/xmas/stockings/xmas_sock_luke","y":90},
@@ -32,7 +32,7 @@
       {"model":"block/xmas/stockings/xmas_sock_phoenix","y":90},
       {"model":"block/xmas/stockings/xmas_sock_polo","y":90}
     ],
-    "facing=south": [
+    "facing=south,half=top,open=true,powered=false": [
       {"model":"block/xmas/stockings/xmas_sock_larry","y":180},
       {"model":"block/xmas/stockings/xmas_sock_loot","y":180},
       {"model":"block/xmas/stockings/xmas_sock_luke","y":180},
@@ -48,7 +48,7 @@
       {"model":"block/xmas/stockings/xmas_sock_phoenix","y":180},
       {"model":"block/xmas/stockings/xmas_sock_polo","y":180}
     ],
-    "facing=west": [
+    "facing=west,half=top,open=true,powered=false": [
       {"model":"block/xmas/stockings/xmas_sock_larry","y":270},
       {"model":"block/xmas/stockings/xmas_sock_loot","y":270},
       {"model":"block/xmas/stockings/xmas_sock_luke","y":270},
@@ -63,6 +63,20 @@
       {"model":"block/xmas/stockings/xmas_sock_pat","y":270},
       {"model":"block/xmas/stockings/xmas_sock_phoenix","y":270},
       {"model":"block/xmas/stockings/xmas_sock_polo","y":270}
-    ]
+    ],
+    "facing=north,half=bottom,open=false,powered=true": {"model":"block/xmas/xmas_snow_offset"},
+    "facing=east,half=bottom,open=false,powered=true": {"model":"block/xmas/xmas_snow_offset","y":90},
+    "facing=south,half=bottom,open=false,powered=true": {"model":"block/xmas/xmas_snow_offset","y":180},
+    "facing=west,half=bottom,open=false,powered=true": {"model":"block/xmas/xmas_snow_offset","y":270},
+
+    "facing=north,half=bottom,open=false,powered=false": {"model":"block/xmas/xmas_snow_thin_slab"},
+    "facing=east,half=bottom,open=false,powered=false": {"model":"block/xmas/xmas_snow_thin_slab","y":90},
+    "facing=south,half=bottom,open=false,powered=false": {"model":"block/xmas/xmas_snow_thin_slab","y":180},
+    "facing=west,half=bottom,open=false,powered=false": {"model":"block/xmas/xmas_snow_thin_slab","y":270},
+
+    "facing=north,half=bottom,open=true,powered=false": {"model":"block/xmas/xmas_snow_vert_thin_slab","y":180},
+    "facing=east,half=bottom,open=true,powered=false": {"model":"block/xmas/xmas_snow_vert_thin_slab","y":270},
+    "facing=south,half=bottom,open=true,powered=false": {"model":"block/xmas/xmas_snow_vert_thin_slab"},
+    "facing=west,half=bottom,open=true,powered=false": {"model":"block/xmas/xmas_snow_vert_thin_slab","y":90}
   }
 }
