@@ -1,38 +1,6 @@
 {
   "variants": {
     "facing=north,half=top,open=true,powered=false": [
-      {"model":"block/xmas/stockings/xmas_sock_larry","y":0},
-      {"model":"block/xmas/stockings/xmas_sock_loot","y":0},
-      {"model":"block/xmas/stockings/xmas_sock_luke","y":0},
-      {"model":"block/xmas/stockings/xmas_sock_manya","y":0},
-      {"model":"block/xmas/stockings/xmas_sock_maski","y":0},
-      {"model":"block/xmas/stockings/xmas_sock_medio","y":0},
-      {"model":"block/xmas/stockings/xmas_sock_mershy","y":0},
-      {"model":"block/xmas/stockings/xmas_sock_mith","y":0},
-      {"model":"block/xmas/stockings/xmas_sock_nexus","y":0},
-      {"model":"block/xmas/stockings/xmas_sock_ooits","y":0},
-      {"model":"block/xmas/stockings/xmas_sock_pacifist","y":0},
-      {"model":"block/xmas/stockings/xmas_sock_pat","y":0},
-      {"model":"block/xmas/stockings/xmas_sock_phoenix","y":0},
-      {"model":"block/xmas/stockings/xmas_sock_polo","y":0}
-    ],
-    "facing=east,half=top,open=true,powered=false": [
-      {"model":"block/xmas/stockings/xmas_sock_larry","y":90},
-      {"model":"block/xmas/stockings/xmas_sock_loot","y":90},
-      {"model":"block/xmas/stockings/xmas_sock_luke","y":90},
-      {"model":"block/xmas/stockings/xmas_sock_manya","y":90},
-      {"model":"block/xmas/stockings/xmas_sock_maski","y":90},
-      {"model":"block/xmas/stockings/xmas_sock_medio","y":90},
-      {"model":"block/xmas/stockings/xmas_sock_mershy","y":90},
-      {"model":"block/xmas/stockings/xmas_sock_mith","y":90},
-      {"model":"block/xmas/stockings/xmas_sock_nexus","y":90},
-      {"model":"block/xmas/stockings/xmas_sock_ooits","y":90},
-      {"model":"block/xmas/stockings/xmas_sock_pacifist","y":90},
-      {"model":"block/xmas/stockings/xmas_sock_pat","y":90},
-      {"model":"block/xmas/stockings/xmas_sock_phoenix","y":90},
-      {"model":"block/xmas/stockings/xmas_sock_polo","y":90}
-    ],
-    "facing=south,half=top,open=true,powered=false": [
       {"model":"block/xmas/stockings/xmas_sock_larry","y":180},
       {"model":"block/xmas/stockings/xmas_sock_loot","y":180},
       {"model":"block/xmas/stockings/xmas_sock_luke","y":180},
@@ -48,7 +16,7 @@
       {"model":"block/xmas/stockings/xmas_sock_phoenix","y":180},
       {"model":"block/xmas/stockings/xmas_sock_polo","y":180}
     ],
-    "facing=west,half=top,open=true,powered=false": [
+    "facing=east,half=top,open=true,powered=false": [
       {"model":"block/xmas/stockings/xmas_sock_larry","y":270},
       {"model":"block/xmas/stockings/xmas_sock_loot","y":270},
       {"model":"block/xmas/stockings/xmas_sock_luke","y":270},
@@ -63,6 +31,38 @@
       {"model":"block/xmas/stockings/xmas_sock_pat","y":270},
       {"model":"block/xmas/stockings/xmas_sock_phoenix","y":270},
       {"model":"block/xmas/stockings/xmas_sock_polo","y":270}
+    ],
+    "facing=south,half=top,open=true,powered=false": [
+      {"model":"block/xmas/stockings/xmas_sock_larry","y":0},
+      {"model":"block/xmas/stockings/xmas_sock_loot","y":0},
+      {"model":"block/xmas/stockings/xmas_sock_luke","y":0},
+      {"model":"block/xmas/stockings/xmas_sock_manya","y":0},
+      {"model":"block/xmas/stockings/xmas_sock_maski","y":0},
+      {"model":"block/xmas/stockings/xmas_sock_medio","y":0},
+      {"model":"block/xmas/stockings/xmas_sock_mershy","y":0},
+      {"model":"block/xmas/stockings/xmas_sock_mith","y":0},
+      {"model":"block/xmas/stockings/xmas_sock_nexus","y":0},
+      {"model":"block/xmas/stockings/xmas_sock_ooits","y":0},
+      {"model":"block/xmas/stockings/xmas_sock_pacifist","y":0},
+      {"model":"block/xmas/stockings/xmas_sock_pat","y":0},
+      {"model":"block/xmas/stockings/xmas_sock_phoenix","y":0},
+      {"model":"block/xmas/stockings/xmas_sock_polo","y":0}
+    ],
+    "facing=west,half=top,open=true,powered=false": [
+      {"model":"block/xmas/stockings/xmas_sock_larry","y":90},
+      {"model":"block/xmas/stockings/xmas_sock_loot","y":90},
+      {"model":"block/xmas/stockings/xmas_sock_luke","y":90},
+      {"model":"block/xmas/stockings/xmas_sock_manya","y":90},
+      {"model":"block/xmas/stockings/xmas_sock_maski","y":90},
+      {"model":"block/xmas/stockings/xmas_sock_medio","y":90},
+      {"model":"block/xmas/stockings/xmas_sock_mershy","y":90},
+      {"model":"block/xmas/stockings/xmas_sock_mith","y":90},
+      {"model":"block/xmas/stockings/xmas_sock_nexus","y":90},
+      {"model":"block/xmas/stockings/xmas_sock_ooits","y":90},
+      {"model":"block/xmas/stockings/xmas_sock_pacifist","y":90},
+      {"model":"block/xmas/stockings/xmas_sock_pat","y":90},
+      {"model":"block/xmas/stockings/xmas_sock_phoenix","y":90},
+      {"model":"block/xmas/stockings/xmas_sock_polo","y":90}
     ],
     "facing=north,half=bottom,open=false,powered=true": {"model":"block/xmas/xmas_snow_offset"},
     "facing=east,half=bottom,open=false,powered=true": {"model":"block/xmas/xmas_snow_offset","y":90},
