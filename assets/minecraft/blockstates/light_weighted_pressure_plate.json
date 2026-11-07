@@ -1,11 +1,22 @@
 {
   "variants": {
-    "power\u003d0": {
-      "model": "block/light_weighted_pressure_plate"
-    },
-    "power\u003d1": {
-      "model": "block/light_weighted_pressure_plate_down"
-    },
+    "power\u003d0": [
+		{ "model": "block/xmas/xmas_cocoa_mug_1" },
+		{ "model": "block/xmas/xmas_cocoa_mug_1", "y":90 },
+		{ "model": "block/xmas/xmas_cocoa_mug_1", "y":180 },
+		{ "model": "block/xmas/xmas_cocoa_mug_1", "y":270 },
+		{ "model": "block/xmas/xmas_cocoa_mug_2" },
+		{ "model": "block/xmas/xmas_cocoa_mug_2", "y":90 },
+		{ "model": "block/xmas/xmas_cocoa_mug_2", "y":180 },
+		{ "model": "block/xmas/xmas_cocoa_mug_2", "y":270 },
+		{ "model": "block/xmas/xmas_cocoa_mug_3" },
+		{ "model": "block/xmas/xmas_cocoa_mug_3", "y":90 },
+		{ "model": "block/xmas/xmas_cocoa_mug_3", "y":180 },
+		{ "model": "block/xmas/xmas_cocoa_mug_3", "y":270 }
+	],
+	"power\u003d1": [
+		{ "model": "block/light_weighted_pressure_plate_down" }
+	],
     "power\u003d2": [
 	{ "model": "block/plate_1" },
 	{ "model": "block/plate_1", "y":90 },

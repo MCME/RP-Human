@@ -1,0 +1,20 @@
+
+{
+  "variants": {
+    "facing=north,half=bottom,open=true,powered=false": {"model":"block/xmas/xmas_lights_middle","y":180},
+    "facing=north,half=top,open=true,powered=false": {"model":"block/xmas/xmas_lights_left","y":180},
+    "facing=north,half=top,open=true,powered=true": {"model":"block/xmas/xmas_lights_right","y":180},
+
+    "facing=east,half=bottom,open=true,powered=false": {"model":"block/xmas/xmas_lights_middle","y":270},
+    "facing=east,half=top,open=true,powered=false": {"model":"block/xmas/xmas_lights_left","y":270},
+    "facing=east,half=top,open=true,powered=true": {"model":"block/xmas/xmas_lights_right","y":270},
+
+    "facing=south,half=bottom,open=true,powered=false": {"model":"block/xmas/xmas_lights_middle","y":0},
+    "facing=south,half=top,open=true,powered=false": {"model":"block/xmas/xmas_lights_left","y":0},
+    "facing=south,half=top,open=true,powered=true": {"model":"block/xmas/xmas_lights_right","y":0},
+
+    "facing=west,half=bottom,open=true,powered=false": {"model":"block/xmas/xmas_lights_middle","y":90},
+    "facing=west,half=top,open=true,powered=false": {"model":"block/xmas/xmas_lights_left","y":90},
+    "facing=west,half=top,open=true,powered=true": {"model":"block/xmas/xmas_lights_right","y":90}
+  }
+}

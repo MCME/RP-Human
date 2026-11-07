@@ -1,6 +1,7 @@
 {
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
+	"gui_light": "front",
 	"textures": {
 		"0": "block/grass_patches",
 		"particle": "block/grass_patches"
@@ -24,9 +25,9 @@
 			"translation": [13, 22, 0]
 		},
 		"gui": {
-			"rotation": [36, 14, 0],
-			"translation": [0, 13.5, 0],
-			"scale": [0.71, 0.71, 0.71]
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, 0],
+			"scale": [1, 1, 1]
 		}
 	}
 }

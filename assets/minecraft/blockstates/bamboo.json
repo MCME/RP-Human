@@ -61,6 +61,18 @@
       { "model": "mcme:block/putrid_stump_2", "y": 90 },
       { "model": "mcme:block/putrid_stump_2", "y": 180 },
       { "model": "mcme:block/putrid_stump_2", "y": 270 }
+	  ],
+	  "age=0,leaves=none,stage=1": [
+      { "model": "block/xmas/xmas_candycane" }
+	  ],
+	  "age=0,leaves=small,stage=1": [
+      { "model": "block/xmas/xmas_candycane", "y":90 }
+	  ],
+	  "age=0,leaves=large,stage=1": [
+      { "model": "block/xmas/xmas_candycane", "y":180 }
+	  ],
+	  "age=1,leaves=none,stage=1": [
+      { "model": "block/xmas/xmas_candycane", "y":270 }
 	  ]
  }
 }
