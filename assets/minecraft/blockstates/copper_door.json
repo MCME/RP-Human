@@ -30,6 +30,38 @@
     "facing=west,half=upper,hinge=right,open=true,powered=true": { 
 		"model": "minecraft:block/vertical_slab_sandstone_brick_window",
 		"y": 180
+	},
+	"facing=west,half=upper,hinge=left,open=true,powered=true": { 
+		"model": "block/xmas/xmas_snow_quarter_upper",
+		"y": 180
+	},
+	"facing=south,half=upper,hinge=left,open=true,powered=true": { 
+		"model": "block/xmas/xmas_snow_quarter_upper",
+		"y": 90
+	},
+	"facing=east,half=upper,hinge=left,open=true,powered=true": { 
+		"model": "block/xmas/xmas_snow_quarter_upper",
+		"y": 0
+	},
+	"facing=north,half=upper,hinge=left,open=true,powered=true": { 
+		"model": "block/xmas/xmas_snow_quarter_upper",
+		"y": 270
+	},
+	"facing=east,half=upper,hinge=left,open=false,powered=true": { 
+		"model": "block/xmas/xmas_snow_quarter_lower",
+		"y": 0
+	},
+	"facing=south,half=upper,hinge=left,open=false,powered=true": { 
+		"model": "block/xmas/xmas_snow_quarter_lower",
+		"y": 90
+	},
+	"facing=west,half=upper,hinge=left,open=false,powered=true": { 
+		"model": "block/xmas/xmas_snow_quarter_lower",
+		"y": 180
+	},
+	"facing=north,half=upper,hinge=left,open=false,powered=true": { 
+		"model": "block/xmas/xmas_snow_quarter_lower",
+		"y": 270
 	}
   }
 }

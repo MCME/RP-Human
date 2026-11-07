@@ -7,6 +7,13 @@
 	"facing\u003dsouth,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":180},
 	"facing\u003dwest,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":270},
 	"facing\u003dnorth,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":0},
-	"facing\u003deast,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":90}
+	"facing\u003deast,half\u003dbottom,open\u003dtrue,powered=false": { "model": "block/trapdoor_gold", "x":90, "y":90},
+	
+	"facing=north,half=top,open=true,powered=false": [{"model":"block/xmas/xmas_orange_gumdrop","y":180},{"model":"block/xmas/xmas_yellow_gumdrop","y":180},{"model":"block/xmas/xmas_purple_gumdrop","y":180}],
+	"facing=east,half=top,open=true,powered=false": [{"model":"block/xmas/xmas_orange_gumdrop","y":270},{"model":"block/xmas/xmas_yellow_gumdrop","y":270},{"model":"block/xmas/xmas_purple_gumdrop","y":270}],
+	"facing=south,half=top,open=true,powered=false": [{"model":"block/xmas/xmas_orange_gumdrop","y":0},{"model":"block/xmas/xmas_yellow_gumdrop","y":0},{"model":"block/xmas/xmas_purple_gumdrop","y":0}],
+	"facing=west,half=top,open=true,powered=false": [{"model":"block/xmas/xmas_orange_gumdrop","y":90},{"model":"block/xmas/xmas_yellow_gumdrop","y":90},{"model":"block/xmas/xmas_purple_gumdrop","y":90}],
+	"facing=north,half=top,open=true,powered=true": [{"model":"block/xmas/xmas_orange_gumdrop","y":0},{"model":"block/xmas/xmas_yellow_gumdrop","y":0},{"model":"block/xmas/xmas_purple_gumdrop","y":0}]
+
 	}
 }

@@ -42,11 +42,11 @@
 		{ "model": "minecraft:block/thatch_offset_down_5" }
     ],
     "facing=east,half=upper,hinge=right,open=true,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_up", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_up_2", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_up_3", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_up_4", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_up_5", "y": 180 }
+		{ "model": "minecraft:block/thatch_offset_up", "y": 180, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_up_2", "y": 180, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_up_3", "y": 180, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_up_4", "y": 180, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_up_5", "y": 180, "uvlock": true }
     ],
     "facing=north,half=lower,hinge=left,open=false,powered=false": {
       "model": "minecraft:block/sign_shield",
@@ -84,18 +84,18 @@
       "model": "minecraft:block/cherry_door_top_left_open"
     },
     "facing=north,half=upper,hinge=right,open=false,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_down", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_down_2", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_down_3", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_down_4", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_down_5", "y": 270 }
+		{ "model": "minecraft:block/thatch_offset_down", "y": 270, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_down_2", "y": 270, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_down_3", "y": 270, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_down_4", "y": 270, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_down_5", "y": 270, "uvlock": true }
     ],
     "facing=north,half=upper,hinge=right,open=true,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_up", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_up_2", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_up_3", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_up_4", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_up_5", "y": 90 }
+		{ "model": "minecraft:block/thatch_offset_up", "y": 90, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_up_2", "y": 90, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_up_3", "y": 90, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_up_4", "y": 90, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_up_5", "y": 90, "uvlock": true }
 	],
     "facing=south,half=lower,hinge=left,open=false,powered=false": {
       "model": "minecraft:block/sign_shield",
@@ -136,18 +136,18 @@
       "y": 180
     },
     "facing=south,half=upper,hinge=right,open=false,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_down", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_down_2", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_down_3", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_down_4", "y": 90 },
-		{ "model": "minecraft:block/thatch_offset_down_5", "y": 90 }
+		{ "model": "minecraft:block/thatch_offset_down", "y": 90, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_down_2", "y": 90, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_down_3", "y": 90, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_down_4", "y": 90, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_down_5", "y": 90, "uvlock": true }
     ],
     "facing=south,half=upper,hinge=right,open=true,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_up", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_up_2", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_up_3", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_up_4", "y": 270 },
-		{ "model": "minecraft:block/thatch_offset_up_5", "y": 270 }
+		{ "model": "minecraft:block/thatch_offset_up", "y": 270, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_up_2", "y": 270, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_up_3", "y": 270, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_up_4", "y": 270, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_up_5", "y": 270, "uvlock": true }
     ],
     "facing=west,half=lower,hinge=left,open=false,powered=false": {
       "model": "minecraft:block/sign_shield",
@@ -189,11 +189,11 @@
       "y": 270
     },
     "facing=west,half=upper,hinge=right,open=false,powered=false": [
-		{ "model": "minecraft:block/thatch_offset_down", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_down_2", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_down_3", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_down_4", "y": 180 },
-		{ "model": "minecraft:block/thatch_offset_down_5", "y": 180 }
+		{ "model": "minecraft:block/thatch_offset_down", "y": 180, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_down_2", "y": 180, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_down_3", "y": 180, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_down_4", "y": 180, "uvlock": true },
+		{ "model": "minecraft:block/thatch_offset_down_5", "y": 180, "uvlock": true }
     ],
     "facing=west,half=upper,hinge=right,open=true,powered=false": [
 		{ "model": "minecraft:block/thatch_offset_up" },
@@ -213,7 +213,7 @@
     },
     "facing=east,half=lower,hinge=right,open=true,powered=true": {
       "model": "minecraft:block/resin_block_offset_up",
-      "y": 180
+      "y": 180, "uvlock": true
     },
     "facing=east,half=upper,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/chiseled_resin_brick_offset_down"
@@ -226,95 +226,95 @@
     },
     "facing=east,half=upper,hinge=right,open=true,powered=true": {
       "model": "minecraft:block/packed_mud_offset_up",
-      "y": 180
+      "y": 180, "uvlock": true
     },
     "facing=north,half=lower,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/waxed_chiseled_copper_offset_down",
-      "y": 270
+      "y": 270, "uvlock": true
     },
     "facing=north,half=lower,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/waxed_chiseled_copper_offset_up",
-      "y": 270
+      "y": 270, "uvlock": true
     },
     "facing=north,half=lower,hinge=right,open=false,powered=true": {
       "model": "minecraft:block/resin_block_offset_down",
-      "y": 270
+      "y": 270, "uvlock": true
     },
     "facing=north,half=lower,hinge=right,open=true,powered=true": {
       "model": "minecraft:block/resin_block_offset_up",
-      "y": 90
+      "y": 90, "uvlock": true
     },
     "facing=north,half=upper,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/chiseled_resin_brick_offset_down",
-      "y": 270
+      "y": 270, "uvlock": true
     },
     "facing=north,half=upper,hinge=left,open=true,powered=true": {
-      "model": "minecraft:block/chiseled_resin_brick_offset_up", "y":270
+      "model": "minecraft:block/chiseled_resin_brick_offset_up", "y":270, "uvlock": true
     },
     "facing=north,half=upper,hinge=right,open=false,powered=true": {
       "model": "minecraft:block/packed_mud_offset_down",
-      "y": 270
+      "y": 270, "uvlock": true
     },
     "facing=north,half=upper,hinge=right,open=true,powered=true": {
       "model": "minecraft:block/packed_mud_offset_up",
-      "y": 90
+      "y": 90, "uvlock": true
     },
     "facing=south,half=lower,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/waxed_chiseled_copper_offset_down",
-      "y": 90
+      "y": 90, "uvlock": true
     },
     "facing=south,half=lower,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/waxed_chiseled_copper_offset_up",
-      "y": 90
+      "y": 90, "uvlock": true
     },
     "facing=south,half=lower,hinge=right,open=false,powered=true": {
       "model": "minecraft:block/resin_block_offset_down",
-      "y": 90
+      "y": 90, "uvlock": true
     },
     "facing=south,half=lower,hinge=right,open=true,powered=true": {
-      "model": "minecraft:block/resin_block_offset_up", "y":270
+      "model": "minecraft:block/resin_block_offset_up", "y":270, "uvlock": true
     },
     "facing=south,half=upper,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/chiseled_resin_brick_offset_down",
-      "y": 90
+      "y": 90, "uvlock": true
     },
     "facing=south,half=upper,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/chiseled_resin_brick_offset_up",
-      "y": 90
+      "y": 90, "uvlock": true
     },
     "facing=south,half=upper,hinge=right,open=false,powered=true": {
       "model": "minecraft:block/packed_mud_offset_down",
-      "y": 90
+      "y": 90, "uvlock": true
     },
     "facing=south,half=upper,hinge=right,open=true,powered=true": {
-      "model": "minecraft:block/packed_mud_offset_up", "y":270
+      "model": "minecraft:block/packed_mud_offset_up", "y":270, "uvlock": true
     },
     "facing=west,half=lower,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/waxed_chiseled_copper_offset_down",
-      "y": 180
+      "y": 180, "uvlock": true
     },
     "facing=west,half=lower,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/waxed_chiseled_copper_offset_up",
-      "y": 180
+      "y": 180, "uvlock": true
     },
     "facing=west,half=lower,hinge=right,open=false,powered=true": {
       "model": "minecraft:block/resin_block_offset_down",
-      "y": 180
+      "y": 180, "uvlock": true
     },
     "facing=west,half=lower,hinge=right,open=true,powered=true": {
       "model": "minecraft:block/resin_block_offset_up"
     },
     "facing=west,half=upper,hinge=left,open=false,powered=true": {
       "model": "minecraft:block/chiseled_resin_brick_offset_down",
-      "y": 180
+      "y": 180, "uvlock": true
     },
     "facing=west,half=upper,hinge=left,open=true,powered=true": {
       "model": "minecraft:block/chiseled_resin_brick_offset_up",
-      "y": 180
+      "y": 180, "uvlock": true
     },
     "facing=west,half=upper,hinge=right,open=false,powered=true": {
       "model": "minecraft:block/packed_mud_offset_down",
-      "y": 180
+      "y": 180, "uvlock": true
     },
     "facing=west,half=upper,hinge=right,open=true,powered=true": {
       "model": "minecraft:block/packed_mud_offset_up"

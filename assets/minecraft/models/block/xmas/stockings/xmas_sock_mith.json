@@ -1,0 +1,44 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/xmas/xmas_sock",
+		"1": "block/xmas/xmas_sock_names",
+		"particle": "block/xmas/xmas_sock"
+	},
+	"elements": [
+		{
+			"from": [-1, -16, 0.5],
+			"to": [18, 16, 0.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 0, 0.5]},
+			"faces": {
+				"north": {"uv": [3, 0, 12.5, 16], "texture": "#0"},
+				"east": {"uv": [3, 0, 3, 16], "texture": "#0"},
+				"south": {"uv": [3, 0, 12.5, 16], "texture": "#0"},
+				"west": {"uv": [3, 0, 3, 16], "texture": "#0"},
+				"up": {"uv": [3, 1.5, 12.5, 1.5], "texture": "#0"},
+				"down": {"uv": [3, 1.5, 12.5, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.25, 11.75, 1],
+			"to": [14.25, 15.75, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.25, 13.75, 1]},
+			"faces": {
+				"north": {"uv": [0.875, 0, 9.875, 3], "texture": "#1"},
+				"east": {"uv": [0.875, 0, 2.375, 3], "texture": "#1"},
+				"south": {"uv": [9.125, 0, 13.625, 2], "texture": "#1"},
+				"west": {"uv": [0.875, 0, 2.375, 3], "texture": "#1"},
+				"up": {"uv": [0.875, 0, 9.875, 1], "texture": "#1"},
+				"down": {"uv": [0.875, 0, 9.875, 1], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"translation": [0, 3.5, 0],
+			"scale": [0.59, 0.51, 0.6]
+		}
+	}
+}

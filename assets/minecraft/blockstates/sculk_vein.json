@@ -252,11 +252,11 @@
 	"down=true,east=false,north=false,south=true,up=true,west=true,waterlogged=false": [{"model": "block/skeleton_lying_down_slope", "y": 90}, {"model": "block/skeleton_lying_down_slope_2", "y": 90}, {"model": "block/skeleton_lying_down_slope_3", "y": 90}],
 	"down=true,east=false,north=true,south=false,up=true,west=true,waterlogged=false": [{"model": "block/skeleton_lying_down_slope", "y": 180}, {"model": "block/skeleton_lying_down_slope_2", "y": 180}, {"model": "block/skeleton_lying_down_slope_3", "y": 180}],
 	"down=true,east=false,north=true,south=true,up=true,west=false,waterlogged=false": [{"model": "block/skeleton_lying_down_slope", "y": 270}, {"model": "block/skeleton_lying_down_slope_2", "y": 270}, {"model": "block/skeleton_lying_down_slope_3", "y": 270}],
-	"down=true,east=false,north=true,south=true,up=true,west=true,waterlogged=false": {"model": "block/halloween/spider"},
-	"down=true,east=true,north=false,south=false,up=true,west=true,waterlogged=false": {"model": "block/halloween/spider", "x": 180},
-	"down=true,east=true,north=false,south=true,up=true,west=false,waterlogged=false": {"model": "block/halloween/spider", "x": 90},
-	"down=true,east=true,north=false,south=true,up=true,west=true,waterlogged=false": {"model": "block/halloween/spider", "x": 90, "y": 90},
-	"down=true,east=true,north=true,south=false,up=true,west=false,waterlogged=false": {"model": "block/halloween/spider", "x": 90, "y": 180},
-	"down=true,east=true,north=true,south=false,up=true,west=true,waterlogged=false": {"model": "block/halloween/spider", "x": 90, "y": 270}
+	"down=true,east=false,north=true,south=true,up=true,west=true,waterlogged=false": {"model": "minecraft:block/sculk_vein"},
+	"down=true,east=true,north=false,south=false,up=true,west=true,waterlogged=false": {"model": "minecraft:block/sculk_vein", "x": 180},
+	"down=true,east=true,north=false,south=true,up=true,west=false,waterlogged=false": {"model": "minecraft:block/sculk_vein", "x": 90},
+	"down=true,east=true,north=false,south=true,up=true,west=true,waterlogged=false": {"model": "minecraft:block/sculk_vein", "x": 90, "y": 90},
+	"down=true,east=true,north=true,south=false,up=true,west=false,waterlogged=false": {"model": "minecraft:block/sculk_vein", "x": 90, "y": 180},
+	"down=true,east=true,north=true,south=false,up=true,west=true,waterlogged=false": {"model": "minecraft:block/sculk_vein", "x": 90, "y": 270}
   }
 }
