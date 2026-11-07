@@ -1,7 +1,14 @@
 {
     "variants": {
         "age=3": [
-		{ "model": "block/xmas/xmas_sack" }
+		{ "model": "block/melon_stem_stage0" },
+		{ "model": "block/melon_stem_stage0", "y": 90 },
+		{ "model": "block/melon_stem_stage0", "y": 180 },
+		{ "model": "block/melon_stem_stage0", "y": 270 },
+		{ "model": "block/melon_stem_stage0_2" },
+		{ "model": "block/melon_stem_stage0_2", "y": 90 },
+		{ "model": "block/melon_stem_stage0_2", "y": 180 },
+		{ "model": "block/melon_stem_stage0_2", "y": 270 }
 		],
         "age=2": [
 		{ "model": "block/metal_mug" },
@@ -26,7 +33,7 @@
 		{ "model": "block/chalice_2", "y": 180 },
 		{ "model": "block/chalice_2", "y": 270 }
 		],
-        "age=6": { "model": "block/melon_stem_stage6" },
+        "age=6": { "model": "block/xmas/xmas_sack" },
         "age=7": { "model": "block/melon_stem_stage7" }
     }
 }
