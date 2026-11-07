@@ -3,13 +3,13 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/xmas/xmas_red_gumdrop",
-		"particle": "#0"
+		"particle": "block/xmas/xmas_red_gumdrop"
 	},
 	"elements": [
 		{
-			"from": [4.2608, 5.18055, -3.1555],
-			"to": [11.7392, 7.02695, 3.8555],
-			"rotation": {"x": 90, "y": 0, "z": 0, "origin": [8, 6.10375, 0.35]},
+			"from": [4.2608, 5.48055, -3.1555],
+			"to": [11.7392, 7.32695, 3.8555],
+			"rotation": {"x": 90, "y": 0, "z": 0, "origin": [8, 6.40375, 0.35]},
 			"faces": {
 				"north": {"uv": [8.9216, 4, 16, 5.9464], "rotation": 180, "texture": "#0"},
 				"east": {"uv": [8.889, 4, 16, 5.9464], "texture": "#0"},
