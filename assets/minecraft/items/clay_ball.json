@@ -893,7 +893,7 @@
                 "threshold": 154,
                 "model": {
                     "type": "model",
-                    "model": "block/detector_rail_raised_e"
+                    "model": "block/rope_vertical"
                 }
             },
             {
@@ -3144,6 +3144,13 @@
                 }
             },
             {
+                "threshold": 507,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/inventory_trees/inv_ash_branch_main"
+                }
+            },
+            {
                 "threshold": 508,
                 "model": {
                     "type": "model",
@@ -3543,6 +3550,13 @@
                 }
             },
             {
+                "threshold": 578,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/inventory_trees/inv_birch_branch_main"
+                }
+            },
+            {
                 "threshold": 579,
                 "model": {
                     "type": "model",
@@ -3620,6 +3634,62 @@
                 }
             },
             {
+                "threshold": 590,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/inventory_trees/inv_beech_branch_main"
+                }
+            },
+            {
+                "threshold": 591,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/inventory_trees/inv_chestnut_branch_main"
+                }
+            },
+            {
+                "threshold": 592,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/inventory_trees/inv_elm_branch_main"
+                }
+            },
+            {
+                "threshold": 593,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/inventory_trees/inv_larch_branch_main"
+                }
+            },
+            {
+                "threshold": 594,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/inventory_trees/inv_maple_branch_main"
+                }
+            },
+            {
+                "threshold": 595,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/inventory_trees/inv_oak_branch_main"
+                }
+            },
+            {
+                "threshold": 596,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/inventory_trees/inv_pine_branch_main"
+                }
+            },
+            {
+                "threshold": 597,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/inventory_trees/inv_poplar_branch_main"
+                }
+            },
+            {
                 "threshold": 598,
                 "model": {
                     "type": "model",
@@ -3687,6 +3757,20 @@
                 "model": {
                     "type": "model",
                     "model": "block/chestnut_bark_transition"
+                }
+            },
+            {
+                "threshold": 608,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/inventory_trees/inv_spruce_branch_main"
+                }
+            },
+            {
+                "threshold": 609,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/inventory_trees/inv_whitebeam_branch_main"
                 }
             },
             {
@@ -5625,7 +5709,7 @@
                 "threshold": 904,
                 "model": {
                     "type": "model",
-                    "model": "item/inv_mist"
+                    "model": "block/inventory/inv_mist_2"
                 }
             },
             {
@@ -5989,7 +6073,7 @@
                 "threshold": 957,
                 "model": {
                     "type": "model",
-                    "model": "block/offset_rope"
+                    "model": "block/rope_offset"
                 }
             },
             {
@@ -6873,7 +6957,10 @@
                 "threshold": 1233,
                 "model": {
                     "type": "model",
-                    "model": "block/flat_grass_patches"
+                    "model": "block/flat_grass_patches",
+                    "tints": [
+                        { "type": "minecraft:grass", "temperature": 0.5, "downfall": 1.0 }
+                    ]
                 }
             },
             {
@@ -7031,178 +7118,255 @@
                 }
             },
             {
-                "threshold": 2500,
+                "threshold": 1410,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/candy"
+                    "model": "item/fog"
                 }
             },
             {
-                "threshold": 2501,
+                "threshold": 1411,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/candy_bucket"
+                    "model": "item/fog"
                 }
             },
             {
-                "threshold": 2502,
+                "threshold": 1412,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/potion"
+                    "model": "item/fog"
                 }
             },
             {
-                "threshold": 2503,
+                "threshold": 2525,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/ghost_cauldron"
+                    "model": "block/xmas/xmas_tree"
                 }
             },
             {
-                "threshold": 2504,
+                "threshold": 2526,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/bats"
+                    "model": "block/xmas/xmas_wreath"
                 }
             },
             {
-                "threshold": 2505,
+                "threshold": 2527,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/spider"
+                    "model": "block/xmas/xmas_bow"
                 }
             },
             {
-                "threshold": 2506,
+                "threshold": 2528,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/candy_4"
+                    "model": "block/xmas/xmas_candycane"
                 }
             },
             {
-                "threshold": 2507,
+                "threshold": 2529,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/witch_broom"
+                    "model": "block/xmas/xmas_candycane_cross"
                 }
             },
             {
-                "threshold": 2508,
+                "threshold": 2530,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/grave_stone"
+                    "model": "block/xmas/xmas_candycane_ground"
                 }
             },
             {
-                "threshold": 2509,
+                "threshold": 2531,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/grave_names/grave_name"
+                    "model": "block/xmas/xmas_red_present"
                 }
             },
             {
-                "threshold": 2510,
+                "threshold": 2532,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/grave_names/grave_name_2"
+                    "model": "block/xmas/xmas_presents_pile_1"
                 }
             },
             {
-                "threshold": 2511,
+                "threshold": 2533,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/grave_names/grave_name_3"
+                    "model": "block/xmas/xmas_mistletoe"
                 }
             },
             {
-                "threshold": 2512,
+                "threshold": 2534,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/grave_names/grave_name_4"
+                    "model": "block/xmas/xmas_ornament_1"
                 }
             },
             {
-                "threshold": 2513,
+                "threshold": 2535,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/grave_names/grave_name_5"
+                    "model": "block/xmas/xmas_ornament_2"
                 }
             },
             {
-                "threshold": 2514,
+                "threshold": 2536,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/grave_names/grave_name_6"
+                    "model": "block/xmas/xmas_red_gumdrop"
                 }
             },
             {
-                "threshold": 2515,
+                "threshold": 2537,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/grave_names/grave_name_7"
+                    "model": "block/xmas/xmas_orange_gumdrop"
                 }
             },
             {
-                "threshold": 2516,
+                "threshold": 2538,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/grave_names/grave_name_8"
+                    "model": "block/xmas/xmas_cookies_1"
                 }
             },
             {
-                "threshold": 2517,
+                "threshold": 2539,
                 "model": {
                     "type": "model",
-                    "model": "block/halloween/grave_names/grave_name_9"
+                    "model": "block/xmas/xmas_lights_middle"
                 }
             },
             {
-                "threshold": 2518,
+                "threshold": 2540,
                 "model": {
                     "type": "model",
-                    "model": "block/skulls"
+                    "model": "block/xmas/xmas_lights_left"
                 }
             },
             {
-                "threshold": 2519,
+                "threshold": 2541,
                 "model": {
                     "type": "model",
-                    "model": "block/skulls_full"
+                    "model": "block/xmas/xmas_lights_right"
                 }
             },
             {
-                "threshold": 2520,
+                "threshold": 2542,
                 "model": {
                     "type": "model",
-                    "model": "block/hanging_skull_cluster"
+                    "model": "block/xmas/xmas_icicles_left"
                 }
             },
             {
-                "threshold": 2521,
+                "threshold": 2543,
                 "model": {
                     "type": "model",
-                    "model": "block/skeleton_hanging"
+                    "model": "block/xmas/xmas_icicles_middle"
                 }
             },
             {
-                "threshold": 2522,
+                "threshold": 2544,
                 "model": {
                     "type": "model",
-                    "model": "block/skeleton_sitting"
+                    "model": "block/xmas/xmas_icicles_right"
                 }
             },
             {
-                "threshold": 2523,
+                "threshold": 2545,
                 "model": {
                     "type": "model",
-                    "model": "block/skeleton_lying_down"
+                    "model": "block/xmas/stockings/xmas_sock_display"
                 }
             },
             {
-                "threshold": 2524,
+                "threshold": 2546,
                 "model": {
                     "type": "model",
-                    "model": "block/skeleton_lying_down_slope_3"
+                    "model": "block/xmas/xmas_sack"
+                }
+            },
+            {
+                "threshold": 2547,
+                "model": {
+                    "type": "model",
+                    "model": "block/xmas/xmas_ornament_1_offset"
+                }
+            },
+            {
+                "threshold": 2548,
+                "model": {
+                    "type": "model",
+                    "model": "block/xmas/xmas_ornament_2_offset"
+                }
+            },
+            {
+                "threshold": 2549,
+                "model": {
+                    "type": "model",
+                    "model": "block/xmas/xmas_star"
+                }
+            },
+            {
+                "threshold": 2550,
+                "model": {
+                    "type": "model",
+                    "model": "block/xmas/xmas_cocoa_mug_1"
+                }
+            },
+            {
+                "threshold": 2551,
+                "model": {
+                    "type": "model",
+                    "model": "block/xmas/xmas_snow_block"
+                }
+            },
+            {
+                "threshold": 2552,
+                "model": {
+                    "type": "model",
+                    "model": "block/xmas/xmas_snow_vert_slab"
+                }
+            },
+            {
+                "threshold": 2553,
+                "model": {
+                    "type": "model",
+                    "model": "block/xmas/xmas_snow_thin_slab"
+                }
+            },
+            {
+                "threshold": 2554,
+                "model": {
+                    "type": "model",
+                    "model": "block/xmas/xmas_snow_vert_thin_slab"
+                }
+            },
+            {
+                "threshold": 2555,
+                "model": {
+                    "type": "model",
+                    "model": "block/xmas/xmas_snow_quarter_lower"
+                }
+            },
+            {
+                "threshold": 2556,
+                "model": {
+                    "type": "model",
+                    "model": "block/xmas/xmas_snow_quarter_upper"
+                }
+            },
+            {
+                "threshold": 2557,
+                "model": {
+                    "type": "model",
+                    "model": "block/xmas/xmas_snow_offset"
                 }
             }
         ]

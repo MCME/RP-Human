@@ -4,7 +4,7 @@
         "property": "custom_model_data",
         "fallback": {
             "type": "model",
-            "model": "minecraft:item/generated"
+            "model": "minecraft:item/nether_brick"
         },
         "entries": [
             {
@@ -697,7 +697,7 @@
                 "threshold": 116,
                 "model": {
                     "type": "model",
-                    "model": "mcme:item/unused_block_0"
+                    "model": "block/unused_block_0"
                 }
             },
             {
@@ -711,7 +711,7 @@
                 "threshold": 118,
                 "model": {
                     "type": "model",
-                    "model": "mcme:item/unused_block_0"
+                    "model": "block/unused_block_0"
                 }
             },
             {
@@ -1089,7 +1089,7 @@
                 "threshold": 175,
                 "model": {
                     "type": "model",
-                    "model": "item/detector_rail_flat_diagonal"
+                    "model": "block/rope_diagonal"
                 }
             },
             {
@@ -1551,7 +1551,7 @@
                 "threshold": 241,
                 "model": {
                     "type": "model",
-                    "model": "item/inv_mist"
+                    "model": "block/inventory/inv_mist"
                 }
             },
             {
@@ -1783,6 +1783,13 @@
                 "model": {
                     "type": "model",
                     "model": "item/whitebeam_thin_trunk_vertical_inv"
+                }
+            },
+            {
+                "threshold": 327,
+                "model": {
+                    "type": "model",
+                    "model": "item/shutter"
                 }
             },
             {

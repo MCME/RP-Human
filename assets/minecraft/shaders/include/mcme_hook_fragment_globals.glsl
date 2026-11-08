@@ -1,10 +1,10 @@
-// Hook: a pack's own declarations for the terrain fragment shader - its ins,
-// its #moj_imports, its functions. Imported at global scope after
-// objmc_fragment, in vanilla's terrain.fsh and Sodium's block_layer_opaque.fsh.
-//
-// A pack overrides this file; this empty one is the shader base's. Set for it:
-// MCME_SECONDS (seconds into the day, seamless under Sodium too),
-// MCME_TEXCOORD, MCME_ATLAS_SIZE, MCME_FOG_START, MCME_FOG_COLOR (a vec4);
-// MCME_SODIUM and MCME_REGION
-// under Sodium. Sampler0 is the block atlas in both. fluid.glsl is imported.
-// See docs/shader-base.md.
+// RP-Human's own terrain features, hooked into the shader base's terrain
+// fragment shaders - vanilla's and Sodium's (ResourcePackScripts/shaderBase,
+// docs/shader-base.md). The base's fluid.glsl, which the fog block builds on,
+// is imported.
+
+// the fog blocks and clouds, traced from the eye (mcme_hook_vertex_globals.glsl)
+flat in vec3 fogEye;
+in vec4 fogLight;
+#moj_import <minecraft:fog_block_config.glsl>
+#moj_import <minecraft:fog_block.glsl>

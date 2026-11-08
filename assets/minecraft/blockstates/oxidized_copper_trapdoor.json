@@ -1,0 +1,54 @@
+{
+  "variants": {
+	"facing=north,half=top,open=true,powered=true": [
+	  {"model": "block/xmas/xmas_bow", "y":180}
+	],
+    "facing=south,half=top,open=true,powered=true": [
+	  {"model": "block/xmas/xmas_bow"}
+	],
+    "facing=east,half=top,open=true,powered=true": [
+	  {"model": "block/xmas/xmas_bow", "y":270}
+	],
+    "facing=west,half=top,open=true,powered=true": [
+	  {"model": "block/xmas/xmas_bow", "y":90}
+	],
+	
+	"facing=north,half=bottom,open=false,powered=true": [
+		{"model": "block/xmas/xmas_candycane_ground"}
+	],
+	"facing=south,half=bottom,open=false,powered=true": [
+	  {"model": "block/xmas/xmas_candycane_ground", "y":270}
+	],
+	"facing=east,half=bottom,open=false,powered=true": [
+	  {"model": "block/xmas/xmas_candycane_ground", "y":90}
+	],
+	"facing=west,half=bottom,open=false,powered=true": [	
+	  {"model": "block/xmas/xmas_candycane_ground", "y":180}
+	],
+
+	"facing=north,half=bottom,open=true,powered=true": [
+	  {"model": "block/xmas/xmas_wreath", "y":270}
+	],
+    "facing=south,half=bottom,open=true,powered=true": [
+	  {"model": "block/xmas/xmas_wreath", "y":90}
+	],
+    "facing=east,half=bottom,open=true,powered=true": [
+	  {"model": "block/xmas/xmas_wreath"}
+	],
+    "facing=west,half=bottom,open=true,powered=true": [
+	  {"model": "block/xmas/xmas_wreath", "y":180}
+	],
+	"facing=west,half=top,open=true,powered=false": [
+	  {"model": "block/xmas/xmas_candycane_cross", "y":90}
+	],
+	"facing=south,half=top,open=true,powered=false": [
+	  {"model": "block/xmas/xmas_candycane_cross"}
+	],
+	"facing=east,half=top,open=true,powered=false": [
+	  {"model": "block/xmas/xmas_candycane_cross", "y":270}
+	],
+	"facing=north,half=top,open=true,powered=false": [
+	  {"model": "block/xmas/xmas_candycane_cross", "y":180}
+	]
+	}
+}

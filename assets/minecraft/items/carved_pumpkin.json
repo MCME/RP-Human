@@ -1,54 +1,83 @@
 {
   "model": {
-    "type": "range_dispatch",
-    "property": "custom_model_data",
-    "fallback": {
-      "type": "model",
-      "model": "minecraft:block/carved_pumpkin"
-    },
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
     "entries": [
       {
-        "threshold": 1001,
+        "threshold": 1101,
         "model": {
-          "type": "model",
-          "model": "item/headgears/deathbound_witchcap"
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat"
         }
       },
       {
-        "threshold": 1002,
+        "threshold": 1102,
         "model": {
-          "type": "model",
-          "model": "item/headgears/dimensional_witchcap"
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_valar"
         }
       },
       {
-        "threshold": 1003,
+        "threshold": 1103,
         "model": {
-          "type": "model",
-          "model": "item/headgears/haunted_witchcap"
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_moderator"
         }
       },
       {
-        "threshold": 1004,
+        "threshold": 1104,
         "model": {
-          "type": "model",
-          "model": "item/headgears/moonlight_witchcap"
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_designer"
         }
       },
       {
-        "threshold": 1005,
+        "threshold": 1105,
         "model": {
-          "type": "model",
-          "model": "item/headgears/moonlight_witchcap_pink"
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_foreman"
         }
       },
       {
-        "threshold": 1006,
+        "threshold": 1106,
         "model": {
-          "type": "model",
-          "model": "item/headgears/watchful_witchcap"
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_artist"
+        }
+      },
+      {
+        "threshold": 1107,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_guide"
+        }
+      },
+      {
+        "threshold": 1108,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_commoner"
+        }
+      },
+      {
+        "threshold": 1109,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_hat_manager"
+        }
+      },
+	  {
+        "threshold": 1110,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/xmas_rudolph_antlers"
         }
       }
-    ]
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/carved_pumpkin"
+    }
   }
 }
